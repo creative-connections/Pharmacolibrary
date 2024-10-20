@@ -82,7 +82,7 @@ package PharmaFlow "Modelica library for Pharmacokinetics and Pharmacodynamics (
     ConcentrationPort_a cport annotation (
       Placement(visible = true, transformation(origin = {0, 92}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
     annotation (
-      Icon(graphics = {Ellipse(origin = {-12, -78}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, extent = {{-68, 8}, {92, -14}}), Rectangle(origin = {0, -11}, lineColor = {255, 255, 255}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, extent = {{-80, 71}, {80, -71}}), Ellipse(origin = {-12, 64}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, extent = {{-68, 8}, {92, -14}}), Line(origin = {-80, -9}, points = {{0, -73}, {0, 69}}), Line(origin = {80, -9}, points = {{0, -73}, {0, 69}}), Rectangle(origin = {0, -1}, extent = {{-100, 101}, {100, -99}}), Rectangle(origin = {0, -41}, fillColor = {246, 97, 81}, fillPattern = FillPattern.Solid, extent = {{-80, 41}, {80, -41}}), Rectangle(origin = {0, 26}, fillColor = {153, 193, 241}, fillPattern = FillPattern.Solid, extent = {{-80, 24}, {80, -24}}), Rectangle(origin = {0, -2}, lineColor = {46, 194, 126}, fillColor = {51, 209, 122}, fillPattern = FillPattern.Solid, lineThickness = 2, extent = {{-80, 4}, {80, -4}}), Line(origin = {37.5, -1}, points = {{0, -16}, {0, 16}}, color = {246, 97, 81}, thickness = 1, arrow = {Arrow.None, Arrow.Filled}, arrowSize = 4), Line(origin = {-27.5555, -6.33333}, points = {{0, 16}, {0, -16}}, color = {153, 193, 241}, thickness = 1, arrow = {Arrow.None, Arrow.Filled}, arrowSize = 4)}, coordinateSystem(initialScale = 0.1)));
+      Icon(graphics = {Ellipse(origin = {-12, -78}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, extent = {{-68, 8}, {92, -14}}), Rectangle(origin = {0, -11}, lineColor = {255, 255, 255}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, extent = {{-80, 71}, {80, -71}}), Ellipse(origin = {-12, 64}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, extent = {{-68, 8}, {92, -14}}), Line(origin = {-80, -9}, points = {{0, -73}, {0, 69}}), Line(origin = {80, -9}, points = {{0, -73}, {0, 69}})}, coordinateSystem(initialScale = 0.1)));
     end InterfaceCompartment;
     
     partial model InterfaceElimination 
@@ -250,18 +250,26 @@ package PharmaFlow "Modelica library for Pharmacokinetics and Pharmacodynamics (
     extends PharmaFlow.Interfaces.PartialDrugSource;
     parameter Modelica.Units.SI.Time firstAdminTime = 0 "start time of administration"; //tStart
     parameter Modelica.Units.SI.Time duration
-                                            "administration duration";
-    parameter PharmaFlow.Types.Mass adminTotalMass "total drug mass"; //mTot
+                                            "administration duration, 0 for unlimited duration";
+    parameter PharmaFlow.Types.Mass adminTotalMass "total drug mass, if duration unlimited then total drug mass rate per 1 s"; //mTot
   equation
-    cport.massFlowRate =
-      if firstAdminTime <= time and time < firstAdminTime+ duration then
-        - adminTotalMass/duration
-      else
-        0.0;
+    if duration>0 then 
+      cport.massFlowRate =
+        if firstAdminTime <= time and time < firstAdminTime+ duration then
+          - adminTotalMass/duration
+        else
+          0.0;
+    else
+      cport.massFlowRate = if firstAdminTime <= time then
+          - adminTotalMass / 1
+        else
+          0.0;
+    end if;
     annotation (Icon(graphics = {Line(points = {{-80, 20}, {80, 20}}, color = {100, 100, 100}, thickness = 0.5)}),
       Documentation(info = "<html><head></head><body><h1>ConstantInfusion</h1><div>constant drug infusion model</div><h2>parameters</h2><div>firstAdminTime - start time of administration</div><div>duration - administration duration</div><div>adminTotalMass - total drug mass administered throughout duration</div></body></html>"));
   
-  end ConstantInfusion; 
+  end ConstantInfusion;
+ 
    
   model VariableInfusion
     extends PharmaFlow.Interfaces.PartialDrugSource;
@@ -274,6 +282,25 @@ package PharmaFlow "Modelica library for Pharmacokinetics and Pharmacodynamics (
   end VariableInfusion;
   
   end Sources;
+
+  package Icons
+    extends Modelica.Icons.IconsPackage;
+    model BloodPlasmaTissueExchange
+    equation
+    
+    annotation(
+        Icon(graphics = { Rectangle(origin = {0, -1}, extent = {{-100, 101}, {100, -99}}), Rectangle(origin = {0, -41}, fillColor = {246, 97, 81}, fillPattern = FillPattern.Solid, extent = {{-80, 41}, {80, -41}}), Rectangle(origin = {0, 26}, fillColor = {153, 193, 241}, fillPattern = FillPattern.Solid, extent = {{-80, 24}, {80, -24}}), Rectangle(origin = {0, -2}, lineColor = {46, 194, 126}, fillColor = {51, 209, 122}, fillPattern = FillPattern.Solid, lineThickness = 2, extent = {{-80, 4}, {80, -4}}), Line(origin = {37.5, -1}, points = {{0, -16}, {0, 16}}, color = {246, 97, 81}, thickness = 1, arrow = {Arrow.None, Arrow.Filled}, arrowSize = 4), Line(origin = {-27.5555, -6.33333}, points = {{0, 16}, {0, -16}}, color = {153, 193, 241}, thickness = 1, arrow = {Arrow.None, Arrow.Filled}, arrowSize = 4), Text(origin = {-1, 30}, extent = {{-133, 18}, {133, -18}}, textString = "%name")}));
+    end BloodPlasmaTissueExchange;
+    
+    model BloodPlasma
+    equation
+    
+    annotation(
+        Icon(graphics = { Rectangle(origin = {0, -1}, extent = {{-100, 101}, {100, -99}}), Rectangle(origin = {0, -41}, fillColor = {246, 97, 81}, fillPattern = FillPattern.Solid, extent = {{-80, 41}, {80, -41}}), Text(origin = {-1, 30}, extent = {{-133, 18}, {133, -18}}, textString = "%name")}));
+    end BloodPlasma;
+  equation
+
+  end Icons;
 
   package PharmacoDynamic
     extends Modelica.Icons.Package;
@@ -375,7 +402,7 @@ package PharmaFlow "Modelica library for Pharmacokinetics and Pharmacodynamics (
     port_a.Q + port_b.Q = 0;
   //  port_a.p = 1;
     annotation (
-      Icon(graphics = {Polygon(rotation = 180, lineColor = {204, 0, 0}, lineThickness = 0.5, points = {{-80, 0}, {80, 40}, {80, -40}, {-80, 0}, {-80, 0}}), Text(origin = {0, -45}, extent = {{16, -19}, {-16, 19}}, textString = "Q = %Q")}, coordinateSystem(initialScale = 0.1)),
+      Icon(graphics = {Polygon(rotation = 180, lineColor = {204, 0, 0}, lineThickness = 0.5, points = {{-80, 0}, {80, 40}, {80, -40}, {-80, 0}, {-80, 0}}), Text(origin = {2, -51}, extent = {{150, -11}, {-150, 11}}, textString = "Q = %Q")}, coordinateSystem(initialScale = 0.1)),
       Documentation(info = "<html><head></head><body><h1>FixedFlow</h1><div><span style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">determines the blood/plasma flow. The flow (perfusion) part of a model should be supplied with appropriet number of FixedFlow components so that the flow in each branch may be determined.</span></div><h2>Parameter</h2><div><font face=\"DejaVu Sans Mono\">Q - fixed flow rate</font></div></body></html>"));
     end FixedFlow;
   
@@ -428,27 +455,18 @@ package PharmaFlow "Modelica library for Pharmacokinetics and Pharmacodynamics (
   end TransferZeroOrder;
   
   model TissueCompartment "Tissue compartment"
-    extends PharmaFlow.Interfaces.PartialCompartment;
-    extends PharmaFlow.Interfaces.PartialFlowThrough;
-  equation
-    der(M) = port_a.Q*actualStream(port_a.c_outflow) + port_b.Q*actualStream(port_b.c_outflow) + cport.massFlowRate;
-    port_a.c_outflow = CB;
-    port_b.c_outflow = CB;
-  annotation(
-      defaultComponentName ="tcomp",
-      Icon(graphics = {Text(origin = {-15, -18}, extent = {{-61, 60}, {87, -74}}, textString = "Tissue")}),
-      Documentation(info = "<html><head></head><body><h1>TissueCompartment</h1><div>The Tissue compartments has two FlowPorts and one ConcentrationPort connectors. It stors a mass of drug which is diluted in constant volume of blood/plamsa. It evaluates drug concentration, calculates mixing of inflow and contained blood/plasma of different drug concentrations and calculates change in drug amount due to transfer via the ConcentrationPort.</div><div>If it is connected to other compartments via the ConcentrationPort, there should be a transfer component inbetween.</div><div><br></div><div>
-  C = M/V</div><div>CB = C/kTB</div><div>freeTissueConc = fu*C</div><div>freeBloodConc = fu*C/kTB
-  </div><h2>Variables</h2><div><div>C - drug total concentration in tissue</div><div>CB - drug total concentration in blood/plasma</div><div>freeTissueConc - drug free concentration in tissue</div><div>freeBloodConc - drug free concentration in blood/plasma</div><div>M - drug total mass</div></div><h2>Parameters</h2><div>V - total distribution volume</div><div>C0 - drug initial concentration in tissue</div><div>kTB - tissue-blood concentration ratio</div><div>fu - fraction unbound</div><div><br></div><div><br></div><div><br></div></body></html>"));
+  extends PharmaFlow.PharmacoKinetic.GenericTissueCompartment;
+  extends PharmaFlow.Icons.BloodPlasmaTissueExchange;
   end TissueCompartment;
   
-  model SystemicCompartment "Systemic compartment"
-    extends PharmaFlow.PharmacoKinetic.TissueCompartment(final kTB = 1);
+  model SystemicCompartment "Systemic compartment"  
+    extends PharmaFlow.PharmacoKinetic.GenericTissueCompartment(final kTB = 1);
+    extends PharmaFlow.Icons.BloodPlasma;
   equation
   
   annotation(
       defaultComponentName ="scomp",
-      Icon(graphics = {Rectangle(origin = {-2, -25}, lineColor = {255, 255, 255}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, extent = {{-72, -17}, {72, 17}}), Text(origin = {5, -23}, extent = {{-89, 57}, {89, -57}}, textString = "Syst")}),
+      Icon,
       Documentation(info = "<html><head></head><body>
   <h1>SystemicCompartment</h1><div>Systemic compartment is same as TissueCompartment, but the kTB is always 1, so that the concentration in tissue is not considered and is always same as blood/plasma concentration.</div></body></html>"));
   end SystemicCompartment;
@@ -565,6 +583,21 @@ package PharmaFlow "Modelica library for Pharmacokinetics and Pharmacodynamics (
       Icon(graphics = {Polygon(origin = {0, -20}, fillColor = {204, 0, 0}, pattern = LinePattern.None, fillPattern = FillPattern.Solid, points = {{-40, 40}, {0, -40}, {40, 40}, {-40, 40}})}),
       Documentation(info = "<html><head></head><body><h1>FlowGround</h1><div>Whenever&nbsp;<span style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">the flow part of a model is circular, the FlowGround component must be connected somewhere so that the model is not over-determined. It is an equivalent of grounding in electrical domain.</span></div></body></html>"));
   end FlowGround;
+
+    model GenericTissueCompartment
+      extends PharmaFlow.Interfaces.PartialCompartment;
+      extends PharmaFlow.Interfaces.PartialFlowThrough;
+    equation
+      der(M) = port_a.Q*actualStream(port_a.c_outflow) + port_b.Q*actualStream(port_b.c_outflow) + cport.massFlowRate;
+      port_a.c_outflow = CB;
+      port_b.c_outflow = CB;
+    annotation(
+        defaultComponentName ="tcomp",
+        Icon,
+        Documentation(info = "<html><head></head><body><h1>TissueCompartment</h1><div>The Tissue compartments has two FlowPorts and one ConcentrationPort connectors. It stors a mass of drug which is diluted in constant volume of blood/plamsa. It evaluates drug concentration, calculates mixing of inflow and contained blood/plasma of different drug concentrations and calculates change in drug amount due to transfer via the ConcentrationPort.</div><div>If it is connected to other compartments via the ConcentrationPort, there should be a transfer component inbetween.</div><div><br></div><div>
+    C = M/V</div><div>CB = C/kTB</div><div>freeTissueConc = fu*C</div><div>freeBloodConc = fu*C/kTB
+    </div><h2>Variables</h2><div><div>C - drug total concentration in tissue</div><div>CB - drug total concentration in blood/plasma</div><div>freeTissueConc - drug free concentration in tissue</div><div>freeBloodConc - drug free concentration in blood/plasma</div><div>M - drug total mass</div></div><h2>Parameters</h2><div>V - total distribution volume</div><div>C0 - drug initial concentration in tissue</div><div>kTB - tissue-blood concentration ratio</div><div>fu - fraction unbound</div><div><br></div><div><br></div><div><br></div></body></html>"));
+    end GenericTissueCompartment;
   
   end PharmacoKinetic;
 
@@ -573,29 +606,29 @@ package PharmaFlow "Modelica library for Pharmacokinetics and Pharmacodynamics (
 
     model SingleDoseVenousArteryTissue
   extends Modelica.Icons.Example;
-      PharmaFlow.PharmacoKinetic.TissueCompartment tissue1(V = 0.001, kTB = 1)  annotation(
-        Placement(visible = true, transformation(origin = {-2, 56}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+      PharmaFlow.PharmacoKinetic.TissueCompartment tissue(V = 0.001, kTB = 1)  annotation(
+        Placement(transformation(origin = {-30, 34}, extent = {{-10, -10}, {10, 10}})));
       PharmaFlow.PharmacoKinetic.SystemicCompartment arteries(V = 0.001)  annotation(
-        Placement(visible = true, transformation(origin = {64, 30}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+        Placement(transformation(origin = {4, 34}, extent = {{-10, -10}, {10, 10}})));
       PharmaFlow.PharmacoKinetic.SystemicCompartment veins(V = 0.001)  annotation(
         Placement(visible = true, transformation(origin = {-66, 34}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
       PharmaFlow.PharmacoKinetic.FixedFlow fixedFlow(Q = 8.33333e-5)  annotation(
-        Placement(visible = true, transformation(origin = {-4, -20}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+        Placement(transformation(origin = {-28, -2}, extent = {{-10, -10}, {10, 10}})));
       PharmaFlow.Sources.SingleDose singleDose(adminMass = 0.0001)  annotation(
-        Placement(visible = true, transformation(origin = {-66, 80}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+        Placement(transformation(origin = {-66, 66}, extent = {{-10, -10}, {10, 10}})));
       PharmaFlow.PharmacoKinetic.FlowGround fground annotation(
         Placement(visible = true, transformation(origin = {-66, 12}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
     equation
       connect(singleDose.cport, veins.cport) annotation(
-        Line(points = {{-66, 70}, {-66, 44}}, color = {114, 159, 207}));
+        Line(points = {{-66, 56}, {-66, 44}}, color = {114, 159, 207}));
       connect(fixedFlow.port_b, arteries.port_b) annotation(
-        Line(points = {{6, -20}, {92, -20}, {92, 30}, {74, 30}, {74, 30}}, color = {204, 0, 0}));
+        Line(points = {{-19, -2}, {26, -2}, {26, 34}, {13, 34}}, color = {204, 0, 0}));
       connect(veins.port_a, fixedFlow.port_a) annotation(
-        Line(points = {{-76, 34}, {-82, 34}, {-82, -20}, {-14, -20}, {-14, -20}}, color = {204, 0, 0}));
-      connect(tissue1.port_a, veins.port_b) annotation(
-        Line(points = {{-12, 56}, {-32, 56}, {-32, 34}, {-56, 34}, {-56, 34}}, color = {204, 0, 0}));
-      connect(tissue1.port_b, arteries.port_a) annotation(
-        Line(points = {{8, 56}, {38, 56}, {38, 30}, {54, 30}, {54, 30}}, color = {204, 0, 0}));
+        Line(points = {{-76, 34}, {-82, 34}, {-82, -2}, {-37, -2}}, color = {204, 0, 0}));
+      connect(tissue.port_a, veins.port_b) annotation(
+        Line(points = {{-39, 34}, {-56, 34}}, color = {204, 0, 0}));
+      connect(tissue.port_b, arteries.port_a) annotation(
+        Line(points = {{-21, 34}, {-5, 34}}, color = {204, 0, 0}));
       connect(veins.port_a, fground.port_a) annotation(
         Line(points = {{-76, 34}, {-82, 34}, {-82, 12}, {-75, 12}}, color = {204, 0, 0}));
     
