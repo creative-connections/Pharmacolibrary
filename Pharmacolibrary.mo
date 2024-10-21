@@ -79,7 +79,7 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
       ConcentrationPort_b cport annotation(
         Placement(transformation(origin = {0, 92}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {0, 100}, extent = {{-10, -10}, {10, 10}})));
       annotation(
-        Icon(graphics = {Polygon(points = {{-40, 100}, {40, 100}, {100, 40}, {100, -40}, {40, -100}, {-40, -100}, {-100, -40}, {-100, 40}, {-100, 40}, {-40, 100}}), Text(origin = {0, -121}, extent = {{-258, 21}, {258, -21}}, textString = "%name"), Rectangle(origin = {0, 21}, fillColor = {153, 193, 241}, fillPattern = FillPattern.Solid, extent = {{-100, 19}, {100, -19}}), Rectangle(origin = {0, -3}, lineColor = {46, 194, 126}, fillColor = {51, 209, 122}, fillPattern = FillPattern.Solid, lineThickness = 2, extent = {{-100, 5}, {100, -5}}), Line(origin = {-39.4999, -5.22222}, points = {{0, 16}, {0, -16}}, color = {153, 193, 241}, thickness = 1, arrow = {Arrow.None, Arrow.Filled}, arrowSize = 4)}));
+        Icon(graphics = {Polygon(points = {{-40, 100}, {40, 100}, {100, 40}, {100, -40}, {40, -100}, {-40, -100}, {-100, -40}, {-100, 40}, {-100, 40}, {-40, 100}}), Text(origin = {0, -121}, extent = {{-258, 21}, {258, -21}}, textString = "%name"), Rectangle(origin = {0, 21}, fillColor = {153, 193, 241}, fillPattern = FillPattern.Solid, extent = {{-100, 19}, {100, -19}}), Rectangle(origin = {0, -3}, lineColor = {46, 194, 126}, fillColor = {51, 209, 122}, fillPattern = FillPattern.Solid, lineThickness = 2, extent = {{-100, 5}, {100, -5}}), Line(origin = {-38.875, -12.72}, points = {{0, 16}, {0, -16}}, color = {153, 193, 241}, thickness = 4, arrow = {Arrow.None, Arrow.Filled}, arrowSize = 12)}));
     end InterfaceElimination;
 
     partial model PartialOneConcPort
@@ -450,7 +450,7 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
       port_a.c_outflow = CB;
       port_b.c_outflow = CB;
       annotation(
-        defaultComponentName = "tcomp",
+        defaultComponentName = "tissue",
         Icon,
         Documentation(info = "<html><head></head><body><h1>TissueCompartment</h1><div>The Tissue compartments has two FlowPorts and one ConcentrationPort connectors. It stors a mass of drug which is diluted in constant volume of blood/plamsa. It evaluates drug concentration, calculates mixing of inflow and contained blood/plasma of different drug concentrations and calculates change in drug amount due to transfer via the ConcentrationPort.</div><div>If it is connected to other compartments via the ConcentrationPort, there should be a transfer component inbetween.</div><div><br></div><div>
     C = M/V</div><div>CB = C/kTB</div><div>freeTissueConc = fu*C</div><div>freeBloodConc = fu*C/kTB
@@ -460,6 +460,7 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
     model TissueCompartment "Tissue compartment"
       extends Pharmacolibrary.Pharmacokinetic.GenericTissueCompartment;
       extends Pharmacolibrary.Icons.BloodPlasmaTissueExchange;
+    annotation(defaultComponentName = "tissue");  
     end TissueCompartment;
 
     model SystemicCompartment "Systemic compartment"
@@ -468,7 +469,7 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
     equation
 
       annotation(
-        defaultComponentName = "scomp",
+        defaultComponentName = "systemic",
         Icon,
         Documentation(info = "<html><head></head><body>
   <h1>SystemicCompartment</h1><div>Systemic compartment is same as TissueCompartment, but the kTB is always 1, so that the concentration in tissue is not considered and is always same as blood/plasma concentration.</div></body></html>"));
@@ -528,7 +529,7 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
       c = if cBSwitch then cport.freeBloodConc else cport.freeTissueConc;
       der(MExc) = cport.massFlowRate;
       cport.massFlowRate = CL*c;
-      annotation(
+      annotation(defaultComponentName = "elim",
         Icon,
         Documentation(info = "<html><head></head><body><h1>ClearanceDrivenElimination</h1>components represents first order excretion or metabolism.<div>The mass flow rate of excretion is calculated as</div><div><br></div><div>massFlowRate &nbsp;= CL*c</div><div><br></div><div>where c is free concentration of either blood/plasma or tissue (depending on the cBSwitch) at the connector.</div><div>Total excreted mass (MExc) is also calculated.</div><h2>Parameters</h2><div>CL - clearance</div><div>cBSwitch - true .. use blood/plasma free conc, false .. use tissue free conc</div><div><br></div></body></html>"));
     end ClearanceDrivenElimination;
@@ -543,16 +544,16 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
         Documentation(info = "<html><head></head><body><h1 style=\"font-family: 'DejaVu Sans Mono';\">ConcentrationGradientDiffusion</h1><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">first order diffusion transfer. Calculates mass flow rate according to equation</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">massFlowRate = (cA - cB)*CL</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">where cA and cB are concentrations at cport_a and cport_b. It might be either blood/plasma or tissue free concentration depending on the cBSwitch switch.</div><h2 style=\"font-family: 'DejaVu Sans Mono';\">parameters</h2><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">CL - intercompartmental clearence</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">Boolean cBSwitch - true .. use blood/plasma conc, false .. use tissue conc</div></body></html>"));
     end ConcentrationGradientDiffusion;
 
-    model NoVolumeCompartment "simplified compartment (lumen) where volume is not considered"
+    model LumenCompartment "simplified compartment (lumen) where volume is not considered"
       extends Pharmacolibrary.Pharmacokinetic.NoPerfusedTissueCompartment(final V = 1, final C0 = 0, final kTB = 1, final fu = 1);
     equation
 
       annotation(
-        Icon(graphics = {Rectangle(origin = {0, -13}, lineColor = {255, 255, 255}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, extent = {{-76, 33}, {76, -33}}), Text(origin = {0, -17}, extent = {{-76, 39}, {76, -39}}, textString = "Lumen")}, coordinateSystem(initialScale = 0.1)),
-        Documentation(info = "<html><head></head><body><h1>NoVolumeCompartment</h1><div>is simplified compartment where no volume is considered. It is intended to be used in combination with the UnidirectionalTransport transfer component.</div></body></html>"));
-    end NoVolumeCompartment;
+        Icon(coordinateSystem(initialScale = 0.1)),
+        Documentation(info = "<html><head></head><body><h1>LumenCompartment</h1><div>is simplified compartment where no volume is considered. It is intended to be used in combination with the UnidirectionalTransport transfer component.</div></body></html>"));
+    end LumenCompartment;
 
-    model UnidirectionalTransport "uni-directional first order transport to be used with NoVolumeCompartment as source"
+    model UnidirectionalTransport "uni-directional first order transport to be used with LumenCompartment as source"
       extends Pharmacolibrary.Interfaces.PartialTransfer(final cBSwitch = false);
       parameter Pharmacolibrary.Types.TimeAging k "first order transfer coefficient";
     protected
@@ -561,8 +562,8 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
     equation
       cport_b.massFlowRate = if cB > cTreshold then k*k2CL*cB else 0;
       annotation(
-        Icon(coordinateSystem(initialScale = 0.1), graphics = {Rectangle(origin = {-2, 0}, lineColor = {255, 255, 255}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, extent = {{-6, 44}, {6, -44}}), Line(origin = {1.13, -1.13}, points = {{-1.13246, 41.1325}, {-1.13246, -34.8675}}, color = {52, 101, 164}, arrow = {Arrow.Open, Arrow.None}, arrowSize = 6)}),
-        Documentation(info = "<html><head></head><body><h1>UnidirectionalTransport</h1><div>is uni-directional first order transprt. It should be used in conbination with the NoVolumeCompartment compartment connected to the cport_b connector.</div><div>The drug mass flow rate is equal to the drug mass stored in the connected NoVolumeCompartment component times k parameter.</div><h2>Parameters</h2><div>k - first order transfer coefficient</div></body></html>"));
+        Icon(coordinateSystem(initialScale = 0.1), graphics = {Rectangle(origin = {-2, 0}, lineColor = {255, 255, 255}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, extent = {{-6, 44}, {6, -44}}), Line(origin = {1.13, -1.13}, points = {{-1.13246, 41.1325}, {-1.13246, -34.8675}}, color = {52, 101, 164}, thickness = 4, arrow = {Arrow.Open, Arrow.None}, arrowSize = 16)}),
+        Documentation(info = "<html><head></head><body><h1>UnidirectionalTransport</h1><div>is uni-directional first order transprt. It should be used in conbination with the LumenCompartment compartment connected to the cport_b connector.</div><div>The drug mass flow rate is equal to the drug mass stored in the connected LumenCompartment component times k parameter.</div><h2>Parameters</h2><div>k - first order transfer coefficient</div></body></html>"));
     end UnidirectionalTransport;
 
     model FlowGround
@@ -800,6 +801,210 @@ end SingleDoseArteryTissuePeripheral;
         experiment(StartTime = 0, StopTime = 21600, Tolerance = 1e-06, Interval = 43.2),
     Documentation(info = "<html><head></head><body>This model demonstrates simplified distribution of drug into peripheral tissue via gradient diffusion rather than perfusion via systemic circulation.</body></html>"));
     end SingleDoseArteryTissuePeripheralElimination;
+
+    model SingleDoseDiffusion
+      extends Modelica.Icons.Example;
+      Sources.SingleDose singleDose(adminMass = 1e-4) annotation(
+        Placement(transformation(origin = {34, 58}, extent = {{-10, -10}, {10, 10}})));
+      Pharmacokinetic.SystemicCompartment artery(V = 0.001) annotation(
+        Placement(transformation(origin = {36, 24}, extent = {{-10, -10}, {10, 10}})));
+      Pharmacokinetic.FixedFlow fixedFlow(Q = 2.666666666666666e-7) annotation(
+        Placement(transformation(origin = {4, 24}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+      Pharmacokinetic.TissueCompartment tissueCompartment(V = 0.001, kTB = 0.5) annotation(
+        Placement(transformation(origin = {-28, 24}, extent = {{-10, -10}, {10, 10}})));
+      Pharmacokinetic.FlowGround flowGround annotation(
+        Placement(transformation(origin = {-32, 2}, extent = {{-10, -10}, {10, 10}})));
+      Pharmacokinetic.ConcentrationGradientDiffusion concentrationGradientDiffusion(CL = 3.333333333333333e-7) annotation(
+        Placement(transformation(origin = {74, 34}, extent = {{-10, -10}, {10, 10}})));
+      Pharmacokinetic.NoPerfusedTissueCompartment RBC(V = 0.001) annotation(
+        Placement(transformation(origin = {78, -10}, extent = {{-10, -10}, {10, 10}})));
+    equation
+      connect(RBC.cport, concentrationGradientDiffusion.cport_b) annotation(
+        Line(points = {{78, 0}, {74, 0}, {74, 24}}, color = {114, 159, 207}));
+      connect(concentrationGradientDiffusion.cport_a, singleDose.cport) annotation(
+        Line(points = {{74, 44}, {34, 44}, {34, 48}}, color = {114, 159, 207}));
+      connect(artery.cport, singleDose.cport) annotation(
+        Line(points = {{36, 34}, {34, 34}, {34, 48}}, color = {114, 159, 207}));
+      connect(artery.port_b, tissueCompartment.port_a) annotation(
+        Line(points = {{46, 24}, {46, 8}, {-42, 8}, {-42, 24}, {-38, 24}}, color = {204, 0, 0}));
+      connect(flowGround.port_a, tissueCompartment.port_a) annotation(
+        Line(points = {{-42, 2}, {-42, 24}, {-38, 24}}, color = {204, 0, 0}));
+      connect(tissueCompartment.port_b, fixedFlow.port_b) annotation(
+        Line(points = {{-18, 24}, {-6, 24}}, color = {204, 0, 0}));
+      connect(fixedFlow.port_a, artery.port_a) annotation(
+        Line(points = {{14, 24}, {26, 24}}, color = {204, 0, 0}));
+      annotation(
+        experiment(StartTime = 0, StopTime = 21600, Tolerance = 1e-06, Interval = 43.2),
+        Documentation(info = "<html><head></head><body><div>Administering drug into systemic arteries may diffuse directly into erythrocites. This example shows how such pharmacokinetics&nbsp;</div><div>might be modeled.</div></body></html>"));
+    end SingleDoseDiffusion;
+
+    model SingleDoseLumen
+      extends Modelica.Icons.Example;
+  Sources.SingleDose singleDose(adminMass = 1e-4)  annotation(
+        Placement(transformation(origin = {-26, 48}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.LumenCompartment GILumen annotation(
+        Placement(transformation(origin = {-26, 18}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.UnidirectionalTransport unidirectionalTransport(k = 2.776666666666667e-4)  annotation(
+        Placement(transformation(origin = {4, 18}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  Pharmacokinetic.TissueCompartment GIT(V = 0.001, kTB = 0.5)  annotation(
+        Placement(transformation(origin = {4, -10}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.SystemicCompartment artery(V = 0.001)  annotation(
+        Placement(transformation(origin = {68, -12}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.FixedFlow fixedFlow(Q = 2.666666666666666e-7)  annotation(
+        Placement(transformation(origin = {38, -12}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  Pharmacokinetic.FlowGround flowGround annotation(
+        Placement(transformation(origin = {-4, -36}, extent = {{-10, -10}, {10, 10}})));
+    equation
+  connect(artery.port_a, fixedFlow.port_a) annotation(
+        Line(points = {{58, -12}, {48, -12}}, color = {204, 0, 0}));
+  connect(fixedFlow.port_b, GIT.port_b) annotation(
+        Line(points = {{28, -12}, {14, -12}, {14, -10}}, color = {204, 0, 0}));
+  connect(GIT.port_a, artery.port_b) annotation(
+        Line(points = {{-6, -10}, {-16, -10}, {-16, -30}, {86, -30}, {86, -12}, {78, -12}}, color = {204, 0, 0}));
+  connect(flowGround.port_a, GIT.port_a) annotation(
+        Line(points = {{-14, -36}, {-16, -36}, {-16, -10}, {-6, -10}}, color = {204, 0, 0}));
+  connect(singleDose.cport, GILumen.cport) annotation(
+        Line(points = {{-26, 38}, {-26, 28}}, color = {114, 159, 207}));
+  connect(GILumen.cport, unidirectionalTransport.cport_b) annotation(
+        Line(points = {{-26, 28}, {4, 28}}, color = {114, 159, 207}));
+  connect(unidirectionalTransport.cport_a, GIT.cport) annotation(
+        Line(points = {{4, 8}, {4, 0}}, color = {114, 159, 207}));
+    annotation(
+        experiment(StartTime = 0, StopTime = 21600, Tolerance = 1e-06, Interval = 43.2866));
+end SingleDoseLumen;
+
+    model SingleDoseIntravenousWholeBody
+      extends Modelica.Icons.Example;
+  Sources.SingleDose singleDose(adminMass = 1e-4)  annotation(
+        Placement(transformation(origin = {-70, 66}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.SystemicCompartment venous(V = 0.004)  annotation(
+        Placement(transformation(origin = {-70, 26}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.FlowGround flowGround annotation(
+        Placement(transformation(origin = {-70, 0}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.TissueCompartment lungs(V = 5e-4)  annotation(
+        Placement(transformation(origin = {-20, 88}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.SystemicCompartment arterial(V = 0.001)  annotation(
+        Placement(transformation(origin = {78, 22}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.FixedFlow fixedFlow(Q = 1.3888888888888887e-6)  annotation(
+        Placement(transformation(origin = {10, 62}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  Pharmacokinetic.TissueCompartment adipose(V = 5e-4)  annotation(
+        Placement(transformation(origin = {-20, 62}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.FixedFlow fixedFlow1(Q = 1.3888888888888887e-6)  annotation(
+        Placement(transformation(origin = {10, 40}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  Pharmacokinetic.TissueCompartment bone(V = 0.01)  annotation(
+        Placement(transformation(origin = {-20, 40}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.FixedFlow fixedFlow2(Q = 1.111111111111111e-5)  annotation(
+        Placement(transformation(origin = {10, 16}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  Pharmacokinetic.TissueCompartment brain(V = 0.0015)  annotation(
+        Placement(transformation(origin = {-20, 16}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.FixedFlow fixedFlow3(Q = 5.555555555555555e-6)  annotation(
+        Placement(transformation(origin = {10, -6}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  Pharmacokinetic.TissueCompartment heart(V = 3e-4)  annotation(
+        Placement(transformation(origin = {-20, -6}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.TissueCompartment muscle(V = 0.02)  annotation(
+        Placement(transformation(origin = {-20, -30}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.FixedFlow fixedFlow4(Q = 1.111111111111111e-5)  annotation(
+        Placement(transformation(origin = {10, -30}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  Pharmacokinetic.TissueCompartment skin(V = 0.003)  annotation(
+        Placement(transformation(origin = {-20, -50}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.FixedFlow fixedFlow5(Q = 5.555555555555555e-6)  annotation(
+        Placement(transformation(origin = {10, -50}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  Pharmacokinetic.TissueCompartment git(V = 0.001)  annotation(
+        Placement(transformation(origin = {10, -66}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.TissueCompartment spleen(V = 2e-4)  annotation(
+        Placement(transformation(origin = {10, -90}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.TissueCompartment liver(V = 0.002)  annotation(
+        Placement(transformation(origin = {-20, -78}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.FixedFlow fixedFlow6(Q = 1.3888888888888888e-5)  annotation(
+        Placement(transformation(origin = {48, -66}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  Pharmacokinetic.FixedFlow fixedFlow7(Q = 5.555555555555555e-6)  annotation(
+        Placement(transformation(origin = {48, -78}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  Pharmacokinetic.FixedFlow fixedFlow8(Q = 2.7777777777777775e-6)  annotation(
+        Placement(transformation(origin = {48, -90}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  Pharmacokinetic.FixedFlow fixedFlow9(Q = 1.3888888888888888e-5)  annotation(
+        Placement(transformation(origin = {10, -108}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  Pharmacokinetic.TissueCompartment kidney(V = 3e-4)  annotation(
+        Placement(transformation(origin = {-58, -98}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.ClearanceDrivenElimination kidneyElim(CL = 2.7777777777777775e-6)  annotation(
+        Placement(transformation(origin = {-66, -70}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.ClearanceDrivenElimination liverElim(CL = 2.7777777777777775e-6)  annotation(
+        Placement(transformation(origin = {-40, -70}, extent = {{-10, -10}, {10, 10}})));
+    equation
+      connect(flowGround.port_a, venous.port_a) annotation(
+        Line(points = {{-80, 0}, {-80, 26}}, color = {204, 0, 0}));
+      connect(venous.port_a, lungs.port_a) annotation(
+        Line(points = {{-80, 26}, {-80, 88}, {-30, 88}}, color = {204, 0, 0}));
+      connect(singleDose.cport, venous.cport) annotation(
+        Line(points = {{-70, 56}, {-70, 36}}, color = {114, 159, 207}));
+      connect(lungs.port_b, arterial.port_b) annotation(
+        Line(points = {{-10, 88}, {88, 88}, {88, 22}}, color = {204, 0, 0}));
+      connect(arterial.port_a, fixedFlow.port_a) annotation(
+        Line(points = {{68, 22}, {28, 22}, {28, 62}, {20, 62}}, color = {204, 0, 0}));
+      connect(fixedFlow1.port_a, arterial.port_a) annotation(
+        Line(points = {{20, 40}, {28, 40}, {28, 22}, {68, 22}}, color = {204, 0, 0}));
+      connect(fixedFlow2.port_a, arterial.port_a) annotation(
+        Line(points = {{20, 16}, {28, 16}, {28, 22}, {68, 22}}, color = {204, 0, 0}));
+      connect(fixedFlow3.port_a, arterial.port_a) annotation(
+        Line(points = {{20, -6}, {28, -6}, {28, 22}, {68, 22}}, color = {204, 0, 0}));
+      connect(fixedFlow4.port_a, arterial.port_a) annotation(
+        Line(points = {{20, -30}, {28, -30}, {28, 22}, {68, 22}}, color = {204, 0, 0}));
+      connect(fixedFlow5.port_a, arterial.port_a) annotation(
+        Line(points = {{20, -50}, {28, -50}, {28, 22}, {68, 22}}, color = {204, 0, 0}));
+      connect(git.port_b, fixedFlow6.port_b) annotation(
+        Line(points = {{20, -66}, {38, -66}}, color = {204, 0, 0}));
+      connect(fixedFlow6.port_a, arterial.port_a) annotation(
+        Line(points = {{58, -66}, {68, -66}, {68, 22}}, color = {204, 0, 0}));
+      connect(fixedFlow8.port_a, arterial.port_a) annotation(
+        Line(points = {{58, -90}, {68, -90}, {68, 22}}, color = {204, 0, 0}));
+      connect(fixedFlow7.port_a, arterial.port_a) annotation(
+        Line(points = {{58, -78}, {68, -78}, {68, 22}}, color = {204, 0, 0}));
+      connect(fixedFlow7.port_b, liver.port_b) annotation(
+        Line(points = {{38, -78}, {-10, -78}}, color = {204, 0, 0}));
+      connect(fixedFlow8.port_b, spleen.port_b) annotation(
+        Line(points = {{38, -90}, {20, -90}}, color = {204, 0, 0}));
+      connect(spleen.port_a, liver.port_b) annotation(
+        Line(points = {{0, -90}, {-10, -90}, {-10, -78}}, color = {204, 0, 0}));
+      connect(git.port_a, liver.port_b) annotation(
+        Line(points = {{0, -66}, {-10, -66}, {-10, -78}}, color = {204, 0, 0}));
+      connect(venous.port_b, adipose.port_a) annotation(
+        Line(points = {{-60, 26}, {-50, 26}, {-50, 62}, {-30, 62}}, color = {204, 0, 0}));
+      connect(bone.port_a, venous.port_b) annotation(
+        Line(points = {{-30, 40}, {-50, 40}, {-50, 26}, {-60, 26}}, color = {204, 0, 0}));
+      connect(brain.port_a, venous.port_b) annotation(
+        Line(points = {{-30, 16}, {-50, 16}, {-50, 26}, {-60, 26}}, color = {204, 0, 0}));
+      connect(heart.port_a, venous.port_b) annotation(
+        Line(points = {{-30, -6}, {-50, -6}, {-50, 26}, {-60, 26}}, color = {204, 0, 0}));
+      connect(muscle.port_a, venous.port_b) annotation(
+        Line(points = {{-30, -30}, {-50, -30}, {-50, 26}, {-60, 26}}, color = {204, 0, 0}));
+      connect(skin.port_a, venous.port_b) annotation(
+        Line(points = {{-30, -50}, {-50, -50}, {-50, 26}, {-60, 26}}, color = {204, 0, 0}));
+  connect(liver.port_a, venous.port_b) annotation(
+        Line(points = {{-30, -78}, {-30, -88}, {-50, -88}, {-50, 26}, {-60, 26}}, color = {204, 0, 0}));
+  connect(fixedFlow.port_b, adipose.port_b) annotation(
+        Line(points = {{0, 62}, {-10, 62}}, color = {204, 0, 0}));
+  connect(fixedFlow1.port_b, bone.port_b) annotation(
+        Line(points = {{0, 40}, {-10, 40}}, color = {204, 0, 0}));
+  connect(fixedFlow9.port_a, arterial.port_a) annotation(
+        Line(points = {{20, -108}, {68, -108}, {68, 22}}, color = {204, 0, 0}));
+  connect(fixedFlow9.port_b, kidney.port_b) annotation(
+        Line(points = {{0, -108}, {-48, -108}, {-48, -98}}, color = {204, 0, 0}));
+  connect(kidney.port_a, venous.port_b) annotation(
+        Line(points = {{-68, -98}, {-68, -98.5}, {-80, -98.5}, {-80, -22}, {-50, -22}, {-50, 26}, {-60, 26}}, color = {204, 0, 0}));
+  connect(kidney.cport, kidneyElim.cport) annotation(
+        Line(points = {{-58, -88}, {-54, -88}, {-54, -60}, {-66, -60}}, color = {114, 159, 207}));
+  connect(liver.cport, liverElim.cport) annotation(
+        Line(points = {{-20, -68}, {-20, -60}, {-40, -60}}, color = {114, 159, 207}));
+  connect(fixedFlow2.port_b, brain.port_b) annotation(
+        Line(points = {{0, 16}, {-10, 16}}, color = {204, 0, 0}));
+  connect(fixedFlow3.port_b, heart.port_b) annotation(
+        Line(points = {{0, -6}, {-10, -6}}, color = {204, 0, 0}));
+  connect(fixedFlow4.port_b, muscle.port_b) annotation(
+        Line(points = {{0, -30}, {-10, -30}}, color = {204, 0, 0}));
+  connect(fixedFlow5.port_b, skin.port_b) annotation(
+        Line(points = {{0, -50}, {-10, -50}}, color = {204, 0, 0}));
+    annotation(
+        experiment(StartTime = 0, StopTime = 43200, Tolerance = 1e-06, Interval = 86.4));
+end SingleDoseIntravenousWholeBody;
   end Examples;
 
   package Utilities
