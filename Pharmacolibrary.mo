@@ -289,7 +289,7 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
     equation
     
       annotation(
-        Icon(graphics = {Rectangle(origin = {0, -47}, fillColor = {185, 218, 234}, fillPattern = FillPattern.Solid, extent = {{-80, 41}, {80, -41}}), Rectangle(origin = {0, -2}, lineColor = {46, 194, 126}, fillColor = {51, 209, 122}, fillPattern = FillPattern.Solid, lineThickness = 2, extent = {{-80, 4}, {80, -4}}), Line(origin = {0.467519, 65.9731}, points = {{0, 16}, {0, -16}}, color = {153, 193, 241}, thickness = 1, arrow = {Arrow.None, Arrow.Filled}, arrowSize = 4), Text(origin = {-5, 38}, extent = {{-133, 18}, {133, -18}}, textString = "%name"), Text(origin = {2, -65}, extent = {{-132, 19}, {132, -19}}, textString = "V=%V"), Text(origin = {5, -26}, extent = {{-131, 18}, {131, -18}}, textString = "kTB=%kTB")}));
+        Icon(graphics = {Rectangle(origin = {0, -47}, fillColor = {185, 218, 234}, fillPattern = FillPattern.Solid, extent = {{-80, 41}, {80, -41}}), Rectangle(origin = {0, -2}, lineColor = {46, 194, 126}, fillColor = {51, 209, 122}, fillPattern = FillPattern.Solid, lineThickness = 2, extent = {{-80, 4}, {80, -4}}), Line(origin = {0.467519, 65.9731}, points = {{0, 16}, {0, -16}}, color = {153, 193, 241}, thickness = 1, arrow = {Arrow.None, Arrow.Filled}, arrowSize = 4), Text(origin = {-5, 38}, extent = {{-133, 18}, {133, -18}}, textString = "%name"), Text(origin = {5, -26}, extent = {{-131, 18}, {131, -18}}, textString = "kTB=%kTB")}));
     end PeripheralTissue;
   equation
 
@@ -513,7 +513,7 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
       connect(pDiffusion.cport_b, tCompartment.cport) annotation(
         Line(points = {{2, 8}, {2, -7}}, color = {114, 159, 207}));
       annotation(
-        Icon(graphics = {Line(origin = {0, 48}, points = {{0, 32}, {0, -32}}, color = {114, 159, 207}, thickness = 0.5, arrow = {Arrow.Open, Arrow.Open})}),
+        Icon(graphics = {Line(origin = {0, 48}, points = {{0, 32}, {0, -32}}, color = {114, 159, 207}, thickness = 0.5, arrow = {Arrow.Open, Arrow.Open}), Text(origin = {2, -65}, extent = {{-132, 19}, {132, -19}}, textString = "V=%V")}),
         Documentation(info = "<html><head></head><body><h1>PeripheralTissueCompartment</h1><div>component combines the PDiffusion and NoPerfusedTissueCompartment components</div><div>
   <img src=\"modelica://Pharmacolibrary/Resources/Images/PPeripheral.png\">
   <br></div><div>The PDiffusion is connected at the cport upper connector. Thus this connector might be connected directly to other copartment without any transfer compartment inbetween.</div></body></html>"));
@@ -575,6 +575,103 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
         Icon(graphics = {Polygon(origin = {0, -20}, fillColor = {204, 0, 0}, pattern = LinePattern.None, fillPattern = FillPattern.Solid, points = {{-40, 40}, {0, -40}, {40, 40}, {-40, 40}})}),
         Documentation(info = "<html><head></head><body><h1>FlowGround</h1><div>Whenever&nbsp;<span style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">the flow part of a model is circular, the FlowGround component must be connected somewhere so that the model is not over-determined. It is an equivalent of grounding in electrical domain.</span></div></body></html>"));
     end FlowGround;
+
+    model GIT "GIT intestinal lumen"
+    extends Pharmacolibrary.Icons.PeripheralTissue;
+  LumenCompartment stomach annotation(
+        Placement(transformation(origin = {-74, 20}, extent = {{-10, -10}, {10, 10}})));
+  LumenCompartment duodenum annotation(
+        Placement(transformation(origin = {-46, 20}, extent = {{-10, -10}, {10, 10}})));
+  LumenCompartment jejunum annotation(
+        Placement(transformation(origin = {-20, 20}, extent = {{-10, -10}, {10, 10}})));
+  LumenCompartment ileum annotation(
+        Placement(transformation(origin = {6, 20}, extent = {{-10, -10}, {10, 10}})));
+  LumenCompartment cecum annotation(
+        Placement(transformation(origin = {34, 20}, extent = {{-10, -10}, {10, 10}})));
+  LumenCompartment colon annotation(
+        Placement(transformation(origin = {66, 20}, extent = {{-10, -10}, {10, 10}})));
+  Interfaces.ConcentrationPort_b cport_b annotation(
+        Placement(transformation(origin = {0, -100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {0, -100}, extent = {{-10, -10}, {10, 10}})));
+  Interfaces.ConcentrationPort_a cport_a annotation(
+        Placement(transformation(origin = {0, 100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {0, 100}, extent = {{-10, -10}, {10, 10}})));
+  UnidirectionalTransport stomachTransport(k = 0.008333333333333333)  annotation(
+        Placement(transformation(origin = {-72, -18}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  UnidirectionalTransport duodenumAbsorption(k = 0.008333333333333333)  annotation(
+        Placement(transformation(origin = {-48, -18}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  UnidirectionalTransport jejunumAbsorption(k = 0.0016666666666666668)  annotation(
+        Placement(transformation(origin = {-22, -18}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  UnidirectionalTransport ileumAbsorption(k = 0)  annotation(
+        Placement(transformation(origin = {4, -18}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  UnidirectionalTransport cecumAbsorption(k = 0)  annotation(
+        Placement(transformation(origin = {34, -18}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  UnidirectionalTransport colonAbsorption(k = 0)  annotation(
+        Placement(transformation(origin = {64, -18}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  UnidirectionalTransport s_d_transport(k = 3.333333333333333e-4)  annotation(
+        Placement(transformation(origin = {-60, 46}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
+  UnidirectionalTransport d_j_transport(k = 3.333333333333333e-4)  annotation(
+        Placement(transformation(origin = {-30, 46}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
+  UnidirectionalTransport j_i_transport(k = 3.333333333333333e-4)  annotation(
+        Placement(transformation(origin = {-4, 46}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
+  UnidirectionalTransport i_c_transport(k = 3.333333333333333e-4)  annotation(
+        Placement(transformation(origin = {22, 46}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
+  UnidirectionalTransport c_c_transport(k = 3.333333333333333e-4)  annotation(
+        Placement(transformation(origin = {52, 46}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
+  LumenCompartment nonAbsorpedDrug annotation(
+        Placement(transformation(origin = {92, 34}, extent = {{-10, -10}, {10, 10}})));
+  UnidirectionalTransport c_t_transport(k = 3.333333333333333e-4) annotation(
+        Placement(transformation(origin = {82, 56}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
+    equation
+  connect(cport_a, stomach.cport) annotation(
+        Line(points = {{0, 100}, {0, 92}, {-74, 92}, {-74, 30}}));
+  connect(s_d_transport.cport_b, stomach.cport) annotation(
+        Line(points = {{-70, 46}, {-74, 46}, {-74, 30}}, color = {114, 159, 207}));
+  connect(s_d_transport.cport_a, duodenum.cport) annotation(
+        Line(points = {{-50, 46}, {-46, 46}, {-46, 30}}, color = {114, 159, 207}));
+  connect(s_d_transport.cport_a, d_j_transport.cport_b) annotation(
+        Line(points = {{-50, 46}, {-40, 46}}, color = {114, 159, 207}));
+  connect(d_j_transport.cport_a, jejunum.cport) annotation(
+        Line(points = {{-20, 46}, {-20, 30}}, color = {114, 159, 207}));
+  connect(d_j_transport.cport_a, j_i_transport.cport_b) annotation(
+        Line(points = {{-20, 46}, {-14, 46}}, color = {114, 159, 207}));
+  connect(j_i_transport.cport_a, ileum.cport) annotation(
+        Line(points = {{6, 46}, {6, 30}}, color = {114, 159, 207}));
+  connect(j_i_transport.cport_a, i_c_transport.cport_b) annotation(
+        Line(points = {{6, 46}, {12, 46}}, color = {114, 159, 207}));
+  connect(i_c_transport.cport_a, cecum.cport) annotation(
+        Line(points = {{32, 46}, {34, 46}, {34, 30}}, color = {114, 159, 207}));
+  connect(i_c_transport.cport_a, c_c_transport.cport_b) annotation(
+        Line(points = {{32, 46}, {42, 46}}, color = {114, 159, 207}));
+  connect(c_c_transport.cport_a, colon.cport) annotation(
+        Line(points = {{62, 46}, {66, 46}, {66, 30}}, color = {114, 159, 207}));
+  connect(stomach.cport, stomachTransport.cport_b) annotation(
+        Line(points = {{-74, 30}, {-64, 30}, {-64, -8}, {-72, -8}}, color = {114, 159, 207}));
+  connect(duodenum.cport, duodenumAbsorption.cport_b) annotation(
+        Line(points = {{-46, 30}, {-36, 30}, {-36, -8}, {-48, -8}}, color = {114, 159, 207}));
+  connect(jejunum.cport, jejunumAbsorption.cport_b) annotation(
+        Line(points = {{-20, 30}, {-8, 30}, {-8, -8}, {-22, -8}}, color = {114, 159, 207}));
+  connect(ileum.cport, ileumAbsorption.cport_b) annotation(
+        Line(points = {{6, 30}, {18, 30}, {18, -8}, {4, -8}}, color = {114, 159, 207}));
+  connect(cecum.cport, cecumAbsorption.cport_b) annotation(
+        Line(points = {{34, 30}, {46, 30}, {46, -8}, {34, -8}}, color = {114, 159, 207}));
+  connect(colon.cport, colonAbsorption.cport_b) annotation(
+        Line(points = {{66, 30}, {80, 30}, {80, -8}, {64, -8}}, color = {114, 159, 207}));
+  connect(stomachTransport.cport_a, cport_b) annotation(
+        Line(points = {{-72, -28}, {-72, -100}, {0, -100}}, color = {114, 159, 207}));
+  connect(duodenumAbsorption.cport_a, cport_b) annotation(
+        Line(points = {{-48, -28}, {-50, -28}, {-50, -100}, {0, -100}}, color = {114, 159, 207}));
+  connect(jejunumAbsorption.cport_a, cport_b) annotation(
+        Line(points = {{-22, -28}, {-22, -100}, {0, -100}}, color = {114, 159, 207}));
+  connect(ileumAbsorption.cport_a, cport_b) annotation(
+        Line(points = {{4, -28}, {0, -28}, {0, -100}}, color = {114, 159, 207}));
+  connect(cecumAbsorption.cport_a, cport_b) annotation(
+        Line(points = {{34, -28}, {34, -100}, {0, -100}}, color = {114, 159, 207}));
+  connect(colonAbsorption.cport_a, cport_b) annotation(
+        Line(points = {{64, -28}, {62, -28}, {62, -100}, {0, -100}}, color = {114, 159, 207}));
+  connect(colon.cport, c_t_transport.cport_b) annotation(
+        Line(points = {{66, 30}, {66, 56}, {72, 56}}, color = {114, 159, 207}));
+  connect(c_t_transport.cport_a, nonAbsorpedDrug.cport) annotation(
+        Line(points = {{92, 56}, {92, 44}}, color = {114, 159, 207}));
+    end GIT;
   end Pharmacokinetic;
 
   package Examples
@@ -909,7 +1006,7 @@ end SingleDoseLumen;
         Placement(transformation(origin = {-20, -50}, extent = {{-10, -10}, {10, 10}})));
   Pharmacokinetic.FixedFlow fixedFlow5(Q = 5.555555555555555e-6)  annotation(
         Placement(transformation(origin = {10, -50}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-  Pharmacokinetic.TissueCompartment git(V = 0.001)  annotation(
+  Pharmacokinetic.TissueCompartment gut(V = 0.001)  annotation(
         Placement(transformation(origin = {10, -66}, extent = {{-10, -10}, {10, 10}})));
   Pharmacokinetic.TissueCompartment spleen(V = 2e-4)  annotation(
         Placement(transformation(origin = {10, -90}, extent = {{-10, -10}, {10, 10}})));
@@ -950,7 +1047,7 @@ end SingleDoseLumen;
         Line(points = {{20, -30}, {28, -30}, {28, 22}, {68, 22}}, color = {204, 0, 0}));
       connect(fixedFlow5.port_a, arterial.port_a) annotation(
         Line(points = {{20, -50}, {28, -50}, {28, 22}, {68, 22}}, color = {204, 0, 0}));
-      connect(git.port_b, fixedFlow6.port_b) annotation(
+      connect(gut.port_b, fixedFlow6.port_b) annotation(
         Line(points = {{20, -66}, {38, -66}}, color = {204, 0, 0}));
       connect(fixedFlow6.port_a, arterial.port_a) annotation(
         Line(points = {{58, -66}, {68, -66}, {68, 22}}, color = {204, 0, 0}));
@@ -964,7 +1061,7 @@ end SingleDoseLumen;
         Line(points = {{38, -90}, {20, -90}}, color = {204, 0, 0}));
       connect(spleen.port_a, liver.port_b) annotation(
         Line(points = {{0, -90}, {-10, -90}, {-10, -78}}, color = {204, 0, 0}));
-      connect(git.port_a, liver.port_b) annotation(
+      connect(gut.port_a, liver.port_b) annotation(
         Line(points = {{0, -66}, {-10, -66}, {-10, -78}}, color = {204, 0, 0}));
       connect(venous.port_b, adipose.port_a) annotation(
         Line(points = {{-60, 26}, {-50, 26}, {-50, 62}, {-30, 62}}, color = {204, 0, 0}));
@@ -1005,6 +1102,143 @@ end SingleDoseLumen;
     annotation(
         experiment(StartTime = 0, StopTime = 43200, Tolerance = 1e-06, Interval = 86.4));
 end SingleDoseIntravenousWholeBody;
+    
+    model OralDoseGUTWholeBody
+      extends Modelica.Icons.Example;
+    Sources.SingleDose singleDose(adminMass = 1e-4)  annotation(
+        Placement(transformation(origin = {84, -16}, extent = {{-10, -10}, {10, 10}})));
+    Pharmacokinetic.SystemicCompartment venous(V = 0.004)  annotation(
+        Placement(transformation(origin = {-70, 26}, extent = {{-10, -10}, {10, 10}})));
+    Pharmacokinetic.FlowGround flowGround annotation(
+        Placement(transformation(origin = {-70, 0}, extent = {{-10, -10}, {10, 10}})));
+    Pharmacokinetic.TissueCompartment lungs(V = 5e-4)  annotation(
+        Placement(transformation(origin = {-20, 88}, extent = {{-10, -10}, {10, 10}})));
+    Pharmacokinetic.SystemicCompartment arterial(V = 0.001)  annotation(
+        Placement(transformation(origin = {78, 22}, extent = {{-10, -10}, {10, 10}})));
+    Pharmacokinetic.FixedFlow fixedFlow(Q = 1.3888888888888887e-6)  annotation(
+        Placement(transformation(origin = {10, 62}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+    Pharmacokinetic.TissueCompartment adipose(V = 5e-4)  annotation(
+        Placement(transformation(origin = {-20, 62}, extent = {{-10, -10}, {10, 10}})));
+    Pharmacokinetic.FixedFlow fixedFlow1(Q = 1.3888888888888887e-6)  annotation(
+        Placement(transformation(origin = {10, 40}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+    Pharmacokinetic.TissueCompartment bone(V = 0.01)  annotation(
+        Placement(transformation(origin = {-20, 40}, extent = {{-10, -10}, {10, 10}})));
+    Pharmacokinetic.FixedFlow fixedFlow2(Q = 1.111111111111111e-5)  annotation(
+        Placement(transformation(origin = {10, 16}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+    Pharmacokinetic.TissueCompartment brain(V = 0.0015)  annotation(
+        Placement(transformation(origin = {-20, 16}, extent = {{-10, -10}, {10, 10}})));
+    Pharmacokinetic.FixedFlow fixedFlow3(Q = 5.555555555555555e-6)  annotation(
+        Placement(transformation(origin = {10, -6}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+    Pharmacokinetic.TissueCompartment heart(V = 3e-4)  annotation(
+        Placement(transformation(origin = {-20, -6}, extent = {{-10, -10}, {10, 10}})));
+    Pharmacokinetic.TissueCompartment muscle(V = 0.02)  annotation(
+        Placement(transformation(origin = {-20, -30}, extent = {{-10, -10}, {10, 10}})));
+    Pharmacokinetic.FixedFlow fixedFlow4(Q = 1.111111111111111e-5)  annotation(
+        Placement(transformation(origin = {10, -30}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+    Pharmacokinetic.TissueCompartment skin(V = 0.003)  annotation(
+        Placement(transformation(origin = {-20, -50}, extent = {{-10, -10}, {10, 10}})));
+    Pharmacokinetic.FixedFlow fixedFlow5(Q = 5.555555555555555e-6)  annotation(
+        Placement(transformation(origin = {10, -50}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+    Pharmacokinetic.TissueCompartment gut(V = 0.001)  annotation(
+        Placement(transformation(origin = {10, -66}, extent = {{-10, -10}, {10, 10}})));
+    Pharmacokinetic.TissueCompartment spleen(V = 2e-4)  annotation(
+        Placement(transformation(origin = {10, -90}, extent = {{-10, -10}, {10, 10}})));
+    Pharmacokinetic.TissueCompartment liver(V = 0.002)  annotation(
+        Placement(transformation(origin = {-20, -78}, extent = {{-10, -10}, {10, 10}})));
+    Pharmacokinetic.FixedFlow fixedFlow6(Q = 1.3888888888888888e-5)  annotation(
+        Placement(transformation(origin = {48, -66}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+    Pharmacokinetic.FixedFlow fixedFlow7(Q = 5.555555555555555e-6)  annotation(
+        Placement(transformation(origin = {48, -78}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+    Pharmacokinetic.FixedFlow fixedFlow8(Q = 2.7777777777777775e-6)  annotation(
+        Placement(transformation(origin = {48, -90}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+    Pharmacokinetic.FixedFlow fixedFlow9(Q = 1.3888888888888888e-5)  annotation(
+        Placement(transformation(origin = {10, -108}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+    Pharmacokinetic.TissueCompartment kidney(V = 3e-4)  annotation(
+        Placement(transformation(origin = {-58, -98}, extent = {{-10, -10}, {10, 10}})));
+    Pharmacokinetic.ClearanceDrivenElimination kidneyElim(CL = 2.7777777777777775e-6)  annotation(
+        Placement(transformation(origin = {-66, -70}, extent = {{-10, -10}, {10, 10}})));
+    Pharmacokinetic.ClearanceDrivenElimination liverElim(CL = 2.7777777777777775e-6)  annotation(
+        Placement(transformation(origin = {-40, -70}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.GIT gitAbsorption annotation(
+        Placement(transformation(origin = {84, -42}, extent = {{-10, -10}, {10, 10}})));
+    equation
+      connect(flowGround.port_a, venous.port_a) annotation(
+        Line(points = {{-80, 0}, {-80, 26}}, color = {204, 0, 0}));
+      connect(venous.port_a, lungs.port_a) annotation(
+        Line(points = {{-80, 26}, {-80, 88}, {-30, 88}}, color = {204, 0, 0}));
+      connect(lungs.port_b, arterial.port_b) annotation(
+        Line(points = {{-10, 88}, {88, 88}, {88, 22}}, color = {204, 0, 0}));
+      connect(arterial.port_a, fixedFlow.port_a) annotation(
+        Line(points = {{68, 22}, {28, 22}, {28, 62}, {20, 62}}, color = {204, 0, 0}));
+      connect(fixedFlow1.port_a, arterial.port_a) annotation(
+        Line(points = {{20, 40}, {28, 40}, {28, 22}, {68, 22}}, color = {204, 0, 0}));
+      connect(fixedFlow2.port_a, arterial.port_a) annotation(
+        Line(points = {{20, 16}, {28, 16}, {28, 22}, {68, 22}}, color = {204, 0, 0}));
+      connect(fixedFlow3.port_a, arterial.port_a) annotation(
+        Line(points = {{20, -6}, {28, -6}, {28, 22}, {68, 22}}, color = {204, 0, 0}));
+      connect(fixedFlow4.port_a, arterial.port_a) annotation(
+        Line(points = {{20, -30}, {28, -30}, {28, 22}, {68, 22}}, color = {204, 0, 0}));
+      connect(fixedFlow5.port_a, arterial.port_a) annotation(
+        Line(points = {{20, -50}, {28, -50}, {28, 22}, {68, 22}}, color = {204, 0, 0}));
+      connect(gut.port_b, fixedFlow6.port_b) annotation(
+        Line(points = {{20, -66}, {38, -66}}, color = {204, 0, 0}));
+      connect(fixedFlow6.port_a, arterial.port_a) annotation(
+        Line(points = {{58, -66}, {68, -66}, {68, 22}}, color = {204, 0, 0}));
+      connect(fixedFlow8.port_a, arterial.port_a) annotation(
+        Line(points = {{58, -90}, {68, -90}, {68, 22}}, color = {204, 0, 0}));
+      connect(fixedFlow7.port_a, arterial.port_a) annotation(
+        Line(points = {{58, -78}, {68, -78}, {68, 22}}, color = {204, 0, 0}));
+      connect(fixedFlow7.port_b, liver.port_b) annotation(
+        Line(points = {{38, -78}, {-10, -78}}, color = {204, 0, 0}));
+      connect(fixedFlow8.port_b, spleen.port_b) annotation(
+        Line(points = {{38, -90}, {20, -90}}, color = {204, 0, 0}));
+      connect(spleen.port_a, liver.port_b) annotation(
+        Line(points = {{0, -90}, {-10, -90}, {-10, -78}}, color = {204, 0, 0}));
+      connect(gut.port_a, liver.port_b) annotation(
+        Line(points = {{0, -66}, {-10, -66}, {-10, -78}}, color = {204, 0, 0}));
+      connect(venous.port_b, adipose.port_a) annotation(
+        Line(points = {{-60, 26}, {-50, 26}, {-50, 62}, {-30, 62}}, color = {204, 0, 0}));
+      connect(bone.port_a, venous.port_b) annotation(
+        Line(points = {{-30, 40}, {-50, 40}, {-50, 26}, {-60, 26}}, color = {204, 0, 0}));
+      connect(brain.port_a, venous.port_b) annotation(
+        Line(points = {{-30, 16}, {-50, 16}, {-50, 26}, {-60, 26}}, color = {204, 0, 0}));
+      connect(heart.port_a, venous.port_b) annotation(
+        Line(points = {{-30, -6}, {-50, -6}, {-50, 26}, {-60, 26}}, color = {204, 0, 0}));
+      connect(muscle.port_a, venous.port_b) annotation(
+        Line(points = {{-30, -30}, {-50, -30}, {-50, 26}, {-60, 26}}, color = {204, 0, 0}));
+      connect(skin.port_a, venous.port_b) annotation(
+        Line(points = {{-30, -50}, {-50, -50}, {-50, 26}, {-60, 26}}, color = {204, 0, 0}));
+    connect(liver.port_a, venous.port_b) annotation(
+        Line(points = {{-30, -78}, {-30, -88}, {-50, -88}, {-50, 26}, {-60, 26}}, color = {204, 0, 0}));
+    connect(fixedFlow.port_b, adipose.port_b) annotation(
+        Line(points = {{0, 62}, {-10, 62}}, color = {204, 0, 0}));
+    connect(fixedFlow1.port_b, bone.port_b) annotation(
+        Line(points = {{0, 40}, {-10, 40}}, color = {204, 0, 0}));
+    connect(fixedFlow9.port_a, arterial.port_a) annotation(
+        Line(points = {{20, -108}, {68, -108}, {68, 22}}, color = {204, 0, 0}));
+    connect(fixedFlow9.port_b, kidney.port_b) annotation(
+        Line(points = {{0, -108}, {-48, -108}, {-48, -98}}, color = {204, 0, 0}));
+    connect(kidney.port_a, venous.port_b) annotation(
+        Line(points = {{-68, -98}, {-68, -98.5}, {-80, -98.5}, {-80, -22}, {-50, -22}, {-50, 26}, {-60, 26}}, color = {204, 0, 0}));
+    connect(kidney.cport, kidneyElim.cport) annotation(
+        Line(points = {{-58, -88}, {-54, -88}, {-54, -60}, {-66, -60}}, color = {114, 159, 207}));
+    connect(liver.cport, liverElim.cport) annotation(
+        Line(points = {{-20, -68}, {-20, -60}, {-40, -60}}, color = {114, 159, 207}));
+    connect(fixedFlow2.port_b, brain.port_b) annotation(
+        Line(points = {{0, 16}, {-10, 16}}, color = {204, 0, 0}));
+    connect(fixedFlow3.port_b, heart.port_b) annotation(
+        Line(points = {{0, -6}, {-10, -6}}, color = {204, 0, 0}));
+    connect(fixedFlow4.port_b, muscle.port_b) annotation(
+        Line(points = {{0, -30}, {-10, -30}}, color = {204, 0, 0}));
+    connect(fixedFlow5.port_b, skin.port_b) annotation(
+        Line(points = {{0, -50}, {-10, -50}}, color = {204, 0, 0}));
+  connect(singleDose.cport, gitAbsorption.cport_a) annotation(
+        Line(points = {{84, -26}, {84, -32}}, color = {114, 159, 207}));
+  connect(gitAbsorption.cport_b, gut.cport) annotation(
+        Line(points = {{84, -52}, {84, -56}, {10, -56}}, color = {114, 159, 207}));
+    annotation(
+        experiment(StartTime = 0, StopTime = 43200, Tolerance = 1e-06, Interval = 86.4));
+    end OralDoseGUTWholeBody;
   end Examples;
 
   package Utilities
