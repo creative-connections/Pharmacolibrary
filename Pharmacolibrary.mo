@@ -485,74 +485,88 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
         parameter Modelica.Units.SI.Mass BW = 70 "body weight";
         parameter Modelica.Units.SI.Density ro = 985 "average body density";
         parameter Pharmacolibrary.Types.VolumeFlowRate CO = 8.333e-5 "cardiac output";
-        parameter Real FVad = 0.213 "adipose fractional tissue volume";
-        parameter Real FVbo = 0.085629 "bone fractional tissue volume";
-        parameter Real FVbr = 0.02 "brain fractional tissue volume";
-        parameter Real FVgu = 0.0171 "gut fractional tissue volume";
-        parameter Real FVhe = 0.0047 "heart fractional tissue volume";
-        parameter Real FVki = 0.0044 "kidney fractional tissue volume";
-        parameter Real FVli = 0.021 "liver fractional tissue volume";
-        parameter Real FVlu = 0.0076 "lung fractional tissue volume";
-        parameter Real FVmu = 0.4 "muscle fractional tissue volume";
-        parameter Real FVsk = 0.0371 "skin fractional tissue volume";
-        parameter Real FVsp = 0.0026 "spleen fractional tissue volume";
-        parameter Real FVte = 0.01 "testes fractional tissue volume";
-        parameter Real FVve = 0.0514 "venous fractional tissue volume";
-        parameter Real FVar = 0.0257 "arterial fractional tissue volume";
-        parameter Real FVpl = 0.0424 "plasma fractional tissue volume";
-        parameter Real FVrb = 0.0347 "erythrocytes fractional tissue volume";
-        parameter Real FVre = 0.099771 "rest of body fractional tissue volume";
-        parameter Real FQad = 0.05 "adipose fractional blood flow";
-      parameter Real FQbo = 0.05 "bone fractional blood flow";
-      parameter Real FQbr = 0.12 "brain fractional blood flow";
-      parameter Real FQgu = 0.146462 "gut fractional blood flow";
-      parameter Real FQhe = 0.04 "heart fractional blood flow";
-      parameter Real FQki = 0.19 "kidney fractional blood flow";
-      parameter Real FQh = 0.215385 "hepatic (venous side) fractional blood flow";
-      parameter Real FQlu = 1 "lung fractional blood flow";
-      parameter Real FQmu = 0.17 "muscle fractional blood flow";
-      parameter Real FQsk = 0.05 "skin fractional blood flow";
-      parameter Real FQsp = 0.017231 "spleen fractional blood flow";
-      parameter Real FQte = 0.01076 "testes fractional blood flow";
-      parameter Real FQre = 0.103855 "rest of body fractional blood flow";
+        parameter Real FVad = 0.213 "adipose fractional tissue volume" annotation(Dialog(group="Tissue Volumes"));
+        parameter Real FVbo = 0.085629 "bone fractional tissue volume" annotation(Dialog(group="Tissue Volumes"));
+        parameter Real FVbr = 0.02 "brain fractional tissue volume" annotation(Dialog(group="Tissue Volumes"));
+        parameter Real FVgu = 0.0171 "gut fractional tissue volume" annotation(Dialog(group="Tissue Volumes"));
+        parameter Real FVhe = 0.0047 "heart fractional tissue volume" annotation(Dialog(group="Tissue Volumes"));
+        parameter Real FVki = 0.0044 "kidney fractional tissue volume" annotation(Dialog(group="Tissue Volumes"));
+        parameter Real FVli = 0.021 "liver fractional tissue volume" annotation(Dialog(group="Tissue Volumes"));
+        parameter Real FVlu = 0.0076 "lung fractional tissue volume" annotation(Dialog(group="Tissue Volumes"));
+        parameter Real FVmu = 0.4 "muscle fractional tissue volume" annotation(Dialog(group="Tissue Volumes"));
+        parameter Real FVsk = 0.0371 "skin fractional tissue volume" annotation(Dialog(group="Tissue Volumes"));
+        parameter Real FVsp = 0.0026 "spleen fractional tissue volume" annotation(Dialog(group="Tissue Volumes"));
+        parameter Real FVte = 0.01 "testes fractional tissue volume" annotation(Dialog(group="Tissue Volumes"));
+        parameter Real FVve = 0.0514 "venous fractional tissue volume" annotation(Dialog(group="Tissue Volumes"));
+        parameter Real FVar = 0.0257 "arterial fractional tissue volume" annotation(Dialog(group="Tissue Volumes"));
+        parameter Real FVpl = 0.0424 "plasma fractional tissue volume" annotation(Dialog(group="Tissue Volumes"));
+        parameter Real FVrb = 0.0347 "erythrocytes fractional tissue volume" annotation(Dialog(group="Tissue Volumes"));
+        parameter Real FVre = 0.099771 "rest of body fractional tissue volume" annotation(Dialog(group="Tissue Volumes"));
+        parameter Real FQad = 0.05 "adipose fractional blood flow" annotation(Dialog(group="Tissue Blood Flows"));
+      parameter Real FQbo = 0.05 "bone fractional blood flow" annotation(Dialog(group="Tissue Blood Flows"));
+      parameter Real FQbr = 0.12 "brain fractional blood flow" annotation(Dialog(group="Tissue Blood Flows"));
+      parameter Real FQgu = 0.146462 "gut fractional blood flow" annotation(Dialog(group="Tissue Blood Flows"));
+      parameter Real FQhe = 0.04 "heart fractional blood flow" annotation(Dialog(group="Tissue Blood Flows"));
+      parameter Real FQki = 0.19 "kidney fractional blood flow" annotation(Dialog(group="Tissue Blood Flows"));
+      parameter Real FQh = 0.215385 "hepatic (venous side) fractional blood flow" annotation(Dialog(group="Tissue Blood Flows"));
+      parameter Real FQlu = 1 "lung fractional blood flow" annotation(Dialog(group="Tissue Blood Flows"));
+      parameter Real FQmu = 0.17 "muscle fractional blood flow" annotation(Dialog(group="Tissue Blood Flows"));
+      parameter Real FQsk = 0.05 "skin fractional blood flow" annotation(Dialog(group="Tissue Blood Flows"));
+      parameter Real FQsp = 0.017231 "spleen fractional blood flow" annotation(Dialog(group="Tissue Blood Flows"));
+      parameter Real FQte = 0.01076 "testes fractional blood flow" annotation(Dialog(group="Tissue Blood Flows"));
+      parameter Real FQre = 0.103855 "rest of body fractional blood flow" annotation(Dialog(group="Tissue Blood Flows"));
+      parameter Real kTBlu = 0.8 "lungs tissue to blood concentration ratio" annotation(Dialog(group="Concentration Ratios"));
+      parameter Real kTBad = 0.2 "adipose tissue to blood concentration ratio" annotation(Dialog(group="Concentration Ratios"));
+      parameter Real kTBbo = 0.25 "bone tissue to blood concentration ratio" annotation(Dialog(group="Concentration Ratios"));
+      parameter Real kTBbr = 0.7 "brain tissue to blood concentration ratio" annotation(Dialog(group="Concentration Ratios"));
+      parameter Real kTBhe = 0.9 "heart tissue to blood concentration ratio" annotation(Dialog(group="Concentration Ratios"));
+      parameter Real kTBmu = 0.85 "muscle tissue to blood concentration ratio" annotation(Dialog(group="Concentration Ratios"));
+      parameter Real kTBsk = 0.7 "skin tissue to blood concentration ratio" annotation(Dialog(group="Concentration Ratios"));
+      parameter Real kTBgu = 0.9 "gut tissue to blood concentration ratio" annotation(Dialog(group="Concentration Ratios"));
+      parameter Real kTBli = 1.35 "liver tissue to blood concentration ratio" annotation(Dialog(group="Concentration Ratios"));
+      parameter Real kTBsp = 0.9 "spleen tissue to blood concentration ratio" annotation(Dialog(group="Concentration Ratios"));
+      parameter Real kTBki = 1.35 "kidney tissue to blood concentration ratio" annotation(Dialog(group="Concentration Ratios"));
+      parameter Real kTBte = 0.7 "testes tissue to blood concentration ratio" annotation(Dialog(group="Concentration Ratios"));
+      parameter Real kTBre = 0.8 "rest of body tissue to blood concentration ratio" annotation(Dialog(group="Concentration Ratios"));
+      parameter Pharmacolibrary.Types.TimeAging kgit = 2.776666666666667e-4 "transfer coeficient from GIT" annotation(Dialog(group="Other"));
       
         Pharmacolibrary.Pharmacokinetic.SystemicCompartment venous(V = BW/ro * FVve) annotation(
           Placement(transformation(origin = {-70, 26}, extent = {{-10, -10}, {10, 10}})));
         Pharmacolibrary.Pharmacokinetic.FlowGround flowGround annotation(
           Placement(transformation(origin = {-70, 0}, extent = {{-10, -10}, {10, 10}})));
-        Pharmacolibrary.Pharmacokinetic.TissueCompartment lungs(V = BW/ro * FVlu) annotation(
+        Pharmacolibrary.Pharmacokinetic.TissueCompartment lungs(V = BW/ro*FVlu, kTB = kTBlu) annotation(
           Placement(transformation(origin = {-20, 88}, extent = {{-10, -10}, {10, 10}})));
         Pharmacolibrary.Pharmacokinetic.SystemicCompartment arterial(V = BW/ro * FVar) annotation(
           Placement(transformation(origin = {78, 22}, extent = {{-10, -10}, {10, 10}})));
         Pharmacolibrary.Pharmacokinetic.FixedFlow adiposeFlow(Q = CO * FQad) annotation(
           Placement(transformation(origin = {10, 62}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-        Pharmacolibrary.Pharmacokinetic.TissueCompartment adipose(V = BW/ro * FVad) annotation(
+        Pharmacolibrary.Pharmacokinetic.TissueCompartment adipose(V = BW/ro*FVad, kTB = kTBad) annotation(
           Placement(transformation(origin = {-20, 62}, extent = {{-10, -10}, {10, 10}})));
         Pharmacolibrary.Pharmacokinetic.FixedFlow boneFlow(Q = CO * FQbo) annotation(
           Placement(transformation(origin = {10, 40}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-        Pharmacolibrary.Pharmacokinetic.TissueCompartment bone(V = BW/ro * FVbo) annotation(
+        Pharmacolibrary.Pharmacokinetic.TissueCompartment bone(V = BW/ro*FVbo, kTB = kTBbo) annotation(
           Placement(transformation(origin = {-20, 40}, extent = {{-10, -10}, {10, 10}})));
         Pharmacolibrary.Pharmacokinetic.FixedFlow brainFlow(Q = CO * FQbr) annotation(
           Placement(transformation(origin = {10, 16}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-        Pharmacolibrary.Pharmacokinetic.TissueCompartment brain(V = BW/ro * FVbr) annotation(
+        Pharmacolibrary.Pharmacokinetic.TissueCompartment brain(V = BW/ro*FVbr, kTB = kTBbr) annotation(
           Placement(transformation(origin = {-20, 16}, extent = {{-10, -10}, {10, 10}})));
         Pharmacolibrary.Pharmacokinetic.FixedFlow heartFlow(Q = CO * FQhe) annotation(
           Placement(transformation(origin = {10, -6}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-        Pharmacolibrary.Pharmacokinetic.TissueCompartment heart(V = BW/ro * FVhe) annotation(
+        Pharmacolibrary.Pharmacokinetic.TissueCompartment heart(V = BW/ro*FVhe, kTB = kTBhe) annotation(
           Placement(transformation(origin = {-20, -6}, extent = {{-10, -10}, {10, 10}})));
-        Pharmacolibrary.Pharmacokinetic.TissueCompartment muscle(V = BW/ro * FVmu) annotation(
+        Pharmacolibrary.Pharmacokinetic.TissueCompartment muscle(V = BW/ro*FVmu, kTB = kTBmu) annotation(
           Placement(transformation(origin = {-20, -30}, extent = {{-10, -10}, {10, 10}})));
         Pharmacolibrary.Pharmacokinetic.FixedFlow muscleFlow(Q = CO * FQmu) annotation(
           Placement(transformation(origin = {10, -30}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-        Pharmacolibrary.Pharmacokinetic.TissueCompartment skin(V = BW/ro * FVsk) annotation(
+        Pharmacolibrary.Pharmacokinetic.TissueCompartment skin(V = BW/ro*FVsk, kTB = kTBsk) annotation(
           Placement(transformation(origin = {-20, -50}, extent = {{-10, -10}, {10, 10}})));
         Pharmacolibrary.Pharmacokinetic.FixedFlow skinFlow(Q = CO * FQsk) annotation(
           Placement(transformation(origin = {10, -50}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-        Pharmacolibrary.Pharmacokinetic.TissueCompartment gut(V = BW/ro * FVgu) annotation(
+        Pharmacolibrary.Pharmacokinetic.TissueCompartment gut(V = BW/ro*FVgu, kTB = kTBgu) annotation(
           Placement(transformation(origin = {10, -66}, extent = {{-10, -10}, {10, 10}})));
-        Pharmacolibrary.Pharmacokinetic.TissueCompartment spleen(V = BW/ro * FVsp) annotation(
+        Pharmacolibrary.Pharmacokinetic.TissueCompartment spleen(V = BW/ro*FVsp, kTB = kTBsp) annotation(
           Placement(transformation(origin = {10, -90}, extent = {{-10, -10}, {10, 10}})));
-        Pharmacolibrary.Pharmacokinetic.TissueCompartment liver(V = BW/ro * FVli) annotation(
+        Pharmacolibrary.Pharmacokinetic.TissueCompartment liver(V = BW/ro*FVli, kTB = kTBli) annotation(
           Placement(transformation(origin = {-20, -78}, extent = {{-10, -10}, {10, 10}})));
         Pharmacolibrary.Pharmacokinetic.FixedFlow gutFlow(Q = CO * FQgu) annotation(
           Placement(transformation(origin = {48, -66}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
@@ -562,7 +576,7 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
           Placement(transformation(origin = {48, -90}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
         Pharmacolibrary.Pharmacokinetic.FixedFlow kidneyFlow(Q = CO * FQki) annotation(
           Placement(transformation(origin = {10, -108}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-        Pharmacolibrary.Pharmacokinetic.TissueCompartment kidney(V = BW/ro * FVki) annotation(
+        Pharmacolibrary.Pharmacokinetic.TissueCompartment kidney(V = BW/ro*FVki, kTB = kTBki) annotation(
           Placement(transformation(origin = {-58, -98}, extent = {{-10, -10}, {10, 10}})));
         Pharmacolibrary.Pharmacokinetic.ClearanceDrivenElimination kidneyElim(CL = 2.7777777777777775e-6) annotation(
           Placement(transformation(origin = {-66, -70}, extent = {{-10, -10}, {10, 10}})));
@@ -576,14 +590,18 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
           Placement(transformation(origin = {0, 100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {32, 100}, extent = {{-10, -10}, {10, 10}})));
         Interfaces.ConcentrationPort_a inhalationDose annotation(
           Placement(transformation(origin = {-44, 100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-44, 100}, extent = {{-10, -10}, {10, 10}})));
-  TissueCompartment testes(V = BW/ro*FVte)  annotation(
+  TissueCompartment testes(V = BW/ro*FVte, kTB = kTBte)  annotation(
           Placement(transformation(origin = {-20, -122}, extent = {{-10, -10}, {10, 10}})));
   FixedFlow testesFlow(Q = CO*FQte)  annotation(
           Placement(transformation(origin = {16, -124}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-  TissueCompartment rest(V = BW/ro*FVre)  annotation(
+  TissueCompartment rest(V = BW/ro*FVre, kTB = kTBre)  annotation(
           Placement(transformation(origin = {-20, -144}, extent = {{-10, -10}, {10, 10}})));
   FixedFlow restFlow(Q = CO*FQre)  annotation(
           Placement(transformation(origin = {14, -144}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  UnidirectionalTransport unidirectionalTransport(k = kgit)  annotation(
+          Placement(transformation(origin = {50, -30}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  LumenCompartment lumenCompartment annotation(
+          Placement(transformation(origin = {50, 38}, extent = {{-10, -10}, {10, 10}})));
       equation
         connect(flowGround.port_a, venous.port_a) annotation(
           Line(points = {{-80, 0}, {-80, 26}}, color = {204, 0, 0}));
@@ -659,8 +677,6 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
           Line(points = {{-100, 0}, {-98, 0}, {-98, 36}, {-70, 36}}));
         connect(arterialDose, arterial.cport) annotation(
           Line(points = {{100, 0}, {98, 0}, {98, 32}, {78, 32}}));
-        connect(oralDose, gut.cport) annotation(
-          Line(points = {{0, 100}, {58, 100}, {58, -56}, {10, -56}}));
         connect(inhalationDose, lungs.cport) annotation(
           Line(points = {{-44, 100}, {-20, 100}, {-20, 98}}));
   connect(testesFlow.port_b, testes.port_b) annotation(
@@ -675,8 +691,14 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
           Line(points = {{24, -144}, {68, -144}, {68, 22}}, color = {204, 0, 0}));
   connect(rest.port_a, venous.port_b) annotation(
           Line(points = {{-30, -144}, {-80, -144}, {-80, -22}, {-50, -22}, {-50, 26}, {-60, 26}}, color = {204, 0, 0}));
+  connect(unidirectionalTransport.cport_a, gut.cport) annotation(
+          Line(points = {{50, -40}, {50, -56}, {10, -56}}, color = {114, 159, 207}));
+  connect(oralDose, lumenCompartment.cport) annotation(
+          Line(points = {{0, 100}, {50, 100}, {50, 48}}));
+  connect(unidirectionalTransport.cport_b, lumenCompartment.cport) annotation(
+          Line(points = {{50, -20}, {50, 48}}, color = {114, 159, 207}));
         annotation(
-          Icon(graphics = {Bitmap(origin = {2, 0}, extent = {{-100, -100}, {100, 100}}, fileName = "modelica://Pharmacolibrary/Resources/Icons/humanArteriesVeinsSmall.png"), Line(origin = {-42.6615, 0.160772}, points = {{-50, 0}, {10, (0 - 16)}}, color = {26, 95, 180}, thickness = 4), Line(origin = {86.52, -0.98}, points = {{-50, 0}, {8, 0}}, color = {237, 51, 59}, thickness = 4), Line(origin = {21.7814, 86.6624}, points = {{8, 7}, {8, -7}, {-8, -7}, {-20, -7}}, color = {255, 163, 72}, thickness = 4, smooth = Smooth.Bezier), Line(origin = {-31.926, 84.8971}, points = {{-11, 9}, {-11, -1}, {29, -1}}, color = {153, 193, 241}, thickness = 4, smooth = Smooth.Bezier)}));
+          Icon(graphics = {Bitmap(origin = {2, 0}, extent = {{-100, -100}, {100, 100}}, fileName = "modelica://Pharmacolibrary/Resources/Icons/humanArteriesVeinsSmall.png"), Line(origin = {86.52, -0.98}, points = {{-50, 0}, {8, 0}}, color = {237, 51, 59}, thickness = 4), Line(origin = {21.7814, 86.6624}, points = {{8, 7}, {8, -7}, {-8, -7}, {-20, -7}}, color = {255, 163, 72}, thickness = 4, smooth = Smooth.Bezier), Line(origin = {-31.926, 84.8971}, points = {{-11, 9}, {-11, -1}, {29, -1}}, color = {153, 193, 241}, thickness = 4, smooth = Smooth.Bezier), Line(origin = {-41.49, -0.68}, points = {{-50, 0}, {8, 0}}, color = {53, 132, 228}, thickness = 4)}));
       end WholeBody;
     end Systems;
 
@@ -883,8 +905,8 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
       extends Pharmacolibrary.Interfaces.PartialTransfer(final cBSwitch = false);
       parameter Pharmacolibrary.Types.TimeAging k "first order transfer coefficient";
     protected
-      parameter Pharmacolibrary.Types.MassConcentration cTreshold = 1.0e-12;
-      parameter Pharmacolibrary.Types.Volume k2CL = 1;
+      parameter Pharmacolibrary.Types.MassConcentration cTreshold = 1.0e-12 "concentration threshold to be reached for transfer";
+      parameter Pharmacolibrary.Types.Volume k2CL = 1 "volume";
     equation
       cport_b.massFlowRate = if cB > cTreshold then k*k2CL*cB else 0;
       annotation(
@@ -1493,15 +1515,31 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
     model PeriodicOralDoseWholeBody
       extends Modelica.Icons.Example;
   Pharmacokinetic.Systems.WholeBody wholeBody(ro(displayUnit = "kg/m3"))  annotation(
-        Placement(transformation(origin = {-2, -28}, extent = {{-48, -48}, {48, 48}})));
+        Placement(transformation(origin = {-8, -28}, extent = {{-48, -48}, {48, 48}})));
   Sources.PeriodicDose periodicDose(firstAdminTime = 28800, adminPeriod = 28800, adminMass = 0.001, doseCount = 15, adminDuration = 60)  annotation(
-        Placement(transformation(origin = {61, 51}, extent = {{-21, -21}, {21, 21}})));
+        Placement(transformation(origin = {59, 41}, extent = {{-21, -21}, {21, 21}})));
     equation
   connect(periodicDose.cport, wholeBody.oralDose) annotation(
-        Line(points = {{61, 30}, {61, 20}, {14, 20}}, color = {114, 159, 207}));
+        Line(points = {{59, 20}, {7, 20}}, color = {114, 159, 207}));
     annotation(
         experiment(StartTime = 0, StopTime = 864000, Tolerance = 1e-06, Interval = 1728));
 end PeriodicOralDoseWholeBody;
+    
+    model ParacetamolPeriodicOralDoseWholeBody
+      extends Modelica.Icons.Example;
+    Pharmacokinetic.Systems.WholeBody wholeBody(ro(displayUnit = "kg/m3"), kTBlu = 0.8, kTBad = 0.2, kTBbo = 0.25, kTBbr = 0.7, kTBhe = 0.9, kTBmu = 0.85, kTBsk = 0.7, kTBgu = 0.9, kTBli = 1.35, kTBsp = 0.9, kTBki = 1.35, kTBte = 0.7, kTBre = 0.8, kgit = 2.776666666666667e-4)  annotation(
+        Placement(transformation(origin = {-8, -28}, extent = {{-48, -48}, {48, 48}})));
+    Sources.PeriodicDose periodicDose(firstAdminTime = 28800, adminPeriod = 28800, adminMass = 0.0015, doseCount = 5, adminDuration = 60)  annotation(
+        Placement(transformation(origin = {59, 41}, extent = {{-21, -21}, {21, 21}})));
+      parameter Pharmacolibrary.Types.MassConcentration cMin= 0.01 "minimum therapeutic concentration";
+      parameter Pharmacolibrary.Types.MassConcentration cMax= 0.15 "maximum therapeutic concentration threshold for toxicity";
+      parameter Pharmacolibrary.Types.MassConcentration cLethal= 0.3 "lethal concentration";
+    equation
+    connect(periodicDose.cport, wholeBody.oralDose) annotation(
+        Line(points = {{59, 20}, {7, 20}}, color = {114, 159, 207}));
+    annotation(
+        experiment(StartTime = 0, StopTime = 864000, Tolerance = 1e-06, Interval = 1728));
+    end ParacetamolPeriodicOralDoseWholeBody;
   end Examples;
 
   package Utilities
