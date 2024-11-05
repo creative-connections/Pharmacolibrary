@@ -1556,6 +1556,26 @@ end PeriodicOralDoseWholeBody;
 
     extends Modelica.Icons.UtilitiesPackage;
   end Utilities;
+
+  package Test
+  extends Modelica.Icons.Package;
+
+    model ParacetamolEquations
+    Real C "concentration";
+    Real H "heaviside step function";
+    parameter Real F = 0.8 "bioavailability";
+    parameter Real Dose = 1000 * 1e-6 "dose 1000 mg";
+    parameter Real Vd = 65 * 1e-3 "Volume of distribution";
+    parameter Real Cl = 20 * 1e-3 / 3600 "clearance from L/h to m3/s";
+    parameter Real t0 = 60 "time of administration of first dose";
+    
+    equation
+    H = if time >= t0 then 1 else 0;
+C = F * Dose / Vd * H * exp(-Cl/Vd*(time-t0));
+    annotation(
+        experiment(StartTime = 0, StopTime = 3600, Tolerance = 1e-06, Interval = 7.2));
+end ParacetamolEquations;
+  end Test;
   annotation(
     uses(Modelica(version = "4.0.0")),
     Documentation(info = "<html><head></head><body><h1>Pharmacolibrary library</h1><div>is a libary for modelling of pharmako-kinetics and pharmako-dynamics.
