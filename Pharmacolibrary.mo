@@ -261,6 +261,20 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
     end VariableInfusion;
   end Sources;
 
+  package Utilities
+    model TotalMassCalculator "total mass calculator helper"
+      extends Interfaces.PartialTool;
+      input Types.Mass[:] MArr;
+      Types.Mass MTot = sum(MArr);
+    equation
+
+      annotation(
+        Documentation(info = "<html><head></head><body><h1>TotalMassCalculator</h1><div>is a helper component. It calculate sum of drug mass from multiple compartments.</div><div>The elements of array MArr must be assigned the mass variables that should be summed up (using fully qualified path to the variables) as e.g.</div><div><br></div><div>Pharmacolibrary.Pharmacokinetic.TotalMassCalculator body1(MArr = {vein.M, artery.M, TissueCompartment1.M})&nbsp;</div><div><br></div><div>in the example&nbsp;Pharmacolibrary.Components.Tests.TotalMassCalculator.</div></body></html>"));
+    end TotalMassCalculator;
+
+    extends Modelica.Icons.UtilitiesPackage;
+  end Utilities;
+
   package Icons
     extends Modelica.Icons.IconsPackage;
 
@@ -1542,20 +1556,6 @@ end PeriodicOralDoseWholeBody;
     end ParacetamolPeriodicOralDoseWholeBody;
   end Examples;
 
-  package Utilities
-    model TotalMassCalculator "total mass calculator helper"
-      extends Interfaces.PartialTool;
-      input Types.Mass[:] MArr;
-      Types.Mass MTot = sum(MArr);
-    equation
-
-      annotation(
-        Documentation(info = "<html><head></head><body><h1>TotalMassCalculator</h1><div>is a helper component. It calculate sum of drug mass from multiple compartments.</div><div>The elements of array MArr must be assigned the mass variables that should be summed up (using fully qualified path to the variables) as e.g.</div><div><br></div><div>Pharmacolibrary.Pharmacokinetic.TotalMassCalculator body1(MArr = {vein.M, artery.M, TissueCompartment1.M})&nbsp;</div><div><br></div><div>in the example&nbsp;Pharmacolibrary.Components.Tests.TotalMassCalculator.</div></body></html>"));
-    end TotalMassCalculator;
-
-    extends Modelica.Icons.UtilitiesPackage;
-  end Utilities;
-
   package Test
   extends Modelica.Icons.Package;
 
@@ -1572,8 +1572,25 @@ end PeriodicOralDoseWholeBody;
     H = if time >= t0 then 1 else 0;
 C = F * Dose / Vd * H * exp(-Cl/Vd*(time-t0));
     annotation(
-        experiment(StartTime = 0, StopTime = 3600, Tolerance = 1e-06, Interval = 7.2));
+        experiment(StartTime = 0, StopTime = 36000, Tolerance = 1e-06, Interval = 72),
+  Documentation(info = "<html><head></head><body><div>Simple equation based model wiht Paracetamol pharmacokinetic parameter [1].</div><div><br></div>References:<div>[1]&nbsp;https://sepia2.unil.ch/pharmacology/drugs/paracetamol/</div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div></body></html>"));
 end ParacetamolEquations;
+
+    model ParacetamolComponents
+Pharmacokinetic.Systems.WholeBody wholeBody(ro(displayUnit = "kg/m3"), kTBlu = 0.8, kTBad = 0.2, kTBbo = 0.25, kTBbr = 0.7, kTBhe = 0.9, kTBmu = 0.85, kTBsk = 0.7, kTBgu = 0.9, kTBli = 1.35, kTBsp = 0.9, kTBki = 1.35, kTBte = 0.7, kTBre = 0.8, kgit = 2.776666666666667e-4)  annotation(
+        Placement(transformation(origin = {-8, -28}, extent = {{-48, -48}, {48, 48}})));
+    Sources.PeriodicDose periodicDose(firstAdminTime = 60, adminPeriod = 28800, adminMass = 0.001, doseCount = 1, adminDuration = 60)  annotation(
+        Placement(transformation(origin = {59, 41}, extent = {{-21, -21}, {21, 21}})));
+      parameter Pharmacolibrary.Types.MassConcentration cMin= 0.01 "minimum therapeutic concentration";
+      parameter Pharmacolibrary.Types.MassConcentration cMax= 0.15 "maximum therapeutic concentration threshold for toxicity";
+      parameter Pharmacolibrary.Types.MassConcentration cLethal= 0.3 "lethal concentration";
+    equation
+    connect(periodicDose.cport, wholeBody.oralDose) annotation(
+        Line(points = {{59, 20}, {7, 20}}, color = {114, 159, 207}));
+    annotation(
+        experiment(StartTime = 0, StopTime = 36000, Tolerance = 1e-06, Interval = 72));
+    
+    end ParacetamolComponents;
   end Test;
   annotation(
     uses(Modelica(version = "4.0.0")),
