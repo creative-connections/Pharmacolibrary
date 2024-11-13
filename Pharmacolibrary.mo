@@ -1356,7 +1356,7 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
         Line(points = {{0, -50}, {-10, -50}}, color = {204, 0, 0}));
       annotation(
         experiment(StartTime = 0, StopTime = 43200, Tolerance = 1e-06, Interval = 86.4),
-        Documentation(info = "<html><head></head><body>Implementation of schematic physiologicaly based pharmacokinetics (PBPK) model, with simplified GUT and liver and kidney elimination.<div><br></div><div>References:</div><div><div class=\"csl-entry\">Jones, H. M., &amp; Rowland-Yeo, K. (2013). Basic concepts in physiologically based pharmacokinetic modeling in drug discovery and development. <i>CPT: Pharmacometrics and Systems Pharmacology</i>, <i>2</i>(8). https://doi.org/10.1038/psp.2013.41</div></div><div class=\"csl-entry\"><br></div></body></html>"));
+        Documentation(info = "<html><head></head><body>Implementation of schematic physiologicaly based pharmacokinetics (PBPK) model, with simplified GUT and liver and kidney elimination. [1]<div><br></div><div>References:</div><div><div class=\"csl-entry\">[1] Jones, H. M., &amp; Rowland-Yeo, K. (2013). Basic concepts in physiologically based pharmacokinetic modeling in drug discovery and development. <i>CPT: Pharmacometrics and Systems Pharmacology</i>, <i>2</i>(8). https://doi.org/10.1038/psp.2013.41</div></div><div class=\"csl-entry\"><br></div></body></html>"));
     end SingleDoseIntravenousWholeBody;
 
     model OralDoseGUTWholeBody
@@ -1582,7 +1582,7 @@ end PeriodicOralDoseWholeBody;
   C = effectiveDose / Vd * H * exp(-Cl/Vd*(time-t0));
     annotation(
         experiment(StartTime = 0, StopTime = 36000, Tolerance = 1e-06, Interval = 72),
-  Documentation(info = "<html><head></head><body><div>Simple equation based model wiht Paracetamol pharmacokinetic parameter [1].</div><div><br></div>References:<div>[1]&nbsp;https://sepia2.unil.ch/pharmacology/drugs/paracetamol/</div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div></body></html>"));
+  Documentation(info = "<html><head></head><body><div>Simple equation based model with pharmacokinetic parameter of acetaminophen (paracetamol) [1].</div><div><br></div>References:<div>[1]&nbsp;https://sepia2.unil.ch/pharmacology/drugs/paracetamol/</div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div></body></html>"));
 end ParacetamolEquations;
 
     model ParacetamolComponents
@@ -1597,7 +1597,8 @@ Pharmacokinetic.Systems.WholeBody wholeBody(ro(displayUnit = "kg/m3"), kTBlu = 0
     connect(periodicDose.cport, wholeBody.oralDose) annotation(
         Line(points = {{59, 20}, {7, 20}}, color = {114, 159, 207}));
     annotation(
-        experiment(StartTime = 0, StopTime = 36000, Tolerance = 1e-06, Interval = 72));
+        experiment(StartTime = 0, StopTime = 36000, Tolerance = 1e-06, Interval = 72),
+  Documentation(info = "<html><head></head><body><div>Whole body model of pharmacokinetic [1] with parameter of acetaminophen (paracetamol) recounted to appropriate params of the model[2].</div><div><br></div>References:<div>[1] Jones, H. M., &amp; Rowland-Yeo, K. (2013). Basic concepts in physiologically based pharmacokinetic modeling in drug discovery and development.&nbsp;<i>CPT: Pharmacometrics and Systems Pharmacology</i>,&nbsp;<i>2</i>(8). https://doi.org/10.1038/psp.2013.41</div><div><div>[2]&nbsp;https://sepia2.unil.ch/pharmacology/drugs/paracetamol/</div></div><div><br></div><div><br></div></body></html>"));
     
     end ParacetamolComponents;
   end Test;
