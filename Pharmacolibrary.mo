@@ -124,7 +124,8 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
       cport.freeBloodConc = freeBloodConc;
       cport.freeTissueConc = freeTissueConc;
       annotation(
-        Icon);
+        Icon,
+  Documentation(info = "<html><head></head><body><div>The Partial Tissue compartments has two FlowPorts and one ConcentrationPort connectors. It stores a mass of drug which is diluted in constant volume of blood/plamsa. It evaluates drug concentration, calculates mixing of inflow and contained blood/plasma of different drug concentrations and calculates change in drug amount due to transfer via the ConcentrationPort.</div><div>If it is connected to other compartments via the ConcentrationPort, there should be a transfer component inbetween.</div><div><br></div><div>C = M/V</div><div>CB = C/kTB</div><div>freeTissueConc = fu*C</div><div>freeBloodConc = fu*C/kTB</div><h2>Variables</h2><div><div>C - drug total concentration in tissue</div><div>CB - drug total concentration in blood/plasma</div><div>freeTissueConc - drug free concentration in tissue</div><div>freeBloodConc - drug free concentration in blood/plasma</div><div>M - drug total mass</div></div><h2>Parameters</h2><div>V - total distribution volume</div><div>C0 - drug initial concentration in tissue</div><div>kTB - tissue-blood concentration ratio</div><div>fu - fraction unbound</div><div><br></div></body></html>"));
     end PartialCompartment;
 
     partial model PartialTransfer
@@ -812,9 +813,7 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
       annotation(
         defaultComponentName = "tissue",
         Icon,
-        Documentation(info = "<html><head></head><body><h1>TissueCompartment</h1><div>The Tissue compartments has two FlowPorts and one ConcentrationPort connectors. It stors a mass of drug which is diluted in constant volume of blood/plamsa. It evaluates drug concentration, calculates mixing of inflow and contained blood/plasma of different drug concentrations and calculates change in drug amount due to transfer via the ConcentrationPort.</div><div>If it is connected to other compartments via the ConcentrationPort, there should be a transfer component inbetween.</div><div><br></div><div>
-    C = M/V</div><div>CB = C/kTB</div><div>freeTissueConc = fu*C</div><div>freeBloodConc = fu*C/kTB
-    </div><h2>Variables</h2><div><div>C - drug total concentration in tissue</div><div>CB - drug total concentration in blood/plasma</div><div>freeTissueConc - drug free concentration in tissue</div><div>freeBloodConc - drug free concentration in blood/plasma</div><div>M - drug total mass</div></div><h2>Parameters</h2><div>V - total distribution volume</div><div>C0 - drug initial concentration in tissue</div><div>kTB - tissue-blood concentration ratio</div><div>fu - fraction unbound</div><div><br></div><div><br></div><div><br></div></body></html>"));
+        Documentation(info = "<html><head></head><body><h1>TissueCompartment</h1><div>The Tissue compartments has same composition as PartialTissueCompartment. It defines the equation</div><div>der(M) = Q*c</div><h2>Variables</h2><div><div>M - drug total mass</div></div><h2>Parameters</h2><div>inherited from PartialTissueCompartment&nbsp;</div><div>V - total distribution volume</div><div>C0 - drug initial concentration in tissue</div><div>kTB - tissue-blood concentration ratio</div><div>fu - fraction unbound</div><div><br></div><div><br></div><div><br></div></body></html>"));
     end GenericTissueCompartment;
 
     model TissueCompartment "Tissue compartment"
