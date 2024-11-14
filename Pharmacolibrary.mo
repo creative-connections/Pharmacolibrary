@@ -1612,7 +1612,7 @@ end PKWholeBodyModel;
   extends Modelica.Icons.Package;
 
     model ParacetamolEquations
-    Real C "concentration";
+    Pharmacolibrary.Types.MassConcentration C (displayUnit="mg/l") "concentration";
     Real H "heaviside step function";
     Real effectiveDose;
     Real eliminationRate;
