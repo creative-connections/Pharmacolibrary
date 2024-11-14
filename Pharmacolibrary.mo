@@ -929,6 +929,52 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
     end UnidirectionalTransport;
   end Pharmacokinetic;
 
+  package Models
+  extends Modelica.Icons.Package;
+  model PKTwoCompartmentModel
+    extends Modelica.Icons.Example;
+    Sources.PeriodicDose periodicDose(firstAdminTime = 28800, adminPeriod = 28800, adminMass = 0.001, doseCount = 15, adminDuration = 60) annotation(
+      Placement(transformation(origin = {66, 42}, extent = {{-10, -10}, {10, 10}})));
+    Pharmacokinetic.NoPerfusedTissueCompartment intestine(V(displayUnit = "m3") = 0.003) annotation(
+      Placement(transformation(origin = {66, 2}, extent = {{-10, -10}, {10, 10}})));
+    Pharmacokinetic.ConcBoundary drain(freeTissueConc = 0, freeBloodConc = 0) annotation(
+      Placement(transformation(origin = {-42, -24}, extent = {{-10, -10}, {10, 10}})));
+    Pharmacokinetic.ConcentrationGradientDiffusion intestine_blood(CL(displayUnit = "l/h") = 6.666666666666666e-7) annotation(
+      Placement(transformation(origin = {26, 2}, extent = {{-10, -10}, {10, 10}})));
+    Pharmacokinetic.ConcentrationGradientDiffusion blood_elim(CL(displayUnit = "l/h") = 1.6666666666666665e-7) annotation(
+      Placement(transformation(origin = {-42, 2}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+    Pharmacokinetic.NoPerfusedTissueCompartment blood(V = 0.005) annotation(
+      Placement(transformation(origin = {-6, 2}, extent = {{-10, -10}, {10, 10}})));
+  equation
+    connect(periodicDose.cport, intestine.cport) annotation(
+      Line(points = {{66, 32}, {66, 12}}, color = {114, 159, 207}));
+    connect(blood_elim.cport_b, blood.cport) annotation(
+      Line(points = {{-42, 12}, {-6, 12}}, color = {114, 159, 207}));
+    connect(intestine_blood.cport_a, blood.cport) annotation(
+      Line(points = {{26, 12}, {-6, 12}}, color = {114, 159, 207}));
+  connect(intestine.cport, intestine_blood.cport_b) annotation(
+      Line(points = {{66, 12}, {46, 12}, {46, -8}, {26, -8}}, color = {114, 159, 207}));
+  connect(drain.cport, blood_elim.cport_a) annotation(
+      Line(points = {{-42, -14}, {-42, -8}}, color = {114, 159, 207}));
+    annotation(
+      experiment(StartTime = 0, StopTime = 864000, Tolerance = 1e-06, Interval = 1728),
+      Diagram);
+  end PKTwoCompartmentModel;
+  model PKWholeBodyModel
+    extends Modelica.Icons.Example;
+  Pharmacokinetic.Systems.WholeBody wholeBody(ro(displayUnit = "kg/m3"))  annotation(
+      Placement(transformation(origin = {-8, -28}, extent = {{-48, -48}, {48, 48}})));
+  Sources.PeriodicDose periodicDose(firstAdminTime = 28800, adminPeriod = 28800, adminMass = 0.001, doseCount = 15, adminDuration = 60)  annotation(
+      Placement(transformation(origin = {59, 41}, extent = {{-21, -21}, {21, 21}})));
+  equation
+  connect(periodicDose.cport, wholeBody.oralDose) annotation(
+      Line(points = {{59, 20}, {7, 20}}, color = {114, 159, 207}));
+  annotation(
+      experiment(StartTime = 0, StopTime = 864000, Tolerance = 1e-06, Interval = 1728));
+  end PKWholeBodyModel;
+  
+  end Models;
+
   package Examples
     extends Modelica.Icons.ExamplesPackage;
 
@@ -1415,7 +1461,7 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
         Placement(transformation(origin = {-66, -70}, extent = {{-10, -10}, {10, 10}})));
       Pharmacokinetic.ClearanceDrivenElimination liverElim(CL = 2.7777777777777775e-6) annotation(
         Placement(transformation(origin = {-40, -70}, extent = {{-10, -10}, {10, 10}})));
-      Pharmacokinetic.GIT gitAbsorption annotation(
+      Pharmacokinetic.Systems.GIT gitAbsorption annotation(
         Placement(transformation(origin = {84, -42}, extent = {{-10, -10}, {10, 10}})));
     equation
       connect(flowGround.port_a, venous.port_a) annotation(
@@ -1496,37 +1542,37 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
         experiment(StartTime = 0, StopTime = 43200, Tolerance = 1e-06, Interval = 86.4));
     end OralDoseGUTWholeBody;
 
-    model PeriodicDoseElimination
+    model PKTwoCompartmentModel
       extends Modelica.Icons.Example;
       Sources.PeriodicDose periodicDose(firstAdminTime = 28800, adminPeriod = 28800, adminMass = 0.001, doseCount = 15, adminDuration = 60) annotation(
-        Placement(transformation(origin = {66, 22}, extent = {{-10, -10}, {10, 10}})));
+        Placement(transformation(origin = {66, 42}, extent = {{-10, -10}, {10, 10}})));
       Pharmacokinetic.NoPerfusedTissueCompartment intestine(V(displayUnit = "m3") = 0.003) annotation(
-        Placement(transformation(origin = {66, -18}, extent = {{-10, -10}, {10, 10}})));
+        Placement(transformation(origin = {66, 2}, extent = {{-10, -10}, {10, 10}})));
       Pharmacokinetic.ConcBoundary drain(freeTissueConc = 0, freeBloodConc = 0) annotation(
-        Placement(transformation(origin = {0, -24}, extent = {{-10, -10}, {10, 10}})));
+        Placement(transformation(origin = {-42, -24}, extent = {{-10, -10}, {10, 10}})));
       Pharmacokinetic.ConcentrationGradientDiffusion intestine_blood(CL(displayUnit = "l/h") = 6.666666666666666e-7) annotation(
-        Placement(transformation(origin = {50, 2}, extent = {{-10, -10}, {10, 10}})));
-      Pharmacokinetic.ConcentrationGradientDiffusion blood_elim(CL(displayUnit = "l/h") = 1.6666666666666665e-7) annotation(
-        Placement(transformation(origin = {0, 2}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-      Pharmacokinetic.NoPerfusedTissueCompartment blood(V = 0.005) annotation(
         Placement(transformation(origin = {26, 2}, extent = {{-10, -10}, {10, 10}})));
+      Pharmacokinetic.ConcentrationGradientDiffusion blood_elim(CL(displayUnit = "l/h") = 1.6666666666666665e-7) annotation(
+        Placement(transformation(origin = {-42, 2}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+      Pharmacokinetic.NoPerfusedTissueCompartment blood(V = 0.005) annotation(
+        Placement(transformation(origin = {-6, 2}, extent = {{-10, -10}, {10, 10}})));
     equation
       connect(periodicDose.cport, intestine.cport) annotation(
-        Line(points = {{66, 12}, {66, -8}}, color = {114, 159, 207}));
+        Line(points = {{66, 32}, {66, 12}}, color = {114, 159, 207}));
       connect(blood_elim.cport_b, blood.cport) annotation(
-        Line(points = {{0, 12}, {26, 12}}, color = {114, 159, 207}));
+        Line(points = {{-42, 12}, {-6, 12}}, color = {114, 159, 207}));
       connect(intestine_blood.cport_a, blood.cport) annotation(
-        Line(points = {{50, 12}, {26, 12}}, color = {114, 159, 207}));
+        Line(points = {{26, 12}, {-6, 12}}, color = {114, 159, 207}));
   connect(intestine.cport, intestine_blood.cport_b) annotation(
-        Line(points = {{66, -8}, {50, -8}}, color = {114, 159, 207}));
+        Line(points = {{66, 12}, {46, 12}, {46, -8}, {26, -8}}, color = {114, 159, 207}));
   connect(drain.cport, blood_elim.cport_a) annotation(
-        Line(points = {{0, -14}, {0, -8}}, color = {114, 159, 207}));
+        Line(points = {{-42, -14}, {-42, -8}}, color = {114, 159, 207}));
       annotation(
         experiment(StartTime = 0, StopTime = 864000, Tolerance = 1e-06, Interval = 1728),
         Diagram);
-    end PeriodicDoseElimination;
+    end PKTwoCompartmentModel;
 
-    model PeriodicOralDoseWholeBody
+    model PKWholeBodyModel
       extends Modelica.Icons.Example;
   Pharmacokinetic.Systems.WholeBody wholeBody(ro(displayUnit = "kg/m3"))  annotation(
         Placement(transformation(origin = {-8, -28}, extent = {{-48, -48}, {48, 48}})));
@@ -1537,9 +1583,9 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
         Line(points = {{59, 20}, {7, 20}}, color = {114, 159, 207}));
     annotation(
         experiment(StartTime = 0, StopTime = 864000, Tolerance = 1e-06, Interval = 1728));
-end PeriodicOralDoseWholeBody;
+end PKWholeBodyModel;
     
-    model ParacetamolPeriodicOralDoseWholeBody
+    model ParacetamolPKWholeBodyModel
       extends Modelica.Icons.Example;
     Pharmacokinetic.Systems.WholeBody wholeBody(ro(displayUnit = "kg/m3"), kTBlu = 0.8, kTBad = 0.2, kTBbo = 0.25, kTBbr = 0.7, kTBhe = 0.9, kTBmu = 0.85, kTBsk = 0.7, kTBgu = 0.9, kTBli = 1.35, kTBsp = 0.9, kTBki = 1.35, kTBte = 0.7, kTBre = 0.8, kgit = 1.1111666666666667e-4)  annotation(
         Placement(transformation(origin = {-8, -28}, extent = {{-48, -48}, {48, 48}})));
@@ -1554,7 +1600,13 @@ end PeriodicOralDoseWholeBody;
     annotation(
         experiment(StartTime = 0, StopTime = 864000, Tolerance = 1e-06, Interval = 1728),
   Documentation(info = "<html><head></head><body>Paracetamol pharmacokinetic model.<div><br></div><div>Minimal therapeutic contrntration cmin = 4 [1]</div><div><br></div><div>[1] Liu DJ, Collaku A. Bioequivalence and Safety of Twice-Daily Sustained-Release Paracetamol (Acetaminophen) Compared With 3- and 4-Times-Daily Paracetamol: A Repeat-Dose, Crossover Pharmacokinetic Study in Healthy Volunteers. Clin Pharmacol Drug Dev. 2018 Jan;7(1):77-86. doi: 10.1002/cpdd.369. Epub 2017 Aug 16. PMID: 28815997; PMCID: PMC6084369.</div><div><br></div></body></html>"));
-    end ParacetamolPeriodicOralDoseWholeBody;
+    end ParacetamolPKWholeBodyModel;
+
+    model ParacetamolPKSimple
+      extends Pharmacolibrary.Examples.PKTwoCompartmentModel(periodicDose(adminMass = 0.0015), intestine(kTB = 0.9));
+    equation
+
+    end ParacetamolPKSimple;
   end Examples;
 
   package Test
