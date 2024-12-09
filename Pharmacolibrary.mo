@@ -1013,84 +1013,176 @@ end WholeBodyAdministering;
   end PKWholeBodyModel;
 
     package Remdesivir
-    model BasicRemdesivirPK
-      extends Modelica.Icons.Example;
-      Sources.PeriodicDose periodicDose(firstAdminTime = 86400, adminPeriod = 86400, adminMass = 1e-4, doseCount = 10, adminDuration = 1800) annotation(
-        Placement(transformation(origin = {-28, 42}, extent = {{-10, -10}, {10, 10}})));
-      Pharmacokinetic.NoPerfusedTissueCompartment intestine(V(displayUnit = "m3") = 0.003) annotation(
-        Placement(transformation(origin = {26, 18}, extent = {{-10, -10}, {10, 10}})));
-      Pharmacokinetic.ConcBoundary kidney_liver_elimination(freeTissueConc = 0, freeBloodConc = 0) annotation(
-        Placement(transformation(origin = {-76, -84}, extent = {{-10, -10}, {10, 10}})));
-      Pharmacokinetic.ConcentrationGradientDiffusion intestine_blood(CL(displayUnit = "l/h") = 6.666666666666666e-7) annotation(
-        Placement(transformation(origin = {26, 40}, extent = {{-10, -10}, {10, 10}})));
-      Pharmacokinetic.ConcentrationGradientDiffusion blood_elim(CL(displayUnit = "l/h") = 1.6111111111111108e-5) annotation(
-        Placement(transformation(origin = {-42, 2}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-      Pharmacokinetic.NoPerfusedTissueCompartment RDVblood(V = 0.005) annotation(
-        Placement(transformation(origin = {-6, 2}, extent = {{-10, -10}, {10, 10}})));
-  Sources.SingleDose firstDose(adminTime = 3600, adminMass = 2e-4, duration = 3600)  annotation(
-          Placement(transformation(origin = {-4, 68}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacokinetic.NoPerfusedTissueCompartment GS_441524blood(V = 0.005) annotation(
-          Placement(transformation(origin = {-18, -34}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacokinetic.NoPerfusedTissueCompartment GS_704277blood(V = 0.005) annotation(
-          Placement(transformation(origin = {46, -20}, extent = {{-10, -10}, {10, 10}}, rotation = 90)));
-  Pharmacokinetic.NoPerfusedTissueCompartment GS_443902(V = 0.005) annotation(
-          Placement(transformation(origin = {34, -72}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacokinetic.ConcentrationGradientDiffusion non_active_GS_elim(CL(displayUnit = "l/h") = 8.333333333333332e-6) annotation(
-          Placement(transformation(origin = {-46, -32}, extent = {{-10, -10}, {10, 10}}, rotation = 90)));
-  Pharmacokinetic.ConcentrationGradientDiffusion active_GS_elim(CL(displayUnit = "l/h") = 3.333333333333333e-8) annotation(
-          Placement(transformation(origin = {-24, -68}, extent = {{-10, -10}, {10, 10}}, rotation = 90)));
-  Pharmacokinetic.UnidirectionalTransport ph1(k = 0.005)  annotation(
-          Placement(transformation(origin = {34, -46}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-  Pharmacokinetic.UnidirectionalTransport hydrolaze(k = 0.0016666666666666668) annotation(
-          Placement(transformation(origin = {16, -10}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-  Pharmacokinetic.UnidirectionalTransport nucleotidase(k = 0.016666666666666666) annotation(
-          Placement(transformation(origin = {6, -36}, extent = {{-10, -10}, {10, 10}}, rotation = 90)));
-    equation
-        connect(blood_elim.cport_b, RDVblood.cport) annotation(
-          Line(points = {{-42, 12}, {-6, 12}}, color = {114, 159, 207}));
-        connect(intestine_blood.cport_a, RDVblood.cport) annotation(
-          Line(points = {{26, 50}, {10, 50}, {10, 12}, {-6, 12}}, color = {114, 159, 207}));
-        connect(intestine.cport, intestine_blood.cport_b) annotation(
-          Line(points = {{26, 28}, {26, 30}}, color = {114, 159, 207}));
-        connect(kidney_liver_elimination.cport, blood_elim.cport_a) annotation(
-          Line(points = {{-76, -74}, {-76, -11}, {-42, -11}, {-42, -8}}, color = {114, 159, 207}));
-        connect(periodicDose.cport, RDVblood.cport) annotation(
-          Line(points = {{-28, 32}, {-28, 22}, {-6, 22}, {-6, 12}}, color = {114, 159, 207}));
-        connect(firstDose.cport, RDVblood.cport) annotation(
-          Line(points = {{-4, 58}, {-4, 35}, {-6, 35}, {-6, 12}}, color = {114, 159, 207}));
-        connect(GS_441524blood.cport, non_active_GS_elim.cport_b) annotation(
-          Line(points = {{-18, -24}, {-36, -24}, {-36, -32}}, color = {114, 159, 207}));
-        connect(non_active_GS_elim.cport_a, kidney_liver_elimination.cport) annotation(
-          Line(points = {{-56, -32}, {-76, -32}, {-76, -74}}, color = {114, 159, 207}));
-        connect(GS_443902.cport, active_GS_elim.cport_b) annotation(
-          Line(points = {{34, -62}, {-14, -62}, {-14, -68}}, color = {114, 159, 207}));
-        connect(active_GS_elim.cport_a, kidney_liver_elimination.cport) annotation(
-          Line(points = {{-34, -68}, {-76, -68}, {-76, -74}}, color = {114, 159, 207}));
-        connect(GS_704277blood.cport, ph1.cport_b) annotation(
-          Line(points = {{36, -20}, {34, -20}, {34, -36}}, color = {114, 159, 207}));
-        connect(ph1.cport_a, GS_443902.cport) annotation(
-          Line(points = {{34, -56}, {34, -62}}, color = {114, 159, 207}));
-  connect(hydrolaze.cport_b, RDVblood.cport) annotation(
-          Line(points = {{16, 0}, {12, 0}, {12, 12}, {-6, 12}}, color = {114, 159, 207}));
-  connect(hydrolaze.cport_a, GS_704277blood.cport) annotation(
-          Line(points = {{16, -20}, {36, -20}}, color = {114, 159, 207}));
-  connect(nucleotidase.cport_b, GS_704277blood.cport) annotation(
-          Line(points = {{16, -36}, {34, -36}, {34, -20}, {36, -20}}, color = {114, 159, 207}));
-  connect(nucleotidase.cport_a, GS_441524blood.cport) annotation(
-          Line(points = {{-4, -36}, {-4, -24}, {-18, -24}}, color = {114, 159, 207}));
+
+      model Eq10RemdesivirPK
+        Pharmacolibrary.Types.MassConcentration C (displayUnit="mg/l") "Concentration";
+        parameter Real F = 1 "Bioavailability (intravenously administered)";
+        
+        // Dosing parameters
+        parameter Integer numDoses = 10 "Total number of doses";
+        parameter Real doseFirst = 200 * 1e-6 "First dose (mg)";
+        parameter Real doseSubsequent = 100 *1e-6 "Subsequent doses (mg)";
+        parameter Real dosingInterval = 86400 "Dosing interval in seconds (24 hours)";
+        parameter Real t0 = 0 "Time of first dose (seconds)";
+        
+        // Pharmacokinetic parameters
+        parameter Real Vd = 271e-3 "Volume of distribution (L)";
+        parameter Real Cl = 237e-3 / 3600 "Clearance (L/s)";
+        Real halfLife;
+          // Array to store concentration contributions from each dose
+        Real C_i[numDoses] "Concentration from each dose";
+        
+      equation
+        // Calculate half-life
+        halfLife = log(2) * Vd / Cl;
+        
+        // Calculate concentration contribution for each dose
+        for i in 1:numDoses loop
+          C_i[i] = F * (if i == 1 then doseFirst else doseSubsequent) / Vd *
+                  exp(-Cl / Vd * (time - (t0 + (i-1)*dosingInterval))) *
+                  (if time >= (t0 + (i-1)*dosingInterval) then 1 else 0);
+        end for;
+      
+        // Total concentration is the sum of all individual dose contributions
+        C = sum(C_i);  
         annotation(
-        experiment(StartTime = 0, StopTime = 864000, Tolerance = 1e-06, Interval = 172.8),
-        Diagram);
+          experiment(StartTime = 0, StopTime = 864000, 
+                     Tolerance = 1e-06, Interval = 17.28),
+          Documentation(info = "<html><head></head><body><div>Pharmacokinetic model of remdesivir with multiple (10) dosing implemented as simple PK equations.</div><div><br></div>References:<div>[1] Leegwater E, et al. Population Pharmacokinetics of Remdesivir and GS-441524 in Hospitalized COVID-19 Patients. Antimicrob Agents Chemother. 2022.</div></body></html>", revisions = "<html><head></head><body>2025 Tomas Kulhanek, Ph.D., VITO</body></html>"));
+      
+      end Eq10RemdesivirPK;
+      
+      model ComponentRemdesivirPKPD
+      "Simplified model of PK of remdesivir"  
+        Sources.PeriodicDose periodicDose(firstAdminTime = 86400, adminPeriod = 86400, adminMass = 1e-4, doseCount = 10, adminDuration = 3600) annotation(
+          Placement(transformation(origin = {-78, 80}, extent = {{-10, -10}, {10, 10}})));
+        Sources.SingleDose firstDose(adminTime = 3600, adminMass = 2e-4, duration = 3600) annotation(
+          Placement(transformation(origin = {-32, 80}, extent = {{-10, -10}, {10, 10}})));
+        Pharmacokinetic.UnidirectionalTransport ph1(k = 0.016666666666666666) annotation(
+          Placement(transformation(origin = {56, -48}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+        Pharmacokinetic.UnidirectionalTransport hydrolaze(k = 0.016666666666666666) annotation(
+          Placement(transformation(origin = {54, 8}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+        Pharmacokinetic.UnidirectionalTransport nucleotidase(k = 0.016666666666666666) annotation(
+          Placement(transformation(origin = {6, -24}, extent = {{-10, -10}, {10, 10}}, rotation = 90)));
+        Pharmacokinetic.TissueCompartment lungs(V = 0.271, kTB = 1) annotation(
+          Placement(transformation(origin = {-28, 52}, extent = {{-10, -10}, {10, 10}})));
+        Pharmacokinetic.SystemicCompartment arteries(V = 0.001) annotation(
+          Placement(transformation(origin = {10, 52}, extent = {{-10, -10}, {10, 10}})));
+        Pharmacokinetic.SystemicCompartment veins(V = 0.003) annotation(
+          Placement(transformation(origin = {-60, 52}, extent = {{-10, -10}, {10, 10}})));
+        Pharmacokinetic.FixedFlow fixedFlow(Q = 8.333333333333332e-5) annotation(
+          Placement(transformation(origin = {-24, 26}, extent = {{-10, -10}, {10, 10}})));
+        Pharmacokinetic.FlowGround fground annotation(
+          Placement(transformation(origin = {-60, 36}, extent = {{-10, -10}, {10, 10}})));
+        Pharmacokinetic.PeripheralTissueCompartment non_active_GS704277(CL = 5.555555555555555e-5, V = 0.005, cBSwitch = false) annotation(
+          Placement(transformation(origin = {55, 53}, extent = {{-15, -15}, {15, 15}})));
+        Pharmacokinetic.ClearanceDrivenElimination RDV_elim(CL = 5.555555555555555e-6) annotation(
+          Placement(transformation(origin = {-88, 12}, extent = {{-10, -10}, {10, 10}})));
+        Pharmacokinetic.ClearanceDrivenElimination nonA_RDV_elim(CL = 7.666666666666666e-6) annotation(
+          Placement(transformation(origin = {-84, -38}, extent = {{-10, -10}, {10, 10}})));
+        Pharmacokinetic.ClearanceDrivenElimination A_RDV_elim(CL = 1.3888888888888888e-7) annotation(
+          Placement(transformation(origin = {-56, -72}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.NoPerfusedTissueCompartment monophosphate(V = 0.001)  annotation(
+          Placement(transformation(origin = {74, -22}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.NoPerfusedTissueCompartment active_GS443902(V = 0.001)  annotation(
+          Placement(transformation(origin = {30, -72}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.NoPerfusedTissueCompartment nonactive_GS441524(V = 0.001)  annotation(
+          Placement(transformation(origin = {-30, -32}, extent = {{-10, -10}, {10, 10}})));
+      equation
+        connect(lungs.port_a, veins.port_b) annotation(
+          Line(points = {{-38, 52}, {-51, 52}}, color = {204, 0, 0}));
+        connect(lungs.port_b, arteries.port_a) annotation(
+          Line(points = {{-18, 52}, {2, 52}}, color = {204, 0, 0}));
+        connect(veins.port_a, fground.port_a) annotation(
+          Line(points = {{-70, 52}, {-76, 52}, {-76, 36}, {-70, 36}}, color = {204, 0, 0}));
+        connect(periodicDose.cport, veins.cport) annotation(
+          Line(points = {{-78, 70}, {-60, 70}, {-60, 62}}, color = {114, 159, 207}));
+        connect(firstDose.cport, veins.cport) annotation(
+          Line(points = {{-32, 70}, {-60, 70}, {-60, 62}}, color = {114, 159, 207}));
+        connect(fixedFlow.port_a, veins.port_a) annotation(
+          Line(points = {{-34, 26}, {-76, 26}, {-76, 52}, {-70, 52}}, color = {204, 0, 0}));
+        connect(arteries.port_b, fixedFlow.port_b) annotation(
+          Line(points = {{20, 52}, {20, 26}, {-14, 26}}, color = {204, 0, 0}));
+        connect(non_active_GS704277.cport_b, hydrolaze.cport_b) annotation(
+          Line(points = {{55, 39.5}, {55, 17}, {54, 17}, {54, 18}}, color = {114, 159, 207}));
+        connect(lungs.cport, non_active_GS704277.cport) annotation(
+          Line(points = {{-28, 62}, {-27.5, 62}, {-27.5, 68}, {55, 68}}, color = {114, 159, 207}));
+        connect(RDV_elim.cport, veins.cport) annotation(
+          Line(points = {{-88, 22}, {-88, 62}, {-60, 62}}, color = {114, 159, 207}));
+  connect(monophosphate.cport, hydrolaze.cport_a) annotation(
+          Line(points = {{74, -12}, {54, -12}, {54, -2}}, color = {114, 159, 207}));
+  connect(nucleotidase.cport_b, monophosphate.cport) annotation(
+          Line(points = {{16, -24}, {54, -24}, {54, -12}, {74, -12}}, color = {114, 159, 207}));
+  connect(ph1.cport_b, hydrolaze.cport_a) annotation(
+          Line(points = {{56, -38}, {54, -38}, {54, -2}}, color = {114, 159, 207}));
+  connect(ph1.cport_a, active_GS443902.cport) annotation(
+          Line(points = {{56, -58}, {30, -58}, {30, -62}}, color = {114, 159, 207}));
+  connect(active_GS443902.cport, A_RDV_elim.cport) annotation(
+          Line(points = {{30, -62}, {-56, -62}}, color = {114, 159, 207}));
+  connect(nucleotidase.cport_a, nonactive_GS441524.cport) annotation(
+          Line(points = {{-4, -24}, {-30, -24}, {-30, -22}}, color = {114, 159, 207}));
+  connect(nonactive_GS441524.cport, nonA_RDV_elim.cport) annotation(
+          Line(points = {{-30, -22}, {-84, -22}, {-84, -28}}, color = {114, 159, 207}));
+        annotation(
+          experiment(StartTime = 0, StopTime = 864000, Tolerance = 1e-06, Interval = 172.8),
+          Diagram,
+          Documentation(info = "<html><head></head><body>Remdesivir (RDV) GS-5734 is antiviral to treat COVID-19, it is a prodrug of an adenosine analogue.&nbsp;<div><br></div><div>As Remdesivir bioavailability is almost 0 it is not fit for oral administration, thus intravenous administration is recommended first dose 200mg and other 4 - 10 doses per 100 mg every 24 h with intravenous application typically 30-60 minutes.&nbsp;</div><div><br></div><div>RDV is taken by target cell and metabolized in multiple steps (utilizing enzymes hydrolaze, phosphataze) to form active form GS-443902. It is also metabolised (nucleotidase) to nonactive form GS-441524.&nbsp;</div><div>Critical is concentration of active form in target cells.</div><div><br></div><div>RDV, active and non_active have different clearance rate elimination by kidneys/liver.</div><div><br></div><div><br></div><div><div>References:</div></div><div>[1] Li, R., Liclican, A., Xu, Y., Pitts, J., Niu, C., Zhang, J., Kim, C., Zhao, X., Soohoo, D., Babusis, D., Yue, Q., Ma, B., Murray, B. P., Subramanian, R., Xie, X., Zou, J., Bilello, J. P., Li, L., Schultz, B. E., … Feng, J. Y. (2021). Key metabolic enzymes involved in Remdesivir activation in human lung cells. <i>Antimicrobial Agents and Chemotherapy</i>, <i>65</i>(9). https://doi.org/10.1128/AAC.00602-21</div><div><br></div><div>[2] Humeniuk, R., Mathias, A., Cao, H., Osinusi, A., Shen, G., Chng, E., Ling, J., Vu, A., &amp; German, P. (2020). Safety, Tolerability, and Pharmacokinetics of Remdesivir, An Antiviral for Treatment of COVID-19, in Healthy Subjects. <i>Clinical and Translational Science</i>, <i>13</i>(5), 896–906. https://doi.org/10.1111/cts.12840</div><div><br></div><div><br></div></body></html>", revisions = "<html><head></head><body>2025 Tomas Kulhanek, Ph.D., VITO NV<div><br></div></body></html>"));
+      
+      end ComponentRemdesivirPKPD;
+
+
+    model ComponentRemdesivirPK
+    "Simplified model of PK of remdesivir"  
+      Sources.PeriodicDose periodicDose(firstAdminTime = 86400, adminPeriod = 86400, adminMass = 1e-4, doseCount = 10, adminDuration = 3600) annotation(
+        Placement(transformation(origin = {-78, 80}, extent = {{-10, -10}, {10, 10}})));
+  Sources.SingleDose firstDose(adminTime = 3600, adminMass = 2e-4, duration = 3600)  annotation(
+          Placement(transformation(origin = {-32, 80}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacolibrary.Pharmacokinetic.TissueCompartment lungs(V = 0.271, kTB = 1) annotation(
+          Placement(transformation(origin = {-28, 52}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacolibrary.Pharmacokinetic.SystemicCompartment arteries(V = 0.001) annotation(
+          Placement(transformation(origin = {10, 52}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacolibrary.Pharmacokinetic.SystemicCompartment veins(V = 0.003) annotation(
+          Placement(transformation(origin = {-60, 52}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacolibrary.Pharmacokinetic.FixedFlow fixedFlow(Q = 8.333333333333332e-5) annotation(
+          Placement(transformation(origin = {-24, 26}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacolibrary.Pharmacokinetic.FlowGround fground annotation(
+          Placement(transformation(origin = {-60, 36}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.PeripheralTissueCompartment non_active_GS704277(CL = 5.555555555555555e-5, V = 0.005, cBSwitch = false) annotation(
+          Placement(transformation(origin = {55, 53}, extent = {{-15, -15}, {15, 15}})));
+  Pharmacolibrary.Pharmacokinetic.ClearanceDrivenElimination RDV_elim(CL = 5.555555555555555e-6) annotation(
+          Placement(transformation(origin = {-88, 12}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacokinetic.ClearanceDrivenElimination nonA_RDV_elim(CL = 7.666666666666666e-6) annotation(
+          Placement(transformation(origin = {56, 12}, extent = {{-10, -10}, {10, 10}})));
+    equation
+        connect(lungs.port_a, veins.port_b) annotation(
+          Line(points = {{-38, 52}, {-51, 52}}, color = {204, 0, 0}));
+        connect(lungs.port_b, arteries.port_a) annotation(
+          Line(points = {{-18, 52}, {2, 52}}, color = {204, 0, 0}));
+        connect(veins.port_a, fground.port_a) annotation(
+          Line(points = {{-70, 52}, {-76, 52}, {-76, 36}, {-70, 36}}, color = {204, 0, 0}));
+        connect(periodicDose.cport, veins.cport) annotation(
+          Line(points = {{-78, 70}, {-60, 70}, {-60, 62}}, color = {114, 159, 207}));
+        connect(firstDose.cport, veins.cport) annotation(
+          Line(points = {{-32, 70}, {-60, 70}, {-60, 62}}, color = {114, 159, 207}));
+        connect(fixedFlow.port_a, veins.port_a) annotation(
+          Line(points = {{-34, 26}, {-76, 26}, {-76, 52}, {-70, 52}}, color = {204, 0, 0}));
+        connect(arteries.port_b, fixedFlow.port_b) annotation(
+          Line(points = {{20, 52}, {20, 26}, {-14, 26}}, color = {204, 0, 0}));
+        connect(lungs.cport, non_active_GS704277.cport) annotation(
+          Line(points = {{-28, 62}, {-27.5, 62}, {-27.5, 68}, {55, 68}}, color = {114, 159, 207}));
+        connect(RDV_elim.cport, veins.cport) annotation(
+          Line(points = {{-88, 22}, {-88, 62}, {-60, 62}}, color = {114, 159, 207}));
+  connect(nonA_RDV_elim.cport, non_active_GS704277.cport_b) annotation(
+          Line(points = {{56, 22}, {56, 40}}, color = {114, 159, 207}));
+        annotation(
+        experiment(StartTime = 0, StopTime = 864000, Tolerance = 1e-09, Interval = 17.28),
+        Diagram,
+  Documentation(info = "<html><head></head><body>Remdesivir (RDV) GS-5734 is antiviral to treat COVID-19, it is a prodrug of an adenosine analogue.&nbsp;<div><br></div><div>As Remdesivir bioavailability is almost 0 it is not fit for oral administration, thus intravenous administration is recommended first dose 200mg and other 4 - 10 doses per 100 mg every 24 h with intravenous application typically 30-60 minutes.&nbsp;</div><div><br></div><div>RDV is taken by target cell and metabolized in multiple steps (utilizing enzymes hydrolaze, phosphataze) to form active form GS-443902. It is also metabolised (nucleotidase) to nonactive form GS-441524.&nbsp;</div><div>Critical is concentration of active form in target cells.</div><div><br></div><div>RDV, active and non_active have different clearance rate elimination by kidneys/liver.</div><div><br></div><div><br></div><div><div>References:</div></div><div>[1] Li, R., Liclican, A., Xu, Y., Pitts, J., Niu, C., Zhang, J., Kim, C., Zhao, X., Soohoo, D., Babusis, D., Yue, Q., Ma, B., Murray, B. P., Subramanian, R., Xie, X., Zou, J., Bilello, J. P., Li, L., Schultz, B. E., … Feng, J. Y. (2021). Key metabolic enzymes involved in Remdesivir activation in human lung cells. <i>Antimicrobial Agents and Chemotherapy</i>, <i>65</i>(9). https://doi.org/10.1128/AAC.00602-21</div><div><br></div><div>[2] Humeniuk, R., Mathias, A., Cao, H., Osinusi, A., Shen, G., Chng, E., Ling, J., Vu, A., &amp; German, P. (2020). Safety, Tolerability, and Pharmacokinetics of Remdesivir, An Antiviral for Treatment of COVID-19, in Healthy Subjects. <i>Clinical and Translational Science</i>, <i>13</i>(5), 896–906. https://doi.org/10.1111/cts.12840</div><div><br></div><div><br></div></body></html>", revisions = "<html><head></head><body>2025 Tomas Kulhanek, Ph.D., VITO NV<div><br></div></body></html>"));
     
-        end BasicRemdesivirPK;
+    end ComponentRemdesivirPK;
 
-      model PBRemdesivirPK
-  extends Pharmacolibrary.Pharmacokinetic.Systems.WholeBodyAdministering(intraVenousDose(adminMass = 1e-4, firstAdminTime = 86400, adminPeriod = 86400, adminDuration = 3600), firstIVDose(adminTime = 3600, adminMass = 2e-4, duration = 3600));
-      annotation(
-          experiment(StartTime = 0, StopTime = 864000, Tolerance = 1e-06, Interval = 172.8));
-      end PBRemdesivirPK;
-
-      model EqRemdesivir
+      package Test
+      model Eq1Remdesivir
       Pharmacolibrary.Types.MassConcentration C (displayUnit="mg/l") "concentration";
       Real H "heaviside step function";
       Real effectiveDose;
@@ -1098,29 +1190,114 @@ end WholeBodyAdministering;
       Real ammountDrug;
       Real halfLife;
       parameter Real F = 1 "bioavailability - 0, so intravenously administered - 1";
-      parameter Real Dose = 100 * 1e-6 "dose 1000 mg";
+      parameter Real Dose = 200 * 1e-6 "dose 100 mg";
       parameter Real Vd = 271 * 1e-3 "Volume of distribution";
-      parameter Real Cl = 20 * 1e-3 / 3600 "clearance from L/h to m3/s";
+      parameter Real Cl = 237 * 1e-3 / 3600 "metabolic 207 and kidney 20 clearance from L/h to m3/s";
       //parameter Real halflife = Modelica.Math.log(2) * Vd / Cl;
-      parameter Real t0 = 60 "time of administration of first dose";
+      parameter Real t0 = 60*60 "time of administration of first dose";
       equation
         H = if time >= t0 then 1 else 0;
         effectiveDose = F * Dose;
         eliminationRate = Cl * C;
         Vd = ammountDrug / C;
         halfLife = log(2) * Vd / Cl;
-      C = effectiveDose / Vd * H * exp(-Cl/Vd*(time-t0));
+        C = effectiveDose / Vd * H * exp(-Cl/Vd*(time-t0));
       annotation(
-          experiment(StartTime = 0, StopTime = 36000, Tolerance = 1e-06, Interval = 72),
-      Documentation(info = "<html><head></head><body><div>Simple equation based model with pharmacokinetic parameter remdesivir [1].</div><div><br></div>References:<div>[1]&nbsp;Leegwater E, Moes DJAR, Bosma LBE, Ottens TH, van der Meer IM, van Nieuwkoop C, Wilms EB. Population Pharmacokinetics of Remdesivir and GS-441524 in Hospitalized COVID-19 Patients. Antimicrob Agents Chemother. 2022 Jun 21;66(6):e0025422. doi: 10.1128/aac.00254-22. Epub 2022 Jun 1. PMID: 35647646; PMCID: PMC9211420.</div>
-</body></html>"));
+          experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 17.28),
+      Documentation(info = "<html><head></head><body><div>Single dose equation based model with pharmacokinetic parameter of remdesivir [1].</div><div><br></div>References:<div>[1]&nbsp;Leegwater E, Moes DJAR, Bosma LBE, Ottens TH, van der Meer IM, van Nieuwkoop C, Wilms EB. Population Pharmacokinetics of Remdesivir and GS-441524 in Hospitalized COVID-19 Patients. Antimicrob Agents Chemother. 2022 Jun 21;66(6):e0025422. doi: 10.1128/aac.00254-22. Epub 2022 Jun 1. PMID: 35647646; PMCID: PMC9211420.</div>
+      </body></html>"));
       
-
-      end EqRemdesivir;
-
-      model MetabolismRemdesivir
+      
+      end Eq1Remdesivir;
+model ComponentChemicalRemdesivirPK
+       parameter Modelica.Units.SI.Time ofirstAdminTime(displayUnit="h") = 3600 "time of first dose";  
+        parameter Modelica.Units.SI.Time oadminPeriod(displayUnit = "h") = 28800 "time period between doses";  
+        parameter Pharmacolibrary.Types.Mass oadminMass= 1e-4 "drug dose mass";  
+        parameter Integer odoseCount = -1 "number of doses, -1 .. unlimitted";  
+        parameter Modelica.Units.SI.Time oadminDuration(displayUnit = "s") = 30 "administration duration";
+        parameter Modelica.Units.SI.Time ifirstAdminTime(displayUnit="h") = 0 "time of first dose";  
+        parameter Modelica.Units.SI.Time iadminPeriod(displayUnit = "h") = 86400 "time period between doses";  
+        parameter Pharmacolibrary.Types.Mass iadminMass= 0 "drug dose mass";  
+        parameter Integer idoseCount = 0 "number of doses, -1 .. unlimitted";  
+        parameter Modelica.Units.SI.Time iadminDuration(displayUnit = "s") = 30 "administration duration";
+         
+      Chemical.Components.Solution gut annotation(
+          Placement(transformation(origin = {38, -36}, extent = {{-38, -36}, {38, 36}})));
+      Chemical.Components.Substance drug_gut annotation(
+          Placement(transformation(origin = {56, -54}, extent = {{-10, -10}, {10, 10}})));
+      Chemical.Components.Solution plasma annotation(
+          Placement(transformation(origin = {-52, -35}, extent = {{-44, -35}, {44, 35}})));
+      Chemical.Components.Substance drug_plasma annotation(
+          Placement(transformation(origin = {-44, -50}, extent = {{-10, -10}, {10, 10}})));
+      Chemical.Components.Solution tissue annotation(
+          Placement(transformation(origin = {-54, 49}, extent = {{-42, -43}, {42, 43}})));
+      Chemical.Components.Substance drug_tissue annotation(
+          Placement(transformation(origin = {-44, 26}, extent = {{10, -10}, {-10, 10}}, rotation = -0)));
+      Chemical.Components.Diffusion gut_plasma_diffusion annotation(
+          Placement(transformation(origin = {-8, -34}, extent = {{-10, -10}, {10, 10}})));
+      Chemical.Components.Membrane gut_plasma_membrane_transport annotation(
+          Placement(transformation(origin = {-6, -60}, extent = {{-10, -10}, {10, 10}})));
+      Chemical.Components.Membrane plasma_tissue_membrane_transport annotation(
+          Placement(transformation(origin = {-54, 2}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
+      Chemical.Components.Diffusion plasma_tissue_diffusion annotation(
+          Placement(transformation(origin = {-74, 2}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
+      Chemical.Sources.SubstanceInflow oral_administration(useSubstanceFlowInput = true)  annotation(
+          Placement(transformation(origin = {44, 12}, extent = {{-10, -10}, {10, 10}})));
+      Chemical.Sources.Clearance kidney annotation(
+          Placement(transformation(origin = {-84, -50}, extent = {{-10, -10}, {10, 10}})));
+      Chemical.Sources.Degradation liver(HalfTime = 86400)  annotation(
+          Placement(transformation(origin = {-84, -26}, extent = {{-10, -10}, {10, 10}})));
+      Chemical.Sources.SubstanceInflow intravenous_administration(useSubstanceFlowInput = true)  annotation(
+          Placement(transformation(origin = {-68, -90}, extent = {{-10, -10}, {10, 10}})));
+      Modelica.Blocks.Sources.Pulse periodic_administration(amplitude = oadminMass/oadminDuration, nperiod = odoseCount, period = oadminPeriod, startTime = ofirstAdminTime, width = oadminDuration/oadminPeriod*100) annotation(
+          Placement(transformation(origin = {24, 42}, extent = {{-10, -10}, {10, 10}})));
+      Modelica.Blocks.Sources.Pulse periodic_iv_administration(amplitude = iadminMass/iadminDuration, nperiod = idoseCount, period = iadminPeriod, startTime = ifirstAdminTime, width = iadminDuration/iadminPeriod*100) annotation(
+          Placement(transformation(origin = {-96, -86}, extent = {{-10, -10}, {10, 10}})));
+      equation
+        connect(drug_gut.solution, gut.solution) annotation(
+          Line(points = {{50, -64}, {60, -64}, {60, -72}}, color = {127, 127, 0}));
+        connect(drug_plasma.solution, plasma.solution) annotation(
+          Line(points = {{-50, -60}, {-26, -60}, {-26, -69}}, color = {127, 127, 0}));
+        connect(drug_tissue.solution, tissue.solution) annotation(
+          Line(points = {{-38, 16}, {-38, 12}, {-29, 12}, {-29, 7}}, color = {127, 127, 0}));
+        connect(drug_gut.port_a, gut_plasma_diffusion.port_b) annotation(
+          Line(points = {{66, -54}, {70, -54}, {70, -34}, {2, -34}}, color = {158, 66, 200}));
+        connect(gut_plasma_membrane_transport.port_b, gut_plasma_diffusion.port_b) annotation(
+          Line(points = {{4, -60}, {2, -60}, {2, -34}}, color = {158, 66, 200}));
+        connect(gut_plasma_membrane_transport.port_a, gut_plasma_diffusion.port_a) annotation(
+          Line(points = {{-16, -60}, {-18, -60}, {-18, -34}}, color = {158, 66, 200}));
+        connect(gut_plasma_diffusion.port_a, drug_plasma.port_a) annotation(
+          Line(points = {{-18, -34}, {-26, -34}, {-26, -50}, {-34, -50}}, color = {158, 66, 200}));
+        connect(drug_plasma.port_a, plasma_tissue_membrane_transport.port_b) annotation(
+          Line(points = {{-34, -50}, {-34, -29}, {-54, -29}, {-54, -8}}, color = {158, 66, 200}));
+        connect(plasma_tissue_diffusion.port_b, plasma_tissue_membrane_transport.port_b) annotation(
+          Line(points = {{-74, -8}, {-54, -8}}, color = {158, 66, 200}));
+        connect(plasma_tissue_membrane_transport.port_a, drug_tissue.port_a) annotation(
+          Line(points = {{-54, 12}, {-54, 26}}, color = {158, 66, 200}));
+        connect(plasma_tissue_diffusion.port_a, plasma_tissue_membrane_transport.port_a) annotation(
+          Line(points = {{-74, 12}, {-54, 12}}, color = {158, 66, 200}));
+        connect(liver.port_a, plasma_tissue_membrane_transport.port_b) annotation(
+          Line(points = {{-74, -26}, {-54, -26}, {-54, -8}}, color = {158, 66, 200}));
+        connect(kidney.port_a, plasma_tissue_membrane_transport.port_b) annotation(
+          Line(points = {{-74, -50}, {-54, -50}, {-54, -8}}, color = {158, 66, 200}));
+      connect(intravenous_administration.port_b, gut_plasma_membrane_transport.port_a) annotation(
+          Line(points = {{-58, -90}, {-16, -90}, {-16, -60}}, color = {158, 66, 200}));
+      connect(oral_administration.port_b, drug_gut.port_a) annotation(
+          Line(points = {{54, 12}, {70, 12}, {70, -54}, {66, -54}}, color = {158, 66, 200}));
+      connect(periodic_administration.y, oral_administration.substanceFlow) annotation(
+          Line(points = {{36, 42}, {48, 42}, {48, 16}}, color = {0, 0, 127}));
+      connect(periodic_iv_administration.y, intravenous_administration.substanceFlow) annotation(
+          Line(points = {{-84, -86}, {-84, -80}, {-64, -80}, {-64, -86}}, color = {0, 0, 127}));
+      connect(kidney.solution, plasma.solution) annotation(
+          Line(points = {{-90, -60}, {-90, -70}, {-26, -70}}, color = {127, 127, 0}));
+      connect(liver.solution, plasma.solution) annotation(
+          Line(points = {{-90, -36}, {-64, -36}, {-64, -70}, {-26, -70}}, color = {127, 127, 0}));
+      annotation(
+          experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 17.28));
+      end ComponentChemicalRemdesivirPK;
+      model MetabolismChemicalRemdesivir
         "Chemical reaction model of metabolites of Remdesivir drug"
-         extends Modelica.Icons.Example;
+      
       
         constant Real Khy = 100 "Dissociation constant of the reaction";
         constant Real KPh = 100 "Dissociation constant of the reaction";
@@ -1148,59 +1325,66 @@ end WholeBodyAdministering;
           use_mass_start=false,
           amountOfSubstance_start= 1e-6)
           annotation (Placement(transformation(origin = {-16, 70}, extent = {{62, -8}, {42, 12}})));
-  Chemical.Components.Substance GS_443902_triphoshpate_metabolite(amountOfSubstance_start = 1e-6, substanceData(DfG = -R*T_37degC*log(KP2), MolarWeight = 1), use_mass_start = false) annotation(
+      Chemical.Components.Substance GS_443902_triphoshpate_metabolite(amountOfSubstance_start = 1e-6, substanceData(DfG = -R*T_37degC*log(KP2), MolarWeight = 1), use_mass_start = false) annotation(
           Placement(transformation(origin = {-18.2, -87.2}, extent = {{68.2, -8.8}, {46.2, 13.2}})));
-  Chemical.Components.Reaction phosphoramidase(nP = 1, nS = 1) annotation(
+      Chemical.Components.Reaction phosphoramidase(nP = 1, nS = 1) annotation(
           Placement(transformation(origin = {19.5503, 45.5406}, extent = {{-11.5637, -9.19509}, {11.5637, 13.7926}}, rotation = -90)));
-  Chemical.Components.Substance monophosphate_metabolite(amountOfSubstance_start = 1e-6, substanceData(DfG = -R*T_37degC*log(KPh), MolarWeight = 1), use_mass_start = false) annotation(
+      Chemical.Components.Substance monophosphate_metabolite(amountOfSubstance_start = 1e-6, substanceData(DfG = -R*T_37degC*log(KPh), MolarWeight = 1), use_mass_start = false) annotation(
           Placement(transformation(origin = {-16, 18}, extent = {{62, -8}, {42, 12}})));
-  Chemical.Components.Reaction nucleotidase(nP = 1, nS = 1) annotation(
+      Chemical.Components.Reaction nucleotidase(nP = 1, nS = 1) annotation(
           Placement(transformation(origin = {-6, 18}, extent = {{-10, -8}, {10, 12}})));
-  Chemical.Components.Substance GS_441524(amountOfSubstance_start = 1e-6, substanceData(DfG = -R*T_37degC*log(KNu), MolarWeight = 1), use_mass_start = false) annotation(
+      Chemical.Components.Substance GS_441524(amountOfSubstance_start = 1e-6, substanceData(DfG = -R*T_37degC*log(KNu), MolarWeight = 1), use_mass_start = false) annotation(
           Placement(transformation(origin = {-4, 18}, extent = {{-52, -8}, {-32, 12}})));
-  Chemical.Components.Reaction phosphotransferases(nP = 1, nS = 1) annotation(
+      Chemical.Components.Reaction phosphotransferases(nP = 1, nS = 1) annotation(
           Placement(transformation(origin = {19.5503, -8.4594}, extent = {{-11.5637, -9.19509}, {11.5637, 13.7926}}, rotation = -90)));
-  Chemical.Components.Substance diphosphate_metabolite(amountOfSubstance_start = 1e-6, substanceData(DfG = -R*T_37degC*log(KP1), MolarWeight = 1), use_mass_start = false) annotation(
+      Chemical.Components.Substance diphosphate_metabolite(amountOfSubstance_start = 1e-6, substanceData(DfG = -R*T_37degC*log(KP1), MolarWeight = 1), use_mass_start = false) annotation(
           Placement(transformation(origin = {-16, -36}, extent = {{62, -8}, {42, 12}})));
-  Chemical.Components.Reaction phosphotransferases1(nP = 1, nS = 1) annotation(
+      Chemical.Components.Reaction phosphotransferases1(nP = 1, nS = 1) annotation(
           Placement(transformation(origin = {19.5503, -60.4594}, extent = {{-11.5637, -9.19509}, {11.5637, 13.7926}}, rotation = -90)));
       equation
         connect(Remdesivir.port_a, hydrolase.substrates[1]) annotation (Line(points={{-36, 72}, {-20, 72}}, color={158,66,200}));
         connect(hydrolase.products[1], GS_704277_MetX.port_a)
           annotation (Line(points={{0, 72}, {26, 72}}, color={158,66,200}));
-  connect(GS_704277_MetX.port_a, phosphoramidase.substrates[1]) annotation(
+      connect(GS_704277_MetX.port_a, phosphoramidase.substrates[1]) annotation(
           Line(points = {{26, 72}, {26, 62.5}, {22, 62.5}, {22, 57}}, color = {158, 66, 200}));
-  connect(monophosphate_metabolite.port_a, phosphoramidase.products[1]) annotation(
+      connect(monophosphate_metabolite.port_a, phosphoramidase.products[1]) annotation(
           Line(points = {{26, 20}, {22, 20}, {22, 34}}, color = {158, 66, 200}));
-  connect(monophosphate_metabolite.port_a, nucleotidase.products[1]) annotation(
+      connect(monophosphate_metabolite.port_a, nucleotidase.products[1]) annotation(
           Line(points = {{26, 20}, {4, 20}}, color = {158, 66, 200}));
-  connect(GS_441524.port_a, nucleotidase.substrates[1]) annotation(
+      connect(GS_441524.port_a, nucleotidase.substrates[1]) annotation(
           Line(points = {{-36, 20}, {-16, 20}}, color = {158, 66, 200}));
-  connect(monophosphate_metabolite.port_a, phosphotransferases.substrates[1]) annotation(
+      connect(monophosphate_metabolite.port_a, phosphotransferases.substrates[1]) annotation(
           Line(points = {{26, 20}, {22, 20}, {22, 4}}, color = {158, 66, 200}));
-  connect(diphosphate_metabolite.port_a, phosphotransferases.products[1]) annotation(
+      connect(diphosphate_metabolite.port_a, phosphotransferases.products[1]) annotation(
           Line(points = {{26, -34}, {22, -34}, {22, -20}}, color = {158, 66, 200}));
-  connect(phosphotransferases1.substrates[1], diphosphate_metabolite.port_a) annotation(
+      connect(phosphotransferases1.substrates[1], diphosphate_metabolite.port_a) annotation(
           Line(points = {{22, -48}, {22, -34}, {26, -34}}, color = {158, 66, 200}));
-  connect(GS_443902_triphoshpate_metabolite.port_a, phosphotransferases1.products[1]) annotation(
+      connect(GS_443902_triphoshpate_metabolite.port_a, phosphotransferases1.products[1]) annotation(
           Line(points = {{28, -84}, {22, -84}, {22, -72}}, color = {158, 66, 200}));
-  connect(GS_443902_triphoshpate_metabolite.solution, targetCell.solution) annotation(
+      connect(GS_443902_triphoshpate_metabolite.solution, targetCell.solution) annotation(
           Line(points = {{46, -96}, {62, -96}, {62, -98}}, color = {127, 127, 0}));
-  connect(diphosphate_metabolite.solution, targetCell.solution) annotation(
+      connect(diphosphate_metabolite.solution, targetCell.solution) annotation(
           Line(points = {{42, -44}, {62, -44}, {62, -98}}, color = {127, 127, 0}));
-  connect(monophosphate_metabolite.solution, targetCell.solution) annotation(
+      connect(monophosphate_metabolite.solution, targetCell.solution) annotation(
           Line(points = {{42, 10}, {62, 10}, {62, -98}}, color = {127, 127, 0}));
-  connect(GS_704277_MetX.solution, targetCell.solution) annotation(
+      connect(GS_704277_MetX.solution, targetCell.solution) annotation(
           Line(points = {{42, 62}, {62, 62}, {62, -98}}, color = {127, 127, 0}));
-  connect(GS_441524.solution, targetCell.solution) annotation(
+      connect(GS_441524.solution, targetCell.solution) annotation(
           Line(points = {{-52, 10}, {-52, -98}, {62, -98}}, color = {127, 127, 0}));
-  connect(Remdesivir.solution, targetCell.solution) annotation(
+      connect(Remdesivir.solution, targetCell.solution) annotation(
           Line(points = {{-52, 62}, {-52, -98}, {62, -98}}, color = {127, 127, 0}));
         annotation (Documentation(revisions= "<html><head></head><body><p><i>2024&nbsp;</i>Tomas Kulhanek, VITO, Mol, Belgium</p>
       </body></html>", info= "<html><head></head><body><p>Demo model of key metabolites of Remdesivir in human lung cells.</p><p>Remdesivir is inactive form which metabolites using some cell enzymes into several forms, GS_441 is eliminated in liver and kidney while GS_443 is active form with therapeutic effect and with much lower clearance.</p><p>Constants not correct, work in progress ...</p><p><br></p><p>References:</p><p>[1]&nbsp;<span style=\"color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 13px; font-variant-ligatures: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);\">Li, R., Liclican, A., Xu, Y., Pitts, J., Niu, C., Zhang, J., ... &amp; Feng, J. Y. (2021). Key metabolic enzymes involved in remdesivir activation in human lung cells.&nbsp;</span><i style=\"color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 13px; font-variant-ligatures: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);\">Antimicrobial agents and chemotherapy</i><span style=\"color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 13px; font-variant-ligatures: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);\">,&nbsp;</span><i style=\"color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 13px; font-variant-ligatures: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);\">65</i><span style=\"color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 13px; font-variant-ligatures: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);\">(9), 10-1128.</span></p>
       </body></html>"),
           experiment(StopTime = 0.001, StartTime = 0, Tolerance = 1e-06, Interval = 2e-07));
-      end MetabolismRemdesivir;
+      end MetabolismChemicalRemdesivir;
+      model PBRemdesivirPK
+      extends Pharmacolibrary.Pharmacokinetic.Systems.WholeBodyAdministering(intraVenousDose(adminMass = 1e-4, firstAdminTime = 86400, adminPeriod = 86400, adminDuration = 3600), firstIVDose(adminTime = 3600, adminMass = 2e-4, duration = 3600));
+      annotation(
+          experiment(StartTime = 0, StopTime = 864000, Tolerance = 1e-06, Interval = 172.8));
+      end PBRemdesivirPK;
+      
+      end Test;
     end Remdesivir;
   
   end Models;
@@ -1217,26 +1401,26 @@ end WholeBodyAdministering;
       Pharmacolibrary.Pharmacokinetic.SystemicCompartment veins(V = 0.004) annotation(
         Placement(visible = true, transformation(origin = {-66, 34}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
       Pharmacolibrary.Pharmacokinetic.FixedFlow fixedFlow(Q = 8.333333333333332e-5) annotation(
-        Placement(transformation(origin = {-28, -2}, extent = {{-10, -10}, {10, 10}})));
-      Pharmacolibrary.Sources.SingleDose singleDose(adminMass = 0.0001) annotation(
+        Placement(transformation(origin = {-30, 0}, extent = {{-10, -10}, {10, 10}})));
+      Pharmacolibrary.Sources.SingleDose singleDose(adminMass = 0.0001, duration = 1800, adminTime = 7200) annotation(
         Placement(transformation(origin = {-66, 66}, extent = {{-10, -10}, {10, 10}})));
       Pharmacolibrary.Pharmacokinetic.FlowGround fground annotation(
         Placement(visible = true, transformation(origin = {-66, 12}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
     equation
       connect(singleDose.cport, veins.cport) annotation(
         Line(points = {{-66, 56}, {-66, 44}}, color = {114, 159, 207}));
-      connect(fixedFlow.port_b, arteries.port_b) annotation(
-        Line(points = {{-19, -2}, {26, -2}, {26, 34}, {13, 34}}, color = {204, 0, 0}));
-      connect(veins.port_a, fixedFlow.port_a) annotation(
-        Line(points = {{-76, 34}, {-82, 34}, {-82, -2}, {-37, -2}}, color = {204, 0, 0}));
       connect(tissue.port_a, veins.port_b) annotation(
         Line(points = {{-39, 34}, {-56, 34}}, color = {204, 0, 0}));
       connect(tissue.port_b, arteries.port_a) annotation(
         Line(points = {{-21, 34}, {-5, 34}}, color = {204, 0, 0}));
       connect(veins.port_a, fground.port_a) annotation(
         Line(points = {{-76, 34}, {-82, 34}, {-82, 12}, {-75, 12}}, color = {204, 0, 0}));
+  connect(fixedFlow.port_b, arteries.port_b) annotation(
+        Line(points = {{-20, 0}, {18, 0}, {18, 34}, {14, 34}}, color = {204, 0, 0}));
+  connect(fixedFlow.port_a, veins.port_a) annotation(
+        Line(points = {{-40, 0}, {-82, 0}, {-82, 34}, {-76, 34}}, color = {204, 0, 0}));
       annotation(
-        experiment(StartTime = 0, StopTime = 100, Tolerance = 1e-06, Interval = 0.2),
+        experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 172.8),
         Documentation(info = "<html><head></head><body>The <strong><code>SingleDoseVenousArteryTissue</code></strong> model provides a fundamental framework for simulating the pharmacokinetics of a drug following a single intravenous dose. By capturing the essential components of drug distribution between veins, arteries, and tissues, it allows for the exploration of key pharmacokinetic principles and supports further development and customization for specific research needs.<div><br></div><div><strong>The model shows intravenous (IV) distribution of a drug, </strong>drug is&nbsp;administered directly into a vein, is distributed throughout the body via the bloodstream. This method is one of the most direct and rapid forms of drug administration, bypassing absorption barriers (like those in the gastrointestinal tract or skin) and ensuring that the drug reaches systemic circulation almost immediately.</div><div><br></div></body></html>"));
     end SingleDoseVenousArteryTissue;
 
@@ -1404,7 +1588,7 @@ end WholeBodyAdministering;
         Placement(transformation(origin = {16, 38}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
       Pharmacokinetic.SystemicCompartment arteries(V = 0.001) annotation(
         Placement(transformation(origin = {48, 38}, extent = {{-10, -10}, {10, 10}})));
-      Sources.SingleDose singleDose(adminMass = 1e-4) annotation(
+      Sources.SingleDose singleDose(adminMass = 1e-4, duration = 1800, adminTime = 3600) annotation(
         Placement(transformation(origin = {48, 70}, extent = {{-10, -10}, {10, 10}})));
       Pharmacokinetic.FlowGround flowGround annotation(
         Placement(transformation(origin = {-18, 20}, extent = {{-10, -10}, {10, 10}})));
@@ -1426,7 +1610,7 @@ end WholeBodyAdministering;
       connect(peripheral.cport_b, clearanceDrivenElimination.cport) annotation(
         Line(points = {{-62, 40}, {-62, 32}}, color = {114, 159, 207}));
       annotation(
-        experiment(StartTime = 0, StopTime = 21600, Tolerance = 1e-06, Interval = 43.2),
+        experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 173.146),
         Documentation(info = "<html><head></head><body>This model demonstrates simplified distribution of drug into peripheral tissue via gradient diffusion rather than perfusion via systemic circulation.</body></html>"));
     end SingleDoseArteryTissuePeripheralElimination;
 
