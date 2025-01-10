@@ -39,7 +39,7 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
 
     partial connector ConcentrationPort
       Pharmacolibrary.Types.MassConcentration freeTissueConc "free tissue concentration";
-      Pharmacolibrary.Types.MassConcentration freeBloodConc "free blood/plasma concentration";
+    //  Pharmacolibrary.Types.MassConcentration freeBloodConc "free blood/plasma concentration";
       flow Pharmacolibrary.Types.MassFlowRate massFlowRate "mass flow rate";
       annotation(
         Documentation);
@@ -177,6 +177,10 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
     equation
       der(E) = kIn*IIn - kOut*IOut*E;
     end PartialIndirectEffect;
+
+    expandable connector PharmaBus
+  extends Modelica.Icons.SignalBus;
+  end PharmaBus;
   end Interfaces;
 
   package Types
@@ -719,7 +723,7 @@ end BodyArtieralVenous;
   connect(unidirectionalTransport.cport_b, lumenCompartment.cport) annotation(
           Line(points = {{50, -20}, {50, 48}}, color = {114, 159, 207}));
         annotation(
-          Icon(graphics = {Bitmap(origin = {2, 0}, extent = {{-100, -100}, {100, 100}}, fileName = "modelica://Pharmacolibrary/Resources/Icons/humanArteriesVeinsSmall.png"), Line(origin = {86.52, -0.98}, points = {{-50, 0}, {8, 0}}, color = {237, 51, 59}, thickness = 4), Line(origin = {21.7814, 86.6624}, points = {{8, 7}, {8, -7}, {-8, -7}, {-20, -7}}, color = {255, 163, 72}, thickness = 4, smooth = Smooth.Bezier), Line(origin = {-31.926, 84.8971}, points = {{-11, 9}, {-11, -1}, {29, -1}}, color = {153, 193, 241}, thickness = 4, smooth = Smooth.Bezier), Line(origin = {-41.49, -0.68}, points = {{-50, 0}, {8, 0}}, color = {53, 132, 228}, thickness = 4)}));
+          Icon(graphics = {Bitmap( extent = {{-100, -100}, {100, 100}}, fileName = "modelica://Pharmacolibrary/Resources/Icons/humanArteriesVeinsSmall.png"), Line(origin = {86.52, -0.98}, points = {{-50, 0}, {8, 0}}, color = {237, 51, 59}, thickness = 4), Line(origin = {21.7814, 86.6624}, points = {{8, 7}, {8, -7}, {-8, -7}, {-20, -7}}, color = {255, 163, 72}, thickness = 4, smooth = Smooth.Bezier), Line(origin = {-31.926, 84.8971}, points = {{-11, 9}, {-11, -1}, {29, -1}}, color = {153, 193, 241}, thickness = 4, smooth = Smooth.Bezier), Line(origin = {-41.49, -0.68}, points = {{-50, 0}, {8, 0}}, color = {53, 132, 228}, thickness = 4)}));
       end WholeBody;
 
       model WholeBodyAdministering
@@ -1680,7 +1684,7 @@ end ParacetamolEquations;
     model ParacetamolComponents
 Pharmacokinetic.Systems.WholeBody wholeBody(ro(displayUnit = "kg/m3"), kTBlu = 0.8, kTBad = 0.2, kTBbo = 0.25, kTBbr = 0.7, kTBhe = 0.9, kTBmu = 0.85, kTBsk = 0.7, kTBgu = 0.9, kTBli = 1.35, kTBsp = 0.9, kTBki = 1.35, kTBte = 0.7, kTBre = 0.8, kgit = 2.776666666666667e-4)  annotation(
         Placement(transformation(origin = {-8, -28}, extent = {{-48, -48}, {48, 48}})));
-    Sources.PeriodicDose periodicDose(firstAdminTime = 60, adminPeriod = 28800, adminMass = 0.001, doseCount = 1, adminDuration = 60)  annotation(
+    Sources.PeriodicDose periodicDose(firstAdminTime (displayUnit = "s")= 60, adminPeriod = 28800, adminMass = 0.001, doseCount = 1, adminDuration (displayUnit = "s")= 60)  annotation(
         Placement(transformation(origin = {59, 41}, extent = {{-21, -21}, {21, 21}})));
       parameter Pharmacolibrary.Types.MassConcentration cMin= 0.01 "minimum therapeutic concentration";
       parameter Pharmacolibrary.Types.MassConcentration cMax= 0.15 "maximum therapeutic concentration threshold for toxicity";
@@ -1942,7 +1946,7 @@ end GITract;
           Placement(transformation(origin = {-8, -36}, extent = {{10, -10}, {-10, 10}})));
   RespiratoryCompartment lungLobe4 annotation(
           Placement(transformation(origin = {-8, -56}, extent = {{10, -10}, {-10, 10}})));
-  Pharmacolibrary.Sources.SingleDose singleInhalation(adminMass = 1e-4) annotation(
+  Pharmacolibrary.Sources.SingleDose singleInhalation(adminMass = 1e-4, duration(displayUnit = "s") = 5) annotation(
           Placement(transformation(origin = {-30, 22}, extent = {{-10, -10}, {10, 10}})));
       equation
   connect(singleInhalation.cport, lungLobe.cport) annotation(
@@ -1965,54 +1969,122 @@ end GITract;
   Bronchial bronchialRightUpper annotation(
           Placement(transformation(origin = {-6, 24}, extent = {{-10, -10}, {10, 10}})));
   Bronchial bronchialRightMiddle annotation(
-          Placement(transformation(origin = {-4, -6}, extent = {{-10, -10}, {10, 10}})));
+          Placement(transformation(origin = {-4, -4}, extent = {{-10, -10}, {10, 10}})));
   Bronchial bronchialRightLower annotation(
           Placement(transformation(origin = {-2, -34}, extent = {{-10, -10}, {10, 10}})));
   Bronchial leftBronchus annotation(
-          Placement(transformation(origin = {46, 20}, extent = {{10, -10}, {-10, 10}})));
+          Placement(transformation(origin = {46, 24}, extent = {{10, -10}, {-10, 10}})));
   Bronchial leftBronchus1 annotation(
           Placement(transformation(origin = {50, -4}, extent = {{10, -10}, {-10, 10}})));
   Alveolar alveolar annotation(
           Placement(transformation(origin = {-44, 26}, extent = {{-10, -10}, {10, 10}})));
   Alveolar alveolar1 annotation(
-          Placement(transformation(origin = {-42, -8}, extent = {{-10, -10}, {10, 10}})));
+          Placement(transformation(origin = {-42, -4}, extent = {{-10, -10}, {10, 10}})));
   Alveolar alveolar2 annotation(
-          Placement(transformation(origin = {-42, -36}, extent = {{-10, -10}, {10, 10}})));
+          Placement(transformation(origin = {-42, -34}, extent = {{-10, -10}, {10, 10}})));
   Alveolar leftAlveolar annotation(
-          Placement(transformation(origin = {82, 20}, extent = {{10, -10}, {-10, 10}})));
+          Placement(transformation(origin = {82, 24}, extent = {{10, -10}, {-10, 10}})));
   Alveolar leftAlveolar1 annotation(
           Placement(transformation(origin = {82, -4}, extent = {{10, -10}, {-10, 10}})));
   GITract gITract annotation(
           Placement(transformation(origin = {18, -72}, extent = {{-10, -10}, {10, 10}})));
   Pharmacokinetic.UnidirectionalTransport swallowing annotation(
           Placement(transformation(origin = {28, -46}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  Interfaces.FlowPort_a pulmonary_in annotation(
+          Placement(transformation(origin = {-100, 34}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-100, 32}, extent = {{-10, -10}, {10, 10}})));
+  Interfaces.FlowPort_b pulmonary_out annotation(
+          Placement(transformation(origin = {-98, -12}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-100, -10}, extent = {{-10, -10}, {10, 10}})));
+  Interfaces.FlowPort_a portal_in annotation(
+          Placement(transformation(origin = {-20, -98}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-20, -98}, extent = {{-10, -10}, {10, 10}})));
+  Interfaces.FlowPort_b portal_out annotation(
+          Placement(transformation(origin = {14, -100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {14, -100}, extent = {{-10, -10}, {10, 10}})));
+  Interfaces.FlowPort_a systemic_in annotation(
+          Placement(transformation(origin = {-2, 100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-2, 100}, extent = {{-10, -10}, {10, 10}})));
+  Interfaces.FlowPort_b systemic_out annotation(
+          Placement(transformation(origin = {-42, 100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-40, 100}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacolibrary.Sources.SingleDose singleInhalation(adminMass = 1e-4, duration(displayUnit = "s") = 5) annotation(
+          Placement(transformation(origin = {74, 84}, extent = {{-10, -10}, {10, 10}})));
       equation
-  connect(mouthThroat.cport, tracheoBronchial.cport) annotation(
-          Line(points = {{28.1, 88.1}, {28.1, 52.1}}, color = {114, 159, 207}));
-  connect(tracheoBronchial.cport, bronchialRightUpper.cport) annotation(
-          Line(points = {{28.1, 52.1}, {28.1, 24.1}, {4.1, 24.1}}, color = {114, 159, 207}));
-  connect(leftBronchus.cport, tracheoBronchial.cport) annotation(
-          Line(points = {{35.9, 20.1}, {27.9, 20.1}, {27.9, 52.1}}, color = {114, 159, 207}));
-  connect(bronchialRightMiddle.cport, tracheoBronchial.cport) annotation(
-          Line(points = {{6.1, -5.9}, {28.1, -5.9}, {28.1, 52.1}}, color = {114, 159, 207}));
-  connect(leftBronchus1.cport, tracheoBronchial.cport) annotation(
-          Line(points = {{39.9, -3.9}, {27.9, -3.9}, {27.9, 52.1}}, color = {114, 159, 207}));
-  connect(bronchialRightLower.cport, tracheoBronchial.cport) annotation(
-          Line(points = {{8.1, -33.9}, {28.1, -33.9}, {28.1, 52.1}}, color = {114, 159, 207}));
-  connect(alveolar.cport, bronchialRightUpper.cport) annotation(
-          Line(points = {{-33.9, 26.1}, {4.1, 26.1}, {4.1, 24.1}}, color = {114, 159, 207}));
-  connect(alveolar1.cport, bronchialRightMiddle.cport) annotation(
-          Line(points = {{-31.9, -7.9}, {6.1, -7.9}, {6.1, -5.9}}, color = {114, 159, 207}));
-  connect(alveolar2.cport, bronchialRightLower.cport) annotation(
-          Line(points = {{-31.9, -35.9}, {8.1, -35.9}, {8.1, -33.9}}, color = {114, 159, 207}));
-  connect(leftAlveolar.cport, leftBronchus.cport) annotation(
-          Line(points = {{71.9, 20.1}, {35.9, 20.1}}, color = {114, 159, 207}));
-  connect(leftAlveolar1.cport, leftBronchus1.cport) annotation(
-          Line(points = {{71.9, -3.9}, {39.9, -3.9}}, color = {114, 159, 207}));
-  connect(swallowing.cport_b, tracheoBronchial.cport) annotation(
-          Line(points = {{28, -36}, {28, 52}}, color = {114, 159, 207}));
-  connect(swallowing.cport_a, gITract.cport) annotation(
+        connect(mouthThroat.cport, tracheoBronchial.cport) annotation(
+          Line(points = {{28.1, 88.1}, {28.1, 52.1}}, color = {114, 159, 207}, thickness = 1));
+        connect(tracheoBronchial.cport, bronchialRightUpper.cport) annotation(
+          Line(points = {{28.1, 52.1}, {28.1, 24}, {4, 24}}, color = {114, 159, 207}, thickness = 1));
+        connect(leftBronchus.cport, tracheoBronchial.cport) annotation(
+          Line(points = {{36, 24}, {27.9, 24}, {27.9, 52.1}}, color = {114, 159, 207}, thickness = 1));
+        connect(bronchialRightMiddle.cport, tracheoBronchial.cport) annotation(
+          Line(points = {{6, -4}, {28.1, -4}, {28.1, 52.1}}, color = {114, 159, 207}, thickness = 1));
+        connect(leftBronchus1.cport, tracheoBronchial.cport) annotation(
+          Line(points = {{39.9, -3.9}, {27.9, -3.9}, {27.9, 52.1}}, color = {114, 159, 207}, thickness = 1));
+        connect(bronchialRightLower.cport, tracheoBronchial.cport) annotation(
+          Line(points = {{8.1, -33.9}, {28.1, -33.9}, {28.1, 52.1}}, color = {114, 159, 207}, thickness = 1));
+        connect(alveolar.cport, bronchialRightUpper.cport) annotation(
+          Line(points = {{-33.9, 26.1}, {-33.9, 24}, {4, 24}}, color = {114, 159, 207}, thickness = 1));
+        connect(alveolar1.cport, bronchialRightMiddle.cport) annotation(
+          Line(points = {{-32, -4}, {6, -4}}, color = {114, 159, 207}, thickness = 1));
+        connect(alveolar2.cport, bronchialRightLower.cport) annotation(
+          Line(points = {{-32, -34}, {8.1, -34}, {8.1, -33.9}}, color = {114, 159, 207}, thickness = 1));
+        connect(leftAlveolar.cport, leftBronchus.cport) annotation(
+          Line(points = {{72, 24}, {36, 24}}, color = {114, 159, 207}, thickness = 1));
+        connect(leftAlveolar1.cport, leftBronchus1.cport) annotation(
+          Line(points = {{71.9, -3.9}, {39.9, -3.9}}, color = {114, 159, 207}, thickness = 1));
+        connect(swallowing.cport_b, tracheoBronchial.cport) annotation(
+          Line(points = {{28, -36}, {28, 52}}, color = {114, 159, 207}, thickness = 1));
+        connect(swallowing.cport_a, gITract.cport) annotation(
           Line(points = {{28, -56}, {28, -72}}, color = {114, 159, 207}));
+        connect(alveolar.fport_in, pulmonary_in) annotation(
+          Line(points = {{-52, 34}, {-100, 34}}, color = {204, 0, 0}));
+        connect(bronchialRightUpper.fport_in, alveolar.fport_in) annotation(
+          Line(points = {{-14, 32}, {-52, 32}, {-52, 34}}, color = {204, 0, 0}));
+        connect(alveolar1.fport_in1, pulmonary_out) annotation(
+          Line(points = {{-50, -11.5}, {-75, -11.5}, {-75, -12}, {-98, -12}}, color = {204, 0, 0}));
+        connect(bronchialRightMiddle.fport_in1, alveolar1.fport_in1) annotation(
+          Line(points = {{-12, -11.5}, {-50, -11.5}}, color = {204, 0, 0}));
+        connect(leftBronchus.fport_in, bronchialRightUpper.fport_in) annotation(
+          Line(points = {{53.5, 31.5}, {-13.5, 31.5}}, color = {204, 0, 0}));
+        connect(leftAlveolar.fport_in, leftBronchus.fport_in) annotation(
+          Line(points = {{89.5, 31.5}, {53.5, 31.5}}, color = {204, 0, 0}));
+        connect(leftAlveolar1.fport_in, leftBronchus1.fport_in) annotation(
+          Line(points = {{90, 4}, {58, 4}}, color = {204, 0, 0}));
+        connect(leftBronchus1.fport_in, bronchialRightMiddle.fport_in) annotation(
+          Line(points = {{58, 4}, {-11.5, 4}, {-11.5, 3.5}}, color = {204, 0, 0}));
+        connect(bronchialRightMiddle.fport_in, alveolar1.fport_in) annotation(
+          Line(points = {{-11.5, 3.5}, {-49.5, 3.5}}, color = {204, 0, 0}));
+        connect(alveolar1.fport_in, pulmonary_in) annotation(
+          Line(points = {{-49.5, 3.5}, {-66, 3.5}, {-66, 34}, {-100, 34}}, color = {204, 0, 0}));
+        connect(bronchialRightLower.fport_in, alveolar2.fport_in) annotation(
+          Line(points = {{-10, -26}, {-49.5, -26}, {-49.5, -26.5}}, color = {204, 0, 0}));
+        connect(alveolar2.fport_in, pulmonary_in) annotation(
+          Line(points = {{-49.5, -26.5}, {-66, -26.5}, {-66, 34}, {-100, 34}}, color = {204, 0, 0}));
+        connect(bronchialRightMiddle.fport_in1, leftBronchus1.fport_in1) annotation(
+          Line(points = {{-12, -11.5}, {58, -11.5}, {58, -12}}, color = {204, 0, 0}));
+        connect(leftBronchus1.fport_in1, leftAlveolar1.fport_in1) annotation(
+          Line(points = {{58, -12}, {90, -12}}, color = {204, 0, 0}));
+        connect(leftAlveolar.fport_in1, leftBronchus.fport_in1) annotation(
+          Line(points = {{90, 16.5}, {54, 16.5}}, color = {204, 0, 0}));
+        connect(leftBronchus.fport_in1, bronchialRightUpper.fport_in1) annotation(
+          Line(points = {{54, 16.5}, {-14, 16.5}}, color = {204, 0, 0}));
+        connect(bronchialRightUpper.fport_in1, alveolar.fport_in1) annotation(
+          Line(points = {{-14, 16}, {-52, 16}, {-52, 18}}, color = {204, 0, 0}));
+        connect(alveolar.fport_in1, pulmonary_out) annotation(
+          Line(points = {{-52, 18}, {-74, 18}, {-74, -12}, {-98, -12}}, color = {204, 0, 0}));
+        connect(bronchialRightLower.fport_in1, alveolar2.fport_in1) annotation(
+          Line(points = {{-10, -42}, {-50, -42}, {-50, -41.5}}, color = {204, 0, 0}));
+        connect(alveolar2.fport_in1, pulmonary_out) annotation(
+          Line(points = {{-50, -41.5}, {-74, -41.5}, {-74, -12}, {-98, -12}}, color = {204, 0, 0}));
+        connect(gITract.fport_in, portal_in) annotation(
+          Line(points = {{10, -64}, {-20, -64}, {-20, -98}}, color = {204, 0, 0}));
+        connect(gITract.fport_in1, portal_out) annotation(
+          Line(points = {{10, -80}, {10, -89}, {14, -89}, {14, -100}}, color = {204, 0, 0}));
+        connect(tracheoBronchial.fport_in1, systemic_out) annotation(
+          Line(points = {{10, 44}, {-42, 44}, {-42, 100}}, color = {204, 0, 0}));
+        connect(mouthThroat.fport_in1, systemic_out) annotation(
+          Line(points = {{10, 80}, {-42, 80}, {-42, 100}}, color = {204, 0, 0}));
+        connect(tracheoBronchial.fport_in, systemic_in) annotation(
+          Line(points = {{10, 60}, {-2, 60}, {-2, 100}}, color = {204, 0, 0}));
+        connect(mouthThroat.fport_in, systemic_in) annotation(
+          Line(points = {{10, 96}, {-2, 96}, {-2, 100}}, color = {204, 0, 0}));
+  connect(mouthThroat.cport, singleInhalation.cport) annotation(
+          Line(points = {{28, 88}, {50, 88}, {50, 74}, {74, 74}}, color = {114, 159, 207}, thickness = 1));
       end BasicInhalation;
     end Inhalation;
     package Remdesivir 
@@ -2186,6 +2258,227 @@ end GITract;
     end ComponentRemdesivirPK;
     
     end Remdesivir;
+
+    package Architecture
+  extends Modelica.Icons.Package;
+
+      model Absorption
+  Pharmacolibrary.Interfaces.ConcentrationPort_a oralDose annotation(
+          Placement(transformation(origin = {0, 100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {32, 100}, extent = {{-10, -10}, {10, 10}})));
+  Interfaces.PharmaBus pharmaBus annotation(
+          Placement(transformation(origin = {0, -100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {0, -100}, extent = {{-10, -10}, {10, 10}})));
+      equation
+
+      annotation(
+          Icon(graphics = {Bitmap(extent = {{-98, -98}, {98, 98}}, imageSource = "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"), Line(origin = {86.52, -0.98}, points = {{-50, 0}, {8, 0}}, color = {237, 51, 59}, thickness = 4), Line(origin = {21.7814, 86.88}, points = {{8, 7}, {8, -7}, {-12, -7}, {-12, -55}}, color = {255, 163, 72}, thickness = 4, smooth = Smooth.Bezier), Line(origin = {-31.926, 85.1147}, points = {{-11, 9}, {-11, -1}, {33, 1}}, color = {153, 193, 241}, thickness = 4, smooth = Smooth.Bezier), Line(origin = {-41.49, -0.68}, points = {{-50, 0}, {8, 0}}, color = {53, 132, 228}, thickness = 4), Text(origin = {-1, -111}, extent = {{-125, 13}, {125, -13}}, textString = "%name")}));
+end Absorption;
+
+      model Distribution
+  Interfaces.PharmaBus pharmaBus annotation(
+          Placement(transformation(origin = {0, 100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {48, -2}, extent = {{-10, -10}, {10, 10}})));
+      equation
+
+      annotation(
+          Icon(graphics = {Bitmap(origin = {2, 0}, extent = {{-100, -100}, {100, 100}}, fileName = "modelica://Pharmacolibrary/Resources/Icons/humanArteriesVeinsSmall.png"), Text(origin = {-1, -111}, extent = {{-123, 11}, {123, -11}}, textString = "%name")}));
+end Distribution;
+
+      model Metabolism
+  Interfaces.PharmaBus pharmaBus annotation(
+          Placement(transformation(origin = {-48, 0}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-48, 0}, extent = {{-10, -10}, {10, 10}})));
+      equation
+
+      annotation(
+          Icon(graphics = {Bitmap(origin = {-1, 1}, extent = {{-99, -99}, {99, 99}}, imageSource = "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"), Text(origin = {-1, -110}, extent = {{-123, 10}, {123, -10}}, textString = "%name")}));
+end Metabolism;
+
+      model Elimination
+  Interfaces.PharmaBus pharmaBus annotation(
+          Placement(transformation(origin = {0, 98}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {0, 98}, extent = {{-10, -10}, {10, 10}})));
+      equation
+
+      annotation(
+          Icon(graphics = {Bitmap(origin = {-1, -1}, extent = {{-99, -99}, {99, 99}}, imageSource = "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"), Text(origin = {-1, -111}, extent = {{-125, 11}, {125, -11}}, textString = "%name")}));
+end Elimination;
+
+      model PKPBModel
+  Absorption absorption annotation(
+          Placement(transformation(origin = {7, 57}, extent = {{-31, -31}, {31, 31}})));
+  Distribution distribution annotation(
+          Placement(transformation(origin = {-30, -12}, extent = {{-30, -30}, {30, 30}})));
+  Metabolism metabolism annotation(
+          Placement(transformation(origin = {49, -9}, extent = {{-29, -29}, {29, 29}})));
+  Elimination elimination annotation(
+          Placement(transformation(origin = {8, -66}, extent = {{-24, -24}, {24, 24}})));
+      equation
+  connect(absorption.pharmaBus, distribution.pharmaBus) annotation(
+          Line(points = {{7, 26}, {8, 26}, {8, -12}, {-16, -12}}, color = {255, 204, 51}, thickness = 0.5));
+  connect(absorption.pharmaBus, metabolism.pharmaBus) annotation(
+          Line(points = {{7, 26}, {8, 26}, {8, -8}, {36, -8}}, color = {255, 204, 51}, thickness = 0.5));
+  connect(elimination.pharmaBus, absorption.pharmaBus) annotation(
+          Line(points = {{8, -42}, {8, 26}}, color = {255, 204, 51}, thickness = 0.5));
+      annotation(
+          Icon(graphics = {Text(origin = {1, 0}, extent = {{-79, 40}, {79, -40}}, textString = "PBPK"), Rectangle(origin = {1, 0}, extent = {{-99, 100}, {99, -100}})}));
+end PKPBModel;
+    end Architecture;
+
+    package EquationADME
+  extends Modelica.Icons.Package;
+
+      model Absorption
+      extends Test.Architecture.Absorption;
+        parameter Real F = 0.8 "bioavailability";
+        Modelica.Blocks.Interfaces.RealOutput effectiveDose;
+        
+      equation
+        effectiveDose = F * oralDose.massFlowRate;
+        //oralDose.massFlowRate = 1;
+        //oralDose.freeBloodConc = oralDose.freeTissueConc;
+      connect(pharmaBus.absorbedDose, effectiveDose);
+      /*
+      Real H "heaviside step function";
+      Real effectiveDose "";
+      Real eliminationRate;
+      Real ammountDrug;
+      Real halfLife;
+      parameter Real F = 0.8 "bioavailability";
+      parameter Real Dose = 1000 * 1e-6 "dose 1000 mg";
+      parameter Real Vd = 65 * 1e-3 "Volume of distribution";
+      parameter Real Cl = 20 * 1e-3 / 3600 "clearance from L/h to m3/s";
+      parameter Real t0 = 60 "time of administration of first dose";
+      equation
+      
+        H = if time >= t0 then 1 else 0;
+        effectiveDose = F * Dose;
+        eliminationRate = Cl * C;
+        Vd = ammountDrug / C;
+        halfLife = log(2) * Vd / Cl;
+      C = effectiveDose / Vd * H * exp(-Cl/Vd*(time-t0));
+      */
+      end Absorption;
+
+      model Distribution
+      extends Test.Architecture.Distribution;
+      parameter Real Vd = 65 * 1e-3 "Volume of distribution";
+      Real ammountDrug;
+      Modelica.Blocks.Interfaces.RealOutput C;
+      Modelica.Blocks.Interfaces.RealInput absorbedDose;
+      Modelica.Blocks.Interfaces.RealInput eliminationRatio;
+      Modelica.Blocks.Interfaces.RealOutput VdParam;
+      equation
+        Vd = ammountDrug / C;
+        VdParam = Vd;
+        C = absorbedConcentration / Vd * eliminationRatio;
+        connect(pharmaBus.absorbedDose,absorbedDose);
+        connect(pharmaBus.eliminationRatio, eliminationRatio);
+        connect(pharmaBus.C,C);
+        connect(pharmaBus.Vd,VdParam);
+      /*
+      Real H "heaviside step function";
+      Real effectiveDose "";
+      Real eliminationRate;
+      Real ammountDrug;
+      Real halfLife;
+      parameter Real F = 0.8 "bioavailability";
+      parameter Real Dose = 1000 * 1e-6 "dose 1000 mg";
+      parameter Real Vd = 65 * 1e-3 "Volume of distribution";
+      parameter Real Cl = 20 * 1e-3 / 3600 "clearance from L/h to m3/s";
+      parameter Real t0 = 60 "time of administration of first dose";
+      equation
+      
+        H = if time >= t0 then 1 else 0;
+        effectiveDose = F * Dose;
+        eliminationRate = Cl * C;
+        Vd = ammountDrug / C;
+        halfLife = log(2) * Vd / Cl;
+        C = effectiveDose / Vd * H * exp(-Cl/Vd*(time-t0));
+      */      
+      end Distribution;
+
+      model Elimination
+      extends Test.Architecture.Elimination;
+      parameter Real Cl = 20 * 1e-3 / 3600 "clearance from L/h to m3/s";
+      Modelica.Blocks.Interfaces.RealInput Vd;
+      Real halfLife;
+      Modelica.Blocks.Interfaces.RealOutput eliminationRatio;
+      Real eliminationRate;
+      Modelica.Blocks.Interfaces.RealInput C;
+      equation
+        halfLife = log(2) * Vd / Cl;
+        eliminationRatio = exp(-Cl/Vd*time);
+        connect(pharmaBus.eliminationRatio,eliminationRatio);
+        connect(pharmaBus.Vd,Vd);
+        connect(pharmaBus.C,C);
+        eliminationRate = Cl * C;
+/*
+      Real H "heaviside step function";
+      Real effectiveDose "";
+      Real eliminationRate;
+      Real ammountDrug;
+      Real halfLife;
+      parameter Real F = 0.8 "bioavailability";
+      parameter Real Dose = 1000 * 1e-6 "dose 1000 mg";
+      parameter Real Vd = 65 * 1e-3 "Volume of distribution";
+      parameter Real Cl = 20 * 1e-3 / 3600 "clearance from L/h to m3/s";
+      parameter Real t0 = 60 "time of administration of first dose";
+      equation
+      
+        H = if time >= t0 then 1 else 0;
+        effectiveDose = F * Dose;
+        eliminationRate = Cl * C;
+        Vd = ammountDrug / C;
+        halfLife = log(2) * Vd / Cl;
+        C = effectiveDose / Vd * H * exp(-Cl/Vd*(time-t0));
+      */
+      end Elimination;
+
+      model Metabolism
+      extends Test.Architecture.Metabolism;
+      equation
+/*
+      Real H "heaviside step function";
+      Real effectiveDose "";
+      Real eliminationRate;
+      Real ammountDrug;
+      Real halfLife;
+      parameter Real F = 0.8 "bioavailability";
+      parameter Real Dose = 1000 * 1e-6 "dose 1000 mg";
+      parameter Real Vd = 65 * 1e-3 "Volume of distribution";
+      parameter Real Cl = 20 * 1e-3 / 3600 "clearance from L/h to m3/s";
+      parameter Real t0 = 60 "time of administration of first dose";
+      equation
+      
+        H = if time >= t0 then 1 else 0;
+        effectiveDose = F * Dose;
+        eliminationRate = Cl * C;
+        Vd = ammountDrug / C;
+        halfLife = log(2) * Vd / Cl;
+        C = effectiveDose / Vd * H * exp(-Cl/Vd*(time-t0));
+      */
+      end Metabolism;
+
+      model PBPKModel
+  Absorption absorption annotation(
+          Placement(transformation(origin = {-10, 48}, extent = {{-18, -18}, {18, 18}})));
+  Distribution distribution annotation(
+          Placement(transformation(origin = {-28, 0}, extent = {{-16, -16}, {16, 16}})));
+  Elimination elimination annotation(
+          Placement(transformation(origin = {-5, -35}, extent = {{-15, -15}, {15, 15}})));
+  Metabolism metabolism annotation(
+          Placement(transformation(origin = {26, 0}, extent = {{-16, -16}, {16, 16}})));
+  Pharmacolibrary.Sources.PeriodicDose periodicDose(adminDuration(displayUnit = "s") = 60, adminMass = 0.001, adminPeriod = 28800, doseCount = 1, firstAdminTime(displayUnit = "s") = 60) annotation(
+          Placement(transformation(origin = {47, 71}, extent = {{-21, -21}, {21, 21}})));
+      equation
+  connect(absorption.pharmaBus, elimination.pharmaBus) annotation(
+          Line(points = {{-10, 30}, {-4, 30}, {-4, -20}}, color = {255, 204, 51}, thickness = 0.5));
+  connect(distribution.pharmaBus, absorption.pharmaBus) annotation(
+          Line(points = {{-20, 0}, {-10, 0}, {-10, 30}}, color = {255, 204, 51}, thickness = 0.5));
+  connect(metabolism.pharmaBus, absorption.pharmaBus) annotation(
+          Line(points = {{18, 0}, {-10, 0}, {-10, 30}}, color = {255, 204, 51}, thickness = 0.5));
+  connect(periodicDose.cport, absorption.oralDose) annotation(
+          Line(points = {{48, 50}, {28, 50}, {28, 66}, {-4, 66}}, color = {114, 159, 207}));
+      end PBPKModel;
+
+    end EquationADME;
     
   end Test;
   annotation(
