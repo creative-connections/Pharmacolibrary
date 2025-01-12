@@ -2467,11 +2467,13 @@ end PKPBModel;
           Placement(transformation(origin = {-3, -57}, extent = {{-29, -29}, {29, 29}})));
   Metabolism metabolism annotation(
           Placement(transformation(origin = {51, -13}, extent = {{-27, -27}, {27, 27}})));
-  Pharmacolibrary.Sources.PeriodicDose periodicDose(adminDuration(displayUnit = "s") = 600, adminMass = 0.001, adminPeriod = 28800, doseCount = 3, firstAdminTime(displayUnit = "s") = 60) annotation(
+  Pharmacolibrary.Sources.PeriodicDose periodicDose(adminDuration(displayUnit = "s") = adminDuration, adminMass = adminMass, adminPeriod = 28800, doseCount = 3, firstAdminTime(displayUnit = "s") = 60) annotation(
           Placement(transformation(origin = {59, 81}, extent = {{-11, -11}, {11, 11}})));
       parameter Real Vd=65*1e-3;
       parameter Real F=0.8;
       parameter Real Cl= 20*1e-3/3600;
+      parameter Real adminDuration = 600;
+      parameter Real adminMass = 0.001;
       equation
   connect(absorption.pharmaBus, elimination.pharmaBus) annotation(
           Line(points = {{-3, 26}, {-3, -29}}, color = {255, 204, 51}, thickness = 0.5));
@@ -2487,12 +2489,13 @@ F = %F
 Distribution:
 Vd = %Vd
 Elimination:
-Cl = %Cl", horizontalAlignment = TextAlignment.Left), Text(origin = {7, 120}, extent = {{-147, 20}, {147, -20}}, textString = "%name")}));
+Cl = %Cl", horizontalAlignment = TextAlignment.Left), Text(origin = {7, 120}, extent = {{-147, 20}, {147, -20}}, textString = "%name"), Text(origin = {187, 83}, extent = {{-145, 19}, {145, -19}}, textString = "duration: %adminDuration
+mass: %adminMass", horizontalAlignment = TextAlignment.Left)}, coordinateSystem(extent = {{-160, 140}, {280, -100}})));
 end PBPKModel;
 
       model ParacetamolPBPK
-  PBPKModel paracetamol annotation(
-          Placement(transformation(origin = {-25, 11}, extent = {{-61, -61}, {61, 61}})));
+  PBPKModel acetaminophen annotation(
+          Placement(transformation(origin = {-40, 35.4545}, extent = {{-56, -30.5455}, {56, 30.5455}})));
       equation
 
       annotation(
@@ -2501,10 +2504,22 @@ end ParacetamolPBPK;
 
       model GentamicinePBPK
   PBPKModel gentamicine(Vd = 0.25*1e-3, F = 0.03, Cl = 5*1e-3/3600)  annotation(
-          Placement(transformation(origin = {-46, 32}, extent = {{-48, -48}, {48, 48}})));
+          Placement(transformation(origin = {-40, 36}, extent = {{-48, -48}, {48, 48}})));
+  PBPKModel gentamicineIV(periodicDose(adminDuration(displayUnit = "min") = 30*60, adminMass = 0.001, adminPeriod = 28800, doseCount = 1, firstAdminTime(displayUnit = "s") = 60),Cl = 5*1e-3/3600, F = 1, Vd = 0.25*1e-3) annotation(
+          Placement(transformation(origin = {96, -40}, extent = {{-48, -48}, {48, 48}})));
       equation
 
-      end GentamicinePBPK;
+      annotation(
+          Documentation(info = "<html><head></head><body>
+<pre style=\"margin-top: 0px; margin-bottom: 0px;\"><br><pre style=\"margin-top: 0px; margin-bottom: 0px;\"><!--EndFragment--></pre><!--EndFragment--></pre></body></html>"));
+end GentamicinePBPK;
+
+      model TheopyllinePBPK
+  PBPKModel theopyilline(Vd = 0.5*1e-3, F = 0.9, Cl = 0.4*1e-3/3600, adminDuration = 12*60*60)  annotation(
+          Placement(transformation(origin = {-31, 17}, extent = {{-59, -59}, {59, 59}})));
+      equation
+
+      end TheopyllinePBPK;
 
     end SingleCompartment;
     
