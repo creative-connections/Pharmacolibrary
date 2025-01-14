@@ -12,7 +12,7 @@ package PharmacoChemicalModels
   parameter Real F = 1 "bioavailability - 0, so intravenously administered - 1";
   parameter Real Dose = 200 * 1e-6 "dose 100 mg";
   parameter Real Vd = 271 * 1e-3 "Volume of distribution";
-  parameter Real Cl = 237 * 1e-3 / 3600 "metabolic 207 and kidney 20 clearance from L/h to m3/s";
+  parameter Real Cl = 237 * 1e-3 / 3600 "metabolic 217 and kidney 20 clearance from L/h to m3/s";
   //parameter Real halflife = Modelica.Math.log(2) * Vd / Cl;
   parameter Real t0 = 60*60 "time of administration of first dose";
   equation
