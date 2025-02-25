@@ -2445,35 +2445,13 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
         Modelica.Blocks.Interfaces.RealInput eliminationFlow;
         Modelica.Blocks.Interfaces.RealOutput VdParam;
       equation
-  //Vd = ammountDrug / C;
         VdParam = Vd;
         C = ammountDrug/Vd;
-  // * eliminationRatio;
         der(ammountDrug) = absorptionFlow - eliminationFlow;
         connect(pharmaBus.absorptionFlow, absorptionFlow);
         connect(pharmaBus.eliminationFlow, eliminationFlow);
         connect(pharmaBus.C, C);
         connect(pharmaBus.Vd, VdParam);
-  /*
-      Real H "heaviside step function";
-      Real effectiveDose "";
-      Real eliminationRate;
-      Real ammountDrug;
-      Real halfLife;
-      parameter Real F = 0.8 "bioavailability";
-      parameter Real Dose = 1000 * 1e-6 "dose 1000 mg";
-      parameter Real Vd = 65 * 1e-3 "Volume of distribution";
-      parameter Real Cl = 20 * 1e-3 / 3600 "clearance from L/h to m3/s";
-      parameter Real t0 = 60 "time of administration of first dose";
-      equation
-      
-        H = if time >= t0 then 1 else 0;
-        effectiveDose = F * Dose;
-        eliminationRate = Cl * C;
-        Vd = ammountDrug / C;
-        halfLife = log(2) * Vd / Cl;
-        C = effectiveDose / Vd * H * exp(-Cl/Vd*(time-t0));
-      */
       end Distribution;
   
       model Elimination
@@ -2482,60 +2460,18 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
         Modelica.Blocks.Interfaces.RealInput Vd;
         Real halfLife;
         Modelica.Blocks.Interfaces.RealOutput eliminationFlow;
-        //Real eliminationRate;
         Modelica.Blocks.Interfaces.RealInput C;
       equation
         halfLife = log(2)*Vd/Cl;
-  //eliminationRate = exp(-Cl/Vd*time);
         connect(pharmaBus.eliminationFlow, eliminationFlow);
         connect(pharmaBus.Vd, Vd);
         connect(pharmaBus.C, C);
         eliminationFlow = Cl*C;
-  /*
-      Real H "heaviside step function";
-      Real effectiveDose "";
-      Real eliminationRate;
-      Real ammountDrug;
-      Real halfLife;
-      parameter Real F = 0.8 "bioavailability";
-      parameter Real Dose = 1000 * 1e-6 "dose 1000 mg";
-      parameter Real Vd = 65 * 1e-3 "Volume of distribution";
-      parameter Real Cl = 20 * 1e-3 / 3600 "clearance from L/h to m3/s";
-      parameter Real t0 = 60 "time of administration of first dose";
-      equation
-      
-        H = if time >= t0 then 1 else 0;
-        effectiveDose = F * Dose;
-        eliminationRate = Cl * C;
-        Vd = ammountDrug / C;
-        halfLife = log(2) * Vd / Cl;
-        C = effectiveDose / Vd * H * exp(-Cl/Vd*(time-t0));
-      */
       end Elimination;
   
       model Metabolism
         extends Models.Architecture.Metabolism;
       equation
-  /*
-      Real H "heaviside step function";
-      Real effectiveDose "";
-      Real eliminationRate;
-      Real ammountDrug;
-      Real halfLife;
-      parameter Real F = 0.8 "bioavailability";
-      parameter Real Dose = 1000 * 1e-6 "dose 1000 mg";
-      parameter Real Vd = 65 * 1e-3 "Volume of distribution";
-      parameter Real Cl = 20 * 1e-3 / 3600 "clearance from L/h to m3/s";
-      parameter Real t0 = 60 "time of administration of first dose";
-      equation
-      
-        H = if time >= t0 then 1 else 0;
-        effectiveDose = F * Dose;
-        eliminationRate = Cl * C;
-        Vd = ammountDrug / C;
-        halfLife = log(2) * Vd / Cl;
-        C = effectiveDose / Vd * H * exp(-Cl/Vd*(time-t0));
-      */
       end Metabolism;
   
       model PBPKModel
@@ -2635,6 +2571,37 @@ end TheopyllinePK;
   Documentation);
       end RemdesivirPK;
     end SingleCompartment;
+
+    package TwoCompartment
+  extends Modelica.Icons.Package;
+
+      model DistributionTwoCompartment
+        extends Models.Architecture.Distribution;
+  // Existing variables and equations...
+        parameter Real k12 = 0.1 "Rate constant to peripheral compartment";
+        parameter Real k21 = 0.05 "Rate constant from peripheral compartment";
+        Real A_c "Amount in central compartment";
+        // New state variable for peripheral compartment
+        Real A_p "Amount in peripheral compartment";
+        // Additional outputs such as concentration in the peripheral compartment
+        Modelica.Blocks.Interfaces.RealOutput C_p;
+        parameter Real VdParam = 65*1e-3 "Volume of distribution in central tissue";
+        parameter Real Vd_p = 65*1e-3 "Volume of distribution in perihperal tissue";
+      equation
+// Central balance with exchange terms:
+        der(A_c) = absorptionFlow - eliminationFlow - k12*A_c + k21*A_p;
+// Peripheral compartment balance:
+        der(A_p) = k12*A_c - k21*A_p;
+// Compute concentrations (assuming known volumes)
+        C = A_c/Vd_c;
+        C_p = A_p/Vd_p;
+        connect(pharmaBus.absorptionFlow, absorptionFlow);
+        connect(pharmaBus.eliminationFlow, eliminationFlow);
+        connect(pharmaBus.C, C);
+        connect(pharmaBus.Vd, VdParam);
+        
+      end DistributionTwoCompartment;
+    end TwoCompartment;
     
   end Models;
   annotation(
