@@ -653,7 +653,9 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
       extends Pharmacolibrary.Interfaces.FlowPort;
       annotation(
         defaultComponentName = "fport_in",
-        Icon(coordinateSystem(initialScale = 0.1), graphics = {Polygon(lineColor = {204, 0, 0}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, lineThickness = 2, points = {{-80, 0}, {0, 80}, {80, 0}, {0, -80}, {-80, 0}})}),
+        Icon(coordinateSystem(initialScale = 0.1), graphics = {Polygon(points = {{-80, 0}, {0, 80}, {80, 0}, {0, -80}, {-80, 0}}, lineColor = {204, 0, 0}, lineThickness = 0.5,
+              fillColor={255,255,255},
+              fillPattern=FillPattern.Solid)}),
         Diagram(coordinateSystem(initialScale = 0.1)));
     end FlowPort_a;
 
@@ -746,7 +748,9 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
       ConcentrationPort_b cport annotation(
         Placement(transformation(origin = {0, 92}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {0, 100}, extent = {{-10, -10}, {10, 10}})));
       annotation(
-        Icon(graphics = {Polygon(points = {{-40, 100}, {40, 100}, {100, 40}, {100, -40}, {40, -100}, {-40, -100}, {-100, -40}, {-100, 40}, {-100, 40}, {-40, 100}}), Text(origin = {0, -121}, extent = {{-258, 21}, {258, -21}}, textString = "%name"), Rectangle(origin = {0, 21}, fillColor = {153, 193, 241}, fillPattern = FillPattern.Solid, extent = {{-100, 19}, {100, -19}}), Rectangle(origin = {0, -3}, lineColor = {46, 194, 126}, fillColor = {51, 209, 122}, fillPattern = FillPattern.Solid, lineThickness = 2, extent = {{-100, 5}, {100, -5}}), Line(origin = {-38.875, -12.72}, points = {{0, 16}, {0, -16}}, color = {153, 193, 241}, thickness = 4, arrow = {Arrow.None, Arrow.Filled}, arrowSize = 12)}));
+        Icon(graphics = {Polygon(points = {{-40, 100}, {40, 100}, {100, 40}, {100, -40}, {40, -100}, {-40, -100}, {-100, -40}, {-100, 40}, {-100, 40}, {-40, 100}},
+              fillColor={255,255,255},
+              fillPattern=FillPattern.Solid),                                                                                                                        Text(origin = {0, -121}, extent = {{-258, 21}, {258, -21}}, textString = "%name"), Rectangle(origin = {0, 21}, fillColor = {153, 193, 241}, fillPattern = FillPattern.Solid, extent = {{-100, 19}, {100, -19}}), Rectangle(origin = {0, -3}, lineColor = {46, 194, 126}, fillColor = {51, 209, 122}, fillPattern = FillPattern.Solid, lineThickness = 2, extent = {{-100, 5}, {100, -5}}), Line(origin = {-38.875, -12.72}, points = {{0, 16}, {0, -16}}, color = {153, 193, 241}, thickness = 4, arrow = {Arrow.None, Arrow.Filled}, arrowSize = 12)}));
     end InterfaceElimination;
 
     partial model PartialOneConcPort_obsolete
@@ -809,19 +813,28 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
 //if cBSwitch then cport_b.freeBloodConc else cport_b.freeTissueConc;
       cport_a.massFlowRate + cport_b.massFlowRate = 0;
       annotation(
-        Icon(graphics = {Line(origin = {0, -2.29348}, points = {{0, 42}, {0, -38}}, color = {114, 159, 207}, thickness = 0.5, arrow = {Arrow.Filled, Arrow.Filled}), Polygon(points = {{-100, 0}, {0, 100}, {100, 0}, {0, -100}, {-100, 0}}), Text(origin = {0, 59}, extent = {{-160, 19}, {160, -19}}, textString = "%name"), Rectangle(origin = {0, -2}, lineColor = {46, 194, 126}, fillColor = {51, 209, 122}, fillPattern = FillPattern.Solid, lineThickness = 2, extent = {{-80, 4}, {80, -4}})}, coordinateSystem(initialScale = 0.1)));
+        Icon(graphics = {                                                                                                                                            Polygon(points = {{-100, 0}, {0, 100}, {100, 0}, {0, -100}, {-100, 0}},
+              fillColor={255,255,255},
+              fillPattern=FillPattern.Solid),
+                         Line(origin = {0, -2.29348}, points = {{0, 42}, {0, -38}}, color = {114, 159, 207}, thickness = 0.5, arrow = {Arrow.Filled, Arrow.Filled}),                                                                                                                                                           Rectangle(origin = {0, -2}, lineColor = {46, 194, 126}, fillColor = {51, 209, 122}, fillPattern = FillPattern.Solid, lineThickness = 2, extent = {{-80, 4}, {80, -4}}),
+                                                                                                                                                                                                        Text(origin = {0, 59}, extent = {{-160, 19}, {160, -19}}, textString = "%name")},                                                                                                                                                                         coordinateSystem(initialScale = 0.1)));
     end PartialTransfer;
 
     model PartialDrugSource
       Pharmacolibrary.Interfaces.ConcentrationPort_b cport annotation(
         Placement(transformation(origin = {0, -100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {0, -100}, extent = {{-20, -20}, {20, 20}})));
       annotation(
-        Icon(graphics = {Rectangle(origin = {-18, 6}, lineColor = {114, 159, 207}, lineThickness = 1, extent = {{-12, 54}, {50, -66}}), Line(origin = {0.29, -80}, points = {{0, 20}, {0, -10}}, color = {114, 159, 207}, thickness = 1, arrow = {Arrow.None, Arrow.Half}, arrowSize = 5), Line(origin = {0, 79}, points = {{0, 21}, {0, -99}}, color = {114, 159, 207}, thickness = 2), Line(origin = {-1, 100}, points = {{-29, 0}, {29, 0}}, color = {114, 159, 207}, thickness = 1), Line(origin = {1, -20}, points = {{-31, 0}, {31, 0}}, color = {114, 159, 207}, thickness = 1), Rectangle(origin = {1, -40}, fillColor = {233, 185, 110}, pattern = LinePattern.None, fillPattern = FillPattern.Solid, extent = {{-29, 18}, {29, -18}}), Ellipse(extent = {{-100, 100}, {100, -100}}), Text(origin = {-1, 118}, extent = {{-139, 18}, {139, -18}}, textString = "%name")}, coordinateSystem(initialScale = 0.1)));
+        Icon(graphics = {                                                                                                                                                                                                      Ellipse(extent = {{-100, 100}, {100, -100}},
+              fillColor={255,255,255},
+              fillPattern=FillPattern.Solid),
+                         Rectangle(origin = {-18, 6}, lineColor = {114, 159, 207}, lineThickness = 1, extent = {{-12, 54}, {50, -66}}), Line(origin = {0.29, -80}, points = {{0, 20}, {0, -10}}, color = {114, 159, 207}, thickness = 1, arrow = {Arrow.None, Arrow.Half}, arrowSize = 5), Line(origin = {0, 79}, points = {{0, 21}, {0, -99}}, color = {114, 159, 207}, thickness = 2), Line(origin = {-1, 100}, points = {{-29, 0}, {29, 0}}, color = {114, 159, 207}, thickness = 1), Line(origin = {1, -20}, points = {{-31, 0}, {31, 0}}, color = {114, 159, 207}, thickness = 1), Rectangle(origin = {1, -40}, fillColor = {233, 185, 110}, pattern = LinePattern.None, fillPattern = FillPattern.Solid, extent = {{-29, 18}, {29, -18}}),                                               Text(origin = {-1, 118}, extent = {{-139, 18}, {139, -18}}, textString = "%name")}, coordinateSystem(initialScale = 0.1)));
     end PartialDrugSource;
 
     partial model PartialTool
       annotation(
-        Icon(graphics = {Polygon(origin = {-10, 0}, points = {{-60, -100}, {40, -100}, {80, 100}, {-20, 100}, {-60, -100}, {-60, -100}}), Text(origin = {0, -120}, extent = {{-120, 20}, {120, -20}}, textString = "%name")}));
+        Icon(graphics = {Polygon(origin = {-10, 0}, points = {{-60, -100}, {40, -100}, {80, 100}, {-20, 100}, {-60, -100}, {-60, -100}},
+              fillColor={255,255,255},
+              fillPattern=FillPattern.Solid),                                                                                             Text(origin = {0, -120}, extent = {{-120, 20}, {120, -20}}, textString = "%name")}));
     end PartialTool;
 
     partial model PartialEffect
@@ -836,7 +849,9 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
 //if cBSwitch then cport.freeBloodConc else cport.freeTissueConc;
       cport.massFlowRate = 0;
       annotation(
-        Icon(graphics = {Polygon(origin = {12, -1}, points = {{-28, 99}, {-72, -19}, {22, -1}, {-20, -99}, {72, 29}, {-26, 17}, {16, 99}, {-28, 99}, {-28, 99}})}),
+        Icon(graphics = {Polygon(origin = {12, -1}, points = {{-28, 99}, {-72, -19}, {22, -1}, {-20, -99}, {72, 29}, {-26, 17}, {16, 99}, {-28, 99}, {-28, 99}},
+              fillColor={255,255,255},
+              fillPattern=FillPattern.Solid)}),
         Documentation(info = "<html><head></head><body><h2><br></h2></body></html>"));
     end PartialEffect;
 
@@ -860,7 +875,10 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
       ConcentrationPort_b cport_b annotation(
         Placement(transformation(origin = {2, -100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-3.55271e-15, -100}, extent = {{-20, -20}, {20, 20}})));
       annotation(
-        Icon(graphics = {Rectangle(origin = {-18, 6}, lineColor = {114, 159, 207}, lineThickness = 1, extent = {{-12, 54}, {50, -66}}), Line(origin = {0.29, -80}, points = {{0, 20}, {0, -10}}, color = {114, 159, 207}, thickness = 1, arrow = {Arrow.None, Arrow.Half}, arrowSize = 5), Line(origin = {0, 79}, points = {{0, 21}, {0, -99}}, color = {114, 159, 207}, thickness = 2), Line(origin = {-1, 100}, points = {{-29, 0}, {29, 0}}, color = {114, 159, 207}, thickness = 1), Line(origin = {1, -20}, points = {{-31, 0}, {31, 0}}, color = {114, 159, 207}, thickness = 1), Rectangle(origin = {1, -40}, fillColor = {233, 185, 110}, pattern = LinePattern.None, fillPattern = FillPattern.Solid, extent = {{-29, 18}, {29, -18}}), Ellipse(extent = {{-100, 100}, {100, -100}}), Text(origin = {-1, 118}, extent = {{-139, 18}, {139, -18}}, textString = "%name")}, coordinateSystem(initialScale = 0.1)));
+        Icon(graphics = {                                                                                                                                                                                                      Ellipse(extent = {{-100, 100}, {100, -100}},
+              fillColor={255,255,255},
+              fillPattern=FillPattern.Solid),
+                         Rectangle(origin = {-18, 6}, lineColor = {114, 159, 207}, lineThickness = 1, extent = {{-12, 54}, {50, -66}}), Line(origin = {0.29, -80}, points = {{0, 20}, {0, -10}}, color = {114, 159, 207}, thickness = 1, arrow = {Arrow.None, Arrow.Half}, arrowSize = 5), Line(origin = {0, 79}, points = {{0, 21}, {0, -99}}, color = {114, 159, 207}, thickness = 2), Line(origin = {-1, 100}, points = {{-29, 0}, {29, 0}}, color = {114, 159, 207}, thickness = 1), Line(origin = {1, -20}, points = {{-31, 0}, {31, 0}}, color = {114, 159, 207}, thickness = 1), Rectangle(origin = {1, -40}, fillColor = {233, 185, 110}, pattern = LinePattern.None, fillPattern = FillPattern.Solid, extent = {{-29, 18}, {29, -18}}),                                               Text(origin = {-1, 118}, extent = {{-139, 18}, {139, -18}}, textString = "%name")}, coordinateSystem(initialScale = 0.1)));
     end PartialDrugSourceS;
   end Interfaces;
 
