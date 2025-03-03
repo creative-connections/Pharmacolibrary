@@ -1,5 +1,70 @@
 package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynamics (v1.0.0)"
   extends Modelica.Icons.Package;
+package UsersGuide "User's Guide"
+  extends Modelica.Icons.Information;
+
+    class License "Copyright and license"
+      extends Modelica.Icons.Information;
+    
+      annotation (
+        Documentation(
+          info= "<html><head></head><body><p>
+    All files in this directory (Pharmacolibrary) and in all
+    subdirectories are licensed under the ... License
+    </p>
+    
+    <h4>Copyright</h4>
+    <p>
+    © 2025, Tomas Kulhanek, ...</p>
+    
+    <h4><a name=\"3clauseBSD_License-outline\"></a>The ... License</h4>
+    <p>
+    Redistribution and use in source and binary forms, with or without modification,
+    are permitted provided that the following conditions are met:</p><p>...</p><br>
+    </body></html>",
+          revisions="<html>
+    </html>"));
+    end License;
+
+    class Contact "Contact"
+      extends Modelica.Icons.Contact;
+    
+      annotation (
+        Documentation(
+          info = "<html><head></head><body><h4>Authors</h4>
+    <blockquote>Tomas Kulhanek<sup>1,2,3</sup>, ... </blockquote><blockquote><sup>1</sup>Creative Connections s.r.o, Praha, Czech Republic<br><sup>2</sup>VITO -&nbsp;Vlaamse Instelling voor Technologisch Onderzoek, Mol, Belgium<br/><sup>3</sup>Univerzita Karlova, Praha, Czech Republic</blockquote>
+    
+    
+    <h4>Contact</h4>
+    <p>
+    Preferred feedback is to raise an issue on the project's
+    <a href=\"https://github.com/creative-connections/Pharmacolibrary.git\">GitHub repository</a>
+    (also for positive feedback).
+    </p>
+    <p>
+    If you have other issues contact:
+    <a href=\"mailto:tomas.kulhanek@matfyz.cz\">tomas.kulhanek@matfyz.cz</a>.
+    </p>
+    
+    
+    
+    <h4>Acknowledgements</h4>
+    <p>
+    This work has been inspired by the work of Jan Silar, who created first kind of such library to model basic pharmacology concepts in Modelica.</p>
+    </body></html>"));
+    
+    end Contact;
+  annotation (DocumentationClass=true, Documentation(info= "<html><head></head><body><p>
+This is the <b>Pharmacolibrary</b>&nbsp;for the robust modeling
+of complex pharmacokinetics, pharmacodynamics, pharmacogenomics, toxicokinetics and simila.
+</p>
+
+<p>
+In this User's Guide, the most important aspects of the library are sketched.
+</p>
+</body></html>", revisions= "<html><head></head><body><p><br></p>
+</body></html>"));
+end UsersGuide;
 
   package Examples
     extends Modelica.Icons.ExamplesPackage;
@@ -205,7 +270,7 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
         Placement(transformation(origin = {16, 38}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
       Pharmacokinetic.SystemicCompartment arteries(V = 0.001) annotation(
         Placement(transformation(origin = {48, 38}, extent = {{-10, -10}, {10, 10}})));
-      Sources.SingleDose singleDose(adminMass = 1e-4, duration (displayUnit = "s")= 60, adminTime = 3600) annotation(
+      Sources.SingleDose singleDose(adminMass = 1e-4, duration(displayUnit = "s") = 60, adminTime = 3600) annotation(
         Placement(transformation(origin = {48, 70}, extent = {{-10, -10}, {10, 10}})));
       Pharmacokinetic.FlowGround flowGround annotation(
         Placement(transformation(origin = {-18, 20}, extent = {{-10, -10}, {10, 10}})));
@@ -300,7 +365,7 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
         Line(points = {{4, 8}, {4, 0}}, color = {114, 159, 207}));
       annotation(
         experiment(StartTime = 0, StopTime = 21600, Tolerance = 1e-06, Interval = 43.2866),
-  Documentation(info = "<html><head></head><body><b>SingleDoseLumen</b> model shows simplified process of absorption from GI lumen to GIT tissue, from where the drug is distributed to the rest of the body.</body></html>"));
+        Documentation(info = "<html><head></head><body><b>SingleDoseLumen</b> model shows simplified process of absorption from GI lumen to GIT tissue, from where the drug is distributed to the rest of the body.</body></html>"));
     end SingleDoseLumen;
 
     model SingleDoseIntravenousWholeBody
@@ -571,7 +636,8 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
       connect(gitAbsorption.cport_b, gut.cport) annotation(
         Line(points = {{84, -52}, {84, -56}, {10, -56}}, color = {114, 159, 207}));
       annotation(
-        experiment(StartTime = 0, StopTime = 43200, Tolerance = 1e-06, Interval = 86.4));
+        experiment(StartTime = 0, StopTime = 43200, Tolerance = 1e-06, Interval = 86.4),
+  Diagram(graphics = {Rectangle(origin = {90, -30}, lineColor = {38, 162, 105}, lineThickness = 0.75, extent = {{-20, 30}, {20, -30}}), Text(origin = {89, -64}, textColor = {38, 162, 105}, extent = {{-17, 4}, {17, -4}}, textString = "Absorption"), Text(origin = {65, 83}, textColor = {224, 27, 36}, extent = {{-21, 5}, {21, -5}}, textString = "Distribution"), Rectangle(origin = {-64, -69}, lineColor = {53, 132, 228}, lineThickness = 0.75, extent = {{-34, 17}, {34, -17}}), Text(origin = {-80, -55}, textColor = {53, 132, 228}, extent = {{-18, 3}, {18, -3}}, textString = "Elimination")}));
     end OralDoseGUTWholeBody;
 
     model PKTwoCompartmentModel
@@ -634,11 +700,11 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
         Documentation(info = "<html><head></head><body>Paracetamol pharmacokinetic model.<div><br></div><div>Minimal therapeutic contrntration cmin = 4 [1]</div><div><br></div><div>[1] Liu DJ, Collaku A. Bioequivalence and Safety of Twice-Daily Sustained-Release Paracetamol (Acetaminophen) Compared With 3- and 4-Times-Daily Paracetamol: A Repeat-Dose, Crossover Pharmacokinetic Study in Healthy Volunteers. Clin Pharmacol Drug Dev. 2018 Jan;7(1):77-86. doi: 10.1002/cpdd.369. Epub 2017 Aug 16. PMID: 28815997; PMCID: PMC6084369.</div><div><br></div></body></html>"));
     end ParacetamolPKWholeBodyModel;
 
-    model ParacetamolPK2Compartment
+    model ParacetamolPK2CompartmentModel
       extends Pharmacolibrary.Examples.PKTwoCompartmentModel(periodicDose(adminMass = 0.0015), intestine(kTB = 0.9));
     equation
 
-    end ParacetamolPK2Compartment;
+    end ParacetamolPK2CompartmentModel;
   end Examples;
 
   package Interfaces
@@ -653,9 +719,7 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
       extends Pharmacolibrary.Interfaces.FlowPort;
       annotation(
         defaultComponentName = "fport_in",
-        Icon(coordinateSystem(initialScale = 0.1), graphics = {Polygon(points = {{-80, 0}, {0, 80}, {80, 0}, {0, -80}, {-80, 0}}, lineColor = {204, 0, 0}, lineThickness = 0.5,
-              fillColor={255,255,255},
-              fillPattern=FillPattern.Solid)}),
+        Icon(coordinateSystem(initialScale = 0.1), graphics = {Polygon(lineColor = {204, 0, 0}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, lineThickness = 0.5, points = {{-100, 0}, {0, 100}, {100, 0}, {0, -100}, {-100, 0}})}),
         Diagram(coordinateSystem(initialScale = 0.1)));
     end FlowPort_a;
 
@@ -663,7 +727,7 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
       extends Pharmacolibrary.Interfaces.FlowPort;
       annotation(
         defaultComponentName = "fport_in",
-        Icon(coordinateSystem(initialScale = 0.1), graphics = {Polygon(points = {{-80, 0}, {0, 80}, {80, 0}, {0, -80}, {-80, 0}}, lineColor = {204, 0, 0}, lineThickness = 0.5, fillColor = {204, 0, 0}, fillPattern = FillPattern.Solid)}),
+        Icon(coordinateSystem(initialScale = 0.1), graphics = {Polygon(lineColor = {204, 0, 0}, fillColor = {204, 0, 0}, fillPattern = FillPattern.Solid, lineThickness = 0.5, points = {{-100, 0}, {0, 100}, {100, 0}, {0, -100}, {-100, 0}})}),
         Diagram(coordinateSystem(initialScale = 0.1)));
     end FlowPort_b;
 
@@ -746,18 +810,10 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
 
     partial model InterfaceElimination
       ConcentrationPort_b cport annotation(
-        Placement(transformation(origin = {0, 92}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {0, 100}, extent = {{-10, -10}, {10, 10}})));
+        Placement(transformation(origin = {0, 92}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {0, 100}, extent = {{-20, -20}, {20, 20}})));
       annotation(
-        Icon(graphics = {Polygon(points = {{-40, 100}, {40, 100}, {100, 40}, {100, -40}, {40, -100}, {-40, -100}, {-100, -40}, {-100, 40}, {-100, 40}, {-40, 100}},
-              fillColor={255,255,255},
-              fillPattern=FillPattern.Solid),                                                                                                                        Text(origin = {0, -121}, extent = {{-258, 21}, {258, -21}}, textString = "%name"), Rectangle(origin = {0, 21}, fillColor = {153, 193, 241}, fillPattern = FillPattern.Solid, extent = {{-100, 19}, {100, -19}}), Rectangle(origin = {0, -3}, lineColor = {46, 194, 126}, fillColor = {51, 209, 122}, fillPattern = FillPattern.Solid, lineThickness = 2, extent = {{-100, 5}, {100, -5}}), Line(origin = {-38.875, -12.72}, points = {{0, 16}, {0, -16}}, color = {153, 193, 241}, thickness = 4, arrow = {Arrow.None, Arrow.Filled}, arrowSize = 12)}));
+        Icon(graphics = {Polygon(points = {{-40, 100}, {40, 100}, {100, 40}, {100, -40}, {40, -100}, {-40, -100}, {-100, -40}, {-100, 40}, {-100, 40}, {-40, 100}}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid), Text(origin = {0, -121}, extent = {{-258, 21}, {258, -21}}, textString = "%name"), Rectangle(origin = {0, 21}, fillColor = {153, 193, 241}, fillPattern = FillPattern.Solid, extent = {{-100, 19}, {100, -19}}), Rectangle(origin = {0, -3}, lineColor = {46, 194, 126}, fillColor = {51, 209, 122}, fillPattern = FillPattern.Solid, lineThickness = 2, extent = {{-100, 5}, {100, -5}}), Line(origin = {-38.875, -12.72}, points = {{0, 16}, {0, -16}}, color = {153, 193, 241}, thickness = 4, arrow = {Arrow.None, Arrow.Filled}, arrowSize = 12)}));
     end InterfaceElimination;
-
-    partial model PartialOneConcPort_obsolete
-      //obsolete as cport can be added manually in each component
-      ConcentrationPort_a cport annotation(
-        Placement(transformation(origin = {0, 92}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {0, 100}, extent = {{-10, -10}, {10, 10}})));
-    end PartialOneConcPort_obsolete;
 
     partial model PartialFlowThrough
       extends Pharmacolibrary.Interfaces.PartialTwoPort;
@@ -813,28 +869,19 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
 //if cBSwitch then cport_b.freeBloodConc else cport_b.freeTissueConc;
       cport_a.massFlowRate + cport_b.massFlowRate = 0;
       annotation(
-        Icon(graphics = {                                                                                                                                            Polygon(points = {{-100, 0}, {0, 100}, {100, 0}, {0, -100}, {-100, 0}},
-              fillColor={255,255,255},
-              fillPattern=FillPattern.Solid),
-                         Line(origin = {0, -2.29348}, points = {{0, 42}, {0, -38}}, color = {114, 159, 207}, thickness = 0.5, arrow = {Arrow.Filled, Arrow.Filled}),                                                                                                                                                           Rectangle(origin = {0, -2}, lineColor = {46, 194, 126}, fillColor = {51, 209, 122}, fillPattern = FillPattern.Solid, lineThickness = 2, extent = {{-80, 4}, {80, -4}}),
-                                                                                                                                                                                                        Text(origin = {0, 59}, extent = {{-160, 19}, {160, -19}}, textString = "%name")},                                                                                                                                                                         coordinateSystem(initialScale = 0.1)));
+        Icon(graphics = {Polygon(points = {{-100, 0}, {0, 100}, {100, 0}, {0, -100}, {-100, 0}}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid), Line(origin = {0, -2.29348}, points = {{0, 42}, {0, -38}}, color = {114, 159, 207}, thickness = 0.5, arrow = {Arrow.Filled, Arrow.Filled}), Rectangle(origin = {0, -2}, lineColor = {46, 194, 126}, fillColor = {51, 209, 122}, fillPattern = FillPattern.Solid, lineThickness = 2, extent = {{-80, 4}, {80, -4}}), Text(origin = {0, 59}, extent = {{-160, 19}, {160, -19}}, textString = "%name")}, coordinateSystem(initialScale = 0.1)));
     end PartialTransfer;
 
     model PartialDrugSource
       Pharmacolibrary.Interfaces.ConcentrationPort_b cport annotation(
         Placement(transformation(origin = {0, -100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {0, -100}, extent = {{-20, -20}, {20, 20}})));
       annotation(
-        Icon(graphics = {                                                                                                                                                                                                      Ellipse(extent = {{-100, 100}, {100, -100}},
-              fillColor={255,255,255},
-              fillPattern=FillPattern.Solid),
-                         Rectangle(origin = {-18, 6}, lineColor = {114, 159, 207}, lineThickness = 1, extent = {{-12, 54}, {50, -66}}), Line(origin = {0.29, -80}, points = {{0, 20}, {0, -10}}, color = {114, 159, 207}, thickness = 1, arrow = {Arrow.None, Arrow.Half}, arrowSize = 5), Line(origin = {0, 79}, points = {{0, 21}, {0, -99}}, color = {114, 159, 207}, thickness = 2), Line(origin = {-1, 100}, points = {{-29, 0}, {29, 0}}, color = {114, 159, 207}, thickness = 1), Line(origin = {1, -20}, points = {{-31, 0}, {31, 0}}, color = {114, 159, 207}, thickness = 1), Rectangle(origin = {1, -40}, fillColor = {233, 185, 110}, pattern = LinePattern.None, fillPattern = FillPattern.Solid, extent = {{-29, 18}, {29, -18}}),                                               Text(origin = {-1, 118}, extent = {{-139, 18}, {139, -18}}, textString = "%name")}, coordinateSystem(initialScale = 0.1)));
+        Icon(graphics = {Ellipse(extent = {{-100, 100}, {100, -100}}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid), Rectangle(origin = {-18, 6}, lineColor = {114, 159, 207}, lineThickness = 1, extent = {{-12, 54}, {50, -66}}), Line(origin = {0.29, -80}, points = {{0, 20}, {0, -10}}, color = {114, 159, 207}, thickness = 1, arrow = {Arrow.None, Arrow.Half}, arrowSize = 5), Line(origin = {0, 79}, points = {{0, 21}, {0, -99}}, color = {114, 159, 207}, thickness = 2), Line(origin = {-1, 100}, points = {{-29, 0}, {29, 0}}, color = {114, 159, 207}, thickness = 1), Line(origin = {1, -20}, points = {{-31, 0}, {31, 0}}, color = {114, 159, 207}, thickness = 1), Rectangle(origin = {1, -40}, fillColor = {233, 185, 110}, pattern = LinePattern.None, fillPattern = FillPattern.Solid, extent = {{-29, 18}, {29, -18}}), Text(origin = {-1, 118}, extent = {{-139, 18}, {139, -18}}, textString = "%name")}, coordinateSystem(initialScale = 0.1)));
     end PartialDrugSource;
 
     partial model PartialTool
       annotation(
-        Icon(graphics = {Polygon(origin = {-10, 0}, points = {{-60, -100}, {40, -100}, {80, 100}, {-20, 100}, {-60, -100}, {-60, -100}},
-              fillColor={255,255,255},
-              fillPattern=FillPattern.Solid),                                                                                             Text(origin = {0, -120}, extent = {{-120, 20}, {120, -20}}, textString = "%name")}));
+        Icon(graphics = {Polygon(origin = {-10, 0}, points = {{-60, -100}, {40, -100}, {80, 100}, {-20, 100}, {-60, -100}, {-60, -100}}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid), Text(origin = {0, -120}, extent = {{-120, 20}, {120, -20}}, textString = "%name")}));
     end PartialTool;
 
     partial model PartialEffect
@@ -843,15 +890,13 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
       Modelica.Units.SI.DimensionlessRatio E "efect";
       Pharmacolibrary.Types.MassConcentration c "free blood or tissue conc";
       ConcentrationPort_a cport annotation(
-        Placement(transformation(origin = {0, 98}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {0, 98}, extent = {{-10, -10}, {10, 10}})));
+        Placement(transformation(origin = {0, 98}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {0, 100}, extent = {{-20, -20}, {20, 20}})));
     equation
       c = cport.conc;
 //if cBSwitch then cport.freeBloodConc else cport.freeTissueConc;
       cport.massFlowRate = 0;
       annotation(
-        Icon(graphics = {Polygon(origin = {12, -1}, points = {{-28, 99}, {-72, -19}, {22, -1}, {-20, -99}, {72, 29}, {-26, 17}, {16, 99}, {-28, 99}, {-28, 99}},
-              fillColor={255,255,255},
-              fillPattern=FillPattern.Solid)}),
+        Icon(graphics = {Polygon(origin = {12, -1}, points = {{-28, 99}, {-72, -19}, {22, -1}, {-20, -99}, {72, 29}, {-26, 17}, {16, 99}, {-28, 99}, {-28, 99}}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid)}),
         Documentation(info = "<html><head></head><body><h2><br></h2></body></html>"));
     end PartialEffect;
 
@@ -871,14 +916,17 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
       extends Modelica.Icons.SignalBus;
     end PharmaBus;
 
+    partial model PartialOneConcPort_obsolete
+      //obsolete as cport can be added manually in each component
+      ConcentrationPort_a cport annotation(
+        Placement(transformation(origin = {0, 92}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {0, 100}, extent = {{-10, -10}, {10, 10}})));
+    end PartialOneConcPort_obsolete;
+
     model PartialDrugSourceS
       ConcentrationPort_b cport_b annotation(
         Placement(transformation(origin = {2, -100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-3.55271e-15, -100}, extent = {{-20, -20}, {20, 20}})));
       annotation(
-        Icon(graphics = {                                                                                                                                                                                                      Ellipse(extent = {{-100, 100}, {100, -100}},
-              fillColor={255,255,255},
-              fillPattern=FillPattern.Solid),
-                         Rectangle(origin = {-18, 6}, lineColor = {114, 159, 207}, lineThickness = 1, extent = {{-12, 54}, {50, -66}}), Line(origin = {0.29, -80}, points = {{0, 20}, {0, -10}}, color = {114, 159, 207}, thickness = 1, arrow = {Arrow.None, Arrow.Half}, arrowSize = 5), Line(origin = {0, 79}, points = {{0, 21}, {0, -99}}, color = {114, 159, 207}, thickness = 2), Line(origin = {-1, 100}, points = {{-29, 0}, {29, 0}}, color = {114, 159, 207}, thickness = 1), Line(origin = {1, -20}, points = {{-31, 0}, {31, 0}}, color = {114, 159, 207}, thickness = 1), Rectangle(origin = {1, -40}, fillColor = {233, 185, 110}, pattern = LinePattern.None, fillPattern = FillPattern.Solid, extent = {{-29, 18}, {29, -18}}),                                               Text(origin = {-1, 118}, extent = {{-139, 18}, {139, -18}}, textString = "%name")}, coordinateSystem(initialScale = 0.1)));
+        Icon(graphics = {Ellipse(extent = {{-100, 100}, {100, -100}}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid), Rectangle(origin = {-18, 6}, lineColor = {114, 159, 207}, lineThickness = 1, extent = {{-12, 54}, {50, -66}}), Line(origin = {0.29, -80}, points = {{0, 20}, {0, -10}}, color = {114, 159, 207}, thickness = 1, arrow = {Arrow.None, Arrow.Half}, arrowSize = 5), Line(origin = {0, 79}, points = {{0, 21}, {0, -99}}, color = {114, 159, 207}, thickness = 2), Line(origin = {-1, 100}, points = {{-29, 0}, {29, 0}}, color = {114, 159, 207}, thickness = 1), Line(origin = {1, -20}, points = {{-31, 0}, {31, 0}}, color = {114, 159, 207}, thickness = 1), Rectangle(origin = {1, -40}, fillColor = {233, 185, 110}, pattern = LinePattern.None, fillPattern = FillPattern.Solid, extent = {{-29, 18}, {29, -18}}), Text(origin = {-1, 118}, extent = {{-139, 18}, {139, -18}}, textString = "%name")}, coordinateSystem(initialScale = 0.1)));
     end PartialDrugSourceS;
   end Interfaces;
 
@@ -1017,89 +1065,6 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
   equation
 
   end Icons;
-
-  package Pharmacodynamic
-    extends Modelica.Icons.Package;
-
-    model LinearEffect "instant linear effect"
-      extends Pharmacolibrary.Interfaces.PartialEffect;
-      parameter Pharmacolibrary.Types.RecipMassConc kEff "effect linear coefficient";
-    equation
-      E = kEff*c;
-      annotation(
-        Icon(graphics = {Text(origin = {-48, -56}, extent = {{-52, 38}, {52, -38}}, textString = "Lin")}),
-        Documentation(info = "<html><head></head><body><h1>LinearEffect</h1><div>instant linear effect. Effect E is proportional to the free concentration (either tissue or blood/plasma, depending on the switch) at the BloodTissueConcentrationPort connector times kEff quatient (E = kEff*c).</div><h2>Parameters</h2><div>kEff - effect linear coefficient</div><div>Boolean cBSwitch - false: use tissue free conc, true: use blood free conc</div></body></html>"));
-    end LinearEffect;
-
-    model EmaxEffect "instant emax effect"
-      extends Pharmacolibrary.Interfaces.PartialEffect;
-      parameter Real Emax(unit = "1") "maximal effect";
-      parameter Pharmacolibrary.Types.MassConcentration c50 "concentration producing 50% of Emax";
-    equation
-      E = Emax*c/(c50 + c);
-      annotation(
-        Icon(graphics = {Text(origin = {-49, -57}, extent = {{-51, 39}, {51, -39}}, textString = "Emax"), Line(origin = {1.9, 33.9}, points = {{-95.9004, -49.9004}, {-83.9004, 2.09963}, {-39.9004, 48.0996}, {90.0996, 50.0996}, {96.0996, 50.0996}}, color = {53, 132, 228}, thickness = 1, smooth = Smooth.Bezier), Line(origin = {-90, 40}, points = {{-10, 0}, {10, 0}}, arrow = {Arrow.None, Arrow.Half}), Text(origin = {-96, 49}, extent = {{-14, 7}, {14, -7}}, textString = "c50")}),
-        Documentation(info = "<html><head></head><body><h1 style=\"font-family: 'DejaVu Sans Mono';\">EmaxEffect</h1><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">instant Emax effect model. Effect E is calculated using an equation</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp; &nbsp; &nbsp;Emax * c</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">E = ----------</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp; &nbsp; &nbsp;c50 + c</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">where c is the free concentration (either tissue or blood/plasma, depending on the switch) at the BloodTissueConcentrationPort connector.</div><h2 style=\"font-family: 'DejaVu Sans Mono';\">Parameters</h2><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">Emax - maximal effect</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">c50 - concentration producing half maximum effect</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">Boolean cBSwitch - false: use tissue free conc, true: use blood free conc</div></body></html>"));
-    end EmaxEffect;
-
-    model SigmoidEmaxEffect "instant Sigmoid Emax effect"
-      extends Pharmacolibrary.Interfaces.PartialEffect;
-      parameter Real Emax(unit = "1") "maximal effect";
-      parameter Real h(unit = "1") "Hill exponent";
-      parameter Pharmacolibrary.Types.MassConcentration c50 "concentration producing 50% of Emax";
-    equation
-      E = Emax*c^h/(c50^h + c^h);
-      annotation(
-        Icon(graphics = {Text(origin = {-41, -47}, extent = {{-51, 39}, {51, -39}}, textString = "SigmEmax"), Line(origin = {1.9, 33.9}, points = {{-95.9004, -49.9004}, {-15.9004, -47.9004}, {14.0996, 50.0996}, {90.0996, 50.0996}, {96.0996, 50.0996}}, color = {53, 132, 228}, thickness = 1, smooth = Smooth.Bezier), Line(origin = {-90, 40}, points = {{-4, -6}, {90, -6}}, arrow = {Arrow.None, Arrow.Half}), Text(origin = {-78, 43}, extent = {{-14, 7}, {14, -7}}, textString = "c50")}, coordinateSystem(initialScale = 0.1)),
-        Documentation(info = "<html><head></head><body><h1 style=\"font-family: 'DejaVu Sans Mono';\">SigmoidEmaxEffect</h1><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">instant Sigmoid Emax effect model. Effect E is calculated using an equation</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp; &nbsp; &nbsp;Emax * c<sup>h</sup></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">E = -----------</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp; &nbsp; &nbsp;c50<sup>h&nbsp;</sup>+ c<sup>h</sup></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">where c is the free concentration (either tissue or blood/plasma, depending on the switch) at the BloodTissueConcentrationPort connector.</div><h2 style=\"font-family: 'DejaVu Sans Mono';\">Parameters</h2><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">Emax - maximal effect</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">c50 - concentration producing half maximum effect</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">h - hill coefficient</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">Boolean cBSwitch - false: use tissue free conc, true: use blood free conc</div></body></html>"));
-    end SigmoidEmaxEffect;
-
-    model ZeroOrderInhibitionEffect
-      extends Pharmacolibrary.Interfaces.PartialIndirectEffect;
-      parameter Pharmacolibrary.Types.MassConcentration c50 "concentration producing 50% maximum inhibition";
-    equation
-      IIn = 1 - c/(c + c50);
-      IOut = 1;
-      annotation(
-        Icon(graphics = {Text(origin = {0, -53}, extent = {{-76, 67}, {76, -67}}, textString = "Inhib 0")}),
-        Documentation(info = "<html><head></head><body><h1 style=\"font-family: 'DejaVu Sans Mono';\">ZeroOrderInhibitionEffect</h1><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">indirect zero order inhibition effect model. Effect E is calculated using an differential equation</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c &nbsp;</div><div><font face=\"DejaVu Sans Mono\">E' = kIn*(</font><span style=\"font-family: 'DejaVu Sans Mono';\">1 - ---------)</span><font face=\"DejaVu Sans Mono\">&nbsp;- kOut*E</font></div><div><font face=\"DejaVu Sans Mono\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><span style=\"font-family: 'DejaVu Sans Mono';\">c + c50</span></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">where c is the free concentration (either tissue or blood/plasma, depending on the switch) at the BloodTissueConcentrationPort connector.</div><h2 style=\"font-family: 'DejaVu Sans Mono';\">Parameters</h2><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><span style=\"font-size: medium;\">c50 - concentration producing 50% maximum inhibition</span></div><div><div><font face=\"DejaVu Sans Mono\">kIn - zero-order response production constant</font></div><div><font face=\"DejaVu Sans Mono\">kOut - first-order response loss rate constant</font></div></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">Boolean tissueBloodSw - false: use tissue free conc, true: use blood free conc</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div><br></div></body></html>"));
-    end ZeroOrderInhibitionEffect;
-
-    model FirstOrderInhibitionEffect "indirect first order inhibition effect model"
-      extends Pharmacolibrary.Interfaces.PartialIndirectEffect;
-      parameter Pharmacolibrary.Types.MassConcentration c50 "concentration producing 50% maximum inhibition";
-    equation
-      IIn = 1;
-      IOut = 1 - c/(c + c50);
-      annotation(
-        Icon(graphics = {Text(origin = {0, -53}, extent = {{-76, 67}, {76, -67}}, textString = "Inhib 1")}, coordinateSystem(initialScale = 0.1)),
-        Documentation(info = "<html><head></head><body><h1 style=\"font-family: 'DejaVu Sans Mono';\">FirstOrderInhibitionEffect</h1><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">indirect first order inhibition effect model. Effect E is calculated using an differential equation</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; c &nbsp;</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><font face=\"DejaVu Sans Mono\">E' = kIn</font><font face=\"DejaVu Sans Mono\">&nbsp;- kOut*</font><font face=\"DejaVu Sans Mono\">(</font>1 - ---------)*E</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><font face=\"DejaVu Sans Mono\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</font>c + c50</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">where c is the free concentration (either tissue or blood/plasma, depending on the switch) at the BloodTissueConcentrationPort connector.</div><h2 style=\"font-family: 'DejaVu Sans Mono';\">Parameters</h2><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><span style=\"font-size: medium;\">c50 - concentration producing 50% maximum inhibition</span></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><div><font face=\"DejaVu Sans Mono\">kIn - zero-order response production constant</font></div><div><font face=\"DejaVu Sans Mono\">kOut - first-order response loss rate constant</font></div></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">Boolean cBSwitch - false: use tissue free conc, true: use blood free conc</div><div><br></div></body></html>"));
-    end FirstOrderInhibitionEffect;
-
-    model ZeroOrderStimulationEffect "indirect zero order stimulation effect model"
-      extends Pharmacolibrary.Interfaces.PartialIndirectEffect;
-      parameter Real Emax(unit = "1") "maximal effect";
-      parameter Pharmacolibrary.Types.MassConcentration c50 "concentration producing 50% of maximum stimulation";
-    equation
-      IIn = 1 + Emax*c/(c50 + c);
-      IOut = 1;
-      annotation(
-        Icon(graphics = {Text(origin = {-6, -46}, extent = {{-94, 42}, {18, -40}}, textString = "Stim0")}),
-        Documentation(info = "<html><head></head><body><h1 style=\"font-family: 'DejaVu Sans Mono';\">ZeroOrderStimulationEffect</h1><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">indirect zero order stimulation effect model. Effect E is calculated using an differential equation</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Emax * c &nbsp;</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><font face=\"DejaVu Sans Mono\">E' = kIn*(</font>1 + ----------)<font face=\"DejaVu Sans Mono\">&nbsp;- kOut*E</font></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><font face=\"DejaVu Sans Mono\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font>c + c50</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">where c is the free concentration (either tissue or blood/plasma, depending on the switch) at the BloodTissueConcentrationPort connector.</div><h2 style=\"font-family: 'DejaVu Sans Mono';\">Parameters</h2><div><font face=\"DejaVu Sans Mono\">Emax - maximal effect</font></div><div><span style=\"font-family: 'DejaVu Sans Mono'; font-size: medium;\">c50 -&nbsp;</span><font face=\"DejaVu Sans Mono\">concentration producing 50% of maximum stimulation</font></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><div><font face=\"DejaVu Sans Mono\">kIn - zero-order response production constant</font></div><div><font face=\"DejaVu Sans Mono\">kOut - first-order response loss rate constant</font></div></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">Boolean cBSwitch - false: use tissue free conc, true: use blood free conc</div></body></html>"));
-    end ZeroOrderStimulationEffect;
-
-    model FirstOrderStimulationEffect "indirect first order stimulation effect model"
-      extends Pharmacolibrary.Interfaces.PartialIndirectEffect;
-      parameter Real Emax(unit = "1") "maximal effect";
-      parameter Pharmacolibrary.Types.MassConcentration c50 "concentration producing 50% of maximum stimulation";
-    equation
-      IIn = 1;
-      IOut = 1 + Emax*c/(c50 + c);
-      annotation(
-        Icon(graphics = {Text(origin = {-25, -55}, extent = {{-77, 51}, {31, -35}}, textString = "Stim1")}),
-        Documentation(info = "<html><head></head><body><h1 style=\"font-family: 'DejaVu Sans Mono';\">FirstOrderStimulationEffect</h1><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">indirect first order stimulation effect model. Effect E is calculated using an differential equation</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Emax * c &nbsp;</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><font face=\"DejaVu Sans Mono\">E' = kIn</font><font face=\"DejaVu Sans Mono\">&nbsp;- kOut</font><font face=\"DejaVu Sans Mono\">*(</font>1 + ----------)*E</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><font face=\"DejaVu Sans Mono\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </font>c + c50</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">where c is the free concentration (either tissue or blood/plasma, depending on the switch) at the BloodTissueConcentrationPort connector.</div><h2 style=\"font-family: 'DejaVu Sans Mono';\">Parameters</h2><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><font face=\"DejaVu Sans Mono\">Emax - maximal effect</font></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><span style=\"font-size: medium;\">c50 -&nbsp;</span><font face=\"DejaVu Sans Mono\">concentration producing 50% of maximum stimulation</font></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><div><font face=\"DejaVu Sans Mono\">kIn - zero-order response production constant</font></div><div><font face=\"DejaVu Sans Mono\">kOut - first-order response loss rate constant</font></div></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">Boolean cBSwitch - false: use tissue free conc, true: use blood free conc</div></body></html>"));
-    end FirstOrderStimulationEffect;
-  end Pharmacodynamic;
 
   package Pharmacokinetic
     extends Modelica.Icons.Package;
@@ -1715,10 +1680,95 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
       annotation(
         Icon(coordinateSystem(initialScale = 0.1), graphics = {Rectangle(origin = {-2, 0}, lineColor = {255, 255, 255}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, extent = {{-6, 44}, {6, -44}}), Line(origin = {1.13, -1.13}, points = {{-1.13246, 41.1325}, {-1.13246, -34.8675}}, color = {52, 101, 164}, thickness = 4, arrow = {Arrow.Open, Arrow.None}, arrowSize = 16)}),
         Documentation(info = "<html><head></head><body><h1>UnidirectionalTransport</h1><div>is uni-directional first order transprt. It should be used in conbination with the LumenCompartment compartment connected to the cport_b connector.</div><div>The drug mass flow rate is equal to the drug mass stored in the connected LumenCompartment component times k parameter.</div><h2>Parameters</h2><div>k - first order transfer coefficient</div></body></html>"));
-    end UnidirectionalTransport;
+    end UnidirectionalTransport;annotation(
+      Icon(graphics = {Text(origin = {-27, 32}, extent = {{-75, 64}, {75, -64}}, textString = "P", fontName = "DejaVu Serif"), Text(origin = {20, -23}, extent = {{-52, 67}, {52, -67}}, textString = "K", fontName = "DejaVu Serif")}));
   end Pharmacokinetic;
 
-  package Models
+  package Pharmacodynamic
+    extends Modelica.Icons.Package;
+
+    model LinearEffect "instant linear effect"
+      extends Pharmacolibrary.Interfaces.PartialEffect;
+      parameter Pharmacolibrary.Types.RecipMassConc kEff "effect linear coefficient";
+    equation
+      E = kEff*c;
+      annotation(
+        Icon(graphics = {Text(origin = {-48, -56}, extent = {{-52, 38}, {52, -38}}, textString = "Lin")}),
+        Documentation(info = "<html><head></head><body><h1>LinearEffect</h1><div>instant linear effect. Effect E is proportional to the free concentration (either tissue or blood/plasma, depending on the switch) at the BloodTissueConcentrationPort connector times kEff quatient (E = kEff*c).</div><h2>Parameters</h2><div>kEff - effect linear coefficient</div><div>Boolean cBSwitch - false: use tissue free conc, true: use blood free conc</div></body></html>"));
+    end LinearEffect;
+
+    model EmaxEffect "instant emax effect"
+      extends Pharmacolibrary.Interfaces.PartialEffect;
+      parameter Real Emax(unit = "1") "maximal effect";
+      parameter Pharmacolibrary.Types.MassConcentration c50 "concentration producing 50% of Emax";
+    equation
+      E = Emax*c/(c50 + c);
+      annotation(
+        Icon(graphics = {Text(origin = {-49, -57}, extent = {{-51, 39}, {51, -39}}, textString = "Emax"), Line(origin = {1.9, 33.9}, points = {{-95.9004, -49.9004}, {-83.9004, 2.09963}, {-39.9004, 48.0996}, {90.0996, 50.0996}, {96.0996, 50.0996}}, color = {53, 132, 228}, thickness = 1, smooth = Smooth.Bezier), Line(origin = {-90, 40}, points = {{-10, 0}, {10, 0}}, arrow = {Arrow.None, Arrow.Half}), Text(origin = {-96, 49}, extent = {{-14, 7}, {14, -7}}, textString = "c50")}),
+        Documentation(info = "<html><head></head><body><h1 style=\"font-family: 'DejaVu Sans Mono';\">EmaxEffect</h1><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">instant Emax effect model. Effect E is calculated using an equation</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp; &nbsp; &nbsp;Emax * c</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">E = ----------</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp; &nbsp; &nbsp;c50 + c</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">where c is the free concentration (either tissue or blood/plasma, depending on the switch) at the BloodTissueConcentrationPort connector.</div><h2 style=\"font-family: 'DejaVu Sans Mono';\">Parameters</h2><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">Emax - maximal effect</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">c50 - concentration producing half maximum effect</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">Boolean cBSwitch - false: use tissue free conc, true: use blood free conc</div></body></html>"));
+    end EmaxEffect;
+
+    model SigmoidEmaxEffect "instant Sigmoid Emax effect"
+      extends Pharmacolibrary.Interfaces.PartialEffect;
+      parameter Real Emax(unit = "1") "maximal effect";
+      parameter Real h(unit = "1") "Hill exponent";
+      parameter Pharmacolibrary.Types.MassConcentration c50 "concentration producing 50% of Emax";
+    equation
+      E = Emax*c^h/(c50^h + c^h);
+      annotation(
+        Icon(graphics = {Text(origin = {-41, -47}, extent = {{-51, 39}, {51, -39}}, textString = "SigmEmax"), Line(origin = {1.9, 33.9}, points = {{-95.9004, -49.9004}, {-15.9004, -47.9004}, {14.0996, 50.0996}, {90.0996, 50.0996}, {96.0996, 50.0996}}, color = {53, 132, 228}, thickness = 1, smooth = Smooth.Bezier), Line(origin = {-90, 40}, points = {{-4, -6}, {90, -6}}, arrow = {Arrow.None, Arrow.Half}), Text(origin = {-78, 43}, extent = {{-14, 7}, {14, -7}}, textString = "c50")}, coordinateSystem(initialScale = 0.1)),
+        Documentation(info = "<html><head></head><body><h1 style=\"font-family: 'DejaVu Sans Mono';\">SigmoidEmaxEffect</h1><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">instant Sigmoid Emax effect model. Effect E is calculated using an equation</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp; &nbsp; &nbsp;Emax * c<sup>h</sup></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">E = -----------</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp; &nbsp; &nbsp;c50<sup>h&nbsp;</sup>+ c<sup>h</sup></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">where c is the free concentration (either tissue or blood/plasma, depending on the switch) at the BloodTissueConcentrationPort connector.</div><h2 style=\"font-family: 'DejaVu Sans Mono';\">Parameters</h2><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">Emax - maximal effect</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">c50 - concentration producing half maximum effect</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">h - hill coefficient</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">Boolean cBSwitch - false: use tissue free conc, true: use blood free conc</div></body></html>"));
+    end SigmoidEmaxEffect;
+
+    model ZeroOrderInhibitionEffect
+      extends Pharmacolibrary.Interfaces.PartialIndirectEffect;
+      parameter Pharmacolibrary.Types.MassConcentration c50 "concentration producing 50% maximum inhibition";
+    equation
+      IIn = 1 - c/(c + c50);
+      IOut = 1;
+      annotation(
+        Icon(graphics = {Text(origin = {0, -53}, extent = {{-76, 67}, {76, -67}}, textString = "Inhib 0")}),
+        Documentation(info = "<html><head></head><body><h1 style=\"font-family: 'DejaVu Sans Mono';\">ZeroOrderInhibitionEffect</h1><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">indirect zero order inhibition effect model. Effect E is calculated using an differential equation</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c &nbsp;</div><div><font face=\"DejaVu Sans Mono\">E' = kIn*(</font><span style=\"font-family: 'DejaVu Sans Mono';\">1 - ---------)</span><font face=\"DejaVu Sans Mono\">&nbsp;- kOut*E</font></div><div><font face=\"DejaVu Sans Mono\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><span style=\"font-family: 'DejaVu Sans Mono';\">c + c50</span></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">where c is the free concentration (either tissue or blood/plasma, depending on the switch) at the BloodTissueConcentrationPort connector.</div><h2 style=\"font-family: 'DejaVu Sans Mono';\">Parameters</h2><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><span style=\"font-size: medium;\">c50 - concentration producing 50% maximum inhibition</span></div><div><div><font face=\"DejaVu Sans Mono\">kIn - zero-order response production constant</font></div><div><font face=\"DejaVu Sans Mono\">kOut - first-order response loss rate constant</font></div></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">Boolean tissueBloodSw - false: use tissue free conc, true: use blood free conc</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div><br></div></body></html>"));
+    end ZeroOrderInhibitionEffect;
+
+    model FirstOrderInhibitionEffect "indirect first order inhibition effect model"
+      extends Pharmacolibrary.Interfaces.PartialIndirectEffect;
+      parameter Pharmacolibrary.Types.MassConcentration c50 "concentration producing 50% maximum inhibition";
+    equation
+      IIn = 1;
+      IOut = 1 - c/(c + c50);
+      annotation(
+        Icon(graphics = {Text(origin = {0, -53}, extent = {{-76, 67}, {76, -67}}, textString = "Inhib 1")}, coordinateSystem(initialScale = 0.1)),
+        Documentation(info = "<html><head></head><body><h1 style=\"font-family: 'DejaVu Sans Mono';\">FirstOrderInhibitionEffect</h1><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">indirect first order inhibition effect model. Effect E is calculated using an differential equation</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; c &nbsp;</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><font face=\"DejaVu Sans Mono\">E' = kIn</font><font face=\"DejaVu Sans Mono\">&nbsp;- kOut*</font><font face=\"DejaVu Sans Mono\">(</font>1 - ---------)*E</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><font face=\"DejaVu Sans Mono\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</font>c + c50</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">where c is the free concentration (either tissue or blood/plasma, depending on the switch) at the BloodTissueConcentrationPort connector.</div><h2 style=\"font-family: 'DejaVu Sans Mono';\">Parameters</h2><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><span style=\"font-size: medium;\">c50 - concentration producing 50% maximum inhibition</span></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><div><font face=\"DejaVu Sans Mono\">kIn - zero-order response production constant</font></div><div><font face=\"DejaVu Sans Mono\">kOut - first-order response loss rate constant</font></div></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">Boolean cBSwitch - false: use tissue free conc, true: use blood free conc</div><div><br></div></body></html>"));
+    end FirstOrderInhibitionEffect;
+
+    model ZeroOrderStimulationEffect "indirect zero order stimulation effect model"
+      extends Pharmacolibrary.Interfaces.PartialIndirectEffect;
+      parameter Real Emax(unit = "1") "maximal effect";
+      parameter Pharmacolibrary.Types.MassConcentration c50 "concentration producing 50% of maximum stimulation";
+    equation
+      IIn = 1 + Emax*c/(c50 + c);
+      IOut = 1;
+      annotation(
+        Icon(graphics = {Text(origin = {-6, -46}, extent = {{-94, 42}, {18, -40}}, textString = "Stim0")}),
+        Documentation(info = "<html><head></head><body><h1 style=\"font-family: 'DejaVu Sans Mono';\">ZeroOrderStimulationEffect</h1><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">indirect zero order stimulation effect model. Effect E is calculated using an differential equation</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Emax * c &nbsp;</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><font face=\"DejaVu Sans Mono\">E' = kIn*(</font>1 + ----------)<font face=\"DejaVu Sans Mono\">&nbsp;- kOut*E</font></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><font face=\"DejaVu Sans Mono\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font>c + c50</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">where c is the free concentration (either tissue or blood/plasma, depending on the switch) at the BloodTissueConcentrationPort connector.</div><h2 style=\"font-family: 'DejaVu Sans Mono';\">Parameters</h2><div><font face=\"DejaVu Sans Mono\">Emax - maximal effect</font></div><div><span style=\"font-family: 'DejaVu Sans Mono'; font-size: medium;\">c50 -&nbsp;</span><font face=\"DejaVu Sans Mono\">concentration producing 50% of maximum stimulation</font></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><div><font face=\"DejaVu Sans Mono\">kIn - zero-order response production constant</font></div><div><font face=\"DejaVu Sans Mono\">kOut - first-order response loss rate constant</font></div></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">Boolean cBSwitch - false: use tissue free conc, true: use blood free conc</div></body></html>"));
+    end ZeroOrderStimulationEffect;
+
+    model FirstOrderStimulationEffect "indirect first order stimulation effect model"
+      extends Pharmacolibrary.Interfaces.PartialIndirectEffect;
+      parameter Real Emax(unit = "1") "maximal effect";
+      parameter Pharmacolibrary.Types.MassConcentration c50 "concentration producing 50% of maximum stimulation";
+    equation
+      IIn = 1;
+      IOut = 1 + Emax*c/(c50 + c);
+      annotation(
+        Icon(graphics = {Text(origin = {-25, -55}, extent = {{-77, 51}, {31, -35}}, textString = "Stim1")}),
+        Documentation(info = "<html><head></head><body><h1 style=\"font-family: 'DejaVu Sans Mono';\">FirstOrderStimulationEffect</h1><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">indirect first order stimulation effect model. Effect E is calculated using an differential equation</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Emax * c &nbsp;</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><font face=\"DejaVu Sans Mono\">E' = kIn</font><font face=\"DejaVu Sans Mono\">&nbsp;- kOut</font><font face=\"DejaVu Sans Mono\">*(</font>1 + ----------)*E</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><font face=\"DejaVu Sans Mono\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </font>c + c50</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">where c is the free concentration (either tissue or blood/plasma, depending on the switch) at the BloodTissueConcentrationPort connector.</div><h2 style=\"font-family: 'DejaVu Sans Mono';\">Parameters</h2><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><font face=\"DejaVu Sans Mono\">Emax - maximal effect</font></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><span style=\"font-size: medium;\">c50 -&nbsp;</span><font face=\"DejaVu Sans Mono\">concentration producing 50% of maximum stimulation</font></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><div><font face=\"DejaVu Sans Mono\">kIn - zero-order response production constant</font></div><div><font face=\"DejaVu Sans Mono\">kOut - first-order response loss rate constant</font></div></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">Boolean cBSwitch - false: use tissue free conc, true: use blood free conc</div></body></html>"));
+    end FirstOrderStimulationEffect;annotation(
+      Icon(graphics = {Text(origin = {-27, 32}, extent = {{-75, 64}, {75, -64}}, textString = "P", fontName = "DejaVu Serif"), Text(origin = {20, -23}, extent = {{-52, 67}, {52, -67}}, textString = "D", fontName = "DejaVu Serif")}));
+  end Pharmacodynamic;
+
+  package DevModels
     extends Modelica.Icons.Package;
 
     model PKTwoCompartmentModel
@@ -1727,7 +1777,7 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
         Placement(transformation(origin = {66, 42}, extent = {{-10, -10}, {10, 10}})));
       Pharmacokinetic.NoPerfusedTissueCompartment intestine(V(displayUnit = "m3") = 0.003) annotation(
         Placement(transformation(origin = {66, 2}, extent = {{-10, -10}, {10, 10}})));
-      Pharmacokinetic.ConcBoundary drain(freeTissueConc = 0, freeBloodConc = 0) annotation(
+      Pharmacokinetic.ConcBoundary drain(freeTissueConc = 0) annotation(
         Placement(transformation(origin = {-42, -24}, extent = {{-10, -10}, {10, 10}})));
       Pharmacokinetic.ConcentrationGradientDiffusion intestine_blood(CL(displayUnit = "l/h") = 6.666666666666666e-7) annotation(
         Placement(transformation(origin = {26, 2}, extent = {{-10, -10}, {10, 10}})));
@@ -1768,24 +1818,24 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
       extends Modelica.Icons.Package;
 
       model Absorption
-        Interfaces.PharmaBus pharmaBus annotation(
+        Pharmacolibrary.Interfaces.PharmaBus pharmaBus annotation(
           Placement(transformation(origin = {0, -100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {0, -100}, extent = {{-10, -10}, {10, 10}})));
-        Interfaces.ConcentrationPortA cport_ingest annotation(
+        Pharmacolibrary.Interfaces.ConcentrationPort_a cport_ingest annotation(
           Placement(transformation(origin = {38, 94}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {38, 94}, extent = {{-10, -10}, {10, 10}})));
-        Interfaces.ConcentrationPortA cport_inhale annotation(
+        Pharmacolibrary.Interfaces.ConcentrationPort_a cport_inhale annotation(
           Placement(transformation(origin = {-46, 102}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-46, 102}, extent = {{-10, -10}, {10, 10}})));
-        Interfaces.ConcentrationPortA cport_intravenous annotation(
+        Pharmacolibrary.Interfaces.ConcentrationPort_a cport_intravenous annotation(
           Placement(transformation(origin = {-100, 0}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-100, 26}, extent = {{-10, -10}, {10, 10}})));
-        Interfaces.ConcentrationPortA cport_intraarterial annotation(
+        Pharmacolibrary.Interfaces.ConcentrationPort_a cport_intraarterial annotation(
           Placement(transformation(origin = {100, 0}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {100, 0}, extent = {{-10, -10}, {10, 10}})));
-        Interfaces.ConcentrationPortA cport_intramascular annotation(
+        Pharmacolibrary.Interfaces.ConcentrationPort_a cport_intramascular annotation(
           Placement(transformation(origin = {-78, -56}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-100, -58}, extent = {{-10, -10}, {10, 10}})));
-        Interfaces.ConcentrationPortA cport_subcutaneous annotation(
+        Pharmacolibrary.Interfaces.ConcentrationPort_a cport_subcutaneous annotation(
           Placement(transformation(origin = {82, 40}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {100, 40}, extent = {{-10, -10}, {10, 10}})));
       equation
 
         annotation(
-          Icon(graphics = {Bitmap(extent = {{-98, -98}, {98, 98}}, imageSource = "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"), Line(origin = {86.52, -0.98}, points = {{-68, 0}, {8, 0}}, color = {237, 51, 59}, thickness = 4), Line(origin = {21.7814, 86.88}, points = {{8, 7}, {8, -7}, {-12, -7}, {-12, -55}}, color = {255, 163, 72}, thickness = 4, smooth = Smooth.Bezier), Line(origin = {-31.926, 85.1147}, points = {{-11, 9}, {-11, -1}, {33, 1}}, color = {153, 193, 241}, thickness = 4, smooth = Smooth.Bezier), Line(origin = {-34.4539, 24.2169}, points = {{-50, 0}, {8, 0}}, color = {53, 132, 228}, thickness = 4), Text(origin = {-1, -111}, extent = {{-125, 13}, {125, -13}}, textString = "%name"), Line(origin = {-17.9591, -56.7109}, points = {{-50, 0}, {8, 0}}, color = {53, 132, 228}, thickness = 4), Line(origin = {63.5046, 39.3292}, points = {{-36, 0}, {28, 0}}, color = {237, 51, 59}, thickness = 4)}));
+          Icon(graphics = {Bitmap(extent = {{-98, -98}, {98, 98}}, imageSource = "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"), Line(origin = {86.52, -0.98}, points = {{-68, 0}, {8, 0}}, color = {237, 51, 59}, thickness = 4), Line(origin = {21.7814, 86.88}, points = {{8, 7}, {8, -7}, {-12, -7}, {-12, -55}}, color = {255, 163, 72}, thickness = 4, smooth = Smooth.Bezier), Line(origin = {-31.926, 85.1147}, points = {{-11, 9}, {-11, -1}, {33, 1}}, color = {153, 193, 241}, thickness = 4, smooth = Smooth.Bezier), Line(origin = {-34.4539, 24.2169}, points = {{-50, 0}, {8, 0}}, color = {53, 132, 228}, thickness = 4), Text(origin = {-1, -111}, extent = {{-125, 13}, {125, -13}}, textString = "%name"), Line(origin = {-17.9591, -56.7109}, points = {{-72, 0}, {8, 0}}, color = {53, 132, 228}, thickness = 4), Line(origin = {63.5046, 39.3292}, points = {{-36, 0}, {28, 0}}, color = {237, 51, 59}, thickness = 4)}));
       end Absorption;
 
       model Distribution
@@ -1854,7 +1904,7 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
           Placement(transformation(origin = {-100, 98}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-75, 75}, extent = {{-31, -31}, {31, 31}})));
         Interfaces.FlowPort_b flowIn annotation(
           Placement(transformation(origin = {-100, -96}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-77, -75}, extent = {{-29, -29}, {29, 29}})));
-        Interfaces.ConcentrationPortA cport_a annotation(
+        Interfaces.ConcentrationPort_a cport_a annotation(
           Placement(transformation(origin = {100, 0}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {101, -1}, extent = {{-27, -27}, {27, 27}})));
       equation
         connect(cport_a, solidLumen.cport_a) annotation(
@@ -2684,8 +2734,10 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
         annotation(
           Icon(graphics = {Text(origin = {1, 0}, extent = {{-79, 40}, {79, -40}}, textString = "PBPK"), Rectangle(origin = {1, 0}, extent = {{-99, 100}, {99, -100}})}));
       end PKPBModel;
-    end Processes;
-  end Models;
+    end Processes;annotation(
+      Icon(graphics = {Polygon(origin = {0, 10}, lineColor = {246, 97, 81}, lineThickness = 1, points = {{0, 90}, {-100, -90}, {100, -90}, {100, -90}, {0, 90}})}),
+  Documentation(info = "<html><head></head><body>DevModels contains models and components under heavy construction</body></html>"));
+  end DevModels;
   annotation(
     uses(Modelica(version = "4.0.0")),
     Documentation(info = "<html><head></head><body><h1>Pharmacolibrary library</h1><div>is a libary for modelling of pharmako-kinetics and pharmako-dynamics.
