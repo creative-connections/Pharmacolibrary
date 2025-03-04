@@ -1,0 +1,11 @@
+within Pharmacolibrary.Pharmacodynamic;
+model ZeroOrderInhibitionEffect
+  extends Pharmacolibrary.Interfaces.PartialIndirectEffect;
+  parameter Pharmacolibrary.Types.MassConcentration c50 "concentration producing 50% maximum inhibition";
+equation
+  IIn = 1 - c/(c + c50);
+  IOut = 1;
+  annotation(
+    Icon(graphics = {Text(origin = {0, -53}, extent = {{-76, 67}, {76, -67}}, textString = "Inhib 0")}),
+    Documentation(info = "<html><head></head><body><h1 style=\"font-family: 'DejaVu Sans Mono';\">ZeroOrderInhibitionEffect</h1><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">indirect zero order inhibition effect model. Effect E is calculated using an differential equation</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c &nbsp;</div><div><font face=\"DejaVu Sans Mono\">E' = kIn*(</font><span style=\"font-family: 'DejaVu Sans Mono';\">1 - ---------)</span><font face=\"DejaVu Sans Mono\">&nbsp;- kOut*E</font></div><div><font face=\"DejaVu Sans Mono\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><span style=\"font-family: 'DejaVu Sans Mono';\">c + c50</span></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">where c is the free concentration (either tissue or blood/plasma, depending on the switch) at the BloodTissueConcentrationPort connector.</div><h2 style=\"font-family: 'DejaVu Sans Mono';\">Parameters</h2><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><span style=\"font-size: medium;\">c50 - concentration producing 50% maximum inhibition</span></div><div><div><font face=\"DejaVu Sans Mono\">kIn - zero-order response production constant</font></div><div><font face=\"DejaVu Sans Mono\">kOut - first-order response loss rate constant</font></div></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">Boolean tissueBloodSw - false: use tissue free conc, true: use blood free conc</div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"><br></div><div><br></div></body></html>"));
+end ZeroOrderInhibitionEffect;

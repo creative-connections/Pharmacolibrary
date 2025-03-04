@@ -1,0 +1,13 @@
+within Pharmacolibrary.DevModels.Inhalation;
+model DissolvedLumen
+  Pharmacolibrary.Interfaces.ConcentrationPortA cport_a annotation (Placement(
+        transformation(origin={100,2}, extent={{-10,-10},{10,10}}),
+        iconTransformation(origin={40,0}, extent={{-10,-10},{10,10}})));
+  Pharmacolibrary.Interfaces.ConcentrationPortB cport_b annotation (Placement(
+        transformation(origin={-98,0}, extent={{-10,-10},{10,10}}),
+        iconTransformation(origin={-42,0}, extent={{-10,-10},{10,10}})));
+equation
+
+  annotation(
+    Icon(graphics = {Rectangle(lineColor = {154, 153, 150}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, extent = {{-40, 100}, {40, -100}}), Ellipse(origin = {17, 3}, lineColor = {255, 255, 255}, fillColor = {153, 193, 241}, pattern = LinePattern.Dash, fillPattern = FillPattern.Solid, lineThickness = 1, extent = {{-5, 5}, {5, -5}}), Ellipse(origin = {-13, -85}, lineColor = {255, 255, 255}, fillColor = {153, 193, 241}, pattern = LinePattern.Dash, fillPattern = FillPattern.Solid, lineThickness = 1, extent = {{-5, 5}, {5, -5}}), Ellipse(origin = {9, -69}, lineColor = {255, 255, 255}, fillColor = {153, 193, 241}, pattern = LinePattern.Dash, fillPattern = FillPattern.Solid, lineThickness = 1, extent = {{-5, 5}, {5, -5}}), Ellipse(origin = {7, 51}, lineColor = {255, 255, 255}, fillColor = {153, 193, 241}, pattern = LinePattern.Dash, fillPattern = FillPattern.Solid, lineThickness = 1, extent = {{-5, 5}, {5, -5}}), Ellipse(origin = {-3, -51}, lineColor = {255, 255, 255}, fillColor = {153, 193, 241}, pattern = LinePattern.Dash, fillPattern = FillPattern.Solid, lineThickness = 1, extent = {{-5, 5}, {5, -5}}), Polygon(origin = {-17, -4}, fillColor = {220, 138, 221}, fillPattern = FillPattern.Solid, points = {{-23, 96}, {-9, 84}, {11, 82}, {15, 78}, {-15, 80}, {-17, 78}, {-17, 70}, {-13, 66}, {15, 62}, {19, 58}, {13, 56}, {-13, 58}, {-17, 56}, {-15, 50}, {-5, 46}, {5, 42}, {1, 38}, {-15, 42}, {-15, 38}, {-15, 34}, {-11, 34}, {13, 32}, {19, 28}, {13, 26}, {-15, 28}, {-17, 26}, {-17, 12}, {-15, 8}, {9, 8}, {11, 6}, {11, 0}, {5, -2}, {-15, -2}, {-17, -6}, {-17, -18}, {-13, -26}, {21, -26}, {23, -30}, {-15, -30}, {-17, -36}, {-17, -48}, {3, -48}, {11, -50}, {11, -54}, {-13, -52}, {-17, -54}, {-17, -58}, {-15, -62}, {-9, -64}, {1, -68}, {-3, -70}, {-9, -70}, {-21, -72}, {-21, -78}, {-19, -84}, {-13, -84}, {-5, -86}, {3, -88}, {1, -92}, {-3, -94}, {-21, -92}, {-23, -84}, {-23, 96}}, smooth = Smooth.Bezier), Text(origin = {0, -119}, textColor = {26, 95, 180}, extent = {{-120, 19}, {120, -19}}, textString = "dissolved")}));
+end DissolvedLumen;
