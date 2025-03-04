@@ -1,6 +1,6 @@
 within Pharmacolibrary.DevModels.SingleCompartment;
 model Metabolism
-  extends Models.Architecture.Metabolism;
+  extends Pharmacolibrary.DevModels.Architecture.Metabolism;
 equation
 
 end Metabolism;

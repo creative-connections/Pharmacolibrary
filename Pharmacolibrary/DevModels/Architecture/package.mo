@@ -1,5 +1,5 @@
 within Pharmacolibrary.DevModels;
-package ArchitectureBus
+package Architecture
   extends Modelica.Icons.Package;
 
-end ArchitectureBus;
+end Architecture;

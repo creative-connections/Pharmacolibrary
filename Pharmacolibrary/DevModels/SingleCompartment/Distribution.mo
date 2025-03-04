@@ -1,6 +1,6 @@
 within Pharmacolibrary.DevModels.SingleCompartment;
 model Distribution
-  extends Models.Architecture.Distribution;
+  extends Pharmacolibrary.DevModels.Architecture.Distribution;
   parameter Real Vd = 65*1e-3 "Volume of distribution";
   Real ammountDrug;
   Modelica.Blocks.Interfaces.RealOutput C;

@@ -1,27 +1,9 @@
-within Pharmacolibrary.DevModels.ArchitectureBus;
+within Pharmacolibrary.DevModels.Architecture;
 model Absorption
   Pharmacolibrary.Interfaces.PharmaBus pharmaBus annotation (Placement(
         transformation(origin={0,-100}, extent={{-10,-10},{10,10}}),
         iconTransformation(origin={0,-100}, extent={{-10,-10},{10,10}})));
-  Pharmacolibrary.Interfaces.ConcentrationPort_a cport_ingest annotation (
-      Placement(transformation(origin={38,94}, extent={{-10,-10},{10,10}}),
-        iconTransformation(origin={38,94}, extent={{-10,-10},{10,10}})));
-  Pharmacolibrary.Interfaces.ConcentrationPort_a cport_inhale annotation (
-      Placement(transformation(origin={-46,102}, extent={{-10,-10},{10,10}}),
-        iconTransformation(origin={-46,102}, extent={{-10,-10},{10,10}})));
-  Pharmacolibrary.Interfaces.ConcentrationPort_a cport_intravenous annotation (
-      Placement(transformation(origin={-100,0}, extent={{-10,-10},{10,10}}),
-        iconTransformation(origin={-100,26}, extent={{-10,-10},{10,10}})));
-  Pharmacolibrary.Interfaces.ConcentrationPort_a cport_intraarterial
-    annotation (Placement(transformation(origin={100,0}, extent={{-10,-10},{10,
-            10}}), iconTransformation(origin={100,0}, extent={{-10,-10},{10,10}})));
-  Pharmacolibrary.Interfaces.ConcentrationPort_a cport_intramascular
-    annotation (Placement(transformation(origin={-78,-56}, extent={{-10,-10},{
-            10,10}}), iconTransformation(origin={-100,-58}, extent={{-10,-10},{
-            10,10}})));
-  Pharmacolibrary.Interfaces.ConcentrationPort_a cport_subcutaneous annotation
-    (Placement(transformation(origin={82,40}, extent={{-10,-10},{10,10}}),
-        iconTransformation(origin={100,40}, extent={{-10,-10},{10,10}})));
+
 equation
 
   annotation(

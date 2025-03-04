@@ -1,4 +1,4 @@
-within Pharmacolibrary.DevModels.ArchitectureBus;
+within Pharmacolibrary.DevModels.Architecture;
 model Metabolism
   Interfaces.PharmaBus pharmaBus annotation (Placement(transformation(origin={-48,
             0}, extent={{-10,-10},{10,10}}), iconTransformation(origin={-48,0},

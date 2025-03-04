@@ -3,7 +3,7 @@ model SingleDose "single dose model"
   extends Pharmacolibrary.Interfaces.PartialDrugSource;
   parameter Modelica.Units.SI.Time adminTime(displayUnit = "h") = 0 "time of dose administration";
   //tAdmin
-  parameter Pharmacolibrary.Types.Mass adminMass "drug dose mass";
+  parameter Pharmacolibrary.Types.Mass adminMass = 0.001 "drug dose mass";
   parameter Modelica.Units.SI.Time duration(displayUnit = "h") = 1;
 equation
   cport.massFlowRate = if adminTime <= time and time < adminTime + duration then -adminMass/duration else 0.0;

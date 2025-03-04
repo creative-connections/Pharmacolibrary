@@ -1,12 +1,12 @@
-within Pharmacolibrary.DevModels.ArchitectureBus;
+within Pharmacolibrary.DevModels.Architecture;
 model PKPBModel
-  Absorption absorption annotation(
+  Pharmacolibrary.DevModels.Architecture.Absorption absorption annotation(
     Placement(transformation(origin = {7, 57}, extent = {{-31, -31}, {31, 31}})));
-  Distribution distribution annotation(
+  Pharmacolibrary.DevModels.Architecture.Distribution distribution annotation(
     Placement(transformation(origin = {-30, -12}, extent = {{-30, -30}, {30, 30}})));
-  Metabolism metabolism annotation(
+  Pharmacolibrary.DevModels.Architecture.Metabolism metabolism annotation(
     Placement(transformation(origin = {49, -9}, extent = {{-29, -29}, {29, 29}})));
-  Elimination elimination annotation(
+  Pharmacolibrary.DevModels.Architecture.Elimination elimination annotation(
     Placement(transformation(origin = {8, -66}, extent = {{-24, -24}, {24, 24}})));
 equation
   connect(absorption.pharmaBus, distribution.pharmaBus) annotation(
@@ -16,5 +16,5 @@ equation
   connect(elimination.pharmaBus, absorption.pharmaBus) annotation(
     Line(points = {{8, -42}, {8, 26}}, color = {255, 204, 51}, thickness = 0.5));
   annotation(
-    Icon(graphics = {Text(origin = {1, 0}, extent = {{-79, 40}, {79, -40}}, textString = "PBPK"), Rectangle(origin = {1, 0}, extent = {{-99, 100}, {99, -100}})}));
+    Icon(graphics = {Rectangle(origin = {1, 0}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, extent = {{-99, 100}, {99, -100}}), Text(origin = {0, 42}, extent = {{96, -50}, {-96, 50}}, textString = "PBPK")}));
 end PKPBModel;
