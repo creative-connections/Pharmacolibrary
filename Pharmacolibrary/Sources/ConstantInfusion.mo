@@ -3,8 +3,8 @@ model ConstantInfusion "constant drug infusion model"
   extends Pharmacolibrary.Interfaces.PartialDrugSource;
   parameter Modelica.Units.SI.Time firstAdminTime = 0 "start time of administration";
   //tStart
-  parameter Modelica.Units.SI.Time duration "administration duration, 0 for unlimited duration";
-  parameter Pharmacolibrary.Types.Mass adminTotalMass "total drug mass, if duration unlimited then total drug mass rate per 1 s";
+  parameter Modelica.Units.SI.Time duration = 3600 "administration duration, 0 for unlimited duration";
+  parameter Pharmacolibrary.Types.Mass adminTotalMass = 0.001 "total drug mass, if duration unlimited then total drug mass rate per 1 s";
   //mTot
 equation
   if duration > 0 then

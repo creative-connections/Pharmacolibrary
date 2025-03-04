@@ -1,6 +1,6 @@
 within Pharmacolibrary.DevModels.SingleCompartment;
 model RemdesivirPK
-  PBPKModel remdesivir(VdPerKg = 3.6, F = 1, Cl = 187, adminMassMg = 1000, periodicDose(adminPeriod = 86400, doseCount = 7)) annotation(
+  PBPKModel remdesivir(VdPerKg = 3.6, F = 1, Cl = 187, adminMassMg = 1000, adminPeriod = 86400, adminCount = 7) annotation(
     Placement(transformation(extent = {{-82, 0}, {24, 58}})));
   annotation(
     Icon(coordinateSystem(preserveAspectRatio = false)),

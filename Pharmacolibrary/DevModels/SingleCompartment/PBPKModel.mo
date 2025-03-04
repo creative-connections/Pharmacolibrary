@@ -1,6 +1,6 @@
 within Pharmacolibrary.DevModels.SingleCompartment;
 model PBPKModel
-  Absorption absorption(F = F,dose(duration=adminDuration,adminMass=adminMassMg*1e6)) annotation(
+  Absorption absorption(F = F,dose(adminDuration=adminDuration,adminMass=adminMassMg*1e-6,adminPeriod=adminPeriod,doseCount=adminCount)) annotation(
     Placement(transformation(origin = {-1, 61}, extent = {{-33, -33}, {33, 33}})));
   Distribution distribution(Vd = Vd) annotation(
     Placement(transformation(origin = {-50, -12}, extent = {{-32, -32}, {32, 32}})));
@@ -14,6 +14,7 @@ model PBPKModel
   parameter Real adminDuration = 600 "administration duration (s)";
   parameter Real adminPeriod = 8*60*60 "period of administration (default 8 hours)(s)";
   parameter Real adminMassMg = 1000 "administration mass (mg)";
+  parameter Integer adminCount = 8 "number of dose administered (1)";
   //hidden parameters
   parameter Real weight = 75 "patient weight";
   parameter Real Vd = VdPerKg*1e-3*weight "Volume of distribution (m3)" annotation(
@@ -36,8 +37,7 @@ equation
   Distribution (volume of d.)
   Vd = %VdPerKg [L/kg]
   Elimination (clearance)
-  Cl = %Cl [L/h]"),
-              Text(origin = {7, 120}, extent = {{-147, 20}, {147, -20}}, textString = "%name"), Text(origin = {187, 83}, extent = {{-145, 19}, {145, -19}}, horizontalAlignment = TextAlignment.Left, textString = "duration: %adminDuration
-  mass: %adminMassMg",
-                 textColor = {0, 0, 0})}, coordinateSystem(extent = {{-160, 140}, {280, -100}})));
+  Cl = %Cl [L/h]"), Text(origin = {7, 120}, extent = {{-147, 20}, {147, -20}}, textString = "%name"), Text(origin = {187, 83}, extent = {{-145, 19}, {145, -19}}, horizontalAlignment = TextAlignment.Left, textString = "duration: %adminDuration
+  mass: %adminMassMg", textColor = {0, 0, 0})}, coordinateSystem(extent = {{-160, 140}, {280, -100}})),
+  experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 173.146));
 end PBPKModel;

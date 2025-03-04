@@ -5,5 +5,5 @@ model TheopyllinePK
 equation
 
   annotation(
-    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 172.8));
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 173.146));
 end TheopyllinePK;
