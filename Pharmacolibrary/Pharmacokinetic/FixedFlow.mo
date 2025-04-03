@@ -2,7 +2,7 @@ within Pharmacolibrary.Pharmacokinetic;
 model FixedFlow
   extends Pharmacolibrary.Interfaces.PartialConcThrough;
   extends Pharmacolibrary.Interfaces.PartialTwoPort;
-  parameter Pharmacolibrary.Types.VolumeFlowRate Q "fixed flow rate";
+  parameter Pharmacolibrary.Types.VolumeFlowRate Q (displayUnit="l/min")"fixed flow rate";
 equation
   assert(abs(port_a.qv + port_b.qv) < Modelica.Constants.eps, "some flow is lost", level = AssertionLevel.error);
   port_a.qv = Q;

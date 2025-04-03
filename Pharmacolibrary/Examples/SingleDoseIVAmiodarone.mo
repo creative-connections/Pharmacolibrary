@@ -2,7 +2,7 @@ within Pharmacolibrary.Examples;
 
 model SingleDoseIVAmiodarone
   extends Modelica.Icons.Example;
-  Pharmacolibrary.Pharmacokinetic.TissueCompartment tissue(V = 0.06*70, kTB = 1) annotation(
+  Pharmacolibrary.Pharmacokinetic.TissueCompartment tissue(V = 90*70*0.001, kTB = 1) annotation(
     Placement(transformation(origin = {-30, 34}, extent = {{-10, -10}, {10, 10}})));
   Pharmacolibrary.Pharmacokinetic.SystemicCompartment arteries(V = 0.001) annotation(
     Placement(transformation(origin = {4, 34}, extent = {{-10, -10}, {10, 10}})));
@@ -14,6 +14,8 @@ model SingleDoseIVAmiodarone
     Placement(transformation(origin = {-66, 68}, extent = {{-10, -10}, {10, 10}})));
   Pharmacolibrary.Pharmacokinetic.FlowGround fground annotation(
     Placement(visible = true, transformation(origin = {-66, 12}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+  Pharmacolibrary.Pharmacokinetic.ClearanceDrivenElimination kidneyElim(CL = 1e-6*70/60) annotation(
+    Placement(transformation(origin = {4, 64}, extent = {{-10, -10}, {10, 10}})));
 equation
   connect(tissue.port_a, veins.port_b) annotation(
     Line(points = {{-40, 34}, {-56, 34}}, color = {204, 0, 0}));
@@ -29,6 +31,8 @@ equation
     Line(points = {{-56, 34}, {-40, 34}}, color = {204, 0, 0}));
   connect(veins.cport, singleDose.cport) annotation(
     Line(points = {{-66, 44}, {-66, 58}}, color = {114, 159, 207}));
+  connect(tissue.cport, kidneyElim.cport) annotation(
+    Line(points = {{-30, 44}, {-30, 74}, {4, 74}}, color = {114, 159, 207}));
   annotation(
     experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 17.28),
     Documentation(info = "<html><head></head><body>The <code>SingleDoseIVAmiodaronePK&nbsp;</code>model is concrete example of IV dose of a drug, distribution throughout the veins arteries and tissues without elimination.&nbsp;

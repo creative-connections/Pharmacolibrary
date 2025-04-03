@@ -1,7 +1,7 @@
 within Pharmacolibrary.Interfaces;
 partial model PartialCompartment
   extends Pharmacolibrary.Interfaces.InterfaceCompartment;
-  parameter Pharmacolibrary.Types.Volume V "total distribution volume";
+  parameter Pharmacolibrary.Types.Volume V = 0.001 "total distribution volume";
   parameter Pharmacolibrary.Types.MassConcentration C0 = 0 "drug initial concentration in tissue";
   parameter Modelica.Units.SI.DimensionlessRatio kTB = 1 "tissue-blood concentration ratio";
   parameter Modelica.Units.SI.DimensionlessRatio fu = 1 "fraction unbound";
