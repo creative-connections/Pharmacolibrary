@@ -10,7 +10,7 @@ model SingleDoseVenousArteryTissue
   Pharmacolibrary.Pharmacokinetic.FixedFlow fixedFlow(Q = 8.333333333333332e-5) annotation(
     Placement(transformation(origin = {-30, 0}, extent = {{-10, -10}, {10, 10}})));
   Pharmacolibrary.Sources.SingleDose singleDose(adminMass = 0.0001, duration = 1800, adminTime = 7200) annotation(
-    Placement(transformation(origin = {-66, 68}, extent = {{-10, -10}, {10, 10}})));
+    Placement(transformation(origin = {-66, 62}, extent = {{-10, -10}, {10, 10}})));
   Pharmacolibrary.Pharmacokinetic.FlowGround fground annotation(
     Placement(visible = true, transformation(origin = {-66, 12}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
 
@@ -28,7 +28,7 @@ equation
   connect(veins.port_b, tissue.port_a) annotation(
     Line(points = {{-56, 34}, {-40, 34}}, color = {204, 0, 0}));
   connect(veins.cport, singleDose.cport) annotation(
-    Line(points = {{-66, 44}, {-66, 58}}, color = {114, 159, 207}));
+    Line(points = {{-66, 44}, {-66, 52}}, color = {114, 159, 207}));
   annotation(
     experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 172.8),
     Documentation(info = "<html><head></head><body>The <strong><code>SingleDoseVenousArteryTissue</code></strong> model is example of IV dose of a drug, distribution throughout the veins arteries and tissues. It does not contain any form of elimination</body></html>"));
