@@ -1,7 +1,7 @@
 package PharmacoExposureModels
   extends Modelica.Icons.Package;
 
-  model CellCulture "A simple model replicating the Python implementation in https://towardsdatascience.com/social-distancing-to-slow-the-coronavirus-768292f04296 "
+  model CellCulture "Component model of cell culture exposed to viral infection"
     Bodylight.Population.Components.Population Susceptible(population_start = 1) "Susceptible population" annotation(
       Placement(transformation(extent = {{-100, 30}, {-80, 50}})));
     Bodylight.Population.Components.Population Exposed annotation(
@@ -62,7 +62,7 @@ package PharmacoExposureModels
       Documentation(info = "<html>
 <p>As modelled in <a href=\"https://towardsdatascience.com/social-distancing-to-slow-the-coronavirus-768292f04296\">https://towardsdatascience.com/social-distancing-to-slow-the-coronavirus-768292f04296</a></p>
 </html>"),
-      experiment(StartTime = 0, StopTime = 183, Tolerance = 1e-06, Interval = 0.366));
+      experiment(StartTime = 0, StopTime = 150, Tolerance = 1e-06, Interval = 0.3));
   end CellCulture;
 
   model Covid_SEIRS "A simple model replicating the Python implementation in https://towardsdatascience.com/social-distancing-to-slow-the-coronavirus-768292f04296 "

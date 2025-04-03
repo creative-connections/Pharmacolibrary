@@ -3,9 +3,9 @@ model GenericTissueCompartment
   extends Pharmacolibrary.Interfaces.PartialCompartment;
   extends Pharmacolibrary.Interfaces.PartialFlowThrough;
 equation
-  der(M) = port_a.Q*actualStream(port_a.c_outflow) + port_b.Q*actualStream(port_b.c_outflow) + cport.massFlowRate;
-  port_a.c_outflow = CB;
-  port_b.c_outflow = CB;
+  der(M) = port_a.qv*actualStream(port_a.c) + port_b.qv*actualStream(port_b.c) + cport.qm;
+  port_a.c = CB;
+  port_b.c = CB;
   annotation(
     defaultComponentName = "tissue",
     Icon,

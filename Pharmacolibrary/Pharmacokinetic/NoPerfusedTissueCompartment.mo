@@ -3,7 +3,7 @@ model NoPerfusedTissueCompartment "compartment with no perfusion"
   extends Pharmacolibrary.Interfaces.PartialCompartment;
   extends Pharmacolibrary.Icons.PeripheralTissue;
 equation
-  der(M) = cport.massFlowRate;
+  der(M) = cport.qm;
   annotation(
     defaultComponentName = "ntcomp",
     Icon,

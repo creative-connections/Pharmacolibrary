@@ -19,6 +19,6 @@ equation
   halfLife = log(2)*Vd/Cl;
   C = effectiveDose/Vd*H*exp(-Cl/Vd*(time - t0));
   annotation(
-    experiment(StartTime = 0, StopTime = 36000, Tolerance = 1e-06, Interval = 72),
+    experiment(StartTime = 0, StopTime = 3600, Tolerance = 1e-06, Interval = 7.2),
     Documentation(info = "<html><head></head><body><div>Simple equation based model with pharmacokinetic parameter of acetaminophen (paracetamol) [1].</div><div><br></div>References:<div>[1]&nbsp;https://sepia2.unil.ch/pharmacology/drugs/paracetamol/</div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div></body></html>"));
 end ParacetamolEquations;

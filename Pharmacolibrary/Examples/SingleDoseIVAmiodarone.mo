@@ -1,7 +1,8 @@
 within Pharmacolibrary.Examples;
-model SingleDoseVenousArteryTissue
+
+model SingleDoseIVAmiodarone
   extends Modelica.Icons.Example;
-  Pharmacolibrary.Pharmacokinetic.TissueCompartment tissue(V = 0.001, kTB = 1) annotation(
+  Pharmacolibrary.Pharmacokinetic.TissueCompartment tissue(V = 0.06*70, kTB = 1) annotation(
     Placement(transformation(origin = {-30, 34}, extent = {{-10, -10}, {10, 10}})));
   Pharmacolibrary.Pharmacokinetic.SystemicCompartment arteries(V = 0.001) annotation(
     Placement(transformation(origin = {4, 34}, extent = {{-10, -10}, {10, 10}})));
@@ -9,11 +10,10 @@ model SingleDoseVenousArteryTissue
     Placement(visible = true, transformation(origin = {-66, 34}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Pharmacolibrary.Pharmacokinetic.FixedFlow fixedFlow(Q = 8.333333333333332e-5) annotation(
     Placement(transformation(origin = {-30, 0}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Sources.SingleDose singleDose(adminMass = 0.0001, duration = 1800, adminTime = 7200) annotation(
+  Pharmacolibrary.Sources.SingleDose singleDose(adminMass = 4e-4, duration = 1800, adminTime = 7200) annotation(
     Placement(transformation(origin = {-66, 68}, extent = {{-10, -10}, {10, 10}})));
   Pharmacolibrary.Pharmacokinetic.FlowGround fground annotation(
     Placement(visible = true, transformation(origin = {-66, 12}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
-
 equation
   connect(tissue.port_a, veins.port_b) annotation(
     Line(points = {{-40, 34}, {-56, 34}}, color = {204, 0, 0}));
@@ -30,6 +30,11 @@ equation
   connect(veins.cport, singleDose.cport) annotation(
     Line(points = {{-66, 44}, {-66, 58}}, color = {114, 159, 207}));
   annotation(
-    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 172.8),
-    Documentation(info = "<html><head></head><body>The <strong><code>SingleDoseVenousArteryTissue</code></strong> model is example of IV dose of a drug, distribution throughout the veins arteries and tissues. It does not contain any form of elimination</body></html>"));
-end SingleDoseVenousArteryTissue;
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 17.28),
+    Documentation(info = "<html><head></head><body>The <code>SingleDoseIVAmiodaronePK&nbsp;</code>model is concrete example of IV dose of a drug, distribution throughout the veins arteries and tissues without elimination.&nbsp;
+<div><br></div><div>Amiodarone is an antiarrhythmic medication used to treat and prevent a number of types of cardiac dysrhythmias.&nbsp;
+</div><div><br></div><div>Amiodarone pharmacokinetics elimination half life is 40 or more days so elimination component is not present in this example model.&nbsp;
+</div><div><br></div><div>[1] Holt, David W., et al. \"Amiodarone pharmacokinetics.\" American heart journal 106.4 (1983): 840-847.
+</div></body></html>"));
+
+end SingleDoseIVAmiodarone;

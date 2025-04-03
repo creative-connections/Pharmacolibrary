@@ -131,7 +131,7 @@ model WholeBody
     Placement(transformation(origin = {-20, -78}, extent = {{-10, -10}, {10, 10}})));
   Pharmacolibrary.Pharmacokinetic.FixedFlow gutFlow(Q = CO*FQgu) annotation(
     Placement(transformation(origin = {48, -66}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-  Pharmacolibrary.Pharmacokinetic.FixedFlow liverFlow(Q = CO*FQhe) annotation(
+  Pharmacolibrary.Pharmacokinetic.FixedFlow liverFlow(Q = CO*FQh) annotation(
     Placement(transformation(origin = {48, -78}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
   Pharmacolibrary.Pharmacokinetic.FixedFlow spleenFlow(Q = CO*FQsp) annotation(
     Placement(transformation(origin = {48, -90}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));

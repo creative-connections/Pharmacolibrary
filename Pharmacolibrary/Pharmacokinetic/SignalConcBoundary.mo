@@ -8,7 +8,7 @@ model SignalConcBoundary
           origin={0,60}, extent={{-10,-10},{10,10}}), iconTransformation(origin
           ={0,60}, extent={{-10,-10},{10,10}})));
 equation
-  cport.conc = cTissue*mgl2kgm3;
+  cport.c = cTissue*mgl2kgm3;
   //cport.freeBloodConc = cBlood*mgl2kgm3;
   annotation(
     Icon(graphics = {Polygon(origin = {0, 10}, lineColor = {114, 159, 207}, fillColor = {114, 159, 207}, fillPattern = FillPattern.Solid, points = {{-80, 50}, {0, -50}, {80, 50}, {-80, 50}})}, coordinateSystem(initialScale = 0.1)),

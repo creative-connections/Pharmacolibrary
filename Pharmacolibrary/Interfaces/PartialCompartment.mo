@@ -21,7 +21,7 @@ equation
   freeTissueConc = fu*C;
   freeBloodConc = fu*C/kTB;
   //cport.freeBloodConc = freeBloodConc; //removing freebloodconc - only tissue conc is transferred
-  cport.conc = freeTissueConc;
+  cport.c = freeTissueConc;
   annotation(
     Icon,
     Documentation(info = "<html><head></head><body><div>The Partial Tissue compartments has two FlowPorts and one BloodTissueConcentrationPort connectors. It stores a mass of drug which is diluted in constant volume of blood/plamsa. It evaluates drug concentration, calculates mixing of inflow and contained blood/plasma of different drug concentrations and calculates change in drug amount due to transfer via the BloodTissueConcentrationPort.</div><div>If it is connected to other compartments via the BloodTissueConcentrationPort, there should be a transfer component inbetween.</div><div><br></div><div>C = M/V</div><div>CB = C/kTB</div><div>freeTissueConc = fu*C</div><div>freeBloodConc = fu*C/kTB</div><h2>Variables</h2><div><div>C - drug total concentration in tissue</div><div>CB - drug total concentration in blood/plasma</div><div>freeTissueConc - drug free concentration in tissue</div><div>freeBloodConc - drug free concentration in blood/plasma</div><div>M - drug total mass</div></div><h2>Parameters</h2><div>V - total distribution volume</div><div>C0 - drug initial concentration in tissue</div><div>kTB - tissue-blood concentration ratio</div><div>fu - fraction unbound</div><div><br></div></body></html>"));

@@ -11,6 +11,6 @@ equation
   connect(periodicDose.cport, wholeBody.oralDose) annotation(
     Line(points = {{59, 20}, {7.36, 20}}, color = {114, 159, 207}));
   annotation(
-    experiment(StartTime = 0, StopTime = 36000, Tolerance = 1e-06, Interval = 72),
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 172.8),
     Documentation(info = "<html><head></head><body><div>Whole body model of pharmacokinetic [1] with parameter of acetaminophen (paracetamol) recounted to appropriate params of the model[2].</div><div><br></div>References:<div>[1] Jones, H. M., &amp; Rowland-Yeo, K. (2013). Basic concepts in physiologically based pharmacokinetic modeling in drug discovery and development.&nbsp;<i>CPT: Pharmacometrics and Systems Pharmacology</i>,&nbsp;<i>2</i>(8). https://doi.org/10.1038/psp.2013.41</div><div><div>[2]&nbsp;https://sepia2.unil.ch/pharmacology/drugs/paracetamol/</div></div><div><br></div><div><br></div></body></html>"));
 end ParacetamolComponents;

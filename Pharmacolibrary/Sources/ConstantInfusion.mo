@@ -8,9 +8,9 @@ model ConstantInfusion "constant drug infusion model"
   //mTot
 equation
   if duration > 0 then
-    cport.massFlowRate = if firstAdminTime <= time and time < firstAdminTime + duration then -adminTotalMass/duration else 0.0;
+    cport.qm = if firstAdminTime <= time and time < firstAdminTime + duration then -adminTotalMass/duration else 0.0;
   else
-    cport.massFlowRate = if firstAdminTime <= time then -adminTotalMass/1 else 0.0;
+    cport.qm = if firstAdminTime <= time then -adminTotalMass/1 else 0.0;
   end if;
   annotation(
     Icon(graphics = {Line(points = {{-80, 20}, {80, 20}}, color = {100, 100, 100}, thickness = 0.5)}),

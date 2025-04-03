@@ -6,10 +6,10 @@ model ClearanceDrivenElimination
   Pharmacolibrary.Types.MassConcentration c "free concentration of either blood/plasma or tissue at the connector";
   Pharmacolibrary.Types.Mass MExc(start = 0, fixed = true) "excreted drug mass";
 equation
-  c = cport.conc;
+  c = cport.c;
   //if cBSwitch then cport.freeBloodConc else cport.freeTissueConc;
-  der(MExc) = cport.massFlowRate;
-  cport.massFlowRate = CL*c;
+  der(MExc) = cport.qm;
+  cport.qm = CL*c;
   annotation(
     defaultComponentName = "elim",
     Icon,

@@ -9,7 +9,7 @@ model ConcBoundary
           origin={0,60}, extent={{-10,-10},{10,10}}), iconTransformation(origin
           ={0,100}, extent={{-20,-20},{20,20}})));
 equation
-  cport.conc = freeTissueConc;
+  cport.c = freeTissueConc;
   //cport.freeBloodConc = freeBloodConc;
   annotation(
     Icon(graphics = {Polygon(origin = {0, 30}, lineColor = {114, 159, 207}, fillColor = {114, 159, 207}, fillPattern = FillPattern.Solid, points = {{-80, 50}, {0, -72}, {80, 50}, {-80, 50}}), Text(origin = {-2, -61}, extent = {{-162, 19}, {162, -19}}, textString = "%name")}),

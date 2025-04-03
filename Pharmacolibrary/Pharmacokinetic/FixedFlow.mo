@@ -4,9 +4,9 @@ model FixedFlow
   extends Pharmacolibrary.Interfaces.PartialTwoPort;
   parameter Pharmacolibrary.Types.VolumeFlowRate Q "fixed flow rate";
 equation
-  assert(abs(port_a.Q + port_b.Q) < Modelica.Constants.eps, "some flow is lost", level = AssertionLevel.error);
-  port_a.Q = Q;
-  port_a.Q + port_b.Q = 0;
+  assert(abs(port_a.qv + port_b.qv) < Modelica.Constants.eps, "some flow is lost", level = AssertionLevel.error);
+  port_a.qv = Q;
+  port_a.qv + port_b.qv = 0;
   //  port_a.p = 1;
   annotation(
     Icon(graphics = {Polygon(rotation = 180, lineColor = {204, 0, 0}, lineThickness = 0.5, points = {{-80, 0}, {80, 40}, {80, -40}, {-80, 0}, {-80, 0}}), Text(origin = {2, -51}, extent = {{150, -11}, {-150, 11}}, textString = "Q = %Q")}, coordinateSystem(initialScale = 0.1)),

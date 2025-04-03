@@ -14,7 +14,7 @@ model ComponentRemdesivirPK "Simplified model of PK of remdesivir"
     Placement(transformation(origin = {-24, 26}, extent = {{-10, -10}, {10, 10}})));
   Pharmacolibrary.Pharmacokinetic.FlowGround fground annotation(
     Placement(transformation(origin = {-60, 36}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacokinetic.PeripheralTissueCompartment non_active_GS704277(CL = 5.555555555555555e-5, V = 0.005, cBSwitch = false) annotation(
+  Pharmacokinetic.PeripheralTissueCompartment non_active_GS704277(CL = 5.555555555555555e-5, V = 0.005) annotation(
     Placement(transformation(origin = {55, 53}, extent = {{-15, -15}, {15, 15}})));
   Pharmacolibrary.Pharmacokinetic.ClearanceDrivenElimination RDV_elim(CL = 5.555555555555555e-6) annotation(
     Placement(transformation(origin = {-88, 12}, extent = {{-10, -10}, {10, 10}})));
