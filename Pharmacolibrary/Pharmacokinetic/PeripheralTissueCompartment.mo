@@ -28,7 +28,7 @@ equation
   connect(pDiffusion.cport_b, tCompartment.cport) annotation(
     Line(points = {{2, 8}, {2, -7}}, color = {114, 159, 207}));
   annotation(
-    Icon(graphics = {Line(origin = {0, 48}, points = {{0, 32}, {0, -32}}, color = {114, 159, 207}, thickness = 0.5, arrow = {Arrow.Open, Arrow.Open}), Text(origin = {2, -65}, extent = {{-132, 19}, {132, -19}}, textString = "V=%V")}),
+    Icon(graphics = {Line(origin = {0, 48}, points = {{0, 32}, {0, -32}}, color = {114, 159, 207}, thickness = 0.5, arrow = {Arrow.Open, Arrow.Open})}),
     Documentation(info = "<html><head></head><body><h1>PeripheralTissueCompartment</h1><div>component combines the PDiffusion and NoPerfusedTissueCompartment components</div><div>
   <img src=\"modelica://Pharmacolibrary/Resources/Images/PPeripheral.png\">
   <br></div><div>The PDiffusion is connected at the cport upper connector. Thus this connector might be connected directly to other copartment without any transfer compartment inbetween.</div></body></html>"));

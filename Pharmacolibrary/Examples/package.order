@@ -10,7 +10,10 @@ SingleDoseDiffusion
 SingleDoseLumen
 SingleDoseIntravenousWholeBody
 OralDoseGUTWholeBody
-PKTwoCompartmentModel
 PKWholeBodyModel
 ParacetamolPKWholeBodyModel
 ParacetamolPK2CompartmentModel
+PKOneCompartmentModel
+PKTwoCompartmentModel
+PKTwoCompartmentModel2
+PK_1C_Gentamicin

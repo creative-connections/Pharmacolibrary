@@ -2,7 +2,7 @@ within Pharmacolibrary.Examples;
 
 model SingleDoseIVAmiodaroneEquations
   extends Modelica.Icons.Example;
-  Pharmacokinetic.Systems.PKOneCompartmentEquations Amiodarone(t0 = 3500, F = 1, numDoses = 1, doseFirst = 400*1e-6, doseSubsequent = 0*1e-6, dosingInterval = 86400, Vd = 90*70*0.001, Cl = 1e-6*70/60)  annotation(
+  Pharmacokinetic.Systems.PKOneCompartmentEquations Amiodarone(t0 = 3500, F = 1, numDoses = 1, doseFirst = 400*1e-6, doseSubsequent = 0*1e-6, dosingInterval = 86400, Vd = 60*70*0.001, Cl = 1e-6*70/60)  annotation(
     Placement(transformation(origin = {-28, -2}, extent = {{-34, -34}, {34, 34}})));
   annotation(
     experiment(StartTime = 0, StopTime = 8640000, Tolerance = 1e-06, Interval = 172.8),
