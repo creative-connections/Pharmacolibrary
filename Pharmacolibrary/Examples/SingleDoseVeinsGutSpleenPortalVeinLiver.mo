@@ -50,8 +50,6 @@ equation
     Line(points = {{-10, 66}, {0, 66}}, color = {204, 0, 0}));
   connect(singleDose1.cport, vein.cport) annotation(
     Line(points = {{-86, 66}, {-86, 44}}, color = {114, 159, 207}));
-  connect(artery.port_a, fixedFlow2.port_a) annotation(
-    Line(points = {{30, 34}, {28, 34}, {28, -2}, {18, -2}}, color = {204, 0, 0}));
   connect(flowGround.port_a, vein.port_a) annotation(
     Line(points = {{-90, 2}, {-96, 2}, {-96, 34}}, color = {204, 0, 0}));
   annotation(

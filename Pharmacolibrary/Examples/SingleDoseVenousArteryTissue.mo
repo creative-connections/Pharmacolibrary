@@ -10,7 +10,7 @@ model SingleDoseVenousArteryTissue
   Pharmacolibrary.Pharmacokinetic.FixedFlow fixedFlow(Q = 8.333333333333332e-5) annotation(
     Placement(transformation(origin = {-30, 8}, extent = {{-10, -10}, {10, 10}})));
   Pharmacolibrary.Sources.SingleDose singleDose(adminMass = 0.0001, duration = 1800, adminTime = 1800) annotation(
-    Placement(transformation(origin = {-60, 58}, extent = {{-10, -10}, {10, 10}})));
+    Placement(transformation(origin = {-66, 62}, extent = {{-10, -10}, {10, 10}})));
   Pharmacolibrary.Pharmacokinetic.FlowGround fground annotation(
     Placement(transformation(origin = {-66, 16}, extent = {{-10, -10}, {10, 10}})));
   Pharmacolibrary.Pharmacokinetic.ClearanceDrivenElimination kidneyElim(CL = 2.666666666666667e-6) annotation(
@@ -29,7 +29,7 @@ equation
   connect(veins.port_b, tissue.port_a) annotation(
     Line(points = {{-56, 34}, {-40, 34}}, color = {204, 0, 0}));
   connect(veins.cport, singleDose.cport) annotation(
-    Line(points = {{-66, 44}, {-66, 48}, {-60, 48}}, color = {114, 159, 207}));
+    Line(points = {{-66, 44}, {-66, 52}}, color = {114, 159, 207}));
   connect(tissue.cport, kidneyElim.cport) annotation(
     Line(points = {{-30, 44}, {-30, 68}, {-14, 68}}, color = {114, 159, 207}));
   annotation(

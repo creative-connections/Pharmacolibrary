@@ -1,6 +1,6 @@
 within Pharmacolibrary.Pharmacokinetic;
 model GenericTissueCompartment
-  extends Pharmacolibrary.Interfaces.PartialCompartment;
+  extends Pharmacolibrary.Interfaces.PartialBloodTissueCompartment;
   extends Pharmacolibrary.Interfaces.PartialFlowThrough;
 equation
   der(M) = port_a.qv*actualStream(port_a.c) + port_b.qv*actualStream(port_b.c) + cport.qm;

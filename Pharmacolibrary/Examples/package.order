@@ -1,4 +1,8 @@
+PK_1C_Gentamicin
+PKOneCompartmentModel
+PKTwoCompartmentModel
 SingleDoseVenousArteryTissue
+PKTwoCompartmentModelOral
 SingleDoseIVAmiodarone
 SingleDoseIVAmiodaroneEquations
 SingleDoseArteryTissueVenous
@@ -13,7 +17,8 @@ OralDoseGUTWholeBody
 PKWholeBodyModel
 ParacetamolPKWholeBodyModel
 ParacetamolPK2CompartmentModel
-PKOneCompartmentModel
-PKTwoCompartmentModel
-PKTwoCompartmentModel2
-PK_1C_Gentamicin
+PKThreeCompartmentModel
+PKThreeCompartmentFentanyl
+PK_2C_IVMidazolam
+PKTwoCompartmentIVMidazolam
+PKTwoCompartmentModelComparison

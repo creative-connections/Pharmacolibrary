@@ -1,16 +1,15 @@
 within Pharmacolibrary.Sources;
 model ConstantInfusion "constant drug infusion model"
   extends Pharmacolibrary.Interfaces.PartialDrugSource;
-  parameter Modelica.Units.SI.Time firstAdminTime = 0 "start time of administration";
-  //tStart
+  parameter Modelica.Units.SI.Time firstAdminTime = 0 "start time of administration";  
   parameter Modelica.Units.SI.Time duration = 3600 "administration duration, 0 for unlimited duration";
-  parameter Pharmacolibrary.Types.Mass adminTotalMass = 0.001 "total drug mass, if duration unlimited then total drug mass rate per 1 s";
-  //mTot
+  parameter Pharmacolibrary.Types.Mass adminTotalMass = 0.001 "total drug mass, if duration unlimited then total drug mass rate per 1 s";  
+  parameter Real F = 1 "bioavailability [0-1]";  
 equation
   if duration > 0 then
-    cport.qm = if firstAdminTime <= time and time < firstAdminTime + duration then -adminTotalMass/duration else 0.0;
+    cport.qm = if firstAdminTime <= time and time < firstAdminTime + duration then -F * adminTotalMass/duration else 0.0;
   else
-    cport.qm = if firstAdminTime <= time then -adminTotalMass/1 else 0.0;
+    cport.qm = if firstAdminTime <= time then -F * adminTotalMass/1 else 0.0;
   end if;
   annotation(
     Icon(graphics = {Line(points = {{-80, 20}, {80, 20}}, color = {100, 100, 100}, thickness = 0.5)}),

@@ -11,7 +11,7 @@ model SingleDoseIVAmiodarone
   Pharmacolibrary.Pharmacokinetic.FixedFlow fixedFlow(Q = 8.333333333333332e-5) annotation(
     Placement(transformation(origin = {-30, 0}, extent = {{-10, -10}, {10, 10}})));
   Pharmacolibrary.Sources.SingleDose singleDose(adminMass = 4e-4, duration = 1800, adminTime = 7200) annotation(
-    Placement(transformation(origin = {-56, 58}, extent = {{-10, -10}, {10, 10}})));
+    Placement(transformation(origin = {-66, 64}, extent = {{-10, -10}, {10, 10}})));
   Pharmacolibrary.Pharmacokinetic.FlowGround fground annotation(
     Placement(visible = true, transformation(origin = {-66, 12}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Pharmacolibrary.Pharmacokinetic.ClearanceDrivenElimination kidneyElim(CL = 1e-6*70/60) annotation(
@@ -30,7 +30,7 @@ equation
   connect(veins.port_b, tissue.port_a) annotation(
     Line(points = {{-56, 34}, {-40, 34}}, color = {204, 0, 0}));
   connect(veins.cport, singleDose.cport) annotation(
-    Line(points = {{-66, 44}, {-66, 46}, {-56, 46}, {-56, 48}}, color = {114, 159, 207}));
+    Line(points = {{-66, 44}, {-66, 54}}, color = {114, 159, 207}));
   connect(tissue.cport, kidneyElim.cport) annotation(
     Line(points = {{-30, 44}, {-30, 66}, {-14, 66}}, color = {114, 159, 207}));
   annotation(

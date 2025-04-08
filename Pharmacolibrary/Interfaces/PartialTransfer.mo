@@ -13,5 +13,5 @@ equation
 //if cBSwitch then cport_b.freeBloodConc else cport_b.freeTissueConc;
   cport_a.qm + cport_b.qm = 0;
   annotation(
-    Icon(graphics = {Polygon(fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, points = {{-100, 0}, {0, 100}, {100, 0}, {0, -100}, {-100, 0}}), Line(origin = {0, -2.29}, points = {{0, 42}, {0, -38}}, color = {114, 159, 207}, thickness = 0.5, arrow = {Arrow.Filled, Arrow.Filled}, arrowSize = 8), Rectangle(origin = {0, -2}, lineColor = {46, 194, 126}, fillColor = {51, 209, 122}, fillPattern = FillPattern.Solid, lineThickness = 2, extent = {{-80, 4}, {80, -4}}), Text(origin = {0, 59}, extent = {{-160, 19}, {160, -19}}, textString = "%name")}, coordinateSystem(initialScale = 0.1)));
+    Icon(graphics = {Polygon(fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, points = {{-100, 0}, {0, 100}, {100, 0}, {0, -100}, {-100, 0}}), Line(origin = {0, -2.29}, points = {{0, 22}, {0, -18}}, color = {114, 159, 207}, thickness = 0.5, arrow = {Arrow.Filled, Arrow.Filled}, arrowSize = 8), Rectangle(origin = {0, -2}, lineColor = {46, 194, 126}, fillColor = {51, 209, 122}, fillPattern = FillPattern.Solid, lineThickness = 2, extent = {{-80, 4}, {80, -4}}), Text(origin = {0, 59}, extent = {{-160, 19}, {160, -19}}, textString = "%name")}, coordinateSystem(initialScale = 0.1)));
 end PartialTransfer;
