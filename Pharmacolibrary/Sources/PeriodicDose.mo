@@ -1,6 +1,6 @@
 within Pharmacolibrary.Sources;
 model PeriodicDose "periodic dose model"
-  extends Pharmacolibrary.Interfaces.PartialDrugSourceS;
+  extends Pharmacolibrary.Interfaces.PartialDrugSource;
   parameter Modelica.Units.SI.Time firstAdminTime(displayUnit = "h") = 0 "time of first dose";
   parameter Modelica.Units.SI.Time adminPeriod (displayUnit = "h") = 8*3600 "time period between doses";  
   parameter Pharmacolibrary.Types.Mass adminMass =0.001 "drug dose mass";  
