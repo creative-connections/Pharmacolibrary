@@ -1,8 +1,8 @@
 within Pharmacolibrary.Examples;
 model OralDoseGUTWholeBody
   extends Modelica.Icons.Example;
-  Sources.SingleDose singleDose(adminMass = 1e-4, duration(displayUnit = "s") = 1) annotation(
-    Placement(transformation(origin = {52, -14}, extent = {{-10, -10}, {10, 10}})));
+  Sources.SingleDose singleDose(adminMass = 1e-4, duration(displayUnit = "s") = 60, adminTime (displayUnit = "s")= 60, F = 0.8) annotation(
+    Placement(transformation(origin = {52, -12}, extent = {{-10, -10}, {10, 10}})));
   Pharmacokinetic.SystemicCompartment venous(V = 0.004) annotation(
     Placement(transformation(origin = {-66, 26}, extent = {{-10, -10}, {10, 10}})));
   Pharmacokinetic.FlowGround flowGround annotation(
@@ -52,11 +52,17 @@ model OralDoseGUTWholeBody
   Pharmacokinetic.TissueCompartment kidney(V = 3e-4) annotation(
     Placement(transformation(origin = {-58, -104}, extent = {{-10, -10}, {10, 10}})));
   Pharmacokinetic.ClearanceDrivenElimination kidneyElim(CL = 2.8333333333333335e-6) annotation(
-    Placement(transformation(origin = {-66, -70}, extent = {{-10, -10}, {10, 10}})));
+    Placement(transformation(origin = {-66, -74}, extent = {{-10, -10}, {10, 10}})));
   Pharmacokinetic.ClearanceDrivenElimination liverElim(CL = 2.8333333333333335e-6) annotation(
     Placement(transformation(origin = {-40, -70}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacokinetic.Systems.GIT gitAbsorption annotation(
-    Placement(transformation(origin = {52, -40}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacolibrary.Pharmacokinetic.TissueCompartment gonads(V = 7.2e-4, kTB = 1) annotation(
+    Placement(transformation(origin = {-23, -123}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacolibrary.Pharmacokinetic.FixedFlow testesFlow(Q (displayUnit = "l/min")= 8.333333333333333e-7) annotation(
+    Placement(transformation(origin = {9, -123}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  Pharmacolibrary.Pharmacokinetic.TissueCompartment rest(V (displayUnit = "l")= 0.0071, kTB = 1) annotation(
+    Placement(transformation(origin = {-55, -137}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacolibrary.Pharmacokinetic.FixedFlow restFlow(Q = 8.333333333333334e-6) annotation(
+    Placement(transformation(origin = {11, -137}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
 equation
   connect(flowGround.port_a, venous.port_a) annotation(
     Line(points = {{-76, 66}, {-76, 26}}, color = {204, 0, 0}));
@@ -83,7 +89,7 @@ equation
   connect(fixedFlow8.port_a, arterial.port_a) annotation(
     Line(points = {{84, -94}, {84, 14}, {69, 14}, {69, 22}, {68, 22}}, color = {204, 0, 0}));
   connect(fixedFlow7.port_a, arterial.port_a) annotation(
-    Line(points = {{84, -84}, {84, 14}, {67.5, 14}, {67.5, 22}, {68, 22}}, color = {204, 0, 0}));
+    Line(points = {{84, -84}, {84, 10}, {67.5, 10}, {67.5, 22}, {68, 22}}, color = {204, 0, 0}));
   connect(fixedFlow7.port_b, liver.port_b) annotation(
     Line(points = {{64, -84}, {27, -84}, {27, -78}, {-10, -78}}, color = {204, 0, 0}));
   connect(fixedFlow8.port_b, spleen.port_b) annotation(
@@ -111,13 +117,13 @@ equation
   connect(fixedFlow1.port_b, bone.port_b) annotation(
     Line(points = {{0, 40}, {-10, 40}}, color = {204, 0, 0}));
   connect(fixedFlow9.port_a, arterial.port_a) annotation(
-    Line(points = {{20, -112}, {84, -112}, {84, 14.125}, {68, 14.125}, {68, 22}}, color = {204, 0, 0}));
+    Line(points = {{20, -112}, {84, -112}, {84, 10.125}, {68, 10.125}, {68, 22}}, color = {204, 0, 0}));
   connect(fixedFlow9.port_b, kidney.port_b) annotation(
     Line(points = {{0, -112}, {-48, -112}, {-48, -104}}, color = {204, 0, 0}));
   connect(kidney.port_a, venous.port_b) annotation(
     Line(points = {{-68, -104}, {-68, -98.5}, {-80, -98.5}, {-80, -22}, {-50, -22}, {-50, 26}, {-56, 26}}, color = {204, 0, 0}));
   connect(kidney.cport, kidneyElim.cport) annotation(
-    Line(points = {{-58, -94}, {-54, -94}, {-54, -60}, {-66, -60}}, color = {114, 159, 207}));
+    Line(points = {{-58, -94}, {-54, -94}, {-54, -64}, {-66, -64}}, color = {114, 159, 207}));
   connect(liver.cport, liverElim.cport) annotation(
     Line(points = {{-20, -68}, {-20, -60}, {-40, -60}}, color = {114, 159, 207}));
   connect(fixedFlow2.port_b, brain.port_b) annotation(
@@ -128,12 +134,22 @@ equation
     Line(points = {{0, -30}, {-10, -30}}, color = {204, 0, 0}));
   connect(fixedFlow5.port_b, skin.port_b) annotation(
     Line(points = {{0, -50}, {-10, -50}}, color = {204, 0, 0}));
-  connect(singleDose.cport, gitAbsorption.cport_a) annotation(
-    Line(points = {{52, -24}, {52, -30}}, color = {114, 159, 207}));
-  connect(gitAbsorption.cport_b, gut.cport) annotation(
-    Line(points = {{52, -50}, {52, -54}, {46, -54}}, color = {114, 159, 207}));
+  connect(singleDose.cport, gut.cport) annotation(
+    Line(points = {{52, -22}, {46, -22}, {46, -54}}, color = {114, 159, 207}));
+  connect(testesFlow.port_a, fixedFlow8.port_a) annotation(
+    Line(points = {{19, -123}, {86, -123}, {86, -94}, {84, -94}}, color = {204, 0, 0}));
+  connect(restFlow.port_a, fixedFlow8.port_a) annotation(
+    Line(points = {{21, -137}, {86, -137}, {86, -94}, {84, -94}}, color = {204, 0, 0}));
+  connect(restFlow.port_b, rest.port_b) annotation(
+    Line(points = {{1, -137}, {-45, -137}}, color = {204, 0, 0}));
+  connect(testesFlow.port_b, gonads.port_b) annotation(
+    Line(points = {{-1, -123}, {-13, -123}}, color = {204, 0, 0}));
+  connect(gonads.port_a, kidney.port_a) annotation(
+    Line(points = {{-33, -123}, {-70, -123}, {-70, -104}, {-68, -104}}, color = {204, 0, 0}));
+  connect(rest.port_a, kidney.port_a) annotation(
+    Line(points = {{-65, -137}, {-70, -137}, {-70, -104}, {-68, -104}}, color = {204, 0, 0}));
   annotation(
-    experiment(StartTime = 0, StopTime = 43200, Tolerance = 1e-06, Interval = 86.4),
-  Diagram(graphics = {Rectangle(origin = {56, -34}, lineColor = {38, 162, 105}, lineThickness = 0.75, extent = {{-24, 42}, {24, -42}}), Text(origin = {49, 4}, textColor = {38, 162, 105}, extent = {{-17, 4}, {17, -4}}, textString = "Absorption"), Text(origin = {65, 83}, textColor = {224, 27, 36}, extent = {{-21, 5}, {21, -5}}, textString = "Distribution"), Rectangle(origin = {-64, -69}, lineColor = {53, 132, 228}, lineThickness = 0.75, extent = {{-34, 17}, {34, -17}}), Text(origin = {-80, -55}, textColor = {53, 132, 228}, extent = {{-18, 3}, {18, -3}}, textString = "Elimination")}, coordinateSystem(extent = {{-120, -120}, {120, 120}})),
-  Icon(coordinateSystem(extent = {{-120, -120}, {120, 120}})));
+    experiment(StartTime = 0, StopTime = 3600, Tolerance = 1e-06, Interval = 0.12),
+  Diagram(graphics = {Rectangle(origin = {57, -21}, lineColor = {38, 162, 105}, lineThickness = 0.75, extent = {{-25, 29}, {25, -29}}), Text(origin = {49, 4}, textColor = {38, 162, 105}, extent = {{-17, 4}, {17, -4}}, textString = "Absorption"), Text(origin = {65, 83}, textColor = {224, 27, 36}, extent = {{-21, 5}, {21, -5}}, textString = "Distribution"), Rectangle(origin = {-64, -69}, lineColor = {53, 132, 228}, lineThickness = 0.75, extent = {{-34, 17}, {34, -17}}), Text(origin = {-80, -55}, textColor = {53, 132, 228}, extent = {{-18, 3}, {18, -3}}, textString = "Elimination")}, coordinateSystem(extent = {{-120, -150}, {120, 120}})),
+  Icon(coordinateSystem(extent = {{-120, -150}, {120, 120}})));
 end OralDoseGUTWholeBody;

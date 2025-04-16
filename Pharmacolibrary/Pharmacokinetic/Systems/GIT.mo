@@ -19,19 +19,19 @@ model GIT "GIT intestinal lumen"
   Interfaces.ConcentrationPort_a cport_a annotation (Placement(transformation(
           origin={0,100}, extent={{-10,-10},{10,10}}), iconTransformation(
           origin={0,100}, extent={{-20,-20},{20,20}})));
-  UnidirectionalTransport stomachTransport(k = 0.008333333333333333) annotation(
+  UnidirectionalTransport stomachTransport(k = 0) annotation(
     Placement(transformation(origin = {-72, -18}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
   UnidirectionalTransport duodenumAbsorption(k = 0.008333333333333333) annotation(
     Placement(transformation(origin = {-48, -18}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
   UnidirectionalTransport jejunumAbsorption(k = 0.0016666666666666668) annotation(
     Placement(transformation(origin = {-22, -18}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-  UnidirectionalTransport ileumAbsorption(k = 0) annotation(
+  UnidirectionalTransport ileumAbsorption(k = 8.333333333333334e-4) annotation(
     Placement(transformation(origin = {4, -18}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-  UnidirectionalTransport cecumAbsorption(k = 0) annotation(
+  UnidirectionalTransport cecumAbsorption(k = 1.6666666666666666e-4) annotation(
     Placement(transformation(origin = {34, -18}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
   UnidirectionalTransport colonAbsorption(k = 0) annotation(
     Placement(transformation(origin = {64, -18}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-  UnidirectionalTransport s_d_transport(k = 3.333333333333333e-4) annotation(
+  UnidirectionalTransport s_d_transport(k = 0.016666666666666666) annotation(
     Placement(transformation(origin = {-60, 46}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
   UnidirectionalTransport d_j_transport(k = 3.333333333333333e-4) annotation(
     Placement(transformation(origin = {-30, 46}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));

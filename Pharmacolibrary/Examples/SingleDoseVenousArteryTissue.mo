@@ -5,11 +5,11 @@ model SingleDoseVenousArteryTissue
     Placement(transformation(origin = {-30, 34}, extent = {{-10, -10}, {10, 10}})));
   Pharmacolibrary.Pharmacokinetic.SystemicCompartment arteries(V = 0.001) annotation(
     Placement(transformation(origin = {4, 34}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Pharmacokinetic.SystemicCompartment veins(V = 0.004) annotation(
+  Pharmacolibrary.Pharmacokinetic.SystemicCompartment veins(V = 0.001) annotation(
     Placement(visible = true, transformation(origin = {-66, 34}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Pharmacolibrary.Pharmacokinetic.FixedFlow fixedFlow(Q = 8.333333333333332e-5) annotation(
     Placement(transformation(origin = {-30, 8}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Sources.SingleDose singleDose(adminMass = 0.0001, duration = 1800, adminTime = 1800) annotation(
+  Pharmacolibrary.Sources.SingleDose singleDose(adminMass = 0.0001, duration = 1800, adminTime (displayUnit = "s")= 60) annotation(
     Placement(transformation(origin = {-66, 62}, extent = {{-10, -10}, {10, 10}})));
   Pharmacolibrary.Pharmacokinetic.FlowGround fground annotation(
     Placement(transformation(origin = {-66, 16}, extent = {{-10, -10}, {10, 10}})));
@@ -33,6 +33,6 @@ equation
   connect(tissue.cport, kidneyElim.cport) annotation(
     Line(points = {{-30, 44}, {-30, 68}, {-14, 68}}, color = {114, 159, 207}));
   annotation(
-    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 172.8),
+    experiment(StartTime = 0, StopTime = 7200, Tolerance = 1e-06, Interval = 1),
     Documentation(info = "<html><head></head><body>The <strong><code>SingleDoseVenousArteryTissue</code></strong> model is example of IV dose of a drug, distribution throughout the veins arteries and tissues. It does contain simple elimination.</body></html>"));
 end SingleDoseVenousArteryTissue;

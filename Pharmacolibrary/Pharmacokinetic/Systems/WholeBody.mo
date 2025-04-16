@@ -139,9 +139,9 @@ model WholeBody
     Placement(transformation(origin = {10, -108}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
   Pharmacolibrary.Pharmacokinetic.TissueCompartment kidney(V = BW/ro*FVki, kTB = kTBki) annotation(
     Placement(transformation(origin = {-58, -98}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Pharmacokinetic.ClearanceDrivenElimination kidneyElim(CL = 2.7777777777777775e-6) annotation(
+  Pharmacolibrary.Pharmacokinetic.ClearanceDrivenElimination kidneyElim(CL (displayUnit = "m3/h")= 2.777777777777778e-6) annotation(
     Placement(transformation(origin = {-66, -70}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Pharmacokinetic.ClearanceDrivenElimination liverElim(CL = 2.7777777777777775e-6) annotation(
+  Pharmacolibrary.Pharmacokinetic.ClearanceDrivenElimination liverElim(CL (displayUnit = "m3/h")= 2.777777777777778e-6) annotation(
     Placement(transformation(origin = {-40, -70}, extent = {{-10, -10}, {10, 10}})));
   Interfaces.ConcentrationPort_a arterialDose annotation (Placement(
         transformation(origin={100,0}, extent={{-10,-10},{10,10}}),

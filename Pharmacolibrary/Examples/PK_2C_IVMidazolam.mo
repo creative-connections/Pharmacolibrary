@@ -7,5 +7,5 @@ model PK_2C_IVMidazolam
 equation
 
 annotation(
-    experiment(StartTime = 0, StopTime = 43200, Tolerance = 1e-08, Interval = 8.64));
+    experiment(StartTime = 0, StopTime = 43200, Tolerance = 1e-09, Interval = 1));
 end PK_2C_IVMidazolam;
