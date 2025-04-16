@@ -40,7 +40,7 @@ equation
   connect(RDV_elim.cport, veins.cport) annotation(
     Line(points = {{-88, 22}, {-88, 62}, {-60, 62}}, color = {114, 159, 207}));
   connect(nonA_RDV_elim.cport, non_active_GS704277.cport_b) annotation(
-    Line(points = {{56, 22}, {56, 30}, {56, 39.5}, {55, 39.5}}, color = {114, 159, 207}));
+    Line(points={{56,22},{56,30},{56,38},{55,38}},              color = {114, 159, 207}));
   annotation(
     experiment(StartTime = 0, StopTime = 864000, Tolerance = 1e-09, Interval = 17.28),
     Diagram,

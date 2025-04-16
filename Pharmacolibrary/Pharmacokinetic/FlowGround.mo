@@ -1,6 +1,7 @@
 within Pharmacolibrary.Pharmacokinetic;
 model FlowGround
   extends Pharmacolibrary.Interfaces.PartialOnePort;
+  Pharmacolibrary.Types.MassConcentration MassConcentration = inStream(port_a.c) "Actual mass concentration";
 equation
   port_a.c = 0;
   assert(abs(port_a.qv) < Modelica.Constants.eps, "some flow is lost", level = AssertionLevel.error);
