@@ -9,3 +9,5 @@ PKThreeCompartmentModel
 PK_3C_FentanylIV
 SingleDoseVenousArteryTissue
 OralDoseGUTWholeBody
+PD_Midazolam
+PKPD_Midazolam
