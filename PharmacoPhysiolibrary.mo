@@ -1,4 +1,4 @@
-within Pharmacolibrary.DevModels.Pharmacodynamics;
+package PharmacoPhysiolibrary
 model HemodynamicsMeurs_PKPD
   extends
     Bodylight.Hydraulic.Examples.MeursModel2011.HemodynamicsMeurs_flatNorm(
@@ -26,3 +26,4 @@ equation
       __Dymola_NumberOfIntervals=1500,
       __Dymola_Algorithm="Dassl"));
 end HemodynamicsMeurs_PKPD;
+end PharmacoPhysiolibrary;
