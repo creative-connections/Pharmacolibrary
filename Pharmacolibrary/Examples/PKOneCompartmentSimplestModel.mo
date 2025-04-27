@@ -9,4 +9,6 @@ model PKOneCompartmentSimplestModel
 equation
   connect(elim.cport, central.cport) annotation(
     Line(points = {{35, 2}, {-12, 2}, {-12, -12}, {-13, -12}}, color = {114, 159, 207}, thickness = 1));
+annotation(
+    experiment(StartTime = 0, StopTime = 1, Tolerance = 1e-06, Interval = 0.002));
 end PKOneCompartmentSimplestModel;
