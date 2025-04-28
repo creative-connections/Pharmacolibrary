@@ -1,14 +1,15 @@
 within Pharmacolibrary.Examples;
 model PK_2C_IVMidazolam
-  extends Pharmacolibrary.Examples.PKTwoCompartmentModel(periodicDose(firstAdminTime(
-          displayUnit="h")=0.0,                                                              adminPeriod = 28800, adminMass(
-          displayUnit="mg")=1E-05,                                                                                                  doseCount = 1, adminDuration = 60, F = 1), elim(CL = 3.3333333333333333e-6), central(V = 0.03), transfer(CLa = 3.3333333333333333e-6, CLb = 1.6666666666666667e-6), peripheral(V = 0.03));
+  extends Pharmacolibrary.Examples.PKTwoCompartmentModel(periodicDose(
+      firstAdminTime(displayUnit="h") = 0,
+      adminPeriod=28800,
+      adminMass(displayUnit="mg") = 9.6e-06,                                                                                        doseCount = 1, adminDuration = 60, F = 1), elim(CL = 3.3333333333333333e-6), central(V = 0.03), transfer(CLa = 3.3333333333333333e-6, CLb = 1.6666666666666667e-6), peripheral(V = 0.03));
   parameter Pharmacolibrary.Types.MassConcentration Cmin( displayUnit= "mg/l") = 6.3e-5;
   parameter Pharmacolibrary.Types.MassConcentration Cmax( displayUnit= "mg/l") = 3e-4;
   Modelica.Blocks.Sources.CombiTimeTable combiTimeTable(table=[300,0.31; 600,
         0.281; 900,0.262; 1800,0.22; 2700,0.19; 3600,0.171; 5400,0.138; 7200,
         0.121; 10800,0.073; 14400,0.053; 18000,0.039; 21600,0.03; 28800,0.019;
-        36000,0.01; 43200,0.007])
+        36000,0.01; 43200,0.007], extrapolation=Modelica.Blocks.Types.Extrapolation.HoldLastPoint)
     annotation (Placement(transformation(extent={{-100,80},{-80,100}})));
 equation
 
