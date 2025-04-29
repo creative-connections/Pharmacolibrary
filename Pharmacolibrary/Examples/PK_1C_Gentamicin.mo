@@ -5,7 +5,6 @@ model PK_1C_Gentamicin
   parameter Pharmacolibrary.Types.MassConcentration MIC = 0.002 "Minimal inhibitory concentration";
   parameter Pharmacolibrary.Types.MassConcentration C_tox_peak = 0.012 "Peak toxicity concentration";
   parameter Pharmacolibrary.Types.MassConcentration C_tox_valley = 0.0021 "Peak toxicity concentration";
-
 equation
 
 
