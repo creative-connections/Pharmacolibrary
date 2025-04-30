@@ -9,7 +9,6 @@ model PKOneCompartmentModel
   Pharmacokinetic.ClearanceDrivenElimination elim(CL = 1.6666666666666667e-6)  annotation(
     Placement(transformation(origin = {18, -8}, extent = {{-10, -10}, {10, 10}})));
 
-
 equation
   connect(singleDose.cport, central.cport) annotation(
     Line(points = {{-12, 12}, {-12, 2}}, color = {114, 159, 207}));
