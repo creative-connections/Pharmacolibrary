@@ -5,11 +5,22 @@ model ClearanceDrivenElimination
   parameter Pharmacolibrary.Types.VolumeFlowRate CL (displayUnit="l/min") "clearence";
   Pharmacolibrary.Types.MassConcentration c "free concentration of either blood/plasma or tissue at the connector";
   Pharmacolibrary.Types.Mass MExc(start = 0, fixed = true) "excreted drug mass";
+  /* 2.  Run-time switch -------------------------------------------*/
+  parameter Boolean useClInput = false "true → take clearance from external signal";
+  /* 3.  Conditional input connector (hidden when not used) --------*/
+  Modelica.Blocks.Interfaces.RealInput Cl_input(unit = "m3/s")
+      if useClInput
+      annotation (Placement(transformation(extent = {{-10, 70}, {10, 90}}), iconTransformation(origin = {80, -96}, extent = {{-10, 70}, {10, 90}}, rotation = 90)));
+protected
+  /* 4.  Effective clearance seen by the equations -----------------*/
+  Pharmacolibrary.Types.VolumeFlowRate CL_eff;
 equation
+  /* pick parameter or input at run time ---------------------------*/
+  CL_eff = if useClInput then Cl_input else CL;  
   c = cport.c;
   //if cBSwitch then cport.freeBloodConc else cport.freeTissueConc;
   der(MExc) = cport.qm;
-  cport.qm = CL*c;
+  cport.qm = CL_eff*c;
   annotation(
     defaultComponentName = "elim",
     Icon(graphics = {Text(origin = {3, -50}, extent = {{-261, 18}, {261, -18}}, textString = "CL=%CL")}),

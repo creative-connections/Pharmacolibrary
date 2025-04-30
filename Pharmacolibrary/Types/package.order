@@ -5,3 +5,6 @@ Mass
 MassFlowRate
 TimeAging
 RecipMassConc
+VolumeFlowRateInput
+VolumeFlowRateOutput
+RealOutput
