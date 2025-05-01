@@ -11,5 +11,5 @@ equation
 qv_out = qv_in * u;
 
 annotation(
-    Icon(graphics = {Rectangle(origin = {0, 1}, fillColor = {255, 255, 255}, fillPattern = FillPattern.HorizontalCylinder, extent = {{-100, 41}, {100, -41}})}));
+    Icon(graphics = {Rectangle(origin = {0, 1}, lineColor = {255, 190, 111}, fillColor = {255, 255, 255}, fillPattern = FillPattern.HorizontalCylinder, extent = {{-100, 41}, {100, -41}})}));
 end ClearanceModifierComponent;
