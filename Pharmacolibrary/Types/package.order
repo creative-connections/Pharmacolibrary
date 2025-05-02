@@ -8,3 +8,4 @@ RecipMassConc
 VolumeFlowRateInput
 VolumeFlowRateOutput
 RealOutput
+ConcentrationOutput
