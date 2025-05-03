@@ -9,7 +9,7 @@ model PK_1C
   parameter Modelica.Units.SI.Mass weight = 75 "patient weight (kg)";
   parameter Modelica.Units.SI.SpecificVolume VdPerKg(displayUnit="L/kg") = 0.9 "Volume of distribution (L/kg)";
   parameter Modelica.Units.SI.MassFraction F = 0.8 "bioavailiability (0-1)";
-  parameter Pharmacolibrary.Types.VolumeFlowRate Cl = 20 "clearance (L/h)";
+  parameter Pharmacolibrary.Types.VolumeFlowRate Cl = 20 "clearance (L/h)";  
   parameter Modelica.Units.SI.Time adminDuration = 600 "administration duration (s)";
   parameter Modelica.Units.SI.Time adminPeriod = 8*60*60 "period of administration (default 8 hours)(s)";
   parameter Pharmacolibrary.Types.Mass adminMass(displayUnit="mg") = 1000 "administration mass (mg)";
@@ -25,7 +25,9 @@ model PK_1C
     Placement(transformation(origin = {-12, 22}, extent = {{-10, -10}, {10, 10}})));
   Types.ConcentrationOutput c_out annotation(
     Placement(transformation(origin = {-92, 92}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-106, 80}, extent = {{-18, -18}, {18, 18}}, rotation = 180)));
+  Modelica.Units.SI.Time t1_2 "elimination half-life";
 equation
+  t1_2 = Modelica.Math.log(2) * Vd / Cl;
   connect(central.cport, elim.cport) annotation(
     Line(points = {{-12, 2}, {18, 2}}, color = {114, 159, 207}));
   connect(periodicDose.cport, central.cport) annotation(

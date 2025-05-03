@@ -14,5 +14,7 @@ NoPerfusedTissueCompartment
 PeripheralTissueCompartment
 LumenCompartment
 ClearanceDrivenElimination
+ClearanceDrivenZeroOrderElimination
 ConcentrationGradientDiffusion
 UnidirectionalTransport
+MichaelisMentenDrivenElimination
