@@ -11,8 +11,7 @@ PKThreeCompartmentModel
 PK_3C_FentanylIV
 SingleDoseVenousArteryTissue
 OralDoseGUTWholeBody
-PD_Midazolam
 PKPD_Midazolam
-PK_1C_Digoxin
 PKPG_1C_Gentamicin
 PKPG_1C_GentamicineEquation
+PK_1C_Digoxin

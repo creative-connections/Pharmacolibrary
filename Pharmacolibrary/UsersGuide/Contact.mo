@@ -16,14 +16,7 @@ class Contact "Contact"
     </p>
     <p>
     If you have other issues contact:
-    <a href=\"mailto:tomas.kulhanek@matfyz.cz\">tomas.kulhanek@matfyz.cz</a>.
-    </p>
-    
-    
-    
-    <h4>Acknowledgements</h4>
-    <p>
-    This work has been inspired by the work of Jan Silar, who created first kind of such library to model basic pharmacology concepts in Modelica.</p>
+    <a href=\"mailto:tomas.kulhanek@matfyz.cz\">tomas.kulhanek@matfyz.cz</a>.</p>
     </body></html>"));
 
 end Contact;

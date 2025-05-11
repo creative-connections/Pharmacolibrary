@@ -34,5 +34,5 @@ equation
     Line(points = {{-30, 44}, {-30, 68}, {-14, 68}}, color = {114, 159, 207}));
   annotation(
     experiment(StartTime = 0, StopTime = 7200, Tolerance = 1e-06, Interval = 1),
-    Documentation(info = "<html><head></head><body>The <strong><code>SingleDoseVenousArteryTissue</code></strong> model is example of IV dose of a drug, distribution throughout the veins arteries and tissues. It does contain simple elimination.</body></html>"));
+    Documentation(info = "<html><head></head><body>The <strong><code>SingleDoseVenousArteryTissue</code></strong> model is example of simplified physiology based pharmacokinetic model (PBPK) with intravenous dose of a drug, distribution throughout the veins arteries and tissues using cardiac output of 5l/min. It does contain simple elimination through kidneys.<div><br></div></body></html>"));
 end SingleDoseVenousArteryTissue;

@@ -27,5 +27,7 @@ equation
   connect(clearanceModifierComponent.u, CYP2C19.y) annotation(
     Line(points = {{30, -52}, {50, -52}, {50, -53}}, color = {0, 0, 127}));
   annotation(
-    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 1));
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 1),
+  Documentation(info = "<html><head></head><body><div><div><b>Pharmacogenomic (PGx) models</b>&nbsp;seeks to quantify how inherited genetic variation modulates both drug&nbsp;pharmacokinetics and pharmacodynamics.</div></div><div><br></div><div>Example diagram mode of 1-compartment PK model of gentamicine modified by PGx influence on clearance rate. Clearance rate can be influenced by CYP2C19 genotype and SLC22A2 genotype. The</div><div>scale factors in the PGx modification of PK model is just an example estimation of influence on renal clearance. Correct values should be fit to specific published experimental results.</div><div><br></div><div><b>Simulation </b>of PKPGx model of gentamicine with normal SLC22A2 alleles compared to allele</div><div>’808T’ with altered clearance.</div><div><br></div><div>
+<img src=\"modelica://Pharmacolibrary/Resources/Icons/pgx_sim.png\" width=\"90%\"><br></div><div><br></div></body></html>"));
 end PKPG_1C_Gentamicin;

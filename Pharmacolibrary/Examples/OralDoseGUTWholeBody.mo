@@ -151,5 +151,8 @@ equation
   annotation(
     experiment(StartTime = 0, StopTime = 3600, Tolerance = 1e-06, Interval = 0.12),
   Diagram(graphics = {Rectangle(origin = {57, -21}, lineColor = {38, 162, 105}, lineThickness = 0.75, extent = {{-25, 29}, {25, -29}}), Text(origin = {49, 4}, textColor = {38, 162, 105}, extent = {{-17, 4}, {17, -4}}, textString = "Absorption"), Text(origin = {65, 83}, textColor = {224, 27, 36}, extent = {{-21, 5}, {21, -5}}, textString = "Distribution"), Rectangle(origin = {-64, -69}, lineColor = {53, 132, 228}, lineThickness = 0.75, extent = {{-34, 17}, {34, -17}}), Text(origin = {-80, -55}, textColor = {53, 132, 228}, extent = {{-18, 3}, {18, -3}}, textString = "Elimination")}, coordinateSystem(extent = {{-120, -150}, {120, 120}})),
-  Icon(coordinateSystem(extent = {{-120, -150}, {120, 120}})));
+  Icon(coordinateSystem(extent = {{-120, -150}, {120, 120}})),
+  Documentation(info = "<html><head></head><body>The&nbsp;<strong><code>OralDoseGutWholeBody</code></strong>&nbsp;model is example of physiology based pharmacokinetic model (PBPK) with oral dose of a drug, absorption through gut into blood, distribution throughout the various organs, tissues, using individual perfusion parameters and elimination via kidneys and liver.<div><div>Simulation of the first 10 minutes, highlighting oral drug administration and gut absorption at 1 minute and subsequent distribution across various tissues. Simulation reveals that majority of the drug goes first through liver and then it is subsequently distributed to other tissues.</div></div><div><br></div><div>&nbsp;
+<img src=\"modelica://Pharmacolibrary/Resources/Icons/pbpk_sim.png\">
+<div><br></div></div></body></html>"));
 end OralDoseGUTWholeBody;

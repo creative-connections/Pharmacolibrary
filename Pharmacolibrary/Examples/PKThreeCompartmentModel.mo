@@ -30,5 +30,6 @@ equation
   connect(transfer2.cport_a, peripheral2.cport) annotation(
     Line(points = {{14, 6}, {40, 6}}, color = {114, 159, 207}));
   annotation(
-    experiment(StartTime = 0, StopTime = 43200, Tolerance = 1e-08, Interval = 8.64));
+    experiment(StartTime = 0, StopTime = 43200, Tolerance = 1e-08, Interval = 8.64),
+  Documentation(info = "<html><head></head><body><div>When a drug distributes into multiple tissue types, its postadministration concentration decline exhibits more complex behavior, making multicompartment models more</div><div>appropriate than single- or two-compartment models.</div></body></html>"));
 end PKThreeCompartmentModel;
