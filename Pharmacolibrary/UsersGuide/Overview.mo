@@ -9,7 +9,7 @@ class Overview
 </tr>
 <tr>
 <td valign=\"top\"><p><img src=\"modelica://Pharmacolibrary/Resources/Icons/PK.png\"></p></td>
-<td valign=\"middle\"><p><a href=\"modelica://Pharmacolibrary.Pharmacokinetic\">Pharmacokinetic</a></p><p>Pharmacokinetic (PK) can model kinetic and toxicokinetic in terms of absorption, distribution, metabolism, elimination of a drug. </p><p>Basic parameters for drug administration:&nbsp;</p><p></p><ul><li><i style=\"font-weight: bold;\">F </i><i>[0-1]&nbsp;</i>bioavailability</li><li><i><b>Vd </b>[l] </i>volume of distribution</li><li><i><b>Cl </b>[l/min] </i>elimination/intercompartmental clearance</li><li><i><b>m </b>[mg] </i>drug dose&nbsp;administered</li></ul><p></p><p><br></p></td>
+<td valign=\"middle\"><p><a href=\"modelica://Pharmacolibrary.Pharmacokinetic\">Pharmacokinetic</a></p><p>Pharmacokinetic (PK) can model kinetic and toxicokinetic in terms of absorption, distribution, metabolism, elimination of a drug. </p><p>Basic parameters for drug administration:&nbsp;</p><p></p><ul><li><i><b>m&nbsp;</b>[mg]&nbsp;</i>drug dose&nbsp;administered (Dose component)</li><li><i style=\"font-weight: bold;\">F </i><i>[0-1]&nbsp;</i>bioavailability&nbsp;(Dose component)</li><li><i><b>Vd </b>[l] </i>volume of distribution (Compartment component)</li><li><i><b>Cl </b>[l/min] </i>elimination/intercompartmental clearance (Elimination component)</li></ul><p></p><p><br></p></td>
 </tr>
 <tr>
 <td valign=\"top\"><p><img src=\"modelica://Pharmacolibrary/Resources/Icons/PD.png\"></p></td>
