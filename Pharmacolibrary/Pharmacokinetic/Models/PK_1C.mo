@@ -40,10 +40,10 @@ equation
   Absorption (bioavailability)
   F = %F
   Distribution (volume of d.)
-  Vd = %VdPerKg [L/kg]
+  Vd = %Vd [L/kg]
   Elimination (clearance)
   Cl = %Cl [L/h]", horizontalAlignment = TextAlignment.Left), Bitmap(origin = {-1, 71}, extent = {{-27, -29}, {27, 29}}, imageSource = "iVBORw0KGgoAAAANSUhEUgAAADIAAAAyAQMAAAAk8RryAAAABlBMVEUAAAD///+l2Z/dAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA1ElEQVQYlS3QMU7EMBAFUFPR7RW25Bi+2c4RKOhxwSXoEomCcjkBRkIoHUaKRBLizGfm25asJ43t8bcDgNFmsPkoVGOiFZluKHTGQqfutZu6sanSrGhuaOdN3vOL1vcbGNws4L2DKNdlOFxF3t0DZXF3zMVdsGb0nK4VJVCtEr1+bBYtZOwe2Fwm7F4vxTLYvvyKw01vltH6xfezIsyK9KIS7PTTepGgt3i+nLw1hvPY/Fxp8nX4M07dD3pFpRP++J8zfuiGL1rlgWq4o7i5b46xaeMfQ1A6bMcR6hYAAAAASUVORK5CYII="), Text(origin = {-1, 120}, extent = {{-147, 20}, {147, -20}}, textString = "%name"), Text(origin = {179, 79}, extent = {{-145, 19}, {145, -19}}, textString = "duration: %adminDuration
-  mass: %adminMassMg", horizontalAlignment = TextAlignment.Left)}),
+  mass: %adminMass", horizontalAlignment = TextAlignment.Left)}),
   Documentation(info = "<html><head></head><body>Generic 1-compartment model.&nbsp;<div>It has output concentration port.</div><div><br></div></body></html>"));
 
 end PK_1C;
