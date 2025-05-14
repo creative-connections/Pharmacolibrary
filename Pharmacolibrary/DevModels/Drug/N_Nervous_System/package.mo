@@ -1,5 +1,5 @@
 within Pharmacolibrary.DevModels.Drug;
 
-package Paracetamol
+package N_Nervous_System
   extends Modelica.Icons.Package;
-end Paracetamol;
+end N_Nervous_System;

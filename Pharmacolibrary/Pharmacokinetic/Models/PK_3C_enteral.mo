@@ -1,6 +1,6 @@
 within Pharmacolibrary.Pharmacokinetic.Models;
 
-model PK_3C
+model PK_3C_enteral
   Pharmacokinetic.NoPerfusedTissueCompartment central(V = Vd)  annotation(
     Placement(transformation(origin = {-12, -8}, extent = {{-10, -10}, {10, 10}})));
   Pharmacokinetic.ClearanceDrivenElimination elim(CL = Cl) 
@@ -16,8 +16,7 @@ model PK_3C
   parameter Pharmacolibrary.Types.VolumeFlowRate k21 = 1 "intercompartmental 2-1 clearance (L/h)";
   parameter Pharmacolibrary.Types.VolumeFlowRate k13 = 1 "intercompartmental 1-3 clearance (L/h)";
   parameter Pharmacolibrary.Types.VolumeFlowRate k31 = 1 "intercompartmental 3-1 clearance (L/h)";
-  
-  parameter Modelica.Units.SI.Time adminDuration = 600 "administration duration (s)";  
+  //parameter Modelica.Units.SI.Time adminDuration = 600 "administration duration (s)";
   parameter Modelica.Units.SI.Time adminPeriod = 8*60*60 "period of administration (default 8 hours)(s)";
   parameter Pharmacolibrary.Types.Mass adminMass(displayUnit="mg") = 1000 "administration mass (mg)";
   
@@ -31,7 +30,7 @@ model PK_3C
   parameter Pharmacolibrary.Types.MassConcentration Cmax = 0.008 "minimal therapeutic range";
   parameter Pharmacolibrary.Types.MassConcentration Ctox_peak = 0.012 "toxicity peak level";
   parameter Pharmacolibrary.Types.MassConcentration Ctox_through = 0.006 "toxicity through level";
-  Sources.PeriodicDose periodicDose(adminPeriod = adminPeriod, adminMass = adminMass, doseCount = adminCount, adminDuration = adminDuration, F = F)  annotation(
+  Sources.PeriodicDoseOral periodicDose(adminPeriod = adminPeriod, adminMass = adminMass, doseCount = adminCount, adminDuration = adminDuration, F = F)  annotation(
     Placement(transformation(origin = {-12, 22}, extent = {{-10, -10}, {10, 10}})));
   Types.ConcentrationOutput c_out annotation(
     Placement(transformation(origin = {-92, 92}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-106, 80}, extent = {{-18, -18}, {18, 18}}, rotation = 180)));
@@ -74,6 +73,7 @@ equation
   Elimination (clearance)
   Cl = %Cl [L/h]", horizontalAlignment = TextAlignment.Left), Bitmap(origin = {-1, 71}, extent = {{-27, -29}, {27, 29}}, fileName = "modelica://Pharmacolibrary/Resources/Icons/pills.png"), Text(origin = {-1, 120}, extent = {{-147, 20}, {147, -20}}, textString = "%name"), Text(origin = {179, 79}, extent = {{-145, 19}, {145, -19}}, textString = "duration: %adminDuration
   mass: %adminMassMg", horizontalAlignment = TextAlignment.Left)}),
-  Documentation(info = "<html><head></head><body>Generic 3-compartment model<span style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp;with simple periodic dosage modelled as zero order massflow during administration period - perfect for parenteral (intravenous or intraarterial) administration, less exact for oral administration.&nbsp;</span><span style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp;</span><br><div>It has outputs of concentration in central and both peripheral compartments.</div><div><br></div></body></html>"));
+  Documentation(info = "<html><head></head><body><div>Generic 3-compartment model<span style=\"font-size: 12px; font-family: 'DejaVu Sans Mono';\">&nbsp;with&nbsp;</span><span style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">enteral (oral,sublingual, buccal, rectal)&nbsp;</span><span style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">dosage modelled with additional Tlag (absorption delay) and ka (first order absorption rate).&nbsp;</span></div><div><span style=\"font-size: 12px; font-family: 'DejaVu Sans Mono';\">&nbsp;</span><span style=\"font-size: 12px; font-family: 'DejaVu Sans Mono';\">&nbsp;</span></div><div><div>It has outputs of concentration in central and both peripheral compartments.</div></div><div><br></div></body></html>"));
 
-end PK_3C;
+
+end PK_3C_enteral;

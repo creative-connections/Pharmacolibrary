@@ -1,0 +1,5 @@
+within Pharmacolibrary.DevModels.Drug.L_Antineoplastic_and_immunomodulating_agents.L01_Antineoplastic_agents.L01B_Antimetabolites;
+
+package L01BC_Pyrimidine_analogues
+  extends Modelica.Icons.Package;
+end L01BC_Pyrimidine_analogues;
