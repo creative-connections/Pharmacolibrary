@@ -4,6 +4,7 @@ model FlowGround
   Pharmacolibrary.Types.MassConcentration MassConcentration = inStream(port_a.c) "Actual mass concentration";
 equation
   port_a.c = 0;
+  port_a.p = 0;
   assert(abs(port_a.qv) < Modelica.Constants.eps, "some flow is lost", level = AssertionLevel.error);
   annotation(
     Icon(graphics = {Line(origin = {-56.91, 8.1}, points = {{-41.0937, -6.10476}, {18.9063, -6.10476}, {18.9063, -42.1048}, {18.9063, 33.8952}, {18.9063, -6.10476}, {34.9063, -6.10476}, {34.9063, -64.1048}, {34.9063, 63.8952}, {34.9063, 63.8952}, {34.9063, -70.1048}}, color = {246, 97, 81}, thickness = 2, arrow = {Arrow.None, Arrow.Filled}, arrowSize = 6)}),

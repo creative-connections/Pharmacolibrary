@@ -14,6 +14,7 @@ model PK_2C_enteral
   parameter Pharmacolibrary.Types.VolumeFlowRate k12 = 1 "intercompartmental C-P clearance (l/h)";
   parameter Pharmacolibrary.Types.VolumeFlowRate k21 = 1 "intercompartmental P-C clearance (l/h)";
   //parameter Modelica.Units.SI.Time adminDuration = 600 "administration duration (s)";
+  parameter Modelica.Units.SI.Time adminTime = 60 "first administration time (s)";
   parameter Modelica.Units.SI.Time adminPeriod = 8*60*60 "period of administration (default 8 hours)(s)";
   parameter Pharmacolibrary.Types.Mass adminMass(displayUnit="mg") = 1000 "administration mass (mg)";
   
@@ -24,8 +25,8 @@ model PK_2C_enteral
   parameter Pharmacolibrary.Types.MassConcentration Cmin = 0.004 "minimal therapeutic range";
   parameter Pharmacolibrary.Types.MassConcentration Cmax = 0.008 "minimal therapeutic range";
   parameter Pharmacolibrary.Types.MassConcentration Ctox_peak = 0.012 "toxicity peak level";
-  parameter Pharmacolibrary.Types.MassConcentration Ctox_through = 0.006 "toxicity through level";
-  Sources.PeriodicDose_Enteral periodicDose(adminPeriod = adminPeriod, adminMass = adminMass, doseCount = adminCount, F = F)  annotation(
+  parameter Pharmacolibrary.Types.MassConcentration Ctox_trough = 0.006 "toxicity through level";
+  Sources.PeriodicDose_Enteral periodicDose(adminPeriod = adminPeriod, adminMass = adminMass, doseCount = adminCount, F = F, firstAdminTime = adminTime)  annotation(
     Placement(transformation(origin = {-12, 22}, extent = {{-10, -10}, {10, 10}})));
   Types.ConcentrationOutput c_out annotation(
     Placement(transformation(origin = {-92, 92}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-106, 80}, extent = {{-18, -18}, {18, 18}}, rotation = 180)));

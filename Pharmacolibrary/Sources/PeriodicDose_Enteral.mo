@@ -5,12 +5,13 @@ model PeriodicDose_Enteral "periodic dose model"
 parameter Modelica.Units.SI.Time Tlag(displayUnit = "min") = 600 "time delay between administration and absorption (default 10 min)";  
   parameter Modelica.Units.SI.Time firstAdminTime(displayUnit = "s") = 1 "time of first dose";  
   parameter Modelica.Units.SI.Time adminPeriod(displayUnit = "h") = 8*3600 "time period between doses";
+  constant Modelica.Units.SI.Volume V = 1 "lumen volume (fixed)";
   parameter Types.Mass adminMass = 0.001 "drug dose mass";
   parameter Integer doseCount = -1 "number of doses, -1 .. unlimitted";
   /*parameter Modelica.Units.SI.Time adminDuration(displayUnit = "h") = 1 "administration duration" annotation(
     Placement(visible = false, transformation(origin = {nan, nan}, extent = {{nan, nan}, {nan, nan}})));*/
   parameter Real F = 1 "bioavailability [0-1]";
-  Pharmacokinetic.TransferFirstOrderNonSym transferFirstOrderNonSym(CLa = ka, CLb = 0)  annotation(
+  Pharmacokinetic.TransferFirstOrderNonSym transferFirstOrderNonSym(CLa = V*ka, CLb = 0)  annotation(
     Placement(transformation(origin = {3, -53}, extent = {{-17, -17}, {17, 17}})));
   Pharmacokinetic.LumenCompartment giLumen annotation(
     Placement(transformation(origin = {-36, -22}, extent = {{-16, -16}, {16, 16}})));
