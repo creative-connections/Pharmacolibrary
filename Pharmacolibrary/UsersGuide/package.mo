@@ -4,7 +4,7 @@ package UsersGuide "User's Guide"
 
   annotation (DocumentationClass=true, Documentation(info= "<html><head></head><body><p>
 This is the <b>Pharmacolibrary</b>&nbsp;for the robust modeling
-of complex pharmacokinetics, pharmacodynamics, pharmacogenomics, toxicokinetics and simila.
+of complex pharmacokinetics, pharmacodynamics, pharmacogenomics, toxicokinetics and similar.
 </p>
 
 <p>

@@ -6,12 +6,12 @@ ConcentrationPort_a
 ConcentrationPort_b
 PartialTwoPort
 PartialOnePort
-BloodTissueConcentrationPort
-BloodTissueConcentrationPort_a
-BloodTissueConcentrationPort_b
 PartialTwoCPort
 InterfaceCompartment
 InterfaceElimination
+BloodTissueConcentrationPort
+BloodTissueConcentrationPort_a
+BloodTissueConcentrationPort_b
 PartialFlowThrough
 PartialConcThrough
 PartialCompartment

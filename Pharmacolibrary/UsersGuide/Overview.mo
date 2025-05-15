@@ -3,13 +3,37 @@ within Pharmacolibrary.UsersGuide;
 class Overview
   extends Modelica.Icons.Information;
   annotation(
-    Documentation(info = "<html><head></head><body><b>Basic Information</b><div><b><br></b></div><div><div><b>Pharmacolibrary</b> is a reusable Modelica library unifying Pharmacokinetic, pharmacodynamic, toxicokinetic, toxicodynamic, and pharmacogenomic constructs with standardized pharmacological terminology, units, and acausal connectors.</div></div><div><br></div><div><br></div><table cellspacing=\"0\" cellpadding=\"2\" border=\"1\"><tbody><tr>
-<td><p align=\"center\"><b>Library Components</b></p></td>
+    Documentation(info = "<html><head></head><body><b>Basic Information</b><div><b><br></b></div><div><div><b>Pharmacolibrary</b> is a reusable Modelica library unifying Pharmacokinetic, pharmacodynamic, toxicokinetic, toxicodynamic, and pharmacogenomic constructs with standardized pharmacological terminology, units, and acausal connectors.</div></div><div>The following&nbsp;</div>
+<div>
+<table border=\"1\" cellspacing=\"0\" cellpadding=\"1\" style=\"font-family: 'DejaVu Sans Mono';\">
+<tbody><tr><td><strong>domain</strong></td>
+<td><strong>potential<br>variables</strong></td>
+<td><strong>flow<br>variables</strong></td>
+<td><strong>stream<br>variables</strong></td>
+<td><strong>connector definition</strong></td>
+<td><strong>icons</strong></td></tr>
+<tr><td><strong>chemical<br>concentration</strong></td>
+<td>mass concentration</td><td>mass flow rate</td>
+<td></td>
+<td><a href=\"modelica:///Pharmacolibrary.Interfaces\">Pharmacolibrary.Interfaces</a>&nbsp;<br>ConcentrationPort, ConcentrationPort_a, ConcentrationPort_b</td>
+<td><img src=\"modelica://Pharmacolibrary/Resources/Icons/ConcentrationPorts.png\"></td></tr>
+<tr><td><strong>volumetric<br>flow</strong></td>
+<td></td><td>volume flow rate</td>
+<td>mass concentration</td>
+<td><a href=\"modelica:///Pharmacolibrary.Interfaces\">Pharmacolibrary.Interfaces</a>&nbsp;<br>FlowPort, FlowPort_a, FlowPort_b</td>
+<td><img src=\"modelica://Pharmacolibrary/Resources/Icons/FlowPorts.png\"></td></tr>
+</tbody></table></div><div><br></div><div>Pharmacolibrary focuses it's components into these main pharmacological phenomena:</div><div><br></div><table cellspacing=\"0\" cellpadding=\"2\" border=\"1\"><tbody><tr>
+<td><p align=\"center\"><b>Library Domain</b></p></td>
 <td><p align=\"center\"><b>Description</b></p></td>
 </tr>
 <tr>
 <td valign=\"top\"><p><img src=\"modelica://Pharmacolibrary/Resources/Icons/PK.png\"></p></td>
-<td valign=\"middle\"><p><a href=\"modelica://Pharmacolibrary.Pharmacokinetic\">Pharmacokinetic</a></p><p>Pharmacokinetic (PK) can model kinetic and toxicokinetic in terms of absorption, distribution, metabolism, elimination of a drug. </p><p>Basic parameters for drug administration:&nbsp;</p><p></p><ul><li><i><b>m&nbsp;</b>[mg]&nbsp;</i>drug dose&nbsp;administered (Dose component)</li><li><i style=\"font-weight: bold;\">F </i><i>[0-1]&nbsp;</i>bioavailability&nbsp;(Dose component)</li><li><i><b>Vd </b>[l] </i>volume of distribution (Compartment component)</li><li><i><b>Cl </b>[l/min] </i>elimination/intercompartmental clearance (Elimination component)</li></ul><p></p><p><br></p></td>
+<td valign=\"middle\"><p><a href=\"modelica://Pharmacolibrary.Pharmacokinetic\">Pharmacokinetic</a></p><p>Pharmacokinetic (PK) can model kinetic and toxicokinetic in terms of absorption, distribution, metabolism, elimination of a drug. </p><p>2 main approaches exists:</p><p></p><ol><li><b>compartmental models</b> (1-compartment, 2-compartment, multi compartment models) - neglects cardiac output and simplifies tissue distribution. Most commonly published with these parameters:
+<ul><li>m [mg] drug dose administered (Dose component)</li>
+<li>F [0-1] bioavailability (Dose component)</li>
+<li>Vd [l] volume of distribution (Compartment component)</li>
+<li>Cl [l/min] elimination/intercompartmental clearance (Elimination component)</li>
+</ul></li><li><b>PBPK models </b>combines compartments with physiological based models, e.g. circulation.</li></ol></td>
 </tr>
 <tr>
 <td valign=\"top\"><p><img src=\"modelica://Pharmacolibrary/Resources/Icons/PD.png\" width=\"90%\"></p></td>
