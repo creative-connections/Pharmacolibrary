@@ -11,7 +11,7 @@ model PeripheralTissueCompartment "compartment including calculation of diffusio
   parameter Modelica.Units.SI.DimensionlessRatio fu = 1 "fraction unbound";
   //parameter Modelica.Units.SI.DimensionlessRatio kTB = 1 "tissue-blood concentration ratio";
   Pharmacolibrary.Types.Mass M = tCompartment.M "drug mass total";
-  Pharmacolibrary.Pharmacokinetic.NoPerfusedTissueCompartment tCompartment(V = V, C0 = C0, fu = fu) annotation(
+  Pharmacolibrary.Pharmacokinetic.NoPerfusedTissueCompartment tCompartment(V = V, C0 = C0) annotation(
     Placement(transformation(origin = {1, -31}, extent = {{-23, -23}, {23, 23}})));
   /*cBSwitch = cBSwitch, */
   Pharmacolibrary.Pharmacokinetic.ConcentrationGradientDiffusion transferFirstOrder(CL = CL) annotation(

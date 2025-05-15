@@ -1,0 +1,11 @@
+within Pharmacolibrary.Drugs.N_Nervous_System.N02_Analgesics.N02AB03_Fentanyl;
+
+model Fentanyl_3C
+  extends Pharmacolibrary.Pharmacokinetic.Models.PK_3C(adminMass = 2e-7, F = 1, Cl = 2.116666666666667e-5, k12 = 5.216666666666666e-5, k21 = 5.216666666666666e-5, k13 = 3.7833333333333336e-5, k31 = 3.7833333333333336e-5, adminDuration = 10, adminCount = 1, Vd = 0.0279, Vdp = 0.0647, Vdp2 = 0.153);
+equation
+
+annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1),
+  Documentation(info = "<html><head></head><body><div><b>Fentanyl</b> is a potent synthetic opioid used to manage severe pain and as an anesthetic adjunct during surgery. After intravenous administration, it rapidly distributes into highly perfused organs—such as the brain, heart, lungs, and kidneys—while also partitioning more slowly into</div><div>poorly perfused tissues like fat and muscle. Over time, both tissue groups release fentanyl back into the plasma. The pharmacokinetics of fentanyl can be captured by the three-compartment model in this example, in which the “peripheral” and “peripheral2” compartments represent highly and poorly perfused tissues, respectively.</div><div><br></div><div><b>Simulation</b> of 12h fentanyl pharmacokinetics in central, highly perfused tissue (perihperal) and slowly perfused tissues (fat, muscle). Concentration in compartments in log-scale.</div><div>&nbsp;
+<img src=\"modelica://Pharmacolibrary/Resources/Icons/pk_3c_sim.png\" width=\"100%\"></div><div><br></div><div><b>References:</b></div><div><div>[1] Kaneda, Kotaro and Tae-Hyung Han (2009-09). “Comparative population pharmacokinetics of fentanyl using non-linear mixed effect modeling: burns vs. non-burns”. en. In: Burns 35.6, pp. 790–797. ISSN: 0305-4179,1879-1409. DOI: 10.1016/j.burns.2008.12.006. URL: http://dx.doi.org/10.1016/j.burns.2008.12.006</div></div><div><br></div><div>[2]&nbsp;<a href=\"https://go.drugbank.com/drugs/DB00813\">https://go.drugbank.com/drugs/DB00813</a></div></body></html>"));
+end Fentanyl_3C;

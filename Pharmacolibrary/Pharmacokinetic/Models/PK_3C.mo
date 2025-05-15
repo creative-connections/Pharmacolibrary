@@ -11,11 +11,11 @@ model PK_3C
   parameter Modelica.Units.SI.SpecificVolume VdpPerKg(displayUnit="l/kg") = 0.9 "Volume of distribution peripheral(l/kg)";
   parameter Modelica.Units.SI.SpecificVolume Vdp2PerKg(displayUnit="l/kg") = 0.9 "Volume of distribution peripheral 2 (l/kg)";
   parameter Modelica.Units.SI.MassFraction F = 0.8 "bioavailiability (0-1)";
-  parameter Pharmacolibrary.Types.VolumeFlowRate Cl = 20 "clearance (l/h)";
-  parameter Pharmacolibrary.Types.VolumeFlowRate k12 = 1 "intercompartmental 1-2 clearance (L/h)";
-  parameter Pharmacolibrary.Types.VolumeFlowRate k21 = 1 "intercompartmental 2-1 clearance (L/h)";
-  parameter Pharmacolibrary.Types.VolumeFlowRate k13 = 1 "intercompartmental 1-3 clearance (L/h)";
-  parameter Pharmacolibrary.Types.VolumeFlowRate k31 = 1 "intercompartmental 3-1 clearance (L/h)";
+  parameter Pharmacolibrary.Types.VolumeFlowRate Cl(displayUnit="l/min") = 20 "clearance (l/min)";
+  parameter Pharmacolibrary.Types.VolumeFlowRate k12(displayUnit="l/min") = 1 "intercompartmental 1-2 clearance (l/min)";
+  parameter Pharmacolibrary.Types.VolumeFlowRate k21(displayUnit="l/min") = 1 "intercompartmental 2-1 clearance (l/min)";
+  parameter Pharmacolibrary.Types.VolumeFlowRate k13(displayUnit="l/min") = 1 "intercompartmental 1-3 clearance (l/min)";
+  parameter Pharmacolibrary.Types.VolumeFlowRate k31(displayUnit="l/min") = 1 "intercompartmental 3-1 clearance (l/min)";
   parameter Modelica.Units.SI.Time adminTime = 60 "first administration time (s)";  
   parameter Modelica.Units.SI.Time adminDuration = 600 "administration duration (s)";  
   parameter Modelica.Units.SI.Time adminPeriod = 8*60*60 "period of administration (default 8 hours)(s)";
