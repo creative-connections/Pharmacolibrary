@@ -1,0 +1,5 @@
+within Pharmacolibrary.DevModels.Drug.N_Nervous_System.N02_Analgesics.N02B_Other_analgesics_and_antipyretics.N02BE_Anilides;
+
+package N02BE01_Paracetamol
+  extends Modelica.Icons.Package;
+end N02BE01_Paracetamol;

@@ -12,11 +12,11 @@ class Overview
 <td valign=\"middle\"><p><a href=\"modelica://Pharmacolibrary.Pharmacokinetic\">Pharmacokinetic</a></p><p>Pharmacokinetic (PK) can model kinetic and toxicokinetic in terms of absorption, distribution, metabolism, elimination of a drug. </p><p>Basic parameters for drug administration:&nbsp;</p><p></p><ul><li><i><b>m&nbsp;</b>[mg]&nbsp;</i>drug dose&nbsp;administered (Dose component)</li><li><i style=\"font-weight: bold;\">F </i><i>[0-1]&nbsp;</i>bioavailability&nbsp;(Dose component)</li><li><i><b>Vd </b>[l] </i>volume of distribution (Compartment component)</li><li><i><b>Cl </b>[l/min] </i>elimination/intercompartmental clearance (Elimination component)</li></ul><p></p><p><br></p></td>
 </tr>
 <tr>
-<td valign=\"top\"><p><img src=\"modelica://Pharmacolibrary/Resources/Icons/PD.png\"></p></td>
+<td valign=\"top\"><p><img src=\"modelica://Pharmacolibrary/Resources/Icons/PD.png\" width=\"90%\"></p></td>
 <td valign=\"middle\"><p><a href=\"modelica://Pharmacolibrary.Pharmacodynamic\">Pharmacodynamic</a></p><p>Pharmacodynamic (PD) can model dynamic effect of a drug on target tissue or cells. Main components are Effect (LinearEffect, EmaxEffect,SigmoidEmaxEffect) that translates from drug concentration into a generic effect quantity. </p></td>
 </tr>
 <tr>
-<td valign=\"top\"><p><img src=\"modelica://Pharmacolibrary/Resources/Icons/PGx.png\"></p></td>
+<td valign=\"top\"><p><img src=\"modelica://Pharmacolibrary/Resources/Icons/PGx.png\" width=\"90%\"></p></td>
 <td valign=\"middle\"><p><a href=\"modelica://Pharmacolibrary.Pharmacogenomic\">Pharmacogenomic</a></p><p>Pharmacogenomic (PGx) can model dynamic influence of Genotype/Phenotype by altering parameters of PK/PD absorption, clearance, metabolism and effect.</p></td>
 </tr>
 </tbody></table>

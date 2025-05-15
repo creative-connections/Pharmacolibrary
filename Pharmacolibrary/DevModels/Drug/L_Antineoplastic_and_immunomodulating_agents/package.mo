@@ -1,0 +1,5 @@
+within Pharmacolibrary.DevModels.Drug;
+
+package L_Antineoplastic_and_immunomodulating_agents
+extends Modelica.Icons.Package;
+end L_Antineoplastic_and_immunomodulating_agents;

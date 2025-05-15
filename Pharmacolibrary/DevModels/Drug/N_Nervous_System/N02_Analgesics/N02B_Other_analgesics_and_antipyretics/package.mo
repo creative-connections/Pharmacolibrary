@@ -1,0 +1,5 @@
+within Pharmacolibrary.DevModels.Drug.N_Nervous_System.N02_Analgesics;
+
+package N02B_Other_analgesics_and_antipyretics
+  extends Modelica.Icons.Package;
+end N02B_Other_analgesics_and_antipyretics;

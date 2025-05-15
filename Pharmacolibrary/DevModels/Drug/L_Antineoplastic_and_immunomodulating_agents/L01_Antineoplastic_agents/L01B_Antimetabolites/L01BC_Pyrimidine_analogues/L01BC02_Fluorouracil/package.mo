@@ -1,0 +1,5 @@
+within Pharmacolibrary.DevModels.Drug.L_Antineoplastic_and_immunomodulating_agents.L01_Antineoplastic_agents.L01B_Antimetabolites.L01BC_Pyrimidine_analogues;
+
+package L01BC02_Fluorouracil
+  extends Modelica.Icons.Package;
+end L01BC02_Fluorouracil;
