@@ -1,5 +1,5 @@
 within Pharmacolibrary.Sources;
-model PeriodicDoseOral "periodic dose model"
+model PeriodicDose_Enteral "periodic dose model"
   extends Interfaces.PartialDrugSource;
   parameter Pharmacolibrary.Types.TimeAging ka(displayUnit = "1/min") = 1 "first order absorption rate"; 
 parameter Modelica.Units.SI.Time Tlag(displayUnit = "min") = 600 "time delay between administration and absorption (default 10 min)";  
@@ -37,6 +37,6 @@ equation
     Line(points = {{-36, -6}, {2, -6}, {2, 4}}, color = {114, 159, 207}));
   annotation(
     Icon(graphics = {Line(points = {{-80, -8}, {-60, -8}, {-60, 52}, {-58, 52}, {-58, -8}, {-20, -8}, {-20, 52}, {-18, 52}, {-18, -8}, {20, -8}, {20, 52}, {22, 52}, {22, -8}, {60, -8}, {60, 52}, {62, 52}, {62, -8}, {80, -8}}, color = {100, 100, 100}, thickness = 0.5), Text(origin = {259, 88}, extent = {{-159, 14}, {159, -14}}, textString = "m=%adminMass", horizontalAlignment = TextAlignment.Left), Text(origin = {263, 9}, extent = {{-161, 13}, {161, -13}}, textString = "period=%adminPeriod", horizontalAlignment = TextAlignment.Left), Text(origin = {259, 46}, extent = {{-159, 14}, {159, -14}}, textString = "duration=%adminDuration", horizontalAlignment = TextAlignment.Left), Text(origin = {262, -32}, extent = {{-162, 14}, {162, -14}}, textString = "count=%doseCount", horizontalAlignment = TextAlignment.Left), Text(origin = {225, -71}, extent = {{-123, 15}, {123, -15}}, textString = "F=%F", horizontalAlignment = TextAlignment.Left), Text(origin = {225, -97}, extent = {{-123, 15}, {123, -15}}, textString = "ka=%ka", horizontalAlignment = TextAlignment.Left), Text(origin = {225, -131}, extent = {{-123, 15}, {123, -15}}, textString = "Tlag=%Tlag", horizontalAlignment = TextAlignment.Left)}),
-    Documentation(info = "<html><head></head><body><h1>PeriodicDose</h1><div>Periodic dose model.</div><h2>Parameters</h2><div><div><br></div><div>firstAdminTime - time of first dose</div><div>adminPeriod - time period between doses</div><div>adminMass - drug dose mass</div><div>doseCount - number of doses, -1 .. unlimitted</div></div><div><br></div></body></html>"),
+    Documentation(info = "<html><head></head><body><h1>PeriodicDose_Enteral</h1><div><div>periodic dose model recomended for enteral administration (oral, rectal, sublingual) where there might be some time lag between administration and absorption. Additionally the absorption is driven by first order absorption rate.</div><div>Dosage is pulses driven by these parameters:</div><div><b>firstAdminTime</b>&nbsp;- time of first dose</div><div><div><b>adminPeriod</b>&nbsp;- time period between doses</div><div><b>adminMass</b>&nbsp;- drug dose mass</div><div><b>doseCount</b>&nbsp;- number of doses, -1 .. unlimitted</div></div><div><b>F -&nbsp;</b>bioavailability, fraction of drug which reach the target (default 1).</div></div><div><b>Tlag</b> - time lag between administration and absorption (default 10 minutes)</div><div><b>ka </b>- first order absorption rate, how fast it is absorpbed from GIT (default 60/min)</div><div><br></div></body></html>"),
     Diagram(graphics));
-end PeriodicDoseOral;
+end PeriodicDose_Enteral;

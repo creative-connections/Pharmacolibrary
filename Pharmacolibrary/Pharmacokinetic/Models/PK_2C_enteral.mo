@@ -25,7 +25,7 @@ model PK_2C_enteral
   parameter Pharmacolibrary.Types.MassConcentration Cmax = 0.008 "minimal therapeutic range";
   parameter Pharmacolibrary.Types.MassConcentration Ctox_peak = 0.012 "toxicity peak level";
   parameter Pharmacolibrary.Types.MassConcentration Ctox_through = 0.006 "toxicity through level";
-  Sources.PeriodicDoseOral periodicDose(adminPeriod = adminPeriod, adminMass = adminMass, doseCount = adminCount, F = F)  annotation(
+  Sources.PeriodicDose_Enteral periodicDose(adminPeriod = adminPeriod, adminMass = adminMass, doseCount = adminCount, F = F)  annotation(
     Placement(transformation(origin = {-12, 22}, extent = {{-10, -10}, {10, 10}})));
   Types.ConcentrationOutput c_out annotation(
     Placement(transformation(origin = {-92, 92}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-106, 80}, extent = {{-18, -18}, {18, 18}}, rotation = 180)));
