@@ -3,7 +3,7 @@ within Pharmacolibrary.UsersGuide;
 class Overview
   extends Modelica.Icons.Information;
   annotation(
-    Documentation(info = "<html><head></head><body><b>Basic Information</b><div><b><br></b></div><div><div><b>Pharmacolibrary</b> is a reusable Modelica library unifying Pharmacokinetic, pharmacodynamic, toxicokinetic, toxicodynamic, and pharmacogenomic constructs with standardized pharmacological terminology, units, and acausal connectors.</div></div><div>The following&nbsp;</div>
+    Documentation(info = "<html><head></head><body><b>Basic Information</b><div><b><br></b></div><div><div><b>Pharmacolibrary</b> is a reusable Modelica library unifying Pharmacokinetic, pharmacodynamic, toxicokinetic, toxicodynamic, and pharmacogenomic constructs with standardized pharmacological terminology, units, and acausal connectors.</div></div><div>The following acausal connectors are available and reused in library:</div>
 <div>
 <table border=\"1\" cellspacing=\"0\" cellpadding=\"1\" style=\"font-family: 'DejaVu Sans Mono';\">
 <tbody><tr><td><strong>domain</strong></td>
@@ -18,7 +18,7 @@ class Overview
 <td><a href=\"modelica:///Pharmacolibrary.Interfaces\">Pharmacolibrary.Interfaces</a>&nbsp;<br>ConcentrationPort, ConcentrationPort_a, ConcentrationPort_b</td>
 <td><img src=\"modelica://Pharmacolibrary/Resources/Icons/ConcentrationPorts.png\"></td></tr>
 <tr><td><strong>volumetric<br>flow</strong></td>
-<td></td><td>volume flow rate</td>
+<td>pressure</td><td>volume flow rate</td>
 <td>mass concentration</td>
 <td><a href=\"modelica:///Pharmacolibrary.Interfaces\">Pharmacolibrary.Interfaces</a>&nbsp;<br>FlowPort, FlowPort_a, FlowPort_b</td>
 <td><img src=\"modelica://Pharmacolibrary/Resources/Icons/FlowPorts.png\"></td></tr>
@@ -43,6 +43,11 @@ class Overview
 <td valign=\"top\"><p><img src=\"modelica://Pharmacolibrary/Resources/Icons/PGx.png\" width=\"90%\"></p></td>
 <td valign=\"middle\"><p><a href=\"modelica://Pharmacolibrary.Pharmacogenomic\">Pharmacogenomic</a></p><p>Pharmacogenomic (PGx) can model dynamic influence of Genotype/Phenotype by altering parameters of PK/PD absorption, clearance, metabolism and effect.</p></td>
 </tr>
+<tr>
+<td valign=\"top\"><p>Drugs</p></td>
+<td valign=\"middle\"><p><a href=\"modelica://Pharmacolibrary.Drugs\">Drugs</a></p><p>Drugs library contains selected PK, PD, PG models organized by ATC index using 1'st level fourteen main anatomical/pharmacological groups and 2nd level pharmacological or therapeutic groups. Subsequent groups are not used and direct ATC code with drug name as package contains various basic or advanced models.</p></td>
+</tr>
+
 </tbody></table>
 </body></html>"));
 end Overview;

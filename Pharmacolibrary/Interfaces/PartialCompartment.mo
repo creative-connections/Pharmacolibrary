@@ -1,6 +1,7 @@
 within Pharmacolibrary.Interfaces;
 partial model PartialCompartment
   extends Pharmacolibrary.Interfaces.InterfaceCompartment;
+  //parameter Pharmacolibrary.Drugs.Common.DataRecord drug "Drug descriptor";
   parameter Pharmacolibrary.Types.Volume V = 0.001 "total distribution volume";
   parameter Pharmacolibrary.Types.MassConcentration C0 = 0 "drug initial concentration in tissue";
   Pharmacolibrary.Types.MassConcentration C(start = C0, fixed = true) "drug actual concentration in tissue";
@@ -13,11 +14,13 @@ partial model PartialCompartment
   //Pharmacolibrary.Types.MassConcentration freeTissueConc "drug free concentration in tissue";
   //CBFree
   Pharmacolibrary.Types.Mass M "drug mass total";
+  //Modelica.Units.SI.Concentration Cmol;
 protected
   parameter Pharmacolibrary.Types.Volume VNonZero = max(1.0e-6, V) "total distribution volume";
 equation
   C = M/VNonZero;
   cport.c = C;
+  //Cmol = C / drug.molarMass;
   //CB = C/kTB;
   //freeTissueConc = fu*C;
   //freeBloodConc = fu*C/kTB;
