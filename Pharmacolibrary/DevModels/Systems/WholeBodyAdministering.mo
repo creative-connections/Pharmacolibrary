@@ -1,9 +1,10 @@
-within Pharmacolibrary.Pharmacokinetic.Systems;
+within Pharmacolibrary.DevModels.Systems;
+
 model WholeBodyAdministering
-  extends Pharmacolibrary.Icons.BodyArtieralVenous;
+  extends Icons.BodyArtieralVenous;
   WholeBody wholeBody(kgit(displayUnit = "1/min")) annotation(
     Placement(transformation(origin = {-8, 2}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Sources.PeriodicDose oralDose(adminDuration(displayUnit = "min") = 600, adminPeriod = 28800, doseCount = 15, firstAdminTime(displayUnit = "s") = 60, adminMass = 0.001) annotation(
+  Sources.PeriodicDose oralDose(adminDuration(displayUnit = "min") = 600, adminPeriod = 28800, doseCount = 15, firstAdminTime(displayUnit = "s") = 60, adminMass = 0.001) annotation(
     Placement(transformation(origin = {65, 37}, extent = {{-21, -21}, {21, 21}})));
   Sources.PeriodicDose intraVenousDose(adminDuration = 60, adminPeriod = 28800, doseCount = 15, firstAdminTime = 28800, adminMass = 0) annotation(
     Placement(transformation(origin = {-75, -73}, extent = {{-21, -21}, {21, 21}})));

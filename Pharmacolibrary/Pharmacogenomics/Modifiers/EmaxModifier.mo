@@ -7,5 +7,5 @@ within Pharmacolibrary.Pharmacogenomics.Modifiers;
  *  by a genotype-dependent scaling factor.
  ********************************************************************/
 model EmaxModifier
-  extends PGx.Modifier(quantityName = "Emax");
+  extends PGx.Modifier;
 end EmaxModifier;

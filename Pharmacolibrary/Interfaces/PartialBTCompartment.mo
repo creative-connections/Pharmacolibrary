@@ -6,7 +6,7 @@ partial model PartialBTCompartment
   //parameter Modelica.Units.SI.DimensionlessRatio kTB = 1 "tissue-blood concentration ratio";
   parameter Modelica.Units.SI.DimensionlessRatio fu = 1 "fraction unbound";
   Types.MassConcentration C(start = C0, fixed = true) "drug actual concentration in tissue";
-  Types.MassConcentration CB "drug concentration in blood or plasma";
+  //Types.MassConcentration CB "drug concentration in blood or plasma";
   //CB
   Types.MassConcentration freeTissueConc "drug free concentration in tissue";
   //CFree
@@ -17,7 +17,7 @@ protected
   parameter Types.Volume VNonZero = max(1.0e-6, V) "total distribution volume";
 equation
   C = M/VNonZero;
-  CB = C/kTB;
+  //CB = C/kTB;
   freeTissueConc = fu*C;
 //freeBloodConc = fu*C/kTB;
 //cport.freeBloodConc = freeBloodConc; //removing freebloodconc - only tissue conc is transferred

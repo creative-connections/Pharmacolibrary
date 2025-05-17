@@ -1,0 +1,5 @@
+within Pharmacolibrary.Drugs.J_Antiinfectives_for_systemic_user.J05_Antivirals_for_systemic_use;
+
+package J05AB16_Remdesivir
+  extends Pharmacolibrary.Icons.Package;
+end J05AB16_Remdesivir;

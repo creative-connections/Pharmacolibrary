@@ -1,9 +1,10 @@
-within Pharmacolibrary.Pharmacokinetic.Systems;
-model WholeBody
-extends Pharmacolibrary.Icons.BodyArtieralVenous;
+within Pharmacolibrary.Pharmacokinetic.Models;
+
+model PBPK_whole_body
+  extends Icons.BodyArtieralVenous;
   parameter Modelica.Units.SI.Mass BW = 70 "body weight";
   parameter Modelica.Units.SI.Density ro = 985 "average body density";
-  parameter Pharmacolibrary.Types.VolumeFlowRate CO(displayUnit = "l/min") = 8.333333333333333e-5 "cardiac output";
+  parameter Types.VolumeFlowRate CO(displayUnit = "l/min") = 8.333333333333333e-5 "cardiac output";
   parameter Real FVad = 0.213 "adipose fractional tissue volume" annotation(
     Dialog(group = "Tissue Volumes"));
   parameter Real FVbo = 0.085629 "bone fractional tissue volume" annotation(
@@ -90,72 +91,68 @@ extends Pharmacolibrary.Icons.BodyArtieralVenous;
     Dialog(group = "Concentration Ratios"));
   parameter Real kTBre = 0.8 "rest of body tissue to blood concentration ratio" annotation(
     Dialog(group = "Concentration Ratios"));
-  parameter Pharmacolibrary.Types.TransferRate kgit = 2.776666666666667e-4 "transfer coeficient from GIT" annotation(
+  parameter Types.TransferRate kgit = 2.776666666666667e-4 "transfer coeficient from GIT" annotation(
     Dialog(group = "Other"));
-  Pharmacolibrary.Pharmacokinetic.SystemicCompartment venous(V = BW/ro*FVve) annotation(
+  Pharmacokinetic.SystemicCompartment venous(V = BW/ro*FVve) annotation(
     Placement(transformation(origin = {-70, 26}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Pharmacokinetic.FlowGround flowGround annotation(
+  Pharmacokinetic.FlowGround flowGround annotation(
     Placement(transformation(origin = {-70, 0}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Pharmacokinetic.TissueCompartment lungs(V = BW/ro*FVlu, kTB = kTBlu) annotation(
+  Pharmacokinetic.TissueCompartment lungs(V = BW/ro*FVlu, kTB = kTBlu) annotation(
     Placement(transformation(origin = {-20, 88}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Pharmacokinetic.SystemicCompartment arterial(V = BW/ro*FVar) annotation(
+  Pharmacokinetic.SystemicCompartment arterial(V = BW/ro*FVar) annotation(
     Placement(transformation(origin = {78, 22}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Pharmacokinetic.FixedFlow adiposeFlow(Q = CO*FQad) annotation(
+  Pharmacokinetic.FixedFlow adiposeFlow(Q = CO*FQad) annotation(
     Placement(transformation(origin = {10, 62}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-  Pharmacolibrary.Pharmacokinetic.TissueCompartment adipose(V = BW/ro*FVad, kTB = kTBad) annotation(
+  Pharmacokinetic.TissueCompartment adipose(V = BW/ro*FVad, kTB = kTBad) annotation(
     Placement(transformation(origin = {-20, 62}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Pharmacokinetic.FixedFlow boneFlow(Q = CO*FQbo) annotation(
+  Pharmacokinetic.FixedFlow boneFlow(Q = CO*FQbo) annotation(
     Placement(transformation(origin = {10, 40}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-  Pharmacolibrary.Pharmacokinetic.TissueCompartment bone(V = BW/ro*FVbo, kTB = kTBbo) annotation(
+  Pharmacokinetic.TissueCompartment bone(V = BW/ro*FVbo, kTB = kTBbo) annotation(
     Placement(transformation(origin = {-20, 40}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Pharmacokinetic.FixedFlow brainFlow(Q = CO*FQbr) annotation(
+  Pharmacokinetic.FixedFlow brainFlow(Q = CO*FQbr) annotation(
     Placement(transformation(origin = {10, 16}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-  Pharmacolibrary.Pharmacokinetic.TissueCompartment brain(V = BW/ro*FVbr, kTB = kTBbr) annotation(
+  Pharmacokinetic.TissueCompartment brain(V = BW/ro*FVbr, kTB = kTBbr) annotation(
     Placement(transformation(origin = {-20, 16}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Pharmacokinetic.FixedFlow heartFlow(Q = CO*FQhe) annotation(
+  Pharmacokinetic.FixedFlow heartFlow(Q = CO*FQhe) annotation(
     Placement(transformation(origin = {10, -6}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-  Pharmacolibrary.Pharmacokinetic.TissueCompartment heart(V = BW/ro*FVhe, kTB = kTBhe) annotation(
+  Pharmacokinetic.TissueCompartment heart(V = BW/ro*FVhe, kTB = kTBhe) annotation(
     Placement(transformation(origin = {-20, -6}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Pharmacokinetic.TissueCompartment muscle(V = BW/ro*FVmu, kTB = kTBmu) annotation(
+  Pharmacokinetic.TissueCompartment muscle(V = BW/ro*FVmu, kTB = kTBmu) annotation(
     Placement(transformation(origin = {-20, -30}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Pharmacokinetic.FixedFlow muscleFlow(Q = CO*FQmu) annotation(
+  Pharmacokinetic.FixedFlow muscleFlow(Q = CO*FQmu) annotation(
     Placement(transformation(origin = {10, -30}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-  Pharmacolibrary.Pharmacokinetic.TissueCompartment skin(V = BW/ro*FVsk, kTB = kTBsk) annotation(
+  Pharmacokinetic.TissueCompartment skin(V = BW/ro*FVsk, kTB = kTBsk) annotation(
     Placement(transformation(origin = {-20, -50}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Pharmacokinetic.FixedFlow skinFlow(Q = CO*FQsk) annotation(
+  Pharmacokinetic.FixedFlow skinFlow(Q = CO*FQsk) annotation(
     Placement(transformation(origin = {10, -50}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-  Pharmacolibrary.Pharmacokinetic.TissueCompartment gut(V = BW/ro*FVgu, kTB = kTBgu) annotation(
+  Pharmacokinetic.TissueCompartment gut(V = BW/ro*FVgu, kTB = kTBgu) annotation(
     Placement(transformation(origin = {10, -66}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Pharmacokinetic.TissueCompartment spleen(V = BW/ro*FVsp, kTB = kTBsp) annotation(
+  Pharmacokinetic.TissueCompartment spleen(V = BW/ro*FVsp, kTB = kTBsp) annotation(
     Placement(transformation(origin = {10, -90}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Pharmacokinetic.TissueCompartment liver(V = BW/ro*FVli, kTB = kTBli) annotation(
+  Pharmacokinetic.TissueCompartment liver(V = BW/ro*FVli, kTB = kTBli) annotation(
     Placement(transformation(origin = {-20, -78}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Pharmacokinetic.FixedFlow gutFlow(Q = CO*FQgu) annotation(
+  Pharmacokinetic.FixedFlow gutFlow(Q = CO*FQgu) annotation(
     Placement(transformation(origin = {48, -66}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-  Pharmacolibrary.Pharmacokinetic.FixedFlow liverFlow(Q = CO*FQh) annotation(
+  Pharmacokinetic.FixedFlow liverFlow(Q = CO*FQh) annotation(
     Placement(transformation(origin = {48, -78}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-  Pharmacolibrary.Pharmacokinetic.FixedFlow spleenFlow(Q = CO*FQsp) annotation(
+  Pharmacokinetic.FixedFlow spleenFlow(Q = CO*FQsp) annotation(
     Placement(transformation(origin = {48, -90}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-  Pharmacolibrary.Pharmacokinetic.FixedFlow kidneyFlow(Q = CO*FQki) annotation(
+  Pharmacokinetic.FixedFlow kidneyFlow(Q = CO*FQki) annotation(
     Placement(transformation(origin = {10, -108}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-  Pharmacolibrary.Pharmacokinetic.TissueCompartment kidney(V = BW/ro*FVki, kTB = kTBki) annotation(
+  Pharmacokinetic.TissueCompartment kidney(V = BW/ro*FVki, kTB = kTBki) annotation(
     Placement(transformation(origin = {-58, -98}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Pharmacokinetic.ClearanceDrivenElimination kidneyElim(CL (displayUnit = "m3/h")= 2.777777777777778e-6) annotation(
+  Pharmacokinetic.ClearanceDrivenElimination kidneyElim(CL(displayUnit = "m3/h") = 2.777777777777778e-6) annotation(
     Placement(transformation(origin = {-66, -70}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Pharmacokinetic.ClearanceDrivenElimination liverElim(CL (displayUnit = "m3/h")= 2.777777777777778e-6) annotation(
+  Pharmacokinetic.ClearanceDrivenElimination liverElim(CL(displayUnit = "m3/h") = 2.777777777777778e-6) annotation(
     Placement(transformation(origin = {-40, -70}, extent = {{-10, -10}, {10, 10}})));
-  Interfaces.ConcentrationPort_a arterialDose annotation (Placement(
-        transformation(origin={100,0}, extent={{-10,-10},{10,10}}),
-        iconTransformation(origin={100,0}, extent={{-10,-10},{10,10}})));
-  Interfaces.ConcentrationPort_a venousDose annotation (Placement(
-        transformation(origin={-100,0}, extent={{-10,-10},{10,10}}),
-        iconTransformation(origin={-100,0}, extent={{-10,-10},{10,10}})));
-  Interfaces.ConcentrationPort_a oralDose annotation (Placement(transformation(
-          origin={0,100}, extent={{-10,-10},{10,10}}), iconTransformation(
-          origin={32,100}, extent={{-10,-10},{10,10}})));
-  Interfaces.ConcentrationPort_a inhalationDose annotation (Placement(
-        transformation(origin={-44,100}, extent={{-10,-10},{10,10}}),
-        iconTransformation(origin={-44,100}, extent={{-10,-10},{10,10}})));
+  Interfaces.ConcentrationPort_a arterialDose annotation(
+    Placement(transformation(origin = {100, 0}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {100, 0}, extent = {{-10, -10}, {10, 10}})));
+  Interfaces.ConcentrationPort_a venousDose annotation(
+    Placement(transformation(origin = {-100, 0}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-100, 0}, extent = {{-10, -10}, {10, 10}})));
+  Interfaces.ConcentrationPort_a oralDose annotation(
+    Placement(transformation(origin = {0, 100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {32, 100}, extent = {{-10, -10}, {10, 10}})));
+  Interfaces.ConcentrationPort_a inhalationDose annotation(
+    Placement(transformation(origin = {-44, 100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-44, 100}, extent = {{-10, -10}, {10, 10}})));
   TissueCompartment testes(V = BW/ro*FVte, kTB = kTBte) annotation(
     Placement(transformation(origin = {-20, -122}, extent = {{-10, -10}, {10, 10}})));
   FixedFlow testesFlow(Q = CO*FQte) annotation(
@@ -265,4 +262,4 @@ equation
     Line(points = {{50, -20}, {50, 48}}, color = {114, 159, 207}));
   annotation(
     Icon(graphics = {Line(origin = {86.52, -0.98}, points = {{-50, 0}, {8, 0}}, color = {237, 51, 59}, thickness = 4), Line(origin = {21.7814, 86.6624}, points = {{8, 7}, {8, -7}, {-8, -7}, {-20, -7}}, color = {255, 163, 72}, thickness = 4, smooth = Smooth.Bezier), Line(origin = {-31.926, 84.8971}, points = {{-11, 9}, {-11, -1}, {29, -1}}, color = {153, 193, 241}, thickness = 4, smooth = Smooth.Bezier), Line(origin = {-41.49, -0.68}, points = {{-50, 0}, {8, 0}}, color = {53, 132, 228}, thickness = 4)}));
-end WholeBody;
+end PBPK_whole_body;

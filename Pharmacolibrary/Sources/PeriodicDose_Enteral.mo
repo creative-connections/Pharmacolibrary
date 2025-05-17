@@ -1,10 +1,11 @@
 within Pharmacolibrary.Sources;
 model PeriodicDose_Enteral "periodic dose model"
   extends Interfaces.PartialDrugSource;
-  parameter Pharmacolibrary.Types.TimeAging ka(displayUnit = "1/min") = 1 "first order absorption rate"; 
+  parameter Pharmacolibrary.Types.TransferRate ka(displayUnit = "1/min") = 1 "first order absorption rate"; 
 parameter Modelica.Units.SI.Time Tlag(displayUnit = "min") = 600 "time delay between administration and absorption (default 10 min)";  
   parameter Modelica.Units.SI.Time firstAdminTime(displayUnit = "s") = 1 "time of first dose";  
   parameter Modelica.Units.SI.Time adminPeriod(displayUnit = "h") = 8*3600 "time period between doses";
+  parameter Modelica.Units.SI.Time adminDuration(displayUnit = "min") = 1 "administration duration (not used here)";  
   constant Modelica.Units.SI.Volume V = 1 "lumen volume (fixed)";
   parameter Types.Mass adminMass = 0.001 "drug dose mass";
   parameter Integer doseCount = -1 "number of doses, -1 .. unlimitted";

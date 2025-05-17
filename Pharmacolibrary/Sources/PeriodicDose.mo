@@ -5,7 +5,7 @@ model PeriodicDose "periodic dose model"
   parameter Modelica.Units.SI.Time adminPeriod (displayUnit = "h") = 8*3600 "time period between doses";  
   parameter Pharmacolibrary.Types.Mass adminMass =0.001 "drug dose mass";  
   parameter Integer doseCount = -1 "number of doses, -1 .. unlimitted";  
-  parameter Modelica.Units.SI.Time adminDuration(displayUnit = "h") = 1 "administration duration";  
+  parameter Modelica.Units.SI.Time adminDuration(displayUnit = "min") = 1 "administration duration";  
   parameter Real F = 1 "bioavailability [0-1]";VariableInfusion variableDose(F = F)  annotation(
     Placement(transformation(extent = {{-10, -10}, {10, 10}})));  
 protected

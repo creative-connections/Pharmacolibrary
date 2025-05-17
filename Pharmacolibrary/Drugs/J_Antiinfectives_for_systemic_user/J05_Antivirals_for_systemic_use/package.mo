@@ -1,0 +1,5 @@
+within Pharmacolibrary.Drugs.J_Antiinfectives_for_systemic_user;
+
+package J05_Antivirals_for_systemic_use
+  extends Pharmacolibrary.Icons.Package;
+end J05_Antivirals_for_systemic_use;

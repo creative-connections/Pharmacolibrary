@@ -3,9 +3,10 @@ MassConcentration
 Volume
 Mass
 MassFlowRate
-TimeAging
 RecipMassConc
 VolumeFlowRateInput
 VolumeFlowRateOutput
 RealOutput
 ConcentrationOutput
+Clearance
+TransferRate

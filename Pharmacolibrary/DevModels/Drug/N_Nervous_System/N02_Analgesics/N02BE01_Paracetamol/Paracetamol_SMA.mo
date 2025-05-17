@@ -1,7 +1,7 @@
-within Pharmacolibrary.Drugs.N_Nervous_System.N02_Analgesics.N02BE01_Paracetamol;
+within Pharmacolibrary.DevModels.Drug.N_Nervous_System.N02_Analgesics.N02BE01_Paracetamol;
 
 model Paracetamol_SMA
-  extends Pharmacokinetic.Models.PK_1C(weight = 55, F = 0.9, Cl = 3.916666666666666e-6, adminDuration = 600, adminMass = 0.0011, adminCount = 1, Vd = 0.053, Cmin = 0.001, Cmax = 0.01, Ctox_peak = 0.02, Ctox_trough = 0.01);
+  extends Pharmacokinetic.Models.PK_1C(weight = 55, F = 0.9, Cl = 3.916666666666666e-6, adminDuration = 600, adminMass = 0.0011, adminCount = 1, Vd = 0.053, Cmin = 0.001, Cmax = 0.01, Ctox_peak = 0.02, Ctox_through = 0.01);
 equation
 
   annotation(

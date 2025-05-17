@@ -33,7 +33,7 @@ model ComponentRemdesivirPKPD "Simplified model of PK of remdesivir"
   Pharmacokinetic.NoPerfusedTissueCompartment active_GS443902(V = 0.001) annotation(
     Placement(transformation(origin = {30, -72}, extent = {{-10, -10}, {10, 10}})));
   Pharmacokinetic.NoPerfusedTissueCompartment nonactive_GS441524(V = 0.001) annotation(
-    Placement(transformation(origin = {-30, -32}, extent = {{-10, -10}, {10, 10}})));
+    Placement(transformation(origin = {-34, -36}, extent = {{-14, -14}, {14, 14}})));
 equation
   connect(lungs.port_a, veins.port_b) annotation(
     Line(points = {{-38, 52}, {-50, 52}}, color = {204, 0, 0}));
@@ -66,9 +66,9 @@ equation
   connect(active_GS443902.cport, A_RDV_elim.cport) annotation(
     Line(points = {{30, -62}, {-56, -62}}, color = {114, 159, 207}));
   connect(nucleotidase.cport_a, nonactive_GS441524.cport) annotation(
-    Line(points = {{-4, -24}, {-30, -24}, {-30, -22}}, color = {114, 159, 207}));
+    Line(points = {{-4, -24}, {-30, -24}, {-30, -22}, {-34, -22}}, color = {114, 159, 207}));
   connect(nonactive_GS441524.cport, nonA_RDV_elim.cport) annotation(
-    Line(points = {{-30, -22}, {-84, -22}, {-84, -28}}, color = {114, 159, 207}));
+    Line(points = {{-34, -22}, {-85, -22}, {-85, -28}, {-84, -28}}, color = {114, 159, 207}));
   annotation(
     experiment(StartTime = 0, StopTime = 864000, Tolerance = 1e-06, Interval = 172.8),
     Diagram,

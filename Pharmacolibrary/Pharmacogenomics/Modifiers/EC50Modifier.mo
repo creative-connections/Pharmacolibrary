@@ -1,7 +1,7 @@
 within Pharmacolibrary.Pharmacogenomics.Modifiers;
 
 model EC50Modifier
-  extends PGx.Modifier(redeclare type T = Pharmacolibrary.Types.MassConcentration, quantityName = "EC50");
+  extends PGx.Modifier(redeclare type T = Pharmacolibrary.Types.MassConcentration);
   annotation(
     Documentation(info = "<html><head></head><body>
 EC50Modifier&nbsp;

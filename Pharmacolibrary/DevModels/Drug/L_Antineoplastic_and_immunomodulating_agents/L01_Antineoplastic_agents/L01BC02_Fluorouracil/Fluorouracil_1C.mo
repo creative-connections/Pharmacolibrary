@@ -1,0 +1,10 @@
+within Pharmacolibrary.DevModels.Drug.L_Antineoplastic_and_immunomodulating_agents.L01_Antineoplastic_agents.L01BC02_Fluorouracil;
+
+model Fluorouracil_1C
+extends Pharmacokinetic.Models.PK_1C(F = 1, Cl = 2.35e-5, adminDuration = 60, adminMass = 2.5e-4, Vd = 0.01866);
+equation
+
+annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1),
+    Documentation(info = "<html><head></head><body><div><br></div><div>Fluorouracil (5-FU) is an antimetabolite chemotherapeutic agent that inhibits thymidylate synthase, disrupting DNA synthesis and repair, thereby exerting cytotoxic effects on rapidly dividing cancer cells.&nbsp;&nbsp;</div><div><br></div><div>Fluorouracil is widely used against gastrointestinal, breast, head and neck, and skin cancers, particularly effective for colorectal cancer.</div><div><br></div><div>PK of fluorouracil in humans administered IV. Modeled as 1-compartment model with Cl=84.6 l/h, Vd=18.66l, dose=250 mg from [1].</div><div><br></div><div><b>References:</b></div><div><b><br></b></div><div><span style=\"color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 13px; font-variant-ligatures: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);\">[1] Phillips, Thomas A., et al. \"Pharmacokinetics of oral and intravenous fluorouracil in humans.\"&nbsp;</span><i style=\"color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 13px; font-variant-ligatures: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);\">Journal of pharmaceutical sciences</i><span style=\"color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 13px; font-variant-ligatures: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);\">&nbsp;69.12 (1980): 1428-1431.</span></div></body></html>"));
+end Fluorouracil_1C;

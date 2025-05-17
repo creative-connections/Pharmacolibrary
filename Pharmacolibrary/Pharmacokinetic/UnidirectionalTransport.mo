@@ -2,7 +2,7 @@ within Pharmacolibrary.Pharmacokinetic;
 model UnidirectionalTransport "uni-directional first order transport to be used with LumenCompartment as source"
   extends Pharmacolibrary.Interfaces.PartialTransfer;
   //(final cBSwitch = false);
-  parameter Pharmacolibrary.Types.TimeAging k "first order transfer coefficient";
+  parameter Pharmacolibrary.Types.TransferRate k "first order transfer coefficient";
 protected
   parameter Pharmacolibrary.Types.MassConcentration cTreshold = 1.0e-12 "concentration threshold to be reached for transfer";
   parameter Pharmacolibrary.Types.Volume k2CL = 1 "volume";
