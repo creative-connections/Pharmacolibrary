@@ -7,3 +7,6 @@ jupyterlab
 jupyterlab_pygments
 jupyterlab_server
 jupyterlab_widgets
+plotly
+matplotlib
+
