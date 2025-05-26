@@ -45,19 +45,19 @@ Live sample web simulator at: https://egolem.online/pharma
 <tr><td><strong>chemical<br>concentration</strong></td>
 <td>mass concentration</td><td>mass flow rate</td>
 <td></td>
-<td><a href="Pharmacolibrary//Pharmacolibrary.Interfaces">Pharmacolibrary.Interfaces</a>&nbsp;<br>ConcentrationPort, ConcentrationPort_a, ConcentrationPort_b</td>
-<td><img src="Pharmacolibrary/Pharmacolibrary/Resources/Icons/ConcentrationPorts.png"></td></tr>
+<td><a href="Pharmacolibrary/Interfaces">Pharmacolibrary.Interfaces</a>&nbsp;<br>ConcentrationPort, ConcentrationPort_a, ConcentrationPort_b</td>
+<td><img src="Pharmacolibrary/Resources/Icons/ConcentrationPorts.png"></td></tr>
 <tr><td><strong>volumetric<br>flow</strong></td>
 <td>pressure</td><td>volume flow rate</td>
 <td>mass concentration</td>
-<td><a href="Pharmacolibrary//Pharmacolibrary.Interfaces">Pharmacolibrary.Interfaces</a>&nbsp;<br>FlowPort, FlowPort_a, FlowPort_b</td>
-<td><img src="Pharmacolibrary/Pharmacolibrary/Resources/Icons/FlowPorts.png"></td></tr>
+<td><a href="Pharmacolibrary/Interfaces">Pharmacolibrary.Interfaces</a>&nbsp;<br>FlowPort, FlowPort_a, FlowPort_b</td>
+<td><img src="Pharmacolibrary/Resources/Icons/FlowPorts.png"></td></tr>
 </tbody></table></div><div><br></div><div>Pharmacolibrary focuses it's components into these main pharmacological phenomena:</div><div><br></div><table cellspacing="0" cellpadding="2" border="1"><tbody><tr>
 <td><p align="center"><b>Library Domain</b></p></td>
 <td><p align="center"><b>Description</b></p></td>
 </tr>
 <tr>
-<td valign="top"><p><img src="Pharmacolibrary/Pharmacolibrary/Resources/Icons/PK.png"></p></td>
+<td valign="top"><p><img src="Pharmacolibrary/Resources/Icons/PK.png"></p></td>
 <td valign="middle"><p><a href="Pharmacolibrary/Pharmacolibrary.Pharmacokinetic">Pharmacokinetic</a></p><p>Pharmacokinetic (PK) can model kinetic and toxicokinetic in terms of absorption, distribution, metabolism, elimination of a drug. </p><p>2 main approaches exists:</p><p></p><ol><li><b>compartmental models</b> (1-compartment, 2-compartment, multi compartment models) - neglects cardiac output and simplifies tissue distribution. Most commonly published with these parameters:
 <ul><li>m [mg] drug dose administered (Dose component)</li>
 <li>F [0-1] bioavailability (Dose component)</li>
@@ -66,11 +66,11 @@ Live sample web simulator at: https://egolem.online/pharma
 </ul></li><li><b>PBPK models </b>combines compartments with physiological based models, e.g. circulation.</li></ol></td>
 </tr>
 <tr>
-<td valign="top"><p><img src="Pharmacolibrary/Pharmacolibrary/Resources/Icons/PD.png" width="90%"></p></td>
+<td valign="top"><p><img src="Pharmacolibrary/Resources/Icons/PD.png" width="90%"></p></td>
 <td valign="middle"><p><a href="Pharmacolibrary/Pharmacolibrary.Pharmacodynamic">Pharmacodynamic</a></p><p>Pharmacodynamic (PD) can model dynamic effect of a drug on target tissue or cells. Main components are Effect (LinearEffect, EmaxEffect,SigmoidEmaxEffect) that translates from drug concentration into a generic effect quantity. </p></td>
 </tr>
 <tr>
-<td valign="top"><p><img src="Pharmacolibrary/Pharmacolibrary/Resources/Icons/PGx.png" width="90%"></p></td>
+<td valign="top"><p><img src="Pharmacolibrary/Resources/Icons/PGx.png" width="90%"></p></td>
 <td valign="middle"><p><a href="Pharmacolibrary/Pharmacolibrary.Pharmacogenomic">Pharmacogenomic</a></p><p>Pharmacogenomic (PGx) can model dynamic influence of Genotype/Phenotype by altering parameters of PK/PD absorption, clearance, metabolism and effect.</p></td>
 </tr>
 <tr>
