@@ -12,29 +12,6 @@ except standard Modelica library, no other dependencies are needed
   * Open Examples 
     * each model in Examples package shows some feature on concrete model of drug pharmacokinetic, pharmacodynamic and pharmacogenomic. Sample model with complex physiologically based model is also shown.
 
-## Integration to computational workflow
-  * got so `sim` directory 
-```bash
-cd sim/
-```
-  * and prepare virtual env in Python
-python -m venv venv
-source venv/bin/activate
-```
-  * install requirements as specified in `requirements.txt` file
-```bash
-pip install -r requirements.txt
-```
-  * start jupyter
-```bash
-jupyter lab
-```
-  * jupyter opens in a browser interactive interface, open notebook `PK_2C_IVMidazolam.ipynb`
-  * the demo contains exported 2-compartment model of Midazolam administered intravenously in FMI, its usage with `fmpy` library and integration with pharmacokinetic database containing growing number of human and machine readable data of drugs from https://pk-db.com
-
-## Simulator
-Live sample web simulator at: https://egolem.online/pharma
-
 ## Modeling
 <div><div><b>Pharmacolibrary</b> is a reusable Modelica library unifying Pharmacokinetic, pharmacodynamic, toxicokinetic, toxicodynamic, and pharmacogenomic constructs with standardized pharmacological terminology, units, and acausal connectors.</div></div><div>The following acausal connectors are available and reused in library:</div>
 <div>
@@ -82,4 +59,27 @@ Live sample web simulator at: https://egolem.online/pharma
 </tr>
 
 </tbody></table>
+
+## Simulation outside Modelica - integration to computational workflow in Python
+  * got so `sim` directory 
+```bash
+cd sim/
+```
+  * and prepare virtual env in Python
+python -m venv venv
+source venv/bin/activate
+```
+  * install requirements as specified in `requirements.txt` file
+```bash
+pip install -r requirements.txt
+```
+  * start jupyter
+```bash
+jupyter lab
+```
+  * jupyter opens in a browser interactive interface, open notebook `PK_2C_IVMidazolam.ipynb`
+  * the demo contains exported 2-compartment model of Midazolam administered intravenously in FMI, its usage with `fmpy` library and integration with pharmacokinetic database containing growing number of human and machine readable data of drugs from https://pk-db.com
+
+## Simulator
+Live sample web simulator at: https://egolem.online/pharma
 
