@@ -14,12 +14,14 @@ partial model PartialCompartment
   //Pharmacolibrary.Types.MassConcentration freeTissueConc "drug free concentration in tissue";
   //CBFree
   Pharmacolibrary.Types.Mass M "drug mass total";
+  Pharmacolibrary.Types.AreaUnderCurve AUC "area under curve";
   //Modelica.Units.SI.Concentration Cmol;
 protected
   parameter Pharmacolibrary.Types.Volume VNonZero = max(1.0e-6, V) "total distribution volume";
 equation
   C = M/VNonZero;
   cport.c = C;
+  der(AUC) = C;
   //Cmol = C / drug.molarMass;
   //CB = C/kTB;
   //freeTissueConc = fu*C;

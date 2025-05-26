@@ -29,5 +29,5 @@ equation
     Line(points = {{1, 18}, {1, -8}}, color = {114, 159, 207}));
   annotation(
     Icon(graphics = {Polygon(origin = {0, 52}, lineColor = {53, 132, 228}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, lineThickness = 1, points = {{0, 24}, {-18, 6}, {0, -8}, {18, 6}, {0, 24}, {0, 24}}), Line(origin = {0.5, 58}, points = {{-12.5, 0}, {13.5, 0}, {1.5, 0}}, color = {38, 162, 105}, thickness = 1), Text(origin = {-2, 58}, extent = {{-18, 10}, {18, -10}}, textString = "1")}),
-    Documentation(info = "<html><head></head><body><h1>PeripheralTissueCompartment</h1><div>Helpert compartment combines NoPerfusedTissuCompartment with FirstOrderTransfer with symetric clearance rate Cl, going from port A.</div><div>Port B connects with the peripheral compartment.</div><div><br></div></body></html>"));
+    Documentation(info = "<html><head></head><body><div>This is helpert compartment which combines NoPerfusedTissuCompartment with FirstOrderTransfer with symetric clearance rate Cl, going from port A.</div><div>Port B may be used to connect to the other peripheral compartment.</div><div><br></div></body></html>"));
 end PeripheralTissueCompartment;

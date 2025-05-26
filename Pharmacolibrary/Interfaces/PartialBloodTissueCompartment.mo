@@ -13,6 +13,7 @@ partial model PartialBloodTissueCompartment
   Types.MassConcentration freeBloodConc "drug free concentration in blood or plasma";
   //CBFree
   Types.Mass M "drug mass total";
+  Types.AreaUnderCurve AUC "area under curve";
 protected
   parameter Types.Volume VNonZero = max(1.0e-6, V) "total distribution volume";
 equation
@@ -20,6 +21,7 @@ equation
   CB = C/kTB;
   freeTissueConc = fu*C;
   freeBloodConc = fu*C/kTB;
+  der(AUC) = C;
 //cport.freeBloodConc = freeBloodConc; //removing freebloodconc - only tissue conc is transferred
   cport.c = freeTissueConc;
   annotation(
