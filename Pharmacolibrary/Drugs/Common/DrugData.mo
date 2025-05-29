@@ -2,7 +2,7 @@ within Pharmacolibrary.Drugs.Common;
 
 package DrugData
   extends Modelica.Icons.Package;
-constant DataRecord A01AA01_A01AA01_sodium_fluoride(
+constant DataRecord A01AA01_sodium_fluoride(
   atc= "A01AA01",
   name = "sodium fluoride",
   synonyms = {"sodium fluoride", "7681-49-4", "Fluoride, sodium", "Florocid", "Pediaflor"},
