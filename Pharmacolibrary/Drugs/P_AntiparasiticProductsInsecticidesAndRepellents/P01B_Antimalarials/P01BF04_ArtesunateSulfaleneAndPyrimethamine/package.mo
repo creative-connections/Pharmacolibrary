@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials;
+package P01BF04_ArtesunateSulfaleneAndPyrimethamine
+  extends Icons.Package;
+end P01BF04_ArtesunateSulfaleneAndPyrimethamine;

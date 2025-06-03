@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XA03_Oxaliplatin;
+model Oxaliplatin = Pharmacolibrary.Drugs.ATC.L.L01XA03;

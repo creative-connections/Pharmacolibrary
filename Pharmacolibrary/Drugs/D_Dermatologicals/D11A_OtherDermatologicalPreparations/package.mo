@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals;
+package D11A_OtherDermatologicalPreparations
+  extends Icons.Package;
+end D11A_OtherDermatologicalPreparations;

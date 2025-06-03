@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01C_AgentsAgainstLeishmaniasisAndTrypanosomiasis.P01CC01_Nifurtimox;
+model Nifurtimox = Pharmacolibrary.Drugs.ATC.P.P01CC01;

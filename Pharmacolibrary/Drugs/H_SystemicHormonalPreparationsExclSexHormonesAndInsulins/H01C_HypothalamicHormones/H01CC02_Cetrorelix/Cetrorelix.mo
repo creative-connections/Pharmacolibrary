@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01C_HypothalamicHormones.H01CC02_Cetrorelix;
+model Cetrorelix = Pharmacolibrary.Drugs.ATC.H.H01CC02;

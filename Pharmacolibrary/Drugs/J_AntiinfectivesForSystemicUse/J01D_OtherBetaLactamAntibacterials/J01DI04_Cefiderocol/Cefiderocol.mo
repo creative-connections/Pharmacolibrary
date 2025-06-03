@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DI04_Cefiderocol;
+model Cefiderocol = Pharmacolibrary.Drugs.ATC.J.J01DI04;

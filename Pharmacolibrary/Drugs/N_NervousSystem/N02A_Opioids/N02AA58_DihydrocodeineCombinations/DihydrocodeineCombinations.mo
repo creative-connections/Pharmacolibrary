@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids.N02AA58_DihydrocodeineCombinations;
+model DihydrocodeineCombinations = Pharmacolibrary.Drugs.ATC.N.N02AA58;

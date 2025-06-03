@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DX19_Nesiritide;
+model Nesiritide = Pharmacolibrary.Drugs.ATC.C.C01DX19;

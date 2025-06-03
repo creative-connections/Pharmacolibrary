@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins.J01CR04_Sultamicillin;
+model Sultamicillin = Pharmacolibrary.Drugs.ATC.J.J01CR04;

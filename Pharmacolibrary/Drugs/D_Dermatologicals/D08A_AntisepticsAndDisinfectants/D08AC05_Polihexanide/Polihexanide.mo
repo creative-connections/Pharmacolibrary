@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AC05_Polihexanide;
+model Polihexanide = Pharmacolibrary.Drugs.ATC.D.D08AC05;

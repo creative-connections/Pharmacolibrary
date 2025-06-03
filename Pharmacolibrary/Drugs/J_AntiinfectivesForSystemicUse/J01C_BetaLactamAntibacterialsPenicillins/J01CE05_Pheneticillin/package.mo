@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins;
+package J01CE05_Pheneticillin
+  extends Icons.Package;
+end J01CE05_Pheneticillin;

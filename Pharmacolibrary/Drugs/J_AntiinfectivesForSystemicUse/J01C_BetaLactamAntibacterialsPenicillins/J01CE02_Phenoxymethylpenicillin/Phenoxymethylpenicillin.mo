@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins.J01CE02_Phenoxymethylpenicillin;
+model Phenoxymethylpenicillin = Pharmacolibrary.Drugs.ATC.J.J01CE02;

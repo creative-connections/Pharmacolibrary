@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AC01_CromoglicicAcid;
+model CromoglicicAcid_1 = Pharmacolibrary.Drugs.ATC.R.R01AC01_1;

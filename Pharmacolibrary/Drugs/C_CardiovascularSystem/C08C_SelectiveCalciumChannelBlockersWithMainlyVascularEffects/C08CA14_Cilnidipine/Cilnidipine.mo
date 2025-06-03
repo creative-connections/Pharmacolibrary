@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08C_SelectiveCalciumChannelBlockersWithMainlyVascularEffects.C08CA14_Cilnidipine;
+model Cilnidipine = Pharmacolibrary.Drugs.ATC.C.C08CA14;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides;
+package C01CX10_OmecamtivMecarbil
+  extends Icons.Package;
+end C01CX10_OmecamtivMecarbil;

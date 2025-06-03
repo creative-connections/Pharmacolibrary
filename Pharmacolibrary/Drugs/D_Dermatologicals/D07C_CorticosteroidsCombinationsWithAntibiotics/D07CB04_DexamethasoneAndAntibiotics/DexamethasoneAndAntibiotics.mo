@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07C_CorticosteroidsCombinationsWithAntibiotics.D07CB04_DexamethasoneAndAntibiotics;
+model DexamethasoneAndAntibiotics = Pharmacolibrary.Drugs.ATC.D.D07CB04;

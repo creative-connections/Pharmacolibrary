@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.C;
+
+model C05AA08
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.5,
+    Cl             = 0.13333333333333333,
+    adminDuration  = 600,
+    adminMass      = 0.02,
+    adminCount     = 1,
+    Vd             = 0.04,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Fluocortolone is a synthetic corticosteroid with potent anti-inflammatory and immunosuppressive properties. It is primarily used in the treatment of hemorrhoids and other inflammatory anorectal disorders, usually as a topical rectal preparation (suppositories or creams). Fluocortolone is rarely used systemically, and its primary medical indication is for reducing inflammation and itching in hemorrhoidal conditions. It is currently approved and marketed in several countries, particularly in Europe.</p><h4>Pharmacokinetics</h4><p>There are no published studies reporting detailed pharmacokinetic parameters (such as volume of distribution, clearance, bioavailability) for fluocortolone in humans. Estimates below are based on class properties and standard corticosteroid assumptions.</p><h4>References</h4><ol><li> No clinical PK studies directly report pharmacokinetic parameters for fluocortolone. The values here are approximations based on known information about corticosteroid pharmacokinetics and the drug’s intended rectal use. No DOI can be provided as no direct human PK study is available.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end C05AA08;

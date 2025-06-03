@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AD03_FerrousSulfateAndFolicAcid;
+model FerrousSulfateAndFolicAcid = Pharmacolibrary.Drugs.ATC.B.B03AD03;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07E_IntestinalAntiinflammatoryAgents.A07EC02_Mesalazine;
+model Mesalazine_1 = Pharmacolibrary.Drugs.ATC.A.A07EC02_1;

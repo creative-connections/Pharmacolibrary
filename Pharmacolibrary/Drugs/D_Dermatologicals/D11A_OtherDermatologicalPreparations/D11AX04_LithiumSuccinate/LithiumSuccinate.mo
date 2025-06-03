@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AX04_LithiumSuccinate;
+model LithiumSuccinate = Pharmacolibrary.Drugs.ATC.D.D11AX04;

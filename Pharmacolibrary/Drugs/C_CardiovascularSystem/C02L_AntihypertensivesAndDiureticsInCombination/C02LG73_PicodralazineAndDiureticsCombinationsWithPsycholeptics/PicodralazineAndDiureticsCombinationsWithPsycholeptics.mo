@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination.C02LG73_PicodralazineAndDiureticsCombinationsWithPsycholeptics;
+model PicodralazineAndDiureticsCombinationsWithPsycholeptics = Pharmacolibrary.Drugs.ATC.C.C02LG73;

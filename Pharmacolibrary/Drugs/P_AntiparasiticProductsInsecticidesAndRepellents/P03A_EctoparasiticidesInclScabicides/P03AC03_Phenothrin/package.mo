@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03A_EctoparasiticidesInclScabicides;
+package P03AC03_Phenothrin
+  extends Icons.Package;
+end P03AC03_Phenothrin;

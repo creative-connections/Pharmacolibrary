@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02D_ArteriolarSmoothMuscleAgentsActingOn;
+package C02DG01_Pinacidil
+  extends Icons.Package;
+end C02DG01_Pinacidil;

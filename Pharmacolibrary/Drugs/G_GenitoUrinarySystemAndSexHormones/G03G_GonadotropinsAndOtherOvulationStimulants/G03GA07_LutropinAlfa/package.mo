@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03G_GonadotropinsAndOtherOvulationStimulants;
+package G03GA07_LutropinAlfa
+  extends Icons.Package;
+end G03GA07_LutropinAlfa;

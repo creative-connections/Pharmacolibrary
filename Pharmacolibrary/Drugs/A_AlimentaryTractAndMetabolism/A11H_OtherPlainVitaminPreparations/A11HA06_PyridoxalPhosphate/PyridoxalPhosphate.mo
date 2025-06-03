@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11H_OtherPlainVitaminPreparations.A11HA06_PyridoxalPhosphate;
+model PyridoxalPhosphate = Pharmacolibrary.Drugs.ATC.A.A11HA06;

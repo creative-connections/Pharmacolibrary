@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01X_OtherAntibacterials.J01XA03_Telavancin;
+model Telavancin = Pharmacolibrary.Drugs.ATC.J.J01XA03;

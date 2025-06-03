@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AC06_AcetylsalicylicAcid;
+model AcetylsalicylicAcid = Pharmacolibrary.Drugs.ATC.B.B01AC06;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis;
+package J04AB06_Enviomycin
+  extends Icons.Package;
+end J04AB06_Enviomycin;

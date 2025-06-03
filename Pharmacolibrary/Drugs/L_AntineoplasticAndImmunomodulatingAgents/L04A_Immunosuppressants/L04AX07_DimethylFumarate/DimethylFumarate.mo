@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AX07_DimethylFumarate;
+model DimethylFumarate = Pharmacolibrary.Drugs.ATC.L.L04AX07;

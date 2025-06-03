@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BA08_Fenozolone;
+model Fenozolone = Pharmacolibrary.Drugs.ATC.N.N06BA08;

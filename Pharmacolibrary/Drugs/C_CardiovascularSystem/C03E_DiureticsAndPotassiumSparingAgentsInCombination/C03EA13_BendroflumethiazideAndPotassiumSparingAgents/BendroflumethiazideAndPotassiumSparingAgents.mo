@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03E_DiureticsAndPotassiumSparingAgentsInCombination.C03EA13_BendroflumethiazideAndPotassiumSparingAgents;
+model BendroflumethiazideAndPotassiumSparingAgents = Pharmacolibrary.Drugs.ATC.C.C03EA13;

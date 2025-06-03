@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.M;
+
+model M03AA04
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.02,
+    adminDuration  = 600,
+    adminMass      = 0.01,
+    adminCount     = 1,
+    Vd             = 0.00017999999999999998,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Dimethyltubocurarine is a neuromuscular blocking agent of the isoquinoline class, historically used as a muscle relaxant during surgical anesthesia and mechanical ventilation. It acts as a non-depolarizing blocker at nicotinic acetylcholine receptors at the neuromuscular junction. Its use has been largely replaced by newer agents with a better safety profile and it is not commonly approved for modern clinical use.</p><h4>Pharmacokinetics</h4><p>Parameters estimated for typical adult, intravenous administration. No recent or detailed human pharmacokinetic studies published with explicit numerical PK parameters; estimates based on pharmacology texts and related historical sources.</p><h4>References</h4><ol><li> No direct PK study or original clinical paper with DOI found for dimethyltubocurarine. Parameter estimates based on classical pharmacology textbooks (e.g., Goodman & Gilman's, Martindale), and analogy to similar neuromuscular blocking agents such as d-tubocurarine. These are representative values for initial PK modeling in adults only; variability likely exists.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end M03AA04;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R02A_ThroatPreparations.R02AA13_AcriflaviniumChloride;
+model AcriflaviniumChloride = Pharmacolibrary.Drugs.ATC.R.R02AA13;

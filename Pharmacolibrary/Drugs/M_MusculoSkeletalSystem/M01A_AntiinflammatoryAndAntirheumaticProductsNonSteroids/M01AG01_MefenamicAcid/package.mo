@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids;
+package M01AG01_MefenamicAcid
+  extends Icons.Package;
+end M01AG01_MefenamicAcid;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XA05_Polyplatillen;
+model Polyplatillen = Pharmacolibrary.Drugs.ATC.L.L01XA05;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05B_AntivaricoseTherapy.C05BB04_SodiumTetradecylSulfate;
+model SodiumTetradecylSulfate = Pharmacolibrary.Drugs.ATC.C.C05BB04;

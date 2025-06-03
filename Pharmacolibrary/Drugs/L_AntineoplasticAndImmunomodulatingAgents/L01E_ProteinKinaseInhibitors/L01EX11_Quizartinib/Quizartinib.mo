@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EX11_Quizartinib;
+model Quizartinib = Pharmacolibrary.Drugs.ATC.L.L01EX11;

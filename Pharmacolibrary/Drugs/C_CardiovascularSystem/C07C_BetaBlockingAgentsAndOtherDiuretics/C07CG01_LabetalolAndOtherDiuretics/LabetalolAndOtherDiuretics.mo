@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07C_BetaBlockingAgentsAndOtherDiuretics.C07CG01_LabetalolAndOtherDiuretics;
+model LabetalolAndOtherDiuretics = Pharmacolibrary.Drugs.ATC.C.C07CG01;

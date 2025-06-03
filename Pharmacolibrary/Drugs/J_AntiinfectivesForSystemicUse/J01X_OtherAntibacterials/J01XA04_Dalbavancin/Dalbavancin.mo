@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01X_OtherAntibacterials.J01XA04_Dalbavancin;
+model Dalbavancin = Pharmacolibrary.Drugs.ATC.J.J01XA04;

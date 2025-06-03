@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01EB51_PilocarpineCombinations;
+model PilocarpineCombinations = Pharmacolibrary.Drugs.ATC.S.S01EB51;

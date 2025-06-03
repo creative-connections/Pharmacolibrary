@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials;
+package J01DH51_ImipenemAndCilastatin
+  extends Icons.Package;
+end J01DH51_ImipenemAndCilastatin;

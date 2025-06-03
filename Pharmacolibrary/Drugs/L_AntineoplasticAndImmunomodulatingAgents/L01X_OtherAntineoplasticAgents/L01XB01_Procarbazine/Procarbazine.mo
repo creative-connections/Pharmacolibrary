@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XB01_Procarbazine;
+model Procarbazine = Pharmacolibrary.Drugs.ATC.L.L01XB01;

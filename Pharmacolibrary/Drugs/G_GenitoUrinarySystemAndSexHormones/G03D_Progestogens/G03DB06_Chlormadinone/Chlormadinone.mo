@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03D_Progestogens.G03DB06_Chlormadinone;
+model Chlormadinone = Pharmacolibrary.Drugs.ATC.G.G03DB06;

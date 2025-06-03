@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BA02_Metformin;
+model Metformin = Pharmacolibrary.Drugs.ATC.A.A10BA02;

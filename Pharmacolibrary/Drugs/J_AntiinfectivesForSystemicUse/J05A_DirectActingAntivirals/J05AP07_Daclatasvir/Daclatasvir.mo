@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AP07_Daclatasvir;
+model Daclatasvir = Pharmacolibrary.Drugs.ATC.J.J05AP07;

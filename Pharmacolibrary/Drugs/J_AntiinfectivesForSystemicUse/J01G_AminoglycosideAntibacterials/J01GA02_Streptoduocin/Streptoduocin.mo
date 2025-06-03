@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01G_AminoglycosideAntibacterials.J01GA02_Streptoduocin;
+model Streptoduocin = Pharmacolibrary.Drugs.ATC.J.J01GA02;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.A;
+
+model A03AB10
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.12,
+    Cl             = 0.0016666666666666668,
+    adminDuration  = 600,
+    adminMass      = 0.01,
+    adminCount     = 1,
+    Vd             = 0.0015,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0008333333333333334,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Hexocyclium is a synthetic antimuscarinic (anticholinergic) drug that was used historically to treat gastrointestinal tract disorders such as peptic ulcer, hypermotility, and spasms by reducing gastrointestinal motility and acid secretion. It is not commonly used or approved in current clinical practice.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic parameters for hexocyclium in humans are available. Estimated single-dose, oral administration PK parameters are provided based on properties of similar antimuscarinic agents.</p><h4>References</h4><ol><li> No direct pharmacokinetic studies or published PK data are available for hexocyclium (human). All values are estimated based on analogous antimuscarinic drugs (quaternary ammonium compounds like propantheline or glycopyrronium) and standard pharmacology references. Reliable clinical PK modeling is currently impossible until a primary source reports relevant data.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end A03AB10;

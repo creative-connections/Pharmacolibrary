@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09H_InflammationAndInfectionDetection.V09HB01_Indium111inOxinateLabelledCells;
+model Indium111inOxinateLabelledCells = Pharmacolibrary.Drugs.ATC.V.V09HB01;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics;
+package B02BA01_Phytomenadione
+  extends Icons.Package;
+end B02BA01_Phytomenadione;

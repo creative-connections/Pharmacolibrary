@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AR09_EmtricitabineTenofovirDisoproxilElvitegravirAndCobicistat;
+model EmtricitabineTenofovirDisoproxilElvitegravirAndCobicistat = Pharmacolibrary.Drugs.ATC.J.J05AR09;

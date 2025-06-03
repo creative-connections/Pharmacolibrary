@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01B_Antimetabolites.L01BC03_Tegafur;
+model Tegafur = Pharmacolibrary.Drugs.ATC.L.L01BC03;

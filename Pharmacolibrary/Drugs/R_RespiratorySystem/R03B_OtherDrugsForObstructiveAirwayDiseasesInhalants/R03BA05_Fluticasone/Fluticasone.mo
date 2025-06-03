@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03B_OtherDrugsForObstructiveAirwayDiseasesInhalants.R03BA05_Fluticasone;
+model Fluticasone = Pharmacolibrary.Drugs.ATC.R.R03BA05;

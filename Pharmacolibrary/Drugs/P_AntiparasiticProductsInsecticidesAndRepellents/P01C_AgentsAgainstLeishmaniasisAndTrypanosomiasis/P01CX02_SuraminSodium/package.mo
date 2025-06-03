@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01C_AgentsAgainstLeishmaniasisAndTrypanosomiasis;
+package P01CX02_SuraminSodium
+  extends Icons.Package;
+end P01CX02_SuraminSodium;

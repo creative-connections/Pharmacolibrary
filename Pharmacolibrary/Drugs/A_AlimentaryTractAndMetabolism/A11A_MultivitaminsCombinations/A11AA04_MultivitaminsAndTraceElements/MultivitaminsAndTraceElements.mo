@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11A_MultivitaminsCombinations.A11AA04_MultivitaminsAndTraceElements;
+model MultivitaminsAndTraceElements = Pharmacolibrary.Drugs.ATC.A.A11AA04;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02B_HormoneAntagonistsAndRelatedAgents;
+package L02BX53_AbirateroneAndPrednisolone
+  extends Icons.Package;
+end L02BX53_AbirateroneAndPrednisolone;

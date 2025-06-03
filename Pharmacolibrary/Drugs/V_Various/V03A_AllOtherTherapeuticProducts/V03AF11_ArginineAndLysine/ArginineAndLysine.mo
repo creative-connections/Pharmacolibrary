@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts.V03AF11_ArginineAndLysine;
+model ArginineAndLysine = Pharmacolibrary.Drugs.ATC.V.V03AF11;

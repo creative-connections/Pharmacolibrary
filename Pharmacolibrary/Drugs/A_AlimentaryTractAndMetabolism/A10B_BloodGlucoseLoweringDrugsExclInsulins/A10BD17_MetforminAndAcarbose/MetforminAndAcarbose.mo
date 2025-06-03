@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BD17_MetforminAndAcarbose;
+model MetforminAndAcarbose = Pharmacolibrary.Drugs.ATC.A.A10BD17;

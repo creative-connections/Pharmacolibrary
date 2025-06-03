@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EE04_Selumetinib;
+model Selumetinib = Pharmacolibrary.Drugs.ATC.L.L01EE04;

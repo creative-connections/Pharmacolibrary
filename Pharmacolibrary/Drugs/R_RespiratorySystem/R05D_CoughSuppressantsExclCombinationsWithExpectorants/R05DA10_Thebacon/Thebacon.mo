@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants.R05DA10_Thebacon;
+model Thebacon = Pharmacolibrary.Drugs.ATC.R.R05DA10;

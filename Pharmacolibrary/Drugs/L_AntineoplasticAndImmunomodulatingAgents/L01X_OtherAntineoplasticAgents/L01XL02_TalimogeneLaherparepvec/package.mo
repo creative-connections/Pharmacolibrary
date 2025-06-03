@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
+package L01XL02_TalimogeneLaherparepvec
+  extends Icons.Package;
+end L01XL02_TalimogeneLaherparepvec;

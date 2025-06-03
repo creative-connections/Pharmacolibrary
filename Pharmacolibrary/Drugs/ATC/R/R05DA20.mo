@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.R;
+
+model R05DA20
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.8,
+    Cl             = 0.0036666666666666666,
+    adminDuration  = 600,
+    adminMass      = 0.02,
+    adminCount     = 1,
+    Vd             = 0.0045,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0005,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Pholcodine is an opioid cough suppressant commonly used in combination with other drugs such as antihistamines or expectorants for the treatment of non-productive cough. Its use has declined in several countries due to safety concerns, and it has been withdrawn in the EU.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters estimated for adults after typical oral dosing. No published studies were found on specific combinations corresponding to ATC code R05DA20, so parameters are estimated based on single-agent pholcodine data and common values for combination antitussive OTC products.</p><h4>References</h4><ol><li> No direct PK studies on pholcodine combinations (R05DA20) could be found; estimates are based on general pholcodine PK literature and extrapolated for combinations. May not represent all combinations within R05DA20. Values are typical for single-agent pholcodine in adults.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end R05DA20;

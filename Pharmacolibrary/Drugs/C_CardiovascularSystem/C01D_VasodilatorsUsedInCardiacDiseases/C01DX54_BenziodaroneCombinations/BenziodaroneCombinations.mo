@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DX54_BenziodaroneCombinations;
+model BenziodaroneCombinations = Pharmacolibrary.Drugs.ATC.C.C01DX54;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B06A_OtherHematologicalAgents.B06AX02_BetibeglogeneAutotemcel;
+model BetibeglogeneAutotemcel = Pharmacolibrary.Drugs.ATC.B.B06AX02;

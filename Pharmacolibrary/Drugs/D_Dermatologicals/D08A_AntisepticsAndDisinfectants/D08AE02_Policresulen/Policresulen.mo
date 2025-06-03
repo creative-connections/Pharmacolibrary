@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AE02_Policresulen;
+model Policresulen = Pharmacolibrary.Drugs.ATC.D.D08AE02;

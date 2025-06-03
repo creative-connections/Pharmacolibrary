@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations.C09BA07_BenazeprilAndDiuretics;
+model BenazeprilAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C09BA07;

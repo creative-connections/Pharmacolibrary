@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03C_HighCeilingDiuretics.C03CC01_EtacrynicAcid;
+model EtacrynicAcid = Pharmacolibrary.Drugs.ATC.C.C03CC01;

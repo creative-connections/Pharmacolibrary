@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DD02_Ceftazidime;
+model Ceftazidime = Pharmacolibrary.Drugs.ATC.J.J01DD02;

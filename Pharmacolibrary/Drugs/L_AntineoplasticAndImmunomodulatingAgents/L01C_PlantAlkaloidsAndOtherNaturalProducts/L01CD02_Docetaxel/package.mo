@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts;
+package L01CD02_Docetaxel
+  extends Icons.Package;
+end L01CD02_Docetaxel;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V08B_XRayContrastMediaNonIodinated.V08BA02_BariumSulfateWithoutSuspendingAgents;
+model BariumSulfateWithoutSuspendingAgents = Pharmacolibrary.Drugs.ATC.V.V08BA02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AX02_Lysozyme;
+model Lysozyme = Pharmacolibrary.Drugs.ATC.J.J05AX02;

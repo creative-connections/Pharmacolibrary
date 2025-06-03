@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives.B05XB01_ArginineHydrochloride;
+model ArginineHydrochloride = Pharmacolibrary.Drugs.ATC.B.B05XB01;

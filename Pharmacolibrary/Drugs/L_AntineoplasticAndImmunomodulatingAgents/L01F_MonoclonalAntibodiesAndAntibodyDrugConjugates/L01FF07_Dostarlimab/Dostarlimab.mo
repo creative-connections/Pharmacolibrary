@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FF07_Dostarlimab;
+model Dostarlimab = Pharmacolibrary.Drugs.ATC.L.L01FF07;

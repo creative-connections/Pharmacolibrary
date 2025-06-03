@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BF03_Voglibose;
+model Voglibose = Pharmacolibrary.Drugs.ATC.A.A10BF03;

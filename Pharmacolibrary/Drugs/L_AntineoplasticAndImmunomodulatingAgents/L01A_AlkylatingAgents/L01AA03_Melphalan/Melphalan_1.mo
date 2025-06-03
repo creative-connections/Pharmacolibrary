@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents.L01AA03_Melphalan;
+model Melphalan_1 = Pharmacolibrary.Drugs.ATC.L.L01AA03_1;

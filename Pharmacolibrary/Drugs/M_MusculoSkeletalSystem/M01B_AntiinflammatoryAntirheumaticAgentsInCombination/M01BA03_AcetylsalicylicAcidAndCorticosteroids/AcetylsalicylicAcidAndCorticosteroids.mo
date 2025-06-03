@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01B_AntiinflammatoryAntirheumaticAgentsInCombination.M01BA03_AcetylsalicylicAcidAndCorticosteroids;
+model AcetylsalicylicAcidAndCorticosteroids = Pharmacolibrary.Drugs.ATC.M.M01BA03;

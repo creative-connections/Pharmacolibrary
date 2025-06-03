@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations.C10BA08_AtorvastatinAndOmega3FattyAcids;
+model AtorvastatinAndOmega3FattyAcids = Pharmacolibrary.Drugs.ATC.C.C10BA08;

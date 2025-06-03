@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.V;
+
+model V03AB22
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1.0,
+    Cl             = 0.3333333333333333,
+    adminDuration  = 600,
+    adminMass      = 0.0003,
+    adminCount     = 1,
+    Vd             = 0.003,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Amyl nitrite is an organic nitrite compound used primarily as a vasodilator. It was historically used in the treatment of angina pectoris, but its medical use is now rare and has been largely replaced by other nitrate preparations. Today, its primary uses are as an antidote in cyanide poisoning and it is also known for recreational use ('poppers').</p><h4>Pharmacokinetics</h4><p>No human pharmacokinetic model with reported numerical parameters such as clearance or volume of distribution for amyl nitrite has been found in the published literature. Estimates below are based on the drug's high volatility, rapid absorption via inhalation, and rapid metabolism primarily in the liver.</p><h4>References</h4><ol><li> No human population pharmacokinetic study found for amyl nitrite. Values provided are rough estimates inferred from textbook and review sources, based on rapid absorption and elimination, high lipid solubility, and analogy to other volatile organic nitrites. No peer-reviewed PK modeling parameters with DOI were found.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end V03AB22;

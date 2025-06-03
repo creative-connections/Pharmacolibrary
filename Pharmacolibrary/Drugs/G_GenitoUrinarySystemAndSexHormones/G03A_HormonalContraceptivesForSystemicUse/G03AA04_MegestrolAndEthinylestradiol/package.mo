@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse;
+package G03AA04_MegestrolAndEthinylestradiol
+  extends Icons.Package;
+end G03AA04_MegestrolAndEthinylestradiol;

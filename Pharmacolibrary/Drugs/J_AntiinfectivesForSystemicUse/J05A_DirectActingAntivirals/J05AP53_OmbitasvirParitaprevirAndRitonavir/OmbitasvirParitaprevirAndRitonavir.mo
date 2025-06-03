@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AP53_OmbitasvirParitaprevirAndRitonavir;
+model OmbitasvirParitaprevirAndRitonavir = Pharmacolibrary.Drugs.ATC.J.J05AP53;

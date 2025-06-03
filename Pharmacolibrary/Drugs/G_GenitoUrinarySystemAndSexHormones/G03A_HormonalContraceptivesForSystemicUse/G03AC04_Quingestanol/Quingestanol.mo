@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AC04_Quingestanol;
+model Quingestanol = Pharmacolibrary.Drugs.ATC.G.G03AC04;

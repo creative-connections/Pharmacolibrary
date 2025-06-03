@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BX06_Enterovirus71Vaccines;
+model Enterovirus71Vaccines = Pharmacolibrary.Drugs.ATC.J.J07BX06;

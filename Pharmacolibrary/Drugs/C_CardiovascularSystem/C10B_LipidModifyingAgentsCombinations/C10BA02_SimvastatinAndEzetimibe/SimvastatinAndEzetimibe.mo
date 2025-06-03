@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations.C10BA02_SimvastatinAndEzetimibe;
+model SimvastatinAndEzetimibe = Pharmacolibrary.Drugs.ATC.C.C10BA02;

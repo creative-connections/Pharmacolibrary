@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AG05_Vedolizumab;
+model Vedolizumab = Pharmacolibrary.Drugs.ATC.L.L04AG05;

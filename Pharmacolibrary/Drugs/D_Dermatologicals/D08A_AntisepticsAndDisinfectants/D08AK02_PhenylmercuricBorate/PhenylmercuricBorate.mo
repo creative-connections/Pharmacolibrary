@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AK02_PhenylmercuricBorate;
+model PhenylmercuricBorate = Pharmacolibrary.Drugs.ATC.D.D08AK02;

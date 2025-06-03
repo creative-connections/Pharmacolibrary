@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AE18_Naproxcinod;
+model Naproxcinod = Pharmacolibrary.Drugs.ATC.M.M01AE18;

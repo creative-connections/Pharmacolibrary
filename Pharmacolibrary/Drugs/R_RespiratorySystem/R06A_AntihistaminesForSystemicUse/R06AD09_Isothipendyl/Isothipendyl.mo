@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AD09_Isothipendyl;
+model Isothipendyl = Pharmacolibrary.Drugs.ATC.R.R06AD09;

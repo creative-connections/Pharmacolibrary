@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids.N02AG03_PethidineAndAntispasmodics;
+model PethidineAndAntispasmodics = Pharmacolibrary.Drugs.ATC.N.N02AG03;

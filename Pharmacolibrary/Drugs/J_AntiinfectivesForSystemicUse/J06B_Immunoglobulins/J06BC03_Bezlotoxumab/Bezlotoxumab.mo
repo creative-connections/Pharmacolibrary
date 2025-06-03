@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J06B_Immunoglobulins.J06BC03_Bezlotoxumab;
+model Bezlotoxumab = Pharmacolibrary.Drugs.ATC.J.J06BC03;

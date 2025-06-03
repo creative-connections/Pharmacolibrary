@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse.D10AF05_Nadifloxacin;
+model Nadifloxacin = Pharmacolibrary.Drugs.ATC.D.D10AF05;

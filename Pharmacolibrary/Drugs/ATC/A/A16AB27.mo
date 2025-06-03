@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.A;
+
+model A16AB27
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.0005,
+    adminDuration  = 600,
+    adminMass      = 0.002,
+    adminCount     = 1,
+    Vd             = 5.9999999999999995e-05,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Pabinafusp alfa is a recombinant fusion protein consisting of human iduronate-2-sulfatase (IDS) coupled with an antibody targeting the human transferrin receptor. It is designed to treat mucopolysaccharidosis type II (MPS II, Hunter syndrome), a lysosomal storage disorder, by facilitating IDS delivery across the blood-brain barrier. Pabinafusp alfa is approved in Japan for the treatment of MPS II.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters estimated for typical pediatric patients (children with MPS II) following intravenous infusion. No published peer-reviewed PK studies found as of June 2024.</p><h4>References</h4><ol><li> No peer-reviewed publications with human pharmacokinetic data for pabinafusp alfa found as of June 2024. Parameters estimated based on expert knowledge of similar recombinant lysosomal enzymes used for enzyme replacement therapy in pediatric populations. Values should be used with caution and replaced with empirical data when available.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end A16AB27;

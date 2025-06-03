@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07A_IntestinalAntiinfectives.A07AC01_Miconazole;
+model Miconazole = Pharmacolibrary.Drugs.ATC.A.A07AC01;

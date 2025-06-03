@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain.M02AA10_Ketoprofen;
+model Ketoprofen = Pharmacolibrary.Drugs.ATC.M.M02AA10;

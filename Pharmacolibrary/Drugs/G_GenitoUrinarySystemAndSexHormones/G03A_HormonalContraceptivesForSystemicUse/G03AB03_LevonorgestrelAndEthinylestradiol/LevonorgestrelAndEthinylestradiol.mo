@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AB03_LevonorgestrelAndEthinylestradiol;
+model LevonorgestrelAndEthinylestradiol = Pharmacolibrary.Drugs.ATC.G.G03AB03;

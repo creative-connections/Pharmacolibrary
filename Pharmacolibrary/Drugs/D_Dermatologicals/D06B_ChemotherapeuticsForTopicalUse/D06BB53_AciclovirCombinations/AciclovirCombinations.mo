@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D06B_ChemotherapeuticsForTopicalUse.D06BB53_AciclovirCombinations;
+model AciclovirCombinations = Pharmacolibrary.Drugs.ATC.D.D06BB53;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08D_SelectiveCalciumChannelBlockersWithDirectCardiacEffects;
+package C08DB01_Diltiazem
+  extends Icons.Package;
+end C08DB01_Diltiazem;

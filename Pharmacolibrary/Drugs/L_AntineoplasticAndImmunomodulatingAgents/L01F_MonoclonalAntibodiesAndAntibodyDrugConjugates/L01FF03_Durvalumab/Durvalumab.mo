@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FF03_Durvalumab;
+model Durvalumab = Pharmacolibrary.Drugs.ATC.L.L01FF03;

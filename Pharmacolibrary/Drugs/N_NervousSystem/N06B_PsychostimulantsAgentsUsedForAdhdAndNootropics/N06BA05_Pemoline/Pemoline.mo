@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BA05_Pemoline;
+model Pemoline = Pharmacolibrary.Drugs.ATC.N.N06BA05;

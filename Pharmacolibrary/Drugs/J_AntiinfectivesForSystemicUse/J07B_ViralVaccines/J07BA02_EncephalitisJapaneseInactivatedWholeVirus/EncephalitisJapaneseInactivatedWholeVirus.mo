@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BA02_EncephalitisJapaneseInactivatedWholeVirus;
+model EncephalitisJapaneseInactivatedWholeVirus = Pharmacolibrary.Drugs.ATC.J.J07BA02;

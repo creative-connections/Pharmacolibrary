@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.V;
+
+model V03AE08
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.01,
+    Cl             = 0.0,
+    adminDuration  = 600,
+    adminMass      = 0.63,
+    adminCount     = 1,
+    Vd             = 0,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Ferric citrate is an iron-based phosphate binder used to control serum phosphorus levels in patients with chronic kidney disease on dialysis. It also increases iron stores and helps to manage anemia. It is approved for clinical use in the US and other countries.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic models for systemic absorption are available, as ferric citrate acts locally in the gastrointestinal tract. Minimal systemic absorption occurs; the drug acts by binding dietary phosphate in the GI tract of adult CKD patients.</p><h4>References</h4><ol><li> Pharmacokinetic parameters not available in literature. Ferric citrate acts locally in the GI tract with minimal absorption; thus classic PK modeling is not performed. Dose, route, and administration regimens are based on clinical product labeling and literature. Bioavailability is estimated as nearly zero (≤1%) due to negligible absorption.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end V03AE08;

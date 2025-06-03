@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03B_BelladonnaAndDerivativesPlain.A03BB01_Butylscopolamine;
+model Butylscopolamine = Pharmacolibrary.Drugs.ATC.A.A03BB01;

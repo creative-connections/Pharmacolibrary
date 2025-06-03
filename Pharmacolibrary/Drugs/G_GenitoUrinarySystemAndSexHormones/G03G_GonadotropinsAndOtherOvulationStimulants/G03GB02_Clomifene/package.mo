@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03G_GonadotropinsAndOtherOvulationStimulants;
+package G03GB02_Clomifene
+  extends Icons.Package;
+end G03GB02_Clomifene;

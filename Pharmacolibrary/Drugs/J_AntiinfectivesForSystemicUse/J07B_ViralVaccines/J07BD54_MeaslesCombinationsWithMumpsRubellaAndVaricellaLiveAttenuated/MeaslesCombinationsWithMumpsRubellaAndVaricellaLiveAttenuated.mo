@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BD54_MeaslesCombinationsWithMumpsRubellaAndVaricellaLiveAttenuated;
+model MeaslesCombinationsWithMumpsRubellaAndVaricellaLiveAttenuated = Pharmacolibrary.Drugs.ATC.J.J07BD54;

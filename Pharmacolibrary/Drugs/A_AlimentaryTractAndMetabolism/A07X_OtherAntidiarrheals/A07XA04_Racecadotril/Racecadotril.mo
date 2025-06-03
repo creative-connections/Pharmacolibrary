@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07X_OtherAntidiarrheals.A07XA04_Racecadotril;
+model Racecadotril = Pharmacolibrary.Drugs.ATC.A.A07XA04;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05C_CapillaryStabilizingAgents;
+package C05CX03_HippocastaniSemen
+  extends Icons.Package;
+end C05CX03_HippocastaniSemen;

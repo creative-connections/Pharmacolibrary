@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S02A_Antiinfectives.S02AA30_AntiinfectivesCombinations;
+model AntiinfectivesCombinations = Pharmacolibrary.Drugs.ATC.S.S02AA30;

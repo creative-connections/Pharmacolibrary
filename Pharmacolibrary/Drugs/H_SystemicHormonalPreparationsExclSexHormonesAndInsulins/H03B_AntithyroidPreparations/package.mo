@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins;
+package H03B_AntithyroidPreparations
+  extends Icons.Package;
+end H03B_AntithyroidPreparations;

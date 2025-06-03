@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AL01_SilverNitrate;
+model SilverNitrate = Pharmacolibrary.Drugs.ATC.D.D08AL01;

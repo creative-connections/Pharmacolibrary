@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EN02_Pemigatinib;
+model Pemigatinib = Pharmacolibrary.Drugs.ATC.L.L01EN02;

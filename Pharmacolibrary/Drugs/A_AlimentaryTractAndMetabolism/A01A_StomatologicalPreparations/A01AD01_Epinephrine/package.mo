@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations;
+package A01AD01_Epinephrine
+  extends Icons.Package;
+end A01AD01_Epinephrine;

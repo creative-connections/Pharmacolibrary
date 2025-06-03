@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01C_AntiinflammatoryAgentsAndAntiinfectivesInCombination;
+package S01CB01_Dexamethasone
+  extends Icons.Package;
+end S01CB01_Dexamethasone;

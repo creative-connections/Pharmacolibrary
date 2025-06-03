@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AB02_LynestrenolAndEthinylestradiol;
+model LynestrenolAndEthinylestradiol = Pharmacolibrary.Drugs.ATC.G.G03AB02;

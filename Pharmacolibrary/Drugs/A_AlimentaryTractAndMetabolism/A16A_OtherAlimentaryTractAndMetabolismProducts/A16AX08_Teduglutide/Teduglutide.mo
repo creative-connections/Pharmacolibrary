@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts.A16AX08_Teduglutide;
+model Teduglutide = Pharmacolibrary.Drugs.ATC.A.A16AX08;

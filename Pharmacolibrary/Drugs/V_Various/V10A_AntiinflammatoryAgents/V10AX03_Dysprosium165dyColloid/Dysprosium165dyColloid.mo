@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V10A_AntiinflammatoryAgents.V10AX03_Dysprosium165dyColloid;
+model Dysprosium165dyColloid = Pharmacolibrary.Drugs.ATC.V.V10AX03;

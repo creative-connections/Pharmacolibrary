@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02A_AntiadrenergicAgentsCentrallyActing.C02AA02_Reserpine;
+model Reserpine = Pharmacolibrary.Drugs.ATC.C.C02AA02;

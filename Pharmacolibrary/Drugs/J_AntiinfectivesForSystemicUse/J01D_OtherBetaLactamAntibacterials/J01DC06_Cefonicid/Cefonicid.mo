@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DC06_Cefonicid;
+model Cefonicid = Pharmacolibrary.Drugs.ATC.J.J01DC06;

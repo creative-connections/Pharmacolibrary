@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03X_OtherSexHormonesAndModulatorsOfTheGenitalSystem;
+package G03XX01_Prasterone
+  extends Icons.Package;
+end G03XX01_Prasterone;

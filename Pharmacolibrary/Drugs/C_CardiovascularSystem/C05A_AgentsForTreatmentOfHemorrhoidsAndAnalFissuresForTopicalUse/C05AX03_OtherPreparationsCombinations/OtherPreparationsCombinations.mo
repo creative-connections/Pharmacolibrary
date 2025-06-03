@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse.C05AX03_OtherPreparationsCombinations;
+model OtherPreparationsCombinations = Pharmacolibrary.Drugs.ATC.C.C05AX03;

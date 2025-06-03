@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XX73_Sotorasib;
+model Sotorasib = Pharmacolibrary.Drugs.ATC.L.L01XX73;

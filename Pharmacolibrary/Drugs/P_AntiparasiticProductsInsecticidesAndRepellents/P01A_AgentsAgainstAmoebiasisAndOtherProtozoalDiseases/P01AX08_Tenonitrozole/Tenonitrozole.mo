@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AX08_Tenonitrozole;
+model Tenonitrozole = Pharmacolibrary.Drugs.ATC.P.P01AX08;

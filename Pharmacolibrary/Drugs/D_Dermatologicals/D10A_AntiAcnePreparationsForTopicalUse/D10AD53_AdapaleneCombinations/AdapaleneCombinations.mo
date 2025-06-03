@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse.D10AD53_AdapaleneCombinations;
+model AdapaleneCombinations = Pharmacolibrary.Drugs.ATC.D.D10AD53;

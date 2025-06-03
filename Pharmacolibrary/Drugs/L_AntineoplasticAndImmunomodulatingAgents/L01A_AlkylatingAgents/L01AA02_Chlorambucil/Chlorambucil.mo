@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents.L01AA02_Chlorambucil;
+model Chlorambucil = Pharmacolibrary.Drugs.ATC.L.L01AA02;

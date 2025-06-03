@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants;
+package R05DA06_Normethadone
+  extends Icons.Package;
+end R05DA06_Normethadone;

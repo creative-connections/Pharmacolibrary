@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07B_CorticosteroidsCombinationsWithAntiseptics.D07BC01_BetamethasoneAndAntiseptics;
+model BetamethasoneAndAntiseptics = Pharmacolibrary.Drugs.ATC.D.D07BC01;

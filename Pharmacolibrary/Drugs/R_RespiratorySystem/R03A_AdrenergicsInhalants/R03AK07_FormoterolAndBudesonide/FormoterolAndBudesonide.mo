@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants.R03AK07_FormoterolAndBudesonide;
+model FormoterolAndBudesonide = Pharmacolibrary.Drugs.ATC.R.R03AK07;

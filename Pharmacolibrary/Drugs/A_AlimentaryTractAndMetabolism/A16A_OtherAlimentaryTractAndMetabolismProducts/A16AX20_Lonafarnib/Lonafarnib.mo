@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts.A16AX20_Lonafarnib;
+model Lonafarnib = Pharmacolibrary.Drugs.ATC.A.A16AX20;

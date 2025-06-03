@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D04A_AntipruriticsInclAntihistaminesAnestheticsEtc;
+package D04AX01_Doxepin
+  extends Icons.Package;
+end D04AX01_Doxepin;

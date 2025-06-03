@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A09A_DigestivesInclEnzymes.A09AB04_CitricAcid;
+model CitricAcid = Pharmacolibrary.Drugs.ATC.A.A09AB04;

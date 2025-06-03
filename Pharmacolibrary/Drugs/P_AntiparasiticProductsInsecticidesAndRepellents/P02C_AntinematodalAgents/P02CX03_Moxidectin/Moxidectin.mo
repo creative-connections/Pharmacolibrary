@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02C_AntinematodalAgents.P02CX03_Moxidectin;
+model Moxidectin = Pharmacolibrary.Drugs.ATC.P.P02CX03;

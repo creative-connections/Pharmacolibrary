@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01C_AgentsAgainstLeishmaniasisAndTrypanosomiasis.P01CD02_Acetarsol;
+model Acetarsol = Pharmacolibrary.Drugs.ATC.P.P01CD02;

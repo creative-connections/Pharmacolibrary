@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials.P01BA01_Chloroquine;
+model Chloroquine = Pharmacolibrary.Drugs.ATC.P.P01BA01;

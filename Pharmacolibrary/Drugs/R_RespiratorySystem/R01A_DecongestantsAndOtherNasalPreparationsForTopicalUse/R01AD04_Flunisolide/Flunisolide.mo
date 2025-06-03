@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AD04_Flunisolide;
+model Flunisolide = Pharmacolibrary.Drugs.ATC.R.R01AD04;

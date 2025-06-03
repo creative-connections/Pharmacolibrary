@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12C_OtherMineralSupplements.A12CC30_MagnesiumDifferentSaltsInCombination;
+model MagnesiumDifferentSaltsInCombination = Pharmacolibrary.Drugs.ATC.A.A12CC30;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AH01_Sirolimus;
+model Sirolimus = Pharmacolibrary.Drugs.ATC.L.L04AH01;

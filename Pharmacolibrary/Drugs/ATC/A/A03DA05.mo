@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.A;
+
+model A03DA05
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.45,
+    Cl             = 0.3,
+    adminDuration  = 600,
+    adminMass      = 0.05,
+    adminCount     = 1,
+    Vd             = 0.14,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.004166666666666667,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Camylofin is an antispasmodic drug used primarily for the relief of smooth muscle spasms in the gastrointestinal tract. Commonly combined with analgesics, it is used to manage abdominal pain, including colic and dysmenorrhea. It is marketed in combination formulations in several countries and remains in use, though not universally approved worldwide.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic studies could be found for camylofin when combined with analgesics as per ATC A03DA05. Estimated pharmacokinetic parameters are provided based on typical antispasmodic profiles in healthy adults, oral administration.</p><h4>References</h4><ol><li> No published clinical pharmacokinetic data for camylofin (A03DA05, combination with analgesics) could be found. All pharmacokinetic parameters are estimates based on analogous drugs and pharmaceutical recommendations.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end A03DA05;

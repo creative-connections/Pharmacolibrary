@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11H_OtherPlainVitaminPreparations.A11HA02_PyridoxineVitB6;
+model PyridoxineVitB6 = Pharmacolibrary.Drugs.ATC.A.A11HA02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02A_Antacids.A02AB04_DihydroxialuminiSodiumCarbonate;
+model DihydroxialuminiSodiumCarbonate = Pharmacolibrary.Drugs.ATC.A.A02AB04;

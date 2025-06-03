@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03C_Estrogens.G03CC07_ConjugatedEstrogensAndBazedoxifene;
+model ConjugatedEstrogensAndBazedoxifene = Pharmacolibrary.Drugs.ATC.G.G03CC07;

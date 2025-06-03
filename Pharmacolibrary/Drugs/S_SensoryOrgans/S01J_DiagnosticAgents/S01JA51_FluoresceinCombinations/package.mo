@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01J_DiagnosticAgents;
+package S01JA51_FluoresceinCombinations
+  extends Icons.Package;
+end S01JA51_FluoresceinCombinations;

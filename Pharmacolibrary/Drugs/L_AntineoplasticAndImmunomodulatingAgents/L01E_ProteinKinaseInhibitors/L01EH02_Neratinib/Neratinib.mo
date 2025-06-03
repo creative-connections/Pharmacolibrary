@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EH02_Neratinib;
+model Neratinib = Pharmacolibrary.Drugs.ATC.L.L01EH02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07A_IntestinalAntiinfectives.A07AX02_Acetarsol;
+model Acetarsol = Pharmacolibrary.Drugs.ATC.A.A07AX02;

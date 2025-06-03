@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants;
+package R05DB20_DextromethorphanAndNoscapine
+  extends Icons.Package;
+end R05DB20_DextromethorphanAndNoscapine;

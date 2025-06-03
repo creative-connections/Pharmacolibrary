@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination.C02LA71_ReserpineAndDiureticsCombinationsWithPsycholeptics;
+model ReserpineAndDiureticsCombinationsWithPsycholeptics = Pharmacolibrary.Drugs.ATC.C.C02LA71;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts.A16AB24_Pegzilarginase;
+model Pegzilarginase = Pharmacolibrary.Drugs.ATC.A.A16AB24;

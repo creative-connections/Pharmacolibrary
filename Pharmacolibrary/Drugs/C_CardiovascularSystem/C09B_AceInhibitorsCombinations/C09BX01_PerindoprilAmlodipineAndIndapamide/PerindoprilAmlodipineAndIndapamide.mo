@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations.C09BX01_PerindoprilAmlodipineAndIndapamide;
+model PerindoprilAmlodipineAndIndapamide = Pharmacolibrary.Drugs.ATC.C.C09BX01;

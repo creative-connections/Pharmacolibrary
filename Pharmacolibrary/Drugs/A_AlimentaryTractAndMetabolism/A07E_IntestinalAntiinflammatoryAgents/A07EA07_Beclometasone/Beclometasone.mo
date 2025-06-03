@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07E_IntestinalAntiinflammatoryAgents.A07EA07_Beclometasone;
+model Beclometasone = Pharmacolibrary.Drugs.ATC.A.A07EA07;

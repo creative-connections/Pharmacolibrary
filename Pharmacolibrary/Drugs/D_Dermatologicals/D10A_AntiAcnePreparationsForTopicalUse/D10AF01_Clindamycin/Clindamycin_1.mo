@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse.D10AF01_Clindamycin;
+model Clindamycin_1 = Pharmacolibrary.Drugs.ATC.D.D10AF01_1;

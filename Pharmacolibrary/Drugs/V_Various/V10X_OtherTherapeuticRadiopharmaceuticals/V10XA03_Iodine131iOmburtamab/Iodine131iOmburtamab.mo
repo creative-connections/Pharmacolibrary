@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V10X_OtherTherapeuticRadiopharmaceuticals.V10XA03_Iodine131iOmburtamab;
+model Iodine131iOmburtamab = Pharmacolibrary.Drugs.ATC.V.V10XA03;

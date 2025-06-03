@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants.R05CA06_Senega;
+model Senega = Pharmacolibrary.Drugs.ATC.R.R05CA06;

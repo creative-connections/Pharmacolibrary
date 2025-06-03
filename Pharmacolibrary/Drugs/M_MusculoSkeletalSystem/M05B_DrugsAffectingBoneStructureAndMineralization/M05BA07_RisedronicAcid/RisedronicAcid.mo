@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization.M05BA07_RisedronicAcid;
+model RisedronicAcid = Pharmacolibrary.Drugs.ATC.M.M05BA07;

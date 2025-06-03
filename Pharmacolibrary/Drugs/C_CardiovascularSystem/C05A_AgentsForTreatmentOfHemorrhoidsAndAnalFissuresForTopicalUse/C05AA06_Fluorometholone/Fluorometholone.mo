@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse.C05AA06_Fluorometholone;
+model Fluorometholone = Pharmacolibrary.Drugs.ATC.C.C05AA06;

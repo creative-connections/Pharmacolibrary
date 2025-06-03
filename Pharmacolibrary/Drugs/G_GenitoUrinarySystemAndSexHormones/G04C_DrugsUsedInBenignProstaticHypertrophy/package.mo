@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones;
+package G04C_DrugsUsedInBenignProstaticHypertrophy
+  extends Icons.Package;
+end G04C_DrugsUsedInBenignProstaticHypertrophy;

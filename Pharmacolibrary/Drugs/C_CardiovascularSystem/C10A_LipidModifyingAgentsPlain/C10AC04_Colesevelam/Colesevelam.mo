@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10A_LipidModifyingAgentsPlain.C10AC04_Colesevelam;
+model Colesevelam = Pharmacolibrary.Drugs.ATC.C.C10AC04;

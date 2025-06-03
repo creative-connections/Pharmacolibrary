@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BN02_Covid19ViralVectorNonReplicating;
+model Covid19ViralVectorNonReplicating = Pharmacolibrary.Drugs.ATC.J.J07BN02;

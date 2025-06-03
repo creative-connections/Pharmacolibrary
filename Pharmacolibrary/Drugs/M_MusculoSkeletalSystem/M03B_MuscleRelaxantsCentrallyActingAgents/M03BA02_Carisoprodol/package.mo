@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents;
+package M03BA02_Carisoprodol
+  extends Icons.Package;
+end M03BA02_Carisoprodol;

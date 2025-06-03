@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AE05_Chloroxylenol;
+model Chloroxylenol = Pharmacolibrary.Drugs.ATC.D.D08AE05;

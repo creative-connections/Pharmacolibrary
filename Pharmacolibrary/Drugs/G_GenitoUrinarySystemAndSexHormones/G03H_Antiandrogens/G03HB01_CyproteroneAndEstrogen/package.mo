@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03H_Antiandrogens;
+package G03HB01_CyproteroneAndEstrogen
+  extends Icons.Package;
+end G03HB01_CyproteroneAndEstrogen;

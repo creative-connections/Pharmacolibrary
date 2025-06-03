@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.B;
+
+model B05CX10
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.0008333333333333334,
+    adminDuration  = 600,
+    adminMass      = 0.5,
+    adminCount     = 1,
+    Vd             = 0.004,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>This drug refers to combinations of plasma substitutes and plasma protein fractions used for volume replacement therapy, especially in situations of hypovolemia or shock, such as following trauma, surgery, or severe burns. Such combinations may include substances like albumin, gelatin, dextran, and other colloidal or crystalloid agents. These are generally used in hospital and critical care settings. Various combinations are available and are approved for use in certain regions.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters are not reported for the specific ATC B05CX10 drug combinations in published literature. Estimations below are based on typical parameters known from albumin and gelatin solution pharmacokinetics in healthy adults.</p><h4>References</h4><ol><li> No direct study was found specifically reporting pharmacokinetic parameters for 'combinations' under ATC B05CX10. The presented values are rough estimates inferred from representative plasma substitutes such as albumin and gelatin, as found in literature for healthy adults. No literature with DOIs specifically reports formal PK studies of drug combinations listed under B05CX10.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end B05CX10;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09C_AngiotensinIiReceptorBlockersArbsPlain.C09CA05_Tasosartan;
+model Tasosartan = Pharmacolibrary.Drugs.ATC.C.C09CA05;

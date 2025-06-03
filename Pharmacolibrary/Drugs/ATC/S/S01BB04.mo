@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.S;
+
+model S01BB04
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.05,
+    Cl             = 0.0011666666666666668,
+    adminDuration  = 600,
+    adminMass      = 0.00025,
+    adminCount     = 1,
+    Vd             = 0.0002,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>The combination of betamethasone (a corticosteroid) and mydriatics (agents that dilate the pupil) is used primarily for ocular inflammation and in preparation for eye examinations or eye surgery. Betamethasone reduces inflammation, whereas mydriatics such as phenylephrine or tropicamide dilate the pupil. Combination products are approved for ophthalmic use in some countries, but may not be widely available globally.</p><h4>Pharmacokinetics</h4><p>No specific published pharmacokinetic data available for the combination product in humans; estimated parameters based on known PK of ophthalmic betamethasone in healthy adults.</p><h4>References</h4><ol><li> No direct published PK studies available for the combination or for betamethasone in combination with mydriatics (S01BB04). Parameters estimated based on ophthalmic use and available PK values for betamethasone when administered to the eye. Most of the drug remains local with minimal systemic absorption. No specific DOI could be provided.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end S01BB04;

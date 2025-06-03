@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AC06_Methylcellulose;
+model Methylcellulose = Pharmacolibrary.Drugs.ATC.A.A06AC06;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02A_AntiadrenergicAgentsCentrallyActing.C02AC01_Clonidine;
+model Clonidine = Pharmacolibrary.Drugs.ATC.C.C02AC01;

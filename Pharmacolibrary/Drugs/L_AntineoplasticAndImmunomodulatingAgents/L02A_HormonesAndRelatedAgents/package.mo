@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents;
+package L02A_HormonesAndRelatedAgents
+  extends Icons.Package;
+end L02A_HormonesAndRelatedAgents;

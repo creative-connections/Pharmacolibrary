@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse.D10AX03_AzelaicAcid;
+model AzelaicAcid = Pharmacolibrary.Drugs.ATC.D.D10AX03;

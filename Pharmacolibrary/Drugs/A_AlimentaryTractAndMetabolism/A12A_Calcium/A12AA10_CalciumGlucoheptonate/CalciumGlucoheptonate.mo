@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12A_Calcium.A12AA10_CalciumGlucoheptonate;
+model CalciumGlucoheptonate = Pharmacolibrary.Drugs.ATC.A.A12AA10;

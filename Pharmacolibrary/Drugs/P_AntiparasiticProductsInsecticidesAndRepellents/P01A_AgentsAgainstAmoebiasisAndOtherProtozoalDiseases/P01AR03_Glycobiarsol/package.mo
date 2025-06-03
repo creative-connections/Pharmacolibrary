@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases;
+package P01AR03_Glycobiarsol
+  extends Icons.Package;
+end P01AR03_Glycobiarsol;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12C_OtherMineralSupplements.A12CE02_SodiumSelenite;
+model SodiumSelenite = Pharmacolibrary.Drugs.ATC.A.A12CE02;

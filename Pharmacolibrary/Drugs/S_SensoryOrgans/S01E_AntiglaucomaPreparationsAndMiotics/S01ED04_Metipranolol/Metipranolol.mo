@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01ED04_Metipranolol;
+model Metipranolol = Pharmacolibrary.Drugs.ATC.S.S01ED04;

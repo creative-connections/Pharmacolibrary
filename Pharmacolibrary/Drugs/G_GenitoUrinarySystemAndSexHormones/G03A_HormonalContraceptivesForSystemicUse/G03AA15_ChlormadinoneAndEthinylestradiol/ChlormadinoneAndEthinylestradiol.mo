@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AA15_ChlormadinoneAndEthinylestradiol;
+model ChlormadinoneAndEthinylestradiol = Pharmacolibrary.Drugs.ATC.G.G03AA15;

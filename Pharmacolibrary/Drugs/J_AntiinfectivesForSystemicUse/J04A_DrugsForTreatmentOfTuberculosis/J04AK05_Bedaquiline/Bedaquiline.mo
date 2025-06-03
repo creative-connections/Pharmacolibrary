@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis.J04AK05_Bedaquiline;
+model Bedaquiline = Pharmacolibrary.Drugs.ATC.J.J04AK05;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations.C09DA10_FimasartanAndDiuretics;
+model FimasartanAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C09DA10;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05F_CoughSuppressantsAndExpectorantsCombinations.R05FB02_BromhexineCoughSuppressantsAndExpectorants;
+model BromhexineCoughSuppressantsAndExpectorants = Pharmacolibrary.Drugs.ATC.R.R05FB02;

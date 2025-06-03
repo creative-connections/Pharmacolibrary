@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03D_AntispasmodicsInCombinationWithAnalgesics.A03DB04_ButylscopolamineAndAnalgesics;
+model ButylscopolamineAndAnalgesics = Pharmacolibrary.Drugs.ATC.A.A03DB04;

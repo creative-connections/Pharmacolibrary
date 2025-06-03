@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics;
+package S01EC54_BrinzolamideCombinations
+  extends Icons.Package;
+end S01EC54_BrinzolamideCombinations;

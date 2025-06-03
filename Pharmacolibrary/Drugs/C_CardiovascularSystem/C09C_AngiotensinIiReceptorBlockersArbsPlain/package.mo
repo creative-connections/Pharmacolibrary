@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem;
+package C09C_AngiotensinIiReceptorBlockersArbsPlain
+  extends Icons.Package;
+end C09C_AngiotensinIiReceptorBlockersArbsPlain;

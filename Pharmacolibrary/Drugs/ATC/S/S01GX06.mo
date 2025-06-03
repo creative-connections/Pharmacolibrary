@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.S;
+
+model S01GX06
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.4,
+    Cl             = 0.016666666666666666,
+    adminDuration  = 600,
+    adminMass      = 5e-05,
+    adminCount     = 1,
+    Vd             = 0.0016,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Emedastine is a selective second-generation antihistamine (H1 receptor antagonist) primarily used as ophthalmic drops to treat allergic conjunctivitis. It is approved for topical ocular use and is generally well tolerated, with minimal systemic absorption.</p><h4>Pharmacokinetics</h4><p>Estimate for adults using ophthalmic administration, based on product labeling and nonclinical data. No human compartmental pharmacokinetic models reported in published literature.</p><h4>References</h4><ol><li> No published compartmental PK studies with concrete values found for emedastine in humans. Parameters are estimated based on the emedastine ophthalmic product label, limited clinical pharmacology summaries, and FDA review documents. No formal published PK models found as of cutoff. Estimates may vary between sources.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end S01GX06;

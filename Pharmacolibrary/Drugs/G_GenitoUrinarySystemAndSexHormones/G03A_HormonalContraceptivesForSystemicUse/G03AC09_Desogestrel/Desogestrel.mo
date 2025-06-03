@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AC09_Desogestrel;
+model Desogestrel = Pharmacolibrary.Drugs.ATC.G.G03AC09;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BD13_MetforminAndAlogliptin;
+model MetforminAndAlogliptin = Pharmacolibrary.Drugs.ATC.A.A10BD13;

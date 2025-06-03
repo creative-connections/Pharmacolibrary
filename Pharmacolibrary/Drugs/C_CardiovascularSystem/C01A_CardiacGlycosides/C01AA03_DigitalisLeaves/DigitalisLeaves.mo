@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01A_CardiacGlycosides.C01AA03_DigitalisLeaves;
+model DigitalisLeaves = Pharmacolibrary.Drugs.ATC.C.C01AA03;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03B_BelladonnaAndDerivativesPlain;
+package A03BA03_Hyoscyamine
+  extends Icons.Package;
+end A03BA03_Hyoscyamine;

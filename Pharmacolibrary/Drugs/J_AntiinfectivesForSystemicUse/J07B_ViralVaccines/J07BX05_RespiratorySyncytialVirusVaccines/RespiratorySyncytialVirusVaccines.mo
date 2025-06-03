@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BX05_RespiratorySyncytialVirusVaccines;
+model RespiratorySyncytialVirusVaccines = Pharmacolibrary.Drugs.ATC.J.J07BX05;

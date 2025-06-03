@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BA10_Fenetylline;
+model Fenetylline = Pharmacolibrary.Drugs.ATC.N.N06BA10;

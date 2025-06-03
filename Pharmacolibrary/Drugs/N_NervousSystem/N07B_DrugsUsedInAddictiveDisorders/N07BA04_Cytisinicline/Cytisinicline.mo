@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N07B_DrugsUsedInAddictiveDisorders.N07BA04_Cytisinicline;
+model Cytisinicline = Pharmacolibrary.Drugs.ATC.N.N07BA04;

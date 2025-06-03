@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03A_LowCeilingDiureticsThiazides.C03AB07_CyclopenthiazideAndPotassium;
+model CyclopenthiazideAndPotassium = Pharmacolibrary.Drugs.ATC.C.C03AB07;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.C;
+
+model C07BB07
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.9,
+    Cl             = 0.25,
+    adminDuration  = 600,
+    adminMass      = 0.005,
+    adminCount     = 1,
+    Vd             = 0.0035,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.012966666666666666,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Bisoprolol and thiazides is a fixed-dose combination medication containing bisoprolol, a selective beta-1 adrenergic blocker, and a thiazide diuretic (such as hydrochlorothiazide). It is used primarily for the management of hypertension when combination therapy is appropriate. Both components act synergistically to lower blood pressure. This combination is approved and used in several countries for antihypertensive therapy.</p><h4>Pharmacokinetics</h4><p>No population or fixed-combination pharmacokinetic studies are available for bisoprolol and thiazides (ATC C07BB07). Estimated parameters are generated from the known pharmacokinetics of bisoprolol and hydrochlorothiazide in healthy adult populations. Values reflect a typical fixed-dose oral regimen.</p><h4>References</h4><ol><li> No direct pharmacokinetic studies available for the specific bisoprolol and thiazides (C07BB07) fixed-dose combination. Parameters are estimated based on individual component pharmacokinetics (bisoprolol and hydrochlorothiazide) from general population data. No DOI available.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end C07BB07;

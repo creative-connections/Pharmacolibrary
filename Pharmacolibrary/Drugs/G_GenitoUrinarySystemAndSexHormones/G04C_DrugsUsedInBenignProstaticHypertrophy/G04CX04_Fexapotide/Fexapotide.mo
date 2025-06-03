@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04C_DrugsUsedInBenignProstaticHypertrophy.G04CX04_Fexapotide;
+model Fexapotide = Pharmacolibrary.Drugs.ATC.G.G04CX04;

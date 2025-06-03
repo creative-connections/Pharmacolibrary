@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BF01_Acarbose;
+model Acarbose = Pharmacolibrary.Drugs.ATC.A.A10BF01;

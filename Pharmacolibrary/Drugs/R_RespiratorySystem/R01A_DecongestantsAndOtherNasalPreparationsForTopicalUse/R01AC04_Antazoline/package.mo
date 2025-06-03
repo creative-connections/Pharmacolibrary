@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse;
+package R01AC04_Antazoline
+  extends Icons.Package;
+end R01AC04_Antazoline;

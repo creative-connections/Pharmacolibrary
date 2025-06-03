@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives.B05XA10_MagnesiumPhosphate;
+model MagnesiumPhosphate = Pharmacolibrary.Drugs.ATC.B.B05XA10;

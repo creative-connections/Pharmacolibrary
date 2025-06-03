@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02A_HormonesAndRelatedAgents.L02AA01_Diethylstilbestrol;
+model Diethylstilbestrol = Pharmacolibrary.Drugs.ATC.L.L02AA01;

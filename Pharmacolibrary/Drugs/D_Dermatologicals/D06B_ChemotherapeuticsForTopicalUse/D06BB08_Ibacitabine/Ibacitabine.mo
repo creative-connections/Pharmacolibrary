@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D06B_ChemotherapeuticsForTopicalUse.D06BB08_Ibacitabine;
+model Ibacitabine = Pharmacolibrary.Drugs.ATC.D.D06BB08;

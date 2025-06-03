@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
+package A07F_AntidiarrhealMicroorganisms
+  extends Icons.Package;
+end A07F_AntidiarrhealMicroorganisms;

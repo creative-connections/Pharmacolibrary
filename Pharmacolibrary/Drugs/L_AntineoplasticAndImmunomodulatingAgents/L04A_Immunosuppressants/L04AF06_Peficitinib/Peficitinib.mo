@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AF06_Peficitinib;
+model Peficitinib = Pharmacolibrary.Drugs.ATC.L.L04AF06;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N05C_HypnoticsAndSedatives.N05CC03_AcetylglycinamideChloralHydrate;
+model AcetylglycinamideChloralHydrate = Pharmacolibrary.Drugs.ATC.N.N05CC03;

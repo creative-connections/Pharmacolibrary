@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01B_AntiinflammatoryAntirheumaticAgentsInCombination.M01BA02_DipyrocetylAndCorticosteroids;
+model DipyrocetylAndCorticosteroids = Pharmacolibrary.Drugs.ATC.M.M01BA02;

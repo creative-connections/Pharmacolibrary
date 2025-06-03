@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AF01_Zidovudine;
+model Zidovudine = Pharmacolibrary.Drugs.ATC.J.J05AF01;

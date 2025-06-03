@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A14A_AnabolicSteroids.A14AA03_Metandienone;
+model Metandienone = Pharmacolibrary.Drugs.ATC.A.A14AA03;

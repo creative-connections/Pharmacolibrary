@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N01B_AnestheticsLocal.N01BB58_ArticaineCombinations;
+model ArticaineCombinations = Pharmacolibrary.Drugs.ATC.N.N01BB58;

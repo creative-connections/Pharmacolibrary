@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03B_AntithyroidPreparations.H03BX01_Diiodotyrosine;
+model Diiodotyrosine = Pharmacolibrary.Drugs.ATC.H.H03BX01;

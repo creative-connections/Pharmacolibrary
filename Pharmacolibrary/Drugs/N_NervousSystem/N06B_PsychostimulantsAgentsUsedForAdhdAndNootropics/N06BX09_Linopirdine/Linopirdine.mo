@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BX09_Linopirdine;
+model Linopirdine = Pharmacolibrary.Drugs.ATC.N.N06BX09;

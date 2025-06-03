@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis;
+package J04AB30_Capreomycin
+  extends Icons.Package;
+end J04AB30_Capreomycin;

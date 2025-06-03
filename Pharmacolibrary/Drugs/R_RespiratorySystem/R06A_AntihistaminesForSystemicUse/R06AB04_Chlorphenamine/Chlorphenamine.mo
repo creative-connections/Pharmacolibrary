@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AB04_Chlorphenamine;
+model Chlorphenamine = Pharmacolibrary.Drugs.ATC.R.R06AB04;

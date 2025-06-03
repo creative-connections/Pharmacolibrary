@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XH03_Panobinostat;
+model Panobinostat = Pharmacolibrary.Drugs.ATC.L.L01XH03;

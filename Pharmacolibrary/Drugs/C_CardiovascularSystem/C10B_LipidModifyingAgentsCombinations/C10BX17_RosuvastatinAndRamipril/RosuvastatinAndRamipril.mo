@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations.C10BX17_RosuvastatinAndRamipril;
+model RosuvastatinAndRamipril = Pharmacolibrary.Drugs.ATC.C.C10BX17;

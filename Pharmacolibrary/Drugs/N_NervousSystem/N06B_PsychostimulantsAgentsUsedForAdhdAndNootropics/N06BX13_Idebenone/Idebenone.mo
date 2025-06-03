@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BX13_Idebenone;
+model Idebenone = Pharmacolibrary.Drugs.ATC.N.N06BX13;

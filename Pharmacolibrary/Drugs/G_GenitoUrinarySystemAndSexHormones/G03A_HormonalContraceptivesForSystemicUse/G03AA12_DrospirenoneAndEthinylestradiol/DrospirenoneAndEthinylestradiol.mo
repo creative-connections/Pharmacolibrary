@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AA12_DrospirenoneAndEthinylestradiol;
+model DrospirenoneAndEthinylestradiol = Pharmacolibrary.Drugs.ATC.G.G03AA12;

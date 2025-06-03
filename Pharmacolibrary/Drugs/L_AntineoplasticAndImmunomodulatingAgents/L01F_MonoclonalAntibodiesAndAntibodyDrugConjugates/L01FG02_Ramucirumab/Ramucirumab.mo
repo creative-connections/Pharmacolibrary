@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FG02_Ramucirumab;
+model Ramucirumab = Pharmacolibrary.Drugs.ATC.L.L01FG02;

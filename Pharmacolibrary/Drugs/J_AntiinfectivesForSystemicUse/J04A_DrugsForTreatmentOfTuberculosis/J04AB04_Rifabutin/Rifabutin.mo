@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis.J04AB04_Rifabutin;
+model Rifabutin = Pharmacolibrary.Drugs.ATC.J.J04AB04;

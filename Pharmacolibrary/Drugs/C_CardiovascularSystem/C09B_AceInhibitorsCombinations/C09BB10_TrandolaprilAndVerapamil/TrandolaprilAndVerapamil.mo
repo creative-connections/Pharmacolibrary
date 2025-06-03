@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations.C09BB10_TrandolaprilAndVerapamil;
+model TrandolaprilAndVerapamil = Pharmacolibrary.Drugs.ATC.C.C09BB10;

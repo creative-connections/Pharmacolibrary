@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10A_LipidModifyingAgentsPlain;
+package C10AD52_NicotinicAcidCombinations
+  extends Icons.Package;
+end C10AD52_NicotinicAcidCombinations;

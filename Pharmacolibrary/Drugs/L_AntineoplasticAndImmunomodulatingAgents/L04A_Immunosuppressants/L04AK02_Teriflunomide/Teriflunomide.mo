@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AK02_Teriflunomide;
+model Teriflunomide = Pharmacolibrary.Drugs.ATC.L.L04AK02;

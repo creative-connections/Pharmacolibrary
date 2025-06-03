@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives.B05XA03_SodiumChloride;
+model SodiumChloride = Pharmacolibrary.Drugs.ATC.B.B05XA03;

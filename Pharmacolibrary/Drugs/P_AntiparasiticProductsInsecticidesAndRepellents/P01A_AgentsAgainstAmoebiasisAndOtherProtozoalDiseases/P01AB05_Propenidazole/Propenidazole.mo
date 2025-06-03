@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AB05_Propenidazole;
+model Propenidazole = Pharmacolibrary.Drugs.ATC.P.P01AB05;

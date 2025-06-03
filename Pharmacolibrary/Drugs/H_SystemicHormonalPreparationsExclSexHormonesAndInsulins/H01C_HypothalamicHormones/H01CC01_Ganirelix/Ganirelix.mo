@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01C_HypothalamicHormones.H01CC01_Ganirelix;
+model Ganirelix = Pharmacolibrary.Drugs.ATC.H.H01CC01;

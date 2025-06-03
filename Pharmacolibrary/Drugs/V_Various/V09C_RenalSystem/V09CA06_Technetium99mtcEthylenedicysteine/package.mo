@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V09C_RenalSystem;
+package V09CA06_Technetium99mtcEthylenedicysteine
+  extends Icons.Package;
+end V09CA06_Technetium99mtcEthylenedicysteine;

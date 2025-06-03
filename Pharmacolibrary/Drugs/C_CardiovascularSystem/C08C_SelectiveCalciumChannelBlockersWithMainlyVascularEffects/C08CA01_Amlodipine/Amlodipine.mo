@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08C_SelectiveCalciumChannelBlockersWithMainlyVascularEffects.C08CA01_Amlodipine;
+model Amlodipine = Pharmacolibrary.Drugs.ATC.C.C08CA01;

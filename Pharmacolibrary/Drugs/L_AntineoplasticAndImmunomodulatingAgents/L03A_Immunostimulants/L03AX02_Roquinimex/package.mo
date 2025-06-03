@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants;
+package L03AX02_Roquinimex
+  extends Icons.Package;
+end L03AX02_Roquinimex;

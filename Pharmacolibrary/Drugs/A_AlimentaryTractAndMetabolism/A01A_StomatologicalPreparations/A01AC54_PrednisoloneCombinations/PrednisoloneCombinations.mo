@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations.A01AC54_PrednisoloneCombinations;
+model PrednisoloneCombinations = Pharmacolibrary.Drugs.ATC.A.A01AC54;

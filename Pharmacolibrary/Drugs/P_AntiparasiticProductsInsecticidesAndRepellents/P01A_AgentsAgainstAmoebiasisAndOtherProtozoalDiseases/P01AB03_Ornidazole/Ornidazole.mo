@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AB03_Ornidazole;
+model Ornidazole = Pharmacolibrary.Drugs.ATC.P.P01AB03;

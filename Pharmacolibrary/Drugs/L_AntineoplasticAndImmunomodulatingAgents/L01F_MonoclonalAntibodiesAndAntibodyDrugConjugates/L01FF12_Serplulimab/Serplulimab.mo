@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FF12_Serplulimab;
+model Serplulimab = Pharmacolibrary.Drugs.ATC.L.L01FF12;

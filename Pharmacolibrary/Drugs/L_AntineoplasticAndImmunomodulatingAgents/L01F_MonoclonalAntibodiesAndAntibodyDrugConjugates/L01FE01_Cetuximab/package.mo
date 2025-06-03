@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates;
+package L01FE01_Cetuximab
+  extends Icons.Package;
+end L01FE01_Cetuximab;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03B_InsecticidesAndRepellents;
+package P03BX03_Dibutylphthalate
+  extends Icons.Package;
+end P03BX03_Dibutylphthalate;

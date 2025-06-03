@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02C_AntinematodalAgents.P02CA05_Flubendazole;
+model Flubendazole = Pharmacolibrary.Drugs.ATC.P.P02CA05;

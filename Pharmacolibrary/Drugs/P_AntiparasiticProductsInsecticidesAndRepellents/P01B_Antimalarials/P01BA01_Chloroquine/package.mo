@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials;
+package P01BA01_Chloroquine
+  extends Icons.Package;
+end P01BA01_Chloroquine;

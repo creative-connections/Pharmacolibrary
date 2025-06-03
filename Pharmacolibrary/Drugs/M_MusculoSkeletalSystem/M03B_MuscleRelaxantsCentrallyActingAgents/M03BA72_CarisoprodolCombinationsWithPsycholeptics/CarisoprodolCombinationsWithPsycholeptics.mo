@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents.M03BA72_CarisoprodolCombinationsWithPsycholeptics;
+model CarisoprodolCombinationsWithPsycholeptics = Pharmacolibrary.Drugs.ATC.M.M03BA72;

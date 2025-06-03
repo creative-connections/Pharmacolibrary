@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04B_Urologicals.G04BX15_PentosanPolysulfateSodium;
+model PentosanPolysulfateSodium = Pharmacolibrary.Drugs.ATC.G.G04BX15;

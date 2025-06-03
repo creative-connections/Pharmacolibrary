@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02C_OtherGynecologicals.G02CX03_AgniCastiFructus;
+model AgniCastiFructus = Pharmacolibrary.Drugs.ATC.G.G02CX03;

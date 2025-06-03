@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J06B_Immunoglobulins.J06BD07_CasirivimabAndImdevimab;
+model CasirivimabAndImdevimab = Pharmacolibrary.Drugs.ATC.J.J06BD07;

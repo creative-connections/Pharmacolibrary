@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XH04_Belinostat;
+model Belinostat = Pharmacolibrary.Drugs.ATC.L.L01XH04;

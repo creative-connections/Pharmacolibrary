@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AX25_HydrogenPeroxide;
+model HydrogenPeroxide = Pharmacolibrary.Drugs.ATC.D.D11AX25;

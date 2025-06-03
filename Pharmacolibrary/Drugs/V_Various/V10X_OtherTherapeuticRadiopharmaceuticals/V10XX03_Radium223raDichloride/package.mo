@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V10X_OtherTherapeuticRadiopharmaceuticals;
+package V10XX03_Radium223raDichloride
+  extends Icons.Package;
+end V10XX03_Radium223raDichloride;

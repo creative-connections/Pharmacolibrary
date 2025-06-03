@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S03C_CorticosteroidsAndAntiinfectivesInCombination.S03CA07_MethylprednisoloneAndAntiinfectives;
+model MethylprednisoloneAndAntiinfectives = Pharmacolibrary.Drugs.ATC.S.S03CA07;

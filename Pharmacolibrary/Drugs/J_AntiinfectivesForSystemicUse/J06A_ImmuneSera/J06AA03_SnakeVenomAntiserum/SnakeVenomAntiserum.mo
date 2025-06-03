@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J06A_ImmuneSera.J06AA03_SnakeVenomAntiserum;
+model SnakeVenomAntiserum = Pharmacolibrary.Drugs.ATC.J.J06AA03;

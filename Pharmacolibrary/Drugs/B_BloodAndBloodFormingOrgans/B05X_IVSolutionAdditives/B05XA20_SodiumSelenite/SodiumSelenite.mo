@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives.B05XA20_SodiumSelenite;
+model SodiumSelenite = Pharmacolibrary.Drugs.ATC.B.B05XA20;

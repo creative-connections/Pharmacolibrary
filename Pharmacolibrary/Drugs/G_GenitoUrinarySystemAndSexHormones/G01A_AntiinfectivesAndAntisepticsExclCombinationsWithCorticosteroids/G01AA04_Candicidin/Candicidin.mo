@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AA04_Candicidin;
+model Candicidin = Pharmacolibrary.Drugs.ATC.G.G01AA04;

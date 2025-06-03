@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations.A01AA30_Combinations;
+model Combinations = Pharmacolibrary.Drugs.ATC.A.A01AA30;

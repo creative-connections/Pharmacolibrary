@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03E_DiureticsAndPotassiumSparingAgentsInCombination;
+package C03EB01_FurosemideAndPotassiumSparingAgents
+  extends Icons.Package;
+end C03EB01_FurosemideAndPotassiumSparingAgents;

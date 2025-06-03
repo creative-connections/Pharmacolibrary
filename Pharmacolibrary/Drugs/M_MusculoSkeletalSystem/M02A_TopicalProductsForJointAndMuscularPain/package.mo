@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem;
+package M02A_TopicalProductsForJointAndMuscularPain
+  extends Icons.Package;
+end M02A_TopicalProductsForJointAndMuscularPain;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EN04_Futibatinib;
+model Futibatinib = Pharmacolibrary.Drugs.ATC.L.L01EN04;

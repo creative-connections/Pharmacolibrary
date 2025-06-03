@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents.M03BC01_OrphenadrineCitrate;
+model OrphenadrineCitrate = Pharmacolibrary.Drugs.ATC.M.M03BC01;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.C;
+
+model C09BX04
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.65,
+    Cl             = 0.21666666666666667,
+    adminDuration  = 600,
+    adminMass      = 0.01,
+    adminCount     = 1,
+    Vd             = 0.075,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.013333333333333334,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>This fixed-dose combination contains perindopril (an ACE inhibitor), bisoprolol (a selective beta1-blocker), and amlodipine (a calcium channel blocker). The combination is used for the management of hypertension and prevention of cardiovascular events, especially in patients who may benefit from multi-mechanism antihypertensive therapy. It is currently used and approved in various regions.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters estimated based on published data of the individual components in healthy adults; no direct publication for the fixed-dose triple combination found.</p><h4>References</h4><ol><li> No direct pharmacokinetic study on the fixed-dose combination (perindopril, bisoprolol and amlodipine) with ATC code C09BX04 found. Parameters reported are estimated from known PK of each individual drug in healthy adults administered orally. Values represent typical adult exposure and may differ in fixed dose or specific populations.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end C09BX04;

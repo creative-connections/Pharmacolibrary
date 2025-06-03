@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01EB05_Sulfafurazole;
+model Sulfafurazole = Pharmacolibrary.Drugs.ATC.J.J01EB05;

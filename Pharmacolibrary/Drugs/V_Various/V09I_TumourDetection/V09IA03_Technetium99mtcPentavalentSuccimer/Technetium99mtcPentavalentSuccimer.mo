@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection.V09IA03_Technetium99mtcPentavalentSuccimer;
+model Technetium99mtcPentavalentSuccimer = Pharmacolibrary.Drugs.ATC.V.V09IA03;

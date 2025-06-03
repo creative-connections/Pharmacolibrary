@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BA14_Solriamfetol;
+model Solriamfetol = Pharmacolibrary.Drugs.ATC.N.N06BA14;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts.A16AX07_Sapropterin;
+model Sapropterin = Pharmacolibrary.Drugs.ATC.A.A16AX07;

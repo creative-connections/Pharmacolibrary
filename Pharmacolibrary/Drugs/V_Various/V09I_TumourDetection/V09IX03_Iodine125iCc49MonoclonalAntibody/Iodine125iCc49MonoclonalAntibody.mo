@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection.V09IX03_Iodine125iCc49MonoclonalAntibody;
+model Iodine125iCc49MonoclonalAntibody = Pharmacolibrary.Drugs.ATC.V.V09IX03;

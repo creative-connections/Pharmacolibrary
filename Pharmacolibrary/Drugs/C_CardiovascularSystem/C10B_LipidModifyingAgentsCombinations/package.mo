@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem;
+package C10B_LipidModifyingAgentsCombinations
+  extends Icons.Package;
+end C10B_LipidModifyingAgentsCombinations;

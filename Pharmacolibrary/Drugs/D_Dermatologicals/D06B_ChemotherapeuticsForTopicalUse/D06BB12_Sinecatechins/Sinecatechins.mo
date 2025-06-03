@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D06B_ChemotherapeuticsForTopicalUse.D06BB12_Sinecatechins;
+model Sinecatechins = Pharmacolibrary.Drugs.ATC.D.D06BB12;

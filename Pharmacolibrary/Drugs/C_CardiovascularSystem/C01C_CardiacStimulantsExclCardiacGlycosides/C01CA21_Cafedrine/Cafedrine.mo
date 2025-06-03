@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides.C01CA21_Cafedrine;
+model Cafedrine = Pharmacolibrary.Drugs.ATC.C.C01CA21;

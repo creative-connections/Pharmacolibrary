@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AC08_Olopatadine;
+model Olopatadine_1 = Pharmacolibrary.Drugs.ATC.R.R01AC08_1;

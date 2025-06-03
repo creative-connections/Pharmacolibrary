@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AB51_MetronidazoleAndFurazolidone;
+model MetronidazoleAndFurazolidone = Pharmacolibrary.Drugs.ATC.P.P01AB51;

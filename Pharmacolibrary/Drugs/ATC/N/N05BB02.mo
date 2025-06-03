@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.N;
+
+model N05BB02
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.4,
+    Cl             = 15.833333333333334,
+    adminDuration  = 600,
+    adminMass      = 0.04,
+    adminCount     = 1,
+    Vd             = 0.012,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0005,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Captodiame is a sedative and anxiolytic medication that was developed and used primarily in Japan. It is a member of the diphenylmethane antihistamine class and has been used for the treatment of anxiety and depression. Captodiame acts as an antagonist at histamine, serotonin, and dopamine receptors. The drug is not widely approved or used today outside of limited regions.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic studies were found for captodiame in humans. The pharmacokinetic parameters below are estimated based on typical values for similar first-generation antihistamines and antipsychotics in healthy adults.</p><h4>References</h4><ol><li> No direct pharmacokinetic studies or published PK parameters found for captodiame. All parameters estimated based on properties of structurally and pharmacologically similar antihistamines/antipsychotics and standard PK assumptions in healthy adults. Literature and regulatory sources do not provide empirical PK data for captodiame.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end N05BB02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts.A16AB27_PabinafuspAlfa;
+model PabinafuspAlfa = Pharmacolibrary.Drugs.ATC.A.A16AB27;

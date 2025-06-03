@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03C_AntispasmodicsInCombinationWithPsycholeptics.A03CB03_AtropineAndPsycholeptics;
+model AtropineAndPsycholeptics = Pharmacolibrary.Drugs.ATC.A.A03CB03;

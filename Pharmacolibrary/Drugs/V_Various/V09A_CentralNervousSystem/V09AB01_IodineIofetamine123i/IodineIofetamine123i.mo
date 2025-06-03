@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09A_CentralNervousSystem.V09AB01_IodineIofetamine123i;
+model IodineIofetamine123i = Pharmacolibrary.Drugs.ATC.V.V09AB01;

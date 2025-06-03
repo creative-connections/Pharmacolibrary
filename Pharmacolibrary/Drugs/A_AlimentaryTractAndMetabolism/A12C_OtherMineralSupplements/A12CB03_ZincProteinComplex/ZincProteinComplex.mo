@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12C_OtherMineralSupplements.A12CB03_ZincProteinComplex;
+model ZincProteinComplex = Pharmacolibrary.Drugs.ATC.A.A12CB03;

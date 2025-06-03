@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03X_OtherSexHormonesAndModulatorsOfTheGenitalSystem.G03XC02_Bazedoxifene;
+model Bazedoxifene = Pharmacolibrary.Drugs.ATC.G.G03XC02;

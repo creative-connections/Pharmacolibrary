@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01EE06_SulfadiazineAndTetroxoprim;
+model SulfadiazineAndTetroxoprim = Pharmacolibrary.Drugs.ATC.J.J01EE06;

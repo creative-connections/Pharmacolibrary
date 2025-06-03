@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03C_Estrogens.G03CA06_Chlorotrianisene;
+model Chlorotrianisene = Pharmacolibrary.Drugs.ATC.G.G03CA06;

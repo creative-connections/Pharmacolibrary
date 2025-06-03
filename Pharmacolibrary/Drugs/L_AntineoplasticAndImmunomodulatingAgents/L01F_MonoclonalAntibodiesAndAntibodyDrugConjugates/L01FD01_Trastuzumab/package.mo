@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates;
+package L01FD01_Trastuzumab
+  extends Icons.Package;
+end L01FD01_Trastuzumab;

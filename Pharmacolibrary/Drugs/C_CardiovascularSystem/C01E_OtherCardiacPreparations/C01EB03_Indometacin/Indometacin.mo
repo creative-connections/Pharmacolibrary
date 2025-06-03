@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01E_OtherCardiacPreparations.C01EB03_Indometacin;
+model Indometacin = Pharmacolibrary.Drugs.ATC.C.C01EB03;

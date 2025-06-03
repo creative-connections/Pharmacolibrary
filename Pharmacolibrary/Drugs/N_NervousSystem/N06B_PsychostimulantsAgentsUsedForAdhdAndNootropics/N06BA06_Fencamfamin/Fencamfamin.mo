@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BA06_Fencamfamin;
+model Fencamfamin = Pharmacolibrary.Drugs.ATC.N.N06BA06;

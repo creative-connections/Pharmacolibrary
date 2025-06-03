@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization.M05BB05_AlendronicAcidCalciumAndColecalciferolSequential;
+model AlendronicAcidCalciumAndColecalciferolSequential = Pharmacolibrary.Drugs.ATC.M.M05BB05;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations.C10BA09_RosuvastatinAndFenofibrate;
+model RosuvastatinAndFenofibrate = Pharmacolibrary.Drugs.ATC.C.C10BA09;

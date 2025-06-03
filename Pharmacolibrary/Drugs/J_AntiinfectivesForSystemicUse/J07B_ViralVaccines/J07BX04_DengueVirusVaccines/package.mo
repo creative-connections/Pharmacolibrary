@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines;
+package J07BX04_DengueVirusVaccines
+  extends Icons.Package;
+end J07BX04_DengueVirusVaccines;

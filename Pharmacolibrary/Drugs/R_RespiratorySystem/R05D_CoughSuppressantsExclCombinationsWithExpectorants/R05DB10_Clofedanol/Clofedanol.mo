@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants.R05DB10_Clofedanol;
+model Clofedanol = Pharmacolibrary.Drugs.ATC.R.R05DB10;

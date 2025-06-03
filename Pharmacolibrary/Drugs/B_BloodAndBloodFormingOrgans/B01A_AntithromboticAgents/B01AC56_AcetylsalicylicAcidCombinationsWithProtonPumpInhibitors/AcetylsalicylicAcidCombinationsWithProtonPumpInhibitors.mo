@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AC56_AcetylsalicylicAcidCombinationsWithProtonPumpInhibitors;
+model AcetylsalicylicAcidCombinationsWithProtonPumpInhibitors = Pharmacolibrary.Drugs.ATC.B.B01AC56;

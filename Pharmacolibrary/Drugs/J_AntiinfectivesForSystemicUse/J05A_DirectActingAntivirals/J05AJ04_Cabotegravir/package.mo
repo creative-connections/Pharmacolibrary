@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
+package J05AJ04_Cabotegravir
+  extends Icons.Package;
+end J05AJ04_Cabotegravir;

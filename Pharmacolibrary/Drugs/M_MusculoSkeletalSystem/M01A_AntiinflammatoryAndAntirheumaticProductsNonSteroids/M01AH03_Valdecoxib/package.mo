@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids;
+package M01AH03_Valdecoxib
+  extends Icons.Package;
+end M01AH03_Valdecoxib;

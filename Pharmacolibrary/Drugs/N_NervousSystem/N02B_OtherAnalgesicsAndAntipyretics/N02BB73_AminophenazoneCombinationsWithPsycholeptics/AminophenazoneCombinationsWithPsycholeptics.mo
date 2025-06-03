@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics.N02BB73_AminophenazoneCombinationsWithPsycholeptics;
+model AminophenazoneCombinationsWithPsycholeptics = Pharmacolibrary.Drugs.ATC.N.N02BB73;

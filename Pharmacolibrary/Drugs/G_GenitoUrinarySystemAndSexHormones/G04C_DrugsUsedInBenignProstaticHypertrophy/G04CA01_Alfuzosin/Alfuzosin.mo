@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04C_DrugsUsedInBenignProstaticHypertrophy.G04CA01_Alfuzosin;
+model Alfuzosin = Pharmacolibrary.Drugs.ATC.G.G04CA01;

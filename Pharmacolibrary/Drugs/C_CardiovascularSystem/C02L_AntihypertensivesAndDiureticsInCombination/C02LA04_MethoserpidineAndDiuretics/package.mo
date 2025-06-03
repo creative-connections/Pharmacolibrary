@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination;
+package C02LA04_MethoserpidineAndDiuretics
+  extends Icons.Package;
+end C02LA04_MethoserpidineAndDiuretics;

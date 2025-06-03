@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03D_AldosteroneAntagonistsAndOtherPotassiumSparingAgents.C03DB02_Triamterene;
+model Triamterene = Pharmacolibrary.Drugs.ATC.C.C03DB02;

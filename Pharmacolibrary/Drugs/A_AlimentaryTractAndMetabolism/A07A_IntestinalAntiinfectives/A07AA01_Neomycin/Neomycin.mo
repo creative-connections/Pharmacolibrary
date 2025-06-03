@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07A_IntestinalAntiinfectives.A07AA01_Neomycin;
+model Neomycin = Pharmacolibrary.Drugs.ATC.A.A07AA01;

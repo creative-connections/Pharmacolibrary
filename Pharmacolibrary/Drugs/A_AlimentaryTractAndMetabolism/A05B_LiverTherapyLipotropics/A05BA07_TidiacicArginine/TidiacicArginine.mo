@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A05B_LiverTherapyLipotropics.A05BA07_TidiacicArginine;
+model TidiacicArginine = Pharmacolibrary.Drugs.ATC.A.A05BA07;

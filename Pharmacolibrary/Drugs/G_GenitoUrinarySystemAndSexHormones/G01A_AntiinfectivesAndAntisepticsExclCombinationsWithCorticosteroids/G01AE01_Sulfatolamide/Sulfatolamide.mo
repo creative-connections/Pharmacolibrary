@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AE01_Sulfatolamide;
+model Sulfatolamide = Pharmacolibrary.Drugs.ATC.G.G01AE01;

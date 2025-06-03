@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03A_EctoparasiticidesInclScabicides;
+package P03AA04_Disulfiram
+  extends Icons.Package;
+end P03AA04_Disulfiram;

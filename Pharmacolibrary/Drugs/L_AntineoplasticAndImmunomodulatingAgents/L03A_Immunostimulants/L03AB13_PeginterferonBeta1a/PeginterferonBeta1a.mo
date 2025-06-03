@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AB13_PeginterferonBeta1a;
+model PeginterferonBeta1a = Pharmacolibrary.Drugs.ATC.L.L03AB13;

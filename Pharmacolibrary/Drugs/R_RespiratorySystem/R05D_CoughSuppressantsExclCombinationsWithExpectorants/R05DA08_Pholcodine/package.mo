@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants;
+package R05DA08_Pholcodine
+  extends Icons.Package;
+end R05DA08_Pholcodine;

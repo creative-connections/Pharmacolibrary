@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts.L01CA04_Vinorelbine;
+model Vinorelbine = Pharmacolibrary.Drugs.ATC.L.L01CA04;

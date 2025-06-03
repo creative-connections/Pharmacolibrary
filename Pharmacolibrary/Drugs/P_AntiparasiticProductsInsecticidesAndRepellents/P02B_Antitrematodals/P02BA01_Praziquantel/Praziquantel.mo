@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02B_Antitrematodals.P02BA01_Praziquantel;
+model Praziquantel = Pharmacolibrary.Drugs.ATC.P.P02BA01;

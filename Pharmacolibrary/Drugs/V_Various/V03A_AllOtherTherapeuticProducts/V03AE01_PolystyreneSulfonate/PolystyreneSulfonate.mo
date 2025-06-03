@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts.V03AE01_PolystyreneSulfonate;
+model PolystyreneSulfonate = Pharmacolibrary.Drugs.ATC.V.V03AE01;

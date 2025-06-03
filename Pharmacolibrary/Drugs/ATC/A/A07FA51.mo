@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.A;
+
+model A07FA51
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0,
+    Cl             = 0.0,
+    adminDuration  = 600,
+    adminMass      = 1000000.0,
+    adminCount     = 1,
+    Vd             = 0,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Lactic acid producing organisms, combinations (ATC code A07FA51), commonly known as probiotic formulations, are mixtures of live beneficial bacteria, such as Lactobacillus and Bifidobacterium species, used primarily for restoring or maintaining the normal gut microflora. They are employed to manage conditions like antibiotic-associated diarrhea, infectious diarrhea, irritable bowel syndrome, and some forms of colitis. They are considered safe and are widely approved and utilized globally as over-the-counter supplements or adjuncts to therapy.</p><h4>Pharmacokinetics</h4><p>No specific pharmacokinetic parameters such as absorption, distribution, metabolism, or elimination are typically reported for probiotic organisms in healthy adult populations, as these are live bacterial preparations and not classical chemical drugs; their transit through the GI tract, colonization, and survival are generally characterized instead of standard PK parameters.</p><h4>References</h4><ol><li> Pharmacokinetic parameters such as absorption rate, clearance, and volume of distribution do not apply to probiotics as they are live microorganisms intended to exert their effect in the gut without systemic absorption. No published literature reports conventional PK measures for this drug category. Estimation of standard PK parameters was not possible; dosing is indicated in colony-forming units (CFUs) as per clinical practice and product information.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end A07FA51;

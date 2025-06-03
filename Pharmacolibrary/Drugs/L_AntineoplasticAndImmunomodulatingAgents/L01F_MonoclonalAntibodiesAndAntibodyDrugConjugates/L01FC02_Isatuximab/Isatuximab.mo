@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FC02_Isatuximab;
+model Isatuximab = Pharmacolibrary.Drugs.ATC.L.L01FC02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases.R03DB01_DiprophyllineAndAdrenergics;
+model DiprophyllineAndAdrenergics = Pharmacolibrary.Drugs.ATC.R.R03DB01;

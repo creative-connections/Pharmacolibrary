@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins;
+package H05B_AntiParathyroidAgents
+  extends Icons.Package;
+end H05B_AntiParathyroidAgents;

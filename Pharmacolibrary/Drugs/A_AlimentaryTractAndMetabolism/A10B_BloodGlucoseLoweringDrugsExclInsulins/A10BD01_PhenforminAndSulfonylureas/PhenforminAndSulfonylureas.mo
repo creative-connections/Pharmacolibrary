@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BD01_PhenforminAndSulfonylureas;
+model PhenforminAndSulfonylureas = Pharmacolibrary.Drugs.ATC.A.A10BD01;

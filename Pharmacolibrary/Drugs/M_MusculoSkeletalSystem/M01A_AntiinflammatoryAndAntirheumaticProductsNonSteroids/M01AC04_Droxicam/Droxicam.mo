@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AC04_Droxicam;
+model Droxicam = Pharmacolibrary.Drugs.ATC.M.M01AC04;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10A_InsulinsAndAnalogues.A10AE07_InsulinIcodec;
+model InsulinIcodec = Pharmacolibrary.Drugs.ATC.A.A10AE07;

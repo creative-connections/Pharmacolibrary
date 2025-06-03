@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AX05_MagnesiumSulfate;
+model MagnesiumSulfate = Pharmacolibrary.Drugs.ATC.D.D11AX05;

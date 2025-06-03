@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AX06_Mupirocin;
+model Mupirocin = Pharmacolibrary.Drugs.ATC.R.R01AX06;

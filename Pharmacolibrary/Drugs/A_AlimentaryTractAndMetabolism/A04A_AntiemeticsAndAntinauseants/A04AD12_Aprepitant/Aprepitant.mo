@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A04A_AntiemeticsAndAntinauseants.A04AD12_Aprepitant;
+model Aprepitant = Pharmacolibrary.Drugs.ATC.A.A04AD12;

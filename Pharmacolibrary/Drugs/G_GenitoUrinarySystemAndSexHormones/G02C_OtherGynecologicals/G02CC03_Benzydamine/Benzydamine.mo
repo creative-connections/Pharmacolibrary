@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02C_OtherGynecologicals.G02CC03_Benzydamine;
+model Benzydamine = Pharmacolibrary.Drugs.ATC.G.G02CC03;

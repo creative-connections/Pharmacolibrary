@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BC30_FactorIxIiViiAndXCombinations;
+model FactorIxIiViiAndXCombinations = Pharmacolibrary.Drugs.ATC.B.B02BC30;

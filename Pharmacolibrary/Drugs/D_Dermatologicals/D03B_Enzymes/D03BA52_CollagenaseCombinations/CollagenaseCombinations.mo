@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D03B_Enzymes.D03BA52_CollagenaseCombinations;
+model CollagenaseCombinations = Pharmacolibrary.Drugs.ATC.D.D03BA52;

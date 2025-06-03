@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides;
+package C01CA14_Dopexamine
+  extends Icons.Package;
+end C01CA14_Dopexamine;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants.R05CA09_Guaiacolsulfonate;
+model Guaiacolsulfonate = Pharmacolibrary.Drugs.ATC.R.R05CA09;

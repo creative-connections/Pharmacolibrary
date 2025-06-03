@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts.L01CC01_Demecolcine;
+model Demecolcine = Pharmacolibrary.Drugs.ATC.L.L01CC01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases.R03DC04_Ibudilast;
+model Ibudilast = Pharmacolibrary.Drugs.ATC.R.R03DC04;

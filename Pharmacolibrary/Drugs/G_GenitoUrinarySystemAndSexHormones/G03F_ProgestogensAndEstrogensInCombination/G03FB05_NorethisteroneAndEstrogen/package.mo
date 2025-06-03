@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03F_ProgestogensAndEstrogensInCombination;
+package G03FB05_NorethisteroneAndEstrogen
+  extends Icons.Package;
+end G03FB05_NorethisteroneAndEstrogen;

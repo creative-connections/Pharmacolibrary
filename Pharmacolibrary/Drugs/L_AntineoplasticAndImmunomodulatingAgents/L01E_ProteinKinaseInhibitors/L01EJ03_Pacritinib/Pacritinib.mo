@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EJ03_Pacritinib;
+model Pacritinib = Pharmacolibrary.Drugs.ATC.L.L01EJ03;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01M_QuinoloneAntibacterials;
+package J01MA11_Grepafloxacin
+  extends Icons.Package;
+end J01MA11_Grepafloxacin;

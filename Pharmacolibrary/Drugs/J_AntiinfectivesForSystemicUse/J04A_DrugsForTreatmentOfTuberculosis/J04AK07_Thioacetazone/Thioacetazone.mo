@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis.J04AK07_Thioacetazone;
+model Thioacetazone = Pharmacolibrary.Drugs.ATC.J.J04AK07;

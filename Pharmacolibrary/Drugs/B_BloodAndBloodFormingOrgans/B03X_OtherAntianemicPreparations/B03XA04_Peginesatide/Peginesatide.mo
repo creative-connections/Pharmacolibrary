@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03X_OtherAntianemicPreparations.B03XA04_Peginesatide;
+model Peginesatide = Pharmacolibrary.Drugs.ATC.B.B03XA04;

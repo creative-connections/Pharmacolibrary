@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AJ04_Cabotegravir;
+model Cabotegravir = Pharmacolibrary.Drugs.ATC.J.J05AJ04;

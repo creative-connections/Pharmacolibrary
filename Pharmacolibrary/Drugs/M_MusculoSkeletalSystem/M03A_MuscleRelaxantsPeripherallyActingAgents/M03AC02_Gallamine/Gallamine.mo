@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03A_MuscleRelaxantsPeripherallyActingAgents.M03AC02_Gallamine;
+model Gallamine = Pharmacolibrary.Drugs.ATC.M.M03AC02;

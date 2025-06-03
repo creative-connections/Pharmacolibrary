@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins.J01CA08_Pivmecillinam;
+model Pivmecillinam = Pharmacolibrary.Drugs.ATC.J.J01CA08;

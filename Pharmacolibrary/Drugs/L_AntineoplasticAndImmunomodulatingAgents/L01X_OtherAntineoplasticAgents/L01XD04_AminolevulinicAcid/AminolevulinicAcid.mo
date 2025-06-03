@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XD04_AminolevulinicAcid;
+model AminolevulinicAcid = Pharmacolibrary.Drugs.ATC.L.L01XD04;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders.A03AA04_Mebeverine;
+model Mebeverine = Pharmacolibrary.Drugs.ATC.A.A03AA04;

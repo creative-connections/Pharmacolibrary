@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.P;
+
+model P01AA30
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.5,
+    Cl             = 0.08333333333333333,
+    adminDuration  = 600,
+    adminMass      = 0.5,
+    adminCount     = 1,
+    Vd             = 0.05,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0005,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Tilbroquinol and tiliquinol are antiprotozoal agents historically used in the treatment of intestinal amoebiasis and sometimes as part of combination therapy for giardiasis. Their use has largely been discontinued in many countries and they are not widely approved for current use due to concerns about efficacy and safety.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters for tilbroquinol and tiliquinol in humans are not published in the scientific literature as of 2024. The following parameters are estimated based on typical properties of similar nitroxyquinoline compounds used orally against protozoal infections.</p><h4>References</h4><ol><li> No published studies reporting human pharmacokinetics for tilbroquinol and tiliquinol as of 2024; all pharmacokinetic parameters above are estimates based on related compounds (e.g., clioquinol, 8-hydroxyquinoline) and typical oral antiprotozoal PK, intended as theoretical values. Confirm with future in vivo data.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end P01AA30;

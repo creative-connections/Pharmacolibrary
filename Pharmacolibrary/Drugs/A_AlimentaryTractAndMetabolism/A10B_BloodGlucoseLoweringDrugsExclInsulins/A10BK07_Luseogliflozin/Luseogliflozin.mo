@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BK07_Luseogliflozin;
+model Luseogliflozin = Pharmacolibrary.Drugs.ATC.A.A10BK07;

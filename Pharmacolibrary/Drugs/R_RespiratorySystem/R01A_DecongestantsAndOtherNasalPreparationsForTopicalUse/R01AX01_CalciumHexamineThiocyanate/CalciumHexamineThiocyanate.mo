@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AX01_CalciumHexamineThiocyanate;
+model CalciumHexamineThiocyanate = Pharmacolibrary.Drugs.ATC.R.R01AX01;

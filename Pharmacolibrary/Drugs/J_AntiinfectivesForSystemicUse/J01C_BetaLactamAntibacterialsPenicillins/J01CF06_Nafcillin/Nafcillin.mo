@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins.J01CF06_Nafcillin;
+model Nafcillin = Pharmacolibrary.Drugs.ATC.J.J01CF06;

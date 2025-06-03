@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AA54_ClemastineCombinations;
+model ClemastineCombinations = Pharmacolibrary.Drugs.ATC.R.R06AA54;

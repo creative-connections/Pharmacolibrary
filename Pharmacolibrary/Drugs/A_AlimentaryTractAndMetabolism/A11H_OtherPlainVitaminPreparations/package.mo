@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
+package A11H_OtherPlainVitaminPreparations
+  extends Icons.Package;
+end A11H_OtherPlainVitaminPreparations;

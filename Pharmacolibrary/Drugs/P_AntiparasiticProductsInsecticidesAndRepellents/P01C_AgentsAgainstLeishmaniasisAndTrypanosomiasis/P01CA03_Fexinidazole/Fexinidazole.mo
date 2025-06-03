@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01C_AgentsAgainstLeishmaniasisAndTrypanosomiasis.P01CA03_Fexinidazole;
+model Fexinidazole = Pharmacolibrary.Drugs.ATC.P.P01CA03;

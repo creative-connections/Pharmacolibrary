@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03D_AldosteroneAntagonistsAndOtherPotassiumSparingAgents;
+package C03DB01_Amiloride
+  extends Icons.Package;
+end C03DB01_Amiloride;

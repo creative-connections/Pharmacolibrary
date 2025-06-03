@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AB01_FerricSodiumCitrate;
+model FerricSodiumCitrate = Pharmacolibrary.Drugs.ATC.B.B03AB01;

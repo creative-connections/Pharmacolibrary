@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AB03_Afelimomab;
+model Afelimomab = Pharmacolibrary.Drugs.ATC.L.L04AB03;

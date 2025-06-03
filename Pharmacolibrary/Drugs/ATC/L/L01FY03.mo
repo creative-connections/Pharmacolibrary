@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.L;
+
+model L01FY03
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.0033333333333333335,
+    adminDuration  = 600,
+    adminMass      = 0.001,
+    adminCount     = 1,
+    Vd             = 0.0035,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Prolgolimab and nurulimab are monoclonal antibodies used in oncology as immune checkpoint inhibitors. The ATC code L01FY03 is assigned to anti-PD-1 monoclonal antibodies, reportedly including prolgolimab (approved in Russia for melanoma) and nurulimab (less commonly referenced, possibly still under investigation). These agents are used for the treatment of malignant neoplasms such as advanced melanoma.</p><h4>Pharmacokinetics</h4><p>No published clinical pharmacokinetic (PK) data available; PK parameters estimated based on class properties of monoclonal antibodies in adult cancer patients.</p><h4>References</h4><ol><li> No direct pharmacokinetic studies or published data are available for prolgolimab and nurulimab in the scientific literature as of June 2024. All values reported here are estimates based on known PK properties of IgG1 anti-PD-1 monoclonal antibodies (e.g., nivolumab, pembrolizumab), typical administration regimens for similar drugs, and general class attributes.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end L01FY03;

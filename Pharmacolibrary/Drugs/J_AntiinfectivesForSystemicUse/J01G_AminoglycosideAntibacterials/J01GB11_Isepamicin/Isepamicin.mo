@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01G_AminoglycosideAntibacterials.J01GB11_Isepamicin;
+model Isepamicin = Pharmacolibrary.Drugs.ATC.J.J01GB11;

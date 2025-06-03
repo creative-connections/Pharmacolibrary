@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BX18_Dorzagliatin;
+model Dorzagliatin = Pharmacolibrary.Drugs.ATC.A.A10BX18;

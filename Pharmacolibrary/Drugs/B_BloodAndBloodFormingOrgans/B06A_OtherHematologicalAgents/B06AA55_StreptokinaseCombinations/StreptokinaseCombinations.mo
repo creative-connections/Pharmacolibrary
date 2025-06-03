@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B06A_OtherHematologicalAgents.B06AA55_StreptokinaseCombinations;
+model StreptokinaseCombinations = Pharmacolibrary.Drugs.ATC.B.B06AA55;

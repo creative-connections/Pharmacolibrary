@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12C_OtherMineralSupplements.A12CA02_SodiumSulfate;
+model SodiumSulfate = Pharmacolibrary.Drugs.ATC.A.A12CA02;

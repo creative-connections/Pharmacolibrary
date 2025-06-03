@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BX02_Pyritinol;
+model Pyritinol = Pharmacolibrary.Drugs.ATC.N.N06BX02;

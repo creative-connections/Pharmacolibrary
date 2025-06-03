@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07E_IntestinalAntiinflammatoryAgents.A07EB01_CromoglicicAcid;
+model CromoglicicAcid = Pharmacolibrary.Drugs.ATC.A.A07EB01;

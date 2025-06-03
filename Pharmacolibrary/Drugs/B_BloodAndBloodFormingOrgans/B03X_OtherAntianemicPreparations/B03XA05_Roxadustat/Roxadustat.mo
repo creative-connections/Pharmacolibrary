@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03X_OtherAntianemicPreparations.B03XA05_Roxadustat;
+model Roxadustat = Pharmacolibrary.Drugs.ATC.B.B03XA05;

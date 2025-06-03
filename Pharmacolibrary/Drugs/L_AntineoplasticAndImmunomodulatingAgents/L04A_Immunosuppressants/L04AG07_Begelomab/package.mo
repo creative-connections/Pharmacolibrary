@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
+package L04AG07_Begelomab
+  extends Icons.Package;
+end L04AG07_Begelomab;

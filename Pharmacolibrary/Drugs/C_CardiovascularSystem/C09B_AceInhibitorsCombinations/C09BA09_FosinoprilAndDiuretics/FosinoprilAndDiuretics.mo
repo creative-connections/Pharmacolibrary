@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations.C09BA09_FosinoprilAndDiuretics;
+model FosinoprilAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C09BA09;

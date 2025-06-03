@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02C_OtherGynecologicals.G02CX02_Flibanserin;
+model Flibanserin = Pharmacolibrary.Drugs.ATC.G.G02CX02;

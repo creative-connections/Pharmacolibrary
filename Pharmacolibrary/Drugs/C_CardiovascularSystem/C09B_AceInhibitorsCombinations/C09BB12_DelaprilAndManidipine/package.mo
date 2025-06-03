@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations;
+package C09BB12_DelaprilAndManidipine
+  extends Icons.Package;
+end C09BB12_DelaprilAndManidipine;

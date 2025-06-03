@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants;
+package R03AK04_SalbutamolAndSodiumCromoglicate
+  extends Icons.Package;
+end R03AK04_SalbutamolAndSodiumCromoglicate;

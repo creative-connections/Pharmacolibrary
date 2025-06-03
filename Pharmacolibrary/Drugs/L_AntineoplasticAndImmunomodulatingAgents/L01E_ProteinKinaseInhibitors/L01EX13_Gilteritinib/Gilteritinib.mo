@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EX13_Gilteritinib;
+model Gilteritinib = Pharmacolibrary.Drugs.ATC.L.L01EX13;

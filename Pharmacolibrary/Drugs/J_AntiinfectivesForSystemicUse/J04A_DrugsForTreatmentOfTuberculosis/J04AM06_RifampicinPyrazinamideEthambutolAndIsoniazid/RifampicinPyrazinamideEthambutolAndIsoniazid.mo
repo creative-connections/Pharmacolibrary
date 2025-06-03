@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis.J04AM06_RifampicinPyrazinamideEthambutolAndIsoniazid;
+model RifampicinPyrazinamideEthambutolAndIsoniazid = Pharmacolibrary.Drugs.ATC.J.J04AM06;

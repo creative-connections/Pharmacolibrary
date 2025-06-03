@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.N;
+
+model N02BB54
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.85,
+    Cl             = 3.6666666666666665,
+    adminDuration  = 600,
+    adminMass      = 0.15,
+    adminCount     = 1,
+    Vd             = 0.05,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.011666666666666665,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Propyphenazone is a non-opioid analgesic belonging to the pyrazolone group, historically used for the treatment of mild to moderate pain, fever, and headache, frequently available in combination with other analgesics or antipyretics. Its use has declined in many regions due to concerns about adverse effects such as agranulocytosis, but it remains available in certain countries, often as over-the-counter medicine in combination products.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters estimated for single 150 mg oral dose propyphenazone adult healthy volunteers. No peer-reviewed PK study available for the combination products without psycholeptics.</p><h4>References</h4><ol><li> No published PK studies for the specific ATC combination (N02BB54) excluding psycholeptics. Parameter values estimated based on data from propyphenazone single oral use and extrapolated to likely parameters for the commonly used oral fixed-drug-combination products.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end N02BB54;

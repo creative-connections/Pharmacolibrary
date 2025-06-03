@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03A_EctoparasiticidesInclScabicides.P03AB02_Lindane;
+model Lindane = Pharmacolibrary.Drugs.ATC.P.P03AB02;

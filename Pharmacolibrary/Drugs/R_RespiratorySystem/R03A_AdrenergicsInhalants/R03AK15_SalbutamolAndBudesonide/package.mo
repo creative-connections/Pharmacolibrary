@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants;
+package R03AK15_SalbutamolAndBudesonide
+  extends Icons.Package;
+end R03AK15_SalbutamolAndBudesonide;

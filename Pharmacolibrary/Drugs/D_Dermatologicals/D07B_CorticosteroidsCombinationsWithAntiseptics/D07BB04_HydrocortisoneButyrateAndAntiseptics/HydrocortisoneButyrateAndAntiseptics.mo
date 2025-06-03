@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07B_CorticosteroidsCombinationsWithAntiseptics.D07BB04_HydrocortisoneButyrateAndAntiseptics;
+model HydrocortisoneButyrateAndAntiseptics = Pharmacolibrary.Drugs.ATC.D.D07BB04;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents.L01AD02_Lomustine;
+model Lomustine = Pharmacolibrary.Drugs.ATC.L.L01AD02;

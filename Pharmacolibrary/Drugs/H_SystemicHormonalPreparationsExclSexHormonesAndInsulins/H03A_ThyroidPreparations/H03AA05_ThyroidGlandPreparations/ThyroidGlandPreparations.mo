@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03A_ThyroidPreparations.H03AA05_ThyroidGlandPreparations;
+model ThyroidGlandPreparations = Pharmacolibrary.Drugs.ATC.H.H03AA05;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DH02_Meropenem;
+model Meropenem_1 = Pharmacolibrary.Drugs.ATC.J.J01DH02_1;

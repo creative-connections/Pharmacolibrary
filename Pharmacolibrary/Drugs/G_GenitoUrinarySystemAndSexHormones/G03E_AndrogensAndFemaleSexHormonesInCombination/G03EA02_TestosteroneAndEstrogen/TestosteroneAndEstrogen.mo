@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03E_AndrogensAndFemaleSexHormonesInCombination.G03EA02_TestosteroneAndEstrogen;
+model TestosteroneAndEstrogen = Pharmacolibrary.Drugs.ATC.G.G03EA02;

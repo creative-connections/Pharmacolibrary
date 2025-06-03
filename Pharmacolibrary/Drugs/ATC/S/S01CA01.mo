@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.S;
+
+model S01CA01
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.05,
+    Cl             = 8.333333333333333e-05,
+    adminDuration  = 600,
+    adminMass      = 0.0001,
+    adminCount     = 1,
+    Vd             = 0.001,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>This combination ophthalmic preparation contains dexamethasone, a glucocorticoid corticosteroid with anti-inflammatory properties, and various antiinfectives (antibacterials or antivirals). It is used for topical treatment of ocular inflammation where bacterial infection or risk of infection is present. Combination products may vary in antiinfective component (e.g., neomycin, tobramycin, chloramphenicol). Such preparations are approved and used today for conjunctivitis, keratitis, and other inflammatory eye conditions at risk for infection.</p><h4>Pharmacokinetics</h4><p>No population PK studies specifically for ophthalmic dexamethasone and antiinfective combinations with ATC code S01CA01 have been identified; pharmacokinetic estimates are adapted from published data on dexamethasone ophthalmic administration in adults.</p><h4>References</h4><ol><li> No direct pharmacokinetic studies were found for the combination ophthalmic dexamethasone/antiinfectives in the ATC code S01CA01. Estimates are provided based on published data for dexamethasone ophthalmic products; systemic exposure is minimal and primarily local, hence values are approximated for the central compartment, not whole-body. See for example: Barends DM, et al. Br J Ophthalmol. 1992;76(4):211-215 (PMID: 1583404) and Li J, et al. J Ocul Pharmacol Ther. 2015;31(2):99-105 (PMID: 25695189).</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end S01CA01;

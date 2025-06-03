@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01C_AntiinflammatoryAgentsAndAntiinfectivesInCombination;
+package S01CC02_IndometacinAndAntiinfectives
+  extends Icons.Package;
+end S01CC02_IndometacinAndAntiinfectives;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07X_OtherAntidiarrheals.A07XA06_Crofelemer;
+model Crofelemer = Pharmacolibrary.Drugs.ATC.A.A07XA06;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09C_AngiotensinIiReceptorBlockersArbsPlain.C09CA07_Telmisartan;
+model Telmisartan = Pharmacolibrary.Drugs.ATC.C.C09CA07;

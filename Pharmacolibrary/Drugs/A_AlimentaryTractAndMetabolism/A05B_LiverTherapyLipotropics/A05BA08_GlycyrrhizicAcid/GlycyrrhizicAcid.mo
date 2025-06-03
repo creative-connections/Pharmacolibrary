@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A05B_LiverTherapyLipotropics.A05BA08_GlycyrrhizicAcid;
+model GlycyrrhizicAcid = Pharmacolibrary.Drugs.ATC.A.A05BA08;

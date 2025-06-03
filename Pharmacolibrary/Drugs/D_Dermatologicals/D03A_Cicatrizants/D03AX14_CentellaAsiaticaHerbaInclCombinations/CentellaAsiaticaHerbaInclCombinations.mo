@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D03A_Cicatrizants.D03AX14_CentellaAsiaticaHerbaInclCombinations;
+model CentellaAsiaticaHerbaInclCombinations = Pharmacolibrary.Drugs.ATC.D.D03AX14;

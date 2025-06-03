@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids.N02AG02_KetobemidoneAndAntispasmodics;
+model KetobemidoneAndAntispasmodics = Pharmacolibrary.Drugs.ATC.N.N02AG02;

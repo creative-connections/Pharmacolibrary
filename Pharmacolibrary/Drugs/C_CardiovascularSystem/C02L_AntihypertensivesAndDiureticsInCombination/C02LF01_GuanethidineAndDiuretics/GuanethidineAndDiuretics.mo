@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination.C02LF01_GuanethidineAndDiuretics;
+model GuanethidineAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C02LF01;

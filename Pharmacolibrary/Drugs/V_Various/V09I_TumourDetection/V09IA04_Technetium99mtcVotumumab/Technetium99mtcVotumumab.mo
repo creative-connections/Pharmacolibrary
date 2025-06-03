@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection.V09IA04_Technetium99mtcVotumumab;
+model Technetium99mtcVotumumab = Pharmacolibrary.Drugs.ATC.V.V09IA04;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02C_OtherGynecologicals.G02CA01_Ritodrine;
+model Ritodrine = Pharmacolibrary.Drugs.ATC.G.G02CA01;

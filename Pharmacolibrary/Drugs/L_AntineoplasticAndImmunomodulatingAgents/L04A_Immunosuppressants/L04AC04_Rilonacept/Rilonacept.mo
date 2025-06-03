@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AC04_Rilonacept;
+model Rilonacept = Pharmacolibrary.Drugs.ATC.L.L04AC04;

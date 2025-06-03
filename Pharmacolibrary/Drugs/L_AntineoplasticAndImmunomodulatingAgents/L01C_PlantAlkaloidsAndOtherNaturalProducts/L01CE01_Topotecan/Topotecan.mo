@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts.L01CE01_Topotecan;
+model Topotecan = Pharmacolibrary.Drugs.ATC.L.L01CE01;

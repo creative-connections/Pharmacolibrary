@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids;
+package M01AX17_Nimesulide
+  extends Icons.Package;
+end M01AX17_Nimesulide;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09G_CardiovascularSystem.V09GA06_Technetium99mtcStannousAgentLabelledCells;
+model Technetium99mtcStannousAgentLabelledCells = Pharmacolibrary.Drugs.ATC.V.V09GA06;

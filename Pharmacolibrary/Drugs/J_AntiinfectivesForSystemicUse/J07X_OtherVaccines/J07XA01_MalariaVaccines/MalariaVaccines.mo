@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07X_OtherVaccines.J07XA01_MalariaVaccines;
+model MalariaVaccines = Pharmacolibrary.Drugs.ATC.J.J07XA01;

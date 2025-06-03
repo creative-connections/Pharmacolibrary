@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AH03_CromoglicicAcid;
+model CromoglicicAcid_1 = Pharmacolibrary.Drugs.ATC.D.D11AH03_1;

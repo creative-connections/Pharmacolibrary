@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01M_QuinoloneAntibacterials.J01MB02_NalidixicAcid;
+model NalidixicAcid = Pharmacolibrary.Drugs.ATC.J.J01MB02;

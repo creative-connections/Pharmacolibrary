@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01D_CytotoxicAntibioticsAndRelatedSubstances.L01DC03_Mitomycin;
+model Mitomycin = Pharmacolibrary.Drugs.ATC.L.L01DC03;

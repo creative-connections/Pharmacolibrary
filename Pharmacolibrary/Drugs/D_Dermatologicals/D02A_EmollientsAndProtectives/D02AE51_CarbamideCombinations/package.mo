@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D02A_EmollientsAndProtectives;
+package D02AE51_CarbamideCombinations
+  extends Icons.Package;
+end D02AE51_CarbamideCombinations;

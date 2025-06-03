@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01G_DecongestantsAndAntiallergics.S01GX02_Levocabastine;
+model Levocabastine = Pharmacolibrary.Drugs.ATC.S.S01GX02;

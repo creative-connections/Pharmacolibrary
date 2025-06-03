@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02C_OtherGynecologicals.G02CX01_Atosiban;
+model Atosiban = Pharmacolibrary.Drugs.ATC.G.G02CX01;

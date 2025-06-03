@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10A_InsulinsAndAnalogues.A10AE04_InsulinGlargine;
+model InsulinGlargine = Pharmacolibrary.Drugs.ATC.A.A10AE04;

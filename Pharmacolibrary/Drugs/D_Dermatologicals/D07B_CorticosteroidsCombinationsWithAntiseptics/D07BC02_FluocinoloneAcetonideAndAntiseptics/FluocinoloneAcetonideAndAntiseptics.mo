@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07B_CorticosteroidsCombinationsWithAntiseptics.D07BC02_FluocinoloneAcetonideAndAntiseptics;
+model FluocinoloneAcetonideAndAntiseptics = Pharmacolibrary.Drugs.ATC.D.D07BC02;

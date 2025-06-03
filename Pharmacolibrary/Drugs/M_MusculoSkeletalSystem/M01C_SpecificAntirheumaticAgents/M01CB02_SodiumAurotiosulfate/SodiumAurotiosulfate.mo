@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01C_SpecificAntirheumaticAgents.M01CB02_SodiumAurotiosulfate;
+model SodiumAurotiosulfate = Pharmacolibrary.Drugs.ATC.M.M01CB02;

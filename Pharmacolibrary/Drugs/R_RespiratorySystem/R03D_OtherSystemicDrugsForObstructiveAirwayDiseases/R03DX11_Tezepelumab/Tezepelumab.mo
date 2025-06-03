@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases.R03DX11_Tezepelumab;
+model Tezepelumab = Pharmacolibrary.Drugs.ATC.R.R03DX11;

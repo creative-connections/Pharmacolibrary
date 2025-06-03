@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics.N02BA75_SalicylamideCombinationsWithPsycholeptics;
+model SalicylamideCombinationsWithPsycholeptics = Pharmacolibrary.Drugs.ATC.N.N02BA75;

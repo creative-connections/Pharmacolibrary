@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03X_OtherSexHormonesAndModulatorsOfTheGenitalSystem.G03XA01_Danazol;
+model Danazol = Pharmacolibrary.Drugs.ATC.G.G03XA01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J06B_Immunoglobulins.J06BA02_ImmunoglobulinsNormalHumanForIntravascularAdm;
+model ImmunoglobulinsNormalHumanForIntravascularAdm = Pharmacolibrary.Drugs.ATC.J.J06BA02;

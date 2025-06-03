@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants.R05DB09_Oxeladin;
+model Oxeladin = Pharmacolibrary.Drugs.ATC.R.R05DB09;

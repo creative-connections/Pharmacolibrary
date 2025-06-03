@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations;
+package C09DA06_CandesartanAndDiuretics
+  extends Icons.Package;
+end C09DA06_CandesartanAndDiuretics;

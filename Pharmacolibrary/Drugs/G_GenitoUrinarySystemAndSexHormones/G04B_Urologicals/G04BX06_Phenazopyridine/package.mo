@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04B_Urologicals;
+package G04BX06_Phenazopyridine
+  extends Icons.Package;
+end G04BX06_Phenazopyridine;

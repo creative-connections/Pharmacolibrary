@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03D_Progestogens.G03DC03_Lynestrenol;
+model Lynestrenol = Pharmacolibrary.Drugs.ATC.G.G03DC03;

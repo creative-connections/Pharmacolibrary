@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives.B05XA06_PotassiumPhosphateInclCombinationsWithOtherPotassiumSalts;
+model PotassiumPhosphateInclCombinationsWithOtherPotassiumSalts = Pharmacolibrary.Drugs.ATC.B.B05XA06;

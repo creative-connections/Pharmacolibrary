@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders;
+package A03AX01_Fenpiprane
+  extends Icons.Package;
+end A03AX01_Fenpiprane;

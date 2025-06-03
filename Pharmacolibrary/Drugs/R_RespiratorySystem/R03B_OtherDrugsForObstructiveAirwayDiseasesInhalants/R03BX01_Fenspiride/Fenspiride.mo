@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03B_OtherDrugsForObstructiveAirwayDiseasesInhalants.R03BX01_Fenspiride;
+model Fenspiride = Pharmacolibrary.Drugs.ATC.R.R03BX01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AB51_HeparinCombinations;
+model HeparinCombinations = Pharmacolibrary.Drugs.ATC.B.B01AB51;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials.P01BF03_ArtesunateAndAmodiaquine;
+model ArtesunateAndAmodiaquine = Pharmacolibrary.Drugs.ATC.P.P01BF03;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.D;
+
+model D07CC03
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.05,
+    Cl             = 0.3333333333333333,
+    adminDuration  = 600,
+    adminMass      = 0.002,
+    adminCount     = 1,
+    Vd             = 0.05,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Fludroxycortide is a potent topical corticosteroid used for the treatment of inflammatory skin disorders such as eczema and psoriasis. The combination with antibiotics (classified under ATC code D07CC03) is intended to treat dermatoses with secondary bacterial infection. While fludroxycortide is approved for topical use, the combination may be used in specific clinical settings but may not be widely approved or available in all markets.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic data are available for fludroxycortide in combination with antibiotics (ATC code D07CC03). Estimated parameters are based on general knowledge of topical corticosteroid pharmacokinetics in adult patients with inflamed skin.</p><h4>References</h4><ol><li> No direct PK studies or published literature found for fludroxycortide (alone or with antibiotics) by topical route reporting PK parameters. All values provided are rough estimates extrapolated from general steroid pharmacology, assuming application on non-intact skin may increase systemic bioavailability. Marked as estimates only.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end D07CC03;

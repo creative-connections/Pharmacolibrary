@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D06B_ChemotherapeuticsForTopicalUse.D06BA51_SilverSulfadiazineCombinations;
+model SilverSulfadiazineCombinations = Pharmacolibrary.Drugs.ATC.D.D06BA51;

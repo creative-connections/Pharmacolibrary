@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AG16_Rozanolixizumab;
+model Rozanolixizumab = Pharmacolibrary.Drugs.ATC.L.L04AG16;

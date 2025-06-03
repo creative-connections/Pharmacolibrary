@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02B_AntiadrenergicAgentsGanglionBlocking.C02BB01_Mecamylamine;
+model Mecamylamine = Pharmacolibrary.Drugs.ATC.C.C02BB01;

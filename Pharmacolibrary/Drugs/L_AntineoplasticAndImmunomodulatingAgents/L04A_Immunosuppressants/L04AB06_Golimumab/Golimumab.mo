@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AB06_Golimumab;
+model Golimumab = Pharmacolibrary.Drugs.ATC.L.L04AB06;

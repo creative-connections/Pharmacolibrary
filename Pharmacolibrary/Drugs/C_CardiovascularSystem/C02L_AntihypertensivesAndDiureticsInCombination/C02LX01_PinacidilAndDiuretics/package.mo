@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination;
+package C02LX01_PinacidilAndDiuretics
+  extends Icons.Package;
+end C02LX01_PinacidilAndDiuretics;

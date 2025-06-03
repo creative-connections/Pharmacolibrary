@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S02C_CorticosteroidsAndAntiinfectivesInCombination;
+package S02CA05_FluocinoloneAcetonideAndAntiinfectives
+  extends Icons.Package;
+end S02CA05_FluocinoloneAcetonideAndAntiinfectives;

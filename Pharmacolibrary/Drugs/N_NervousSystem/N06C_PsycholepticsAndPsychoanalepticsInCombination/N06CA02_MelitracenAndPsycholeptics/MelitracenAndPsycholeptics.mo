@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06C_PsycholepticsAndPsychoanalepticsInCombination.N06CA02_MelitracenAndPsycholeptics;
+model MelitracenAndPsycholeptics = Pharmacolibrary.Drugs.ATC.N.N06CA02;

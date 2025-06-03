@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
+package L04AX08_Darvadstrocel
+  extends Icons.Package;
+end L04AX08_Darvadstrocel;

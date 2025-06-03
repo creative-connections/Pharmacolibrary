@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AE01_Fingolimod;
+model Fingolimod = Pharmacolibrary.Drugs.ATC.L.L04AE01;

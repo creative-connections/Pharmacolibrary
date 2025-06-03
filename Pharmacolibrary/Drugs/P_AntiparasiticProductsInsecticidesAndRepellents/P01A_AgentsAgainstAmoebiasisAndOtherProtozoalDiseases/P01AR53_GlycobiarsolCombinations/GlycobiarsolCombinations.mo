@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AR53_GlycobiarsolCombinations;
+model GlycobiarsolCombinations = Pharmacolibrary.Drugs.ATC.P.P01AR53;

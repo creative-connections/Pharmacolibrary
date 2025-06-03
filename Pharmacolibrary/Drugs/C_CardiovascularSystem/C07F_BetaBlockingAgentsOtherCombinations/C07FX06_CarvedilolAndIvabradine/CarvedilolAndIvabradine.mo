@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07F_BetaBlockingAgentsOtherCombinations.C07FX06_CarvedilolAndIvabradine;
+model CarvedilolAndIvabradine = Pharmacolibrary.Drugs.ATC.C.C07FX06;

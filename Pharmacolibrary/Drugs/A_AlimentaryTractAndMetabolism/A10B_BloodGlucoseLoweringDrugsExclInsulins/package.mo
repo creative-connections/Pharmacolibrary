@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
+package A10B_BloodGlucoseLoweringDrugsExclInsulins
+  extends Icons.Package;
+end A10B_BloodGlucoseLoweringDrugsExclInsulins;

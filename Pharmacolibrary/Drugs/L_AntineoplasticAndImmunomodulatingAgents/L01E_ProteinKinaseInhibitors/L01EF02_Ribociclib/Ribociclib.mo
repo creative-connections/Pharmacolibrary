@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EF02_Ribociclib;
+model Ribociclib = Pharmacolibrary.Drugs.ATC.L.L01EF02;

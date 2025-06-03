@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10A_LipidModifyingAgentsPlain.C10AD03_Nicofuranose;
+model Nicofuranose = Pharmacolibrary.Drugs.ATC.C.C10AD03;

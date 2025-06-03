@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AA02_Natamycin;
+model Natamycin = Pharmacolibrary.Drugs.ATC.G.G01AA02;

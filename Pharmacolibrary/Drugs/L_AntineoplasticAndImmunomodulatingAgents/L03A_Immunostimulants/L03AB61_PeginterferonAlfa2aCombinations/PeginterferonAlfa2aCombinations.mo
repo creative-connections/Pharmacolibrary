@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AB61_PeginterferonAlfa2aCombinations;
+model PeginterferonAlfa2aCombinations = Pharmacolibrary.Drugs.ATC.L.L03AB61;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01C_HypothalamicHormones.H01CB02_Octreotide;
+model Octreotide = Pharmacolibrary.Drugs.ATC.H.H01CB02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05B_IVSolutions.B05BB02_ElectrolytesWithCarbohydrates;
+model ElectrolytesWithCarbohydrates = Pharmacolibrary.Drugs.ATC.B.B05BB02;

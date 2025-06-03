@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03B_LowCeilingDiureticsExclThiazides;
+package C03BD01_Theobromine
+  extends Icons.Package;
+end C03BD01_Theobromine;

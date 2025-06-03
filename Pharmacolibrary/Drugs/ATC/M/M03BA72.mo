@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.M;
+
+model M03BA72
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.75,
+    Cl             = 0.4666666666666667,
+    adminDuration  = 600,
+    adminMass      = 0.35,
+    adminCount     = 1,
+    Vd             = 0.011,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.016666666666666666,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Carisoprodol is a centrally-acting skeletal muscle relaxant, historically used for the relief of discomfort associated with acute, painful musculoskeletal conditions. In combinations with psycholeptics (ATC code M03BA72), it is used for enhanced anxiolytic and sedative effects. Carisoprodol is a prodrug of meprobamate, a sedative-hypnotic, and both carisoprodol and its combinations have been associated with potential for abuse and dependence. As of today, carisoprodol and its combinations are restricted or withdrawn in many countries due to safety concerns.</p><h4>Pharmacokinetics</h4><p>Estimated typical adult pharmacokinetics after single oral dose; no published population PK data for carisoprodol in combination with psycholeptics exist. Estimates are based on monotherapy data and what is known about the PK of carisoprodol, assuming similar kinetic behavior in the presence of psycholeptics.</p><h4>References</h4><ol><li> No published pharmacokinetic studies for carisoprodol in combination with psycholeptics (M03BA72) were found. Parameter values are estimated based on available literature for oral carisoprodol monotherapy and should be interpreted cautiously. All estimates assume similar kinetics in the presence of psycholeptics due to lack of direct data.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end M03BA72;

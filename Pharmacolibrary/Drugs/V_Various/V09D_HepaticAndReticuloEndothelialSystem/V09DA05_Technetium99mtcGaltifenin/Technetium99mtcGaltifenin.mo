@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09D_HepaticAndReticuloEndothelialSystem.V09DA05_Technetium99mtcGaltifenin;
+model Technetium99mtcGaltifenin = Pharmacolibrary.Drugs.ATC.V.V09DA05;

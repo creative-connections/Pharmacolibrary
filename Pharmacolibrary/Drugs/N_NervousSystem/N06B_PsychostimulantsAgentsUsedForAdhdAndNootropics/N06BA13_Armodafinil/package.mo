@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics;
+package N06BA13_Armodafinil
+  extends Icons.Package;
+end N06BA13_Armodafinil;

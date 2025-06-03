@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07C_CorticosteroidsCombinationsWithAntibiotics.D07CD01_ClobetasolAndAntibiotics;
+model ClobetasolAndAntibiotics = Pharmacolibrary.Drugs.ATC.D.D07CD01;

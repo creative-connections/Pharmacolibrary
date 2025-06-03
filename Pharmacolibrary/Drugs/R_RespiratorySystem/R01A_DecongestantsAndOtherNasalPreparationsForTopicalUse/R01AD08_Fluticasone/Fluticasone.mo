@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AD08_Fluticasone;
+model Fluticasone = Pharmacolibrary.Drugs.ATC.R.R01AD08;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.A;
+
+model A03AB16
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.25,
+    Cl             = 0.3333333333333333,
+    adminDuration  = 600,
+    adminMass      = 0.01,
+    adminCount     = 1,
+    Vd             = 0.175,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0005,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>(2-benzhydryloxyethyl)diethyl-methylammonium iodide, also known as benzetimide iodide, is an anticholinergic drug used in the past as an antispasmodic agent for gastrointestinal disorders such as irritable bowel syndrome. Its use has largely been discontinued and it is no longer an approved or commonly used therapeutic agent.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic parameter data for this compound could be found in the literature; all values below are standard estimates for oral anticholinergics in adults.</p><h4>References</h4><ol><li> No published pharmacokinetic data are available for (2-benzhydryloxyethyl)diethyl-methylammonium iodide (benzetimide iodide). All values presented are estimates based on structurally similar anticholinergic agents and standard pharmacokinetic parameters for the drug class in adult patients.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end A03AB16;

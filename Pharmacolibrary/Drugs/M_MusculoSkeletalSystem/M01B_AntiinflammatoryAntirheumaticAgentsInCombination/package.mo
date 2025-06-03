@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem;
+package M01B_AntiinflammatoryAntirheumaticAgentsInCombination
+  extends Icons.Package;
+end M01B_AntiinflammatoryAntirheumaticAgentsInCombination;

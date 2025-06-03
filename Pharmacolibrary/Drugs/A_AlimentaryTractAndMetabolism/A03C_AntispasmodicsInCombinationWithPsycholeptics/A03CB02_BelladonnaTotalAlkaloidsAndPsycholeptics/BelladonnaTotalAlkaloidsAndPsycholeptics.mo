@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03C_AntispasmodicsInCombinationWithPsycholeptics.A03CB02_BelladonnaTotalAlkaloidsAndPsycholeptics;
+model BelladonnaTotalAlkaloidsAndPsycholeptics = Pharmacolibrary.Drugs.ATC.A.A03CB02;

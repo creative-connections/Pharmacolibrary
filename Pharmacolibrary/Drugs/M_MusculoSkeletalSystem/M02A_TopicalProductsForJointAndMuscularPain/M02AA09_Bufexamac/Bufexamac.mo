@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain.M02AA09_Bufexamac;
+model Bufexamac = Pharmacolibrary.Drugs.ATC.M.M02AA09;

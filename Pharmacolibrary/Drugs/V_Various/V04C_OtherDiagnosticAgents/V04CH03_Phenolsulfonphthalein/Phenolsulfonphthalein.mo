@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V04C_OtherDiagnosticAgents.V04CH03_Phenolsulfonphthalein;
+model Phenolsulfonphthalein = Pharmacolibrary.Drugs.ATC.V.V04CH03;

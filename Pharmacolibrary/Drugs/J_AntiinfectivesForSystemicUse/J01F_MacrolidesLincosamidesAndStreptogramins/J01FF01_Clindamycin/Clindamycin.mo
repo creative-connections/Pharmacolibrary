@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins.J01FF01_Clindamycin;
+model Clindamycin = Pharmacolibrary.Drugs.ATC.J.J01FF01;

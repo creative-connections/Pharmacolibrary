@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.A;
+
+model A03CA05
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.09,
+    Cl             = 0.006500000000000001,
+    adminDuration  = 600,
+    adminMass      = 0.002,
+    adminCount     = 1,
+    Vd             = 0.00041999999999999996,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0005833333333333334,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Combination of glycopyrronium bromide, an antimuscarinic agent that reduces salivary, gastric, and respiratory secretions, with psycholeptics, a class of CNS depressants including antipsychotics and sedatives. Used primarily for gastrointestinal disorders involving motility and as adjunct in peptic ulcer disease. Glycopyrronium is used in anesthesia and for sialorrhea. The combination is not widely approved today and has limited clinical use.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters are estimated for adult humans based on reference data for glycopyrronium bromide monotherapy, as no published PK data exist for the specific combination product.</p><h4>References</h4><ol><li> No literature found with pharmacokinetic parameters for the combination product ATC A03CA05. Values are estimated from published data on glycopyrronium bromide monotherapy in healthy adults. Psycholeptic PK parameters not included due to lack of combination data.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end A03CA05;

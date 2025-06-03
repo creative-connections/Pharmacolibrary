@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders;
+package A03AC04_Nicofetamide
+  extends Icons.Package;
+end A03AC04_Nicofetamide;

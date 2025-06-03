@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03D_AntispasmodicsInCombinationWithAnalgesics.A03DA04_CicloniumAndAnalgesics;
+model CicloniumAndAnalgesics = Pharmacolibrary.Drugs.ATC.A.A03DA04;

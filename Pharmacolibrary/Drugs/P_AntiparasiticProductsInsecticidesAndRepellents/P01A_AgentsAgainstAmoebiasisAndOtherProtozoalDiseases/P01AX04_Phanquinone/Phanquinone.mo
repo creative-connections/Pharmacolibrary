@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AX04_Phanquinone;
+model Phanquinone = Pharmacolibrary.Drugs.ATC.P.P01AX04;

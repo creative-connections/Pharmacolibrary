@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FF02_Pembrolizumab;
+model Pembrolizumab = Pharmacolibrary.Drugs.ATC.L.L01FF02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01A_AnteriorPituitaryLobeHormonesAndAnalogues.H01AA01_Corticotropin;
+model Corticotropin = Pharmacolibrary.Drugs.ATC.H.H01AA01;

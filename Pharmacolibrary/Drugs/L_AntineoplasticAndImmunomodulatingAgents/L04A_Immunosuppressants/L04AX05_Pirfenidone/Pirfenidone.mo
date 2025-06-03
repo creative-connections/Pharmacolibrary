@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AX05_Pirfenidone;
+model Pirfenidone = Pharmacolibrary.Drugs.ATC.L.L04AX05;

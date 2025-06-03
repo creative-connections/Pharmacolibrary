@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07F_BetaBlockingAgentsOtherCombinations.C07FB13_MetoprololAndAmlodipine;
+model MetoprololAndAmlodipine = Pharmacolibrary.Drugs.ATC.C.C07FB13;

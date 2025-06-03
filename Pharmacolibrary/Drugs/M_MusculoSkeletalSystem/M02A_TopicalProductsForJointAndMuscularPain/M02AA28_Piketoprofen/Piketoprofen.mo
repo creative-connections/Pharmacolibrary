@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain.M02AA28_Piketoprofen;
+model Piketoprofen = Pharmacolibrary.Drugs.ATC.M.M02AA28;

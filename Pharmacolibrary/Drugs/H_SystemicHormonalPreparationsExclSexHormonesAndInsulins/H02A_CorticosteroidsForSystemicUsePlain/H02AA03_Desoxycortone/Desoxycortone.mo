@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02A_CorticosteroidsForSystemicUsePlain.H02AA03_Desoxycortone;
+model Desoxycortone = Pharmacolibrary.Drugs.ATC.H.H02AA03;

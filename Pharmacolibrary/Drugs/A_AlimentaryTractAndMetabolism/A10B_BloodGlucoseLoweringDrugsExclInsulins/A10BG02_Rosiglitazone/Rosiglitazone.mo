@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BG02_Rosiglitazone;
+model Rosiglitazone = Pharmacolibrary.Drugs.ATC.A.A10BG02;

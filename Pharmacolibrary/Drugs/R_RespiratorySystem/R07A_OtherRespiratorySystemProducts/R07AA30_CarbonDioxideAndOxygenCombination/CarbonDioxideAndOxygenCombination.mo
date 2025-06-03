@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R07A_OtherRespiratorySystemProducts.R07AA30_CarbonDioxideAndOxygenCombination;
+model CarbonDioxideAndOxygenCombination = Pharmacolibrary.Drugs.ATC.R.R07AA30;

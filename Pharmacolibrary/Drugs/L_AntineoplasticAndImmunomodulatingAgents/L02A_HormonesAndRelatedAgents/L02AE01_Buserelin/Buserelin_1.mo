@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02A_HormonesAndRelatedAgents.L02AE01_Buserelin;
+model Buserelin_1 = Pharmacolibrary.Drugs.ATC.L.L02AE01_1;

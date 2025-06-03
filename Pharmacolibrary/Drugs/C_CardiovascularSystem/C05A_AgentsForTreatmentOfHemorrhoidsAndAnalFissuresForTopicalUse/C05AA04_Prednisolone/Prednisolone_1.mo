@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse.C05AA04_Prednisolone;
+model Prednisolone_1 = Pharmacolibrary.Drugs.ATC.C.C05AA04_1;

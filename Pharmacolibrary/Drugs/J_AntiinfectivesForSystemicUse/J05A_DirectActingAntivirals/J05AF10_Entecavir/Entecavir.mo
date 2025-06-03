@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AF10_Entecavir;
+model Entecavir = Pharmacolibrary.Drugs.ATC.J.J05AF10;

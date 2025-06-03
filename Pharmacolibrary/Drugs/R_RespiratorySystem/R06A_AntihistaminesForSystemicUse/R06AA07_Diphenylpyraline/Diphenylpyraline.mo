@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AA07_Diphenylpyraline;
+model Diphenylpyraline = Pharmacolibrary.Drugs.ATC.R.R06AA07;

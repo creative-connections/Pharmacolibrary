@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis;
+package J04AM07_RifampicinEthambutolAndIsoniazid
+  extends Icons.Package;
+end J04AM07_RifampicinEthambutolAndIsoniazid;

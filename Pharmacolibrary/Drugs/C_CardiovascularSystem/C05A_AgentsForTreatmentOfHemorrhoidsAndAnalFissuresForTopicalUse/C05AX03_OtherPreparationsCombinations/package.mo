@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse;
+package C05AX03_OtherPreparationsCombinations
+  extends Icons.Package;
+end C05AX03_OtherPreparationsCombinations;

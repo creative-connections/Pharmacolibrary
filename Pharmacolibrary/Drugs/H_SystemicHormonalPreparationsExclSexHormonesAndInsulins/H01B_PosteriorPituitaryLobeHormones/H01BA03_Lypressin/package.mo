@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01B_PosteriorPituitaryLobeHormones;
+package H01BA03_Lypressin
+  extends Icons.Package;
+end H01BA03_Lypressin;

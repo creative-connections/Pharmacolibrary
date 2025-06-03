@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04B_Urologicals.G04BD03_Meladrazine;
+model Meladrazine = Pharmacolibrary.Drugs.ATC.G.G04BD03;

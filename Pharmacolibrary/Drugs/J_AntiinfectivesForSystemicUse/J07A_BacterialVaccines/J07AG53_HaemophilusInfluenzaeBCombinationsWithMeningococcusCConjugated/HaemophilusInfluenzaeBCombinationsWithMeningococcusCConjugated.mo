@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AG53_HaemophilusInfluenzaeBCombinationsWithMeningococcusCConjugated;
+model HaemophilusInfluenzaeBCombinationsWithMeningococcusCConjugated = Pharmacolibrary.Drugs.ATC.J.J07AG53;

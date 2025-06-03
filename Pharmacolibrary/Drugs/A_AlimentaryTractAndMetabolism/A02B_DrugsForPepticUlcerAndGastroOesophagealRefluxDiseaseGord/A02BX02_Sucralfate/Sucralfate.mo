@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BX02_Sucralfate;
+model Sucralfate = Pharmacolibrary.Drugs.ATC.A.A02BX02;

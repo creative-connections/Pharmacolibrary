@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02A_HormonesAndRelatedAgents;
+package L02AB01_Megestrol
+  extends Icons.Package;
+end L02AB01_Megestrol;

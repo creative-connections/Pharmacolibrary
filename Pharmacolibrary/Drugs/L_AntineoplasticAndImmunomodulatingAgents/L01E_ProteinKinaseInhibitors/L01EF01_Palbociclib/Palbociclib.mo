@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EF01_Palbociclib;
+model Palbociclib = Pharmacolibrary.Drugs.ATC.L.L01EF01;

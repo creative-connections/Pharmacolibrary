@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EX04_Vandetanib;
+model Vandetanib = Pharmacolibrary.Drugs.ATC.L.L01EX04;

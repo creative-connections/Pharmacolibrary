@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A08A_AntiobesityPreparationsExclDietProducts;
+package A08AA06_Etilamfetamine
+  extends Icons.Package;
+end A08AA06_Etilamfetamine;

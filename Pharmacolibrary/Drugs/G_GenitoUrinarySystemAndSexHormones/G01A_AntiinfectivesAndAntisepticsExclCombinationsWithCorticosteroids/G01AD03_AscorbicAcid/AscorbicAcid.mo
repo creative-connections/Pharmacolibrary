@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AD03_AscorbicAcid;
+model AscorbicAcid = Pharmacolibrary.Drugs.ATC.G.G01AD03;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01F_MydriaticsAndCycloplegics.S01FA03_Methylscopolamine;
+model Methylscopolamine = Pharmacolibrary.Drugs.ATC.S.S01FA03;

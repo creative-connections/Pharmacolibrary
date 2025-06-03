@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AR01_Arsthinol;
+model Arsthinol = Pharmacolibrary.Drugs.ATC.P.P01AR01;

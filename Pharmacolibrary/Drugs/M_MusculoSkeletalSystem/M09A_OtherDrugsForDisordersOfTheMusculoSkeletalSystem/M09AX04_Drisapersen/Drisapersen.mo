@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem.M09AX04_Drisapersen;
+model Drisapersen = Pharmacolibrary.Drugs.ATC.M.M09AX04;

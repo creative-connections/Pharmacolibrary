@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.C;
+
+model C10BX13
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.2,
+    Cl             = 0.25,
+    adminDuration  = 600,
+    adminMass      = 0.01,
+    adminCount     = 1,
+    Vd             = 0.055,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.01,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>A fixed-dose combination medication containing rosuvastatin (a statin used to lower cholesterol), perindopril (an ACE inhibitor used for hypertension), and indapamide (a thiazide-like diuretic for hypertension and heart failure). Used for cardiovascular risk reduction and hypertension control. This combination is approved and is marketed in some countries.</p><h4>Pharmacokinetics</h4><p>No published studies currently available reporting pharmacokinetic parameters for the fixed-dose combination (FDC) of rosuvastatin/perindopril/indapamide as triple therapy. The following parameters are estimated based on published PK data of the individual components in healthy adult subjects.</p><h4>References</h4><ol><li> No original references found for PK data of the triple combination product (rosuvastatin/perindopril/indapamide). Parameters estimated using typical reported PK for individual drugs: rosuvastatin (oral bioavailability 20%, Vd ≈ 50 L, CL ≈ 15 L/hr), perindopril and indapamide (minor contributors to overall PK). All values are approximates and not sourced from a fixed-dose combination PK/PD study.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end C10BX13;

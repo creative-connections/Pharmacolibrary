@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse;
+package J01D_OtherBetaLactamAntibacterials
+  extends Icons.Package;
+end J01D_OtherBetaLactamAntibacterials;

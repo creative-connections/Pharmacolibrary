@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse;
+package J01E_SulfonamidesAndTrimethoprim
+  extends Icons.Package;
+end J01E_SulfonamidesAndTrimethoprim;

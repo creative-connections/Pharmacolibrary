@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BB01_Misoprostol;
+model Misoprostol = Pharmacolibrary.Drugs.ATC.A.A02BB01;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.N;
+
+model N04AC30
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.3,
+    Cl             = 2.0,
+    adminDuration  = 600,
+    adminMass      = 0.002,
+    adminCount     = 1,
+    Vd             = 0.006,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0008333333333333334,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Etybenzatropine is an anticholinergic agent structurally related to benzatropine, formerly investigated for potential use in Parkinson's disease and drug-induced extrapyramidal symptoms. There is limited published information about its clinical use, and it does not appear to be currently approved or widely used as a therapeutic agent.</p><h4>Pharmacokinetics</h4><p>No human pharmacokinetic data is available in the literature as of June 2024. The PK parameters provided here are theoretical estimates based on similarities to benzatropine, an analog in the same pharmacological class.</p><h4>References</h4><ol><li> No primary or secondary publications reporting pharmacokinetic parameters for etybenzatropine could be identified as of June 2024. All PK values provided are estimated, inferred using knowledge of structurally and pharmacologically similar compounds (e.g., benzatropine) and general anticholinergic drug profiles.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end N04AC30;

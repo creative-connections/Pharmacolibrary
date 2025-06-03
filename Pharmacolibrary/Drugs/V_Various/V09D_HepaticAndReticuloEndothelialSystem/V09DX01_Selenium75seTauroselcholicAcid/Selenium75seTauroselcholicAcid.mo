@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09D_HepaticAndReticuloEndothelialSystem.V09DX01_Selenium75seTauroselcholicAcid;
+model Selenium75seTauroselcholicAcid = Pharmacolibrary.Drugs.ATC.V.V09DX01;

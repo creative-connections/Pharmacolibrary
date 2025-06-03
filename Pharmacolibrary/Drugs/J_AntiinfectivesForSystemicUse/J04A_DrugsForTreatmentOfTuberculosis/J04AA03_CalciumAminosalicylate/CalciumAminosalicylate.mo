@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis.J04AA03_CalciumAminosalicylate;
+model CalciumAminosalicylate = Pharmacolibrary.Drugs.ATC.J.J04AA03;

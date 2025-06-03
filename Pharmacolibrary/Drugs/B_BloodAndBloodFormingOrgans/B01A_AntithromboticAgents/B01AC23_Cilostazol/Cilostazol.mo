@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AC23_Cilostazol;
+model Cilostazol = Pharmacolibrary.Drugs.ATC.B.B01AC23;

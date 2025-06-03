@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07X_CorticosteroidsOtherCombinations.D07XB05_Dexamethasone;
+model Dexamethasone = Pharmacolibrary.Drugs.ATC.D.D07XB05;

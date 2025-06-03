@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AH08_Abrocitinib;
+model Abrocitinib = Pharmacolibrary.Drugs.ATC.D.D11AH08;

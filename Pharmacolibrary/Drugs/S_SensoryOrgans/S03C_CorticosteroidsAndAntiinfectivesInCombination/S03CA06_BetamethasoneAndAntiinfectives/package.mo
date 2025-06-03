@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S03C_CorticosteroidsAndAntiinfectivesInCombination;
+package S03CA06_BetamethasoneAndAntiinfectives
+  extends Icons.Package;
+end S03CA06_BetamethasoneAndAntiinfectives;

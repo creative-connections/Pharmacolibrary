@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AB16_Remdesivir;
+model Remdesivir = Pharmacolibrary.Drugs.ATC.J.J05AB16;

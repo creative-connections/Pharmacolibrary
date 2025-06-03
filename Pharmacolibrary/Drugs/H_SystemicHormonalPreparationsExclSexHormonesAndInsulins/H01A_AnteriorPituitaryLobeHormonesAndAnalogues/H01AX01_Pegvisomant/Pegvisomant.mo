@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01A_AnteriorPituitaryLobeHormonesAndAnalogues.H01AX01_Pegvisomant;
+model Pegvisomant = Pharmacolibrary.Drugs.ATC.H.H01AX01;

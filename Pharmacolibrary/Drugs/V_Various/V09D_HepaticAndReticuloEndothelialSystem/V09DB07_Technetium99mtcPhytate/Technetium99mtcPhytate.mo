@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09D_HepaticAndReticuloEndothelialSystem.V09DB07_Technetium99mtcPhytate;
+model Technetium99mtcPhytate = Pharmacolibrary.Drugs.ATC.V.V09DB07;

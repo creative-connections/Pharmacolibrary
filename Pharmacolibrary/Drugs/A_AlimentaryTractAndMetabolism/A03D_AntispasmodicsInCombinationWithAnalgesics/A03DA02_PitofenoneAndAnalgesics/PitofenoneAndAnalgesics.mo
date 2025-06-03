@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03D_AntispasmodicsInCombinationWithAnalgesics.A03DA02_PitofenoneAndAnalgesics;
+model PitofenoneAndAnalgesics = Pharmacolibrary.Drugs.ATC.A.A03DA02;

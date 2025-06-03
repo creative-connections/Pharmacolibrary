@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09H_InflammationAndInfectionDetection.V09HA03_Technetium99mtcAntigranulocyteAntibody;
+model Technetium99mtcAntigranulocyteAntibody = Pharmacolibrary.Drugs.ATC.V.V09HA03;

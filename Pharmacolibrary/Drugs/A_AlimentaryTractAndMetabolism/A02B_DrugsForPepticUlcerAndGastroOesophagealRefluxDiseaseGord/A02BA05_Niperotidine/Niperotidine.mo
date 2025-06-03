@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BA05_Niperotidine;
+model Niperotidine = Pharmacolibrary.Drugs.ATC.A.A02BA05;

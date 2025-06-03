@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07A_CorticosteroidsPlain.D07AA01_Methylprednisolone;
+model Methylprednisolone = Pharmacolibrary.Drugs.ATC.D.D07AA01;

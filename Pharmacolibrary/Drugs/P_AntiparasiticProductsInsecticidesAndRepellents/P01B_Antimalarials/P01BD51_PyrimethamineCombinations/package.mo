@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials;
+package P01BD51_PyrimethamineCombinations
+  extends Icons.Package;
+end P01BD51_PyrimethamineCombinations;

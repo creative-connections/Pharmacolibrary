@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse;
+package J02AC05_Isavuconazole
+  extends Icons.Package;
+end J02AC05_Isavuconazole;

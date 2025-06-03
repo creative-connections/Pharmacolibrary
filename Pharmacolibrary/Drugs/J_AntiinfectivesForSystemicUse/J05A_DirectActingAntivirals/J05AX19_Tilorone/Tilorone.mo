@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AX19_Tilorone;
+model Tilorone = Pharmacolibrary.Drugs.ATC.J.J05AX19;

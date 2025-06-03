@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FX19_Sabatolimab;
+model Sabatolimab = Pharmacolibrary.Drugs.ATC.L.L01FX19;

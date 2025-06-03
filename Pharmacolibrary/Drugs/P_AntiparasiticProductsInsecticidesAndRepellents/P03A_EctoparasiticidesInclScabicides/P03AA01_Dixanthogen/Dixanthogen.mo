@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03A_EctoparasiticidesInclScabicides.P03AA01_Dixanthogen;
+model Dixanthogen = Pharmacolibrary.Drugs.ATC.P.P03AA01;

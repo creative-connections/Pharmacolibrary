@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides.C01CA24_Epinephrine;
+model Epinephrine = Pharmacolibrary.Drugs.ATC.C.C01CA24;

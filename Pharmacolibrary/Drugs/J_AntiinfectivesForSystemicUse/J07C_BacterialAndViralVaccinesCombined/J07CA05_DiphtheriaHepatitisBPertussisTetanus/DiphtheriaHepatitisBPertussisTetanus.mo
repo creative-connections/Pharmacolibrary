@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07C_BacterialAndViralVaccinesCombined.J07CA05_DiphtheriaHepatitisBPertussisTetanus;
+model DiphtheriaHepatitisBPertussisTetanus = Pharmacolibrary.Drugs.ATC.J.J07CA05;

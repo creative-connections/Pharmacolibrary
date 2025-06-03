@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07B_CorticosteroidsCombinationsWithAntiseptics;
+package D07BB04_HydrocortisoneButyrateAndAntiseptics
+  extends Icons.Package;
+end D07BB04_HydrocortisoneButyrateAndAntiseptics;

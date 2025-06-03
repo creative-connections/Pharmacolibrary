@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BX13_AlginicAcid;
+model AlginicAcid = Pharmacolibrary.Drugs.ATC.A.A02BX13;

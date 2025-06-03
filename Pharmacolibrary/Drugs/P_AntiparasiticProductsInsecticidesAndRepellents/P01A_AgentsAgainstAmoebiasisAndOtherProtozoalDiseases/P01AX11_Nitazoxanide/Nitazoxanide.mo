@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AX11_Nitazoxanide;
+model Nitazoxanide = Pharmacolibrary.Drugs.ATC.P.P01AX11;

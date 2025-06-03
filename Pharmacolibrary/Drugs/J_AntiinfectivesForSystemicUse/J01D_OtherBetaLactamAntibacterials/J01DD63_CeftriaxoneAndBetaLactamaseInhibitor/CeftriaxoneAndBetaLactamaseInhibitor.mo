@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DD63_CeftriaxoneAndBetaLactamaseInhibitor;
+model CeftriaxoneAndBetaLactamaseInhibitor = Pharmacolibrary.Drugs.ATC.J.J01DD63;

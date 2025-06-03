@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07A_IntestinalAntiinfectives.A07AA10_Colistin;
+model Colistin = Pharmacolibrary.Drugs.ATC.A.A07AA10;

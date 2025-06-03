@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs;
+package P_AntiparasiticProductsInsecticidesAndRepellents
+  extends Icons.Package;
+end P_AntiparasiticProductsInsecticidesAndRepellents;

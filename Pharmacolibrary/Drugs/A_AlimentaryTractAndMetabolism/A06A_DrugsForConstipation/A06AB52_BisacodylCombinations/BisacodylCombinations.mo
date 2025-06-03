@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AB52_BisacodylCombinations;
+model BisacodylCombinations = Pharmacolibrary.Drugs.ATC.A.A06AB52;

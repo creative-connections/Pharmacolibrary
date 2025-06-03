@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03B_AntithyroidPreparations;
+package H03BA01_Methylthiouracil
+  extends Icons.Package;
+end H03BA01_Methylthiouracil;

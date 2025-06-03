@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations.C10BX09_RosuvastatinAndAmlodipine;
+model RosuvastatinAndAmlodipine = Pharmacolibrary.Drugs.ATC.C.C10BX09;

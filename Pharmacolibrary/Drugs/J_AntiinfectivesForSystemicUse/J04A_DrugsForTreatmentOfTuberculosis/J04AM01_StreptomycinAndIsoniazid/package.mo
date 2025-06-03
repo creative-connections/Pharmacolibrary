@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis;
+package J04AM01_StreptomycinAndIsoniazid
+  extends Icons.Package;
+end J04AM01_StreptomycinAndIsoniazid;

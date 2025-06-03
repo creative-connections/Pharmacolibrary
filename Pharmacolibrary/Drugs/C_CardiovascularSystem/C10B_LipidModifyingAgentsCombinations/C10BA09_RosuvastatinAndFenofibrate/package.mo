@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations;
+package C10BA09_RosuvastatinAndFenofibrate
+  extends Icons.Package;
+end C10BA09_RosuvastatinAndFenofibrate;

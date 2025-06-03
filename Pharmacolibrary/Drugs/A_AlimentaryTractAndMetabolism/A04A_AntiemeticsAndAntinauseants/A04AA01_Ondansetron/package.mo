@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A04A_AntiemeticsAndAntinauseants;
+package A04AA01_Ondansetron
+  extends Icons.Package;
+end A04AA01_Ondansetron;

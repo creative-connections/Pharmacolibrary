@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.A;
+
+model A16AB21
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0,
+    Cl             = 0.0,
+    adminDuration  = 600,
+    adminMass      = 0.0,
+    adminCount     = 1,
+    Vd             = 0,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Atidarsagene autotemcel is an autologous, genetically modified CD34+ cell therapy indicated for the treatment of metachromatic leukodystrophy (MLD). It delivers a functional ARSA gene to correct the underlying enzymatic deficiency. It is approved for use in certain countries for pre-symptomatic or early-symptomatic pediatric patients with MLD.</p><h4>Pharmacokinetics</h4><p>No published, peer-reviewed pharmacokinetic (PK) model parameters have been identified for atidarsagene autotemcel in any population. As a cell-based gene therapy, standard small molecule PK parameters such as clearance or volume of distribution are not readily applicable. Pharmacokinetic evaluation is generally replaced by engraftment and gene expression studies.</p><h4>References</h4><ol><li> No published PK studies or values for standard pharmacokinetic parameters (e.g., CL, Vd) for atidarsagene autotemcel exist. As a cell/gene therapy, PK parameters are not typically applicable; only engraftment and ARSA activity/time course are measured. This output reflects an estimated profile based on the nature of the product and available regulatory and clinical trial documents.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end A16AB21;

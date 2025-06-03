@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FB02_MoxetumomabPasudotox;
+model MoxetumomabPasudotox = Pharmacolibrary.Drugs.ATC.L.L01FB02;

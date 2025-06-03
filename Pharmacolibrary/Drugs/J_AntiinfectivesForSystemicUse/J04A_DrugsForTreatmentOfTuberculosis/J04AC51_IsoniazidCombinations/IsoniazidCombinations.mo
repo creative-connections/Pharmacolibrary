@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis.J04AC51_IsoniazidCombinations;
+model IsoniazidCombinations = Pharmacolibrary.Drugs.ATC.J.J04AC51;

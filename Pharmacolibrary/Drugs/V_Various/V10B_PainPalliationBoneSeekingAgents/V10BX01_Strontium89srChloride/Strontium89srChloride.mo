@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V10B_PainPalliationBoneSeekingAgents.V10BX01_Strontium89srChloride;
+model Strontium89srChloride = Pharmacolibrary.Drugs.ATC.V.V10BX01;

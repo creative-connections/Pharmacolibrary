@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01X_OtherOphthalmologicals.S01XA27_VoretigeneNeparvovec;
+model VoretigeneNeparvovec = Pharmacolibrary.Drugs.ATC.S.S01XA27;

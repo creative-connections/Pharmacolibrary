@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates;
+package L01FY03_ProlgolimabAndNurulimab
+  extends Icons.Package;
+end L01FY03_ProlgolimabAndNurulimab;

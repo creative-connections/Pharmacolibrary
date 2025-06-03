@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01A_Tetracyclines;
+package J01AA56_OxytetracyclineCombinations
+  extends Icons.Package;
+end J01AA56_OxytetracyclineCombinations;

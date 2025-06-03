@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.C;
+
+model C07CA23
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.9,
+    Cl             = 3.1666666666666665,
+    adminDuration  = 600,
+    adminMass      = 0.02,
+    adminCount     = 1,
+    Vd             = 0.0064,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.02,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Penbutolol is a non-selective beta-adrenergic antagonist used as an antihypertensive agent, sometimes in combination with diuretics for enhanced blood pressure reduction. The ATC code C07CA23 indicates combination therapies involving beta-blockers and diuretics. Penbutolol is approved for use in some regions for hypertension management, but its use has declined in favor of newer agents and combinations.</p><h4>Pharmacokinetics</h4><p>No published population or compartmental pharmacokinetic studies are available for the penbutolol and other diuretics combination. The following parameters are theoretical estimates based on monotherapy penbutolol data in healthy adults (typical oral dosing, single dose).</p><h4>References</h4><ol><li> No pharmacokinetic studies published specifically for the penbutolol and diuretic combination (ATC C07CA23). All reported values are reasonable estimates derived from summary data of penbutolol as monotherapy in healthy adults as found in drug monographs and FDA reviews. Combination therapies may alter PK due to drug interactions or altered physiology, but such effects are not characterized in literature.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end C07CA23;

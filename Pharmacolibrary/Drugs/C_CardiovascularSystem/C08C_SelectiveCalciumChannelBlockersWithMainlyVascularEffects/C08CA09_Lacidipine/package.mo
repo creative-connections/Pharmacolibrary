@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08C_SelectiveCalciumChannelBlockersWithMainlyVascularEffects;
+package C08CA09_Lacidipine
+  extends Icons.Package;
+end C08CA09_Lacidipine;

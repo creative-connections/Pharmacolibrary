@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BG04_Lobeglitazone;
+model Lobeglitazone = Pharmacolibrary.Drugs.ATC.A.A10BG04;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A08A_AntiobesityPreparationsExclDietProducts.A08AA09_Mefenorex;
+model Mefenorex = Pharmacolibrary.Drugs.ATC.A.A08AA09;

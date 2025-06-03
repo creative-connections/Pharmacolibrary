@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02K_OtherAntihypertensives.C02KX52_AmbrisentanAndTadalafil;
+model AmbrisentanAndTadalafil = Pharmacolibrary.Drugs.ATC.C.C02KX52;

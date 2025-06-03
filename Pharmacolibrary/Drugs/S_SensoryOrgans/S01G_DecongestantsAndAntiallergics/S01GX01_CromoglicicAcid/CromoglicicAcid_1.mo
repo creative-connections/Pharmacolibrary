@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01G_DecongestantsAndAntiallergics.S01GX01_CromoglicicAcid;
+model CromoglicicAcid_1 = Pharmacolibrary.Drugs.ATC.S.S01GX01_1;

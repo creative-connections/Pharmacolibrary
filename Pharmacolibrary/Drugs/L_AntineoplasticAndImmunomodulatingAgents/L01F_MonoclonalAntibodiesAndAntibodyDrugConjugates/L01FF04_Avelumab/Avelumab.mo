@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FF04_Avelumab;
+model Avelumab = Pharmacolibrary.Drugs.ATC.L.L01FF04;

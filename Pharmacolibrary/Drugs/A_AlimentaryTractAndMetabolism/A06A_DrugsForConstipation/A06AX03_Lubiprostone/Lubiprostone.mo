@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AX03_Lubiprostone;
+model Lubiprostone = Pharmacolibrary.Drugs.ATC.A.A06AX03;

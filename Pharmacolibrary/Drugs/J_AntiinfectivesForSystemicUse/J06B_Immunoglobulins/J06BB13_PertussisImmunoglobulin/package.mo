@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J06B_Immunoglobulins;
+package J06BB13_PertussisImmunoglobulin
+  extends Icons.Package;
+end J06BB13_PertussisImmunoglobulin;

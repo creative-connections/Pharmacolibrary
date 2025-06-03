@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases;
+package R03DB05_AminophyllineAndAdrenergics
+  extends Icons.Package;
+end R03DB05_AminophyllineAndAdrenergics;

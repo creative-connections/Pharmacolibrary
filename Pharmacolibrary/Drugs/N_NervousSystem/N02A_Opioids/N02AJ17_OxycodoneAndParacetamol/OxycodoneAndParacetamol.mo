@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids.N02AJ17_OxycodoneAndParacetamol;
+model OxycodoneAndParacetamol = Pharmacolibrary.Drugs.ATC.N.N02AJ17;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08C_SelectiveCalciumChannelBlockersWithMainlyVascularEffects;
+package C08CA03_Isradipine
+  extends Icons.Package;
+end C08CA03_Isradipine;

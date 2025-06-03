@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EX25_Umbralisib;
+model Umbralisib = Pharmacolibrary.Drugs.ATC.L.L01EX25;

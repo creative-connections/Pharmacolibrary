@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination.C02LB01_MethyldopaLevorotatoryAndDiuretics;
+model MethyldopaLevorotatoryAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C02LB01;

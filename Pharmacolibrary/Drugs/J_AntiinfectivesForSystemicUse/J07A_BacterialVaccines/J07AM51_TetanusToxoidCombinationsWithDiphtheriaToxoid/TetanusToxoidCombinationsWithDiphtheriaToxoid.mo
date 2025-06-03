@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AM51_TetanusToxoidCombinationsWithDiphtheriaToxoid;
+model TetanusToxoidCombinationsWithDiphtheriaToxoid = Pharmacolibrary.Drugs.ATC.J.J07AM51;

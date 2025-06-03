@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AH03_Naloxegol;
+model Naloxegol = Pharmacolibrary.Drugs.ATC.A.A06AH03;

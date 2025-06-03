@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02K_OtherAntihypertensives;
+package C02KX52_AmbrisentanAndTadalafil
+  extends Icons.Package;
+end C02KX52_AmbrisentanAndTadalafil;

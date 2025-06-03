@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02D_ArteriolarSmoothMuscleAgentsActingOn.C02DC01_Minoxidil;
+model Minoxidil = Pharmacolibrary.Drugs.ATC.C.C02DC01;

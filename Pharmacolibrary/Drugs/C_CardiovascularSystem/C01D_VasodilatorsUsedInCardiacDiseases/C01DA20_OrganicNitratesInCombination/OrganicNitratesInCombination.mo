@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DA20_OrganicNitratesInCombination;
+model OrganicNitratesInCombination = Pharmacolibrary.Drugs.ATC.C.C01DA20;

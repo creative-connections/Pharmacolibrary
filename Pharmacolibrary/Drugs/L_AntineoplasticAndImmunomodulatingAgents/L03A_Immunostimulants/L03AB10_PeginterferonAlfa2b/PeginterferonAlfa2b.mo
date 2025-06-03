@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AB10_PeginterferonAlfa2b;
+model PeginterferonAlfa2b = Pharmacolibrary.Drugs.ATC.L.L03AB10;

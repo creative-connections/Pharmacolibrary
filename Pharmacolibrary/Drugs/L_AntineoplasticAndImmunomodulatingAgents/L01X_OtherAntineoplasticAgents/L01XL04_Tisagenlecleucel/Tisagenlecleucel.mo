@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XL04_Tisagenlecleucel;
+model Tisagenlecleucel = Pharmacolibrary.Drugs.ATC.L.L01XL04;

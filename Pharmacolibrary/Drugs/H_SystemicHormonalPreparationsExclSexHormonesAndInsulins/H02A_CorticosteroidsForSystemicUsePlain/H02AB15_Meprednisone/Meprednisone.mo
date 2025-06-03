@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02A_CorticosteroidsForSystemicUsePlain.H02AB15_Meprednisone;
+model Meprednisone = Pharmacolibrary.Drugs.ATC.H.H02AB15;

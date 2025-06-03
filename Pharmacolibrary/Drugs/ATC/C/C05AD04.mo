@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.C;
+
+model C05AD04
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.05,
+    Cl             = 0.16666666666666666,
+    adminDuration  = 600,
+    adminMass      = 0.02,
+    adminCount     = 1,
+    Vd             = 0.0015,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Cinchocaine, also known as dibucaine, is a potent local anesthetic of the amide type. It is primarily used topically to relieve pain and itching caused by conditions such as hemorrhoids and minor skin irritations. It is not widely used systemically and is currently available mostly in topical formulations. Its use is approved for topical and sometimes rectal administration, but it is not considered a first-line local anesthetic today due to systemic toxicity risk if absorbed in large amounts.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters in adults based on similar local anesthetics, as no direct clinical PK data for cinchocaine in humans is available.</p><h4>References</h4><ol><li> No published human pharmacokinetic studies found for cinchocaine. The parameters are best estimates extrapolated from animal studies, physicochemical data, and analogy to other amide anesthetics such as lidocaine and bupivacaine. Oral bioavailability is not relevant as the drug is not given orally, and systemic exposure is minimized in topical/rectal use.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end C05AD04;

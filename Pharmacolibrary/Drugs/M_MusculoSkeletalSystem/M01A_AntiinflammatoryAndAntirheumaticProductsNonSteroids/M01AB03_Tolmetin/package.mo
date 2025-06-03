@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids;
+package M01AB03_Tolmetin
+  extends Icons.Package;
+end M01AB03_Tolmetin;

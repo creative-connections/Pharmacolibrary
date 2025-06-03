@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01R_CombinationsOfAntibacterials;
+package J01RA02_SulfonamidesCombinationsWithOtherAntibacterialsExclTrimethoprim
+  extends Icons.Package;
+end J01RA02_SulfonamidesCombinationsWithOtherAntibacterialsExclTrimethoprim;

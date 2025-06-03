@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives.B05XA30_CombinationsOfElectrolytes;
+model CombinationsOfElectrolytes = Pharmacolibrary.Drugs.ATC.B.B05XA30;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01B_PosteriorPituitaryLobeHormones.H01BB01_Demoxytocin;
+model Demoxytocin = Pharmacolibrary.Drugs.ATC.H.H01BB01;

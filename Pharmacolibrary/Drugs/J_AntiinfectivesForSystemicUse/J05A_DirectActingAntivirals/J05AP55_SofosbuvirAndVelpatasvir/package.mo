@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
+package J05AP55_SofosbuvirAndVelpatasvir
+  extends Icons.Package;
+end J05AP55_SofosbuvirAndVelpatasvir;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse;
+package C05AX06_Phenylephrine
+  extends Icons.Package;
+end C05AX06_Phenylephrine;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations.C09BX06_PerindoprilBisoprololAmlodipineAndIndapamide;
+model PerindoprilBisoprololAmlodipineAndIndapamide = Pharmacolibrary.Drugs.ATC.C.C09BX06;

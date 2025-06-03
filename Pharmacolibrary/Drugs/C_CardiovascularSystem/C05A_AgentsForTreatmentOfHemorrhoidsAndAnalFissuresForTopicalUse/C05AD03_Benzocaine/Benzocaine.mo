@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse.C05AD03_Benzocaine;
+model Benzocaine = Pharmacolibrary.Drugs.ATC.C.C05AD03;

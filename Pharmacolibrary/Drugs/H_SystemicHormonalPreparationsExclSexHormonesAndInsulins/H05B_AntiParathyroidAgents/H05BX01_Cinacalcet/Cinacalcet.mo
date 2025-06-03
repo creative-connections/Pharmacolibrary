@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05B_AntiParathyroidAgents.H05BX01_Cinacalcet;
+model Cinacalcet = Pharmacolibrary.Drugs.ATC.H.H05BX01;

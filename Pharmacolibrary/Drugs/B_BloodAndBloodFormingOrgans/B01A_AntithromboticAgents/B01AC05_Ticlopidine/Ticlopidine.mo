@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AC05_Ticlopidine;
+model Ticlopidine = Pharmacolibrary.Drugs.ATC.B.B01AC05;

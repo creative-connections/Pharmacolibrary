@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02B_ContraceptivesForTopicalUse;
+package G02BB02_VaginalRingWithProgestogen
+  extends Icons.Package;
+end G02BB02_VaginalRingWithProgestogen;

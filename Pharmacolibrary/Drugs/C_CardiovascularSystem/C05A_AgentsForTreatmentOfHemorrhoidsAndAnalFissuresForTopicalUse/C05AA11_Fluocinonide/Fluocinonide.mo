@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse.C05AA11_Fluocinonide;
+model Fluocinonide = Pharmacolibrary.Drugs.ATC.C.C05AA11;

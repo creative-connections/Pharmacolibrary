@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants;
+package L03AB17_SampeginterferonBeta1a
+  extends Icons.Package;
+end L03AB17_SampeginterferonBeta1a;

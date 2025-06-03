@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids;
+package M01AH01_Celecoxib
+  extends Icons.Package;
+end M01AH01_Celecoxib;

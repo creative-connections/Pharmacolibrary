@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AX10_Fumagillin;
+model Fumagillin = Pharmacolibrary.Drugs.ATC.P.P01AX10;

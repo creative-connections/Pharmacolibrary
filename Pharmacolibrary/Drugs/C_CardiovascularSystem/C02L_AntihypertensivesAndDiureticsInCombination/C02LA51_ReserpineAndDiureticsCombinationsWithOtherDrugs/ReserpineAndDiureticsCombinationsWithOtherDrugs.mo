@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination.C02LA51_ReserpineAndDiureticsCombinationsWithOtherDrugs;
+model ReserpineAndDiureticsCombinationsWithOtherDrugs = Pharmacolibrary.Drugs.ATC.C.C02LA51;

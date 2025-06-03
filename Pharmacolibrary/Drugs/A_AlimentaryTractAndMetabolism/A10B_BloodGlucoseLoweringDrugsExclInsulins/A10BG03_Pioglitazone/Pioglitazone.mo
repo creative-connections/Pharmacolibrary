@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BG03_Pioglitazone;
+model Pioglitazone = Pharmacolibrary.Drugs.ATC.A.A10BG03;

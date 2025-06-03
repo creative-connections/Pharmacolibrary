@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AC09_Briakinumab;
+model Briakinumab = Pharmacolibrary.Drugs.ATC.L.L04AC09;

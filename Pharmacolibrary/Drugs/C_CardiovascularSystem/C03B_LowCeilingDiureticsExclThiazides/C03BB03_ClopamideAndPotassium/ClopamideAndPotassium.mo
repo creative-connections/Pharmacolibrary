@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03B_LowCeilingDiureticsExclThiazides.C03BB03_ClopamideAndPotassium;
+model ClopamideAndPotassium = Pharmacolibrary.Drugs.ATC.C.C03BB03;

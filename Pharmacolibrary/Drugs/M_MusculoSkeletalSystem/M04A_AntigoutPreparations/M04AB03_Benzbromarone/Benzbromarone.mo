@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M04A_AntigoutPreparations.M04AB03_Benzbromarone;
+model Benzbromarone = Pharmacolibrary.Drugs.ATC.M.M04AB03;

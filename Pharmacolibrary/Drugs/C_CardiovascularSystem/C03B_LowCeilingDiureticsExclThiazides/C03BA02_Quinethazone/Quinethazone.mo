@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03B_LowCeilingDiureticsExclThiazides.C03BA02_Quinethazone;
+model Quinethazone = Pharmacolibrary.Drugs.ATC.C.C03BA02;

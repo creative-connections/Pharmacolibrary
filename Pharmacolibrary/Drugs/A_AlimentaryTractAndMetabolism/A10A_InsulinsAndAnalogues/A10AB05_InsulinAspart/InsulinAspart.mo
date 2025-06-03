@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10A_InsulinsAndAnalogues.A10AB05_InsulinAspart;
+model InsulinAspart = Pharmacolibrary.Drugs.ATC.A.A10AB05;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XX62_Ivosidenib;
+model Ivosidenib = Pharmacolibrary.Drugs.ATC.L.L01XX62;

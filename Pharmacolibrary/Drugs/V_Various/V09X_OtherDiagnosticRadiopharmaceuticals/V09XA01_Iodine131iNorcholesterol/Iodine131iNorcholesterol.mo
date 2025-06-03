@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09X_OtherDiagnosticRadiopharmaceuticals.V09XA01_Iodine131iNorcholesterol;
+model Iodine131iNorcholesterol = Pharmacolibrary.Drugs.ATC.V.V09XA01;

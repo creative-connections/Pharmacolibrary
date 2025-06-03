@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11C_VitaminAAndDInclCombinationsOfTheTwo.A11CC05_Colecalciferol;
+model Colecalciferol = Pharmacolibrary.Drugs.ATC.A.A11CC05;

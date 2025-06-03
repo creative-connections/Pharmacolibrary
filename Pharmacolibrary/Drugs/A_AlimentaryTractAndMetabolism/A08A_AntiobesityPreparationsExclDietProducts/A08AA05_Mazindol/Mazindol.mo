@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A08A_AntiobesityPreparationsExclDietProducts.A08AA05_Mazindol;
+model Mazindol = Pharmacolibrary.Drugs.ATC.A.A08AA05;

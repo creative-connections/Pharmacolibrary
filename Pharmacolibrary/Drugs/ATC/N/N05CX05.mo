@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.N;
+
+model N05CX05
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.05,
+    Cl             = 0.11666666666666667,
+    adminDuration  = 600,
+    adminMass      = 0.2,
+    adminCount     = 1,
+    Vd             = 0.015,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0016666666666666668,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Emepronium is a quaternary ammonium antimuscarinic drug previously used as a spasmolytic agent for urinary tract disorders such as overactive bladder and urinary incontinence. Today, it is rarely used or approved due to its side effect profile and the availability of safer alternatives. In some markets, it was available in combination with other agents for specific indications.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic parameters for emepronium, combinations, were found in scientific literature or public pharmacokinetic databases as of current knowledge (up to 2024). The following are estimated values based on general pharmacokinetic properties of quaternary ammonium antimuscarinics and known oral administration.</p><h4>References</h4><ol><li> No specific publication or study reports the pharmacokinetic properties of emepronium, combinations (ATC N05CX05). Values are estimated based on chemical class properties, usage patterns, and similar agents, due to the absence of direct human PK studies. If future literature becomes available these values should be replaced with those from referenced studies.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end N05CX05;

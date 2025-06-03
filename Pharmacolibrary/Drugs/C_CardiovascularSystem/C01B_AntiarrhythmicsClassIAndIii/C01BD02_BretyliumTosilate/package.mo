@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01B_AntiarrhythmicsClassIAndIii;
+package C01BD02_BretyliumTosilate
+  extends Icons.Package;
+end C01BD02_BretyliumTosilate;

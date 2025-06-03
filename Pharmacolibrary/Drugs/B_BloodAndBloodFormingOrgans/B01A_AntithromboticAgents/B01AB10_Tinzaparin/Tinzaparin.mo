@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AB10_Tinzaparin;
+model Tinzaparin = Pharmacolibrary.Drugs.ATC.B.B01AB10;

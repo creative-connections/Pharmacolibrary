@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.R;
+
+model R01AX30
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.05,
+    Cl             = 0.2,
+    adminDuration  = 600,
+    adminMass      = 0.00014000000000000001,
+    adminCount     = 1,
+    Vd             = 0.02,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>The combination of xylometazoline, a topical nasal decongestant (alpha-adrenergic agonist), and dexamethasone, a corticosteroid with anti-inflammatory properties, is used in intranasal preparations to reduce nasal congestion and inflammation associated with rhinitis or sinusitis. It is not widely approved as a fixed drug combination in major markets, but is referenced under ATC code R01AX30.</p><h4>Pharmacokinetics</h4><p>No direct pharmacokinetic (PK) studies on the combination product exist. Estimates are based on published data of each substance administered intranasally in healthy adults.</p><h4>References</h4><ol><li> No direct pharmacokinetic studies exist for this fixed-dose combination; all PK values are estimated based on individual published profiles of intranasal dexamethasone and xylometazoline. Systemic exposure to both agents with intranasal application is low.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end R01AX30;

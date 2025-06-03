@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders.A03AX02_Diisopromine;
+model Diisopromine = Pharmacolibrary.Drugs.ATC.A.A03AX02;

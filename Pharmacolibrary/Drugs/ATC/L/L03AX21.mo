@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.L;
+
+model L03AX21
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.041666666666666664,
+    adminDuration  = 600,
+    adminMass      = 0.0004,
+    adminCount     = 1,
+    Vd             = 0.0002,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Elapegademase (brand name: Revcovi) is a recombinant, pegylated adenosine deaminase enzyme used as enzyme replacement therapy for adenosine deaminase severe combined immunodeficiency (ADA-SCID), a rare genetic disorder. It is approved by the FDA and is indicated for use in both pediatric and adult patients with ADA-SCID.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for typical adult patient, as no published sources reporting specific PK parameters (clearance, volume of distribution, etc.) for elapegademase were identified in the literature.</p><h4>References</h4><ol><li> No direct published PK data available for elapegademase. The dose, route, and frequency are per FDA labeling, with PK parameters (Vd, Cl) estimated based on analogy to other pegylated protein/enzyme replacement therapies. No peer-reviewed references were found that quantify clearance, Vd, or intercompartment parameters for this drug in humans.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end L03AX21;

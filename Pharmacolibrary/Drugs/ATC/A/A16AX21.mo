@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.A;
+
+model A16AX21
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1.0,
+    Cl             = 0.0,
+    adminDuration  = 600,
+    adminMass      = 0.005900000000000001,
+    adminCount     = 1,
+    Vd             = 0,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Elivaldogene autotemcel (also known as Lenti-D) is an autologous hematopoietic stem cell gene therapy used for the treatment of cerebral adrenoleukodystrophy (CALD). It is intended to add a functional copy of the ABCD1 gene to the patient's own hematopoietic stem cells, thereby enabling the production of the ALD protein which is deficient in this condition. The therapy is indicated for boys with early active cerebral adrenoleukodystrophy and has received conditional approval in the EU, but was withdrawn from the market for commercial reasons. It is not currently approved in the US.</p><h4>Pharmacokinetics</h4><p>No direct pharmacokinetic (PK) parameters (absorption, distribution, metabolism, elimination) are reported for elivaldogene autotemcel, as it is a genetically modified autologous cell therapy. Its fate is determined by engraftment and persistence of the modified stem cells, not by traditional PK processes. No studies provide standard PK data. Data is applicable to pediatric males with CALD receiving a single intravenous dose following myeloablative conditioning.</p><h4>References</h4><ol><li> No standard pharmacokinetic parameters (e.g., Cmax, t1/2, Vd, Cl) are reported for cell and gene therapies like elivaldogene autotemcel, because these therapies function by cellular engraftment and gene expression, not traditional drug disposition. Dose given refers to the recommended cell dose per kg. All PK fields are not applicable or estimated as 0. Sources: clinicaltrials.gov, FDA Briefing Document, EMA Assessment Report, scientific literature reviews.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end A16AX21;

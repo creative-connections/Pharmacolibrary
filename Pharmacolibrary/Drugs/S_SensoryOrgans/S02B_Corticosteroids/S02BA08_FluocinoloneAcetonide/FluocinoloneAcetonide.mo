@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S02B_Corticosteroids.S02BA08_FluocinoloneAcetonide;
+model FluocinoloneAcetonide = Pharmacolibrary.Drugs.ATC.S.S02BA08;

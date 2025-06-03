@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V10A_AntiinflammatoryAgents;
+package V10AA02_Yttrium90yFerrihydroxideColloid
+  extends Icons.Package;
+end V10AA02_Yttrium90yFerrihydroxideColloid;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03A_EctoparasiticidesInclScabicides.P03AC01_Pyrethrum;
+model Pyrethrum = Pharmacolibrary.Drugs.ATC.P.P03AC01;

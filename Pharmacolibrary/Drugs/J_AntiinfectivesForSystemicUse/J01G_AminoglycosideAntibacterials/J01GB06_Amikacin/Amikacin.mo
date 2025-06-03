@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01G_AminoglycosideAntibacterials.J01GB06_Amikacin;
+model Amikacin = Pharmacolibrary.Drugs.ATC.J.J01GB06;

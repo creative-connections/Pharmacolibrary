@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis;
+package J04AB05_Rifapentine
+  extends Icons.Package;
+end J04AB05_Rifapentine;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AH04_MeningococcusACYW135TetravalentPurifiedPolysaccharidesAntigen;
+model MeningococcusACYW135TetravalentPurifiedPolysaccharidesAntigen = Pharmacolibrary.Drugs.ATC.J.J07AH04;

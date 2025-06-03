@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases.R03DX02_Eprozinol;
+model Eprozinol = Pharmacolibrary.Drugs.ATC.R.R03DX02;

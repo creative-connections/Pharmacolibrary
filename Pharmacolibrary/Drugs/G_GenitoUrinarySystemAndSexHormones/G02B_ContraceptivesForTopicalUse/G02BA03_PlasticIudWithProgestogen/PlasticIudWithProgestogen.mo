@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02B_ContraceptivesForTopicalUse.G02BA03_PlasticIudWithProgestogen;
+model PlasticIudWithProgestogen = Pharmacolibrary.Drugs.ATC.G.G02BA03;

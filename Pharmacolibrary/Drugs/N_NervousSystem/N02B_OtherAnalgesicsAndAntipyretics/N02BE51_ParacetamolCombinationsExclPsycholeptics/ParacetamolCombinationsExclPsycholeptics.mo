@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics.N02BE51_ParacetamolCombinationsExclPsycholeptics;
+model ParacetamolCombinationsExclPsycholeptics = Pharmacolibrary.Drugs.ATC.N.N02BE51;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A05A_BileTherapy.A05AA02_UrsodeoxycholicAcid;
+model UrsodeoxycholicAcid = Pharmacolibrary.Drugs.ATC.A.A05AA02;

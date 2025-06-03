@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.L;
+
+model L01EB11
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.81,
+    Cl             = 0.32,
+    adminDuration  = 600,
+    adminMass      = 0.11,
+    adminCount     = 1,
+    Vd             = 0.306,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.012,
+    Tlag           = 10.799999999999999
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Aumolertinib is a third-generation, oral, epidermal growth factor receptor (EGFR) tyrosine kinase inhibitor used for the treatment of EGFR-mutant non-small cell lung cancer (NSCLC). It is approved in China for the treatment of patients with advanced or metastatic NSCLC harboring EGFR mutations.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters in adult patients with advanced NSCLC following oral administration. Population PK analyses and clinical studies support the following estimates.</p><h4>References</h4><ol><li><a href='https://dx.doi.org/10.1158/1078-0432.CCR-20-3394'>10.1158/1078-0432.CCR-20-3394</a> Data derived from population PK analysis reported in Phase I/II studies in NSCLC patients. ka sourced from popPK model in the referenced publication. Bioavailability based on mean values from clinical studies.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end L01EB11;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03C_AntispasmodicsInCombinationWithPsycholeptics.A03CA09_PipenzolateAndPsycholeptics;
+model PipenzolateAndPsycholeptics = Pharmacolibrary.Drugs.ATC.A.A03CA09;

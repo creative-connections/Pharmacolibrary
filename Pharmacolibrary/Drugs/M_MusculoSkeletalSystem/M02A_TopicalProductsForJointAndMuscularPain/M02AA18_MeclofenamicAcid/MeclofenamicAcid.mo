@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain.M02AA18_MeclofenamicAcid;
+model MeclofenamicAcid = Pharmacolibrary.Drugs.ATC.M.M02AA18;

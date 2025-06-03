@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10A_InsulinsAndAnalogues.A10AD03_InsulinPork;
+model InsulinPork = Pharmacolibrary.Drugs.ATC.A.A10AD03;

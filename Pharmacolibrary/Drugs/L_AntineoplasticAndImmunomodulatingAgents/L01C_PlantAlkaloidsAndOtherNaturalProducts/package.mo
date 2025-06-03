@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents;
+package L01C_PlantAlkaloidsAndOtherNaturalProducts
+  extends Icons.Package;
+end L01C_PlantAlkaloidsAndOtherNaturalProducts;

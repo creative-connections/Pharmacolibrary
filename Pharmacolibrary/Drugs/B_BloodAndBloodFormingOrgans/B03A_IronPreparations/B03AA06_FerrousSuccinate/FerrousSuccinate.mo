@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AA06_FerrousSuccinate;
+model FerrousSuccinate = Pharmacolibrary.Drugs.ATC.B.B03AA06;

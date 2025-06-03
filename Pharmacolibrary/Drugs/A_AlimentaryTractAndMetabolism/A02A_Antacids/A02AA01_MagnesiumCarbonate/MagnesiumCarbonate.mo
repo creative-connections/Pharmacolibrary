@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02A_Antacids.A02AA01_MagnesiumCarbonate;
+model MagnesiumCarbonate = Pharmacolibrary.Drugs.ATC.A.A02AA01;

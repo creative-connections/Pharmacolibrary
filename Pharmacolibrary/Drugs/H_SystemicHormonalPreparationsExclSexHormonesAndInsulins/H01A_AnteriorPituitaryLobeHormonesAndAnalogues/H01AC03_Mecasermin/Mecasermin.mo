@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01A_AnteriorPituitaryLobeHormonesAndAnalogues.H01AC03_Mecasermin;
+model Mecasermin = Pharmacolibrary.Drugs.ATC.H.H01AC03;

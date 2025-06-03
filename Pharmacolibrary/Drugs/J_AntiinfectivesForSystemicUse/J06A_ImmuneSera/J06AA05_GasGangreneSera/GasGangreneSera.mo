@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J06A_ImmuneSera.J06AA05_GasGangreneSera;
+model GasGangreneSera = Pharmacolibrary.Drugs.ATC.J.J06AA05;

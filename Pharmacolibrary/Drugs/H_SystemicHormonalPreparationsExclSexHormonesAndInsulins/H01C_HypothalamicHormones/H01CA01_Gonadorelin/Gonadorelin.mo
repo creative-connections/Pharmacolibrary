@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01C_HypothalamicHormones.H01CA01_Gonadorelin;
+model Gonadorelin = Pharmacolibrary.Drugs.ATC.H.H01CA01;

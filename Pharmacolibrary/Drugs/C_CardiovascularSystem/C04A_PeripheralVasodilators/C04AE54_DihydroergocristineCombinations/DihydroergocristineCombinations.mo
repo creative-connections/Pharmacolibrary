@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C04A_PeripheralVasodilators.C04AE54_DihydroergocristineCombinations;
+model DihydroergocristineCombinations = Pharmacolibrary.Drugs.ATC.C.C04AE54;

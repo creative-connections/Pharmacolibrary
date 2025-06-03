@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N05C_HypnoticsAndSedatives.N05CX02_MethaqualoneCombinations;
+model MethaqualoneCombinations = Pharmacolibrary.Drugs.ATC.N.N05CX02;

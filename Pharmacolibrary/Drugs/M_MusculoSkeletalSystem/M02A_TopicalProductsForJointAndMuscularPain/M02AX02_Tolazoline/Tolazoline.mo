@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain.M02AX02_Tolazoline;
+model Tolazoline = Pharmacolibrary.Drugs.ATC.M.M02AX02;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.N;
+
+model N06CA01
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.5,
+    Cl             = 0.65,
+    adminDuration  = 600,
+    adminMass      = 0.075,
+    adminCount     = 1,
+    Vd             = 0.022,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.005116666666666667,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Amitriptyline is a tricyclic antidepressant used primarily in the treatment of major depressive disorder and various types of chronic pain. Amitriptyline and psycholeptics in combination may refer to co-prescribing of sedative or anxiolytic agents for psychiatric indications. Amitriptyline is an approved drug still in clinical use globally.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters for amitriptyline and psycholeptics are estimated based on published data for amitriptyline in healthy adult subjects. Sex, age, or comorbidities were not specifically stratified.</p><h4>References</h4><ol><li><a href='https://dx.doi.org/10.1111/j.1365-2125.1980.tb01810.x'>10.1111/j.1365-2125.1980.tb01810.x</a> Values reflect oral pharmacokinetic parameters for amitriptyline in mostly healthy adults; DOI given links to a publication that presents two-compartment model fits from healthy volunteers. Combination with other psycholeptics may alter parameters modestly, but specific published PK for the coded combination is not available.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end N06CA01;

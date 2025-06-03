@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DX10_Dilazep;
+model Dilazep = Pharmacolibrary.Drugs.ATC.C.C01DX10;

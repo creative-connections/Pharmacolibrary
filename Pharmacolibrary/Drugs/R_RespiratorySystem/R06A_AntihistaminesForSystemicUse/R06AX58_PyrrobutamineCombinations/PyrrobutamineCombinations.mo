@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AX58_PyrrobutamineCombinations;
+model PyrrobutamineCombinations = Pharmacolibrary.Drugs.ATC.R.R06AX58;

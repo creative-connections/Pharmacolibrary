@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AH07_Tralokinumab;
+model Tralokinumab = Pharmacolibrary.Drugs.ATC.D.D11AH07;

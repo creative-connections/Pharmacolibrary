@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03A_MuscleRelaxantsPeripherallyActingAgents.M03AA02_Tubocurarine;
+model Tubocurarine = Pharmacolibrary.Drugs.ATC.M.M03AA02;

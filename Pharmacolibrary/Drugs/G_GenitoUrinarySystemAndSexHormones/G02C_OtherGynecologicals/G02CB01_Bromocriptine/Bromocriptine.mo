@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02C_OtherGynecologicals.G02CB01_Bromocriptine;
+model Bromocriptine = Pharmacolibrary.Drugs.ATC.G.G02CB01;

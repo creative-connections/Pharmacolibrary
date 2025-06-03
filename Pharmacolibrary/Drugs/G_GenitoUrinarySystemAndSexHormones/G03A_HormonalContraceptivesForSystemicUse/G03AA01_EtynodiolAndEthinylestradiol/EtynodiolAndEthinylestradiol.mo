@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AA01_EtynodiolAndEthinylestradiol;
+model EtynodiolAndEthinylestradiol = Pharmacolibrary.Drugs.ATC.G.G03AA01;

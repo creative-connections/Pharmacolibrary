@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10A_InsulinsAndAnalogues.A10AC01_InsulinHuman;
+model InsulinHuman = Pharmacolibrary.Drugs.ATC.A.A10AC01;

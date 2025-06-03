@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AF06_Abacavir;
+model Abacavir = Pharmacolibrary.Drugs.ATC.J.J05AF06;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01X_OtherAntibacterials.J01XA05_Oritavancin;
+model Oritavancin = Pharmacolibrary.Drugs.ATC.J.J01XA05;

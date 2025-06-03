@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination.C02LG02_HydralazineAndDiuretics;
+model HydralazineAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C02LG02;

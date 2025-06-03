@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03B_BelladonnaAndDerivativesPlain;
+package A03BB02_Methylatropine
+  extends Icons.Package;
+end A03BB02_Methylatropine;

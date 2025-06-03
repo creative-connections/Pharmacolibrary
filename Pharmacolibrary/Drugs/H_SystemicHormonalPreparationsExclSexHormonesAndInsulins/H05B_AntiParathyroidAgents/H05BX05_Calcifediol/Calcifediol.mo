@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05B_AntiParathyroidAgents.H05BX05_Calcifediol;
+model Calcifediol = Pharmacolibrary.Drugs.ATC.H.H05BX05;

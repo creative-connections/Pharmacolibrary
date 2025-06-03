@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants;
+package R05CB15_Erdosteine
+  extends Icons.Package;
+end R05CB15_Erdosteine;

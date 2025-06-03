@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07E_IntestinalAntiinflammatoryAgents.A07EC01_Sulfasalazine;
+model Sulfasalazine = Pharmacolibrary.Drugs.ATC.A.A07EC01;

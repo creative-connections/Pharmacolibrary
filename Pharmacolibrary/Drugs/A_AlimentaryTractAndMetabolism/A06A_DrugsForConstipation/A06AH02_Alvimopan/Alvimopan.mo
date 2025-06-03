@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AH02_Alvimopan;
+model Alvimopan = Pharmacolibrary.Drugs.ATC.A.A06AH02;

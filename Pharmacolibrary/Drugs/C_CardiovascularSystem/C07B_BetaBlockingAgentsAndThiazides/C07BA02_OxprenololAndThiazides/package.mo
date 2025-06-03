@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07B_BetaBlockingAgentsAndThiazides;
+package C07BA02_OxprenololAndThiazides
+  extends Icons.Package;
+end C07BA02_OxprenololAndThiazides;

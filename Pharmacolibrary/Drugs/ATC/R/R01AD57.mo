@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.R;
+
+model R01AD57
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.05,
+    Cl             = 0.25,
+    adminDuration  = 600,
+    adminMass      = 0.001,
+    adminCount     = 1,
+    Vd             = 0.01,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Tixocortol is a corticosteroid with minimal systemic glucocorticoid effect, typically used topically for its anti-inflammatory and anti-allergic properties. In combination products, it is used for local treatment of nasal inflammatory conditions such as rhinitis. Tixocortol is not widely used or approved in most countries today; nasal formulations are largely historical.</p><h4>Pharmacokinetics</h4><p>There are no published studies directly reporting pharmacokinetic parameters for tixocortol in combination products administered via the nasal route in humans.</p><h4>References</h4><ol><li> No specific pharmacokinetic parameters for tixocortol combinations with ATC code R01AD57 have been published. Parameters are estimated based on properties of similar topical corticosteroids (such as beclomethasone and budesonide), and the very low bioavailability reflects limited systemic absorption after nasal administration.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end R01AD57;

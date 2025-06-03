@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
+package A01A_StomatologicalPreparations
+  extends Icons.Package;
+end A01A_StomatologicalPreparations;

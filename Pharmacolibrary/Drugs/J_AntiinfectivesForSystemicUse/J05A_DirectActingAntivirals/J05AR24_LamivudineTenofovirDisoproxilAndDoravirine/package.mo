@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
+package J05AR24_LamivudineTenofovirDisoproxilAndDoravirine
+  extends Icons.Package;
+end J05AR24_LamivudineTenofovirDisoproxilAndDoravirine;

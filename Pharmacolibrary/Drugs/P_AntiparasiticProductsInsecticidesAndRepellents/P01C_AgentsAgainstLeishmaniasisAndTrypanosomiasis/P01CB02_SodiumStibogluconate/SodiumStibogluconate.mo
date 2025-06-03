@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01C_AgentsAgainstLeishmaniasisAndTrypanosomiasis.P01CB02_SodiumStibogluconate;
+model SodiumStibogluconate = Pharmacolibrary.Drugs.ATC.P.P01CB02;

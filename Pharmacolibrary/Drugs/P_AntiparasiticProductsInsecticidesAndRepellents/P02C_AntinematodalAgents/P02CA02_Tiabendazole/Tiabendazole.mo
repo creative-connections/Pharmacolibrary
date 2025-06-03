@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02C_AntinematodalAgents.P02CA02_Tiabendazole;
+model Tiabendazole = Pharmacolibrary.Drugs.ATC.P.P02CA02;

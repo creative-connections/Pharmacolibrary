@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AX52_EmetineCombinations;
+model EmetineCombinations = Pharmacolibrary.Drugs.ATC.P.P01AX52;

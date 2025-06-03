@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02B_ContraceptivesForTopicalUse.G02BB02_VaginalRingWithProgestogen;
+model VaginalRingWithProgestogen = Pharmacolibrary.Drugs.ATC.G.G02BB02;

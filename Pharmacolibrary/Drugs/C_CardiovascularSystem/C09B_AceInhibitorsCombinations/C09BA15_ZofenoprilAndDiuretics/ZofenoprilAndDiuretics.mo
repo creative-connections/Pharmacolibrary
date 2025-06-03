@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations.C09BA15_ZofenoprilAndDiuretics;
+model ZofenoprilAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C09BA15;

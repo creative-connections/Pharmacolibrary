@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EM01_Idelalisib;
+model Idelalisib = Pharmacolibrary.Drugs.ATC.L.L01EM01;

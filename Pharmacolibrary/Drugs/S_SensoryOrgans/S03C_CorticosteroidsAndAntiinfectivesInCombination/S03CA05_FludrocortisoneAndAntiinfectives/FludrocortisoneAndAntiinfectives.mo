@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S03C_CorticosteroidsAndAntiinfectivesInCombination.S03CA05_FludrocortisoneAndAntiinfectives;
+model FludrocortisoneAndAntiinfectives = Pharmacolibrary.Drugs.ATC.S.S03CA05;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11H_OtherPlainVitaminPreparations;
+package A11HA02_PyridoxineVitB6
+  extends Icons.Package;
+end A11HA02_PyridoxineVitB6;

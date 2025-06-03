@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AJ06_DidecyldimethylammoniumChloride;
+model DidecyldimethylammoniumChloride = Pharmacolibrary.Drugs.ATC.D.D08AJ06;

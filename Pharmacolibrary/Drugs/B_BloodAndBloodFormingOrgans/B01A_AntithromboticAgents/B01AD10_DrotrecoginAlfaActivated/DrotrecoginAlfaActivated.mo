@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AD10_DrotrecoginAlfaActivated;
+model DrotrecoginAlfaActivated = Pharmacolibrary.Drugs.ATC.B.B01AD10;

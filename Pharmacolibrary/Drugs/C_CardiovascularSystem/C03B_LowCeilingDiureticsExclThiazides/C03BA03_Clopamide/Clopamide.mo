@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03B_LowCeilingDiureticsExclThiazides.C03BA03_Clopamide;
+model Clopamide = Pharmacolibrary.Drugs.ATC.C.C03BA03;

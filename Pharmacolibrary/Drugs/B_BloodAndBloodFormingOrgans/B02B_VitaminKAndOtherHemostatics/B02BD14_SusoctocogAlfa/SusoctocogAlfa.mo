@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BD14_SusoctocogAlfa;
+model SusoctocogAlfa = Pharmacolibrary.Drugs.ATC.B.B02BD14;

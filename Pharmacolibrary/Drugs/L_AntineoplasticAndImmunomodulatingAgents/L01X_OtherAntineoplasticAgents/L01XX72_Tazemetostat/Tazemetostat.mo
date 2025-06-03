@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XX72_Tazemetostat;
+model Tazemetostat = Pharmacolibrary.Drugs.ATC.L.L01XX72;

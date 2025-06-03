@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AB55_DiclofenacCombinations;
+model DiclofenacCombinations = Pharmacolibrary.Drugs.ATC.M.M01AB55;

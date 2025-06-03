@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders.A03AB05_Propantheline;
+model Propantheline = Pharmacolibrary.Drugs.ATC.A.A03AB05;

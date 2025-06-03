@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10A_InsulinsAndAnalogues.A10AE54_InsulinGlargineAndLixisenatide;
+model InsulinGlargineAndLixisenatide = Pharmacolibrary.Drugs.ATC.A.A10AE54;

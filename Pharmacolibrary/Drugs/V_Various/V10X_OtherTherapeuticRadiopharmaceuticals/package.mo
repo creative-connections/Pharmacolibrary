@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various;
+package V10X_OtherTherapeuticRadiopharmaceuticals
+  extends Icons.Package;
+end V10X_OtherTherapeuticRadiopharmaceuticals;

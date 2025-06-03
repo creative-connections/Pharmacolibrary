@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AG15_Divozilimab;
+model Divozilimab = Pharmacolibrary.Drugs.ATC.L.L04AG15;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AF16_Omoconazole;
+model Omoconazole = Pharmacolibrary.Drugs.ATC.G.G01AF16;

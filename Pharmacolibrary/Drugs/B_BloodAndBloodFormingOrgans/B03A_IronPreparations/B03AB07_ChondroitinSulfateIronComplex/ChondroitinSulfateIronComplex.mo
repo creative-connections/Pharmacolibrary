@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AB07_ChondroitinSulfateIronComplex;
+model ChondroitinSulfateIronComplex = Pharmacolibrary.Drugs.ATC.B.B03AB07;

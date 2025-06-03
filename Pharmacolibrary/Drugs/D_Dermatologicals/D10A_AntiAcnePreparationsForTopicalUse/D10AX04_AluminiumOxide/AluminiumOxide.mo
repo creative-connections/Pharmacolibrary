@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse.D10AX04_AluminiumOxide;
+model AluminiumOxide = Pharmacolibrary.Drugs.ATC.D.D10AX04;

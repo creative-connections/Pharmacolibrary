@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C04A_PeripheralVasodilators.C04AE51_ErgoloidMesylatesCombinations;
+model ErgoloidMesylatesCombinations = Pharmacolibrary.Drugs.ATC.C.C04AE51;

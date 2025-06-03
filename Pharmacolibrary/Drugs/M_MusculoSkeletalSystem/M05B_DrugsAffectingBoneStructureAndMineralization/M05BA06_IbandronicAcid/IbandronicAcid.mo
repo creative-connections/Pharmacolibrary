@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization.M05BA06_IbandronicAcid;
+model IbandronicAcid = Pharmacolibrary.Drugs.ATC.M.M05BA06;

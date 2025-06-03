@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AF17_Oxiconazole;
+model Oxiconazole = Pharmacolibrary.Drugs.ATC.G.G01AF17;

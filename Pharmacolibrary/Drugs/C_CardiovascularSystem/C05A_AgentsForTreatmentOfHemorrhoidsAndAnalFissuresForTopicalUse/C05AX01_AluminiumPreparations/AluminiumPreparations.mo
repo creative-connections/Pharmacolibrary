@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse.C05AX01_AluminiumPreparations;
+model AluminiumPreparations = Pharmacolibrary.Drugs.ATC.C.C05AX01;

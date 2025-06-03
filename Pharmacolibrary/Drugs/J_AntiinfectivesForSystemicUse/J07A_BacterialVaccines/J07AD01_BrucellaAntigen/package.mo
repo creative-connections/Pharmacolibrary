@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines;
+package J07AD01_BrucellaAntigen
+  extends Icons.Package;
+end J07AD01_BrucellaAntigen;

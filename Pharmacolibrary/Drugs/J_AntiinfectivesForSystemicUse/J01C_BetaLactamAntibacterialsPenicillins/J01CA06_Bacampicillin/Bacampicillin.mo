@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins.J01CA06_Bacampicillin;
+model Bacampicillin = Pharmacolibrary.Drugs.ATC.J.J01CA06;

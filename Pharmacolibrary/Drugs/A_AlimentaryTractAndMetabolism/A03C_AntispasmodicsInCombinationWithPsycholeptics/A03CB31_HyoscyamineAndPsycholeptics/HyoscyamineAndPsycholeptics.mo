@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03C_AntispasmodicsInCombinationWithPsycholeptics.A03CB31_HyoscyamineAndPsycholeptics;
+model HyoscyamineAndPsycholeptics = Pharmacolibrary.Drugs.ATC.A.A03CB31;

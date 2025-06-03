@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03B_VitaminB12AndFolicAcid.B03BB01_FolicAcid;
+model FolicAcid = Pharmacolibrary.Drugs.ATC.B.B03BB01;

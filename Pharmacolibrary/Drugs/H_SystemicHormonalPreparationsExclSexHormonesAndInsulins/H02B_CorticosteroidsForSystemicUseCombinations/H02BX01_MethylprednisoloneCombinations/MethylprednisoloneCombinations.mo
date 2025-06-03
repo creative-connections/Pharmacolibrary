@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02B_CorticosteroidsForSystemicUseCombinations.H02BX01_MethylprednisoloneCombinations;
+model MethylprednisoloneCombinations = Pharmacolibrary.Drugs.ATC.H.H02BX01;

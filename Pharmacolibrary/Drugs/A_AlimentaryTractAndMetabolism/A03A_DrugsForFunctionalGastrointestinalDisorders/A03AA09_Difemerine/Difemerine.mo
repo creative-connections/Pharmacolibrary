@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders.A03AA09_Difemerine;
+model Difemerine = Pharmacolibrary.Drugs.ATC.A.A03AA09;

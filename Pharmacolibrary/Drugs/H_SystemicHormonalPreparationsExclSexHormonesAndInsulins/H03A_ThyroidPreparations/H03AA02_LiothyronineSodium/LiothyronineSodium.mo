@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03A_ThyroidPreparations.H03AA02_LiothyronineSodium;
+model LiothyronineSodium = Pharmacolibrary.Drugs.ATC.H.H03AA02;

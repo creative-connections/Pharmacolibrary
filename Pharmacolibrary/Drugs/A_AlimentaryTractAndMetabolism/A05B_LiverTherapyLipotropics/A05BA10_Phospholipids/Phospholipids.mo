@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A05B_LiverTherapyLipotropics.A05BA10_Phospholipids;
+model Phospholipids = Pharmacolibrary.Drugs.ATC.A.A05BA10;

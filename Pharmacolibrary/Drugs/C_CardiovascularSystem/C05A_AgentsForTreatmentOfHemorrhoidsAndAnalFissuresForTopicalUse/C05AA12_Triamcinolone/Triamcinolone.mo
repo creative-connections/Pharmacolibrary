@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse.C05AA12_Triamcinolone;
+model Triamcinolone = Pharmacolibrary.Drugs.ATC.C.C05AA12;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EM03_Alpelisib;
+model Alpelisib = Pharmacolibrary.Drugs.ATC.L.L01EM03;

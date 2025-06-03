@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AX29_Fostemsavir;
+model Fostemsavir = Pharmacolibrary.Drugs.ATC.J.J05AX29;

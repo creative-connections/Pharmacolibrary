@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03A_EctoparasiticidesInclScabicides.P03AA54_DisulfiramCombinations;
+model DisulfiramCombinations = Pharmacolibrary.Drugs.ATC.P.P03AA54;

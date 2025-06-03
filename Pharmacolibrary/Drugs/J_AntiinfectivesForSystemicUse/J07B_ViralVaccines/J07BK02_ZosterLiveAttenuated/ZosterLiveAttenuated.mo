@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BK02_ZosterLiveAttenuated;
+model ZosterLiveAttenuated = Pharmacolibrary.Drugs.ATC.J.J07BK02;

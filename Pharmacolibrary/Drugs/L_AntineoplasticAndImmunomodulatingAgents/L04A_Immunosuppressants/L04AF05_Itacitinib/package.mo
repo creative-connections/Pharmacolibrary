@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
+package L04AF05_Itacitinib
+  extends Icons.Package;
+end L04AF05_Itacitinib;

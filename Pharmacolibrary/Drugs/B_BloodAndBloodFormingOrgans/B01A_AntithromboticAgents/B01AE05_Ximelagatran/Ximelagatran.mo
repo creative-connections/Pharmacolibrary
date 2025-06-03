@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AE05_Ximelagatran;
+model Ximelagatran = Pharmacolibrary.Drugs.ATC.B.B01AE05;

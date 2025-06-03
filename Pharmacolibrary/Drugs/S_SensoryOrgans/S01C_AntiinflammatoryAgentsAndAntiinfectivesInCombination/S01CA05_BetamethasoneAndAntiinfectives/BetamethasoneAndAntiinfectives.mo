@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01C_AntiinflammatoryAgentsAndAntiinfectivesInCombination.S01CA05_BetamethasoneAndAntiinfectives;
+model BetamethasoneAndAntiinfectives = Pharmacolibrary.Drugs.ATC.S.S01CA05;

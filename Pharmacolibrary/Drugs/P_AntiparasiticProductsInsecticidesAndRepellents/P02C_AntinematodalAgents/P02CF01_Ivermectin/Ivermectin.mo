@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02C_AntinematodalAgents.P02CF01_Ivermectin;
+model Ivermectin = Pharmacolibrary.Drugs.ATC.P.P02CF01;

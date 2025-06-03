@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S02C_CorticosteroidsAndAntiinfectivesInCombination;
+package S02CA02_FlumetasoneAndAntiinfectives
+  extends Icons.Package;
+end S02CA02_FlumetasoneAndAntiinfectives;

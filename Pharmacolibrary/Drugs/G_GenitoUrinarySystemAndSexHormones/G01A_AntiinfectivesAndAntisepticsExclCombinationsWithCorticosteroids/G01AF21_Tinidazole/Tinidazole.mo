@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AF21_Tinidazole;
+model Tinidazole = Pharmacolibrary.Drugs.ATC.G.G01AF21;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05C_IrrigatingSolutions.B05CX10_PlasmaSubstitutesAndPlasmaProteinFractionsCombinations;
+model PlasmaSubstitutesAndPlasmaProteinFractionsCombinations = Pharmacolibrary.Drugs.ATC.B.B05CX10;

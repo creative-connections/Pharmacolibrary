@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07B_CorticosteroidsCombinationsWithAntiseptics.D07BB03_TriamcinoloneAndAntiseptics;
+model TriamcinoloneAndAntiseptics = Pharmacolibrary.Drugs.ATC.D.D07BB03;

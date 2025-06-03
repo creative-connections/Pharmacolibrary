@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04B_Urologicals;
+package G04BX15_PentosanPolysulfateSodium
+  extends Icons.Package;
+end G04BX15_PentosanPolysulfateSodium;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11D_VitaminB1PlainAndInCombinationWithVitaminB6AndB12.A11DA02_Sulbutiamine;
+model Sulbutiamine = Pharmacolibrary.Drugs.ATC.A.A11DA02;

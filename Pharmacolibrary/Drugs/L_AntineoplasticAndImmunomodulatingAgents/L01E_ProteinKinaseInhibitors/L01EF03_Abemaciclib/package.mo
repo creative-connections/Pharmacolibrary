@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
+package L01EF03_Abemaciclib
+  extends Icons.Package;
+end L01EF03_Abemaciclib;

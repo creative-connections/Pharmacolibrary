@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A09A_DigestivesInclEnzymes.A09AC01_PepsinAndAcidPreparations;
+model PepsinAndAcidPreparations = Pharmacolibrary.Drugs.ATC.A.A09AC01;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04B_Urologicals;
+package G04BA03_CalciumChloride
+  extends Icons.Package;
+end G04BA03_CalciumChloride;

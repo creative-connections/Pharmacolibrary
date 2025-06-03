@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03E_DiureticsAndPotassiumSparingAgentsInCombination.C03EA04_AltizideAndPotassiumSparingAgents;
+model AltizideAndPotassiumSparingAgents = Pharmacolibrary.Drugs.ATC.C.C03EA04;

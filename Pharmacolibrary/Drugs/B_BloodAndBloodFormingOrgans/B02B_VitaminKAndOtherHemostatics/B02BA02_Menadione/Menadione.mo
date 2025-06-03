@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BA02_Menadione;
+model Menadione = Pharmacolibrary.Drugs.ATC.B.B02BA02;

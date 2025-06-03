@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations.A01AB10_Natamycin;
+model Natamycin = Pharmacolibrary.Drugs.ATC.A.A01AB10;

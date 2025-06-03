@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AE07_DabigatranEtexilate;
+model DabigatranEtexilate = Pharmacolibrary.Drugs.ATC.B.B01AE07;

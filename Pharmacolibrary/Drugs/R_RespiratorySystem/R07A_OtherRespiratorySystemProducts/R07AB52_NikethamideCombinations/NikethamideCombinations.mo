@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R07A_OtherRespiratorySystemProducts.R07AB52_NikethamideCombinations;
+model NikethamideCombinations = Pharmacolibrary.Drugs.ATC.R.R07AB52;

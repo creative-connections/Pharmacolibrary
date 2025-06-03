@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AP03_TyphoidPurifiedPolysaccharideAntigen;
+model TyphoidPurifiedPolysaccharideAntigen = Pharmacolibrary.Drugs.ATC.J.J07AP03;

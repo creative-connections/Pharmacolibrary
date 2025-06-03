@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03D_AldosteroneAntagonistsAndOtherPotassiumSparingAgents.C03DA02_PotassiumCanrenoate;
+model PotassiumCanrenoate = Pharmacolibrary.Drugs.ATC.C.C03DA02;

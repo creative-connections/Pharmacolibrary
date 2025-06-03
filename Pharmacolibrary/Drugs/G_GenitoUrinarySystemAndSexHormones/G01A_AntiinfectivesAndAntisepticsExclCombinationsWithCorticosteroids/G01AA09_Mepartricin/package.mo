@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids;
+package G01AA09_Mepartricin
+  extends Icons.Package;
+end G01AA09_Mepartricin;

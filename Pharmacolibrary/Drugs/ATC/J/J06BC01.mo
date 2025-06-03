@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.J;
+
+model J06BC01
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.0033333333333333335,
+    adminDuration  = 600,
+    adminMass      = 0.7,
+    adminCount     = 1,
+    Vd             = 0.0035,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Nebacumab (Centoxin) is a human monoclonal antibody that was developed for treatment of sepsis caused by gram-negative bacteria, specifically targeting endotoxin. The drug was withdrawn from development due to lack of efficacy and is not approved for clinical use today.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic studies in humans available. Parameter estimates are extrapolated based on typical IgG1 monoclonal antibody behavior in adults following intravenous dosing.</p><h4>References</h4><ol><li> No direct pharmacokinetic studies for nebacumab found in published literature. Parameters are estimated based on typical values for intravenous human IgG1 monoclonal antibodies. Dosing and compartmental model chosen to reflect similar bivalent mAbs with comparable molecular structure and clinical use. All parameters thus considered estimates.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end J06BC01;

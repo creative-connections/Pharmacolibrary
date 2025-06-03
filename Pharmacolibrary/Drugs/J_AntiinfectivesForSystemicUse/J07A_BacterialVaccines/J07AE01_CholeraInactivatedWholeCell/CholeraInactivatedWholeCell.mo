@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AE01_CholeraInactivatedWholeCell;
+model CholeraInactivatedWholeCell = Pharmacolibrary.Drugs.ATC.J.J07AE01;

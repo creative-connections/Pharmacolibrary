@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02A_CorticosteroidsForSystemicUsePlain.H02AB02_Dexamethasone;
+model Dexamethasone_1 = Pharmacolibrary.Drugs.ATC.H.H02AB02_1;

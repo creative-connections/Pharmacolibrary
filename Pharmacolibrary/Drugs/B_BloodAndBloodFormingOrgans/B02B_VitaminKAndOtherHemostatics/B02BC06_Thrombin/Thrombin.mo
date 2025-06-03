@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BC06_Thrombin;
+model Thrombin = Pharmacolibrary.Drugs.ATC.B.B02BC06;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01C_SpecificAntirheumaticAgents.M01CB03_Auranofin;
+model Auranofin = Pharmacolibrary.Drugs.ATC.M.M01CB03;

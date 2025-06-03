@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AA10_FerrousAscorbate;
+model FerrousAscorbate = Pharmacolibrary.Drugs.ATC.B.B03AA10;

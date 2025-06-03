@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations;
+package C09DX07_IrbesartanAmlodipineAndHydrochlorothiazide
+  extends Icons.Package;
+end C09DX07_IrbesartanAmlodipineAndHydrochlorothiazide;

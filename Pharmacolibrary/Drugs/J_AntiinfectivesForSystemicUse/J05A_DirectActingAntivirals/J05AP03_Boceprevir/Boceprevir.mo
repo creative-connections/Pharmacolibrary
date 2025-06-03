@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AP03_Boceprevir;
+model Boceprevir = Pharmacolibrary.Drugs.ATC.J.J05AP03;

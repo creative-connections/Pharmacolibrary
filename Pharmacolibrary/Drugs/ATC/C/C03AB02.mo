@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.C;
+
+model C03AB02
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.7,
+    Cl             = 1.6666666666666667,
+    adminDuration  = 600,
+    adminMass      = 0.05,
+    adminCount     = 1,
+    Vd             = 0.0035,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0038333333333333336,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Hydroflumethiazide is a thiazide diuretic used primarily for the treatment of hypertension and edema associated with congestive heart failure, renal dysfunction, or liver cirrhosis. It is sometimes co-administered with potassium supplements to counteract potassium loss caused by diuretic treatment. Hydroflumethiazide alone is approved and in clinical use in a number of countries, but fixed-dose combinations with potassium are not widely approved as single pharmaceutical products.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic studies specifically for the fixed-dose combination of hydroflumethiazide and potassium were identified. The following PK parameters are estimated for healthy adults based on data from hydroflumethiazide monotherapy.</p><h4>References</h4><ol><li> No published pharmacokinetic parameters were identified for the combination product 'hydroflumethiazide and potassium.' All PK data presented are estimated from reports on hydroflumethiazide monotherapy in healthy adults. Potassium supplement does not significantly alter hydroflumethiazide pharmacokinetics.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end C03AB02;

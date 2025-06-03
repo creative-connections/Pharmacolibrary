@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04B_Urologicals.G04BD14_Imidafenacin;
+model Imidafenacin = Pharmacolibrary.Drugs.ATC.G.G04BD14;

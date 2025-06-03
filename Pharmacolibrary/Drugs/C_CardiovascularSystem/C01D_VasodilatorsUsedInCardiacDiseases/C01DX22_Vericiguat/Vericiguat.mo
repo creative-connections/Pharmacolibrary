@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DX22_Vericiguat;
+model Vericiguat = Pharmacolibrary.Drugs.ATC.C.C01DX22;

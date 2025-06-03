@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V08C_MagneticResonanceImagingContrastMedia.V08CA01_GadopenteticAcid;
+model GadopenteticAcid = Pharmacolibrary.Drugs.ATC.V.V08CA01;

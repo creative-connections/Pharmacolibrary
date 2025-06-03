@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AB17_SampeginterferonBeta1a;
+model SampeginterferonBeta1a = Pharmacolibrary.Drugs.ATC.L.L03AB17;

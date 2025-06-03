@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.L;
+
+model L03AA12
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.5,
+    Cl             = 0.0008333333333333334,
+    adminDuration  = 600,
+    adminMass      = 0.02,
+    adminCount     = 1,
+    Vd             = 0.0001,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Ancestim is a recombinant human stem cell factor (rhSCF) developed to enhance hematopoietic stem cell mobilization in combination with filgrastim for hematopoietic stem cell transplantation. It is not currently approved for clinical use.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic studies or peer-reviewed sources with quantitative pharmacokinetic parameters for ancestim were found. Estimates below are based on its biological class and known clinical use in combination with filgrastim in healthy volunteers.</p><h4>References</h4><ol><li> Pharmacokinetic parameters are estimated based on biologic similarity to other recombinant proteins (e.g., cytokines/hematopoietic growth factors) as there are no directly published PK studies on ancestim. No DOI is available. This is intended as a reasonable approximation for reference purposes only.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end L03AA12;

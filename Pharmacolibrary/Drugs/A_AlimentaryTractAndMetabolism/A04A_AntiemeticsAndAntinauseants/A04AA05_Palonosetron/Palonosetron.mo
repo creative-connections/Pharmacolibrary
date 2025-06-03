@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A04A_AntiemeticsAndAntinauseants.A04AA05_Palonosetron;
+model Palonosetron = Pharmacolibrary.Drugs.ATC.A.A04AA05;

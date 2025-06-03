@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.P;
+
+model P01AA05
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.7,
+    Cl             = 0.035,
+    adminDuration  = 600,
+    adminMass      = 0.5,
+    adminCount     = 1,
+    Vd             = 0.07,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0005,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Tilbroquinol is an antiprotozoal agent previously used primarily in the treatment of intestinal amoebiasis and some other protozoal infections. Often combined with tiliquinol, it was used to treat parasitic infections; however, its current therapeutic use is largely obsolete and it is not commonly approved or marketed for human use today.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic data for tilbroquinol in humans is not available in existing literature and no published studies reporting such parameters have been identified as of the latest literature search (2024). The following values are rough estimates for a typical adult, assuming oral administration and based on pharmacokinetic profiles of similar quinoline antiprotozoals.</p><h4>References</h4><ol><li> No published pharmacokinetic data available for tilbroquinol as of June 2024. All pharmacokinetic values are estimates derived in comparison with related drugs (e.g., other quinoline antiprotozoals like chloroquine), and should be interpreted with caution. No DOIs or specific references available.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end P01AA05;

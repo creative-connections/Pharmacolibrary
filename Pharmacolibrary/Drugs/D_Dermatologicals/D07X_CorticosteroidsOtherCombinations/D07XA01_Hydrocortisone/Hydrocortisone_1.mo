@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07X_CorticosteroidsOtherCombinations.D07XA01_Hydrocortisone;
+model Hydrocortisone_1 = Pharmacolibrary.Drugs.ATC.D.D07XA01_1;

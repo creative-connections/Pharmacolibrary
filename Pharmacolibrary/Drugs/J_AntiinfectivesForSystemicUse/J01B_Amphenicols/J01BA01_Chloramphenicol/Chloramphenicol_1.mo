@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01B_Amphenicols.J01BA01_Chloramphenicol;
+model Chloramphenicol_1 = Pharmacolibrary.Drugs.ATC.J.J01BA01_1;

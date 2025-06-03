@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AG04_Diiodohydroxypropane;
+model Diiodohydroxypropane = Pharmacolibrary.Drugs.ATC.D.D08AG04;

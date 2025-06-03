@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08E_NonSelectiveCalciumChannelBlockers.C08EX01_Lidoflazine;
+model Lidoflazine = Pharmacolibrary.Drugs.ATC.C.C08EX01;

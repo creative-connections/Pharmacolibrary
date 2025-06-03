@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03B_BelladonnaAndDerivativesPlain.A03BA04_BelladonnaTotalAlkaloids;
+model BelladonnaTotalAlkaloids = Pharmacolibrary.Drugs.ATC.A.A03BA04;

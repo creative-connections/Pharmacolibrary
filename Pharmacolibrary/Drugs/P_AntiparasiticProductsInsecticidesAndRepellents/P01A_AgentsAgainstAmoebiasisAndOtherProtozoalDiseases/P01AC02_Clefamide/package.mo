@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases;
+package P01AC02_Clefamide
+  extends Icons.Package;
+end P01AC02_Clefamide;

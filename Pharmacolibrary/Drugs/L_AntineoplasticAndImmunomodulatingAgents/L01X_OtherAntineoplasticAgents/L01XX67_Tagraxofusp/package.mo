@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
+package L01XX67_Tagraxofusp
+  extends Icons.Package;
+end L01XX67_Tagraxofusp;

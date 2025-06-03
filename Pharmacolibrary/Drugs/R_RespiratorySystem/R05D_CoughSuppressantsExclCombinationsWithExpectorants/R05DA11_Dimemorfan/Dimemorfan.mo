@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants.R05DA11_Dimemorfan;
+model Dimemorfan = Pharmacolibrary.Drugs.ATC.R.R05DA11;

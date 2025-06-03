@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09A_CentralNervousSystem.V09AX03_Iodine124i2betaCarbomethoxy3beta4IodophenylTropane;
+model Iodine124i2betaCarbomethoxy3beta4IodophenylTropane = Pharmacolibrary.Drugs.ATC.V.V09AX03;

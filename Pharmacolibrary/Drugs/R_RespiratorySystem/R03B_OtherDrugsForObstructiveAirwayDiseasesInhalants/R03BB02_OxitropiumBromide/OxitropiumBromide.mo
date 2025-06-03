@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03B_OtherDrugsForObstructiveAirwayDiseasesInhalants.R03BB02_OxitropiumBromide;
+model OxitropiumBromide = Pharmacolibrary.Drugs.ATC.R.R03BB02;

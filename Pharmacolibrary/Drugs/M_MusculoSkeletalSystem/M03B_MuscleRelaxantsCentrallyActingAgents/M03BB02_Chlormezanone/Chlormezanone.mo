@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents.M03BB02_Chlormezanone;
+model Chlormezanone = Pharmacolibrary.Drugs.ATC.M.M03BB02;

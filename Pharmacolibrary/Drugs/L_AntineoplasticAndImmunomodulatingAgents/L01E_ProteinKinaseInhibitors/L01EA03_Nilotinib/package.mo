@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
+package L01EA03_Nilotinib
+  extends Icons.Package;
+end L01EA03_Nilotinib;

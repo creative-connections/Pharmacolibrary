@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02C_AntinematodalAgents.P02CB01_Piperazine;
+model Piperazine = Pharmacolibrary.Drugs.ATC.P.P02CB01;

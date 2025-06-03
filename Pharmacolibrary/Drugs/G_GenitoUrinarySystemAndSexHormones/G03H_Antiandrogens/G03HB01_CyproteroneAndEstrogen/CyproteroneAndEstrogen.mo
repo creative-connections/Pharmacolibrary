@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03H_Antiandrogens.G03HB01_CyproteroneAndEstrogen;
+model CyproteroneAndEstrogen = Pharmacolibrary.Drugs.ATC.G.G03HB01;

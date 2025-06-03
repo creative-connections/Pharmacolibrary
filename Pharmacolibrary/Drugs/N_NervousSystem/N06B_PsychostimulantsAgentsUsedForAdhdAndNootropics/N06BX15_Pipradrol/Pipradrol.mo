@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BX15_Pipradrol;
+model Pipradrol = Pharmacolibrary.Drugs.ATC.N.N06BX15;

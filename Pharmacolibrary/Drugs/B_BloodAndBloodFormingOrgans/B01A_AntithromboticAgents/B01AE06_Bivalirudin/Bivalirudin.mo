@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AE06_Bivalirudin;
+model Bivalirudin = Pharmacolibrary.Drugs.ATC.B.B01AE06;

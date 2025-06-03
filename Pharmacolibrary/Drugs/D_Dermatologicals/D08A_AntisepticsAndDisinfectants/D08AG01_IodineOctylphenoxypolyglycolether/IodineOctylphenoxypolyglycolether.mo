@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AG01_IodineOctylphenoxypolyglycolether;
+model IodineOctylphenoxypolyglycolether = Pharmacolibrary.Drugs.ATC.D.D08AG01;

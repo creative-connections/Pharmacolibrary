@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FF06_Cemiplimab;
+model Cemiplimab = Pharmacolibrary.Drugs.ATC.L.L01FF06;

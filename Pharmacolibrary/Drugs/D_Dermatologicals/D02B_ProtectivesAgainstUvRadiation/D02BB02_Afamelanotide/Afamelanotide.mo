@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D02B_ProtectivesAgainstUvRadiation.D02BB02_Afamelanotide;
+model Afamelanotide = Pharmacolibrary.Drugs.ATC.D.D02BB02;

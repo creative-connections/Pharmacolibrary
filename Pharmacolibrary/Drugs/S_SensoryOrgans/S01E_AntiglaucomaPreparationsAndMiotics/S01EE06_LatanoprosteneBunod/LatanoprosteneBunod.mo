@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01EE06_LatanoprosteneBunod;
+model LatanoprosteneBunod = Pharmacolibrary.Drugs.ATC.S.S01EE06;

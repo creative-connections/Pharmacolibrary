@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07X_CorticosteroidsOtherCombinations.D07XC03_Mometasone;
+model Mometasone = Pharmacolibrary.Drugs.ATC.D.D07XC03;

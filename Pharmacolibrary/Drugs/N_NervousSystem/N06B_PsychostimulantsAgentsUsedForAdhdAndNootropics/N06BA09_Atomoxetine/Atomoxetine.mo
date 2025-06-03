@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BA09_Atomoxetine;
+model Atomoxetine = Pharmacolibrary.Drugs.ATC.N.N06BA09;

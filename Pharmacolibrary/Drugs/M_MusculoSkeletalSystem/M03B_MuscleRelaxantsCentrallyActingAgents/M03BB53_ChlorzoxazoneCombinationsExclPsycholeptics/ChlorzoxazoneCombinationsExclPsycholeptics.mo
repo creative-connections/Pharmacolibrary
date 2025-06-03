@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents.M03BB53_ChlorzoxazoneCombinationsExclPsycholeptics;
+model ChlorzoxazoneCombinationsExclPsycholeptics = Pharmacolibrary.Drugs.ATC.M.M03BB53;

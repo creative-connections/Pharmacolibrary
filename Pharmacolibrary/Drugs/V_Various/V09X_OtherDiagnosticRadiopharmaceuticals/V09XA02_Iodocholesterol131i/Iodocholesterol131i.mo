@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09X_OtherDiagnosticRadiopharmaceuticals.V09XA02_Iodocholesterol131i;
+model Iodocholesterol131i = Pharmacolibrary.Drugs.ATC.V.V09XA02;

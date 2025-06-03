@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01R_CombinationsOfAntibacterials.J01RA04_SpiramycinAndMetronidazole;
+model SpiramycinAndMetronidazole = Pharmacolibrary.Drugs.ATC.J.J01RA04;

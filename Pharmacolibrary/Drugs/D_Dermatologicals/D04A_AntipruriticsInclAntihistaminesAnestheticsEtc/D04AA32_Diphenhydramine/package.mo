@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D04A_AntipruriticsInclAntihistaminesAnestheticsEtc;
+package D04AA32_Diphenhydramine
+  extends Icons.Package;
+end D04AA32_Diphenhydramine;

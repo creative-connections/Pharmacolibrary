@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03B_InsecticidesAndRepellents.P03BX05_Dimethylcarbate;
+model Dimethylcarbate = Pharmacolibrary.Drugs.ATC.P.P03BX05;

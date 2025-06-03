@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AB06_Ganciclovir;
+model Ganciclovir_1 = Pharmacolibrary.Drugs.ATC.J.J05AB06_1;

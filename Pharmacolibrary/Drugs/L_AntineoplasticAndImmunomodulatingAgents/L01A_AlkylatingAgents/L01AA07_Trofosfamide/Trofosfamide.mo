@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents.L01AA07_Trofosfamide;
+model Trofosfamide = Pharmacolibrary.Drugs.ATC.L.L01AA07;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09X_OtherAgentsActingOnTheReninAngiotensinSystem.C09XA02_Aliskiren;
+model Aliskiren = Pharmacolibrary.Drugs.ATC.C.C09XA02;

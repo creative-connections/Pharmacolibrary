@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EK04_Fruquintinib;
+model Fruquintinib = Pharmacolibrary.Drugs.ATC.L.L01EK04;

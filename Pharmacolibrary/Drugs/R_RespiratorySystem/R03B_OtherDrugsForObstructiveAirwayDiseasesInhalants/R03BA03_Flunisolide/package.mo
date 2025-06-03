@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03B_OtherDrugsForObstructiveAirwayDiseasesInhalants;
+package R03BA03_Flunisolide
+  extends Icons.Package;
+end R03BA03_Flunisolide;

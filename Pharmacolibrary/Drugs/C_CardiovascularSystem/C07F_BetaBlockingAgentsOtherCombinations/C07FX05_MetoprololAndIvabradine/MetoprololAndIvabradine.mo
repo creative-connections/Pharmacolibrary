@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07F_BetaBlockingAgentsOtherCombinations.C07FX05_MetoprololAndIvabradine;
+model MetoprololAndIvabradine = Pharmacolibrary.Drugs.ATC.C.C07FX05;

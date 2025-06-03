@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DC08_Loracarbef;
+model Loracarbef = Pharmacolibrary.Drugs.ATC.J.J01DC08;

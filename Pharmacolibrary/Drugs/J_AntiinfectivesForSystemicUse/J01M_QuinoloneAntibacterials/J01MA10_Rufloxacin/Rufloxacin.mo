@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01M_QuinoloneAntibacterials.J01MA10_Rufloxacin;
+model Rufloxacin = Pharmacolibrary.Drugs.ATC.J.J01MA10;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01R_CombinationsOfAntibacterials.J01RA08_TetracyclineAndOleandomycin;
+model TetracyclineAndOleandomycin = Pharmacolibrary.Drugs.ATC.J.J01RA08;

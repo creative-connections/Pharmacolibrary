@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse.C05AE03_Diltiazem;
+model Diltiazem = Pharmacolibrary.Drugs.ATC.C.C05AE03;

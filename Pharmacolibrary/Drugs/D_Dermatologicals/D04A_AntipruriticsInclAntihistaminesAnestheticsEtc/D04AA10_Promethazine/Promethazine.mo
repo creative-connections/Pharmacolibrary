@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D04A_AntipruriticsInclAntihistaminesAnestheticsEtc.D04AA10_Promethazine;
+model Promethazine = Pharmacolibrary.Drugs.ATC.D.D04AA10;

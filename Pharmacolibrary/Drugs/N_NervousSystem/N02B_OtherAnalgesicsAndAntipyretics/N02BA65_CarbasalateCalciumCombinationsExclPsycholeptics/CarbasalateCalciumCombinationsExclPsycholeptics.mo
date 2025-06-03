@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics.N02BA65_CarbasalateCalciumCombinationsExclPsycholeptics;
+model CarbasalateCalciumCombinationsExclPsycholeptics = Pharmacolibrary.Drugs.ATC.N.N02BA65;

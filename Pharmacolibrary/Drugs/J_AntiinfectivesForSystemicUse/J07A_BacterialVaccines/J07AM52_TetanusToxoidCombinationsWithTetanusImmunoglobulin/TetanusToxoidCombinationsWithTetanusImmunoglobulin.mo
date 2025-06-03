@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AM52_TetanusToxoidCombinationsWithTetanusImmunoglobulin;
+model TetanusToxoidCombinationsWithTetanusImmunoglobulin = Pharmacolibrary.Drugs.ATC.J.J07AM52;

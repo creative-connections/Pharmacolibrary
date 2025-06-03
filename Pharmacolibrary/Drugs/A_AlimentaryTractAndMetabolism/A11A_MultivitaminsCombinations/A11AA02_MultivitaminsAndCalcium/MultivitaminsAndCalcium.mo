@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11A_MultivitaminsCombinations.A11AA02_MultivitaminsAndCalcium;
+model MultivitaminsAndCalcium = Pharmacolibrary.Drugs.ATC.A.A11AA02;

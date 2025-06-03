@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V10X_OtherTherapeuticRadiopharmaceuticals;
+package V10XX01_SodiumPhosphate32p
+  extends Icons.Package;
+end V10XX01_SodiumPhosphate32p;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07E_IntestinalAntiinflammatoryAgents.A07EC03_Olsalazine;
+model Olsalazine = Pharmacolibrary.Drugs.ATC.A.A07EC03;

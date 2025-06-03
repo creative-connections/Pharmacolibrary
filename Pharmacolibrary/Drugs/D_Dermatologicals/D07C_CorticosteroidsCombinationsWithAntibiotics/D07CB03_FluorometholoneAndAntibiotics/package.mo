@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07C_CorticosteroidsCombinationsWithAntibiotics;
+package D07CB03_FluorometholoneAndAntibiotics
+  extends Icons.Package;
+end D07CB03_FluorometholoneAndAntibiotics;

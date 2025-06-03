@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02A_Antacids.A02AA04_MagnesiumHydroxide;
+model MagnesiumHydroxide = Pharmacolibrary.Drugs.ATC.A.A02AA04;

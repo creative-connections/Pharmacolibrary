@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse.D10AD06_Trifarotene;
+model Trifarotene = Pharmacolibrary.Drugs.ATC.D.D10AD06;

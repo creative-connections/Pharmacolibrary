@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.A;
+
+model A03BB05
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.03,
+    Cl             = 0.16666666666666666,
+    adminDuration  = 600,
+    adminMass      = 0.01,
+    adminCount     = 1,
+    Vd             = 0.0007,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0005,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Cimetropium bromide is a quaternary ammonium antimuscarinic agent used as an antispasmodic for the relief of gastrointestinal disorders such as irritable bowel syndrome, peptic ulcer, and abdominal pain. The drug is not widely approved in the United States but has been used in some countries for these indications.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for typical healthy adult after oral administration; no published human PK studies available.</p><h4>References</h4><ol><li> No published human pharmacokinetic studies for cimetropium bromide were found as of 2024. All parameters are estimated based on available drug class information (quaternary antimuscarinic compounds) and clinical dosing information from product literature.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end A03BB05;

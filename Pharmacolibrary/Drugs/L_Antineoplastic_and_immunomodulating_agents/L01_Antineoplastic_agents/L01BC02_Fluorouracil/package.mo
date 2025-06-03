@@ -1,5 +1,0 @@
-within Pharmacolibrary.Drugs.L_Antineoplastic_and_immunomodulating_agents.L01_Antineoplastic_agents;
-
-package L01BC02_Fluorouracil
-extends Icons.Package;
-end L01BC02_Fluorouracil;

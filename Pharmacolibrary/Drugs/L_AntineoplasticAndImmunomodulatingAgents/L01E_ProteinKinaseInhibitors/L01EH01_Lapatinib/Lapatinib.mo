@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EH01_Lapatinib;
+model Lapatinib = Pharmacolibrary.Drugs.ATC.L.L01EH01;

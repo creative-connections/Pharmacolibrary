@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12C_OtherMineralSupplements;
+package A12CC09_MagnesiumOrotate
+  extends Icons.Package;
+end A12CC09_MagnesiumOrotate;

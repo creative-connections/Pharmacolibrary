@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05B_IVSolutions.B05BA04_ProteinHydrolysates;
+model ProteinHydrolysates = Pharmacolibrary.Drugs.ATC.B.B05BA04;

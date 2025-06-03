@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05B_AntiParathyroidAgents.H05BA01_CalcitoninSalmonSynthetic;
+model CalcitoninSalmonSynthetic = Pharmacolibrary.Drugs.ATC.H.H05BA01;

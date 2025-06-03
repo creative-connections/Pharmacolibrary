@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01A_CardiacGlycosides.C01AB51_ProscillaridinCombinations;
+model ProscillaridinCombinations = Pharmacolibrary.Drugs.ATC.C.C01AB51;

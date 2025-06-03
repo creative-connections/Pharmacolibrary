@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07A_IntestinalAntiinfectives.A07AB02_Phthalylsulfathiazole;
+model Phthalylsulfathiazole = Pharmacolibrary.Drugs.ATC.A.A07AB02;

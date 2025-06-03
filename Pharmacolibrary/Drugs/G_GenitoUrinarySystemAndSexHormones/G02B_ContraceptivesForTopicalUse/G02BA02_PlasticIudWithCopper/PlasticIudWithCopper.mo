@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02B_ContraceptivesForTopicalUse.G02BA02_PlasticIudWithCopper;
+model PlasticIudWithCopper = Pharmacolibrary.Drugs.ATC.G.G02BA02;

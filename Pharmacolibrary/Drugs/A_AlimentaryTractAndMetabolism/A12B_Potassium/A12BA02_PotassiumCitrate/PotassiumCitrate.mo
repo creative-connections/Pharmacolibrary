@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12B_Potassium.A12BA02_PotassiumCitrate;
+model PotassiumCitrate = Pharmacolibrary.Drugs.ATC.A.A12BA02;

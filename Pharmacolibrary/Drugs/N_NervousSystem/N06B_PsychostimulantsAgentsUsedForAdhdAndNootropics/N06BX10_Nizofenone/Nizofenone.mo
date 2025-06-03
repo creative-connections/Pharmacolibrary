@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BX10_Nizofenone;
+model Nizofenone = Pharmacolibrary.Drugs.ATC.N.N06BX10;

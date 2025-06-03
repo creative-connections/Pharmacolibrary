@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01EE07_SulfamerazineAndTrimethoprim;
+model SulfamerazineAndTrimethoprim = Pharmacolibrary.Drugs.ATC.J.J01EE07;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V10X_OtherTherapeuticRadiopharmaceuticals.V10XA01_SodiumIodide131i;
+model SodiumIodide131i = Pharmacolibrary.Drugs.ATC.V.V10XA01;

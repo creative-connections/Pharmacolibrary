@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials;
+package J01DF01_Aztreonam
+  extends Icons.Package;
+end J01DF01_Aztreonam;

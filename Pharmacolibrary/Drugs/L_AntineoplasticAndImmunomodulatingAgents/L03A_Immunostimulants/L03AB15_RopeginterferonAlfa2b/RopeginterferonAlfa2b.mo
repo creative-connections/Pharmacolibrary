@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AB15_RopeginterferonAlfa2b;
+model RopeginterferonAlfa2b = Pharmacolibrary.Drugs.ATC.L.L03AB15;

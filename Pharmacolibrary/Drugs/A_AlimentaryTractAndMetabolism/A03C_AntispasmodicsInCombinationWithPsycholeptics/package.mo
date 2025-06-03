@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
+package A03C_AntispasmodicsInCombinationWithPsycholeptics
+  extends Icons.Package;
+end A03C_AntispasmodicsInCombinationWithPsycholeptics;

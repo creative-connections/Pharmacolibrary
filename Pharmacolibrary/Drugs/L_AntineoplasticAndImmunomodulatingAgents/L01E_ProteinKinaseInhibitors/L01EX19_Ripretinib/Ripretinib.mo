@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EX19_Ripretinib;
+model Ripretinib = Pharmacolibrary.Drugs.ATC.L.L01EX19;

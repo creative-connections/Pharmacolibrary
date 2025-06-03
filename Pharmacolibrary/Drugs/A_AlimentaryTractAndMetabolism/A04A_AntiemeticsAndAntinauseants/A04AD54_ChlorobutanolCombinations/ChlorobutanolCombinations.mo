@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A04A_AntiemeticsAndAntinauseants.A04AD54_ChlorobutanolCombinations;
+model ChlorobutanolCombinations = Pharmacolibrary.Drugs.ATC.A.A04AD54;

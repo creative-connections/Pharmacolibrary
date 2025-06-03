@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03A_MuscleRelaxantsPeripherallyActingAgents;
+package M03AA01_Alcuronium
+  extends Icons.Package;
+end M03AA01_Alcuronium;

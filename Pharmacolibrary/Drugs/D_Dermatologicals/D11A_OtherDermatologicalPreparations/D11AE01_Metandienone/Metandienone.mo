@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AE01_Metandienone;
+model Metandienone = Pharmacolibrary.Drugs.ATC.D.D11AE01;

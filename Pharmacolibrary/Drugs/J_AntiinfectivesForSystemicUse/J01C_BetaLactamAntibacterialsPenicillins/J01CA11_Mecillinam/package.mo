@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins;
+package J01CA11_Mecillinam
+  extends Icons.Package;
+end J01CA11_Mecillinam;

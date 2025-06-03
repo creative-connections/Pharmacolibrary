@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03C_AdrenergicsForSystemicUse.R03CB51_IsoprenalineCombinations;
+model IsoprenalineCombinations = Pharmacolibrary.Drugs.ATC.R.R03CB51;

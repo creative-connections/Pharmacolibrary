@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BH01_RotaVirusLiveAttenuated;
+model RotaVirusLiveAttenuated = Pharmacolibrary.Drugs.ATC.J.J07BH01;

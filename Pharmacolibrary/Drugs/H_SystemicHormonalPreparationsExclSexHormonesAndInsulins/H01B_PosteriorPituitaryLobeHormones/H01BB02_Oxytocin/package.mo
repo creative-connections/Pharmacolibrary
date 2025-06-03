@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01B_PosteriorPituitaryLobeHormones;
+package H01BB02_Oxytocin
+  extends Icons.Package;
+end H01BB02_Oxytocin;

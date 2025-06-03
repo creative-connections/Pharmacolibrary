@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AX01_Defibrotide;
+model Defibrotide = Pharmacolibrary.Drugs.ATC.B.B01AX01;

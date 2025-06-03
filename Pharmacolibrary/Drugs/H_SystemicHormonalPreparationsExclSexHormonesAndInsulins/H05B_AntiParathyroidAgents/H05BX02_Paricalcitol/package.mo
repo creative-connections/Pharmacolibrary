@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05B_AntiParathyroidAgents;
+package H05BX02_Paricalcitol
+  extends Icons.Package;
+end H05BX02_Paricalcitol;

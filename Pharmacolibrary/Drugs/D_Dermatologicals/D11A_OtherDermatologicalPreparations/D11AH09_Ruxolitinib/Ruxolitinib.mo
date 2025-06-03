@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AH09_Ruxolitinib;
+model Ruxolitinib = Pharmacolibrary.Drugs.ATC.D.D11AH09;

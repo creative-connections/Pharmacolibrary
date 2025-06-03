@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05B_AntivaricoseTherapy.C05BX01_CalciumDobesilate;
+model CalciumDobesilate = Pharmacolibrary.Drugs.ATC.C.C05BX01;

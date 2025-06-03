@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R02A_ThroatPreparations;
+package R02AA10_MyristylBenzalkonium
+  extends Icons.Package;
+end R02AA10_MyristylBenzalkonium;

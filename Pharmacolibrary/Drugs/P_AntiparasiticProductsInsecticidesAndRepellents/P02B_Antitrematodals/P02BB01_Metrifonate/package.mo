@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02B_Antitrematodals;
+package P02BB01_Metrifonate
+  extends Icons.Package;
+end P02BB01_Metrifonate;

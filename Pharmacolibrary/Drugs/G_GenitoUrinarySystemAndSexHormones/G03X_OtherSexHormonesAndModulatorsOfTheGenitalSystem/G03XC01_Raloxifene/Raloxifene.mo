@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03X_OtherSexHormonesAndModulatorsOfTheGenitalSystem.G03XC01_Raloxifene;
+model Raloxifene = Pharmacolibrary.Drugs.ATC.G.G03XC01;

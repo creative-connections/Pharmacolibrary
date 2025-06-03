@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02A_HormonesAndRelatedAgents;
+package L02AA01_Diethylstilbestrol
+  extends Icons.Package;
+end L02AA01_Diethylstilbestrol;

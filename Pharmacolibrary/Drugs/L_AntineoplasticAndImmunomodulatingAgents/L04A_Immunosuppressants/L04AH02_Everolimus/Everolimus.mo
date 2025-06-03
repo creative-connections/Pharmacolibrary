@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AH02_Everolimus;
+model Everolimus = Pharmacolibrary.Drugs.ATC.L.L04AH02;

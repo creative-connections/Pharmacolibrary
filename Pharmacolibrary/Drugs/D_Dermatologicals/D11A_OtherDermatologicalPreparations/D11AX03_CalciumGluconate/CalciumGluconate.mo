@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AX03_CalciumGluconate;
+model CalciumGluconate = Pharmacolibrary.Drugs.ATC.D.D11AX03;

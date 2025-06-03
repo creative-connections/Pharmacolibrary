@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01X_OtherAntibacterials.J01XX12_Lefamulin;
+model Lefamulin_1 = Pharmacolibrary.Drugs.ATC.J.J01XX12_1;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.J;
+
+model J07BN03
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.0,
+    adminDuration  = 600,
+    adminMass      = 0.0005,
+    adminCount     = 1,
+    Vd             = 0,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>The COVID-19, inactivated virus vaccine, classified under ATC code J07BN03, is a whole inactivated vaccine developed to induce immunity against SARS-CoV-2, the virus responsible for COVID-19. It is formulated by inactivating the virus and is used to prevent COVID-19 infection. Inactivated virus vaccines have been approved and deployed in many countries during the COVID-19 pandemic for use in adults and children.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters are generally not reported for inactivated virus vaccines. These vaccines do not exhibit classical pharmacokinetics like small molecule drugs, as they function through immunological mechanisms rather than distribution and elimination in plasma. Parameters such as absorption, clearance, and volume of distribution are not applicable or typically measured in humans for vaccines. Typical administration is via intramuscular injection in healthy adults.</p><h4>References</h4><ol><li> No published pharmacokinetic studies exist for COVID-19 inactivated virus vaccines, as standard PK parameters are not measured for vaccines. Dose and administration details are as per product labeling and regulatory documents. All PK values (volume of distribution, clearance, etc.) are not applicable and presented with zeros or empty fields to comply with the requested format.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end J07BN03;

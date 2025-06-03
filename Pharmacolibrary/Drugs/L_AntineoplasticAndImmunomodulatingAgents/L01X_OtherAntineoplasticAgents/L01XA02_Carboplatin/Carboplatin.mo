@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XA02_Carboplatin;
+model Carboplatin = Pharmacolibrary.Drugs.ATC.L.L01XA02;

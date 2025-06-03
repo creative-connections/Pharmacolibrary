@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03G_GonadotropinsAndOtherOvulationStimulants;
+package G03GA10_FollitropinDelta
+  extends Icons.Package;
+end G03GA10_FollitropinDelta;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations.C10BX02_PravastatinAndAcetylsalicylicAcid;
+model PravastatinAndAcetylsalicylicAcid = Pharmacolibrary.Drugs.ATC.C.C10BX02;

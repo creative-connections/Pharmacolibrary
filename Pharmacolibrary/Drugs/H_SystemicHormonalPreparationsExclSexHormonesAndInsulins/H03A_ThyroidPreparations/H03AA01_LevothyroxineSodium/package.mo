@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03A_ThyroidPreparations;
+package H03AA01_LevothyroxineSodium
+  extends Icons.Package;
+end H03AA01_LevothyroxineSodium;

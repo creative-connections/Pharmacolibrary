@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R07A_OtherRespiratorySystemProducts.R07AB53_PentetrazolCombinations;
+model PentetrazolCombinations = Pharmacolibrary.Drugs.ATC.R.R07AB53;

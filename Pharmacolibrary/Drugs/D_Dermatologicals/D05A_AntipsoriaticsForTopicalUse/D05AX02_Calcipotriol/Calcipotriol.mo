@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D05A_AntipsoriaticsForTopicalUse.D05AX02_Calcipotriol;
+model Calcipotriol = Pharmacolibrary.Drugs.ATC.D.D05AX02;

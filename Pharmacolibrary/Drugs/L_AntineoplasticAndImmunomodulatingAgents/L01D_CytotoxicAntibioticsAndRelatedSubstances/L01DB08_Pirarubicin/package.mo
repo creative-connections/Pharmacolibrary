@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01D_CytotoxicAntibioticsAndRelatedSubstances;
+package L01DB08_Pirarubicin
+  extends Icons.Package;
+end L01DB08_Pirarubicin;

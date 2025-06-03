@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BK03_Empagliflozin;
+model Empagliflozin = Pharmacolibrary.Drugs.ATC.A.A10BK03;

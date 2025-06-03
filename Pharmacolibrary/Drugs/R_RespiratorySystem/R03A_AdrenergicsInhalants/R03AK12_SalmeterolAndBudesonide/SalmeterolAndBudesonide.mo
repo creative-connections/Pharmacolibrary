@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants.R03AK12_SalmeterolAndBudesonide;
+model SalmeterolAndBudesonide = Pharmacolibrary.Drugs.ATC.R.R03AK12;

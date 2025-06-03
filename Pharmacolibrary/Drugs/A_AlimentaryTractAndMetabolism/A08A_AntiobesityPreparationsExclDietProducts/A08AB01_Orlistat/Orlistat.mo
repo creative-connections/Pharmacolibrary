@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A08A_AntiobesityPreparationsExclDietProducts.A08AB01_Orlistat;
+model Orlistat = Pharmacolibrary.Drugs.ATC.A.A08AB01;

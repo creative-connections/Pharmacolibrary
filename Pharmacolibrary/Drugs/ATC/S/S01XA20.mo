@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.S;
+
+model S01XA20
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0,
+    Cl             = 0.0,
+    adminDuration  = 600,
+    adminMass      = 0.001,
+    adminCount     = 1,
+    Vd             = 0,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Artificial tears and other indifferent preparations (ATC code S01XA20) are used as lubricating eye drops to relieve dryness and irritation in the eyes, often caused by decreased tear production or environmental factors. They are composed of physiologically inert substances, such as hypromellose, carboxymethylcellulose, or polyvinyl alcohol. These preparations are widely available as over-the-counter products and are approved for use in managing dry eye symptoms and maintaining ocular surface hydration.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters for artificial tears and other indifferent preparations are not typically studied or reported because these products are not systemically absorbed and act locally on the ocular surface. Therefore, no human pharmacokinetic data is available for any sex, age group, or condition.</p><h4>References</h4><ol><li> No pharmacokinetic parameters are reported for artificial tears and other indifferent preparations (ATC S01XA20) in the literature. These compounds are designed for local action on the eye surface and do not exhibit systemic absorption; thus, PK modeling is not applicable.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end S01XA20;

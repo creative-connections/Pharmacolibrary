@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02C_AntiadrenergicAgentsPeripherallyActing.C02CC01_Betanidine;
+model Betanidine = Pharmacolibrary.Drugs.ATC.C.C02CC01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts.V03AE09_PatiromerCalcium;
+model PatiromerCalcium = Pharmacolibrary.Drugs.ATC.V.V03AE09;

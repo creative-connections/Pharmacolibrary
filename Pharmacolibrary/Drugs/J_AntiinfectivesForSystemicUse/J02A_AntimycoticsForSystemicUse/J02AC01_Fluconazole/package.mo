@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse;
+package J02AC01_Fluconazole
+  extends Icons.Package;
+end J02AC01_Fluconazole;

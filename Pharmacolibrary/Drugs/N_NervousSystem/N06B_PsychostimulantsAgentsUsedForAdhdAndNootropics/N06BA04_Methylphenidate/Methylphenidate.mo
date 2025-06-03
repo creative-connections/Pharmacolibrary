@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BA04_Methylphenidate;
+model Methylphenidate = Pharmacolibrary.Drugs.ATC.N.N06BA04;

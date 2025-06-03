@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts;
+package L01CA02_Vincristine
+  extends Icons.Package;
+end L01CA02_Vincristine;

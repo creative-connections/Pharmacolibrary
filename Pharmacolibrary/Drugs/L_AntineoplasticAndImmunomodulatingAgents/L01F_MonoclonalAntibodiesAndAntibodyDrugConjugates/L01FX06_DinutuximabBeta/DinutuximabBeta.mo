@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FX06_DinutuximabBeta;
+model DinutuximabBeta = Pharmacolibrary.Drugs.ATC.L.L01FX06;

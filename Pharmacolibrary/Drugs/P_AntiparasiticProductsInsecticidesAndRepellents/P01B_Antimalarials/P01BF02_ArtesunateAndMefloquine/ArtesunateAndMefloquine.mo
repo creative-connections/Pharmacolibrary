@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials.P01BF02_ArtesunateAndMefloquine;
+model ArtesunateAndMefloquine = Pharmacolibrary.Drugs.ATC.P.P01BF02;

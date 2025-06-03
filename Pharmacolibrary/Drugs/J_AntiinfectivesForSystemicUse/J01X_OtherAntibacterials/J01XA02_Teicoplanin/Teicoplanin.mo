@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01X_OtherAntibacterials.J01XA02_Teicoplanin;
+model Teicoplanin = Pharmacolibrary.Drugs.ATC.J.J01XA02;

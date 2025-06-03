@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BX01_Etamsylate;
+model Etamsylate = Pharmacolibrary.Drugs.ATC.B.B02BX01;

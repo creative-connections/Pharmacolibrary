@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AD04_Methdilazine;
+model Methdilazine = Pharmacolibrary.Drugs.ATC.R.R06AD04;

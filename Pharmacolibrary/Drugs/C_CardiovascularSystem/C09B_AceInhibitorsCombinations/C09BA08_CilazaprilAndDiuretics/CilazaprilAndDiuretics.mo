@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations.C09BA08_CilazaprilAndDiuretics;
+model CilazaprilAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C09BA08;

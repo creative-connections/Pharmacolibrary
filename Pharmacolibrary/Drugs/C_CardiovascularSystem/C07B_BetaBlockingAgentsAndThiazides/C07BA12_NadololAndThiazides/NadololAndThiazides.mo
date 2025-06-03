@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07B_BetaBlockingAgentsAndThiazides.C07BA12_NadololAndThiazides;
+model NadololAndThiazides = Pharmacolibrary.Drugs.ATC.C.C07BA12;

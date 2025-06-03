@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AX66_OctenidineCombinations;
+model OctenidineCombinations = Pharmacolibrary.Drugs.ATC.G.G01AX66;

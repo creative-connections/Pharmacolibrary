@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AC04_Teclozan;
+model Teclozan = Pharmacolibrary.Drugs.ATC.P.P01AC04;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AB52_MetronidazoleAndDiloxanide;
+model MetronidazoleAndDiloxanide = Pharmacolibrary.Drugs.ATC.P.P01AB52;

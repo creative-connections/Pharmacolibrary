@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.M;
+
+model M02AA24
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.8,
+    Cl             = 0.03333333333333333,
+    adminDuration  = 600,
+    adminMass      = 0.5,
+    adminCount     = 1,
+    Vd             = 0.03,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0008333333333333334,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Nifenazone is a non-opioid analgesic and anti-inflammatory drug belonging to the pyrazolone group. Historically, it was used for the treatment of pain and inflammatory conditions such as rheumatism. However, nifenazone is not widely approved or used in contemporary medicine due to safety and efficacy concerns and the availability of safer alternatives.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic studies or human data regarding nifenazone were identified in the scientific literature as of 2024.</p><h4>References</h4><ol><li> No original published human pharmacokinetic studies for nifenazone could be found. All PK parameter values are estimated based on similar pyrazolone analgesics (such as phenylbutazone and aminophenazone), physicochemical properties, and standard assumptions for oral non-opioid analgesics. This entry is for illustrative purposes only.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end M02AA24;

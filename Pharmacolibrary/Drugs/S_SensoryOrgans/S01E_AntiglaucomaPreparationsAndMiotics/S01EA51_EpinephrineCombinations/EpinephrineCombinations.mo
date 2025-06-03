@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01EA51_EpinephrineCombinations;
+model EpinephrineCombinations = Pharmacolibrary.Drugs.ATC.S.S01EA51;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01C_HypothalamicHormones.H01CA02_Nafarelin;
+model Nafarelin = Pharmacolibrary.Drugs.ATC.H.H01CA02;

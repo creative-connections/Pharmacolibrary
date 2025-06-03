@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse.J02AB02_Ketoconazole;
+model Ketoconazole = Pharmacolibrary.Drugs.ATC.J.J02AB02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07A_IntestinalAntiinfectives.A07AB04_Succinylsulfathiazole;
+model Succinylsulfathiazole = Pharmacolibrary.Drugs.ATC.A.A07AB04;

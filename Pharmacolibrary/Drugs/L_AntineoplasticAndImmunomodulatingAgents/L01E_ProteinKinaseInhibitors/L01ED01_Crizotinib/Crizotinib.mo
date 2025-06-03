@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01ED01_Crizotinib;
+model Crizotinib = Pharmacolibrary.Drugs.ATC.L.L01ED01;

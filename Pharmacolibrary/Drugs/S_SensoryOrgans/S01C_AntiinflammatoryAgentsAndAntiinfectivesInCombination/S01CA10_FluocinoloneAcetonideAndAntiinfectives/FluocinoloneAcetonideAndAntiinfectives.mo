@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01C_AntiinflammatoryAgentsAndAntiinfectivesInCombination.S01CA10_FluocinoloneAcetonideAndAntiinfectives;
+model FluocinoloneAcetonideAndAntiinfectives = Pharmacolibrary.Drugs.ATC.S.S01CA10;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DI02_CeftarolineFosamil;
+model CeftarolineFosamil = Pharmacolibrary.Drugs.ATC.J.J01DI02;

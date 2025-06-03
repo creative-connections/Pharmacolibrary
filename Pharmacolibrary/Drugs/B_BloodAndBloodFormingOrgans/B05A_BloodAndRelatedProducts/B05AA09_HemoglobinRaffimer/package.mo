@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05A_BloodAndRelatedProducts;
+package B05AA09_HemoglobinRaffimer
+  extends Icons.Package;
+end B05AA09_HemoglobinRaffimer;

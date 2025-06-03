@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.J;
+
+model J07AH05
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.0,
+    adminDuration  = 600,
+    adminMass      = 0.05,
+    adminCount     = 1,
+    Vd             = 0,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>A vaccine preparation consisting of purified polysaccharide antigens from multiple Neisseria meningitidis serogroups. These are used for the prevention of meningococcal disease, particularly in outbreaks or high-risk populations. Such vaccines are primarily used for immunization rather than therapeutic purposes. Some polysaccharide vaccines have been replaced in many countries by conjugate vaccines due to superior immunogenicity, especially in young children.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters are not typically reported for polysaccharide vaccines as they are not absorbed, distributed, metabolized, or excreted in the traditional sense; their effect is mediated via stimulation of the immune response following parenteral administration, typically intramuscularly or subcutaneously, and no direct quantitative PK data exist for such antigens.</p><h4>References</h4><ol><li> No standard pharmacokinetic (PK) models or parameters are reported for meningococcal polyvalent purified polysaccharide antigens. Their pharmacologic action is immunologic rather than via traditional drug PK processes (absorption, distribution, metabolism, excretion). Information provided is based on general vaccine administration practice and product literature; parameters such as volume of distribution and clearance are not applicable. Data extracted according to immunization guidelines and product characteristics; no DOI available.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end J07AH05;

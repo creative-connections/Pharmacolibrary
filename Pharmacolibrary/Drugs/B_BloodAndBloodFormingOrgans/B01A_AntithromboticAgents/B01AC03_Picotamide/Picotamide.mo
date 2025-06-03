@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AC03_Picotamide;
+model Picotamide = Pharmacolibrary.Drugs.ATC.B.B01AC03;

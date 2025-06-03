@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09H_InflammationAndInfectionDetection.V09HX01_Gallium67gaCitrate;
+model Gallium67gaCitrate = Pharmacolibrary.Drugs.ATC.V.V09HX01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AC01_Diiodohydroxyquinoline;
+model Diiodohydroxyquinoline = Pharmacolibrary.Drugs.ATC.G.G01AC01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BA11_Dexmethylphenidate;
+model Dexmethylphenidate = Pharmacolibrary.Drugs.ATC.N.N06BA11;

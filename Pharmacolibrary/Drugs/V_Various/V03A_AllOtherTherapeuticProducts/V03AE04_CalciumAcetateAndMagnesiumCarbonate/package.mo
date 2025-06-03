@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts;
+package V03AE04_CalciumAcetateAndMagnesiumCarbonate
+  extends Icons.Package;
+end V03AE04_CalciumAcetateAndMagnesiumCarbonate;

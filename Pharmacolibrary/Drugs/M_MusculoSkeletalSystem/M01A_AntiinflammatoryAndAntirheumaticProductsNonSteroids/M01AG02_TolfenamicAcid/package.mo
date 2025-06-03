@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids;
+package M01AG02_TolfenamicAcid
+  extends Icons.Package;
+end M01AG02_TolfenamicAcid;

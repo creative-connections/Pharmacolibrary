@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides.C01CA14_Dopexamine;
+model Dopexamine = Pharmacolibrary.Drugs.ATC.C.C01CA14;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03A_LowCeilingDiureticsThiazides.C03AA05_Polythiazide;
+model Polythiazide = Pharmacolibrary.Drugs.ATC.C.C03AA05;

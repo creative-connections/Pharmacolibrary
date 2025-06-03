@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents.L01AA10_MelphalanFlufenamide;
+model MelphalanFlufenamide = Pharmacolibrary.Drugs.ATC.L.L01AA10;

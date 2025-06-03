@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09D_HepaticAndReticuloEndothelialSystem.V09DB02_Technetium99mtcMicrocolloid;
+model Technetium99mtcMicrocolloid = Pharmacolibrary.Drugs.ATC.V.V09DB02;

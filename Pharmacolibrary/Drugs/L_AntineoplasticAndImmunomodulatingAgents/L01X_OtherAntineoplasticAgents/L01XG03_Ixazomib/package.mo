@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
+package L01XG03_Ixazomib
+  extends Icons.Package;
+end L01XG03_Ixazomib;

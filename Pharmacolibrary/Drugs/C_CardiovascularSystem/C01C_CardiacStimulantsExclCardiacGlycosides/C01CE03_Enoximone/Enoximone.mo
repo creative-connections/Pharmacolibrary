@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides.C01CE03_Enoximone;
+model Enoximone = Pharmacolibrary.Drugs.ATC.C.C01CE03;

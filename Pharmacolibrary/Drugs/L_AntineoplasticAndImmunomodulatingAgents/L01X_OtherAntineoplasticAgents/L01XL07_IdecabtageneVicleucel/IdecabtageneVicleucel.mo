@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XL07_IdecabtageneVicleucel;
+model IdecabtageneVicleucel = Pharmacolibrary.Drugs.ATC.L.L01XL07;

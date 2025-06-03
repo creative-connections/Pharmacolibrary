@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases;
+package R03DX03_Fenspiride
+  extends Icons.Package;
+end R03DX03_Fenspiride;

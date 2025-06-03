@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones;
+package G03E_AndrogensAndFemaleSexHormonesInCombination
+  extends Icons.Package;
+end G03E_AndrogensAndFemaleSexHormonesInCombination;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders;
+package A03AB08_Tridihexethyl
+  extends Icons.Package;
+end A03AB08_Tridihexethyl;

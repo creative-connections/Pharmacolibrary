@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07C_BetaBlockingAgentsAndOtherDiuretics.C07CB02_MetoprololAndOtherDiuretics;
+model MetoprololAndOtherDiuretics = Pharmacolibrary.Drugs.ATC.C.C07CB02;

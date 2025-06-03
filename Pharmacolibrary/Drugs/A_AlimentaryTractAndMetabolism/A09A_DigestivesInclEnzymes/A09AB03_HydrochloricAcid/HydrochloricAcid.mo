@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A09A_DigestivesInclEnzymes.A09AB03_HydrochloricAcid;
+model HydrochloricAcid = Pharmacolibrary.Drugs.ATC.A.A09AB03;

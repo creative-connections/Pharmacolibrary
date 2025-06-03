@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02D_Anticestodals;
+package P02DX02_Dichlorophen
+  extends Icons.Package;
+end P02DX02_Dichlorophen;

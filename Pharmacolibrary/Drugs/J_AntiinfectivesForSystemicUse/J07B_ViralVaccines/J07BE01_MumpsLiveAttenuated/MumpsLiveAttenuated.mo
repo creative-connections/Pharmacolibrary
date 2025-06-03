@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BE01_MumpsLiveAttenuated;
+model MumpsLiveAttenuated = Pharmacolibrary.Drugs.ATC.J.J07BE01;

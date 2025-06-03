@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations.C09DB09_FimasartanAndAmlodipine;
+model FimasartanAndAmlodipine = Pharmacolibrary.Drugs.ATC.C.C09DB09;

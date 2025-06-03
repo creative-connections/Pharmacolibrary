@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AD11_Lactulose;
+model Lactulose = Pharmacolibrary.Drugs.ATC.A.A06AD11;

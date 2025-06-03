@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins;
+package J01FA06_Roxithromycin
+  extends Icons.Package;
+end J01FA06_Roxithromycin;

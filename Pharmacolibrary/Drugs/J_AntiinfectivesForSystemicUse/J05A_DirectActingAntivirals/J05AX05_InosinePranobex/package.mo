@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
+package J05AX05_InosinePranobex
+  extends Icons.Package;
+end J05AX05_InosinePranobex;

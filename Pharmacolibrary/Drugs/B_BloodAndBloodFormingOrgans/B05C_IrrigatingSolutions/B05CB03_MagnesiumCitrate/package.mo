@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05C_IrrigatingSolutions;
+package B05CB03_MagnesiumCitrate
+  extends Icons.Package;
+end B05CB03_MagnesiumCitrate;

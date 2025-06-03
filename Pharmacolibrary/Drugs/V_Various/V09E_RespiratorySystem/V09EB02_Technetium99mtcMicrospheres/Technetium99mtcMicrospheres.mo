@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09E_RespiratorySystem.V09EB02_Technetium99mtcMicrospheres;
+model Technetium99mtcMicrospheres = Pharmacolibrary.Drugs.ATC.V.V09EB02;

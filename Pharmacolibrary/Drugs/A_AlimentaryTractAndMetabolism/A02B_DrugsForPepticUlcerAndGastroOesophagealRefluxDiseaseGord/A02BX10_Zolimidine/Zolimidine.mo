@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BX10_Zolimidine;
+model Zolimidine = Pharmacolibrary.Drugs.ATC.A.A02BX10;

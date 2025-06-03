@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01X_OtherAntibacterials.J01XD01_Metronidazole;
+model Metronidazole_1 = Pharmacolibrary.Drugs.ATC.J.J01XD01_1;

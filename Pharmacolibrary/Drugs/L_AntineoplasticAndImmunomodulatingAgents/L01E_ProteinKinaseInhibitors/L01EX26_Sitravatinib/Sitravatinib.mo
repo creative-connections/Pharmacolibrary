@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EX26_Sitravatinib;
+model Sitravatinib = Pharmacolibrary.Drugs.ATC.L.L01EX26;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AB03_InterferonGamma;
+model InterferonGamma = Pharmacolibrary.Drugs.ATC.L.L03AB03;

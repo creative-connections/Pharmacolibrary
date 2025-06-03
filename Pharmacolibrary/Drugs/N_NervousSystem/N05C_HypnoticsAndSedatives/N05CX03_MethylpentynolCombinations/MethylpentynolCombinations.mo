@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N05C_HypnoticsAndSedatives.N05CX03_MethylpentynolCombinations;
+model MethylpentynolCombinations = Pharmacolibrary.Drugs.ATC.N.N05CX03;

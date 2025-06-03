@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02A_HormonesAndRelatedAgents.L02AA03_Ethinylestradiol;
+model Ethinylestradiol = Pharmacolibrary.Drugs.ATC.L.L02AA03;

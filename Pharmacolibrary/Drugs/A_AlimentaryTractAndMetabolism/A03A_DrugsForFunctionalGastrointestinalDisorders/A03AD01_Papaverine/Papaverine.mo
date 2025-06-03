@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders.A03AD01_Papaverine;
+model Papaverine = Pharmacolibrary.Drugs.ATC.A.A03AD01;

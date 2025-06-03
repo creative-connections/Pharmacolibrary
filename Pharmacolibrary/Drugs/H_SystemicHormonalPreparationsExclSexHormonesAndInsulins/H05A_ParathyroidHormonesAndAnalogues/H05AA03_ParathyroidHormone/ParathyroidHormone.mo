@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05A_ParathyroidHormonesAndAnalogues.H05AA03_ParathyroidHormone;
+model ParathyroidHormone = Pharmacolibrary.Drugs.ATC.H.H05AA03;

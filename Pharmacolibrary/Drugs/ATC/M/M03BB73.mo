@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.M;
+
+model M03BB73
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.8,
+    Cl             = 0.058333333333333334,
+    adminDuration  = 600,
+    adminMass      = 0.5,
+    adminCount     = 1,
+    Vd             = 0.00035,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.01,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Chlorzoxazone is a centrally acting muscle relaxant often used as adjunct therapy for the relief of discomfort associated with acute, painful musculoskeletal conditions. The combination with psycholeptics refers to mixtures with sedative or tranquilizing agents. While chlorzoxazone was widely used in past decades, its use has declined in some countries and it may not be first-line therapy today; availability and approval status vary by region.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic studies specifically reporting PK parameters for the fixed-dose combination of chlorzoxazone with psycholeptics (ATC M03BB73) have been identified. Estimates based on typical adult oral chlorzoxazone monotherapy pharmacokinetics for healthy individuals are given.</p><h4>References</h4><ol><li> No direct pharmacokinetic data are available for chlorzoxazone in combination with psycholeptics (ATC M03BB73). Values given are estimates based on known PK of chlorzoxazone alone in healthy adults. Co-administration with psycholeptics may alter PK parameters, particularly due to metabolic interactions at CYP2E1. Further dedicated studies are needed.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end M03BB73;

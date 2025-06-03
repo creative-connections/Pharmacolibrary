@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates;
+package L01FX23_TisotumabVedotin
+  extends Icons.Package;
+end L01FX23_TisotumabVedotin;

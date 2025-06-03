@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01B_AntiarrhythmicsClassIAndIii.C01BA02_Procainamide;
+model Procainamide_1 = Pharmacolibrary.Drugs.ATC.C.C01BA02_1;

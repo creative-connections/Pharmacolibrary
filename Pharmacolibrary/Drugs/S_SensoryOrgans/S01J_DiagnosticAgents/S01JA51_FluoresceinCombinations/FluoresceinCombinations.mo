@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01J_DiagnosticAgents.S01JA51_FluoresceinCombinations;
+model FluoresceinCombinations = Pharmacolibrary.Drugs.ATC.S.S01JA51;

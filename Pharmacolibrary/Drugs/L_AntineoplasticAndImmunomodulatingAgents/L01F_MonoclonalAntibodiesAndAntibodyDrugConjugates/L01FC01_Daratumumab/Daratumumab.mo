@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FC01_Daratumumab;
+model Daratumumab = Pharmacolibrary.Drugs.ATC.L.L01FC01;

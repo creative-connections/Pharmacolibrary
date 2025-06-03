@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials;
+package J01DC06_Cefonicid
+  extends Icons.Package;
+end J01DC06_Cefonicid;

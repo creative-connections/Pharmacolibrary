@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BA03_Metamfetamine;
+model Metamfetamine = Pharmacolibrary.Drugs.ATC.N.N06BA03;

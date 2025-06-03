@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11H_OtherPlainVitaminPreparations.A11HA05_Biotin;
+model Biotin = Pharmacolibrary.Drugs.ATC.A.A11HA05;

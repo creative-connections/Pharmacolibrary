@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents.L01AB03_Mannosulfan;
+model Mannosulfan = Pharmacolibrary.Drugs.ATC.L.L01AB03;

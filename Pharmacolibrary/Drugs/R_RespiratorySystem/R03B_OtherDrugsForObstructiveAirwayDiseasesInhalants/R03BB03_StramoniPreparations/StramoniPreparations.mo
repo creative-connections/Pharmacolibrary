@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03B_OtherDrugsForObstructiveAirwayDiseasesInhalants.R03BB03_StramoniPreparations;
+model StramoniPreparations = Pharmacolibrary.Drugs.ATC.R.R03BB03;

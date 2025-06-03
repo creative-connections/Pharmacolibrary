@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B06A_OtherHematologicalAgents;
+package B06AX01_Crizanlizumab
+  extends Icons.Package;
+end B06AX01_Crizanlizumab;

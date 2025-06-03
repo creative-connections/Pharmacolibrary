@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AC07_Nedocromil;
+model Nedocromil = Pharmacolibrary.Drugs.ATC.R.R01AC07;

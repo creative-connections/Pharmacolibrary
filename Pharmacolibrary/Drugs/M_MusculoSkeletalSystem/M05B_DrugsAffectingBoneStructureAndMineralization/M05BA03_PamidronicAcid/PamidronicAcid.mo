@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization.M05BA03_PamidronicAcid;
+model PamidronicAcid = Pharmacolibrary.Drugs.ATC.M.M05BA03;

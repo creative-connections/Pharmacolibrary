@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EC02_Dabrafenib;
+model Dabrafenib = Pharmacolibrary.Drugs.ATC.L.L01EC02;

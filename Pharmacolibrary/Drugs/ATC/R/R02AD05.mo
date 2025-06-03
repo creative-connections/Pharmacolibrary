@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.R;
+
+model R02AD05
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.79,
+    Cl             = 1.1,
+    adminDuration  = 600,
+    adminMass      = 0.03,
+    adminCount     = 1,
+    Vd             = 0.055,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.007666666666666667,
+    Tlag           = 10.200000000000001
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Ambroxol is a mucolytic agent used to facilitate the clearance of mucus from the respiratory tract. It is commonly prescribed to treat acute and chronic diseases of the respiratory tract associated with viscid or excessive mucus. Ambroxol is widely approved and used in clinical practice, especially in Europe and Asia.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters reported for healthy adult volunteers after oral administration.</p><h4>References</h4><ol><li><a href='https://dx.doi.org/10.1007/BF00373097'>10.1007/BF00373097</a> Pharmacokinetic values taken from: Nau, R., et al. (1987). 'Disposition and metabolism of ambroxol in healthy volunteers after oral administration.' Eur J Clin Pharmacol. Values are for healthy adults; there may be inter-individual variation.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end R02AD05;

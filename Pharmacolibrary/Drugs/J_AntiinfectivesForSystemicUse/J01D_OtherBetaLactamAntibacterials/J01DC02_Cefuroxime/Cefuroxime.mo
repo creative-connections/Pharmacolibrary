@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DC02_Cefuroxime;
+model Cefuroxime = Pharmacolibrary.Drugs.ATC.J.J01DC02;

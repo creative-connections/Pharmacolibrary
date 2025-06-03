@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07D_BetaBlockingAgentsThiazidesAndOtherDiuretics.C07DB01_AtenololThiazidesAndOtherDiuretics;
+model AtenololThiazidesAndOtherDiuretics = Pharmacolibrary.Drugs.ATC.C.C07DB01;

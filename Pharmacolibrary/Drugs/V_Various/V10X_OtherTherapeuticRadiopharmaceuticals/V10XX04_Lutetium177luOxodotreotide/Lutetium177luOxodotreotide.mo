@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V10X_OtherTherapeuticRadiopharmaceuticals.V10XX04_Lutetium177luOxodotreotide;
+model Lutetium177luOxodotreotide = Pharmacolibrary.Drugs.ATC.V.V10XX04;

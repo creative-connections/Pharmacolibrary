@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R07A_OtherRespiratorySystemProducts.R07AX01_NitricOxide;
+model NitricOxide = Pharmacolibrary.Drugs.ATC.R.R07AX01;

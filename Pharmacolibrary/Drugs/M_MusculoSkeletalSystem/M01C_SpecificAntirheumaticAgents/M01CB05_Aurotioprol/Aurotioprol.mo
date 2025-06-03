@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01C_SpecificAntirheumaticAgents.M01CB05_Aurotioprol;
+model Aurotioprol = Pharmacolibrary.Drugs.ATC.M.M01CB05;

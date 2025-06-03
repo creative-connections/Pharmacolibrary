@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01C_AgentsAgainstLeishmaniasisAndTrypanosomiasis;
+package P01CA02_Benznidazole
+  extends Icons.Package;
+end P01CA02_Benznidazole;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V10B_PainPalliationBoneSeekingAgents;
+package V10BX02_Samarium153smLexidronam
+  extends Icons.Package;
+end V10BX02_Samarium153smLexidronam;

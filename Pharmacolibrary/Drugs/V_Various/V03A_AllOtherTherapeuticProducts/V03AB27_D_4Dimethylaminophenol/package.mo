@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts;
+package V03AB27_D_4Dimethylaminophenol
+  extends Icons.Package;
+end V03AB27_D_4Dimethylaminophenol;

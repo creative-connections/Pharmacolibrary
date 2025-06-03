@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AR22_EmtricitabineTenofovirAlafenamideDarunavirAndCobicistat;
+model EmtricitabineTenofovirAlafenamideDarunavirAndCobicistat = Pharmacolibrary.Drugs.ATC.J.J05AR22;

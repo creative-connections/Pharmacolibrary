@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V10A_AntiinflammatoryAgents.V10AA01_Yttrium90yCitrateColloid;
+model Yttrium90yCitrateColloid = Pharmacolibrary.Drugs.ATC.V.V10AA01;

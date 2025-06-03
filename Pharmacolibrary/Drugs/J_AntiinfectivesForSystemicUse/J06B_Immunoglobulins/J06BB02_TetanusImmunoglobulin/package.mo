@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J06B_Immunoglobulins;
+package J06BB02_TetanusImmunoglobulin
+  extends Icons.Package;
+end J06BB02_TetanusImmunoglobulin;

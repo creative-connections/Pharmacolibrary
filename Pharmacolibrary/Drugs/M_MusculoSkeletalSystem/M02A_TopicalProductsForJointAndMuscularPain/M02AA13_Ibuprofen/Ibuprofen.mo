@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain.M02AA13_Ibuprofen;
+model Ibuprofen = Pharmacolibrary.Drugs.ATC.M.M02AA13;

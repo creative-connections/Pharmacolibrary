@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EH03_Tucatinib;
+model Tucatinib = Pharmacolibrary.Drugs.ATC.L.L01EH03;

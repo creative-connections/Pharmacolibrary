@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02A_AntiadrenergicAgentsCentrallyActing.C02AC06_Rilmenidine;
+model Rilmenidine = Pharmacolibrary.Drugs.ATC.C.C02AC06;

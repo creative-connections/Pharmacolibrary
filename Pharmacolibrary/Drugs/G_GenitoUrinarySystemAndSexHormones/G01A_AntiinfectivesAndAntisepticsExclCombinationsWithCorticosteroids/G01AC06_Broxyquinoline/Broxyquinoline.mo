@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AC06_Broxyquinoline;
+model Broxyquinoline = Pharmacolibrary.Drugs.ATC.G.G01AC06;

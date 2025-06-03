@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.N;
+
+model N06BA15
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.22,
+    Cl             = 0.006666666666666667,
+    adminDuration  = 600,
+    adminMass      = 0.039200000000000006,
+    adminCount     = 1,
+    Vd             = 0.00265,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.008333333333333333,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Dexmethylphenidate is the d-threo-enantiomer of methylphenidate, a central nervous system stimulant indicated for the treatment of attention-deficit hyperactivity disorder (ADHD) in children and adults. Serdexmethylphenidate is a prodrug of dexmethylphenidate designed for extended-release formulations. The combination is approved and marketed for the treatment of ADHD.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters estimated for healthy adults based on known pharmacokinetics of dexmethylphenidate and serdexmethylphenidate (CNS stimulant, oral administration). No published non-compartmental or compartmental population PK modeling reports currently available; estimates extrapolated from clinical pharmacology data.</p><h4>References</h4><ol><li> No peer-reviewed publication found with detailed modeled PK parameters for the combined or individual use of dexmethylphenidate and serdexmethylphenidate. Clinical pharmacology data from drug labels (e.g., AZSTARYS FDA label) suggest a 2-compartment PK model with first-order absorption and dual input for prodrug and active drug, but all model parameters here are estimated based on available clinical pharmacokinetic summaries.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end N06BA15;

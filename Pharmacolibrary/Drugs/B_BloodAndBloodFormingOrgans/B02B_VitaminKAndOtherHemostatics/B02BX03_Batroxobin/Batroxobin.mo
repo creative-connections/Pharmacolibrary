@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BX03_Batroxobin;
+model Batroxobin = Pharmacolibrary.Drugs.ATC.B.B02BX03;

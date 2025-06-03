@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents.M03BX53_PridinolCombinations;
+model PridinolCombinations = Pharmacolibrary.Drugs.ATC.M.M03BX53;

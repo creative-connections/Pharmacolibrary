@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics.N02BB54_PropyphenazoneCombinationsExclPsycholeptics;
+model PropyphenazoneCombinationsExclPsycholeptics = Pharmacolibrary.Drugs.ATC.N.N02BB54;

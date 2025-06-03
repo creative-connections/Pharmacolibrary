@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides.C01CX06_Angiotensinamide;
+model Angiotensinamide = Pharmacolibrary.Drugs.ATC.C.C01CX06;

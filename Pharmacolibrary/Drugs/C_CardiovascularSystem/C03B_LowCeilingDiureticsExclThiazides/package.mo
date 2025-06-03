@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem;
+package C03B_LowCeilingDiureticsExclThiazides
+  extends Icons.Package;
+end C03B_LowCeilingDiureticsExclThiazides;

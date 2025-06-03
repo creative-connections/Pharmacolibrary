@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AX02_Retinol;
+model Retinol = Pharmacolibrary.Drugs.ATC.R.R01AX02;

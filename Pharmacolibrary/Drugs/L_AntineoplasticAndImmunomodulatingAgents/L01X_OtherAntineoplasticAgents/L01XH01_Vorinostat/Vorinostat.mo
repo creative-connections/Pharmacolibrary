@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XH01_Vorinostat;
+model Vorinostat = Pharmacolibrary.Drugs.ATC.L.L01XH01;

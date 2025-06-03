@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AB03_Tolmetin;
+model Tolmetin = Pharmacolibrary.Drugs.ATC.M.M01AB03;

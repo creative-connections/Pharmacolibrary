@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins;
+package A10BD22_MetforminAndEvogliptin
+  extends Icons.Package;
+end A10BD22_MetforminAndEvogliptin;

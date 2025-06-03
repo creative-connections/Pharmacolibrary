@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02C_AntiadrenergicAgentsPeripherallyActing.C02CC02_Guanethidine;
+model Guanethidine = Pharmacolibrary.Drugs.ATC.C.C02CC02;

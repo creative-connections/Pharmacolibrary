@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AA03_Oxyphenbutazone;
+model Oxyphenbutazone = Pharmacolibrary.Drugs.ATC.M.M01AA03;

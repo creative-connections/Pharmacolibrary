@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AC06_PovidoneIodine;
+model PovidoneIodine = Pharmacolibrary.Drugs.ATC.D.D11AC06;

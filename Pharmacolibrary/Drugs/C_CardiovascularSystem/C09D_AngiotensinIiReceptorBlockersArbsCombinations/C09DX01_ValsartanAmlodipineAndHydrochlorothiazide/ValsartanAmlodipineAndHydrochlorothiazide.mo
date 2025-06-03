@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations.C09DX01_ValsartanAmlodipineAndHydrochlorothiazide;
+model ValsartanAmlodipineAndHydrochlorothiazide = Pharmacolibrary.Drugs.ATC.C.C09DX01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03A_EctoparasiticidesInclScabicides.P03AX02_CopperOleinate;
+model CopperOleinate = Pharmacolibrary.Drugs.ATC.P.P03AX02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12A_Calcium.A12AA30_CalciumLaevulate;
+model CalciumLaevulate = Pharmacolibrary.Drugs.ATC.A.A12AA30;

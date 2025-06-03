@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins;
+package A10BG02_Rosiglitazone
+  extends Icons.Package;
+end A10BG02_Rosiglitazone;

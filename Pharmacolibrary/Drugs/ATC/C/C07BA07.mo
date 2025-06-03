@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.C;
+
+model C07BA07
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.9,
+    Cl             = 0.0026666666666666666,
+    adminDuration  = 600,
+    adminMass      = 0.08,
+    adminCount     = 1,
+    Vd             = 0.0024,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0025,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Combination drug containing sotalol, a non-selective beta-blocker with class III antiarrhythmic properties, and thiazide diuretics, used for the management of hypertension and certain cardiac arrhythmias. It is classified under ATC code C07BA07. Its use is less common and typically reserved for specific combination treatment scenarios.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic (PK) study reporting combined PK parameters for the fixed-dose combination of sotalol and thiazide. PK parameter estimates are approximated based on data available for sotalol and typical thiazide monotherapy in healthy adults, oral administration.</p><h4>References</h4><ol><li> No clinical pharmacokinetic studies were found for the fixed-dose combination of sotalol and thiazide diuretics (ATC: C07BA07). All PK parameter values are rough estimates derived from monotherapy data of sotalol in healthy adults. Thiazide (e.g., hydrochlorothiazide) component PK can vary; values are assumed not to majorly interact. Parameters should be interpreted with caution and considered as estimates only.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end C07BA07;

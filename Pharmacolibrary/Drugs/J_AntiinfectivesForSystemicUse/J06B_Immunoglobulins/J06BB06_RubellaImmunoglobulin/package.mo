@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J06B_Immunoglobulins;
+package J06BB06_RubellaImmunoglobulin
+  extends Icons.Package;
+end J06BB06_RubellaImmunoglobulin;

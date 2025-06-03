@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts;
+package A16AX16_Givosiran
+  extends Icons.Package;
+end A16AX16_Givosiran;

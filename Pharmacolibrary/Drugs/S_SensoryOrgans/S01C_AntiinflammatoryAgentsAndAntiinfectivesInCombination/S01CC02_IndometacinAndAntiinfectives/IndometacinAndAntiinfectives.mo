@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01C_AntiinflammatoryAgentsAndAntiinfectivesInCombination.S01CC02_IndometacinAndAntiinfectives;
+model IndometacinAndAntiinfectives = Pharmacolibrary.Drugs.ATC.S.S01CC02;

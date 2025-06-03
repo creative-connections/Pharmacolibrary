@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.A;
+
+model A07DA04
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.13,
+    Cl             = 1.25,
+    adminDuration  = 600,
+    adminMass      = 0.002,
+    adminCount     = 1,
+    Vd             = 0.006,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0013333333333333333,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Difenoxin is a synthetic opioid agonist structurally related to diphenoxylate, used as an antidiarrheal agent. It is often administered with atropine to discourage misuse due to its opioid-like effects. Its use is approved in some countries for the symptomatic treatment of diarrhea, though modern clinical use is limited.</p><h4>Pharmacokinetics</h4><p>No direct pharmacokinetic (PK) studies in humans specific to difenoxin monotherapy were found in the scientific literature. Parameters reported are estimated based on known structural similarity to diphenoxylate and related opioid antidiarrheal agents. Estimates pertain to healthy adults after oral administration.</p><h4>References</h4><ol><li> Pharmacokinetic parameters for difenoxin were not found in published peer-reviewed literature. All values herein are estimated based on related compounds (primarily diphenoxylate) and general pharmacological expectations for lipophilic opioids used as antidiarrheals. Estimates may not precisely reflect actual clinical PK of difenoxin and should be used with caution.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end A07DA04;

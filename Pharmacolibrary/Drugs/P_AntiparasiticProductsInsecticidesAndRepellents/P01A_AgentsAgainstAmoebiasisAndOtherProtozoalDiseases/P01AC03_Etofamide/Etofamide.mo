@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AC03_Etofamide;
+model Etofamide = Pharmacolibrary.Drugs.ATC.P.P01AC03;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07X_CorticosteroidsOtherCombinations.D07XC04_Diflucortolone;
+model Diflucortolone = Pharmacolibrary.Drugs.ATC.D.D07XC04;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem.M09AB52_TrypsinCombinations;
+model TrypsinCombinations = Pharmacolibrary.Drugs.ATC.M.M09AB52;

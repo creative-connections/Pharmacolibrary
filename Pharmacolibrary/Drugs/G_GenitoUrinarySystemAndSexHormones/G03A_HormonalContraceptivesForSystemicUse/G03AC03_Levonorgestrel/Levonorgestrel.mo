@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AC03_Levonorgestrel;
+model Levonorgestrel = Pharmacolibrary.Drugs.ATC.G.G03AC03;

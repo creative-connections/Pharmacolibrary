@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse.D10AA03_Dexamethasone;
+model Dexamethasone = Pharmacolibrary.Drugs.ATC.D.D10AA03;

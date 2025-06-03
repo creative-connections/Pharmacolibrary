@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse.J02AC03_Voriconazole;
+model Voriconazole = Pharmacolibrary.Drugs.ATC.J.J02AC03;

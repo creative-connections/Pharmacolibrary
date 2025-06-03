@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants.R05DB03_Clobutinol;
+model Clobutinol = Pharmacolibrary.Drugs.ATC.R.R05DB03;

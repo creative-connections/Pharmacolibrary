@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V10X_OtherTherapeuticRadiopharmaceuticals.V10XX03_Radium223raDichloride;
+model Radium223raDichloride = Pharmacolibrary.Drugs.ATC.V.V10XX03;

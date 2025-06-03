@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05C_CapillaryStabilizingAgents.C05CA04_Troxerutin;
+model Troxerutin = Pharmacolibrary.Drugs.ATC.C.C05CA04;

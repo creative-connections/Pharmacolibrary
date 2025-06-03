@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01B_AntiinflammatoryAgents.S01BB04_BetamethasoneAndMydriatics;
+model BetamethasoneAndMydriatics = Pharmacolibrary.Drugs.ATC.S.S01BB04;

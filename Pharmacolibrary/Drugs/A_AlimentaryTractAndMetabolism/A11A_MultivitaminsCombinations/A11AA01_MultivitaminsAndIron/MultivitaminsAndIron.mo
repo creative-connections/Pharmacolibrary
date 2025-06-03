@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11A_MultivitaminsCombinations.A11AA01_MultivitaminsAndIron;
+model MultivitaminsAndIron = Pharmacolibrary.Drugs.ATC.A.A11AA01;

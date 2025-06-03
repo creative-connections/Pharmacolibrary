@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AA01_Phenylbutazone;
+model Phenylbutazone = Pharmacolibrary.Drugs.ATC.M.M01AA01;

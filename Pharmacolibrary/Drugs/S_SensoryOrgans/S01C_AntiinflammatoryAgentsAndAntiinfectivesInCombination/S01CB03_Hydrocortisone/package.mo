@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01C_AntiinflammatoryAgentsAndAntiinfectivesInCombination;
+package S01CB03_Hydrocortisone
+  extends Icons.Package;
+end S01CB03_Hydrocortisone;

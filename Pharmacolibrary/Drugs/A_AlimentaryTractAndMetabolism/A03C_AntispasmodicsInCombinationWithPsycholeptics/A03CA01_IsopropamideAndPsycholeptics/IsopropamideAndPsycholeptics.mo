@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03C_AntispasmodicsInCombinationWithPsycholeptics.A03CA01_IsopropamideAndPsycholeptics;
+model IsopropamideAndPsycholeptics = Pharmacolibrary.Drugs.ATC.A.A03CA01;

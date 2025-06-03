@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts.A16AB09_Idursulfase;
+model Idursulfase = Pharmacolibrary.Drugs.ATC.A.A16AB09;

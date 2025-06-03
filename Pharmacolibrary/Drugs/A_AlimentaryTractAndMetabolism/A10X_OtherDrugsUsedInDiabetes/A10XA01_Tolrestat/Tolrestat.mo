@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10X_OtherDrugsUsedInDiabetes.A10XA01_Tolrestat;
+model Tolrestat = Pharmacolibrary.Drugs.ATC.A.A10XA01;

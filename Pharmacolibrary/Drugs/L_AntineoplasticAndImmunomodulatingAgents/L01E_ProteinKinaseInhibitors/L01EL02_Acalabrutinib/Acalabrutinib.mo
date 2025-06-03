@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EL02_Acalabrutinib;
+model Acalabrutinib = Pharmacolibrary.Drugs.ATC.L.L01EL02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FA02_Ofatumumab;
+model Ofatumumab = Pharmacolibrary.Drugs.ATC.L.L01FA02;

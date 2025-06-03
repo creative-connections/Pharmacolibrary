@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations.C09BB12_DelaprilAndManidipine;
+model DelaprilAndManidipine = Pharmacolibrary.Drugs.ATC.C.C09BB12;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents;
+package L01AD04_Streptozocin
+  extends Icons.Package;
+end L01AD04_Streptozocin;

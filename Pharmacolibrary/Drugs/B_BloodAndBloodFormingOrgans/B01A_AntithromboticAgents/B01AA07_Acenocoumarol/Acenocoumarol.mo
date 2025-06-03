@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AA07_Acenocoumarol;
+model Acenocoumarol = Pharmacolibrary.Drugs.ATC.B.B01AA07;

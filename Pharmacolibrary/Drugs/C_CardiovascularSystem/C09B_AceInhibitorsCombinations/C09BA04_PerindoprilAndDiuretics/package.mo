@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations;
+package C09BA04_PerindoprilAndDiuretics
+  extends Icons.Package;
+end C09BA04_PerindoprilAndDiuretics;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AA10_Trimethobenzamide;
+model Trimethobenzamide = Pharmacolibrary.Drugs.ATC.R.R06AA10;

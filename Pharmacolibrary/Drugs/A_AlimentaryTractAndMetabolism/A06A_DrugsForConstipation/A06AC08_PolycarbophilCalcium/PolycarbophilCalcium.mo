@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AC08_PolycarbophilCalcium;
+model PolycarbophilCalcium = Pharmacolibrary.Drugs.ATC.A.A06AC08;

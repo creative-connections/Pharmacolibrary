@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07E_IntestinalAntiinflammatoryAgents.A07EA05_Tixocortol;
+model Tixocortol = Pharmacolibrary.Drugs.ATC.A.A07EA05;

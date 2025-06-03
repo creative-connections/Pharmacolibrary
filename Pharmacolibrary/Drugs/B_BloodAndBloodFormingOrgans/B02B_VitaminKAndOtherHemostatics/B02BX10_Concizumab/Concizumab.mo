@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BX10_Concizumab;
+model Concizumab = Pharmacolibrary.Drugs.ATC.B.B02BX10;

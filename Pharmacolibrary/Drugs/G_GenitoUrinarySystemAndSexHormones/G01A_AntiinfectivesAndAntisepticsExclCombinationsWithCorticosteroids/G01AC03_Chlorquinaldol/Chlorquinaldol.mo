@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AC03_Chlorquinaldol;
+model Chlorquinaldol = Pharmacolibrary.Drugs.ATC.G.G01AC03;

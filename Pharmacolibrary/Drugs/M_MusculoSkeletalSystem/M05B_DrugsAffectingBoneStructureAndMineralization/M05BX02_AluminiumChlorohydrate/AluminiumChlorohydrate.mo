@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization.M05BX02_AluminiumChlorohydrate;
+model AluminiumChlorohydrate = Pharmacolibrary.Drugs.ATC.M.M05BX02;

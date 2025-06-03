@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations.C10BX04_SimvastatinAcetylsalicylicAcidAndRamipril;
+model SimvastatinAcetylsalicylicAcidAndRamipril = Pharmacolibrary.Drugs.ATC.C.C10BX04;

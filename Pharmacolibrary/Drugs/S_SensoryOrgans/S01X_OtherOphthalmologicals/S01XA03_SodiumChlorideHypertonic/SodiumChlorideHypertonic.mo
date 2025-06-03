@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01X_OtherOphthalmologicals.S01XA03_SodiumChlorideHypertonic;
+model SodiumChlorideHypertonic = Pharmacolibrary.Drugs.ATC.S.S01XA03;

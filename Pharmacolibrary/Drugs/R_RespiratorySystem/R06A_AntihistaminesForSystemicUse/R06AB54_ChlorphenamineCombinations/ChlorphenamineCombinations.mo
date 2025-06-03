@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AB54_ChlorphenamineCombinations;
+model ChlorphenamineCombinations = Pharmacolibrary.Drugs.ATC.R.R06AB54;

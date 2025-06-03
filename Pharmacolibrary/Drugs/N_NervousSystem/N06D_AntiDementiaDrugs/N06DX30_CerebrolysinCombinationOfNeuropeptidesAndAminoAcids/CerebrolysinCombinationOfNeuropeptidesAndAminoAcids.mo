@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06D_AntiDementiaDrugs.N06DX30_CerebrolysinCombinationOfNeuropeptidesAndAminoAcids;
+model CerebrolysinCombinationOfNeuropeptidesAndAminoAcids = Pharmacolibrary.Drugs.ATC.N.N06DX30;

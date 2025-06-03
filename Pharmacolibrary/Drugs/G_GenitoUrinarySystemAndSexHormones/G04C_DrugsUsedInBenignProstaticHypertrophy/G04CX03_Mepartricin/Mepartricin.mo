@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04C_DrugsUsedInBenignProstaticHypertrophy.G04CX03_Mepartricin;
+model Mepartricin = Pharmacolibrary.Drugs.ATC.G.G04CX03;

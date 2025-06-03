@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AE14_Dexibuprofen;
+model Dexibuprofen = Pharmacolibrary.Drugs.ATC.M.M01AE14;

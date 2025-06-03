@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01X_OtherAntibacterials;
+package J01XE01_Nitrofurantoin
+  extends Icons.Package;
+end J01XE01_Nitrofurantoin;

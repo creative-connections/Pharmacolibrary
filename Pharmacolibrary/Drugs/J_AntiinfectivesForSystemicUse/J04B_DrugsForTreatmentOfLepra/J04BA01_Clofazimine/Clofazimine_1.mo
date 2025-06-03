@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04B_DrugsForTreatmentOfLepra.J04BA01_Clofazimine;
+model Clofazimine_1 = Pharmacolibrary.Drugs.ATC.J.J04BA01_1;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05A_ParathyroidHormonesAndAnalogues.H05AA02_Teriparatide;
+model Teriparatide = Pharmacolibrary.Drugs.ATC.H.H05AA02;

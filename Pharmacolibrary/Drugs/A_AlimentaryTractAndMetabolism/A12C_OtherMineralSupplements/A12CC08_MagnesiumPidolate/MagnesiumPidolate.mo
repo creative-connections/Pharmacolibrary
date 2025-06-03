@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12C_OtherMineralSupplements.A12CC08_MagnesiumPidolate;
+model MagnesiumPidolate = Pharmacolibrary.Drugs.ATC.A.A12CC08;

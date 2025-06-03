@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02C_AntinematodalAgents;
+package P02CA02_Tiabendazole
+  extends Icons.Package;
+end P02CA02_Tiabendazole;

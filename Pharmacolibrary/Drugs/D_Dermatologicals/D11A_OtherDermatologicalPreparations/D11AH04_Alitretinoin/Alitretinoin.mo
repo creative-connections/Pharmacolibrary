@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AH04_Alitretinoin;
+model Alitretinoin = Pharmacolibrary.Drugs.ATC.D.D11AH04;

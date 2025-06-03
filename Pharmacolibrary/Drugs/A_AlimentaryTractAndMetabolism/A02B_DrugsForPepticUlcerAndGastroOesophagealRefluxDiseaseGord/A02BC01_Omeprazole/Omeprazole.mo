@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BC01_Omeprazole;
+model Omeprazole = Pharmacolibrary.Drugs.ATC.A.A02BC01;

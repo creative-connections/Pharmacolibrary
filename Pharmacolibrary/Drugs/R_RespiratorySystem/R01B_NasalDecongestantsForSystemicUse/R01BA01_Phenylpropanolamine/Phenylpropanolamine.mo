@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01B_NasalDecongestantsForSystemicUse.R01BA01_Phenylpropanolamine;
+model Phenylpropanolamine = Pharmacolibrary.Drugs.ATC.R.R01BA01;

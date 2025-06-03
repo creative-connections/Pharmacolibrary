@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05B_AntiParathyroidAgents.H05BX04_Etelcalcetide;
+model Etelcalcetide = Pharmacolibrary.Drugs.ATC.H.H05BX04;

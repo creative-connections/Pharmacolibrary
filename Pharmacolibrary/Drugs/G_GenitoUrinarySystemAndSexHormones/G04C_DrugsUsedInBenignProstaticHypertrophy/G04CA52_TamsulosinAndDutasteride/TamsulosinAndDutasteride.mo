@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04C_DrugsUsedInBenignProstaticHypertrophy.G04CA52_TamsulosinAndDutasteride;
+model TamsulosinAndDutasteride = Pharmacolibrary.Drugs.ATC.G.G04CA52;

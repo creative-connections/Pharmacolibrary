@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AC52_HistapyrrodineCombinations;
+model HistapyrrodineCombinations = Pharmacolibrary.Drugs.ATC.R.R06AC52;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AX07_Caplacizumab;
+model Caplacizumab = Pharmacolibrary.Drugs.ATC.B.B01AX07;

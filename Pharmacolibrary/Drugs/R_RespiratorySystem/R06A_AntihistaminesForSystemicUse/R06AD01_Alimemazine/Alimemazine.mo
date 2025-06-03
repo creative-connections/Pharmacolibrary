@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AD01_Alimemazine;
+model Alimemazine = Pharmacolibrary.Drugs.ATC.R.R06AD01;

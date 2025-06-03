@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AX07_Plecanatide;
+model Plecanatide = Pharmacolibrary.Drugs.ATC.A.A06AX07;

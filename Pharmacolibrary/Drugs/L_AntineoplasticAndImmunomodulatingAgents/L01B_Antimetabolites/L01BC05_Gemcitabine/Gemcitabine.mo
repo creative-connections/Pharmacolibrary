@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01B_Antimetabolites.L01BC05_Gemcitabine;
+model Gemcitabine = Pharmacolibrary.Drugs.ATC.L.L01BC05;

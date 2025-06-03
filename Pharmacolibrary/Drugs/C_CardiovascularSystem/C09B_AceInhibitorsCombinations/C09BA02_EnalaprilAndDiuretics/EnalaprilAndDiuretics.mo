@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations.C09BA02_EnalaprilAndDiuretics;
+model EnalaprilAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C09BA02;

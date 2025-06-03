@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AA05_NorethisteroneAndEthinylestradiol;
+model NorethisteroneAndEthinylestradiol = Pharmacolibrary.Drugs.ATC.G.G03AA05;

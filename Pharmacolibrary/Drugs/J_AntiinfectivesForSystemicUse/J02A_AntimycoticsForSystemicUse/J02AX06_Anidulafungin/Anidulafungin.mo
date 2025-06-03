@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse.J02AX06_Anidulafungin;
+model Anidulafungin = Pharmacolibrary.Drugs.ATC.J.J02AX06;

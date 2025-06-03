@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.C;
+
+model C01DX52
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.3,
+    Cl             = 0.5,
+    adminDuration  = 600,
+    adminMass      = 0.06,
+    adminCount     = 1,
+    Vd             = 0.2,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0008333333333333334,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Prenylamine, in combination formulations, is a calcium channel blocker that was previously used in the management of angina pectoris (chest pain due to coronary heart disease). It acts primarily by reducing myocardial oxygen demand. Prenylamine is no longer widely used or approved in most countries due to safety concerns, such as risk of ventricular arrhythmias.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic (PK) data specifically available for prenylamine combinations (C01DX52) in humans. Parameters estimated based on typical profiles for oral calcium channel blockers. Model assumes parameters for a healthy adult population.</p><h4>References</h4><ol><li> No peer-reviewed publication reports PK for prenylamine combinations (C01DX52). Values are approximate estimates based on profile of oral lipophilic calcium channel blockers, assuming historic doses and standard adult physiology.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end C01DX52;

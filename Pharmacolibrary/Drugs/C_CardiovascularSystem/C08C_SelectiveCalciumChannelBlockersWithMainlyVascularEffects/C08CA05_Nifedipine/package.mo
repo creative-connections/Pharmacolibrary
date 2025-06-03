@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08C_SelectiveCalciumChannelBlockersWithMainlyVascularEffects;
+package C08CA05_Nifedipine
+  extends Icons.Package;
+end C08CA05_Nifedipine;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BX04_Romiplostim;
+model Romiplostim = Pharmacolibrary.Drugs.ATC.B.B02BX04;

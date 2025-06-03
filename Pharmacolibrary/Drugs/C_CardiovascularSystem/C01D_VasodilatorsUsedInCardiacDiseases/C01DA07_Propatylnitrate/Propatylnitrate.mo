@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DA07_Propatylnitrate;
+model Propatylnitrate = Pharmacolibrary.Drugs.ATC.C.C01DA07;

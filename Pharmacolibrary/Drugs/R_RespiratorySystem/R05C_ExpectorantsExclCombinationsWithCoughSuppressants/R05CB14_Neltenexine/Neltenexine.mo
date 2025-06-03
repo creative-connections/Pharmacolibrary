@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants.R05CB14_Neltenexine;
+model Neltenexine = Pharmacolibrary.Drugs.ATC.R.R05CB14;

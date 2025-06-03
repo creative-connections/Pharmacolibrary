@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BD14_VonoprazanAmoxicillinAndClarithromycin;
+model VonoprazanAmoxicillinAndClarithromycin = Pharmacolibrary.Drugs.ATC.A.A02BD14;

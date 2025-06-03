@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DA58_IsosorbideDinitrateCombinations;
+model IsosorbideDinitrateCombinations = Pharmacolibrary.Drugs.ATC.C.C01DA58;

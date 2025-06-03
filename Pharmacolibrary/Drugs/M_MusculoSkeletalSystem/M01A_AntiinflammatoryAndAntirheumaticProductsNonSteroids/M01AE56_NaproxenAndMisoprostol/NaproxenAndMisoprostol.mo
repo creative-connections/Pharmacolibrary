@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AE56_NaproxenAndMisoprostol;
+model NaproxenAndMisoprostol = Pharmacolibrary.Drugs.ATC.M.M01AE56;

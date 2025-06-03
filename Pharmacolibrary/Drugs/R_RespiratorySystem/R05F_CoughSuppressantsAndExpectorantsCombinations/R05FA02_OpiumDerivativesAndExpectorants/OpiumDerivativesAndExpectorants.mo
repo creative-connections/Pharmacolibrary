@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05F_CoughSuppressantsAndExpectorantsCombinations.R05FA02_OpiumDerivativesAndExpectorants;
+model OpiumDerivativesAndExpectorants = Pharmacolibrary.Drugs.ATC.R.R05FA02;

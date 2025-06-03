@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02B_HormoneAntagonistsAndRelatedAgents.L02BA01_Tamoxifen;
+model Tamoxifen = Pharmacolibrary.Drugs.ATC.L.L02BA01;

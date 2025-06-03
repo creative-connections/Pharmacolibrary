@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations.A01AC02_Dexamethasone;
+model Dexamethasone = Pharmacolibrary.Drugs.ATC.A.A01AC02;

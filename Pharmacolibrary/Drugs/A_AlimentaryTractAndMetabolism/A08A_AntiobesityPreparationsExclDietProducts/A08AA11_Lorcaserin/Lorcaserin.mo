@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A08A_AntiobesityPreparationsExclDietProducts.A08AA11_Lorcaserin;
+model Lorcaserin = Pharmacolibrary.Drugs.ATC.A.A08AA11;

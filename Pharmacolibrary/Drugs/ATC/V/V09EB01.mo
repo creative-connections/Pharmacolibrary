@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.V;
+
+model V09EB01
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.002,
+    adminDuration  = 600,
+    adminMass      = 0.0002,
+    adminCount     = 1,
+    Vd             = 0.003,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Technetium (99mTc) macrosalb, also known as technetium-99m-labeled human serum albumin macroaggregates, is a radiopharmaceutical used primarily for lung perfusion imaging in nuclear medicine, aiding in the diagnosis of pulmonary embolism and assessment of lung function. It is still approved and widely used for this purpose.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters estimated for adult patients undergoing lung perfusion imaging. No peer-reviewed PK study specifically reporting compartmental parameters found; population PK parameter values estimated from diagnostic use and known radiopharmaceutical characteristics.</p><h4>References</h4><ol><li> No published compartmental PK study found for 99mTc-macrosalb. Estimates based on clinical practice guidelines, SmPCs, and analogous protein macroaggregate radiopharmaceuticals. Administered intravenously; macroaggregates are trapped in lung capillaries, with effective volume of distribution approximating plasma/blood volume. Clearance is slow, mainly via phagocytosis and subsequent reticuloendothelial transport.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end V09EB01;

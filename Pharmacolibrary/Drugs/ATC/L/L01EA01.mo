@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.L;
+
+model L01EA01
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.98,
+    Cl             = 0.23333333333333334,
+    adminDuration  = 600,
+    adminMass      = 0.4,
+    adminCount     = 1,
+    Vd             = 0.252,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.008333333333333333,
+    Tlag           = 60
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Imatinib is a tyrosine kinase inhibitor primarily used in the treatment of chronic myeloid leukemia (CML), gastrointestinal stromal tumors (GIST), and several other malignancies. Imatinib is approved for use in many countries and remains a standard therapy for CML and GIST.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters reported in adult patients with chronic myeloid leukemia after oral administration. Most literature supports a two-compartment model with first-order absorption.</p><h4>References</h4><ol><li><a href='https://dx.doi.org/10.1128/AAC.47.7.2324-2330.2003'>10.1128/AAC.47.7.2324-2330.2003</a> PK parameters extracted from the population pharmacokinetics study by Peng et al., Antimicrobial Agents and Chemotherapy, 2003. Values may differ between individuals depending on disease condition, comedication, age, hepatic function.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end L01EA01;

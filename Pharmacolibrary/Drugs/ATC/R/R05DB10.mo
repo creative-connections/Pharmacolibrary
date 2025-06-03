@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.R;
+
+model R05DB10
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.5,
+    Cl             = 0.5,
+    adminDuration  = 600,
+    adminMass      = 0.06,
+    adminCount     = 1,
+    Vd             = 0.2,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0008333333333333334,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Clofedanol is a centrally acting antitussive (cough suppressant) formerly used in the treatment of non-productive cough. It acts as a local anesthetic and has mild antihistamine and anticholinergic properties. Clofedanol is not widely used or approved today in many countries due to the availability of newer drugs and concerns about efficacy.</p><h4>Pharmacokinetics</h4><p>No primary literature reporting detailed pharmacokinetic parameters for clofedanol in humans was identified. The following estimates are provided based on general properties of drugs with similar structure and mode of oral administration in adult populations.</p><h4>References</h4><ol><li> No published pharmacokinetic studies in humans for clofedanol were found at time of knowledge cutoff (June 2024). All numerical values are reasonable estimates extrapolated from the drug class, standard values for centrally acting cough suppressants, and general pharmacokinetic principles for basic oral drugs. These are not directly referenced from original studies.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end R05DB10;

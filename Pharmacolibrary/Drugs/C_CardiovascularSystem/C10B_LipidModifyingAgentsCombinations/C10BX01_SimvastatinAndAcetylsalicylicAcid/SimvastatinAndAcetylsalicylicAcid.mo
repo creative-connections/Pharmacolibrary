@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations.C10BX01_SimvastatinAndAcetylsalicylicAcid;
+model SimvastatinAndAcetylsalicylicAcid = Pharmacolibrary.Drugs.ATC.C.C10BX01;

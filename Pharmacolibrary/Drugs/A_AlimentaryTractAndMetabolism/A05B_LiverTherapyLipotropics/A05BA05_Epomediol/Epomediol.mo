@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A05B_LiverTherapyLipotropics.A05BA05_Epomediol;
+model Epomediol = Pharmacolibrary.Drugs.ATC.A.A05BA05;

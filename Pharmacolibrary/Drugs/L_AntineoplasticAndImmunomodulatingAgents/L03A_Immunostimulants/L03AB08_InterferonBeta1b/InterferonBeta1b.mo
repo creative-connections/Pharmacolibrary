@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AB08_InterferonBeta1b;
+model InterferonBeta1b = Pharmacolibrary.Drugs.ATC.L.L03AB08;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05B_AntivaricoseTherapy.C05BA04_PentosanPolysulfateSodium;
+model PentosanPolysulfateSodium = Pharmacolibrary.Drugs.ATC.C.C05BA04;

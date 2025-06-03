@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AG06_Doravirine;
+model Doravirine = Pharmacolibrary.Drugs.ATC.J.J05AG06;

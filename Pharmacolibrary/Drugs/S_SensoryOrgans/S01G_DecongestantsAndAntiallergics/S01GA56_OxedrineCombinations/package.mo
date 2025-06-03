@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01G_DecongestantsAndAntiallergics;
+package S01GA56_OxedrineCombinations
+  extends Icons.Package;
+end S01GA56_OxedrineCombinations;

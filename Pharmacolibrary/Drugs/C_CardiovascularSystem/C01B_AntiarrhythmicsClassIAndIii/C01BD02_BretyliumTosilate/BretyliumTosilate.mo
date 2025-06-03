@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01B_AntiarrhythmicsClassIAndIii.C01BD02_BretyliumTosilate;
+model BretyliumTosilate = Pharmacolibrary.Drugs.ATC.C.C01BD02;

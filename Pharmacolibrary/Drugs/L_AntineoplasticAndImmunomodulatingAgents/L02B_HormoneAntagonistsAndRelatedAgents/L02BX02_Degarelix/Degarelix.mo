@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02B_HormoneAntagonistsAndRelatedAgents.L02BX02_Degarelix;
+model Degarelix = Pharmacolibrary.Drugs.ATC.L.L02BX02;

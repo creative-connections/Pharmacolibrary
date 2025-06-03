@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C04A_PeripheralVasodilators.C04AD03_Pentoxifylline;
+model Pentoxifylline = Pharmacolibrary.Drugs.ATC.C.C04AD03;

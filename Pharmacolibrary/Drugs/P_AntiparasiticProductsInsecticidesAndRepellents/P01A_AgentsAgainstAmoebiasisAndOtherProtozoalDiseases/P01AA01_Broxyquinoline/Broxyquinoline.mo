@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AA01_Broxyquinoline;
+model Broxyquinoline = Pharmacolibrary.Drugs.ATC.P.P01AA01;

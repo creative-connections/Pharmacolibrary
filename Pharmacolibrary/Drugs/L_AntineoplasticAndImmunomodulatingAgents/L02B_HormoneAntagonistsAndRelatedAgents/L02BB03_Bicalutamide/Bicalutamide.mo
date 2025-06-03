@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02B_HormoneAntagonistsAndRelatedAgents.L02BB03_Bicalutamide;
+model Bicalutamide = Pharmacolibrary.Drugs.ATC.L.L02BB03;

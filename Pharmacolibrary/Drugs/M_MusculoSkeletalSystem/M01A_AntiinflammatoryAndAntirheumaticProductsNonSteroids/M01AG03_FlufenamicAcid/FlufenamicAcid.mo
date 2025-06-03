@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AG03_FlufenamicAcid;
+model FlufenamicAcid = Pharmacolibrary.Drugs.ATC.M.M01AG03;

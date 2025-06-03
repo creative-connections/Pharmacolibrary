@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations.C10BX05_RosuvastatinAndAcetylsalicylicAcid;
+model RosuvastatinAndAcetylsalicylicAcid = Pharmacolibrary.Drugs.ATC.C.C10BX05;

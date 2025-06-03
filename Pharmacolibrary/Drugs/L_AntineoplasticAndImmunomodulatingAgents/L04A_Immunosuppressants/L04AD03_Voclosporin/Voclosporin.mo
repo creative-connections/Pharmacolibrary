@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AD03_Voclosporin;
+model Voclosporin = Pharmacolibrary.Drugs.ATC.L.L04AD03;

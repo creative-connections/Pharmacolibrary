@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09D_HepaticAndReticuloEndothelialSystem.V09DA04_Technetium99mtcMebrofenin;
+model Technetium99mtcMebrofenin = Pharmacolibrary.Drugs.ATC.V.V09DA04;

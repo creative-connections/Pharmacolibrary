@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AG52_HaemophilusInfluenzaeBCombinationsWithPertussisAndToxoids;
+model HaemophilusInfluenzaeBCombinationsWithPertussisAndToxoids = Pharmacolibrary.Drugs.ATC.J.J07AG52;

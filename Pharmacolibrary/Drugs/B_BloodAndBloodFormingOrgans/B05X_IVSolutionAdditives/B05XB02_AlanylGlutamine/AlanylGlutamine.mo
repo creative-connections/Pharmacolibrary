@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives.B05XB02_AlanylGlutamine;
+model AlanylGlutamine = Pharmacolibrary.Drugs.ATC.B.B05XB02;

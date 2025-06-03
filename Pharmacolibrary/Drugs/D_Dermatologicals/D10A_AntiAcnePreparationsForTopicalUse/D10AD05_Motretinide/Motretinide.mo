@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse.D10AD05_Motretinide;
+model Motretinide = Pharmacolibrary.Drugs.ATC.D.D10AD05;

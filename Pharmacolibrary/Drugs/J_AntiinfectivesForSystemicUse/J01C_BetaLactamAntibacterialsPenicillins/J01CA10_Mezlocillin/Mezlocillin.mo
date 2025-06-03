@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins.J01CA10_Mezlocillin;
+model Mezlocillin = Pharmacolibrary.Drugs.ATC.J.J01CA10;

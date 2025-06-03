@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
+package L01EJ02_Fedratinib
+  extends Icons.Package;
+end L01EJ02_Fedratinib;

@@ -1,5 +1,0 @@
-within Pharmacolibrary.Drugs;
-
-package L_Antineoplastic_and_immunomodulating_agents
-extends Icons.Package;
-end L_Antineoplastic_and_immunomodulating_agents;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse.J02AX01_Flucytosine;
+model Flucytosine = Pharmacolibrary.Drugs.ATC.J.J02AX01;

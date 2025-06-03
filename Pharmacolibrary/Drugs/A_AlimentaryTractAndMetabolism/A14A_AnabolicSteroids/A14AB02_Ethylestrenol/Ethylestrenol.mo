@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A14A_AnabolicSteroids.A14AB02_Ethylestrenol;
+model Ethylestrenol = Pharmacolibrary.Drugs.ATC.A.A14AB02;

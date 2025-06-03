@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03D_AntispasmodicsInCombinationWithAnalgesics;
+package A03DA01_TropenziloneAndAnalgesics
+  extends Icons.Package;
+end A03DA01_TropenziloneAndAnalgesics;

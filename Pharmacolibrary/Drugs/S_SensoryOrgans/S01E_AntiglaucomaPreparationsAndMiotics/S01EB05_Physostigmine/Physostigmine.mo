@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01EB05_Physostigmine;
+model Physostigmine = Pharmacolibrary.Drugs.ATC.S.S01EB05;

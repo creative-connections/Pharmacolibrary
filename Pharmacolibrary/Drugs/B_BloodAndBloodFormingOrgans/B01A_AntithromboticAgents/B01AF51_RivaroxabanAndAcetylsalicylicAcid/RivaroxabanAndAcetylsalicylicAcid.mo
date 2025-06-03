@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AF51_RivaroxabanAndAcetylsalicylicAcid;
+model RivaroxabanAndAcetylsalicylicAcid = Pharmacolibrary.Drugs.ATC.B.B01AF51;

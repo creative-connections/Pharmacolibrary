@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10A_LipidModifyingAgentsPlain.C10AB11_CholineFenofibrate;
+model CholineFenofibrate = Pharmacolibrary.Drugs.ATC.C.C10AB11;

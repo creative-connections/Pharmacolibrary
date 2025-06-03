@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D01A_AntifungalsForTopicalUse.D01AE01_Bromochlorosalicylanilide;
+model Bromochlorosalicylanilide = Pharmacolibrary.Drugs.ATC.D.D01AE01;

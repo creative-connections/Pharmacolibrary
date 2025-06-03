@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
+package L04AJ04_Sutimlimab
+  extends Icons.Package;
+end L04AJ04_Sutimlimab;

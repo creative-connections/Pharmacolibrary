@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BC03_TetragalacturonicAcidHydroxymethylester;
+model TetragalacturonicAcidHydroxymethylester = Pharmacolibrary.Drugs.ATC.B.B02BC03;

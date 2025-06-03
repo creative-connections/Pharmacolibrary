@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.A;
+
+model A02BD08
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.01,
+    Cl             = 0.016666666666666666,
+    adminDuration  = 600,
+    adminMass      = 0.14,
+    adminCount     = 1,
+    Vd             = 0.016,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0025,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>A fixed-dose combination of bismuth subcitrate (a bismuth salt), tetracycline (a tetracycline-class antibiotic), and metronidazole (a nitroimidazole antimicrobial) used as part of quadruple therapy for the eradication of Helicobacter pylori infection and in the treatment of peptic ulcers. It is currently approved and used in clinical practice as a component of H. pylori eradication protocols.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters estimated for typical adult population based on values for individual drugs in published data; no population PK for the fixed combination found.</p><h4>References</h4><ol><li> No direct pharmacokinetic studies reporting model parameters for the fixed-dose A02BD08 combination found in published literature. PK parameters provided are estimated averages for the bismuth component from available literature; tetracycline and metronidazole components vary, and separate, more complete PK exist for those drugs. Combination may alter PKs due to interactions, but no published population or compartmental PK studies for A02BD08 fixed-combination available as of 2024.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end A02BD08;

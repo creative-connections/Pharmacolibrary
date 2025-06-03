@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01B_Antimetabolites.L01BC52_FluorouracilCombinations;
+model FluorouracilCombinations = Pharmacolibrary.Drugs.ATC.L.L01BC52;

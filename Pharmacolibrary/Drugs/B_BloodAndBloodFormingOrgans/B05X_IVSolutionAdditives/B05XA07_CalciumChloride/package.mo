@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives;
+package B05XA07_CalciumChloride
+  extends Icons.Package;
+end B05XA07_CalciumChloride;

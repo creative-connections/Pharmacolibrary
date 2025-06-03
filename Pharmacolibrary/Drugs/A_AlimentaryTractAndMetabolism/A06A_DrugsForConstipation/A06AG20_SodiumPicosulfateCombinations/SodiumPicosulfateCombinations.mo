@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AG20_SodiumPicosulfateCombinations;
+model SodiumPicosulfateCombinations = Pharmacolibrary.Drugs.ATC.A.A06AG20;

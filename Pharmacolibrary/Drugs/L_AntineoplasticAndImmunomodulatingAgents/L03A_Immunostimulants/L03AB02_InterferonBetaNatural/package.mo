@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants;
+package L03AB02_InterferonBetaNatural
+  extends Icons.Package;
+end L03AB02_InterferonBetaNatural;

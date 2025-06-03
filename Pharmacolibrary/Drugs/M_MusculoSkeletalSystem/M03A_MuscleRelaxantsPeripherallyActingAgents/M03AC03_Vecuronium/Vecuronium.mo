@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03A_MuscleRelaxantsPeripherallyActingAgents.M03AC03_Vecuronium;
+model Vecuronium = Pharmacolibrary.Drugs.ATC.M.M03AC03;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BC02_Propentofylline;
+model Propentofylline = Pharmacolibrary.Drugs.ATC.N.N06BC02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides.C01CA15_Gepefrine;
+model Gepefrine = Pharmacolibrary.Drugs.ATC.C.C01CA15;

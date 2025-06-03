@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A05A_BileTherapy.A05AB01_NicotinylMethylamide;
+model NicotinylMethylamide = Pharmacolibrary.Drugs.ATC.A.A05AB01;

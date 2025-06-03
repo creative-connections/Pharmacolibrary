@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01A_AnteriorPituitaryLobeHormonesAndAnalogues.H01AC02_Somatrem;
+model Somatrem = Pharmacolibrary.Drugs.ATC.H.H01AC02;

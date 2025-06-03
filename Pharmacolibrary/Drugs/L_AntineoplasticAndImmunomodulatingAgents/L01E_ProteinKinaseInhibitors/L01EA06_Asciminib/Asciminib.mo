@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EA06_Asciminib;
+model Asciminib = Pharmacolibrary.Drugs.ATC.L.L01EA06;

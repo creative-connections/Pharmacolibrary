@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V10X_OtherTherapeuticRadiopharmaceuticals;
+package V10XX05_Lutetium177luVipivotideTetraxetan
+  extends Icons.Package;
+end V10XX05_Lutetium177luVipivotideTetraxetan;

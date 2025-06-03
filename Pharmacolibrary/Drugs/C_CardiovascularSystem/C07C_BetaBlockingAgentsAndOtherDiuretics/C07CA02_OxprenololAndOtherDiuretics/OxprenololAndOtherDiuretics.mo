@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07C_BetaBlockingAgentsAndOtherDiuretics.C07CA02_OxprenololAndOtherDiuretics;
+model OxprenololAndOtherDiuretics = Pharmacolibrary.Drugs.ATC.C.C07CA02;

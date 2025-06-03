@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts;
+package L01CB01_Etoposide
+  extends Icons.Package;
+end L01CB01_Etoposide;

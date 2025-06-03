@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D01A_AntifungalsForTopicalUse.D01AA20_GriseofulvinAndSalicylicAcidCombination;
+model GriseofulvinAndSalicylicAcidCombination = Pharmacolibrary.Drugs.ATC.D.D01AA20;

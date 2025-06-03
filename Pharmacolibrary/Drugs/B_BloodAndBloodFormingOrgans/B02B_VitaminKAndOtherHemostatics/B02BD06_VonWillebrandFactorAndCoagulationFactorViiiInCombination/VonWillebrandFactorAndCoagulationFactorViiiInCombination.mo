@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BD06_VonWillebrandFactorAndCoagulationFactorViiiInCombination;
+model VonWillebrandFactorAndCoagulationFactorViiiInCombination = Pharmacolibrary.Drugs.ATC.B.B02BD06;

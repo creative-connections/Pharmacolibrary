@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FX10_Olaratumab;
+model Olaratumab = Pharmacolibrary.Drugs.ATC.L.L01FX10;

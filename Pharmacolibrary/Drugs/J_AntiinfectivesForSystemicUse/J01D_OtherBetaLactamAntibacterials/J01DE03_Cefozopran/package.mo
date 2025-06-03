@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials;
+package J01DE03_Cefozopran
+  extends Icons.Package;
+end J01DE03_Cefozopran;

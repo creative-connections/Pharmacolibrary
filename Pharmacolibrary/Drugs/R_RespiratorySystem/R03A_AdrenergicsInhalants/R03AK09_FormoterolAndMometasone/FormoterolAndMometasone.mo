@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants.R03AK09_FormoterolAndMometasone;
+model FormoterolAndMometasone = Pharmacolibrary.Drugs.ATC.R.R03AK09;

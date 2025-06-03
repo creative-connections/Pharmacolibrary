@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01B_AntiinflammatoryAgents;
+package S01BB03_FluorometholoneAndMydriatics
+  extends Icons.Package;
+end S01BB03_FluorometholoneAndMydriatics;

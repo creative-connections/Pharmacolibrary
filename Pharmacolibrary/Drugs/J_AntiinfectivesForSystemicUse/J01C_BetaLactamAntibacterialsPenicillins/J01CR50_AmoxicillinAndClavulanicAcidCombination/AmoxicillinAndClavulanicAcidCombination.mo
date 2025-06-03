@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins.J01CR50_AmoxicillinAndClavulanicAcidCombination;
+model AmoxicillinAndClavulanicAcidCombination = Pharmacolibrary.Drugs.ATC.J.J01CR50;

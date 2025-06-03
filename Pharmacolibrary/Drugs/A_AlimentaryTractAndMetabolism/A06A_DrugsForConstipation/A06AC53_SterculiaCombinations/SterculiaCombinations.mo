@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AC53_SterculiaCombinations;
+model SterculiaCombinations = Pharmacolibrary.Drugs.ATC.A.A06AC53;

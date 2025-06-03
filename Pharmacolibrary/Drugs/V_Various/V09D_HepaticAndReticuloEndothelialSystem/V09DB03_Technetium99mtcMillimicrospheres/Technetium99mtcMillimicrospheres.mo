@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09D_HepaticAndReticuloEndothelialSystem.V09DB03_Technetium99mtcMillimicrospheres;
+model Technetium99mtcMillimicrospheres = Pharmacolibrary.Drugs.ATC.V.V09DB03;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids;
+package M01AC56_MeloxicamCombinations
+  extends Icons.Package;
+end M01AC56_MeloxicamCombinations;

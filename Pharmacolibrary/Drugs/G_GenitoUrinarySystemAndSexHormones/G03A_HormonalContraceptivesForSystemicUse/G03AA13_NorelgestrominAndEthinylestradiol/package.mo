@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse;
+package G03AA13_NorelgestrominAndEthinylestradiol
+  extends Icons.Package;
+end G03AA13_NorelgestrominAndEthinylestradiol;

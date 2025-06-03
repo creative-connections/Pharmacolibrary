@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis;
+package J04AC01_Isoniazid
+  extends Icons.Package;
+end J04AC01_Isoniazid;

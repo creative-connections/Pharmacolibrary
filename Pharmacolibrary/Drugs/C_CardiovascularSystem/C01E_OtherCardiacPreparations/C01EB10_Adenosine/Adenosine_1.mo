@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01E_OtherCardiacPreparations.C01EB10_Adenosine;
+model Adenosine_1 = Pharmacolibrary.Drugs.ATC.C.C01EB10_1;

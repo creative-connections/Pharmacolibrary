@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01G_DecongestantsAndAntiallergics.S01GA03_Xylometazoline;
+model Xylometazoline = Pharmacolibrary.Drugs.ATC.S.S01GA03;

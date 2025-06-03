@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides;
+package C01CA28_Centhaquine
+  extends Icons.Package;
+end C01CA28_Centhaquine;

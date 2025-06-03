@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse.C05AE01_GlycerylTrinitrate;
+model GlycerylTrinitrate = Pharmacolibrary.Drugs.ATC.C.C05AE01;

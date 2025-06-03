@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02B_HormoneAntagonistsAndRelatedAgents.L02BB04_Enzalutamide;
+model Enzalutamide = Pharmacolibrary.Drugs.ATC.L.L02BB04;

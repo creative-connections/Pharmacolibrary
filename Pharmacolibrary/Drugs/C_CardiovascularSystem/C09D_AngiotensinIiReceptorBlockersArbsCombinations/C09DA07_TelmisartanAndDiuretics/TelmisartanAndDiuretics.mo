@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations.C09DA07_TelmisartanAndDiuretics;
+model TelmisartanAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C09DA07;

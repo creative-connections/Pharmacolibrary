@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01C_AgentsAgainstLeishmaniasisAndTrypanosomiasis;
+package P01CX04_Miltefosine
+  extends Icons.Package;
+end P01CX04_Miltefosine;

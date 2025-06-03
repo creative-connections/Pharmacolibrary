@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A04A_AntiemeticsAndAntinauseants;
+package A04AA03_Tropisetron
+  extends Icons.Package;
+end A04AA03_Tropisetron;

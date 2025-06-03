@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations.C09DX07_IrbesartanAmlodipineAndHydrochlorothiazide;
+model IrbesartanAmlodipineAndHydrochlorothiazide = Pharmacolibrary.Drugs.ATC.C.C09DX07;

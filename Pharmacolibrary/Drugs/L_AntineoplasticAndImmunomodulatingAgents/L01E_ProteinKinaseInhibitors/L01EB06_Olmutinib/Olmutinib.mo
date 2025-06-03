@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EB06_Olmutinib;
+model Olmutinib = Pharmacolibrary.Drugs.ATC.L.L01EB06;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01EB08_Aceclidine;
+model Aceclidine = Pharmacolibrary.Drugs.ATC.S.S01EB08;

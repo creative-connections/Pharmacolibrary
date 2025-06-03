@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AB02_Naphazoline;
+model Naphazoline = Pharmacolibrary.Drugs.ATC.R.R01AB02;

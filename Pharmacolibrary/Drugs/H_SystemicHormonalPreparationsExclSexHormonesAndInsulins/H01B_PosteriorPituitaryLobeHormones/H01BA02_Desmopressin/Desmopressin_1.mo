@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01B_PosteriorPituitaryLobeHormones.H01BA02_Desmopressin;
+model Desmopressin_1 = Pharmacolibrary.Drugs.ATC.H.H01BA02_1;

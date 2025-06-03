@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09D_HepaticAndReticuloEndothelialSystem.V09DB06_Technetium99mtcRheniumsulfideColloid;
+model Technetium99mtcRheniumsulfideColloid = Pharmacolibrary.Drugs.ATC.V.V09DB06;

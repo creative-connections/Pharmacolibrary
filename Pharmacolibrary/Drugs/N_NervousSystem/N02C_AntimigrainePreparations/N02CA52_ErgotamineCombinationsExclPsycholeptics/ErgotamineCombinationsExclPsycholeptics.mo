@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02C_AntimigrainePreparations.N02CA52_ErgotamineCombinationsExclPsycholeptics;
+model ErgotamineCombinationsExclPsycholeptics = Pharmacolibrary.Drugs.ATC.N.N02CA52;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04B_DrugsForTreatmentOfLepra.J04BA03_AldesulfoneSodium;
+model AldesulfoneSodium = Pharmacolibrary.Drugs.ATC.J.J04BA03;

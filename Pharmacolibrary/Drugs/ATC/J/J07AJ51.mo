@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.J;
+
+model J07AJ51
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.0,
+    adminDuration  = 600,
+    adminMass      = 0.0005,
+    adminCount     = 1,
+    Vd             = 0,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>This is a combination vaccine containing inactivated whole cell Bordetella pertussis bacteria, typically combined with diphtheria and tetanus toxoids (DTP or DTwP vaccines). It is used to immunize against pertussis (whooping cough), diphtheria, and tetanus. The whole-cell pertussis vaccine is no longer widely used in many high-income countries, replaced by acellular versions due to reactogenicity, but is still widely used globally in national immunization programs.</p><h4>Pharmacokinetics</h4><p>No pharmacokinetic modeling or parameter data is available in the biomedical literature for whole cell pertussis vaccines, either alone or in combination with toxoids, as these are inactivated vaccine products (not conventional drugs), designed to elicit immune responses rather than undergo distribution/elimination like small molecule drugs. Parameters such as absorption rate, volume of distribution, or clearance are not typically characterized or meaningful for vaccines administered intramuscularly.</p><h4>References</h4><ol><li> No pharmacokinetic parameter data are reported in the published literature for inactivated whole cell pertussis vaccine or its combinations with toxoids. As these products are vaccines administered intramuscularly, they are not modeled with conventional PK parameters (e.g., volume of distribution, clearance, absorption rate constant), which are not meaningful in this context. Standard dose and route are provided based on common immunization guidelines. All pharmacokinetic parameters above are left as zero or not applicable.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end J07AJ51;

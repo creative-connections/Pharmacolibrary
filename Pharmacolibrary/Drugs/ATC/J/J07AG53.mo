@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.J;
+
+model J07AG53
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 1.6666666666666667e-05,
+    adminDuration  = 600,
+    adminMass      = 0.0005,
+    adminCount     = 1,
+    Vd             = 2.9999999999999997e-05,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>This is a combination vaccine containing the Haemophilus influenzae type B (Hib) conjugate and the Meningococcus group C conjugate. It is used in pediatric immunization schedules to provide protection against invasive diseases caused by Hib and Neisseria meningitidis group C, such as meningitis and septicemia. It is an approved and widely used vaccine in many countries.</p><h4>Pharmacokinetics</h4><p>No direct pharmacokinetic studies available. As a conjugate vaccine, pharmacokinetics are generally not characterized in the same manner as small molecules; immune response kinetics are typically evaluated rather than drug absorption, distribution, metabolism, and excretion parameters. Data below are estimated for typical pediatric intramuscular administration based on general vaccine pharmacologic principles.</p><h4>References</h4><ol><li> No direct pharmacokinetic (PK) data for this vaccine combination exists as PK parameters are not generally reported or relevant for conjugate vaccines; immune response profiles and antibody titers are evaluated instead. Estimates above provided based on general principles of vaccine absorption and antigen processing rather than measured PK values. No DOI available.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end J07AG53;

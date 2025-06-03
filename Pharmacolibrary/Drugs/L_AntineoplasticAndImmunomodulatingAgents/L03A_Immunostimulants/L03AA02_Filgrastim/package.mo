@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants;
+package L03AA02_Filgrastim
+  extends Icons.Package;
+end L03AA02_Filgrastim;

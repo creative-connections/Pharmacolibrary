@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09C_AngiotensinIiReceptorBlockersArbsPlain.C09CA09_AzilsartanMedoxomil;
+model AzilsartanMedoxomil = Pharmacolibrary.Drugs.ATC.C.C09CA09;

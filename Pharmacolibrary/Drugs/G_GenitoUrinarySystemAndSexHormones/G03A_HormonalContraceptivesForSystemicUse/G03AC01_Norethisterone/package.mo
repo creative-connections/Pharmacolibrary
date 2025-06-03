@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse;
+package G03AC01_Norethisterone
+  extends Icons.Package;
+end G03AC01_Norethisterone;

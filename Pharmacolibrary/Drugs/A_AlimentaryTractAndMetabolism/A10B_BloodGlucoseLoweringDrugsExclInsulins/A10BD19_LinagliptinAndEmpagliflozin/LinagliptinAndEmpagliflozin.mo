@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BD19_LinagliptinAndEmpagliflozin;
+model LinagliptinAndEmpagliflozin = Pharmacolibrary.Drugs.ATC.A.A10BD19;

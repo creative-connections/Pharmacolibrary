@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BC07_Dexrabeprazole;
+model Dexrabeprazole = Pharmacolibrary.Drugs.ATC.A.A02BC07;

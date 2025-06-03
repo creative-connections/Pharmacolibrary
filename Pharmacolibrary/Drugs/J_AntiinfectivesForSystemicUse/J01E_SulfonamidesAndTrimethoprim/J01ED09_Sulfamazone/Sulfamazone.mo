@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01ED09_Sulfamazone;
+model Sulfamazone = Pharmacolibrary.Drugs.ATC.J.J01ED09;

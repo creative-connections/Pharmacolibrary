@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AH06_Lumiracoxib;
+model Lumiracoxib = Pharmacolibrary.Drugs.ATC.M.M01AH06;

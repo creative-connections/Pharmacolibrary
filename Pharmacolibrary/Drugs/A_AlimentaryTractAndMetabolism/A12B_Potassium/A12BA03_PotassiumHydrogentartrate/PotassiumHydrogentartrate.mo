@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12B_Potassium.A12BA03_PotassiumHydrogentartrate;
+model PotassiumHydrogentartrate = Pharmacolibrary.Drugs.ATC.A.A12BA03;

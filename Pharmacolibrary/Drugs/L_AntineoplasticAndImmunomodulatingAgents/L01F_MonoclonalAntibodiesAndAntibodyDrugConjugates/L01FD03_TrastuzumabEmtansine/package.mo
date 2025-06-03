@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates;
+package L01FD03_TrastuzumabEmtansine
+  extends Icons.Package;
+end L01FD03_TrastuzumabEmtansine;

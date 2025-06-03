@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03C_MuscleRelaxantsDirectlyActingAgents;
+package M03CA01_Dantrolene
+  extends Icons.Package;
+end M03CA01_Dantrolene;

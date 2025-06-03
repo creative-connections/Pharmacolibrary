@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AE10_SulfamethizoleAndTrimethoprimCombination;
+model SulfamethizoleAndTrimethoprimCombination = Pharmacolibrary.Drugs.ATC.G.G01AE10;

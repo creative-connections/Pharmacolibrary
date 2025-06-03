@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01A_AnteriorPituitaryLobeHormonesAndAnalogues.H01AB01_ThyrotropinAlfa;
+model ThyrotropinAlfa = Pharmacolibrary.Drugs.ATC.H.H01AB01;

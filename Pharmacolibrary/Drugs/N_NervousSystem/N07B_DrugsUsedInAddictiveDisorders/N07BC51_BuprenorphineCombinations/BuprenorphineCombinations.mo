@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N07B_DrugsUsedInAddictiveDisorders.N07BC51_BuprenorphineCombinations;
+model BuprenorphineCombinations = Pharmacolibrary.Drugs.ATC.N.N07BC51;

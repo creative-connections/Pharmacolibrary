@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DA14_IsosorbideMononitrate;
+model IsosorbideMononitrate = Pharmacolibrary.Drugs.ATC.C.C01DA14;

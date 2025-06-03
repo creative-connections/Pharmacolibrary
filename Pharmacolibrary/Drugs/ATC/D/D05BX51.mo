@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.D;
+
+model D05BX51
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.35,
+    Cl             = 2.0,
+    adminDuration  = 600,
+    adminMass      = 0.24,
+    adminCount     = 1,
+    Vd             = 0.07,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.004166666666666667,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Fumaric acid derivatives in combination (ATC D05BX51) are mainly used for the treatment of moderate to severe plaque psoriasis and sometimes for multiple sclerosis. The combinations typically include dimethyl fumarate and monoethyl fumarate salts, sometimes with other excipients. The drug is approved and in use predominantly in Europe for psoriasis.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic profile for healthy adult volunteers after oral administration of standard combination fumaric acid esters (dimethyl fumarate and monoethyl fumarate salts), as direct pharmacokinetic data for the specific combination formulation is not available in referenced publications. Values are based on typical profiles of dimethyl fumarate and extrapolations from monotherapy studies.</p><h4>References</h4><ol><li> No published PK parameters were found specifically for fumaric acid derivatives combination products with ATC code D05BX51. PK values provided are estimates extrapolated from data on dimethyl fumarate monotherapy studies and reflect typical oral administration in adults. All values should be interpreted with caution and verified against future dedicated studies for this combination.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end D05BX51;

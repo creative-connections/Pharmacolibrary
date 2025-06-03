@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AX09_DiroximelFumarate;
+model DiroximelFumarate = Pharmacolibrary.Drugs.ATC.L.L04AX09;

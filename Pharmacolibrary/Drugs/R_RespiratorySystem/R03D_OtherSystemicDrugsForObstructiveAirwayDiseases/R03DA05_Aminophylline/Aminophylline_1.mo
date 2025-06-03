@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases.R03DA05_Aminophylline;
+model Aminophylline_1 = Pharmacolibrary.Drugs.ATC.R.R03DA05_1;

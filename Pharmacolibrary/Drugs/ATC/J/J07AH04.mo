@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.J;
+
+model J07AH04
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.0,
+    adminDuration  = 600,
+    adminMass      = 0.05,
+    adminCount     = 1,
+    Vd             = 0,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Tetravalent meningococcal polysaccharide vaccine (MenACWY) contains purified polysaccharides from Neisseria meningitidis serogroups A, C, Y, and W-135. It is used to prevent invasive meningococcal disease and has been replaced in many countries by conjugate vaccines due to improved immunogenicity, but the polysaccharide formulation is still used in some settings.</p><h4>Pharmacokinetics</h4><p>No human pharmacokinetic (PK) model data are available for meningococcal polysaccharide vaccines, as these are high molecular weight antigenic polysaccharides administered intramuscularly or subcutaneously with pharmacodynamic (immune response) endpoints, not classical PK parameters.</p><h4>References</h4><ol><li> No published PK studies or standard PK parameters for meningococcal polysaccharide vaccines. Parameters not applicable. Dose based on product characteristics; PK parameters estimated as not relevant.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end J07AH04;

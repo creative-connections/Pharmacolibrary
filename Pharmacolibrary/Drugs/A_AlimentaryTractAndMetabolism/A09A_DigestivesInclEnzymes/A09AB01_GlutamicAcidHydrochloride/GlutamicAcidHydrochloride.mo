@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A09A_DigestivesInclEnzymes.A09AB01_GlutamicAcidHydrochloride;
+model GlutamicAcidHydrochloride = Pharmacolibrary.Drugs.ATC.A.A09AB01;

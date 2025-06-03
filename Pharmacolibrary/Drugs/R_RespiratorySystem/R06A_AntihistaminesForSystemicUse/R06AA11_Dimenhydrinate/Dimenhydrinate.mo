@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AA11_Dimenhydrinate;
+model Dimenhydrinate = Pharmacolibrary.Drugs.ATC.R.R06AA11;

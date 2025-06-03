@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07C_BetaBlockingAgentsAndOtherDiuretics.C07CB53_AtenololAndOtherDiureticsCombinations;
+model AtenololAndOtherDiureticsCombinations = Pharmacolibrary.Drugs.ATC.C.C07CB53;

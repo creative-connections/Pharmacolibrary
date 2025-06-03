@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07B_BetaBlockingAgentsAndThiazides.C07BG01_LabetalolAndThiazides;
+model LabetalolAndThiazides = Pharmacolibrary.Drugs.ATC.C.C07BG01;

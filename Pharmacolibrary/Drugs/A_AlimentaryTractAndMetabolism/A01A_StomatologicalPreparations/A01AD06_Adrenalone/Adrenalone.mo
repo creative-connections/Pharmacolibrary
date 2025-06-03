@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations.A01AD06_Adrenalone;
+model Adrenalone = Pharmacolibrary.Drugs.ATC.A.A01AD06;

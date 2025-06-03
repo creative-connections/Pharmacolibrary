@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FX04_Ipilimumab;
+model Ipilimumab = Pharmacolibrary.Drugs.ATC.L.L01FX04;

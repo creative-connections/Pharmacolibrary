@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
+package L01EH03_Tucatinib
+  extends Icons.Package;
+end L01EH03_Tucatinib;

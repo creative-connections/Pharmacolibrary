@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives.B05XA12_ZincChloride;
+model ZincChloride = Pharmacolibrary.Drugs.ATC.B.B05XA12;

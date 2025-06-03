@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02C_AntinematodalAgents.P02CB02_Diethylcarbamazine;
+model Diethylcarbamazine = Pharmacolibrary.Drugs.ATC.P.P02CB02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants.R05DA05_OpiumAlkaloidsWithMorphine;
+model OpiumAlkaloidsWithMorphine = Pharmacolibrary.Drugs.ATC.R.R05DA05;

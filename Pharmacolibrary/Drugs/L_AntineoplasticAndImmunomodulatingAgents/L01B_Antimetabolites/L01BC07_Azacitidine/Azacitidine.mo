@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01B_Antimetabolites.L01BC07_Azacitidine;
+model Azacitidine = Pharmacolibrary.Drugs.ATC.L.L01BC07;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants.R03AK01_EpinephrineAndOtherDrugsForObstructiveAirwayDiseases;
+model EpinephrineAndOtherDrugsForObstructiveAirwayDiseases = Pharmacolibrary.Drugs.ATC.R.R03AK01;

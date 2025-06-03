@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis;
+package J04AD03_Ethionamide
+  extends Icons.Package;
+end J04AD03_Ethionamide;

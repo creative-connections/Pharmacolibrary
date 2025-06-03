@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BX08_Sulglicotide;
+model Sulglicotide = Pharmacolibrary.Drugs.ATC.A.A02BX08;

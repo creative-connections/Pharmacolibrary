@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AA15_Indanazoline;
+model Indanazoline = Pharmacolibrary.Drugs.ATC.R.R01AA15;

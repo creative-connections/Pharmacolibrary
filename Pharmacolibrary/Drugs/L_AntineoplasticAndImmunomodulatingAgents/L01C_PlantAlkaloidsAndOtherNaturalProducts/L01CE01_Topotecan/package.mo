@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts;
+package L01CE01_Topotecan
+  extends Icons.Package;
+end L01CE01_Topotecan;

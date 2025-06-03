@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A04A_AntiemeticsAndAntinauseants.A04AA04_Dolasetron;
+model Dolasetron = Pharmacolibrary.Drugs.ATC.A.A04AA04;

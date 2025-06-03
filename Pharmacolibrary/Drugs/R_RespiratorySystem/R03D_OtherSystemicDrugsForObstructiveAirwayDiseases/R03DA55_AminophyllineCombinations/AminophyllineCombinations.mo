@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases.R03DA55_AminophyllineCombinations;
+model AminophyllineCombinations = Pharmacolibrary.Drugs.ATC.R.R03DA55;

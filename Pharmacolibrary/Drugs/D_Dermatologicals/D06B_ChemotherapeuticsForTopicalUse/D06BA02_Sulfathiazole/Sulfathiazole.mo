@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D06B_ChemotherapeuticsForTopicalUse.D06BA02_Sulfathiazole;
+model Sulfathiazole = Pharmacolibrary.Drugs.ATC.D.D06BA02;

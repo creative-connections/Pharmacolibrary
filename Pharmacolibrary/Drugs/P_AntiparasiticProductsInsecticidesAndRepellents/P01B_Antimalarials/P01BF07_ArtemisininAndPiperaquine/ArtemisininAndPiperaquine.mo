@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials.P01BF07_ArtemisininAndPiperaquine;
+model ArtemisininAndPiperaquine = Pharmacolibrary.Drugs.ATC.P.P01BF07;

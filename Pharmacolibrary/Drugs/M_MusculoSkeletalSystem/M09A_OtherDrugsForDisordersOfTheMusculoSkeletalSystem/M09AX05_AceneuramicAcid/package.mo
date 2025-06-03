@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem;
+package M09AX05_AceneuramicAcid
+  extends Icons.Package;
+end M09AX05_AceneuramicAcid;

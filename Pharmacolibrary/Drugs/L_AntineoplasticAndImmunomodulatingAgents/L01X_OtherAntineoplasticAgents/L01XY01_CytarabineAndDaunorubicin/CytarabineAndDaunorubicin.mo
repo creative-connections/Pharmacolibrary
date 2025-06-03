@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XY01_CytarabineAndDaunorubicin;
+model CytarabineAndDaunorubicin = Pharmacolibrary.Drugs.ATC.L.L01XY01;

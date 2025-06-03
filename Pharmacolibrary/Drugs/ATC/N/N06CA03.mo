@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.N;
+
+model N06CA03
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.72,
+    Cl             = 0.013333333333333334,
+    adminDuration  = 600,
+    adminMass      = 0.02,
+    adminCount     = 1,
+    Vd             = 0.025,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0006666666666666666,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Fixed combination of fluoxetine, a selective serotonin reuptake inhibitor (SSRI), and psycholeptics (antipsychotics, anxiolytics, or hypnotics); used for treatment-resistant depression and certain psychiatric disorders. Currently, there is limited use and not widely approved as a combination product.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic (PK) studies are available for the fixed combination of fluoxetine and psycholeptics (ATC N06CA03). The following parameters are estimated based on fluoxetine monotherapy PK data in healthy adults, as combination PK data is unavailable.</p><h4>References</h4><ol><li> No published PK studies for the fixed combination with ATC N06CA03. All parameters are extrapolated from single-drug fluoxetine monotherapy in healthy adults, adjusted as typical values. Actual PK for the combination may differ due to interactions with psycholeptics.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end N06CA03;

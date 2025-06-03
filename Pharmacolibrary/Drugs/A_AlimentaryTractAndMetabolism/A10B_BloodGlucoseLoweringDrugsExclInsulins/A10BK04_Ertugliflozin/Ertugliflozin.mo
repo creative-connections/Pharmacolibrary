@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BK04_Ertugliflozin;
+model Ertugliflozin = Pharmacolibrary.Drugs.ATC.A.A10BK04;

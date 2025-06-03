@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05B_AntivaricoseTherapy.C05BA53_HeparinCombinations;
+model HeparinCombinations = Pharmacolibrary.Drugs.ATC.C.C05BA53;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem.M09AX11_Palovarotene;
+model Palovarotene = Pharmacolibrary.Drugs.ATC.M.M09AX11;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A04A_AntiemeticsAndAntinauseants.A04AD11_Nabilone;
+model Nabilone = Pharmacolibrary.Drugs.ATC.A.A04AD11;

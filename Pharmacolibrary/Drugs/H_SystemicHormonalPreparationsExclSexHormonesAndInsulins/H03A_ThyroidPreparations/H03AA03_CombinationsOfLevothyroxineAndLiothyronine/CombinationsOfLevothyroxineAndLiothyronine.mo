@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03A_ThyroidPreparations.H03AA03_CombinationsOfLevothyroxineAndLiothyronine;
+model CombinationsOfLevothyroxineAndLiothyronine = Pharmacolibrary.Drugs.ATC.H.H03AA03;

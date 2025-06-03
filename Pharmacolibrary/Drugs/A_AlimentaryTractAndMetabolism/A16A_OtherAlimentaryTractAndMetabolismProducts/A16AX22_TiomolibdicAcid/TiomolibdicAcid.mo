@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts.A16AX22_TiomolibdicAcid;
+model TiomolibdicAcid = Pharmacolibrary.Drugs.ATC.A.A16AX22;

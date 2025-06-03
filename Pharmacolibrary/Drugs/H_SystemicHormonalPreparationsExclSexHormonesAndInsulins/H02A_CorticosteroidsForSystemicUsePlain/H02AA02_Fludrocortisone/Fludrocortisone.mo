@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02A_CorticosteroidsForSystemicUsePlain.H02AA02_Fludrocortisone;
+model Fludrocortisone = Pharmacolibrary.Drugs.ATC.H.H02AA02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials.P01BE01_Artemisinin;
+model Artemisinin_1 = Pharmacolibrary.Drugs.ATC.P.P01BE01_1;

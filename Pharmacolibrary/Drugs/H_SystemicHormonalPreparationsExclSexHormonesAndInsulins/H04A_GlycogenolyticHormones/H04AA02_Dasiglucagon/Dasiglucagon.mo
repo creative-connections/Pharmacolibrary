@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H04A_GlycogenolyticHormones.H04AA02_Dasiglucagon;
+model Dasiglucagon = Pharmacolibrary.Drugs.ATC.H.H04AA02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10A_InsulinsAndAnalogues.A10AB06_InsulinGlulisine;
+model InsulinGlulisine = Pharmacolibrary.Drugs.ATC.A.A10AB06;

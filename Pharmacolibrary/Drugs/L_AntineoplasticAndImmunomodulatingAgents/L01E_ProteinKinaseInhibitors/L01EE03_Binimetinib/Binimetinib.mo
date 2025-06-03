@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EE03_Binimetinib;
+model Binimetinib = Pharmacolibrary.Drugs.ATC.L.L01EE03;

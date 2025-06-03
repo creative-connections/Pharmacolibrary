@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S02D_OtherOtologicals.S02DA30_PolymyxinBAndNeomycinCombination;
+model PolymyxinBAndNeomycinCombination = Pharmacolibrary.Drugs.ATC.S.S02DA30;

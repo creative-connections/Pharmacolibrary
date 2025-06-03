@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03B_LowCeilingDiureticsExclThiazides.C03BD01_Theobromine;
+model Theobromine = Pharmacolibrary.Drugs.ATC.C.C03BD01;

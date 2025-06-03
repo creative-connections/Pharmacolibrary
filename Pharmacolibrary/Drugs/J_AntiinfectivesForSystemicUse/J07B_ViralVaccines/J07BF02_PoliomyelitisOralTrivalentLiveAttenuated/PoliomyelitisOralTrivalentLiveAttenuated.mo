@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BF02_PoliomyelitisOralTrivalentLiveAttenuated;
+model PoliomyelitisOralTrivalentLiveAttenuated = Pharmacolibrary.Drugs.ATC.J.J07BF02;

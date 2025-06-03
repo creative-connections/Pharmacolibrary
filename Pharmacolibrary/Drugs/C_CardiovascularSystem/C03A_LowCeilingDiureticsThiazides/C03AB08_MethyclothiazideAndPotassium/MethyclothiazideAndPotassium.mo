@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03A_LowCeilingDiureticsThiazides.C03AB08_MethyclothiazideAndPotassium;
+model MethyclothiazideAndPotassium = Pharmacolibrary.Drugs.ATC.C.C03AB08;

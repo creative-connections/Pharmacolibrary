@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis.J04AM02_RifampicinAndIsoniazid;
+model RifampicinAndIsoniazid = Pharmacolibrary.Drugs.ATC.J.J04AM02;

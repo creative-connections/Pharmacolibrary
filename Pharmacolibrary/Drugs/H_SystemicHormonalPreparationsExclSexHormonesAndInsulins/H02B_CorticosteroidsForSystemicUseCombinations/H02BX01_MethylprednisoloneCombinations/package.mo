@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02B_CorticosteroidsForSystemicUseCombinations;
+package H02BX01_MethylprednisoloneCombinations
+  extends Icons.Package;
+end H02BX01_MethylprednisoloneCombinations;

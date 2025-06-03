@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03A_EctoparasiticidesInclScabicides;
+package P03AX06_BenzylAlcohol
+  extends Icons.Package;
+end P03AX06_BenzylAlcohol;

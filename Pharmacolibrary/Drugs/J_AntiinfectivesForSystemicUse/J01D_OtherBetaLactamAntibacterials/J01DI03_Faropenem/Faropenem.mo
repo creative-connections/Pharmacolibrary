@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DI03_Faropenem;
+model Faropenem = Pharmacolibrary.Drugs.ATC.J.J01DI03;

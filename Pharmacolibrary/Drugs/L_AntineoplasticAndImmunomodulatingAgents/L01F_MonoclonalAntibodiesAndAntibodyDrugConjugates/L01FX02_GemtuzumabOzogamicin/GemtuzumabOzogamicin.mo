@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FX02_GemtuzumabOzogamicin;
+model GemtuzumabOzogamicin = Pharmacolibrary.Drugs.ATC.L.L01FX02;

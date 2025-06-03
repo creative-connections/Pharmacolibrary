@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01G_AminoglycosideAntibacterials.J01GB03_Gentamicin;
+model Gentamicin = Pharmacolibrary.Drugs.ATC.J.J01GB03;

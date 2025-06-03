@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03F_ProgestogensAndEstrogensInCombination;
+package G03FA03_EthisteroneAndEstrogen
+  extends Icons.Package;
+end G03FA03_EthisteroneAndEstrogen;

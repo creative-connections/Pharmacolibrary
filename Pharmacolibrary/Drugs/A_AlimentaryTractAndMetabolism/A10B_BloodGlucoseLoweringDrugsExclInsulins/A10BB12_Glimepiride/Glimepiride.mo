@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BB12_Glimepiride;
+model Glimepiride = Pharmacolibrary.Drugs.ATC.A.A10BB12;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
+package L01EK04_Fruquintinib
+  extends Icons.Package;
+end L01EK04_Fruquintinib;

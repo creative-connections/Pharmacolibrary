@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02D_Anticestodals.P02DA01_Niclosamide;
+model Niclosamide = Pharmacolibrary.Drugs.ATC.P.P02DA01;

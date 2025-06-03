@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BJ01_RubellaLiveAttenuated;
+model RubellaLiveAttenuated = Pharmacolibrary.Drugs.ATC.J.J07BJ01;

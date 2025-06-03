@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord;
+package A02BA51_CimetidineCombinations
+  extends Icons.Package;
+end A02BA51_CimetidineCombinations;

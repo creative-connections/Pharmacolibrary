@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation;
+package A06AB56_SennaGlycosidesCombinations
+  extends Icons.Package;
+end A06AB56_SennaGlycosidesCombinations;

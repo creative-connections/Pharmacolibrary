@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.A;
+
+model A03AE03
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.6,
+    Cl             = 0.35,
+    adminDuration  = 600,
+    adminMass      = 0.002,
+    adminCount     = 1,
+    Vd             = 0.13,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.011666666666666665,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Cilansetron is a selective serotonin 5-HT3 receptor antagonist that was developed for the treatment of irritable bowel syndrome (IBS), particularly for diarrhea-predominant IBS. The drug showed promise in clinical trials, especially for male patients, but it was never approved for widespread use and is not marketed today.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for a typical healthy adult based on class similarity with other 5-HT3 antagonists (such as ondansetron). No direct published PK study found for cilansetron.</p><h4>References</h4><ol><li> No specific PK studies or references for cilansetron pharmacokinetics found in literature or PubMed. Parameter values are class-based estimates from pharmacokinetics of other 5-HT3 antagonists like ondansetron and alosetron for typical dosing in healthy adults.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end A03AE03;

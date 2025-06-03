@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.J;
+
+model J07AX01
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.0,
+    adminDuration  = 600,
+    adminMass      = 0.0005,
+    adminCount     = 1,
+    Vd             = 0,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Leptospira vaccines are inactivated or attenuated bacterial vaccines used to prevent leptospirosis, a zoonotic disease caused by Leptospira species. They are used in humans in endemic areas and also widely in veterinary settings. Currently, no Leptospira vaccines are widely approved or used for humans in most regions, although some preparations are used for emergency or travel situations and animal use.</p><h4>Pharmacokinetics</h4><p>No pharmacokinetic studies specific to Leptospira vaccines (inactivated or attenuated bacterial vaccines) in humans are published in the literature; PK models cannot be directly constructed for vaccines as for classic drugs, due to complex immunogenic mechanism and absence of systemic circulation of the antigen in quantifiable drug-like manner.</p><h4>References</h4><ol><li> No pharmacokinetic parameter publications exist for Leptospira vaccines (J07AX01). Vaccines generally do not follow classical pharmacokinetics since their effect is mediated via immune response rather than measurable plasma concentrations of a 'drug'. Values are estimated or described as 'not applicable' as supported by the general vaccine pharmacology literature.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end J07AX01;

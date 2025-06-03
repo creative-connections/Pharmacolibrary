@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AJ10_Decamethoxine;
+model Decamethoxine = Pharmacolibrary.Drugs.ATC.D.D08AJ10;

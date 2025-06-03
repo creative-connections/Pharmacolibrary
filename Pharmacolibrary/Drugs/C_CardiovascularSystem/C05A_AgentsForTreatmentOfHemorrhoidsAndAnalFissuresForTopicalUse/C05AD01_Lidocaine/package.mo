@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse;
+package C05AD01_Lidocaine
+  extends Icons.Package;
+end C05AD01_Lidocaine;

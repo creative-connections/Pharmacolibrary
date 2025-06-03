@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07D_BetaBlockingAgentsThiazidesAndOtherDiuretics;
+package C07DA06_TimololThiazidesAndOtherDiuretics
+  extends Icons.Package;
+end C07DA06_TimololThiazidesAndOtherDiuretics;

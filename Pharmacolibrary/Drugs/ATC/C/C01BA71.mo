@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.C;
+
+model C01BA71
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.8,
+    Cl             = 0.058333333333333334,
+    adminDuration  = 600,
+    adminMass      = 0.2,
+    adminCount     = 1,
+    Vd             = 0.022,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.010833333333333334,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Quinidine is an antiarrhythmic drug used primarily for the treatment of atrial and ventricular arrhythmias. It is also known for its role as a CYP2D6 inhibitor. Combinations with psycholeptics (such as antipsychotics or tranquilizers) have been used historically for treatment-resistant psychiatric conditions involving comorbid cardiac issues, but are not widely used or approved in current practice due to safety concerns and availability of better alternatives.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetics for adult population receiving quinidine in combination with psycholeptics; values are based on quinidine monotherapy due to lack of published data for the combination.</p><h4>References</h4><ol><li> No published pharmacokinetic studies identified specifically for quinidine in combination with psycholeptics (ATC C01BA71). Pharmacokinetic parameters given are estimated based on quinidine monotherapy data and general adult population values.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end C01BA71;

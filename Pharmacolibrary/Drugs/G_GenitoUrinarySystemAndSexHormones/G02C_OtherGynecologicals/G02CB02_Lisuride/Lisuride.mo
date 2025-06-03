@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02C_OtherGynecologicals.G02CB02_Lisuride;
+model Lisuride = Pharmacolibrary.Drugs.ATC.G.G02CB02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins.J01FA09_Clarithromycin;
+model Clarithromycin = Pharmacolibrary.Drugs.ATC.J.J01FA09;

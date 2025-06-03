@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BD04_GlimepirideAndRosiglitazone;
+model GlimepirideAndRosiglitazone = Pharmacolibrary.Drugs.ATC.A.A10BD04;

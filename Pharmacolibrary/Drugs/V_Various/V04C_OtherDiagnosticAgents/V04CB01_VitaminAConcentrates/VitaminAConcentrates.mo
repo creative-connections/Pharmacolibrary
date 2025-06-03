@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V04C_OtherDiagnosticAgents.V04CB01_VitaminAConcentrates;
+model VitaminAConcentrates = Pharmacolibrary.Drugs.ATC.V.V04CB01;

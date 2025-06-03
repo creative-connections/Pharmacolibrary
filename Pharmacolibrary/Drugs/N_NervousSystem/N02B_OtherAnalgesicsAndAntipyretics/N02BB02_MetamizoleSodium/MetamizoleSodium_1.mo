@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics.N02BB02_MetamizoleSodium;
+model MetamizoleSodium_1 = Pharmacolibrary.Drugs.ATC.N.N02BB02_1;

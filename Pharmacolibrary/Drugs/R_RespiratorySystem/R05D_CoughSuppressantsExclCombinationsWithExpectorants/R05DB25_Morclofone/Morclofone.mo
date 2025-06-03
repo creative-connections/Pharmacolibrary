@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants.R05DB25_Morclofone;
+model Morclofone = Pharmacolibrary.Drugs.ATC.R.R05DB25;

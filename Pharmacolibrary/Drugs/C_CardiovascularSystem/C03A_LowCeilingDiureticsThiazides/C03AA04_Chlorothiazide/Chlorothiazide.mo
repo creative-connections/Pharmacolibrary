@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03A_LowCeilingDiureticsThiazides.C03AA04_Chlorothiazide;
+model Chlorothiazide = Pharmacolibrary.Drugs.ATC.C.C03AA04;

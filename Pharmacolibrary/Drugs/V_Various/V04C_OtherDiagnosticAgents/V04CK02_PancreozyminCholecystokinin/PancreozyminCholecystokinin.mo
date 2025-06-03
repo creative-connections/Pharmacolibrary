@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V04C_OtherDiagnosticAgents.V04CK02_PancreozyminCholecystokinin;
+model PancreozyminCholecystokinin = Pharmacolibrary.Drugs.ATC.V.V04CK02;

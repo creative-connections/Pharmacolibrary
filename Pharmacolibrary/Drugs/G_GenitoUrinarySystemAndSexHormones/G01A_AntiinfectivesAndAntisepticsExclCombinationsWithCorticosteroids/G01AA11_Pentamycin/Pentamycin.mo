@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AA11_Pentamycin;
+model Pentamycin = Pharmacolibrary.Drugs.ATC.G.G01AA11;

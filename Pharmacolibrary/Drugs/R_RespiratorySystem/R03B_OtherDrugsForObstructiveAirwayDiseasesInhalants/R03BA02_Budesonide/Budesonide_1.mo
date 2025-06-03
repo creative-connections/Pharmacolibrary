@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03B_OtherDrugsForObstructiveAirwayDiseasesInhalants.R03BA02_Budesonide;
+model Budesonide_1 = Pharmacolibrary.Drugs.ATC.R.R03BA02_1;

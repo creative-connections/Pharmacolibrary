@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V08C_MagneticResonanceImagingContrastMedia.V08CB03_IronOxideNanoparticles;
+model IronOxideNanoparticles = Pharmacolibrary.Drugs.ATC.V.V08CB03;

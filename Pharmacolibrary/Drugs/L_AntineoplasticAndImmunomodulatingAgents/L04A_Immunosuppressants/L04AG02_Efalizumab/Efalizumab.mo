@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AG02_Efalizumab;
+model Efalizumab = Pharmacolibrary.Drugs.ATC.L.L04AG02;

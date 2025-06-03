@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09G_CardiovascularSystem.V09GX04_Rubidium82rbChloride;
+model Rubidium82rbChloride = Pharmacolibrary.Drugs.ATC.V.V09GX04;

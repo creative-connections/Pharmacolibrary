@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AB03_Tetryzoline;
+model Tetryzoline = Pharmacolibrary.Drugs.ATC.R.R01AB03;

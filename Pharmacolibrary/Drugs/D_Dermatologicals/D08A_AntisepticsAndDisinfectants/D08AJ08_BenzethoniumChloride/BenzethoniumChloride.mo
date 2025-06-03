@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AJ08_BenzethoniumChloride;
+model BenzethoniumChloride = Pharmacolibrary.Drugs.ATC.D.D08AJ08;

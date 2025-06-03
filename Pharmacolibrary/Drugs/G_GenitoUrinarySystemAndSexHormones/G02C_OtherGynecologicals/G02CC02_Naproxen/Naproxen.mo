@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02C_OtherGynecologicals.G02CC02_Naproxen;
+model Naproxen = Pharmacolibrary.Drugs.ATC.G.G02CC02;

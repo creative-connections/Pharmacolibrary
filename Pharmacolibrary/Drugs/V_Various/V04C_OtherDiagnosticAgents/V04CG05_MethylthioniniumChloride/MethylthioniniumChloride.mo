@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V04C_OtherDiagnosticAgents.V04CG05_MethylthioniniumChloride;
+model MethylthioniniumChloride = Pharmacolibrary.Drugs.ATC.V.V04CG05;

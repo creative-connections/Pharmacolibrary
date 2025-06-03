@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AX08_PolyIclc;
+model PolyIclc = Pharmacolibrary.Drugs.ATC.L.L03AX08;

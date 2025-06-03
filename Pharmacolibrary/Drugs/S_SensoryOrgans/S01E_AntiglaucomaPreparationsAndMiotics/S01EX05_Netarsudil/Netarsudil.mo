@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01EX05_Netarsudil;
+model Netarsudil = Pharmacolibrary.Drugs.ATC.S.S01EX05;

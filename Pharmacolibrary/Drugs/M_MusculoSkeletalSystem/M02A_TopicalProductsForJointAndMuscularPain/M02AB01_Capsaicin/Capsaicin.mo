@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain.M02AB01_Capsaicin;
+model Capsaicin = Pharmacolibrary.Drugs.ATC.M.M02AB01;

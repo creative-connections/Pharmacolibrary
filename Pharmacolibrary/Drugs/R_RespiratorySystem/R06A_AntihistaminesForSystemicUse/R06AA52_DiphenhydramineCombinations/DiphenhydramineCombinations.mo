@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AA52_DiphenhydramineCombinations;
+model DiphenhydramineCombinations = Pharmacolibrary.Drugs.ATC.R.R06AA52;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials.P01BF01_ArtemetherAndLumefantrine;
+model ArtemetherAndLumefantrine = Pharmacolibrary.Drugs.ATC.P.P01BF01;

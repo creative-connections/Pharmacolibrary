@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination.C02LA03_DeserpidineAndDiuretics;
+model DeserpidineAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C02LA03;

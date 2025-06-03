@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03B_VitaminB12AndFolicAcid.B03BA03_Hydroxocobalamin;
+model Hydroxocobalamin = Pharmacolibrary.Drugs.ATC.B.B03BA03;

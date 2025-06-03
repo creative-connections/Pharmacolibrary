@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02A_Antacids.A02AF01_MagaldrateAndAntiflatulents;
+model MagaldrateAndAntiflatulents = Pharmacolibrary.Drugs.ATC.A.A02AF01;

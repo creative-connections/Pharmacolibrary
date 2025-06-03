@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EB04_Osimertinib;
+model Osimertinib = Pharmacolibrary.Drugs.ATC.L.L01EB04;

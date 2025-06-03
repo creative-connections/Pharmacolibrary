@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BC08_CalciumAlginate;
+model CalciumAlginate = Pharmacolibrary.Drugs.ATC.B.B02BC08;

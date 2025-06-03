@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse.J02AC04_Posaconazole;
+model Posaconazole = Pharmacolibrary.Drugs.ATC.J.J02AC04;

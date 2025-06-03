@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AB05_Pheniramine;
+model Pheniramine = Pharmacolibrary.Drugs.ATC.R.R06AB05;

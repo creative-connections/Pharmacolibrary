@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09X_OtherDiagnosticRadiopharmaceuticals.V09XX03_Selenium75seNorcholesterol;
+model Selenium75seNorcholesterol = Pharmacolibrary.Drugs.ATC.V.V09XX03;

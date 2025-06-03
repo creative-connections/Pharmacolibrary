@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AC10_Drospirenone;
+model Drospirenone = Pharmacolibrary.Drugs.ATC.G.G03AC10;

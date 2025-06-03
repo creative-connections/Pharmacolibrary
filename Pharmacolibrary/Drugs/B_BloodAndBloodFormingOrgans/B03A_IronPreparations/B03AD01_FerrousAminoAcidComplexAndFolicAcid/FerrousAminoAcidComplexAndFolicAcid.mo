@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AD01_FerrousAminoAcidComplexAndFolicAcid;
+model FerrousAminoAcidComplexAndFolicAcid = Pharmacolibrary.Drugs.ATC.B.B03AD01;

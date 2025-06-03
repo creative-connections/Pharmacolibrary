@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02B_HormoneAntagonistsAndRelatedAgents.L02BA03_Fulvestrant;
+model Fulvestrant = Pharmacolibrary.Drugs.ATC.L.L02BA03;

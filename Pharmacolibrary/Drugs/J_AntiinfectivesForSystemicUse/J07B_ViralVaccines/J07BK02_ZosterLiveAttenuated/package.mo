@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines;
+package J07BK02_ZosterLiveAttenuated
+  extends Icons.Package;
+end J07BK02_ZosterLiveAttenuated;

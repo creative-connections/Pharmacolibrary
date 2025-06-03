@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01B_AntiarrhythmicsClassIAndIii.C01BG11_Vernakalant;
+model Vernakalant = Pharmacolibrary.Drugs.ATC.C.C01BG11;

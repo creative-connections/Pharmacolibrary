@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.L;
+
+model L03AX08
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.7,
+    Cl             = 0.0033333333333333335,
+    adminDuration  = 600,
+    adminMass      = 0.02,
+    adminCount     = 1,
+    Vd             = 0.006,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Poly ICLC (polyinosinic-polycytidylic acid stabilized with poly-L-lysine and carboxymethylcellulose) is a synthetic double-stranded RNA used as an immune modulator and adjuvant, primarily for research and investigational purposes in oncology and infectious diseases to stimulate innate immune responses via toll-like receptor 3 (TLR3). It is not approved for routine clinical use.</p><h4>Pharmacokinetics</h4><p>No pharmacokinetic parameters have been reported in published literature for poly ICLC in humans. The following values are placeholders based on general estimates for large molecular weight biologics administered intramuscularly.</p><h4>References</h4><ol><li> No pharmacokinetic parameters for poly ICLC could be found in the literature as of 2024. The parameters reported here are estimated based on general pharmacokinetic characteristics of similar biologic agents (large molecular weight, intramuscular injection) and should not be considered definitive for clinical or research purposes.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end L03AX08;

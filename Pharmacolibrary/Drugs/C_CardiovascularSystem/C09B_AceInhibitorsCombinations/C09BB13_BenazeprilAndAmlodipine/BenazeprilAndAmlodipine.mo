@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations.C09BB13_BenazeprilAndAmlodipine;
+model BenazeprilAndAmlodipine = Pharmacolibrary.Drugs.ATC.C.C09BB13;

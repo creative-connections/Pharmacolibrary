@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AX06_Atovaquone;
+model Atovaquone = Pharmacolibrary.Drugs.ATC.P.P01AX06;

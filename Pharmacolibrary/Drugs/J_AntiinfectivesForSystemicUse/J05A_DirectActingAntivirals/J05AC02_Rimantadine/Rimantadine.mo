@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AC02_Rimantadine;
+model Rimantadine = Pharmacolibrary.Drugs.ATC.J.J05AC02;

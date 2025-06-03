@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A05A_BileTherapy.A05AA04_ObeticholicAcid;
+model ObeticholicAcid = Pharmacolibrary.Drugs.ATC.A.A05AA04;

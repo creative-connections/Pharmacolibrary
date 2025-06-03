@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids;
+package G01AF01_Metronidazole
+  extends Icons.Package;
+end G01AF01_Metronidazole;

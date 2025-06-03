@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A08A_AntiobesityPreparationsExclDietProducts.A08AA06_Etilamfetamine;
+model Etilamfetamine = Pharmacolibrary.Drugs.ATC.A.A08AA06;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XX10_Masoprocol;
+model Masoprocol = Pharmacolibrary.Drugs.ATC.L.L01XX10;

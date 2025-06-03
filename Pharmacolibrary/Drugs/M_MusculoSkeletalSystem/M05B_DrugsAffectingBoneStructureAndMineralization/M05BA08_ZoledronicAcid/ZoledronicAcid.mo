@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization.M05BA08_ZoledronicAcid;
+model ZoledronicAcid = Pharmacolibrary.Drugs.ATC.M.M05BA08;

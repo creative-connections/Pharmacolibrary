@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09F_Thyroid.V09FX01_Technetium99mtcPertechnetate;
+model Technetium99mtcPertechnetate = Pharmacolibrary.Drugs.ATC.V.V09FX01;

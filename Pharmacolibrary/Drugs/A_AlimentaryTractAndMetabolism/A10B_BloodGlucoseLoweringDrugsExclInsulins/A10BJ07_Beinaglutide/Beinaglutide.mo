@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BJ07_Beinaglutide;
+model Beinaglutide = Pharmacolibrary.Drugs.ATC.A.A10BJ07;

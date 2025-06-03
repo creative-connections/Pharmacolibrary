@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants.R05CB13_DornaseAlfaDesoxyribonuclease;
+model DornaseAlfaDesoxyribonuclease = Pharmacolibrary.Drugs.ATC.R.R05CB13;

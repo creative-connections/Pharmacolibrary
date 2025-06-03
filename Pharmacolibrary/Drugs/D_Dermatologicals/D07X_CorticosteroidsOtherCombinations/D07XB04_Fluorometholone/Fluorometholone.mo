@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07X_CorticosteroidsOtherCombinations.D07XB04_Fluorometholone;
+model Fluorometholone = Pharmacolibrary.Drugs.ATC.D.D07XB04;

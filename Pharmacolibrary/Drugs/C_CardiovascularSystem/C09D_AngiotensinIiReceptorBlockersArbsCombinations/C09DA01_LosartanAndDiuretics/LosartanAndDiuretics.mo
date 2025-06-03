@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations.C09DA01_LosartanAndDiuretics;
+model LosartanAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C09DA01;

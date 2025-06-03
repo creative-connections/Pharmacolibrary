@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BX06_Citicoline;
+model Citicoline = Pharmacolibrary.Drugs.ATC.N.N06BX06;

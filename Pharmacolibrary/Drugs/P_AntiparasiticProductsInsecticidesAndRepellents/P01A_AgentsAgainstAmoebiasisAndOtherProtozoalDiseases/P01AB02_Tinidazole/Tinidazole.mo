@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AB02_Tinidazole;
+model Tinidazole = Pharmacolibrary.Drugs.ATC.P.P01AB02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01ED55_CarteololCombinations;
+model CarteololCombinations = Pharmacolibrary.Drugs.ATC.S.S01ED55;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02B_Antitrematodals;
+package P02BA03_Arpraziquantel
+  extends Icons.Package;
+end P02BA03_Arpraziquantel;

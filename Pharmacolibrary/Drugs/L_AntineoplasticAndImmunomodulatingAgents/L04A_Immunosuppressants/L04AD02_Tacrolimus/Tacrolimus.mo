@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AD02_Tacrolimus;
+model Tacrolimus = Pharmacolibrary.Drugs.ATC.L.L04AD02;

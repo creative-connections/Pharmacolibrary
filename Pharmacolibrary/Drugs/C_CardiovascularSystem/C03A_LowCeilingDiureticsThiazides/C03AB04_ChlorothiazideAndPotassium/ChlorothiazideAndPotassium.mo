@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03A_LowCeilingDiureticsThiazides.C03AB04_ChlorothiazideAndPotassium;
+model ChlorothiazideAndPotassium = Pharmacolibrary.Drugs.ATC.C.C03AB04;

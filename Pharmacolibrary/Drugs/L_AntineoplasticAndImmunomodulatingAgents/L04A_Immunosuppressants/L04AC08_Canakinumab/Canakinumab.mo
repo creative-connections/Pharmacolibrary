@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AC08_Canakinumab;
+model Canakinumab = Pharmacolibrary.Drugs.ATC.L.L04AC08;

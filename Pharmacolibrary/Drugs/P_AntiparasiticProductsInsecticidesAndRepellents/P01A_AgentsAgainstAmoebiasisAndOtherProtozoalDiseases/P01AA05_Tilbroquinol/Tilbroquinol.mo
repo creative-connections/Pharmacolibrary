@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AA05_Tilbroquinol;
+model Tilbroquinol = Pharmacolibrary.Drugs.ATC.P.P01AA05;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AF11_Telbivudine;
+model Telbivudine = Pharmacolibrary.Drugs.ATC.J.J05AF11;

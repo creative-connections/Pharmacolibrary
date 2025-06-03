@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06D_AntiDementiaDrugs.N06DA52_DonepezilAndMemantine;
+model DonepezilAndMemantine = Pharmacolibrary.Drugs.ATC.N.N06DA52;

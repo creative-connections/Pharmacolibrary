@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01C_HypothalamicHormones.H01CC54_RelugolixEstradiolAndNorethisterone;
+model RelugolixEstradiolAndNorethisterone = Pharmacolibrary.Drugs.ATC.H.H01CC54;

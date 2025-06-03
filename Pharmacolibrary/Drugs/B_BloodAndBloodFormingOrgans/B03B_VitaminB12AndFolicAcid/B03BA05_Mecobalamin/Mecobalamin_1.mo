@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03B_VitaminB12AndFolicAcid.B03BA05_Mecobalamin;
+model Mecobalamin_1 = Pharmacolibrary.Drugs.ATC.B.B03BA05_1;

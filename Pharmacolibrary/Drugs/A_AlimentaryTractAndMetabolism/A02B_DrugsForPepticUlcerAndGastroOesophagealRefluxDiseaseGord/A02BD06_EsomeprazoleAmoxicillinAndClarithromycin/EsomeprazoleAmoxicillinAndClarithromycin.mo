@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BD06_EsomeprazoleAmoxicillinAndClarithromycin;
+model EsomeprazoleAmoxicillinAndClarithromycin = Pharmacolibrary.Drugs.ATC.A.A02BD06;

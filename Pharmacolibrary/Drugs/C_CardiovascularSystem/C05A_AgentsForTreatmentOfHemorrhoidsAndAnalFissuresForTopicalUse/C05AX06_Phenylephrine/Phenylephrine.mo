@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse.C05AX06_Phenylephrine;
+model Phenylephrine = Pharmacolibrary.Drugs.ATC.C.C05AX06;

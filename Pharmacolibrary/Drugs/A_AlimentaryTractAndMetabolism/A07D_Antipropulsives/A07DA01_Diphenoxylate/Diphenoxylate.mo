@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07D_Antipropulsives.A07DA01_Diphenoxylate;
+model Diphenoxylate = Pharmacolibrary.Drugs.ATC.A.A07DA01;

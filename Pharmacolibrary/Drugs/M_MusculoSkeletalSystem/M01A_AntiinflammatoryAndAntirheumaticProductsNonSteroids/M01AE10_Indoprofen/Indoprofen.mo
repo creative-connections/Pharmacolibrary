@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AE10_Indoprofen;
+model Indoprofen = Pharmacolibrary.Drugs.ATC.M.M01AE10;

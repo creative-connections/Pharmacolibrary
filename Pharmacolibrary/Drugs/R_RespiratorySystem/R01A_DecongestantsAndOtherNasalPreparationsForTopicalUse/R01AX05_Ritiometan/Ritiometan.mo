@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AX05_Ritiometan;
+model Ritiometan = Pharmacolibrary.Drugs.ATC.R.R01AX05;

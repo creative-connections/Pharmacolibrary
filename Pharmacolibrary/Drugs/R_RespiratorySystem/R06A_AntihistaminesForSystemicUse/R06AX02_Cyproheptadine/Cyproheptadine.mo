@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AX02_Cyproheptadine;
+model Cyproheptadine = Pharmacolibrary.Drugs.ATC.R.R06AX02;

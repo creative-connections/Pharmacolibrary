@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders;
+package A03AB01_Benzilone
+  extends Icons.Package;
+end A03AB01_Benzilone;

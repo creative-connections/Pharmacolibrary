@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09X_OtherAgentsActingOnTheReninAngiotensinSystem.C09XA52_AliskirenAndHydrochlorothiazide;
+model AliskirenAndHydrochlorothiazide = Pharmacolibrary.Drugs.ATC.C.C09XA52;

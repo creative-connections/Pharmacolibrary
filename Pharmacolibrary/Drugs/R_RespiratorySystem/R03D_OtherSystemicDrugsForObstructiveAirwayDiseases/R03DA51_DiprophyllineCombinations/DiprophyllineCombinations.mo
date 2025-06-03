@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases.R03DA51_DiprophyllineCombinations;
+model DiprophyllineCombinations = Pharmacolibrary.Drugs.ATC.R.R03DA51;

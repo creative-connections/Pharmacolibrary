@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02B_Antitrematodals.P02BA03_Arpraziquantel;
+model Arpraziquantel = Pharmacolibrary.Drugs.ATC.P.P02BA03;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07D_BetaBlockingAgentsThiazidesAndOtherDiuretics.C07DA06_TimololThiazidesAndOtherDiuretics;
+model TimololThiazidesAndOtherDiuretics = Pharmacolibrary.Drugs.ATC.C.C07DA06;

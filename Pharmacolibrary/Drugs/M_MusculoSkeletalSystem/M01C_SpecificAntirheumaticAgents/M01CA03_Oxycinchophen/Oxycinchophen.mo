@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01C_SpecificAntirheumaticAgents.M01CA03_Oxycinchophen;
+model Oxycinchophen = Pharmacolibrary.Drugs.ATC.M.M01CA03;

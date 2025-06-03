@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FD04_TrastuzumabDeruxtecan;
+model TrastuzumabDeruxtecan = Pharmacolibrary.Drugs.ATC.L.L01FD04;

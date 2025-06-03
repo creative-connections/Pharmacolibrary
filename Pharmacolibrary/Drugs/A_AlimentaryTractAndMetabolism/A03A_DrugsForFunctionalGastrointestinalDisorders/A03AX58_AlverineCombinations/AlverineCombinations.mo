@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders.A03AX58_AlverineCombinations;
+model AlverineCombinations = Pharmacolibrary.Drugs.ATC.A.A03AX58;

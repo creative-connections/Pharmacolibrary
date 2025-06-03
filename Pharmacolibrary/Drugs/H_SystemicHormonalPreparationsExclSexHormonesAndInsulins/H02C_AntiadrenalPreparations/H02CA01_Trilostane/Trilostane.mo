@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02C_AntiadrenalPreparations.H02CA01_Trilostane;
+model Trilostane = Pharmacolibrary.Drugs.ATC.H.H02CA01;

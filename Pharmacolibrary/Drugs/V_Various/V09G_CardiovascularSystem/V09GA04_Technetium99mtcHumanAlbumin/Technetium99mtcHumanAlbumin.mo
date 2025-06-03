@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09G_CardiovascularSystem.V09GA04_Technetium99mtcHumanAlbumin;
+model Technetium99mtcHumanAlbumin = Pharmacolibrary.Drugs.ATC.V.V09GA04;

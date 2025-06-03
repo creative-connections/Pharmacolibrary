@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants;
+package L03AX18_Cridanimod
+  extends Icons.Package;
+end L03AX18_Cridanimod;

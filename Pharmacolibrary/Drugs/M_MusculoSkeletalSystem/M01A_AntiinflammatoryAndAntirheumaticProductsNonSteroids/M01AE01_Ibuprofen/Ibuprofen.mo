@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AE01_Ibuprofen;
+model Ibuprofen = Pharmacolibrary.Drugs.ATC.M.M01AE01;

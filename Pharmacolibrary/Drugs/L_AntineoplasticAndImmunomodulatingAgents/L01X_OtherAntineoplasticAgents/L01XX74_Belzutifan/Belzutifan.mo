@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XX74_Belzutifan;
+model Belzutifan = Pharmacolibrary.Drugs.ATC.L.L01XX74;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07C_CorticosteroidsCombinationsWithAntibiotics.D07CC02_FluocinoloneAcetonideAndAntibiotics;
+model FluocinoloneAcetonideAndAntibiotics = Pharmacolibrary.Drugs.ATC.D.D07CC02;

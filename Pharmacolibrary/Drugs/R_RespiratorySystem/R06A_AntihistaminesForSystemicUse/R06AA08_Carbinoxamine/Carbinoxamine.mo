@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AA08_Carbinoxamine;
+model Carbinoxamine = Pharmacolibrary.Drugs.ATC.R.R06AA08;

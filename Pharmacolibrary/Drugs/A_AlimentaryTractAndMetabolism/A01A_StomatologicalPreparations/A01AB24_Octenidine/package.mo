@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations;
+package A01AB24_Octenidine
+  extends Icons.Package;
+end A01AB24_Octenidine;

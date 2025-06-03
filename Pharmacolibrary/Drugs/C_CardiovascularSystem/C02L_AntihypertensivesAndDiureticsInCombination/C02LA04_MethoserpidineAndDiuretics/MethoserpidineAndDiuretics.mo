@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination.C02LA04_MethoserpidineAndDiuretics;
+model MethoserpidineAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C02LA04;

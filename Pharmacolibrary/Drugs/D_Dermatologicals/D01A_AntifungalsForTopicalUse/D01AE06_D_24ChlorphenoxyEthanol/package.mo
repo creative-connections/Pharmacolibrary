@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D01A_AntifungalsForTopicalUse;
+package D01AE06_D_24ChlorphenoxyEthanol
+  extends Icons.Package;
+end D01AE06_D_24ChlorphenoxyEthanol;

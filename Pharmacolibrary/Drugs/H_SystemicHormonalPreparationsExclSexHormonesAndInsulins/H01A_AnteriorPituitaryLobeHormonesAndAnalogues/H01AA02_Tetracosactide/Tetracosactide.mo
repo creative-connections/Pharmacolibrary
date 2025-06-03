@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01A_AnteriorPituitaryLobeHormonesAndAnalogues.H01AA02_Tetracosactide;
+model Tetracosactide = Pharmacolibrary.Drugs.ATC.H.H01AA02;

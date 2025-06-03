@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D04A_AntipruriticsInclAntihistaminesAnestheticsEtc.D04AA12_Tolpropamine;
+model Tolpropamine = Pharmacolibrary.Drugs.ATC.D.D04AA12;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V10A_AntiinflammatoryAgents.V10AX01_Phosphorous32pChromicphosphateColloid;
+model Phosphorous32pChromicphosphateColloid = Pharmacolibrary.Drugs.ATC.V.V10AX01;

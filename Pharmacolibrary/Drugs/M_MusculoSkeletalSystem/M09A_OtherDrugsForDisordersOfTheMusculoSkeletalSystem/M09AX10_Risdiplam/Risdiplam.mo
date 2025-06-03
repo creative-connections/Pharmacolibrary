@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem.M09AX10_Risdiplam;
+model Risdiplam = Pharmacolibrary.Drugs.ATC.M.M09AX10;

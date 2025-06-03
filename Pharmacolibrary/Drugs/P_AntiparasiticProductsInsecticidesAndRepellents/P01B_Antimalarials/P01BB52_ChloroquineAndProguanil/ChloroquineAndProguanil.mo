@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials.P01BB52_ChloroquineAndProguanil;
+model ChloroquineAndProguanil = Pharmacolibrary.Drugs.ATC.P.P01BB52;

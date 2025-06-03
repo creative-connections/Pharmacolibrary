@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04B_Urologicals.G04BD13_Desfesoterodine;
+model Desfesoterodine = Pharmacolibrary.Drugs.ATC.G.G04BD13;

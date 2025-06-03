@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations.C09BB02_EnalaprilAndLercanidipine;
+model EnalaprilAndLercanidipine = Pharmacolibrary.Drugs.ATC.C.C09BB02;

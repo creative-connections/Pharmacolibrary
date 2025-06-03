@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics.N02BG09_Methoxyflurane;
+model Methoxyflurane = Pharmacolibrary.Drugs.ATC.N.N02BG09;

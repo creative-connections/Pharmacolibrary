@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants.R05CB01_Acetylcysteine;
+model Acetylcysteine = Pharmacolibrary.Drugs.ATC.R.R05CB01;

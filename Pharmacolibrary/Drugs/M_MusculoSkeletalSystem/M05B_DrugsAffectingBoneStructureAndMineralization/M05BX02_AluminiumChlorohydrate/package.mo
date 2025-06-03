@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization;
+package M05BX02_AluminiumChlorohydrate
+  extends Icons.Package;
+end M05BX02_AluminiumChlorohydrate;

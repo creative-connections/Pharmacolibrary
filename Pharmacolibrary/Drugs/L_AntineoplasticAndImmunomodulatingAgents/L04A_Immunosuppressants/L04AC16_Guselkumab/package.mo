@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
+package L04AC16_Guselkumab
+  extends Icons.Package;
+end L04AC16_Guselkumab;

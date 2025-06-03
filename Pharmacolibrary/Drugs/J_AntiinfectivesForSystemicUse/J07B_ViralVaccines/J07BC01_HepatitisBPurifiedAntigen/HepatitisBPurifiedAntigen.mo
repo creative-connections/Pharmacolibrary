@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BC01_HepatitisBPurifiedAntigen;
+model HepatitisBPurifiedAntigen = Pharmacolibrary.Drugs.ATC.J.J07BC01;

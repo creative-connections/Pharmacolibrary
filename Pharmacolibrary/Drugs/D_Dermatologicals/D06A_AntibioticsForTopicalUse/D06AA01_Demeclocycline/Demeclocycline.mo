@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D06A_AntibioticsForTopicalUse.D06AA01_Demeclocycline;
+model Demeclocycline = Pharmacolibrary.Drugs.ATC.D.D06AA01;

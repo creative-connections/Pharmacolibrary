@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D02A_EmollientsAndProtectives.D02AE51_CarbamideCombinations;
+model CarbamideCombinations = Pharmacolibrary.Drugs.ATC.D.D02AE51;

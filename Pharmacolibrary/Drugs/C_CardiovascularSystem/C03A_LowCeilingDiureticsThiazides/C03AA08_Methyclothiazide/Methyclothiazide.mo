@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03A_LowCeilingDiureticsThiazides.C03AA08_Methyclothiazide;
+model Methyclothiazide = Pharmacolibrary.Drugs.ATC.C.C03AA08;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02C_AntimigrainePreparations.N02CA01_Dihydroergotamine;
+model Dihydroergotamine_2 = Pharmacolibrary.Drugs.ATC.N.N02CA01_2;

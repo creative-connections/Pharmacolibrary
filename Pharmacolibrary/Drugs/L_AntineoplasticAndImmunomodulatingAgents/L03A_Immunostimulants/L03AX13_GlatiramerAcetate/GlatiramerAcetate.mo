@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AX13_GlatiramerAcetate;
+model GlatiramerAcetate = Pharmacolibrary.Drugs.ATC.L.L03AX13;

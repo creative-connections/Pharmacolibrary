@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02B_Antitrematodals.P02BX01_Bithionol;
+model Bithionol = Pharmacolibrary.Drugs.ATC.P.P02BX01;

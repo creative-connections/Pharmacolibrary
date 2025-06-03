@@ -1,5 +1,4 @@
 within Pharmacolibrary.Drugs;
-
 package Common
-  extends Modelica.Icons.Package;
+  extends Icons.Package;
 end Common;

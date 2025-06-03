@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AA52_ClioquinolCombinations;
+model ClioquinolCombinations = Pharmacolibrary.Drugs.ATC.P.P01AA52;

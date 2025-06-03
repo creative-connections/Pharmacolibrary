@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07B_BetaBlockingAgentsAndThiazides;
+package C07BA12_NadololAndThiazides
+  extends Icons.Package;
+end C07BA12_NadololAndThiazides;

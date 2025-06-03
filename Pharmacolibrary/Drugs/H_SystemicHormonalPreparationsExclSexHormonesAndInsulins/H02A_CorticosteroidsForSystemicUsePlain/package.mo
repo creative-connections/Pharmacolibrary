@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins;
+package H02A_CorticosteroidsForSystemicUsePlain
+  extends Icons.Package;
+end H02A_CorticosteroidsForSystemicUsePlain;

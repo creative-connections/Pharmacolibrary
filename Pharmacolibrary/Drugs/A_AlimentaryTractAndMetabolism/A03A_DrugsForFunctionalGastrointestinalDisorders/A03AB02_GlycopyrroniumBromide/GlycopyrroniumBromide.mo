@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders.A03AB02_GlycopyrroniumBromide;
+model GlycopyrroniumBromide = Pharmacolibrary.Drugs.ATC.A.A03AB02;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans;
+package B02B_VitaminKAndOtherHemostatics
+  extends Icons.Package;
+end B02B_VitaminKAndOtherHemostatics;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants.R05DB29_Gefapixant;
+model Gefapixant = Pharmacolibrary.Drugs.ATC.R.R05DB29;

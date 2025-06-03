@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03G_GonadotropinsAndOtherOvulationStimulants.G03GA04_Urofollitropin;
+model Urofollitropin = Pharmacolibrary.Drugs.ATC.G.G03GA04;

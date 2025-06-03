@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination.C02LG03_PicodralazineAndDiuretics;
+model PicodralazineAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C02LG03;

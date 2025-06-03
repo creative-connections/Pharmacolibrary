@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection;
+package V09IA03_Technetium99mtcPentavalentSuccimer
+  extends Icons.Package;
+end V09IA03_Technetium99mtcPentavalentSuccimer;

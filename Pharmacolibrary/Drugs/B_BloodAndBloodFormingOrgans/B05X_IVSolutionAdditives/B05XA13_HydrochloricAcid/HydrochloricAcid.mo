@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives.B05XA13_HydrochloricAcid;
+model HydrochloricAcid = Pharmacolibrary.Drugs.ATC.B.B05XA13;

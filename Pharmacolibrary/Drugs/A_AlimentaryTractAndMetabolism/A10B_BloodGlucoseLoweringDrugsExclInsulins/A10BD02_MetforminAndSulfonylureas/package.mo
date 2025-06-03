@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins;
+package A10BD02_MetforminAndSulfonylureas
+  extends Icons.Package;
+end A10BD02_MetforminAndSulfonylureas;

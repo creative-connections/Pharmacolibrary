@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations.A01AB03_Chlorhexidine;
+model Chlorhexidine = Pharmacolibrary.Drugs.ATC.A.A01AB03;

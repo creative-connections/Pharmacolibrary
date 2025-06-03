@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents.L01AG01_Etoglucid;
+model Etoglucid = Pharmacolibrary.Drugs.ATC.L.L01AG01;

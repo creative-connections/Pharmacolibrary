@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations.C09BB07_RamiprilAndAmlodipine;
+model RamiprilAndAmlodipine = Pharmacolibrary.Drugs.ATC.C.C09BB07;

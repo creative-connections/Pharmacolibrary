@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BA01_Cimetidine;
+model Cimetidine = Pharmacolibrary.Drugs.ATC.A.A02BA01;

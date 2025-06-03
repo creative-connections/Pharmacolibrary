@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.M;
+
+model M01CB05
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.95,
+    Cl             = 0.16666666666666666,
+    adminDuration  = 600,
+    adminMass      = 0.05,
+    adminCount     = 1,
+    Vd             = 0.0002,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Aurotioprol is an organogold compound that was developed for the treatment of rheumatoid arthritis and other related inflammatory conditions. It is classified as a disease-modifying antirheumatic drug (DMARD) and shares pharmacological properties with other gold-based agents. However, aurotioprol is not currently approved for use, and its use has largely been superseded by safer and more effective medications.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic data are available for aurotioprol in humans or animals. The following pharmacokinetic parameters are provided based on estimated values from similar gold-based DMARDs used in the treatment of rheumatoid arthritis.</p><h4>References</h4><ol><li> No original pharmacokinetic studies specifically for aurotioprol were found in literature databases. All values reflect typical estimates for injectable gold compounds (e.g., aurothiomalate, auranofin) used for rheumatoid arthritis and are meant as plausible reference points when no data exists for aurotioprol itself.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end M01CB05;

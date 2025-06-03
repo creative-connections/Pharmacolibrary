@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08E_NonSelectiveCalciumChannelBlockers.C08EX02_Perhexiline;
+model Perhexiline = Pharmacolibrary.Drugs.ATC.C.C08EX02;

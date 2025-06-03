@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BX06_Benfluorex;
+model Benfluorex = Pharmacolibrary.Drugs.ATC.A.A10BX06;

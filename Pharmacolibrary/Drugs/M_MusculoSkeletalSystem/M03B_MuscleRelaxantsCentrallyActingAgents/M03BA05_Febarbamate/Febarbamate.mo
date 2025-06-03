@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents.M03BA05_Febarbamate;
+model Febarbamate = Pharmacolibrary.Drugs.ATC.M.M03BA05;

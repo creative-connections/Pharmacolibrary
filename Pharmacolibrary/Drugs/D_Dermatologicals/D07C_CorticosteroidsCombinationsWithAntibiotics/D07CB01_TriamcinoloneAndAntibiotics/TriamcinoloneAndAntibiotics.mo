@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07C_CorticosteroidsCombinationsWithAntibiotics.D07CB01_TriamcinoloneAndAntibiotics;
+model TriamcinoloneAndAntibiotics = Pharmacolibrary.Drugs.ATC.D.D07CB01;

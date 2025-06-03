@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DH51_ImipenemAndCilastatin;
+model ImipenemAndCilastatin = Pharmacolibrary.Drugs.ATC.J.J01DH51;

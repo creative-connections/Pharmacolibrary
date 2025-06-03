@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.A;
+
+model A03CA09
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.3,
+    Cl             = 0.4166666666666667,
+    adminDuration  = 600,
+    adminMass      = 0.005,
+    adminCount     = 1,
+    Vd             = 0.15,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0025,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Pipenzolate is an anticholinergic agent formerly used as an antispasmodic to treat gastrointestinal disorders associated with abnormal motility and spasm. It is not widely used today and lacks formal approval in most regions. The ATC code A03CA09 denotes combinations of pipenzolate and psycholeptics (psycholeptics are drugs that have a calming effect, such as antipsychotics or sedatives). Combinations were intended for use in functional gastrointestinal disorders with associated psychological symptoms.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic data are available for the combination of pipenzolate and psycholeptics in humans; estimates below are based on known pharmacokinetics of oral anticholinergics in adults.</p><h4>References</h4><ol><li> No published pharmacokinetic or clinical pharmacology studies for pipenzolate and psycholeptics (ATC A03CA09) were found in literature databases. All pharmacokinetic parameters are best estimates derived from related oral anticholinergics (e.g. hyoscine, atropine) and general pharmacology textbooks. If further information is required, in vitro or in silico methods or direct clinical PK studies are needed.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end A03CA09;

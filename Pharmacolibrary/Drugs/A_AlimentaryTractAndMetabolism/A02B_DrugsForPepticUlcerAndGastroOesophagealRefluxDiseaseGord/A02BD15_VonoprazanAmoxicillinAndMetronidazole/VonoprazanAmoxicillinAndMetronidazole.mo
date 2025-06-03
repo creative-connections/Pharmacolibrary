@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BD15_VonoprazanAmoxicillinAndMetronidazole;
+model VonoprazanAmoxicillinAndMetronidazole = Pharmacolibrary.Drugs.ATC.A.A02BD15;

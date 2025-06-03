@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07A_IntestinalAntiinfectives.A07AX03_Nifuroxazide;
+model Nifuroxazide = Pharmacolibrary.Drugs.ATC.A.A07AX03;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AA18_EfbemalenograstimAlfa;
+model EfbemalenograstimAlfa = Pharmacolibrary.Drugs.ATC.L.L03AA18;

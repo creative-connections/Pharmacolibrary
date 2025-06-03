@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01B_Antimetabolites;
+package L01BB07_Nelarabine
+  extends Icons.Package;
+end L01BB07_Nelarabine;

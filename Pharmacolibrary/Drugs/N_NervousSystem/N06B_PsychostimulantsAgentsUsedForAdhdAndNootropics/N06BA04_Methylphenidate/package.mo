@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics;
+package N06BA04_Methylphenidate
+  extends Icons.Package;
+end N06BA04_Methylphenidate;

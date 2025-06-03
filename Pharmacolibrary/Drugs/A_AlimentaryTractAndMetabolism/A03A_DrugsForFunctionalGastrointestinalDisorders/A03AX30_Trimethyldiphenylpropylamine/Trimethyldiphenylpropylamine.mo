@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders.A03AX30_Trimethyldiphenylpropylamine;
+model Trimethyldiphenylpropylamine = Pharmacolibrary.Drugs.ATC.A.A03AX30;

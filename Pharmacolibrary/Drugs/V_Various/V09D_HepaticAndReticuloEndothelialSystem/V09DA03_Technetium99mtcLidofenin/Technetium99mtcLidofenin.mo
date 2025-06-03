@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09D_HepaticAndReticuloEndothelialSystem.V09DA03_Technetium99mtcLidofenin;
+model Technetium99mtcLidofenin = Pharmacolibrary.Drugs.ATC.V.V09DA03;

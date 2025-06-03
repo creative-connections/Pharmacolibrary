@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EB03_Afatinib;
+model Afatinib = Pharmacolibrary.Drugs.ATC.L.L01EB03;

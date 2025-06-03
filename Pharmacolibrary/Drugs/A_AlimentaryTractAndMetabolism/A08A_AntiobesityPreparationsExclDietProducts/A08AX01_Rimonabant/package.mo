@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A08A_AntiobesityPreparationsExclDietProducts;
+package A08AX01_Rimonabant
+  extends Icons.Package;
+end A08AX01_Rimonabant;

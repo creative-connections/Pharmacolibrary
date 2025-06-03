@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases;
+package R03DC03_Montelukast
+  extends Icons.Package;
+end R03DC03_Montelukast;

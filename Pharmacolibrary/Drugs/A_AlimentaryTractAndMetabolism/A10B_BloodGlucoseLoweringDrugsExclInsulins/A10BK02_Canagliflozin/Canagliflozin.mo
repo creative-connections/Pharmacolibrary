@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BK02_Canagliflozin;
+model Canagliflozin = Pharmacolibrary.Drugs.ATC.A.A10BK02;

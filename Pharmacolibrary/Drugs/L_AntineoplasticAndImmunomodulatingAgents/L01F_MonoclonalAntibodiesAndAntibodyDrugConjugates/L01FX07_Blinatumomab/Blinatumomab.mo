@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FX07_Blinatumomab;
+model Blinatumomab = Pharmacolibrary.Drugs.ATC.L.L01FX07;

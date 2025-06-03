@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.J;
+
+model J01RA02
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.9,
+    Cl             = 0.02,
+    adminDuration  = 600,
+    adminMass      = 1.0,
+    adminCount     = 1,
+    Vd             = 0.018,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.008333333333333333,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>This drug class comprises fixed-dose combinations of sulfonamide antibiotics (excluding those combined with trimethoprim) and other antibacterial agents. Sulfonamides inhibit bacterial folic acid synthesis, thus exerting a bacteriostatic effect, and combinations are often used to broaden the antibacterial spectrum or reduce resistance. These fixed combinations were used in the treatment of various bacterial infections, but their usage has drastically diminished due to the risk of adverse effects and widespread antibiotic resistance. They are rarely approved or in use in contemporary clinical practice in many regions.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for typical adult patients (age 18–65) with normal renal and hepatic function after oral administration.</p><h4>References</h4><ol><li> No published population PK model or clinical pharmacokinetic studies were identified specific to ATC J01RA02 (sulfonamides, combinations with other antibacterials excl. trimethoprim). Parameters reported are rough estimates derived from typical PK of classic oral sulfonamides (e.g., sulfadiazine/sulfamethoxazole) and general combination antibiotic use. All parameters are estimated and may vary by specific formulation and co-administered antibacterials.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end J01RA02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01C_AntiinflammatoryAgentsAndAntiinfectivesInCombination.S01CB01_Dexamethasone;
+model Dexamethasone_1 = Pharmacolibrary.Drugs.ATC.S.S01CB01_1;

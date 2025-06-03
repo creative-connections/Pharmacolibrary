@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse.J02AA01_AmphotericinB;
+model AmphotericinB = Pharmacolibrary.Drugs.ATC.J.J02AA01;

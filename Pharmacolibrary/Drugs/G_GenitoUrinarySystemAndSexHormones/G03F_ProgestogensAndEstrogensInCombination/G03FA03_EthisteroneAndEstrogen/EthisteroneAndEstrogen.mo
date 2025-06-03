@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03F_ProgestogensAndEstrogensInCombination.G03FA03_EthisteroneAndEstrogen;
+model EthisteroneAndEstrogen = Pharmacolibrary.Drugs.ATC.G.G03FA03;

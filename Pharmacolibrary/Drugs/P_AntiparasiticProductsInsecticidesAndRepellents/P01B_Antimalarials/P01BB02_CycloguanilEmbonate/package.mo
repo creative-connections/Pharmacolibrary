@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials;
+package P01BB02_CycloguanilEmbonate
+  extends Icons.Package;
+end P01BB02_CycloguanilEmbonate;

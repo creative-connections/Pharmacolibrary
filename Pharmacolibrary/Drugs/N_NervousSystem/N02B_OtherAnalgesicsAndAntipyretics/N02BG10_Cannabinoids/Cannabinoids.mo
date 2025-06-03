@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics.N02BG10_Cannabinoids;
+model Cannabinoids = Pharmacolibrary.Drugs.ATC.N.N02BG10;

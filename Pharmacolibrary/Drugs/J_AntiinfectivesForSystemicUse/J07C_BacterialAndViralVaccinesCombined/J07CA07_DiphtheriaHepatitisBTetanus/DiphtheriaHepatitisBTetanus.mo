@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07C_BacterialAndViralVaccinesCombined.J07CA07_DiphtheriaHepatitisBTetanus;
+model DiphtheriaHepatitisBTetanus = Pharmacolibrary.Drugs.ATC.J.J07CA07;

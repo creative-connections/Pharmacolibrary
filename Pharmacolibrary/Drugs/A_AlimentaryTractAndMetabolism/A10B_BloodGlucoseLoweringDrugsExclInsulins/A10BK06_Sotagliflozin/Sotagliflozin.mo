@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BK06_Sotagliflozin;
+model Sotagliflozin = Pharmacolibrary.Drugs.ATC.A.A10BK06;

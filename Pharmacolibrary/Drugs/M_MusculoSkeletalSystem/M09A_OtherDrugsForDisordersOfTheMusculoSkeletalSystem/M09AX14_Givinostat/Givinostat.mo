@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem.M09AX14_Givinostat;
+model Givinostat = Pharmacolibrary.Drugs.ATC.M.M09AX14;

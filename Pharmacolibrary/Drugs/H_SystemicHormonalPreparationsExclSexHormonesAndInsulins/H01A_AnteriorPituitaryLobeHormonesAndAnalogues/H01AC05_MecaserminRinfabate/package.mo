@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01A_AnteriorPituitaryLobeHormonesAndAnalogues;
+package H01AC05_MecaserminRinfabate
+  extends Icons.Package;
+end H01AC05_MecaserminRinfabate;

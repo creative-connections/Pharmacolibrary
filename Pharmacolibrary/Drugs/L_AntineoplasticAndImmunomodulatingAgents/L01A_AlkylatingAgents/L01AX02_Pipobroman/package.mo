@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents;
+package L01AX02_Pipobroman
+  extends Icons.Package;
+end L01AX02_Pipobroman;

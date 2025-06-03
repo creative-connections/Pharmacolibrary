@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain.M02AA06_Etofenamate;
+model Etofenamate = Pharmacolibrary.Drugs.ATC.M.M02AA06;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations;
+package B03AA01_FerrousGlycineSulfate
+  extends Icons.Package;
+end B03AA01_FerrousGlycineSulfate;

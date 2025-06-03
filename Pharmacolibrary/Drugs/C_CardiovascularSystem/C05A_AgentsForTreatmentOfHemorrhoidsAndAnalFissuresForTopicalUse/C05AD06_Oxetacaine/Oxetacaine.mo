@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse.C05AD06_Oxetacaine;
+model Oxetacaine = Pharmacolibrary.Drugs.ATC.C.C05AD06;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01B_PosteriorPituitaryLobeHormones.H01BA04_Terlipressin;
+model Terlipressin = Pharmacolibrary.Drugs.ATC.H.H01BA04;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BC02_Pantoprazole;
+model Pantoprazole_1 = Pharmacolibrary.Drugs.ATC.A.A02BC02_1;

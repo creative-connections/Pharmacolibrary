@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants.R03AL05_FormoterolAndAclidiniumBromide;
+model FormoterolAndAclidiniumBromide = Pharmacolibrary.Drugs.ATC.R.R03AL05;

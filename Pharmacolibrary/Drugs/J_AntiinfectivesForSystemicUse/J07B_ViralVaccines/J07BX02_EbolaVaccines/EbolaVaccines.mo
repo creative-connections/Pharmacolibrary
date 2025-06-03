@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BX02_EbolaVaccines;
+model EbolaVaccines = Pharmacolibrary.Drugs.ATC.J.J07BX02;

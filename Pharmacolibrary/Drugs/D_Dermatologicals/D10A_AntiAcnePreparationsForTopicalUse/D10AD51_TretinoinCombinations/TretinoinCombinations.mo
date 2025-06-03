@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse.D10AD51_TretinoinCombinations;
+model TretinoinCombinations = Pharmacolibrary.Drugs.ATC.D.D10AD51;

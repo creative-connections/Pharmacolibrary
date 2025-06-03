@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V08C_MagneticResonanceImagingContrastMedia.V08CA11_Gadofosveset;
+model Gadofosveset = Pharmacolibrary.Drugs.ATC.V.V08CA11;

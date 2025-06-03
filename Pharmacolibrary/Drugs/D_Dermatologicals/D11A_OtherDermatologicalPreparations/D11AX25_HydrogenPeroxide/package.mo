@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations;
+package D11AX25_HydrogenPeroxide
+  extends Icons.Package;
+end D11AX25_HydrogenPeroxide;

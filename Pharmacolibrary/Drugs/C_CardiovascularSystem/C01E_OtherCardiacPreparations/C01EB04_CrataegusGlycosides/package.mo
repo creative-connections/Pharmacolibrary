@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01E_OtherCardiacPreparations;
+package C01EB04_CrataegusGlycosides
+  extends Icons.Package;
+end C01EB04_CrataegusGlycosides;

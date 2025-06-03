@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07F_AntidiarrhealMicroorganisms.A07FA01_LacticAcidProducingOrganisms;
+model LacticAcidProducingOrganisms = Pharmacolibrary.Drugs.ATC.A.A07FA01;

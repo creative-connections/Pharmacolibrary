@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03D_Progestogens.G03DC02_Norethisterone;
+model Norethisterone = Pharmacolibrary.Drugs.ATC.G.G03DC02;

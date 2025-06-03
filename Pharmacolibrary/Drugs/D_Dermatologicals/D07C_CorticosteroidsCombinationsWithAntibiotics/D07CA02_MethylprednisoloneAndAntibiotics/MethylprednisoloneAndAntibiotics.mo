@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07C_CorticosteroidsCombinationsWithAntibiotics.D07CA02_MethylprednisoloneAndAntibiotics;
+model MethylprednisoloneAndAntibiotics = Pharmacolibrary.Drugs.ATC.D.D07CA02;

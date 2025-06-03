@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.B;
+
+model B02BD14
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.04666666666666666,
+    adminDuration  = 600,
+    adminMass      = 0.2,
+    adminCount     = 1,
+    Vd             = 4.6e-05,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Susoctocog alfa is a recombinant, factor VIII (FVIII) replacement therapy derived from human cell-line, used for the treatment and prevention of bleeding episodes and perioperative management in patients with congenital hemophilia A who have developed inhibitors to FVIII. It is used as a bypassing agent and is currently approved for clinical use in this indication.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters for susoctocog alfa are reported in adult hemophilia A patients with FVIII inhibitors.</p><h4>References</h4><ol><li><a href='https://dx.doi.org/10.1056/NEJMoa1508215'>10.1056/NEJMoa1508215</a> PK values extracted from clinical trial data in Konkle BA, et al. NEJM 2015;373:819-828.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end B02BD14;

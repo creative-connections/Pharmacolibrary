@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11A_MultivitaminsCombinations;
+package A11AA03_MultivitaminsAndOtherMineralsInclCombinations
+  extends Icons.Package;
+end A11AA03_MultivitaminsAndOtherMineralsInclCombinations;

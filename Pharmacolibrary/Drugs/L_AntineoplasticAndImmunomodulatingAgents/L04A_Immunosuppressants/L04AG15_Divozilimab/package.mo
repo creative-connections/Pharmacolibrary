@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
+package L04AG15_Divozilimab
+  extends Icons.Package;
+end L04AG15_Divozilimab;

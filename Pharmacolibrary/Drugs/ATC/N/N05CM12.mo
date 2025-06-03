@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.N;
+
+model N05CM12
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.9,
+    Cl             = 0.0011666666666666668,
+    adminDuration  = 600,
+    adminMass      = 0.2,
+    adminCount     = 1,
+    Vd             = 0.0007,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0005,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Apronal, also known as apronalide or allylisopropylacetylurea, was previously used as a sedative-hypnotic drug from the urea (acylurea) class, structurally related to barbiturates. It was primarily used to induce sleep and reduce anxiety but is no longer approved or in common clinical use due to limited efficacy and concerns about toxicity, including potential for blood dyscrasias.</p><h4>Pharmacokinetics</h4><p>No published human pharmacokinetic studies or data are available for apronal (apronalide). The following parameters are estimated based on typical pharmacokinetics of structurally related acylurea compounds such as phenobarbital and other sedative-hypnotics. Applies to healthy adult oral administration.</p><h4>References</h4><ol><li> No direct pharmacokinetic studies of apronal in humans or animals with peer-reviewed published data exist. All values are estimations inferred from known pharmacokinetics of related compounds and general pharmacological knowledge.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end N05CM12;

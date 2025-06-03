@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07F_BetaBlockingAgentsOtherCombinations.C07FB03_AtenololAndNifedipine;
+model AtenololAndNifedipine = Pharmacolibrary.Drugs.ATC.C.C07FB03;

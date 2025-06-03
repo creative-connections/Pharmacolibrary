@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01EC02_Sulfadiazine;
+model Sulfadiazine = Pharmacolibrary.Drugs.ATC.J.J01EC02;

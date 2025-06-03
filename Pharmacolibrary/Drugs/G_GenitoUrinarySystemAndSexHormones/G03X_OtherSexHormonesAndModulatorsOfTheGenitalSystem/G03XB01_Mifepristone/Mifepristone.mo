@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03X_OtherSexHormonesAndModulatorsOfTheGenitalSystem.G03XB01_Mifepristone;
+model Mifepristone = Pharmacolibrary.Drugs.ATC.G.G03XB01;

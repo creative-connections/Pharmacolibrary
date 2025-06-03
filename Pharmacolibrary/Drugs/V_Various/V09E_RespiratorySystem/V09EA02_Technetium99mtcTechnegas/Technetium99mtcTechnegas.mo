@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09E_RespiratorySystem.V09EA02_Technetium99mtcTechnegas;
+model Technetium99mtcTechnegas = Pharmacolibrary.Drugs.ATC.V.V09EA02;

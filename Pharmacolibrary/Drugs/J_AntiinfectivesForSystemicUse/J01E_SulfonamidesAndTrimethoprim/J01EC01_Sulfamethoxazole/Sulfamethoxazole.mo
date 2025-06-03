@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01EC01_Sulfamethoxazole;
+model Sulfamethoxazole = Pharmacolibrary.Drugs.ATC.J.J01EC01;

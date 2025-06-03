@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EL05_Pirtobrutinib;
+model Pirtobrutinib = Pharmacolibrary.Drugs.ATC.L.L01EL05;

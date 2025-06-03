@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DB11_Cefroxadine;
+model Cefroxadine = Pharmacolibrary.Drugs.ATC.J.J01DB11;

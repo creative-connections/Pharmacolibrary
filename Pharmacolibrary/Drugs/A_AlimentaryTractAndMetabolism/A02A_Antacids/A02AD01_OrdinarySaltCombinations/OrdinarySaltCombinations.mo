@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02A_Antacids.A02AD01_OrdinarySaltCombinations;
+model OrdinarySaltCombinations = Pharmacolibrary.Drugs.ATC.A.A02AD01;

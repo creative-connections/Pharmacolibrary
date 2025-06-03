@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03B_OtherDrugsForObstructiveAirwayDiseasesInhalants;
+package R03BA09_FluticasoneFuroate
+  extends Icons.Package;
+end R03BA09_FluticasoneFuroate;

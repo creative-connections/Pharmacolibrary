@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03B_LowCeilingDiureticsExclThiazides.C03BX03_Cicletanine;
+model Cicletanine = Pharmacolibrary.Drugs.ATC.C.C03BX03;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08C_SelectiveCalciumChannelBlockersWithMainlyVascularEffects;
+package C08CA07_Nisoldipine
+  extends Icons.Package;
+end C08CA07_Nisoldipine;

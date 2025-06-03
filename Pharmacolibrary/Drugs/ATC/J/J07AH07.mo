@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.J;
+
+model J07AH07
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.0,
+    adminDuration  = 600,
+    adminMass      = 0.01,
+    adminCount     = 1,
+    Vd             = 0,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Meningococcus C conjugate vaccine is composed of purified polysaccharide antigens from Neisseria meningitidis group C, conjugated to a carrier protein (often tetanus toxoid, CRM197 or diphtheria toxoid) to enhance immunogenicity. It is used for the prevention of invasive meningococcal disease caused by Neisseria meningitidis serogroup C in infants, children, adolescents, and adults. The vaccine is approved and widely used for routine immunization in many countries.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters for meningococcus C polysaccharide conjugate vaccines are not conventionally reported, as the vaccine consists of high molecular weight antigens and is administered intramuscularly, where the PK is characterized by antigen presentation and immune response rather than standard PK parameters such as those for small molecule drugs. No published PK data are available in the scientific literature for this vaccine in any population.</p><h4>References</h4><ol><li> There are no published studies reporting classical pharmacokinetic parameters (e.g., volume of distribution, clearance, absorption rates) for meningococcus C conjugate vaccines. As these are vaccines, their fate in the body is determined primarily by immune processes—antigen presentation, processing, and immune response; not standard absorption, distribution, metabolism, and excretion. All PK fields reported as zero or not applicable are estimates based on the nature of vaccine biology.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end J07AH07;

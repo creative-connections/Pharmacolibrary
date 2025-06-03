@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02A_AntiadrenergicAgentsCentrallyActing.C02AA01_Rescinnamine;
+model Rescinnamine = Pharmacolibrary.Drugs.ATC.C.C02AA01;

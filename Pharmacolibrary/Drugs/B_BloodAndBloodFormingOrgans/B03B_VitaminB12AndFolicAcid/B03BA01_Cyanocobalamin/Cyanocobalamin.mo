@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03B_VitaminB12AndFolicAcid.B03BA01_Cyanocobalamin;
+model Cyanocobalamin = Pharmacolibrary.Drugs.ATC.B.B03BA01;

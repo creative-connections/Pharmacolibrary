@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.L;
+
+model L03AX11
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.11,
+    Cl             = 0.3233333333333333,
+    adminDuration  = 600,
+    adminMass      = 0.003,
+    adminCount     = 1,
+    Vd             = 0.003,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Tasonermin (also known as tumor necrosis factor alpha-1, TNF-alpha-1, or Beromun) is a recombinant form of human tumor necrosis factor alpha (TNF-α). It is an antineoplastic agent used in the treatment of certain advanced soft tissue sarcomas of the limbs. Tasonermin is administered via isolated limb perfusion to maximize local anti-tumoral effects and minimize systemic toxicity. Its use is rare and restricted to specific clinical scenarios, and it is not widely approved or used today outside select specialized indications.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters of tasonermin in adult patients with soft tissue sarcoma undergoing isolated limb perfusion, as reported by clinical trials and regulatory assessments.</p><h4>References</h4><ol><li><a href='https://dx.doi.org/10.1016/S0959-8049(00)00292-6'>10.1016/S0959-8049(00)00292-6</a> PK parameters adapted from published clinical pharmacokinetic studies and EMA assessment reports for tasonermin (Beromun) in isolated limb perfusion. Parameters may vary depending on limb volume and patient characteristics.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end L03AX11;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07B_IntestinalAdsorbents.A07BC30_PolymyxinBNeomycinAndBacitracinCombination;
+model PolymyxinBNeomycinAndBacitracinCombination = Pharmacolibrary.Drugs.ATC.A.A07BC30;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.R;
+
+model R01AA10
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.4,
+    Cl             = 0.0025,
+    adminDuration  = 600,
+    adminMass      = 0.0003,
+    adminCount     = 1,
+    Vd             = 0.003,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Metizoline is an imidazoline derivative and sympathomimetic agent formerly used as a topical nasal decongestant. It is a selective alpha-adrenergic agonist that acts by constricting blood vessels in the nasal mucosa, thereby reducing swelling and congestion. It is not commonly used or approved in current pharmacotherapy and has been largely replaced by newer agents.</p><h4>Pharmacokinetics</h4><p>No published human or animal pharmacokinetic model data located for metizoline. The following parameters are estimated based on the drug's pharmacological class and general characteristics of related imidazoline nasal decongestants.</p><h4>References</h4><ol><li> No specific pharmacokinetic data published for metizoline; parameters are estimated using known PK properties of related intranasal imidazoline decongestants (e.g., naphazoline, xylometazoline). Values should be interpreted as qualitative estimates only.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end R01AA10;

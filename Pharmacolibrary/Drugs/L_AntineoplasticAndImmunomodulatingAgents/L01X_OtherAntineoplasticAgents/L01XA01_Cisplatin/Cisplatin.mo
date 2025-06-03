@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XA01_Cisplatin;
+model Cisplatin = Pharmacolibrary.Drugs.ATC.L.L01XA01;

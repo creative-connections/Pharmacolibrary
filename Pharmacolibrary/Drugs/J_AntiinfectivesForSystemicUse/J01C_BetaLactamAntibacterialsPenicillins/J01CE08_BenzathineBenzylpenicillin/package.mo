@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins;
+package J01CE08_BenzathineBenzylpenicillin
+  extends Icons.Package;
+end J01CE08_BenzathineBenzylpenicillin;

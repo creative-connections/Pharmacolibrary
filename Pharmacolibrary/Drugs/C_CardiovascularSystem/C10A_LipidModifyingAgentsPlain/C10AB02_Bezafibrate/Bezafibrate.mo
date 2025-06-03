@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10A_LipidModifyingAgentsPlain.C10AB02_Bezafibrate;
+model Bezafibrate = Pharmacolibrary.Drugs.ATC.C.C10AB02;

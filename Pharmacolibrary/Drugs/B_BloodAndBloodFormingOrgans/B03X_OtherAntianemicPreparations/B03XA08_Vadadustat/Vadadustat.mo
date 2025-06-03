@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03X_OtherAntianemicPreparations.B03XA08_Vadadustat;
+model Vadadustat = Pharmacolibrary.Drugs.ATC.B.B03XA08;

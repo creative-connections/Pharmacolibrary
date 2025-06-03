@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07F_BetaBlockingAgentsOtherCombinations;
+package C07FB02_MetoprololAndFelodipine
+  extends Icons.Package;
+end C07FB02_MetoprololAndFelodipine;

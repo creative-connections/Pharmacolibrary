@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N07A_Parasympathomimetics.N07AX02_CholineAlfoscerate;
+model CholineAlfoscerate = Pharmacolibrary.Drugs.ATC.N.N07AX02;

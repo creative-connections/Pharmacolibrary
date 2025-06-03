@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection.V09IA01_Technetium99mtcAnticarcinoembryonicantigenAntibody;
+model Technetium99mtcAnticarcinoembryonicantigenAntibody = Pharmacolibrary.Drugs.ATC.V.V09IA01;

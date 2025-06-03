@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse.D10AF03_Chloramphenicol;
+model Chloramphenicol = Pharmacolibrary.Drugs.ATC.D.D10AF03;

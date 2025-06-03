@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XF02_Alitretinoin;
+model Alitretinoin = Pharmacolibrary.Drugs.ATC.L.L01XF02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts.V03AB27_D_4Dimethylaminophenol;
+model D_4Dimethylaminophenol = Pharmacolibrary.Drugs.ATC.V.V03AB27;

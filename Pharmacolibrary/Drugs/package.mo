@@ -1,5 +1,4 @@
 within Pharmacolibrary;
-
 package Drugs
-  extends Modelica.Icons.VariantsPackage;
+  extends Icons.Package;
 end Drugs;

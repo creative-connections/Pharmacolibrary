@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07B_BetaBlockingAgentsAndThiazides;
+package C07BB03_AtenololAndThiazides
+  extends Icons.Package;
+end C07BB03_AtenololAndThiazides;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08D_SelectiveCalciumChannelBlockersWithDirectCardiacEffects;
+package C08DA51_VerapamilCombinations
+  extends Icons.Package;
+end C08DA51_VerapamilCombinations;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations.C09DB02_OlmesartanMedoxomilAndAmlodipine;
+model OlmesartanMedoxomilAndAmlodipine = Pharmacolibrary.Drugs.ATC.C.C09DB02;

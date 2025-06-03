@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A09A_DigestivesInclEnzymes.A09AA02_MultienzymesLipaseProteaseEtc;
+model MultienzymesLipaseProteaseEtc = Pharmacolibrary.Drugs.ATC.A.A09AA02;

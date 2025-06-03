@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02D_ArteriolarSmoothMuscleAgentsActingOn.C02DB01_Dihydralazine;
+model Dihydralazine = Pharmacolibrary.Drugs.ATC.C.C02DB01;

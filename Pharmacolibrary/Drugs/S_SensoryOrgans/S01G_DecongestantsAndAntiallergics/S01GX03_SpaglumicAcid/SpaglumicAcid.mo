@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01G_DecongestantsAndAntiallergics.S01GX03_SpaglumicAcid;
+model SpaglumicAcid = Pharmacolibrary.Drugs.ATC.S.S01GX03;

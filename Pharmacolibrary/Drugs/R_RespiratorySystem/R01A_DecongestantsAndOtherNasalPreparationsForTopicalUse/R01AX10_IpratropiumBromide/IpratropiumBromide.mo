@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AX10_IpratropiumBromide;
+model IpratropiumBromide = Pharmacolibrary.Drugs.ATC.R.R01AX10;

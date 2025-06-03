@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BN04_Covid19ProteinSubunit;
+model Covid19ProteinSubunit = Pharmacolibrary.Drugs.ATC.J.J07BN04;

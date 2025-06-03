@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BD28_MetforminAndTeneligliptin;
+model MetforminAndTeneligliptin = Pharmacolibrary.Drugs.ATC.A.A10BD28;

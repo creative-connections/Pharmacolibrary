@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents.L01AD03_Semustine;
+model Semustine = Pharmacolibrary.Drugs.ATC.L.L01AD03;

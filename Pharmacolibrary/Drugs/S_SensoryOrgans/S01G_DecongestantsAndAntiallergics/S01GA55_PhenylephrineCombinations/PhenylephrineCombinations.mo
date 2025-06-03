@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01G_DecongestantsAndAntiallergics.S01GA55_PhenylephrineCombinations;
+model PhenylephrineCombinations = Pharmacolibrary.Drugs.ATC.S.S01GA55;

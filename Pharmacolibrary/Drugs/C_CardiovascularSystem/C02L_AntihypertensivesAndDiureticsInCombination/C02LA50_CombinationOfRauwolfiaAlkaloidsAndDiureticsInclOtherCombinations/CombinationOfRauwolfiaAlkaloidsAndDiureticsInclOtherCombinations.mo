@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination.C02LA50_CombinationOfRauwolfiaAlkaloidsAndDiureticsInclOtherCombinations;
+model CombinationOfRauwolfiaAlkaloidsAndDiureticsInclOtherCombinations = Pharmacolibrary.Drugs.ATC.C.C02LA50;

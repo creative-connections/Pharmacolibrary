@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.R;
+
+model R05CB04
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.5,
+    Cl             = 0.06666666666666667,
+    adminDuration  = 600,
+    adminMass      = 0.05,
+    adminCount     = 1,
+    Vd             = 0.06,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0005,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Eprazinone is a mucolytic and expectorant agent used in the treatment of respiratory tract disorders associated with viscid or excessive mucus. It is not approved in the US, but has been used in some countries, particularly in Asia, for symptomatic relief in acute or chronic bronchopulmonary disorders.</p><h4>Pharmacokinetics</h4><p>No primary pharmacokinetic studies in humans reported in English-language literature. Parameters estimated based on typical oral mucolytics of similar structure and application.</p><h4>References</h4><ol><li> No human pharmacokinetic studies for eprazinone with reported parameters could be identified in PubMed or major pharmacokinetic databases as of June 2024. All values here are inferred based on related mucolytic agents with similar chemical and therapeutic profiles such as bromhexine or ambroxol. Parameters are for estimation only and should not be used clinically.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end R05CB04;

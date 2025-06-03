@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03F_ProgestogensAndEstrogensInCombination.G03FA08_MegestrolAndEstrogen;
+model MegestrolAndEstrogen = Pharmacolibrary.Drugs.ATC.G.G03FA08;

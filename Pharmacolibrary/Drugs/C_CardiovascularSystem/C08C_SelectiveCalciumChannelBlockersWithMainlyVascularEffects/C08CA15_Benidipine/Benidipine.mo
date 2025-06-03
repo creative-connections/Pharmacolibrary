@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08C_SelectiveCalciumChannelBlockersWithMainlyVascularEffects.C08CA15_Benidipine;
+model Benidipine = Pharmacolibrary.Drugs.ATC.C.C08CA15;

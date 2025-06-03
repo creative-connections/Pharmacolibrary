@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse.D10AA02_Methylprednisolone;
+model Methylprednisolone = Pharmacolibrary.Drugs.ATC.D.D10AA02;

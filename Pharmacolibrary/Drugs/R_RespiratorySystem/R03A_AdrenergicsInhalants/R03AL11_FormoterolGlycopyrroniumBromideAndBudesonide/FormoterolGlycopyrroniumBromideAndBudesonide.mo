@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants.R03AL11_FormoterolGlycopyrroniumBromideAndBudesonide;
+model FormoterolGlycopyrroniumBromideAndBudesonide = Pharmacolibrary.Drugs.ATC.R.R03AL11;

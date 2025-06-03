@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AE17_Dexketoprofen;
+model Dexketoprofen_1 = Pharmacolibrary.Drugs.ATC.M.M01AE17_1;

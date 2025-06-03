@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03B_BelladonnaAndDerivativesPlain.A03BB04_Fentonium;
+model Fentonium = Pharmacolibrary.Drugs.ATC.A.A03BB04;

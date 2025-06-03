@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01B_AntiarrhythmicsClassIAndIii.C01BC07_Lorcainide;
+model Lorcainide = Pharmacolibrary.Drugs.ATC.C.C01BC07;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01ED05_Sulfamethoxypyridazine;
+model Sulfamethoxypyridazine = Pharmacolibrary.Drugs.ATC.J.J01ED05;

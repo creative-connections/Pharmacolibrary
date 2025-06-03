@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BD02_LansoprazoleTetracyclineAndMetronidazole;
+model LansoprazoleTetracyclineAndMetronidazole = Pharmacolibrary.Drugs.ATC.A.A02BD02;

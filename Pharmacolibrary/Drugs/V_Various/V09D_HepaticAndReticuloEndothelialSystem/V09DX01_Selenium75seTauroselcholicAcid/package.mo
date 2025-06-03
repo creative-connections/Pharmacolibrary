@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V09D_HepaticAndReticuloEndothelialSystem;
+package V09DX01_Selenium75seTauroselcholicAcid
+  extends Icons.Package;
+end V09DX01_Selenium75seTauroselcholicAcid;

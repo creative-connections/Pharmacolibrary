@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AB04_FerricHydroxide;
+model FerricHydroxide = Pharmacolibrary.Drugs.ATC.B.B03AB04;

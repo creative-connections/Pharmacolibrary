@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides;
+package C01CA26_Ephedrine
+  extends Icons.Package;
+end C01CA26_Ephedrine;

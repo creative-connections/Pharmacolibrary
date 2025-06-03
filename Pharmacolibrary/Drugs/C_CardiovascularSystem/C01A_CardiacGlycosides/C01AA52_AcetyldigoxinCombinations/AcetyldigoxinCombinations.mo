@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01A_CardiacGlycosides.C01AA52_AcetyldigoxinCombinations;
+model AcetyldigoxinCombinations = Pharmacolibrary.Drugs.ATC.C.C01AA52;

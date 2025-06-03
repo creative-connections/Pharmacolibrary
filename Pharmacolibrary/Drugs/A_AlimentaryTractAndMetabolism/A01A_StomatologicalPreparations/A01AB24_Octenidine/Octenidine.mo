@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations.A01AB24_Octenidine;
+model Octenidine = Pharmacolibrary.Drugs.ATC.A.A01AB24;

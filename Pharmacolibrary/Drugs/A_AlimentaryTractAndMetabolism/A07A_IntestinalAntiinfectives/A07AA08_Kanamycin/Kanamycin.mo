@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07A_IntestinalAntiinfectives.A07AA08_Kanamycin;
+model Kanamycin = Pharmacolibrary.Drugs.ATC.A.A07AA08;

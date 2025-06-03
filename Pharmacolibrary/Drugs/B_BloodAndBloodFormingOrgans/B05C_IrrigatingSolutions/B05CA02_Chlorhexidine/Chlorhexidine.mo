@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05C_IrrigatingSolutions.B05CA02_Chlorhexidine;
+model Chlorhexidine = Pharmacolibrary.Drugs.ATC.B.B05CA02;

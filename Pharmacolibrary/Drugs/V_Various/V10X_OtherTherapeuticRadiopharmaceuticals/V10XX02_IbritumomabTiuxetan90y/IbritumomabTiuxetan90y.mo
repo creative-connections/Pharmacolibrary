@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V10X_OtherTherapeuticRadiopharmaceuticals.V10XX02_IbritumomabTiuxetan90y;
+model IbritumomabTiuxetan90y = Pharmacolibrary.Drugs.ATC.V.V10XX02;

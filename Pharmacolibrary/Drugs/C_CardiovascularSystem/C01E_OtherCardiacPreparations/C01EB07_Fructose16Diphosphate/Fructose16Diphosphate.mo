@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01E_OtherCardiacPreparations.C01EB07_Fructose16Diphosphate;
+model Fructose16Diphosphate = Pharmacolibrary.Drugs.ATC.C.C01EB07;

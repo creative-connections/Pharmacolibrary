@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A08A_AntiobesityPreparationsExclDietProducts.A08AA08_Clobenzorex;
+model Clobenzorex = Pharmacolibrary.Drugs.ATC.A.A08AA08;

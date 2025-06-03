@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AR08_EmtricitabineTenofovirDisoproxilAndRilpivirine;
+model EmtricitabineTenofovirDisoproxilAndRilpivirine = Pharmacolibrary.Drugs.ATC.J.J05AR08;

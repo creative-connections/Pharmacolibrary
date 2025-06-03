@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A08A_AntiobesityPreparationsExclDietProducts.A08AX01_Rimonabant;
+model Rimonabant = Pharmacolibrary.Drugs.ATC.A.A08AX01;

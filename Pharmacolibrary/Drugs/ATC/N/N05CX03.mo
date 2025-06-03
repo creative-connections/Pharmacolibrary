@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.N;
+
+model N05CX03
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.6,
+    Cl             = 0.030000000000000002,
+    adminDuration  = 600,
+    adminMass      = 0.2,
+    adminCount     = 1,
+    Vd             = 0.025,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0013333333333333333,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Methylpentynol is a sedative and hypnotic agent that was used primarily for the treatment of insomnia and as an anxiolytic. It is a tertiary alcohol derivative, has central nervous system depressant properties, and was historically used in combination products. Due to safety concerns and the availability of safer alternatives, methylpentynol is no longer approved or widely used in modern clinical practice.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic studies are available in the literature for methylpentynol or its combinations. The presented parameters are based on reasonable estimates derived from typical values for sedative/hypnotics in its class, assuming healthy adult subjects.</p><h4>References</h4><ol><li> No direct pharmacokinetic studies could be identified for methylpentynol, combinations (ATC N05CX03). All parameters reported are estimates based on general pharmacokinetic profiles of other oral sedative-hypnotics with similar chemical structure and physicochemical properties.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end N05CX03;

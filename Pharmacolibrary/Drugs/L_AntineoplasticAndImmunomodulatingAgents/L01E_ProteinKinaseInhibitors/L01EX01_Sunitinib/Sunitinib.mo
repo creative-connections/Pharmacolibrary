@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EX01_Sunitinib;
+model Sunitinib = Pharmacolibrary.Drugs.ATC.L.L01EX01;

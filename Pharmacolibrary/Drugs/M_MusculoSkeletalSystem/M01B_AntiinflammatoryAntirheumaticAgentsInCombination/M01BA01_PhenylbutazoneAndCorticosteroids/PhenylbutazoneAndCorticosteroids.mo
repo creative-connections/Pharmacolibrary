@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01B_AntiinflammatoryAntirheumaticAgentsInCombination.M01BA01_PhenylbutazoneAndCorticosteroids;
+model PhenylbutazoneAndCorticosteroids = Pharmacolibrary.Drugs.ATC.M.M01BA01;

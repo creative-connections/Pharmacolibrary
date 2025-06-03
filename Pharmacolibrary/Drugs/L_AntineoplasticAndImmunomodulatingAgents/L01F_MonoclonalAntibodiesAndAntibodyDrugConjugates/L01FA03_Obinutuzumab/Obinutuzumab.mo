@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FA03_Obinutuzumab;
+model Obinutuzumab = Pharmacolibrary.Drugs.ATC.L.L01FA03;

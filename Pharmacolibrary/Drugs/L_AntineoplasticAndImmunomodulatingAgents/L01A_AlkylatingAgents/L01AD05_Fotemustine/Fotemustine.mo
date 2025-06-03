@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents.L01AD05_Fotemustine;
+model Fotemustine = Pharmacolibrary.Drugs.ATC.L.L01AD05;

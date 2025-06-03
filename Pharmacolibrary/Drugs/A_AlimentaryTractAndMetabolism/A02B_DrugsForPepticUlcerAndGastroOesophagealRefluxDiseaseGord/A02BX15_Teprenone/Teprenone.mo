@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BX15_Teprenone;
+model Teprenone = Pharmacolibrary.Drugs.ATC.A.A02BX15;

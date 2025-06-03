@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03F_ProgestogensAndEstrogensInCombination.G03FA14_DydrogesteroneAndEstrogen;
+model DydrogesteroneAndEstrogen = Pharmacolibrary.Drugs.ATC.G.G03FA14;

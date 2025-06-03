@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AB06_Alclofenac;
+model Alclofenac = Pharmacolibrary.Drugs.ATC.M.M01AB06;

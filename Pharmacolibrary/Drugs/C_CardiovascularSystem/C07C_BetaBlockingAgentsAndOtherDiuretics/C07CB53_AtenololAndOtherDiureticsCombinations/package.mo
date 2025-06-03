@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07C_BetaBlockingAgentsAndOtherDiuretics;
+package C07CB53_AtenololAndOtherDiureticsCombinations
+  extends Icons.Package;
+end C07CB53_AtenololAndOtherDiureticsCombinations;

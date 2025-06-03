@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AD02_Ulipristal;
+model Ulipristal = Pharmacolibrary.Drugs.ATC.G.G03AD02;

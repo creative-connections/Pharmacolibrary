@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DF01_Aztreonam;
+model Aztreonam = Pharmacolibrary.Drugs.ATC.J.J01DF01;

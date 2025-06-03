@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09A_CentralNervousSystem.V09AA01_Technetium99mtcExametazime;
+model Technetium99mtcExametazime = Pharmacolibrary.Drugs.ATC.V.V09AA01;

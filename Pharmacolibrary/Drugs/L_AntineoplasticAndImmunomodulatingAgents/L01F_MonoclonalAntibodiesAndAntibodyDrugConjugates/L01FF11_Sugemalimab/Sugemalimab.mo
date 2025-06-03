@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FF11_Sugemalimab;
+model Sugemalimab = Pharmacolibrary.Drugs.ATC.L.L01FF11;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AB09_FerricProteinsuccinylate;
+model FerricProteinsuccinylate = Pharmacolibrary.Drugs.ATC.B.B03AB09;

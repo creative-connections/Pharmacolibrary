@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines;
+package J07BH01_RotaVirusLiveAttenuated
+  extends Icons.Package;
+end J07BH01_RotaVirusLiveAttenuated;

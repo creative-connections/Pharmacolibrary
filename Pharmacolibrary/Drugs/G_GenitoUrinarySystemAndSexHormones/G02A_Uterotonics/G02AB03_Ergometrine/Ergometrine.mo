@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02A_Uterotonics.G02AB03_Ergometrine;
+model Ergometrine = Pharmacolibrary.Drugs.ATC.G.G02AB03;

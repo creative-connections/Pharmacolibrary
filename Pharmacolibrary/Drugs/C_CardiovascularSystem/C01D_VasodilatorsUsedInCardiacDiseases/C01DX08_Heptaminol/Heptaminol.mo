@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DX08_Heptaminol;
+model Heptaminol = Pharmacolibrary.Drugs.ATC.C.C01DX08;

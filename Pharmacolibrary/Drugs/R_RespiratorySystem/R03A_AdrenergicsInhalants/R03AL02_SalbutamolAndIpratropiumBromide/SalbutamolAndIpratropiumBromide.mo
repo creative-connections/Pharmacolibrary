@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants.R03AL02_SalbutamolAndIpratropiumBromide;
+model SalbutamolAndIpratropiumBromide = Pharmacolibrary.Drugs.ATC.R.R03AL02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V10A_AntiinflammatoryAgents.V10AX02_Samarium153smHydroxyapatiteColloid;
+model Samarium153smHydroxyapatiteColloid = Pharmacolibrary.Drugs.ATC.V.V10AX02;

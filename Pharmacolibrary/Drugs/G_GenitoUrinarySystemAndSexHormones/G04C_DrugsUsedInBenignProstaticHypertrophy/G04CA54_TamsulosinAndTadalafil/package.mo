@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04C_DrugsUsedInBenignProstaticHypertrophy;
+package G04CA54_TamsulosinAndTadalafil
+  extends Icons.Package;
+end G04CA54_TamsulosinAndTadalafil;

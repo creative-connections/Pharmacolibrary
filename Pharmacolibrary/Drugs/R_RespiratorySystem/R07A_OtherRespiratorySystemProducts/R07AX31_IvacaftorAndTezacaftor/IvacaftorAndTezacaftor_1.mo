@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R07A_OtherRespiratorySystemProducts.R07AX31_IvacaftorAndTezacaftor;
+model IvacaftorAndTezacaftor_1 = Pharmacolibrary.Drugs.ATC.R.R07AX31_1;

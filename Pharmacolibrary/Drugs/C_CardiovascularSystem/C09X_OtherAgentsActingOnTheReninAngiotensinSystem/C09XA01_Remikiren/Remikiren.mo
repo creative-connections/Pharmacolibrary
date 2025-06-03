@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09X_OtherAgentsActingOnTheReninAngiotensinSystem.C09XA01_Remikiren;
+model Remikiren = Pharmacolibrary.Drugs.ATC.C.C09XA01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07A_IntestinalAntiinfectives.A07AA04_Streptomycin;
+model Streptomycin_1 = Pharmacolibrary.Drugs.ATC.A.A07AA04_1;

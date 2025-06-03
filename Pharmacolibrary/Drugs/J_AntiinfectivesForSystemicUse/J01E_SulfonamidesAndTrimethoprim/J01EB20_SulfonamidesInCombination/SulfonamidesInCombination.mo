@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01EB20_SulfonamidesInCombination;
+model SulfonamidesInCombination = Pharmacolibrary.Drugs.ATC.J.J01EB20;

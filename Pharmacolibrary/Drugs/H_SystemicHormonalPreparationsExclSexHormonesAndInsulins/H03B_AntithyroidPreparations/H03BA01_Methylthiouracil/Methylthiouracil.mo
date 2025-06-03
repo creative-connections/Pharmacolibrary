@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03B_AntithyroidPreparations.H03BA01_Methylthiouracil;
+model Methylthiouracil = Pharmacolibrary.Drugs.ATC.H.H03BA01;

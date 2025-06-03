@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01A_AnteriorPituitaryLobeHormonesAndAnalogues.H01AC08_Somatrogon;
+model Somatrogon = Pharmacolibrary.Drugs.ATC.H.H01AC08;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants.R03AK06_SalmeterolAndFluticasone;
+model SalmeterolAndFluticasone = Pharmacolibrary.Drugs.ATC.R.R03AK06;

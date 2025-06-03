@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials;
+package J01DB05_Cefadroxil
+  extends Icons.Package;
+end J01DB05_Cefadroxil;

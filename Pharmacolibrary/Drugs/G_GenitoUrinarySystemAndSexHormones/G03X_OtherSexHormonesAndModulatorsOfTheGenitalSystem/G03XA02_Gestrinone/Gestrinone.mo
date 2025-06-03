@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03X_OtherSexHormonesAndModulatorsOfTheGenitalSystem.G03XA02_Gestrinone;
+model Gestrinone = Pharmacolibrary.Drugs.ATC.G.G03XA02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02B_HormoneAntagonistsAndRelatedAgents.L02BG02_Formestane;
+model Formestane = Pharmacolibrary.Drugs.ATC.L.L02BG02;

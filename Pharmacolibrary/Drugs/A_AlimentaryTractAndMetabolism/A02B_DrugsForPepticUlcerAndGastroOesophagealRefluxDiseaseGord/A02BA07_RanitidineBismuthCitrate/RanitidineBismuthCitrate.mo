@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BA07_RanitidineBismuthCitrate;
+model RanitidineBismuthCitrate = Pharmacolibrary.Drugs.ATC.A.A02BA07;

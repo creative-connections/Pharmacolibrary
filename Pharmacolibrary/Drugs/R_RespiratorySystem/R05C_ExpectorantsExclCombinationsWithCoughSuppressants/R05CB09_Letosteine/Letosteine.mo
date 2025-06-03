@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants.R05CB09_Letosteine;
+model Letosteine = Pharmacolibrary.Drugs.ATC.R.R05CB09;

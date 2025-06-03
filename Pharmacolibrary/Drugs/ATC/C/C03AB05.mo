@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.C;
+
+model C03AB05
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.8,
+    Cl             = 0.0016666666666666668,
+    adminDuration  = 600,
+    adminMass      = 0.002,
+    adminCount     = 1,
+    Vd             = 0.003,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0016666666666666668,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Polythiazide is a long-acting thiazide diuretic used primarily in the management of hypertension and edema. It is often co-formulated with potassium to counteract thiazide-induced hypokalemia. This combination was approved and marketed in some regions historically for hypertension, but its use today is limited, and it is not widely available.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for polythiazide in adult healthy individuals. No direct studies using the combination with potassium were identified; parameter estimates are based on polythiazide monotherapy literature.</p><h4>References</h4><ol><li> No direct published pharmacokinetic studies or population PK models specific for the 'polythiazide and potassium' combination with ATC code C03AB05 were found. All numerical parameters are estimated from available monotherapy data for polythiazide. Actual values may differ in the combination product.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end C03AB05;

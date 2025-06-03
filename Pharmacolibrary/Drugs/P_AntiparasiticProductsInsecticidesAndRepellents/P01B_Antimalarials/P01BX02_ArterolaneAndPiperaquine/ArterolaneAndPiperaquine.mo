@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials.P01BX02_ArterolaneAndPiperaquine;
+model ArterolaneAndPiperaquine = Pharmacolibrary.Drugs.ATC.P.P01BX02;

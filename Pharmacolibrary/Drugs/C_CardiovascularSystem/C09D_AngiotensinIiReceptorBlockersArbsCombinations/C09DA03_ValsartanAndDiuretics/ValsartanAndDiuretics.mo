@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations.C09DA03_ValsartanAndDiuretics;
+model ValsartanAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C09DA03;

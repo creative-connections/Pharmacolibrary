@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AB51_IndometacinCombinations;
+model IndometacinCombinations = Pharmacolibrary.Drugs.ATC.M.M01AB51;

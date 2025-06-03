@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07X_OtherAntidiarrheals.A07XA01_AlbuminTannate;
+model AlbuminTannate = Pharmacolibrary.Drugs.ATC.A.A07XA01;

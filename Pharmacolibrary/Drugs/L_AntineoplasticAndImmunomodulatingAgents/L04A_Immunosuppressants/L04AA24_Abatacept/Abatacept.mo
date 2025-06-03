@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AA24_Abatacept;
+model Abatacept = Pharmacolibrary.Drugs.ATC.L.L04AA24;

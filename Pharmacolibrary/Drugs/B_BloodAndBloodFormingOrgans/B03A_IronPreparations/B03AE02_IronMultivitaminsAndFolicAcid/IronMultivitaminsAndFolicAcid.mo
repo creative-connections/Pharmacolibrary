@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AE02_IronMultivitaminsAndFolicAcid;
+model IronMultivitaminsAndFolicAcid = Pharmacolibrary.Drugs.ATC.B.B03AE02;

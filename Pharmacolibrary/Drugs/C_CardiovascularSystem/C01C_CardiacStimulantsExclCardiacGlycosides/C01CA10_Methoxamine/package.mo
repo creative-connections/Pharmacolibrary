@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides;
+package C01CA10_Methoxamine
+  extends Icons.Package;
+end C01CA10_Methoxamine;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07X_OtherAntidiarrheals.A07XA03_CalciumCompounds;
+model CalciumCompounds = Pharmacolibrary.Drugs.ATC.A.A07XA03;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AB51_BrompheniramineCombinations;
+model BrompheniramineCombinations = Pharmacolibrary.Drugs.ATC.R.R06AB51;

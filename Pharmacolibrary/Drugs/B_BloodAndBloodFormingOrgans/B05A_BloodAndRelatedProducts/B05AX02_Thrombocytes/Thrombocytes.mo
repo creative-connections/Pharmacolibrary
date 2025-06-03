@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05A_BloodAndRelatedProducts.B05AX02_Thrombocytes;
+model Thrombocytes = Pharmacolibrary.Drugs.ATC.B.B05AX02;

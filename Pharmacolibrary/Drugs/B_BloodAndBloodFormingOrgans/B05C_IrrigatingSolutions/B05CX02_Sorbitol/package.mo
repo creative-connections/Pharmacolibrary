@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05C_IrrigatingSolutions;
+package B05CX02_Sorbitol
+  extends Icons.Package;
+end B05CX02_Sorbitol;

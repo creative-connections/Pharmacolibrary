@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XF01_Tretinoin;
+model Tretinoin = Pharmacolibrary.Drugs.ATC.L.L01XF01;

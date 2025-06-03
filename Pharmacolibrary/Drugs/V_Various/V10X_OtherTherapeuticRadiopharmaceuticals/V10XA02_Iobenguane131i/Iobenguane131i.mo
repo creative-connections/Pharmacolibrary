@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V10X_OtherTherapeuticRadiopharmaceuticals.V10XA02_Iobenguane131i;
+model Iobenguane131i = Pharmacolibrary.Drugs.ATC.V.V10XA02;

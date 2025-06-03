@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AK03_MercuricChloride;
+model MercuricChloride = Pharmacolibrary.Drugs.ATC.D.D08AK03;

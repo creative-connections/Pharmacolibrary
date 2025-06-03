@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05C_IrrigatingSolutions.B05CA01_Cetylpyridinium;
+model Cetylpyridinium = Pharmacolibrary.Drugs.ATC.B.B05CA01;

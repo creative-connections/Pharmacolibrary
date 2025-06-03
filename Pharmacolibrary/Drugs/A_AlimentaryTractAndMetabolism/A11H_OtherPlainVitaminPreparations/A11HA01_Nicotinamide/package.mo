@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11H_OtherPlainVitaminPreparations;
+package A11HA01_Nicotinamide
+  extends Icons.Package;
+end A11HA01_Nicotinamide;

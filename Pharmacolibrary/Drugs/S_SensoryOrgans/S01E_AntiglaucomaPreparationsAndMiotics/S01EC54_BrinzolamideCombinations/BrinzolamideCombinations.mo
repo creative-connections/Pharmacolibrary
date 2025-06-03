@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01EC54_BrinzolamideCombinations;
+model BrinzolamideCombinations = Pharmacolibrary.Drugs.ATC.S.S01EC54;

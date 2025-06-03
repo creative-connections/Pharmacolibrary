@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02D_ArteriolarSmoothMuscleAgentsActingOn.C02DB04_Cadralazine;
+model Cadralazine = Pharmacolibrary.Drugs.ATC.C.C02DB04;

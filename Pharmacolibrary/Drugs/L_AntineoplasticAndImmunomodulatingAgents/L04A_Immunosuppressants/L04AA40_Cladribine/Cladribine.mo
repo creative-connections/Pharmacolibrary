@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AA40_Cladribine;
+model Cladribine = Pharmacolibrary.Drugs.ATC.L.L04AA40;

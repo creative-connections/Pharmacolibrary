@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01X_OtherAntibacterials.J01XE51_NitrofurantoinCombinations;
+model NitrofurantoinCombinations = Pharmacolibrary.Drugs.ATC.J.J01XE51;

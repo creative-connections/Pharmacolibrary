@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01D_CytotoxicAntibioticsAndRelatedSubstances;
+package L01DA01_Dactinomycin
+  extends Icons.Package;
+end L01DA01_Dactinomycin;

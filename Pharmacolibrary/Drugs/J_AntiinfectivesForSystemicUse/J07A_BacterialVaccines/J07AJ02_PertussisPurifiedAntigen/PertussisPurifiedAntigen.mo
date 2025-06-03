@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AJ02_PertussisPurifiedAntigen;
+model PertussisPurifiedAntigen = Pharmacolibrary.Drugs.ATC.J.J07AJ02;

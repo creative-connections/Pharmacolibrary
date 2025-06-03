@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03G_GonadotropinsAndOtherOvulationStimulants.G03GA05_FollitropinAlfa;
+model FollitropinAlfa = Pharmacolibrary.Drugs.ATC.G.G03GA05;

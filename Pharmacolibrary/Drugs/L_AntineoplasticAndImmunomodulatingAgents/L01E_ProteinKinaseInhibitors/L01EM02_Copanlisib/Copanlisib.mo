@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EM02_Copanlisib;
+model Copanlisib = Pharmacolibrary.Drugs.ATC.L.L01EM02;

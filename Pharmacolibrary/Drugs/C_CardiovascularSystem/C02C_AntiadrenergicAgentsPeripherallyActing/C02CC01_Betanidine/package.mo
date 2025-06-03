@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02C_AntiadrenergicAgentsPeripherallyActing;
+package C02CC01_Betanidine
+  extends Icons.Package;
+end C02CC01_Betanidine;

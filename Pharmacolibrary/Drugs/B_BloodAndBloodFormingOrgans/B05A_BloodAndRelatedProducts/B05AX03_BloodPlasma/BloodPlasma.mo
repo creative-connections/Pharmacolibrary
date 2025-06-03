@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05A_BloodAndRelatedProducts.B05AX03_BloodPlasma;
+model BloodPlasma = Pharmacolibrary.Drugs.ATC.B.B05AX03;

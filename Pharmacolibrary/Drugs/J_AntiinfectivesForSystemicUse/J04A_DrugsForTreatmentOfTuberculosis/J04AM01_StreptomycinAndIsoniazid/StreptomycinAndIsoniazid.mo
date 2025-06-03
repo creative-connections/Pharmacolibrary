@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis.J04AM01_StreptomycinAndIsoniazid;
+model StreptomycinAndIsoniazid = Pharmacolibrary.Drugs.ATC.J.J04AM01;

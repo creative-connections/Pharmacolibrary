@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse;
+package R01AD09_Mometasone
+  extends Icons.Package;
+end R01AD09_Mometasone;

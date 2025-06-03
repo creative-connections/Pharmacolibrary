@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.G;
+
+model G04CB51
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.8,
+    Cl             = 0.2,
+    adminDuration  = 600,
+    adminMass      = 0.005,
+    adminCount     = 1,
+    Vd             = 0.07,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.013333333333333334,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Finasteride and tadalafil is a fixed-dose combination medication used for the treatment of benign prostatic hyperplasia (BPH) in adult men. Finasteride is a 5α-reductase inhibitor that reduces prostatic volume by inhibiting the conversion of testosterone to dihydrotestosterone, while tadalafil is a phosphodiesterase type 5 (PDE5) inhibitor primarily used in erectile dysfunction and BPH to relax smooth muscle in the lower urinary tract. The combination is approved and marketed in several countries.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters in healthy adult males, since no published population pharmacokinetic model for the fixed-dose combination is available; separate parameters for finasteride and tadalafil monotherapy are known, estimates are provided for the combination.</p><h4>References</h4><ol><li> No published pharmacokinetic study for the combination product found. Parameters are estimated based on the known pharmacokinetics of individual drugs (finasteride and tadalafil) in healthy adult men, applying a simplified one-compartment model. No evidence for significant PK interaction between components in the literature; values provided are approximate means.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end G04CB51;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02C_AntinematodalAgents.P02CE01_Levamisole;
+model Levamisole = Pharmacolibrary.Drugs.ATC.P.P02CE01;

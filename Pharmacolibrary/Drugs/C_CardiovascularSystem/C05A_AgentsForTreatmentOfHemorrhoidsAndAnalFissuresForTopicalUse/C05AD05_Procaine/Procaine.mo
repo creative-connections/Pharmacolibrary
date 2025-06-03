@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse.C05AD05_Procaine;
+model Procaine = Pharmacolibrary.Drugs.ATC.C.C05AD05;

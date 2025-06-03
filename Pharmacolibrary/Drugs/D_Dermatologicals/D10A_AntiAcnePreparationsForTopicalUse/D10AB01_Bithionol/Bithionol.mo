@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse.D10AB01_Bithionol;
+model Bithionol = Pharmacolibrary.Drugs.ATC.D.D10AB01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AG05_Rilpivirine;
+model Rilpivirine = Pharmacolibrary.Drugs.ATC.J.J05AG05;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AC01_Piroxicam;
+model Piroxicam = Pharmacolibrary.Drugs.ATC.M.M01AC01;

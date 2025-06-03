@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09C_AngiotensinIiReceptorBlockersArbsPlain;
+package C09CA05_Tasosartan
+  extends Icons.Package;
+end C09CA05_Tasosartan;

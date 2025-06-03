@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination;
+package C02LC01_ClonidineAndDiuretics
+  extends Icons.Package;
+end C02LC01_ClonidineAndDiuretics;

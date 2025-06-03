@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S02A_Antiinfectives.S02AA04_AluminiumAcetotartrate;
+model AluminiumAcetotartrate = Pharmacolibrary.Drugs.ATC.S.S02AA04;

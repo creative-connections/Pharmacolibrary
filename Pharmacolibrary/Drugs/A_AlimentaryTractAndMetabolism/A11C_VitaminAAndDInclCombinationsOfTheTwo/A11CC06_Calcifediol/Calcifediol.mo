@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11C_VitaminAAndDInclCombinationsOfTheTwo.A11CC06_Calcifediol;
+model Calcifediol = Pharmacolibrary.Drugs.ATC.A.A11CC06;

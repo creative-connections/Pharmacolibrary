@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BN03_Covid19InactivatedVirus;
+model Covid19InactivatedVirus = Pharmacolibrary.Drugs.ATC.J.J07BN03;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04C_DrugsUsedInBenignProstaticHypertrophy;
+package G04CB02_Dutasteride
+  extends Icons.Package;
+end G04CB02_Dutasteride;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01ED03_Levobunolol;
+model Levobunolol = Pharmacolibrary.Drugs.ATC.S.S01ED03;

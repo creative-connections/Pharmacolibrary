@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AD01_LacticAcid;
+model LacticAcid = Pharmacolibrary.Drugs.ATC.G.G01AD01;

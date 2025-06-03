@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03C_AdrenergicsForSystemicUse.R03CC63_ClenbuterolAndAmbroxol;
+model ClenbuterolAndAmbroxol = Pharmacolibrary.Drugs.ATC.R.R03CC63;

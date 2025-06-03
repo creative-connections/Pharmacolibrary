@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts.V03AB05_PrednisoloneAndPromethazine;
+model PrednisoloneAndPromethazine = Pharmacolibrary.Drugs.ATC.V.V03AB05;

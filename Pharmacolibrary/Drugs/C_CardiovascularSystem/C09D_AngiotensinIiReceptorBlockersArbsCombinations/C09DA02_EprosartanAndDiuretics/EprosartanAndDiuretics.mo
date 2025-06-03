@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations.C09DA02_EprosartanAndDiuretics;
+model EprosartanAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C09DA02;

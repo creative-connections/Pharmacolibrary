@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03B_LowCeilingDiureticsExclThiazides.C03BA82_ClorexoloneCombinationsWithPsycholeptics;
+model ClorexoloneCombinationsWithPsycholeptics = Pharmacolibrary.Drugs.ATC.C.C03BA82;

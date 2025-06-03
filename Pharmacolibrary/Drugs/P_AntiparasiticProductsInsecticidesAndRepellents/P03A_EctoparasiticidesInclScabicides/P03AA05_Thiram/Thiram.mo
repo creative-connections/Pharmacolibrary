@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03A_EctoparasiticidesInclScabicides.P03AA05_Thiram;
+model Thiram = Pharmacolibrary.Drugs.ATC.P.P03AA05;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations.C09BA13_MoexiprilAndDiuretics;
+model MoexiprilAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C09BA13;

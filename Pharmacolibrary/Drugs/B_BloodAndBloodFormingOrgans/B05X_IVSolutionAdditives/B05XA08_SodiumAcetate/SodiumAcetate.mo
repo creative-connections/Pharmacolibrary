@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives.B05XA08_SodiumAcetate;
+model SodiumAcetate = Pharmacolibrary.Drugs.ATC.B.B05XA08;

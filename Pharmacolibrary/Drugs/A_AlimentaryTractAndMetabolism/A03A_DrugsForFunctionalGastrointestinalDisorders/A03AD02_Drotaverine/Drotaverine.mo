@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders.A03AD02_Drotaverine;
+model Drotaverine = Pharmacolibrary.Drugs.ATC.A.A03AD02;

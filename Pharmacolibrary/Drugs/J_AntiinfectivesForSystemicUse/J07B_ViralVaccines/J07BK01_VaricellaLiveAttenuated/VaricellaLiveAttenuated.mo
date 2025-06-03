@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BK01_VaricellaLiveAttenuated;
+model VaricellaLiveAttenuated = Pharmacolibrary.Drugs.ATC.J.J07BK01;

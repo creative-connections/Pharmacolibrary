@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03B_OtherDrugsForObstructiveAirwayDiseasesInhalants.R03BB05_AclidiniumBromide;
+model AclidiniumBromide = Pharmacolibrary.Drugs.ATC.R.R03BB05;

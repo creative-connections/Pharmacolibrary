@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants.R05DB15_Zipeprol;
+model Zipeprol = Pharmacolibrary.Drugs.ATC.R.R05DB15;

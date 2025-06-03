@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08D_SelectiveCalciumChannelBlockersWithDirectCardiacEffects.C08DA02_Gallopamil;
+model Gallopamil = Pharmacolibrary.Drugs.ATC.C.C08DA02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A08A_AntiobesityPreparationsExclDietProducts.A08AA56_EphedrineCombinations;
+model EphedrineCombinations = Pharmacolibrary.Drugs.ATC.A.A08AA56;

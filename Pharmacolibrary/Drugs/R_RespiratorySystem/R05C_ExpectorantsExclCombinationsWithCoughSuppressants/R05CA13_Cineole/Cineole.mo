@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants.R05CA13_Cineole;
+model Cineole = Pharmacolibrary.Drugs.ATC.R.R05CA13;

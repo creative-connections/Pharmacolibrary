@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases.R03DB04_TheophyllineAndAdrenergics;
+model TheophyllineAndAdrenergics = Pharmacolibrary.Drugs.ATC.R.R03DB04;

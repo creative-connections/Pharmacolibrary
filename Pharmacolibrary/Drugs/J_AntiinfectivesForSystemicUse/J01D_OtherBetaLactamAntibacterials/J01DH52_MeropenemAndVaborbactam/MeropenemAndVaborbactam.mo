@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DH52_MeropenemAndVaborbactam;
+model MeropenemAndVaborbactam = Pharmacolibrary.Drugs.ATC.J.J01DH52;

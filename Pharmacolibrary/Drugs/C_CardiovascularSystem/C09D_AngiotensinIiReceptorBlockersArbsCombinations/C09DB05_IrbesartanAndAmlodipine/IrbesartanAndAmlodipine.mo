@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations.C09DB05_IrbesartanAndAmlodipine;
+model IrbesartanAndAmlodipine = Pharmacolibrary.Drugs.ATC.C.C09DB05;

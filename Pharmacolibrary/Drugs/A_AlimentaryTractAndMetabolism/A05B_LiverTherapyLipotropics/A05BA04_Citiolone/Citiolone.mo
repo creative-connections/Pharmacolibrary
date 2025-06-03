@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A05B_LiverTherapyLipotropics.A05BA04_Citiolone;
+model Citiolone = Pharmacolibrary.Drugs.ATC.A.A05BA04;

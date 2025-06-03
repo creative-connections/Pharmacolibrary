@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05C_IrrigatingSolutions.B05CA04_Sulfamethizole;
+model Sulfamethizole = Pharmacolibrary.Drugs.ATC.B.B05CA04;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AB17_Bufexamac;
+model Bufexamac = Pharmacolibrary.Drugs.ATC.M.M01AB17;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03E_DiureticsAndPotassiumSparingAgentsInCombination.C03EB02_BumetanideAndPotassiumSparingAgents;
+model BumetanideAndPotassiumSparingAgents = Pharmacolibrary.Drugs.ATC.C.C03EB02;

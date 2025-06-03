@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AJ01_Benzalkonium;
+model Benzalkonium = Pharmacolibrary.Drugs.ATC.D.D08AJ01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01D_CytotoxicAntibioticsAndRelatedSubstances.L01DB05_Zorubicin;
+model Zorubicin = Pharmacolibrary.Drugs.ATC.L.L01DB05;

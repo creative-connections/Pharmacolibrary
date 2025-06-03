@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BG01_RabiesInactivatedWholeVirus;
+model RabiesInactivatedWholeVirus = Pharmacolibrary.Drugs.ATC.J.J07BG01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain.M02AA08_Felbinac;
+model Felbinac = Pharmacolibrary.Drugs.ATC.M.M02AA08;

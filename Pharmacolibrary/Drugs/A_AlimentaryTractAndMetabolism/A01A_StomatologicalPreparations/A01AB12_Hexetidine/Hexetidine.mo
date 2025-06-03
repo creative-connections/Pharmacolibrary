@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations.A01AB12_Hexetidine;
+model Hexetidine = Pharmacolibrary.Drugs.ATC.A.A01AB12;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07B_IntestinalAdsorbents.A07BA51_MedicinalCharcoalCombinations;
+model MedicinalCharcoalCombinations = Pharmacolibrary.Drugs.ATC.A.A07BA51;

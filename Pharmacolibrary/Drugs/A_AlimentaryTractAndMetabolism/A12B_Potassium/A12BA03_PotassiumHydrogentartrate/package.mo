@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12B_Potassium;
+package A12BA03_PotassiumHydrogentartrate
+  extends Icons.Package;
+end A12BA03_PotassiumHydrogentartrate;

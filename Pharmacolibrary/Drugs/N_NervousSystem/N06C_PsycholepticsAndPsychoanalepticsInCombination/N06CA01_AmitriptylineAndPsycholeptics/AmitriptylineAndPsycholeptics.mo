@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06C_PsycholepticsAndPsychoanalepticsInCombination.N06CA01_AmitriptylineAndPsycholeptics;
+model AmitriptylineAndPsycholeptics = Pharmacolibrary.Drugs.ATC.N.N06CA01;

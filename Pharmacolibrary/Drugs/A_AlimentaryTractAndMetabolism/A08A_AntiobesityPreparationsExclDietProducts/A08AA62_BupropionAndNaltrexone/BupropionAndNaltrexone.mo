@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A08A_AntiobesityPreparationsExclDietProducts.A08AA62_BupropionAndNaltrexone;
+model BupropionAndNaltrexone = Pharmacolibrary.Drugs.ATC.A.A08AA62;

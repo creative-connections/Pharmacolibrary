@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02A_AntiadrenergicAgentsCentrallyActing;
+package C02AB01_MethyldopaLevorotatory
+  extends Icons.Package;
+end C02AB01_MethyldopaLevorotatory;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations;
+package A01AB25_Oxytetracycline
+  extends Icons.Package;
+end A01AB25_Oxytetracycline;

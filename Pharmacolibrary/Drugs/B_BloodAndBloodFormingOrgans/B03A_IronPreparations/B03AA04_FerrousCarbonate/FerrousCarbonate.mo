@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AA04_FerrousCarbonate;
+model FerrousCarbonate = Pharmacolibrary.Drugs.ATC.B.B03AA04;

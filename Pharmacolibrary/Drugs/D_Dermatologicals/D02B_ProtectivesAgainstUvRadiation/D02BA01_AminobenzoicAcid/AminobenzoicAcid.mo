@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D02B_ProtectivesAgainstUvRadiation.D02BA01_AminobenzoicAcid;
+model AminobenzoicAcid = Pharmacolibrary.Drugs.ATC.D.D02BA01;

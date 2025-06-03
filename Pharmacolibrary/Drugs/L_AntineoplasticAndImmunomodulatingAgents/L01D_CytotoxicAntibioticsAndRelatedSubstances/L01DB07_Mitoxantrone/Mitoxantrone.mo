@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01D_CytotoxicAntibioticsAndRelatedSubstances.L01DB07_Mitoxantrone;
+model Mitoxantrone = Pharmacolibrary.Drugs.ATC.L.L01DB07;

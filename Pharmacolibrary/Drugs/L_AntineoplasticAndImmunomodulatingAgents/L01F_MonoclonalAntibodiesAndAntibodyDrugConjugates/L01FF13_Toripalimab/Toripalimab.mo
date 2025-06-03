@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FF13_Toripalimab;
+model Toripalimab = Pharmacolibrary.Drugs.ATC.L.L01FF13;

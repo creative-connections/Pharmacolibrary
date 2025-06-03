@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03A_EctoparasiticidesInclScabicides;
+package P03AB51_ClofenotaneCombinations
+  extends Icons.Package;
+end P03AB51_ClofenotaneCombinations;

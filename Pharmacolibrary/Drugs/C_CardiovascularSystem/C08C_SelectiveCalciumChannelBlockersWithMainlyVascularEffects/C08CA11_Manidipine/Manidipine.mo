@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08C_SelectiveCalciumChannelBlockersWithMainlyVascularEffects.C08CA11_Manidipine;
+model Manidipine = Pharmacolibrary.Drugs.ATC.C.C08CA11;

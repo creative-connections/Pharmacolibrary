@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AX27_Oxymetazoline;
+model Oxymetazoline = Pharmacolibrary.Drugs.ATC.D.D11AX27;

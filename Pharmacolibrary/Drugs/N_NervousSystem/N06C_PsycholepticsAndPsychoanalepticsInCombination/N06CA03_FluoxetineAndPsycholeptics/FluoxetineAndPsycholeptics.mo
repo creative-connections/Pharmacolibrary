@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06C_PsycholepticsAndPsychoanalepticsInCombination.N06CA03_FluoxetineAndPsycholeptics;
+model FluoxetineAndPsycholeptics = Pharmacolibrary.Drugs.ATC.N.N06CA03;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02B_AntiadrenergicAgentsGanglionBlocking;
+package C02BB01_Mecamylamine
+  extends Icons.Package;
+end C02BB01_Mecamylamine;

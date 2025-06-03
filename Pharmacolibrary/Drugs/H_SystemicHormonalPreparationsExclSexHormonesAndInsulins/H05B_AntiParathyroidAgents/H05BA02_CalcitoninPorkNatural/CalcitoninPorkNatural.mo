@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05B_AntiParathyroidAgents.H05BA02_CalcitoninPorkNatural;
+model CalcitoninPorkNatural = Pharmacolibrary.Drugs.ATC.H.H05BA02;

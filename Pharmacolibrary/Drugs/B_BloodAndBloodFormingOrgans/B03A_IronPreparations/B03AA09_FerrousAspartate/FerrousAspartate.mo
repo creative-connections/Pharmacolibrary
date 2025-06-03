@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AA09_FerrousAspartate;
+model FerrousAspartate = Pharmacolibrary.Drugs.ATC.B.B03AA09;

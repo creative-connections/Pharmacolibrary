@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection.V09IB03_Indium111inAntiovariumcarcinomaAntibody;
+model Indium111inAntiovariumcarcinomaAntibody = Pharmacolibrary.Drugs.ATC.V.V09IB03;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse;
+package J04B_DrugsForTreatmentOfLepra
+  extends Icons.Package;
+end J04B_DrugsForTreatmentOfLepra;

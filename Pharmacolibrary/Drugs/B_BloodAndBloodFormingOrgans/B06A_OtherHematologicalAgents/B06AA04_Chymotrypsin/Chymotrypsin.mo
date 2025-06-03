@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B06A_OtherHematologicalAgents.B06AA04_Chymotrypsin;
+model Chymotrypsin = Pharmacolibrary.Drugs.ATC.B.B06AA04;

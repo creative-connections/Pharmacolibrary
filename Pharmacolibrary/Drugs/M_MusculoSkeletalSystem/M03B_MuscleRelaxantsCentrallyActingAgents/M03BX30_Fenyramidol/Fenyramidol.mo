@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents.M03BX30_Fenyramidol;
+model Fenyramidol = Pharmacolibrary.Drugs.ATC.M.M03BX30;

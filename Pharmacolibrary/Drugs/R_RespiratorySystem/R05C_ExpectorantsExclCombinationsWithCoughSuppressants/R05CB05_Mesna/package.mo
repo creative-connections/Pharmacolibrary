@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants;
+package R05CB05_Mesna
+  extends Icons.Package;
+end R05CB05_Mesna;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03D_Progestogens.G03DA03_Hydroxyprogesterone;
+model Hydroxyprogesterone = Pharmacolibrary.Drugs.ATC.G.G03DA03;

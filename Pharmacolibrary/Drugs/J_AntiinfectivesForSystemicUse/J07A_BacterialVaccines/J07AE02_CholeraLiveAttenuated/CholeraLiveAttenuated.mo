@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AE02_CholeraLiveAttenuated;
+model CholeraLiveAttenuated = Pharmacolibrary.Drugs.ATC.J.J07AE02;

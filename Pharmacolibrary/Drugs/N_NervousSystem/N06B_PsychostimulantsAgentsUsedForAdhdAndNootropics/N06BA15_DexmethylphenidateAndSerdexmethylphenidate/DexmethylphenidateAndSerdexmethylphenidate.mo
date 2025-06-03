@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BA15_DexmethylphenidateAndSerdexmethylphenidate;
+model DexmethylphenidateAndSerdexmethylphenidate = Pharmacolibrary.Drugs.ATC.N.N06BA15;

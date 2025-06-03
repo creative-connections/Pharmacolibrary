@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.R;
+
+model R03AK13
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.15,
+    Cl             = 3.8333333333333335,
+    adminDuration  = 600,
+    adminMass      = 0.1,
+    adminCount     = 1,
+    Vd             = 0.15,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Salbutamol and beclometasone is a fixed-dose combination inhalation drug used in the management of asthma and chronic obstructive pulmonary disease (COPD). Salbutamol is a short-acting beta2 agonist (SABA) that provides rapid relief from bronchospasm, while beclometasone is an inhaled corticosteroid (ICS) for controlling chronic airway inflammation. The combination is approved and commonly used for patients who require both symptom relief and anti-inflammatory maintenance therapy.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for the inhaled combination of salbutamol and beclometasone in adults, based on literature for individual components as direct PK data on the combination with ATC code R03AK13 is not publicly available as of 2024.</p><h4>References</h4><ol><li> No direct pharmacokinetic study or publication was found for the salbutamol and beclometasone combination product with ATC code R03AK13. The reported pharmacokinetic parameters are estimates based on literature for single agents using inhalation route in healthy adults. Exact parameters may vary depending on inhaler device, deposition, and population specifics.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end R03AK13;

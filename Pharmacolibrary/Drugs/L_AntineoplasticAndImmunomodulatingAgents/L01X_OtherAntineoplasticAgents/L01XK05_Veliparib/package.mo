@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
+package L01XK05_Veliparib
+  extends Icons.Package;
+end L01XK05_Veliparib;

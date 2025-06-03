@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
+package L04AJ01_Eculizumab
+  extends Icons.Package;
+end L04AJ01_Eculizumab;

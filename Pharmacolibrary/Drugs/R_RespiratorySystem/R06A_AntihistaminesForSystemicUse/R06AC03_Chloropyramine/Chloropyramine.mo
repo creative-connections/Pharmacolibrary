@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AC03_Chloropyramine;
+model Chloropyramine = Pharmacolibrary.Drugs.ATC.R.R06AC03;

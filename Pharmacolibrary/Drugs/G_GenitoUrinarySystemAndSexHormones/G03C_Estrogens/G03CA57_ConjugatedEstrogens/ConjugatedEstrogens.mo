@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03C_Estrogens.G03CA57_ConjugatedEstrogens;
+model ConjugatedEstrogens = Pharmacolibrary.Drugs.ATC.G.G03CA57;

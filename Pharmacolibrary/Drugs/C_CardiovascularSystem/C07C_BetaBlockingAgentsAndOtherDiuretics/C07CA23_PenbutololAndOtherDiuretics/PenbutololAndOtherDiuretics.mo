@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07C_BetaBlockingAgentsAndOtherDiuretics.C07CA23_PenbutololAndOtherDiuretics;
+model PenbutololAndOtherDiuretics = Pharmacolibrary.Drugs.ATC.C.C07CA23;

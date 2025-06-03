@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01EB08_Sulfathiourea;
+model Sulfathiourea = Pharmacolibrary.Drugs.ATC.J.J01EB08;

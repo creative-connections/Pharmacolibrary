@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01D_CytotoxicAntibioticsAndRelatedSubstances.L01DC01_Bleomycin;
+model Bleomycin = Pharmacolibrary.Drugs.ATC.L.L01DC01;

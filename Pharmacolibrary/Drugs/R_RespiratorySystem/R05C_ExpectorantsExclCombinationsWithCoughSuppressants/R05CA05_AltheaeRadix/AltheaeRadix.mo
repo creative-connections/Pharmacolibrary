@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants.R05CA05_AltheaeRadix;
+model AltheaeRadix = Pharmacolibrary.Drugs.ATC.R.R05CA05;

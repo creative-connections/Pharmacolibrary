@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain;
+package M02AA02_Mofebutazone
+  extends Icons.Package;
+end M02AA02_Mofebutazone;

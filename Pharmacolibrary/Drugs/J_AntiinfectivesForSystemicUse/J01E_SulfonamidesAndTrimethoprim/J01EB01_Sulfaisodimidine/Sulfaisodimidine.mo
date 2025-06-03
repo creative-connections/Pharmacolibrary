@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01EB01_Sulfaisodimidine;
+model Sulfaisodimidine = Pharmacolibrary.Drugs.ATC.J.J01EB01;

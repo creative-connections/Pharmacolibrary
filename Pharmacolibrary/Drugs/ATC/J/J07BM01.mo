@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.J;
+
+model J07BM01
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.0,
+    adminDuration  = 600,
+    adminMass      = 0.0005,
+    adminCount     = 1,
+    Vd             = 0,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Quadrivalent human papillomavirus (HPV) vaccine is a prophylactic vaccine containing virus-like particles that correspond to HPV types 6, 11, 16, and 18. It is used to prevent infection and subsequent diseases related to these HPV types, including cervical, vulvar, vaginal, and anal cancers, as well as genital warts. The vaccine is widely approved and in routine use for adolescents and young adults.</p><h4>Pharmacokinetics</h4><p>No conventional pharmacokinetic parameters (e.g., absorption, distribution, metabolism, elimination) are reported in the literature since the vaccine contains non-infectious virus-like particles and is administered intramuscularly, inducing an immune response rather than acting through typical systemic pharmacokinetics as with small-molecule drugs. Most literature reports immunogenicity rather than PK parameters.</p><h4>References</h4><ol><li> No pharmacokinetic studies with standard PK parameters are available for HPV (types 6, 11, 16, 18) vaccine. This is because vaccines are not absorbed, distributed, metabolized, or eliminated in the same way as typical small-molecule drugs. Immune response and serology studies are used instead of PK studies. Parameters above are denoted as not applicable or estimated for completeness.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end J07BM01;

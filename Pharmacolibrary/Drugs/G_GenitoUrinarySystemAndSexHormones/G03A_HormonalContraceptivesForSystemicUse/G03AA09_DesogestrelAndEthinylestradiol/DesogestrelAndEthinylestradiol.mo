@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AA09_DesogestrelAndEthinylestradiol;
+model DesogestrelAndEthinylestradiol = Pharmacolibrary.Drugs.ATC.G.G03AA09;

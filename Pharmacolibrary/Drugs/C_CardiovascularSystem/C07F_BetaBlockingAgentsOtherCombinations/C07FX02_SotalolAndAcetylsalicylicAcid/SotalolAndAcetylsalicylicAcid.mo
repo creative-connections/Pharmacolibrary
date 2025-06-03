@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07F_BetaBlockingAgentsOtherCombinations.C07FX02_SotalolAndAcetylsalicylicAcid;
+model SotalolAndAcetylsalicylicAcid = Pharmacolibrary.Drugs.ATC.C.C07FX02;

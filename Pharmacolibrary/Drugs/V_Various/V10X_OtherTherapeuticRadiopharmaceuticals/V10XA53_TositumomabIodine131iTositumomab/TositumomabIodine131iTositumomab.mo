@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V10X_OtherTherapeuticRadiopharmaceuticals.V10XA53_TositumomabIodine131iTositumomab;
+model TositumomabIodine131iTositumomab = Pharmacolibrary.Drugs.ATC.V.V10XA53;

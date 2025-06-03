@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.D;
+
+model D01AA04
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.01,
+    Cl             = 0.008333333333333333,
+    adminDuration  = 600,
+    adminMass      = 0.01,
+    adminCount     = 1,
+    Vd             = 0.005,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Pecilocin is an antifungal antibiotic belonging to the polyene macrolide class, used historically for topical treatment of fungal infections. It is no longer in common clinical use and is not an approved medication in most modern formularies.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic data available for pecilocin in humans or animals. Estimated parameters provided based on typical values for other polyene antifungal antibiotics.</p><h4>References</h4><ol><li> No pharmacokinetic studies for pecilocin identified in the literature as of June 2024. All pharmacokinetic values estimated based on similar drugs (polyene antibiotics such as nystatin or amphotericin B) and expert knowledge. Values should not be considered as direct measurements or clinical recommendations.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end D01AA04;

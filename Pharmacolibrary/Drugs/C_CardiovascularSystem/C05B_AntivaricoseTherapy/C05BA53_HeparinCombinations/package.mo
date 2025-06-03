@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05B_AntivaricoseTherapy;
+package C05BA53_HeparinCombinations
+  extends Icons.Package;
+end C05BA53_HeparinCombinations;

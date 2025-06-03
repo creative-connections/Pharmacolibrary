@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01D_CytotoxicAntibioticsAndRelatedSubstances.L01DC02_Plicamycin;
+model Plicamycin = Pharmacolibrary.Drugs.ATC.L.L01DC02;

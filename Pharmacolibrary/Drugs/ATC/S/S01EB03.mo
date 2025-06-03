@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.S;
+
+model S01EB03
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.01,
+    Cl             = 0.0016666666666666668,
+    adminDuration  = 600,
+    adminMass      = 2.9999999999999997e-05,
+    adminCount     = 1,
+    Vd             = 0.003,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Ecothiopate is a long-acting, irreversible acetylcholinesterase inhibitor that was used primarily in ophthalmology for the treatment of glaucoma and, less commonly, accommodative esotropia. It is administered topically. Its use has become rare due to the risk of systemic and ocular side effects, and safer alternatives are now preferred. Ecothiopate is not commonly used or approved in current clinical practice.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for topical (ocular) administration in adult humans, as no detailed compartmental PK models or systemic absorption studies with published pharmacokinetic parameters are reported in the literature for ecothiopate.</p><h4>References</h4><ol><li> No published pharmacokinetic compartmental studies or human plasma PK parameters for ecothiopate exist. All values are rough estimates based on drug class (organophosphates) and administration route (ocular, minimal systemic absorption expected). Data are inferred from indirect sources or approximate analogy; actual systemic PK in humans remains undetermined.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end S01EB03;

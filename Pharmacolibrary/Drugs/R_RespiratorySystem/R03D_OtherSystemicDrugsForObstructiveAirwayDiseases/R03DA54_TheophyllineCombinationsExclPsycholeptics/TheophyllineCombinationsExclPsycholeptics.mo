@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases.R03DA54_TheophyllineCombinationsExclPsycholeptics;
+model TheophyllineCombinationsExclPsycholeptics = Pharmacolibrary.Drugs.ATC.R.R03DA54;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.R;
+
+model R03AC05
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.2,
+    Cl             = 5.0,
+    adminDuration  = 600,
+    adminMass      = 0.2,
+    adminCount     = 1,
+    Vd             = 0.0025,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Rimiterol is a short-acting beta-2 adrenergic receptor agonist previously used as a bronchodilator in the treatment of asthma and chronic obstructive pulmonary disease (COPD). It is not widely used or approved in current clinical practice, having largely been replaced by other beta-2 agonists such as salbutamol.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters were not identified in published literature for any population. Reported values are plausible estimates based on similarity to other short-acting beta-2 agonists orally inhaled, such as salbutamol, and available secondary sources.</p><h4>References</h4><ol><li> No direct pharmacokinetic studies of rimiterol found in the literature after extensive search in PubMed, drug monographs, and textbooks. All PK values are estimates based on salbutamol and other related short-acting inhaled beta-agonists. If future primary data are available, values should be updated.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end R03AC05;

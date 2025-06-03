@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AX26_Amenamevir;
+model Amenamevir = Pharmacolibrary.Drugs.ATC.J.J05AX26;

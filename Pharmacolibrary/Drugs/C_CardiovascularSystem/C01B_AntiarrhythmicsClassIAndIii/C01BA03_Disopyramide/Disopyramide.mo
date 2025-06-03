@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01B_AntiarrhythmicsClassIAndIii.C01BA03_Disopyramide;
+model Disopyramide = Pharmacolibrary.Drugs.ATC.C.C01BA03;

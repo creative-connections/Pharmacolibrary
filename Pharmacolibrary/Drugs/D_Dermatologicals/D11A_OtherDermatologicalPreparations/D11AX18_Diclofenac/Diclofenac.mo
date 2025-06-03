@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AX18_Diclofenac;
+model Diclofenac = Pharmacolibrary.Drugs.ATC.D.D11AX18;

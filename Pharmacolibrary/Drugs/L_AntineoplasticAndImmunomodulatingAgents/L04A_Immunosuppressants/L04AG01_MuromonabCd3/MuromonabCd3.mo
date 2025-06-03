@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AG01_MuromonabCd3;
+model MuromonabCd3 = Pharmacolibrary.Drugs.ATC.L.L04AG01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AF18_Flutrimazole;
+model Flutrimazole = Pharmacolibrary.Drugs.ATC.G.G01AF18;

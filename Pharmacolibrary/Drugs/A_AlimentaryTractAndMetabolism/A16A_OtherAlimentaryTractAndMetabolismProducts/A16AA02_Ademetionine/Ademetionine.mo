@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts.A16AA02_Ademetionine;
+model Ademetionine = Pharmacolibrary.Drugs.ATC.A.A16AA02;

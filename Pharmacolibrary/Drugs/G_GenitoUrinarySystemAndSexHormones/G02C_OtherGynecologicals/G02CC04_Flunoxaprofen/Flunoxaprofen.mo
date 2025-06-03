@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02C_OtherGynecologicals.G02CC04_Flunoxaprofen;
+model Flunoxaprofen = Pharmacolibrary.Drugs.ATC.G.G02CC04;

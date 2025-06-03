@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J06B_Immunoglobulins.J06BB14_MeaslesImmunoglobulin;
+model MeaslesImmunoglobulin = Pharmacolibrary.Drugs.ATC.J.J06BB14;

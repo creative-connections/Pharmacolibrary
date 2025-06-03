@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01B_AntiarrhythmicsClassIAndIii.C01BG01_Moracizine;
+model Moracizine = Pharmacolibrary.Drugs.ATC.C.C01BG01;

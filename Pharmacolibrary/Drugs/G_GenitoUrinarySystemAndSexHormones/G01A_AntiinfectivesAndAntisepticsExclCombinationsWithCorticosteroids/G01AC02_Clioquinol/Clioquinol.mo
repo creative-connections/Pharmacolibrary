@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AC02_Clioquinol;
+model Clioquinol = Pharmacolibrary.Drugs.ATC.G.G01AC02;

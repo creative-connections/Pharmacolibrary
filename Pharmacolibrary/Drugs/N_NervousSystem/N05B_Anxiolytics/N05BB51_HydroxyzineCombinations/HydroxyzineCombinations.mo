@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N05B_Anxiolytics.N05BB51_HydroxyzineCombinations;
+model HydroxyzineCombinations = Pharmacolibrary.Drugs.ATC.N.N05BB51;

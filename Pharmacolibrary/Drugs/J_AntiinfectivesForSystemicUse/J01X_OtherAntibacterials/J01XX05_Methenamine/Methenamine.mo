@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01X_OtherAntibacterials.J01XX05_Methenamine;
+model Methenamine = Pharmacolibrary.Drugs.ATC.J.J01XX05;

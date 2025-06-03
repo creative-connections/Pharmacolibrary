@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07X_CorticosteroidsOtherCombinations.D07XC01_Betamethasone;
+model Betamethasone = Pharmacolibrary.Drugs.ATC.D.D07XC01;

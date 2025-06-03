@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V04C_OtherDiagnosticAgents.V04CG01_CationExchangeResins;
+model CationExchangeResins = Pharmacolibrary.Drugs.ATC.V.V04CG01;

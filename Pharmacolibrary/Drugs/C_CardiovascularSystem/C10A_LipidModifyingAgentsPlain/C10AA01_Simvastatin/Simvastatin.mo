@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10A_LipidModifyingAgentsPlain.C10AA01_Simvastatin;
+model Simvastatin = Pharmacolibrary.Drugs.ATC.C.C10AA01;

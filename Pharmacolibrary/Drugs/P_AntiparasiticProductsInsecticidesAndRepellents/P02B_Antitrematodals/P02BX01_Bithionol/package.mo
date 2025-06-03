@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02B_Antitrematodals;
+package P02BX01_Bithionol
+  extends Icons.Package;
+end P02BX01_Bithionol;

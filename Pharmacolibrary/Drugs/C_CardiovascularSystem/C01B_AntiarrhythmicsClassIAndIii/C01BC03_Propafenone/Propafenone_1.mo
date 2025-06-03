@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01B_AntiarrhythmicsClassIAndIii.C01BC03_Propafenone;
+model Propafenone_1 = Pharmacolibrary.Drugs.ATC.C.C01BC03_1;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain.M02AB02_Zucapsaicin;
+model Zucapsaicin = Pharmacolibrary.Drugs.ATC.M.M02AB02;

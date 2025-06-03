@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EG03_Ridaforolimus;
+model Ridaforolimus = Pharmacolibrary.Drugs.ATC.L.L01EG03;

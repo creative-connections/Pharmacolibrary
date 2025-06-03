@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01EC03_Dorzolamide;
+model Dorzolamide = Pharmacolibrary.Drugs.ATC.S.S01EC03;

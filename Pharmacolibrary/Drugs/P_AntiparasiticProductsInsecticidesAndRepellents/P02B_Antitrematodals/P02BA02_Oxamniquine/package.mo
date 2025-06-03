@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02B_Antitrematodals;
+package P02BA02_Oxamniquine
+  extends Icons.Package;
+end P02BA02_Oxamniquine;

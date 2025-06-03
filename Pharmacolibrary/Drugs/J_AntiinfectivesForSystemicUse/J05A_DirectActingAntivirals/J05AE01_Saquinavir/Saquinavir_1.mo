@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AE01_Saquinavir;
+model Saquinavir_1 = Pharmacolibrary.Drugs.ATC.J.J05AE01_1;

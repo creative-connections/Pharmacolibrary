@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BX15_Imeglimin;
+model Imeglimin = Pharmacolibrary.Drugs.ATC.A.A10BX15;

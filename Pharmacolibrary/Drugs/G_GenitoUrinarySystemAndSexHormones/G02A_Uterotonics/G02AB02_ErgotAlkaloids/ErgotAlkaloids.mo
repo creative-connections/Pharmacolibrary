@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02A_Uterotonics.G02AB02_ErgotAlkaloids;
+model ErgotAlkaloids = Pharmacolibrary.Drugs.ATC.G.G02AB02;

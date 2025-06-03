@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11C_VitaminAAndDInclCombinationsOfTheTwo;
+package A11CC06_Calcifediol
+  extends Icons.Package;
+end A11CC06_Calcifediol;

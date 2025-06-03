@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04B_Urologicals.G04BX10_Succinimide;
+model Succinimide = Pharmacolibrary.Drugs.ATC.G.G04BX10;

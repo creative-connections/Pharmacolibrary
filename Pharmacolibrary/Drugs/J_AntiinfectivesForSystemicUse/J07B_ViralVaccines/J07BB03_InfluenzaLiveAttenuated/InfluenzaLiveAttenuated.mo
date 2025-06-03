@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BB03_InfluenzaLiveAttenuated;
+model InfluenzaLiveAttenuated = Pharmacolibrary.Drugs.ATC.J.J07BB03;

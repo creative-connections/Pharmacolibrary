@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials;
+package P01BA03_Primaquine
+  extends Icons.Package;
+end P01BA03_Primaquine;

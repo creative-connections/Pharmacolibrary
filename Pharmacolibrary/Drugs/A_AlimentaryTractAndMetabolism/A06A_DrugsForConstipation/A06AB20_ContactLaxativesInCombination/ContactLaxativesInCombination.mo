@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AB20_ContactLaxativesInCombination;
+model ContactLaxativesInCombination = Pharmacolibrary.Drugs.ATC.A.A06AB20;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
+package L01EL01_Ibrutinib
+  extends Icons.Package;
+end L01EL01_Ibrutinib;

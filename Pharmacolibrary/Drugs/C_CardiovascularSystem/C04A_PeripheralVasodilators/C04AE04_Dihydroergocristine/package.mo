@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C04A_PeripheralVasodilators;
+package C04AE04_Dihydroergocristine
+  extends Icons.Package;
+end C04AE04_Dihydroergocristine;

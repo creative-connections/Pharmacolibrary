@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01B_AntiinflammatoryAgents.S01BA15_FluocinoloneAcetonide;
+model FluocinoloneAcetonide = Pharmacolibrary.Drugs.ATC.S.S01BA15;

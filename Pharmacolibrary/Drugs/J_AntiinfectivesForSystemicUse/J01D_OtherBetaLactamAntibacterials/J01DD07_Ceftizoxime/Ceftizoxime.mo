@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DD07_Ceftizoxime;
+model Ceftizoxime = Pharmacolibrary.Drugs.ATC.J.J01DD07;

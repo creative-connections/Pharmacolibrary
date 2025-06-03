@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03A_EctoparasiticidesInclScabicides.P03AX07_Abametapir;
+model Abametapir = Pharmacolibrary.Drugs.ATC.P.P03AX07;

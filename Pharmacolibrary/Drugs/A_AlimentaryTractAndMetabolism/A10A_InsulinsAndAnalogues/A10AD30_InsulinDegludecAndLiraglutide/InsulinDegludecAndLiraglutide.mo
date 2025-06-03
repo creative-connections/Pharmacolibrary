@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10A_InsulinsAndAnalogues.A10AD30_InsulinDegludecAndLiraglutide;
+model InsulinDegludecAndLiraglutide = Pharmacolibrary.Drugs.ATC.A.A10AD30;

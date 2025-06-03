@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07C_CorticosteroidsCombinationsWithAntibiotics.D07CB03_FluorometholoneAndAntibiotics;
+model FluorometholoneAndAntibiotics = Pharmacolibrary.Drugs.ATC.D.D07CB03;

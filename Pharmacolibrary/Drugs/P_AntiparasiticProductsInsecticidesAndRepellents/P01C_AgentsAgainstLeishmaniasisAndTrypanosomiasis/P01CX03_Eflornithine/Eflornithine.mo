@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01C_AgentsAgainstLeishmaniasisAndTrypanosomiasis.P01CX03_Eflornithine;
+model Eflornithine = Pharmacolibrary.Drugs.ATC.P.P01CX03;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides.C01CX08_Levosimendan;
+model Levosimendan = Pharmacolibrary.Drugs.ATC.C.C01CX08;

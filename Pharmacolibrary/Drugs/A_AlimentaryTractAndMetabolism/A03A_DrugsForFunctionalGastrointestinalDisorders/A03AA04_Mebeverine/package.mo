@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders;
+package A03AA04_Mebeverine
+  extends Icons.Package;
+end A03AA04_Mebeverine;

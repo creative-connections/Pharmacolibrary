@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09C_RenalSystem.V09CA04_Technetium99mtcGluceptate;
+model Technetium99mtcGluceptate = Pharmacolibrary.Drugs.ATC.V.V09CA04;

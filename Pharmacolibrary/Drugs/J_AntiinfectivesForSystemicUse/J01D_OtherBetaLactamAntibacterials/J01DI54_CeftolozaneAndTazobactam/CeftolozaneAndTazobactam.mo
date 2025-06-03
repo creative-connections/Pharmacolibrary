@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DI54_CeftolozaneAndTazobactam;
+model CeftolozaneAndTazobactam = Pharmacolibrary.Drugs.ATC.J.J01DI54;

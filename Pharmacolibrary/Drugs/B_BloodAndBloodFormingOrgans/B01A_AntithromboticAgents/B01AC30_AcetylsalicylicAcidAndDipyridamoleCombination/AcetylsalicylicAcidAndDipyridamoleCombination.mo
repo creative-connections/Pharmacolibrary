@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AC30_AcetylsalicylicAcidAndDipyridamoleCombination;
+model AcetylsalicylicAcidAndDipyridamoleCombination = Pharmacolibrary.Drugs.ATC.B.B01AC30;

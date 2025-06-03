@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05A_BloodAndRelatedProducts;
+package B05AA10_HemoglobinGlutamerBovine
+  extends Icons.Package;
+end B05AA10_HemoglobinGlutamerBovine;

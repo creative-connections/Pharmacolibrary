@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AB53_DantronCombinations;
+model DantronCombinations = Pharmacolibrary.Drugs.ATC.A.A06AB53;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03E_DiureticsAndPotassiumSparingAgentsInCombination;
+package C03EA07_CyclopenthiazideAndPotassiumSparingAgents
+  extends Icons.Package;
+end C03EA07_CyclopenthiazideAndPotassiumSparingAgents;

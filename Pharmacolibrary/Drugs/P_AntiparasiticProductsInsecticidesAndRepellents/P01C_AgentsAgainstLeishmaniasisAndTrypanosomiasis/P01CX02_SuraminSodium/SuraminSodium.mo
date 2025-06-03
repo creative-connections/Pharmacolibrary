@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01C_AgentsAgainstLeishmaniasisAndTrypanosomiasis.P01CX02_SuraminSodium;
+model SuraminSodium = Pharmacolibrary.Drugs.ATC.P.P01CX02;

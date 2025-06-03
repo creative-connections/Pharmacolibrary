@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03F_ProgestogensAndEstrogensInCombination.G03FA13_NorgestimateAndEstrogen;
+model NorgestimateAndEstrogen = Pharmacolibrary.Drugs.ATC.G.G03FA13;

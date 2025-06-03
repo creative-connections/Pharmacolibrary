@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BD01_OmeprazoleAmoxicillinAndMetronidazole;
+model OmeprazoleAmoxicillinAndMetronidazole = Pharmacolibrary.Drugs.ATC.A.A02BD01;

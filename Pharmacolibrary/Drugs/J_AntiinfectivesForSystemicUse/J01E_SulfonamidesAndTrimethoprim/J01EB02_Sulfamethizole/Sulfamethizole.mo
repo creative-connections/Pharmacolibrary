@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01EB02_Sulfamethizole;
+model Sulfamethizole = Pharmacolibrary.Drugs.ATC.J.J01EB02;

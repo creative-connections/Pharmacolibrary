@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01EB04_Sulfapyridine;
+model Sulfapyridine = Pharmacolibrary.Drugs.ATC.J.J01EB04;

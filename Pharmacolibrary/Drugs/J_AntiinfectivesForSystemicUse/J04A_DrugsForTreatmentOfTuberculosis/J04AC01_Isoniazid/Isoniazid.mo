@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis.J04AC01_Isoniazid;
+model Isoniazid = Pharmacolibrary.Drugs.ATC.J.J04AC01;

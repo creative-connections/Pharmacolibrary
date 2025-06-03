@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EE01_Trametinib;
+model Trametinib = Pharmacolibrary.Drugs.ATC.L.L01EE01;

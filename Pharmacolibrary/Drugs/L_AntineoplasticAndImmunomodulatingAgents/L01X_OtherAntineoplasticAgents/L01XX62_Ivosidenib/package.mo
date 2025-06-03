@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
+package L01XX62_Ivosidenib
+  extends Icons.Package;
+end L01XX62_Ivosidenib;

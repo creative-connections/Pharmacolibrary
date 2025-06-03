@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03A_MuscleRelaxantsPeripherallyActingAgents.M03AA01_Alcuronium;
+model Alcuronium = Pharmacolibrary.Drugs.ATC.M.M03AA01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09H_InflammationAndInfectionDetection.V09HA02_Technetium99mtcExametazimeLabelledCells;
+model Technetium99mtcExametazimeLabelledCells = Pharmacolibrary.Drugs.ATC.V.V09HA02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06D_AntiDementiaDrugs.N06DA53_DonepezilMemantineAndGinkgoFolium;
+model DonepezilMemantineAndGinkgoFolium = Pharmacolibrary.Drugs.ATC.N.N06DA53;

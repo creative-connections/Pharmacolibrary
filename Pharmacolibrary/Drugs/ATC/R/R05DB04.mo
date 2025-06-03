@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.R;
+
+model R05DB04
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.5,
+    Cl             = 0.5,
+    adminDuration  = 600,
+    adminMass      = 0.04,
+    adminCount     = 1,
+    Vd             = 0.15,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0005,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Isoaminile is an antitussive drug that was primarily used in the past to treat cough. It acts as a cough suppressant via central mechanisms. The drug is no longer widely approved, as more modern alternatives are preferred and it is not currently recommended in therapeutic guidelines.</p><h4>Pharmacokinetics</h4><p>No published peer-reviewed pharmacokinetic data for isoaminile found for any population (adult/child, male/female, healthy or diseased). Estimates below are provided based on general pharmacokinetic expectations for oral antitussive agents.</p><h4>References</h4><ol><li> No published literature identified for isoaminile pharmacokinetics. All values are reasoned estimates based on other centrally acting antitussives. Parameters should be considered as rough estimates and not as established clinical data.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end R05DB04;

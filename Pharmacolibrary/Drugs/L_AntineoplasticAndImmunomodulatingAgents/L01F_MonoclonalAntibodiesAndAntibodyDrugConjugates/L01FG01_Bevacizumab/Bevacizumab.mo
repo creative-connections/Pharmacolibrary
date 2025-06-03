@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FG01_Bevacizumab;
+model Bevacizumab = Pharmacolibrary.Drugs.ATC.L.L01FG01;

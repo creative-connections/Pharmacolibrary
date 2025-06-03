@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection;
+package V09IX03_Iodine125iCc49MonoclonalAntibody
+  extends Icons.Package;
+end V09IX03_Iodine125iCc49MonoclonalAntibody;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09A_CentralNervousSystem.V09AA02_Technetium99mtcBicisate;
+model Technetium99mtcBicisate = Pharmacolibrary.Drugs.ATC.V.V09AA02;

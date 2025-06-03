@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09A_CentralNervousSystem.V09AX01_Indium111inPenteticAcid;
+model Indium111inPenteticAcid = Pharmacolibrary.Drugs.ATC.V.V09AX01;

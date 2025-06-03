@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XL05_CiltacabtageneAutoleucel;
+model CiltacabtageneAutoleucel = Pharmacolibrary.Drugs.ATC.L.L01XL05;

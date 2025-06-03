@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.V;
+
+model V04CD05
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.3333333333333333,
+    adminDuration  = 600,
+    adminMass      = 0.1,
+    adminCount     = 1,
+    Vd             = 0.0003,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Somatorelin (growth hormone-releasing hormone, GHRH) is a synthetic peptide analog of endogenous human growth hormone-releasing hormone, used as a diagnostic agent for pituitary function, especially to test growth hormone secretion. It is not approved for chronic therapeutic use but has primarily diagnostic utility.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for healthy adult individuals, as no direct human PK studies were available in the published literature.</p><h4>References</h4><ol><li> No direct pharmacokinetic studies for somatorelin (GHRH) found in published literature. Parameters are estimated based on pharmacokinetics of similar hypothalamic peptide hormones. Values may not precisely reflect actual somatorelin disposition in human subjects.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end V04CD05;

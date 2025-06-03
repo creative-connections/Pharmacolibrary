@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09C_RenalSystem.V09CA03_Technetium99mtcMertiatide;
+model Technetium99mtcMertiatide = Pharmacolibrary.Drugs.ATC.V.V09CA03;

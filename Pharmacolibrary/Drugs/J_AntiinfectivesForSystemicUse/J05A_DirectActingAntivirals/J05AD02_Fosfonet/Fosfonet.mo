@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AD02_Fosfonet;
+model Fosfonet = Pharmacolibrary.Drugs.ATC.J.J05AD02;

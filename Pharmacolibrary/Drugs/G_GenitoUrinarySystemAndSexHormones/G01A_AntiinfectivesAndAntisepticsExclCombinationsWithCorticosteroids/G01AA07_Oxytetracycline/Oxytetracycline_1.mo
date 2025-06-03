@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AA07_Oxytetracycline;
+model Oxytetracycline_1 = Pharmacolibrary.Drugs.ATC.G.G01AA07_1;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse.C05AA10_FluocinoloneAcetonide;
+model FluocinoloneAcetonide = Pharmacolibrary.Drugs.ATC.C.C05AA10;

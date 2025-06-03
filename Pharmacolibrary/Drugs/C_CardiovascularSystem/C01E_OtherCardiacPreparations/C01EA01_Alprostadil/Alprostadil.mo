@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01E_OtherCardiacPreparations.C01EA01_Alprostadil;
+model Alprostadil = Pharmacolibrary.Drugs.ATC.C.C01EA01;

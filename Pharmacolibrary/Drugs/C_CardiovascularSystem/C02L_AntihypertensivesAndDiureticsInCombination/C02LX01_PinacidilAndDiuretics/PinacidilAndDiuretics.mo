@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination.C02LX01_PinacidilAndDiuretics;
+model PinacidilAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C02LX01;

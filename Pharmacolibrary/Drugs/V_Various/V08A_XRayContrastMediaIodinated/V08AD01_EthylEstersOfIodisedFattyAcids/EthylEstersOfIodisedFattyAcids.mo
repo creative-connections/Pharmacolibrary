@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V08A_XRayContrastMediaIodinated.V08AD01_EthylEstersOfIodisedFattyAcids;
+model EthylEstersOfIodisedFattyAcids = Pharmacolibrary.Drugs.ATC.V.V08AD01;

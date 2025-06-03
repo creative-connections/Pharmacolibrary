@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BF02_Miglitol;
+model Miglitol = Pharmacolibrary.Drugs.ATC.A.A10BF02;

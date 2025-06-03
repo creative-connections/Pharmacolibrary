@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03X_OtherSexHormonesAndModulatorsOfTheGenitalSystem.G03XB02_Ulipristal;
+model Ulipristal = Pharmacolibrary.Drugs.ATC.G.G03XB02;

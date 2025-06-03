@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse.J02AB01_Miconazole;
+model Miconazole = Pharmacolibrary.Drugs.ATC.J.J02AB01;

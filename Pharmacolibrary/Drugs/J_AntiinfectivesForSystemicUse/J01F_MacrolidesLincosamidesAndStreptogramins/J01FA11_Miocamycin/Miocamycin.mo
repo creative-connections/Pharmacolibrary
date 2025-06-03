@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins.J01FA11_Miocamycin;
+model Miocamycin = Pharmacolibrary.Drugs.ATC.J.J01FA11;

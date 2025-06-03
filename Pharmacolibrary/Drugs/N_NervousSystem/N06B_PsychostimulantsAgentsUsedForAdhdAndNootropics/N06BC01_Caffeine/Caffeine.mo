@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BC01_Caffeine;
+model Caffeine = Pharmacolibrary.Drugs.ATC.N.N06BC01;

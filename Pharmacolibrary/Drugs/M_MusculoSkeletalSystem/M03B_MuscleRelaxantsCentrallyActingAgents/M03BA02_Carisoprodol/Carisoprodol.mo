@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents.M03BA02_Carisoprodol;
+model Carisoprodol = Pharmacolibrary.Drugs.ATC.M.M03BA02;

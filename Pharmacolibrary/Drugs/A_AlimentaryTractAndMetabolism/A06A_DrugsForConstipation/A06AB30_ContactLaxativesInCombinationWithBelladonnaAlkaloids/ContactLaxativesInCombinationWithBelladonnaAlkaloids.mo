@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AB30_ContactLaxativesInCombinationWithBelladonnaAlkaloids;
+model ContactLaxativesInCombinationWithBelladonnaAlkaloids = Pharmacolibrary.Drugs.ATC.A.A06AB30;

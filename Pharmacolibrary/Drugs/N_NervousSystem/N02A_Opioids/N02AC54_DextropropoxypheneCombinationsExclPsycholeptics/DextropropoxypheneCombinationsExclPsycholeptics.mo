@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids.N02AC54_DextropropoxypheneCombinationsExclPsycholeptics;
+model DextropropoxypheneCombinationsExclPsycholeptics = Pharmacolibrary.Drugs.ATC.N.N02AC54;

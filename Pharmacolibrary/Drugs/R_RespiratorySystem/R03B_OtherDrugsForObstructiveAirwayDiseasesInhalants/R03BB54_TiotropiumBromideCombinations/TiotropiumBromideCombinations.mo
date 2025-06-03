@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03B_OtherDrugsForObstructiveAirwayDiseasesInhalants.R03BB54_TiotropiumBromideCombinations;
+model TiotropiumBromideCombinations = Pharmacolibrary.Drugs.ATC.R.R03BB54;

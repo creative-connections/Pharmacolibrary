@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts.A16AA04_Mercaptamine;
+model Mercaptamine = Pharmacolibrary.Drugs.ATC.A.A16AA04;

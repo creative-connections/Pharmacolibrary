@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents;
+package M03BA52_CarisoprodolCombinationsExclPsycholeptics
+  extends Icons.Package;
+end M03BA52_CarisoprodolCombinationsExclPsycholeptics;

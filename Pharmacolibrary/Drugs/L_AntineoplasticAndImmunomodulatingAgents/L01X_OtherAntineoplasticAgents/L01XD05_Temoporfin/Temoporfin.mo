@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XD05_Temoporfin;
+model Temoporfin = Pharmacolibrary.Drugs.ATC.L.L01XD05;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05C_IrrigatingSolutions.B05CB02_SodiumCitrate;
+model SodiumCitrate = Pharmacolibrary.Drugs.ATC.B.B05CB02;

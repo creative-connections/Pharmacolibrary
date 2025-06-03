@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02A_HormonesAndRelatedAgents.L02AA02_PolyestradiolPhosphate;
+model PolyestradiolPhosphate = Pharmacolibrary.Drugs.ATC.L.L02AA02;

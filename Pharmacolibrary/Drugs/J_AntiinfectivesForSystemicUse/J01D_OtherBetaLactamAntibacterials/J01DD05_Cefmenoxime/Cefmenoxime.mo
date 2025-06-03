@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DD05_Cefmenoxime;
+model Cefmenoxime = Pharmacolibrary.Drugs.ATC.J.J01DD05;

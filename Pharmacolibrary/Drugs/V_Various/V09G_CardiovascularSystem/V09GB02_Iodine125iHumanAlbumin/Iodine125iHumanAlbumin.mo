@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09G_CardiovascularSystem.V09GB02_Iodine125iHumanAlbumin;
+model Iodine125iHumanAlbumin = Pharmacolibrary.Drugs.ATC.V.V09GB02;

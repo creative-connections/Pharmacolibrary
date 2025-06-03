@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FB01_InotuzumabOzogamicin;
+model InotuzumabOzogamicin = Pharmacolibrary.Drugs.ATC.L.L01FB01;

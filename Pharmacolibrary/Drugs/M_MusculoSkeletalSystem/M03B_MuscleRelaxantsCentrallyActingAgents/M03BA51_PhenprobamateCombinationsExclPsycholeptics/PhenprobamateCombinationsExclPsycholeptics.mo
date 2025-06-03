@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents.M03BA51_PhenprobamateCombinationsExclPsycholeptics;
+model PhenprobamateCombinationsExclPsycholeptics = Pharmacolibrary.Drugs.ATC.M.M03BA51;

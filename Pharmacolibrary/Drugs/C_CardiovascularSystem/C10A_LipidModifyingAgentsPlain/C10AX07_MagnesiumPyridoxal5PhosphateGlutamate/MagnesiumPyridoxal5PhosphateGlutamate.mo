@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10A_LipidModifyingAgentsPlain.C10AX07_MagnesiumPyridoxal5PhosphateGlutamate;
+model MagnesiumPyridoxal5PhosphateGlutamate = Pharmacolibrary.Drugs.ATC.C.C10AX07;

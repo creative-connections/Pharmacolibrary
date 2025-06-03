@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AA22_Abetimus;
+model Abetimus = Pharmacolibrary.Drugs.ATC.L.L04AA22;

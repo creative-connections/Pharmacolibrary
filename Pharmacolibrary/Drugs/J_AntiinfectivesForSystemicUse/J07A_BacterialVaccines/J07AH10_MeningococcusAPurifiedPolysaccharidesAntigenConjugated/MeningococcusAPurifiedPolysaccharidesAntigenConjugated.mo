@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AH10_MeningococcusAPurifiedPolysaccharidesAntigenConjugated;
+model MeningococcusAPurifiedPolysaccharidesAntigenConjugated = Pharmacolibrary.Drugs.ATC.J.J07AH10;

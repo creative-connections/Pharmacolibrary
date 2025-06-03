@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
+package L01EX17_Capmatinib
+  extends Icons.Package;
+end L01EX17_Capmatinib;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts.A16AX10_Eliglustat;
+model Eliglustat = Pharmacolibrary.Drugs.ATC.A.A16AX10;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01ED51_TimololCombinations;
+model TimololCombinations = Pharmacolibrary.Drugs.ATC.S.S01ED51;

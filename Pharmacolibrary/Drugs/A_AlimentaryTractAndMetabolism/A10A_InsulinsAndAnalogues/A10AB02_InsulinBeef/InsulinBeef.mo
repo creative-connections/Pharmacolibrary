@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10A_InsulinsAndAnalogues.A10AB02_InsulinBeef;
+model InsulinBeef = Pharmacolibrary.Drugs.ATC.A.A10AB02;

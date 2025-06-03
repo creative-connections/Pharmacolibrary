@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations.C10BX12_AtorvastatinAcetylsalicylicAcidAndPerindopril;
+model AtorvastatinAcetylsalicylicAcidAndPerindopril = Pharmacolibrary.Drugs.ATC.C.C10BX12;

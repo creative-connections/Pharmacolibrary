@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides;
+package C01CE03_Enoximone
+  extends Icons.Package;
+end C01CE03_Enoximone;

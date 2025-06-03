@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DX07_Etafenone;
+model Etafenone = Pharmacolibrary.Drugs.ATC.C.C01DX07;

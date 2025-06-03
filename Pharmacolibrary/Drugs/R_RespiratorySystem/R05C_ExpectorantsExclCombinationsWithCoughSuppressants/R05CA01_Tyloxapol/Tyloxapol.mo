@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants.R05CA01_Tyloxapol;
+model Tyloxapol = Pharmacolibrary.Drugs.ATC.R.R05CA01;

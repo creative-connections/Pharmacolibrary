@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AD04_FerricOxidePolymaltoseComplexesAndFolicAcid;
+model FerricOxidePolymaltoseComplexesAndFolicAcid = Pharmacolibrary.Drugs.ATC.B.B03AD04;

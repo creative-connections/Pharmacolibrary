@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EA02_Dasatinib;
+model Dasatinib = Pharmacolibrary.Drugs.ATC.L.L01EA02;

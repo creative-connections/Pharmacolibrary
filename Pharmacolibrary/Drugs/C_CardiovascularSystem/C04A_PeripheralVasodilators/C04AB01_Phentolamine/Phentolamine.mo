@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C04A_PeripheralVasodilators.C04AB01_Phentolamine;
+model Phentolamine = Pharmacolibrary.Drugs.ATC.C.C04AB01;

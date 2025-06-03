@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents;
+package B01AB02_AntithrombinIii
+  extends Icons.Package;
+end B01AB02_AntithrombinIii;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination.C02LE01_PrazosinAndDiuretics;
+model PrazosinAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C02LE01;

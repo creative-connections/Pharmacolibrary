@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D04A_AntipruriticsInclAntihistaminesAnestheticsEtc;
+package D04AB02_Cinchocaine
+  extends Icons.Package;
+end D04AB02_Cinchocaine;

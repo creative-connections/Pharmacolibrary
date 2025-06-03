@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02B_HormoneAntagonistsAndRelatedAgents.L02BB02_Nilutamide;
+model Nilutamide = Pharmacolibrary.Drugs.ATC.L.L02BB02;

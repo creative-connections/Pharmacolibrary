@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AH04_Laninamivir;
+model Laninamivir = Pharmacolibrary.Drugs.ATC.J.J05AH04;

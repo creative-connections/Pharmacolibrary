@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants.R05DB23_Piperidione;
+model Piperidione = Pharmacolibrary.Drugs.ATC.R.R05DB23;

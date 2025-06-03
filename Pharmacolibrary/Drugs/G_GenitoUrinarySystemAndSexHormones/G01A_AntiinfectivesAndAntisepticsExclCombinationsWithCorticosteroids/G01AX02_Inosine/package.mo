@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids;
+package G01AX02_Inosine
+  extends Icons.Package;
+end G01AX02_Inosine;

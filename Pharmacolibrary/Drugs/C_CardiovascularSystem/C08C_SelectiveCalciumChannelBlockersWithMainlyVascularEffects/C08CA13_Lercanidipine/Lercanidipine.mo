@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08C_SelectiveCalciumChannelBlockersWithMainlyVascularEffects.C08CA13_Lercanidipine;
+model Lercanidipine = Pharmacolibrary.Drugs.ATC.C.C08CA13;

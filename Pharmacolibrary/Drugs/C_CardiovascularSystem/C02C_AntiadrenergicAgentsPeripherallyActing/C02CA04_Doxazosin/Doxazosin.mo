@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02C_AntiadrenergicAgentsPeripherallyActing.C02CA04_Doxazosin;
+model Doxazosin = Pharmacolibrary.Drugs.ATC.C.C02CA04;

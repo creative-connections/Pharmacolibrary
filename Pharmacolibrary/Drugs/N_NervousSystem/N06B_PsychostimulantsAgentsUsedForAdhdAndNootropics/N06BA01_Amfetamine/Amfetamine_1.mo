@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BA01_Amfetamine;
+model Amfetamine_1 = Pharmacolibrary.Drugs.ATC.N.N06BA01_1;

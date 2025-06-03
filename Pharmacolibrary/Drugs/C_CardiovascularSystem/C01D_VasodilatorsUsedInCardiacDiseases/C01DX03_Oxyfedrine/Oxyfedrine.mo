@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DX03_Oxyfedrine;
+model Oxyfedrine = Pharmacolibrary.Drugs.ATC.C.C01DX03;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins.J01CE04_Azidocillin;
+model Azidocillin = Pharmacolibrary.Drugs.ATC.J.J01CE04;

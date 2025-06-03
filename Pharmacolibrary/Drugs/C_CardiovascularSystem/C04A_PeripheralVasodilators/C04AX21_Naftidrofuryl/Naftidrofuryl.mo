@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C04A_PeripheralVasodilators.C04AX21_Naftidrofuryl;
+model Naftidrofuryl = Pharmacolibrary.Drugs.ATC.C.C04AX21;

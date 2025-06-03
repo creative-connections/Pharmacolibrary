@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations.C09BB06_EnalaprilAndNitrendipine;
+model EnalaprilAndNitrendipine = Pharmacolibrary.Drugs.ATC.C.C09BB06;

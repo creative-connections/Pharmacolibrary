@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids.N02AJ14_TramadolAndDexketoprofen;
+model TramadolAndDexketoprofen = Pharmacolibrary.Drugs.ATC.N.N02AJ14;

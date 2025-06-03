@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.C;
+
+model C03BA09
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.65,
+    Cl             = 0.004166666666666667,
+    adminDuration  = 600,
+    adminMass      = 0.1,
+    adminCount     = 1,
+    Vd             = 0.008,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0008333333333333334,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Meticrane is a thiazide diuretic that was historically used to treat hypertension and edema associated with congestive heart failure or renal disorders. It is no longer widely used or approved in current clinical practice.</p><h4>Pharmacokinetics</h4><p>No published human pharmacokinetic data available. The following values are estimated based on drug class (thiazide diuretics) typical parameters and available secondary sources.</p><h4>References</h4><ol><li> No published PK studies specific to meticrane found in indexed literature. All reported pharmacokinetic parameters are estimated from class information (thiazide diuretics) and should be interpreted as approximations for modeling purposes only.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end C03BA09;

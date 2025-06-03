@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01A_AnteriorPituitaryLobeHormonesAndAnalogues.H01AC04_Sermorelin;
+model Sermorelin = Pharmacolibrary.Drugs.ATC.H.H01AC04;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts.A16AB25_OlipudaseAlfa;
+model OlipudaseAlfa = Pharmacolibrary.Drugs.ATC.A.A16AB25;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07B_CorticosteroidsCombinationsWithAntiseptics.D07BA01_PrednisoloneAndAntiseptics;
+model PrednisoloneAndAntiseptics = Pharmacolibrary.Drugs.ATC.D.D07BA01;

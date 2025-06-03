@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V09D_HepaticAndReticuloEndothelialSystem;
+package V09DA01_Technetium99mtcDisofenin
+  extends Icons.Package;
+end V09DA01_Technetium99mtcDisofenin;

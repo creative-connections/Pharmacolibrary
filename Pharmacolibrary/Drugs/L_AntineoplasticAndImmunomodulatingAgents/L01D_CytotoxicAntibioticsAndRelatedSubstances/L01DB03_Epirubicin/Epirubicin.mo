@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01D_CytotoxicAntibioticsAndRelatedSubstances.L01DB03_Epirubicin;
+model Epirubicin = Pharmacolibrary.Drugs.ATC.L.L01DB03;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts;
+package A16AB04_AgalsidaseBeta
+  extends Icons.Package;
+end A16AB04_AgalsidaseBeta;

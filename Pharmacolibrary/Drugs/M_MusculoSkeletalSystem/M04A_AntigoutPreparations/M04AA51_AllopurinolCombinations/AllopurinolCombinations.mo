@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M04A_AntigoutPreparations.M04AA51_AllopurinolCombinations;
+model AllopurinolCombinations = Pharmacolibrary.Drugs.ATC.M.M04AA51;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AP02_TyphoidInactivatedWholeCell;
+model TyphoidInactivatedWholeCell = Pharmacolibrary.Drugs.ATC.J.J07AP02;

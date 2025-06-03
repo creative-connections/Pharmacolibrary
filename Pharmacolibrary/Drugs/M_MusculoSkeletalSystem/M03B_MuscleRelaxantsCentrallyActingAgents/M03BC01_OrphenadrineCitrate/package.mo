@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents;
+package M03BC01_OrphenadrineCitrate
+  extends Icons.Package;
+end M03BC01_OrphenadrineCitrate;

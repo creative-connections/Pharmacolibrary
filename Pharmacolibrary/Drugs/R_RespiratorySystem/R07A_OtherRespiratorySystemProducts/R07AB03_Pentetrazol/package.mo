@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R07A_OtherRespiratorySystemProducts;
+package R07AB03_Pentetrazol
+  extends Icons.Package;
+end R07AB03_Pentetrazol;

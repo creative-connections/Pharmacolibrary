@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives.B05XA16_CardioplegiaSolutions;
+model CardioplegiaSolutions = Pharmacolibrary.Drugs.ATC.B.B05XA16;

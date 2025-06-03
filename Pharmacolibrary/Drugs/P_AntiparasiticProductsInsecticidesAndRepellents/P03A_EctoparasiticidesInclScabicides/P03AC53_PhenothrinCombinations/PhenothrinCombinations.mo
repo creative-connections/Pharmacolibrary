@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03A_EctoparasiticidesInclScabicides.P03AC53_PhenothrinCombinations;
+model PhenothrinCombinations = Pharmacolibrary.Drugs.ATC.P.P03AC53;

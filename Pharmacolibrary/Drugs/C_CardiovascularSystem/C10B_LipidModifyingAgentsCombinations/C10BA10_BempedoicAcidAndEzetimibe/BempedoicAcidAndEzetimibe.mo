@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations.C10BA10_BempedoicAcidAndEzetimibe;
+model BempedoicAcidAndEzetimibe = Pharmacolibrary.Drugs.ATC.C.C10BA10;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DD01_Cefotaxime;
+model Cefotaxime = Pharmacolibrary.Drugs.ATC.J.J01DD01;

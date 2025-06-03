@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.V;
+
+model V08AC04
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1.0,
+    Cl             = 0.016666666666666666,
+    adminDuration  = 600,
+    adminMass      = 0.01,
+    adminCount     = 1,
+    Vd             = 0.0001,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Adipiodone (also known as iodoformic acid or iodolipol) is an iodinated contrast medium, historically used for lymphangiography and other radiographic imaging procedures. It is oil-based, intended for visualization of the lymphatic system. Adipiodone is no longer widely used due to advances in water-soluble contrast agents and concerns regarding safety and tissue irritation.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters for adipiodone are not reported in peer-reviewed literature. The following values are estimated based on the drug class (oil-based iodinated contrast agents) and typical clinical administration in adults.</p><h4>References</h4><ol><li> No direct pharmacokinetic studies or peer-reviewed data available for adipiodone. Values are estimated from similar iodinated oil-based contrast media. Safety and clinical use are largely historical.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end V08AC04;

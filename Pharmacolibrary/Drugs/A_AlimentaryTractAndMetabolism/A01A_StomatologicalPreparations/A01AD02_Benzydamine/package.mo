@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations;
+package A01AD02_Benzydamine
+  extends Icons.Package;
+end A01AD02_Benzydamine;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07B_BetaBlockingAgentsAndThiazides.C07BA05_PropranololAndThiazides;
+model PropranololAndThiazides = Pharmacolibrary.Drugs.ATC.C.C07BA05;

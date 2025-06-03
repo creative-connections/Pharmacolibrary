@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis;
+package J04AK01_Pyrazinamide
+  extends Icons.Package;
+end J04AK01_Pyrazinamide;

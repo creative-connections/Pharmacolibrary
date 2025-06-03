@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DA05_PentaerithritylTetranitrate;
+model PentaerithritylTetranitrate = Pharmacolibrary.Drugs.ATC.C.C01DA05;

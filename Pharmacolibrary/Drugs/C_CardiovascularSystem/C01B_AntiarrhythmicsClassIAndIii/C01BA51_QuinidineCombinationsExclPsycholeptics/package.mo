@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01B_AntiarrhythmicsClassIAndIii;
+package C01BA51_QuinidineCombinationsExclPsycholeptics
+  extends Icons.Package;
+end C01BA51_QuinidineCombinationsExclPsycholeptics;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01L_OcularVascularDisorderAgents.S01LA07_AbiciparPegol;
+model AbiciparPegol = Pharmacolibrary.Drugs.ATC.S.S01LA07;

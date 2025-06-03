@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01C_SpecificAntirheumaticAgents.M01CC01_Penicillamine;
+model Penicillamine = Pharmacolibrary.Drugs.ATC.M.M01CC01;

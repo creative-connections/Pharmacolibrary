@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FD01_Trastuzumab;
+model Trastuzumab = Pharmacolibrary.Drugs.ATC.L.L01FD01;

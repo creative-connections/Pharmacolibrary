@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AA19_Gusperimus;
+model Gusperimus = Pharmacolibrary.Drugs.ATC.L.L04AA19;

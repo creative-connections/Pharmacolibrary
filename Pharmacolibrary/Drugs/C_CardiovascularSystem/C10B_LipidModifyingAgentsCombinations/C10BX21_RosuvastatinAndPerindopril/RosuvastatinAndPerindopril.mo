@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations.C10BX21_RosuvastatinAndPerindopril;
+model RosuvastatinAndPerindopril = Pharmacolibrary.Drugs.ATC.C.C10BX21;

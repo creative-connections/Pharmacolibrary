@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse.D10AF02_Erythromycin;
+model Erythromycin = Pharmacolibrary.Drugs.ATC.D.D10AF02;

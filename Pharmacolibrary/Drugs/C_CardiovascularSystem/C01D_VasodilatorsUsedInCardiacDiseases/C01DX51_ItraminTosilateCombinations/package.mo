@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases;
+package C01DX51_ItraminTosilateCombinations
+  extends Icons.Package;
+end C01DX51_ItraminTosilateCombinations;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders.A03AX04_Pinaverium;
+model Pinaverium = Pharmacolibrary.Drugs.ATC.A.A03AX04;

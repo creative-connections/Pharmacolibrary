@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection.V09IA08_Technetium99mtcEtarfolatide;
+model Technetium99mtcEtarfolatide = Pharmacolibrary.Drugs.ATC.V.V09IA08;

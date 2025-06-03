@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials.P01BE05_Artenimol;
+model Artenimol = Pharmacolibrary.Drugs.ATC.P.P01BE05;

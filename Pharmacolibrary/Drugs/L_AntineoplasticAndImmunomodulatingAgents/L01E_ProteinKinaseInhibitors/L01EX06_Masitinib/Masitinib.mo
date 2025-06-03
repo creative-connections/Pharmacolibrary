@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EX06_Masitinib;
+model Masitinib = Pharmacolibrary.Drugs.ATC.L.L01EX06;

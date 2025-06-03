@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V08D_UltrasoundContrastMedia.V08DA06_PerflubutanePhospholipidMicrospheres;
+model PerflubutanePhospholipidMicrospheres = Pharmacolibrary.Drugs.ATC.V.V08DA06;

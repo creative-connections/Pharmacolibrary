@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XX02_Asparaginase;
+model Asparaginase = Pharmacolibrary.Drugs.ATC.L.L01XX02;

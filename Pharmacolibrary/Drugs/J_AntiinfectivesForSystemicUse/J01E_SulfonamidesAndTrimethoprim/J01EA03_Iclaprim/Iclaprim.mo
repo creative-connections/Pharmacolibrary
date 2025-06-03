@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01EA03_Iclaprim;
+model Iclaprim = Pharmacolibrary.Drugs.ATC.J.J01EA03;

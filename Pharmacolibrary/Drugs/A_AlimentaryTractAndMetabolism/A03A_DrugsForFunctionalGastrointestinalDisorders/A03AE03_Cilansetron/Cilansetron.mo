@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders.A03AE03_Cilansetron;
+model Cilansetron = Pharmacolibrary.Drugs.ATC.A.A03AE03;

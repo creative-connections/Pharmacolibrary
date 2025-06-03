@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem.M09AB02_CollagenaseClostridiumHistolyticum;
+model CollagenaseClostridiumHistolyticum = Pharmacolibrary.Drugs.ATC.M.M09AB02;

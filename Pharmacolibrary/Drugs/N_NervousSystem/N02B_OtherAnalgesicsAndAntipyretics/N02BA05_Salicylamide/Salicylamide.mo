@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics.N02BA05_Salicylamide;
+model Salicylamide = Pharmacolibrary.Drugs.ATC.N.N02BA05;

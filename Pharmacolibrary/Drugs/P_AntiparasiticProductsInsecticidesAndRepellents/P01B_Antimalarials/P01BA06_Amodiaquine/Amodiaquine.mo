@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials.P01BA06_Amodiaquine;
+model Amodiaquine = Pharmacolibrary.Drugs.ATC.P.P01BA06;

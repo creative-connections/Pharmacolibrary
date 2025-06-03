@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03E_DiureticsAndPotassiumSparingAgentsInCombination.C03EA06_ChlortalidoneAndPotassiumSparingAgents;
+model ChlortalidoneAndPotassiumSparingAgents = Pharmacolibrary.Drugs.ATC.C.C03EA06;

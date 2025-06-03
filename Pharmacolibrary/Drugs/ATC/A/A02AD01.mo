@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.A;
+
+model A02AD01
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1.0,
+    Cl             = 4.0,
+    adminDuration  = 600,
+    adminMass      = 1.0,
+    adminCount     = 1,
+    Vd             = 0.0002,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0008333333333333334,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Ordinary salt combinations, classified under ATC code A02AD01, typically refer to compound medications containing sodium bicarbonate and other salts. These are antacids used primarily for the relief of heartburn, acid indigestion, and stomach upset. Such combinations are widely used historically, though many have been replaced by newer treatments. These products are generally available over-the-counter and are still in use today for short-term symptomatic relief.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for healthy adult population following typical oral administration, based on the known properties of sodium bicarbonate and similar oral antacid salts, as no directly referenced pharmacokinetic studies exist for multi-salt combinations as used under A02AD01.</p><h4>References</h4><ol><li> No direct pharmacokinetic publication was found for ordinary salt combinations under A02AD01. All values are estimated based on the general pharmacokinetics of sodium bicarbonate and similar compounds when administered orally to healthy adults. Dosing, absorption, and clearance may differ with formulation, salt composition, and underlying renal status.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end A02AD01;

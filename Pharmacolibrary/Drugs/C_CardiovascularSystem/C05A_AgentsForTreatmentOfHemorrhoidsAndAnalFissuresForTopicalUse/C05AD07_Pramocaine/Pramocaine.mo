@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse.C05AD07_Pramocaine;
+model Pramocaine = Pharmacolibrary.Drugs.ATC.C.C05AD07;

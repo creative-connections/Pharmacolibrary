@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins;
+package H01A_AnteriorPituitaryLobeHormonesAndAnalogues
+  extends Icons.Package;
+end H01A_AnteriorPituitaryLobeHormonesAndAnalogues;

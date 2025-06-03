@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XF03_Bexarotene;
+model Bexarotene = Pharmacolibrary.Drugs.ATC.L.L01XF03;

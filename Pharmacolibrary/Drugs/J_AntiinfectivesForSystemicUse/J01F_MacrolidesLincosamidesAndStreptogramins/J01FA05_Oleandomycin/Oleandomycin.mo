@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins.J01FA05_Oleandomycin;
+model Oleandomycin = Pharmacolibrary.Drugs.ATC.J.J01FA05;

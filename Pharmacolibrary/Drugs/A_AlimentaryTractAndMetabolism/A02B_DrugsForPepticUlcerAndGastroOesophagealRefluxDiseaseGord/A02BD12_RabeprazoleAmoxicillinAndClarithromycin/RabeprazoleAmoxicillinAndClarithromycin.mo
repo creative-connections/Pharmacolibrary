@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BD12_RabeprazoleAmoxicillinAndClarithromycin;
+model RabeprazoleAmoxicillinAndClarithromycin = Pharmacolibrary.Drugs.ATC.A.A02BD12;

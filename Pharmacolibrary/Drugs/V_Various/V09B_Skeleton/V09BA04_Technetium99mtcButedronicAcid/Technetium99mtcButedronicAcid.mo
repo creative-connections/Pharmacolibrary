@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09B_Skeleton.V09BA04_Technetium99mtcButedronicAcid;
+model Technetium99mtcButedronicAcid = Pharmacolibrary.Drugs.ATC.V.V09BA04;

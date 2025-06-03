@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AE04_Melagatran;
+model Melagatran = Pharmacolibrary.Drugs.ATC.B.B01AE04;

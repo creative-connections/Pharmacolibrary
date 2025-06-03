@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
+package L01XY01_CytarabineAndDaunorubicin
+  extends Icons.Package;
+end L01XY01_CytarabineAndDaunorubicin;

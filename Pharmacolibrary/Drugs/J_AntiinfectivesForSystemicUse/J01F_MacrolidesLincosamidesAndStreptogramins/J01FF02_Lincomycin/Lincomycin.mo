@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins.J01FF02_Lincomycin;
+model Lincomycin = Pharmacolibrary.Drugs.ATC.J.J01FF02;

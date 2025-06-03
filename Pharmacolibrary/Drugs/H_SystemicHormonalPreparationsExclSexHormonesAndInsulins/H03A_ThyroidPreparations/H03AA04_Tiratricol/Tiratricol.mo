@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03A_ThyroidPreparations.H03AA04_Tiratricol;
+model Tiratricol = Pharmacolibrary.Drugs.ATC.H.H03AA04;

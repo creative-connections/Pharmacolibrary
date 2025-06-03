@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DC10_Cefprozil;
+model Cefprozil = Pharmacolibrary.Drugs.ATC.J.J01DC10;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03B_LowCeilingDiureticsExclThiazides.C03BB05_MefrusideAndPotassium;
+model MefrusideAndPotassium = Pharmacolibrary.Drugs.ATC.C.C03BB05;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XK01_Olaparib;
+model Olaparib = Pharmacolibrary.Drugs.ATC.L.L01XK01;

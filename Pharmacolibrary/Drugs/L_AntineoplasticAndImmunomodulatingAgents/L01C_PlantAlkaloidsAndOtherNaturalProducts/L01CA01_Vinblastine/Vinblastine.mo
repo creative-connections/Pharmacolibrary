@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts.L01CA01_Vinblastine;
+model Vinblastine = Pharmacolibrary.Drugs.ATC.L.L01CA01;

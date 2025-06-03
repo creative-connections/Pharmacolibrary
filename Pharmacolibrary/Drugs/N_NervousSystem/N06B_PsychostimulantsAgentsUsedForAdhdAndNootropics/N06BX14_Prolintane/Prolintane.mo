@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BX14_Prolintane;
+model Prolintane = Pharmacolibrary.Drugs.ATC.N.N06BX14;

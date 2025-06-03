@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D01A_AntifungalsForTopicalUse.D01AE20_CiclopiroxAndZincPyrithioneCombination;
+model CiclopiroxAndZincPyrithioneCombination = Pharmacolibrary.Drugs.ATC.D.D01AE20;

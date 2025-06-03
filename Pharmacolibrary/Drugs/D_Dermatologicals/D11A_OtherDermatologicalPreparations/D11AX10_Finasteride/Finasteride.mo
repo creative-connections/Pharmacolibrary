@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AX10_Finasteride;
+model Finasteride = Pharmacolibrary.Drugs.ATC.D.D11AX10;

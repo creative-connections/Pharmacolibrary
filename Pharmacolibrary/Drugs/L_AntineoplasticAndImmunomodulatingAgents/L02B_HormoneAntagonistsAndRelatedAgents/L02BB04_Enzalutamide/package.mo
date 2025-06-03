@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02B_HormoneAntagonistsAndRelatedAgents;
+package L02BB04_Enzalutamide
+  extends Icons.Package;
+end L02BB04_Enzalutamide;

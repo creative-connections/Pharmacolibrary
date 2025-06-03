@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts.L01CB01_Etoposide;
+model Etoposide_1 = Pharmacolibrary.Drugs.ATC.L.L01CB01_1;

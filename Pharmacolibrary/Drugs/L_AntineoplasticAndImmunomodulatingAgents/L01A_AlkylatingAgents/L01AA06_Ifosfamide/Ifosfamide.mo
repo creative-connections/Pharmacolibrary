@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents.L01AA06_Ifosfamide;
+model Ifosfamide = Pharmacolibrary.Drugs.ATC.L.L01AA06;

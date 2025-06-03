@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V09D_HepaticAndReticuloEndothelialSystem;
+package V09DB06_Technetium99mtcRheniumsulfideColloid
+  extends Icons.Package;
+end V09DB06_Technetium99mtcRheniumsulfideColloid;

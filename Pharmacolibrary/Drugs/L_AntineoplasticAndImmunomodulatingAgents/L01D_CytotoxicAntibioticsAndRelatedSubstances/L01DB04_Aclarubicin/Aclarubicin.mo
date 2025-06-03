@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01D_CytotoxicAntibioticsAndRelatedSubstances.L01DB04_Aclarubicin;
+model Aclarubicin = Pharmacolibrary.Drugs.ATC.L.L01DB04;

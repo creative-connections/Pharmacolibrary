@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AR27_LamivudineTenofovirDisoproxilAndDolutegravir;
+model LamivudineTenofovirDisoproxilAndDolutegravir = Pharmacolibrary.Drugs.ATC.J.J05AR27;

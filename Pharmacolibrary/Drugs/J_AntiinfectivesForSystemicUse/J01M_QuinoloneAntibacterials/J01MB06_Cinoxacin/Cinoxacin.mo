@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01M_QuinoloneAntibacterials.J01MB06_Cinoxacin;
+model Cinoxacin = Pharmacolibrary.Drugs.ATC.J.J01MB06;

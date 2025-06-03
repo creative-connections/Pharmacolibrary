@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.C;
+
+model C02LK01
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.3,
+    Cl             = 0.03333333333333333,
+    adminDuration  = 600,
+    adminMass      = 0.01,
+    adminCount     = 1,
+    Vd             = 0.05,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0008333333333333334,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Combination of Veratrum alkaloids (derived from the Veratrum plant) and diuretics, historically used as antihypertensive therapy. Veratrum alkaloids act as vasodilators and cardiac depressants, and diuretics promote renal excretion of salts and water. This combination is obsolete and not in current approved therapeutic use due to significant toxicity and safer alternatives.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic studies with numerical parameters on veratrum and diuretics combination have been identified in the literature as of June 2024. Parameters below are estimated based on historical use of Veratrum alkaloids (e.g., protoveratrine) and generic thiazide diuretic PK values.</p><h4>References</h4><ol><li> No direct publications reporting pharmacokinetic parameters of the veratrum and diuretics combination (ATC C02LK01) could be found. All PK values are estimated from available literature on individual Veratrum alkaloids and commonly used thiazide diuretics; actual PK profile for the combination may differ significantly.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end C02LK01;

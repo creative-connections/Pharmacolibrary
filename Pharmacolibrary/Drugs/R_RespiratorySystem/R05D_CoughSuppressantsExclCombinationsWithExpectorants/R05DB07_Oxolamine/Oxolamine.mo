@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants.R05DB07_Oxolamine;
+model Oxolamine = Pharmacolibrary.Drugs.ATC.R.R05DB07;

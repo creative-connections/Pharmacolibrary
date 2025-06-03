@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03G_GonadotropinsAndOtherOvulationStimulants.G03GB01_Cyclofenil;
+model Cyclofenil = Pharmacolibrary.Drugs.ATC.G.G03GB01;

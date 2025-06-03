@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03A_MuscleRelaxantsPeripherallyActingAgents.M03AB01_Suxamethonium;
+model Suxamethonium = Pharmacolibrary.Drugs.ATC.M.M03AB01;

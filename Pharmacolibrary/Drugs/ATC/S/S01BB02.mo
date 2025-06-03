@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.S;
+
+model S01BB02
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.01,
+    Cl             = 0.0,
+    adminDuration  = 600,
+    adminMass      = 0.001,
+    adminCount     = 1,
+    Vd             = 0,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Combination ophthalmic product containing prednisolone, a corticosteroid used to reduce inflammation, and mydriatics, agents that dilate the pupil (such as tropicamide or phenylephrine), used in the management of ocular inflammation and for diagnostic or perioperative purposes. ATC S01BB02 refers to these combination eye drops. Such drugs are generally approved and used in ophthalmology to decrease inflammation and to facilitate eye examinations or surgeries.</p><h4>Pharmacokinetics</h4><p>No specific pharmacokinetic model characterized for combination of prednisolone and mydriatics in ocular (ophthalmic) use has been reported in peer-reviewed literature. Ocular administration generally results in low systemic absorption, and any estimates are based on pharmacokinetics for topical corticosteroids in eye preparations in healthy adults.</p><h4>References</h4><ol><li> No peer-reviewed publications were found reporting pharmacokinetic parameters for prednisolone and mydriatics combination (ATC S01BB02) in ophthalmic application. Systemic exposure is minimal from topical ocular use; parameters listed here (such as assumed very low bioavailability) are rough estimates or not applicable. Most PK parameters are either not measured, not reported, or not relevant for local ophthalmic effects of the drug.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end S01BB02;

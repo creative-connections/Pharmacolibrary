@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AX12_MelanomaVaccine;
+model MelanomaVaccine = Pharmacolibrary.Drugs.ATC.L.L03AX12;

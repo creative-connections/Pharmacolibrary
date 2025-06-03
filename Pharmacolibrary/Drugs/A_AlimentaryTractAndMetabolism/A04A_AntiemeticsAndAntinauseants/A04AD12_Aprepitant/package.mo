@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A04A_AntiemeticsAndAntinauseants;
+package A04AD12_Aprepitant
+  extends Icons.Package;
+end A04AD12_Aprepitant;

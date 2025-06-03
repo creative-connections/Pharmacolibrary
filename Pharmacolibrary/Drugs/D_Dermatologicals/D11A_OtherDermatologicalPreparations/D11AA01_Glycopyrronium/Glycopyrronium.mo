@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AA01_Glycopyrronium;
+model Glycopyrronium = Pharmacolibrary.Drugs.ATC.D.D11AA01;

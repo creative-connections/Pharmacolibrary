@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts.V03AE04_CalciumAcetateAndMagnesiumCarbonate;
+model CalciumAcetateAndMagnesiumCarbonate = Pharmacolibrary.Drugs.ATC.V.V03AE04;

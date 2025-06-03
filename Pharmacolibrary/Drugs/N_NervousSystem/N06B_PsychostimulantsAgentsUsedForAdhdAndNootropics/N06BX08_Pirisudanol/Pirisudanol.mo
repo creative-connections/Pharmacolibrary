@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BX08_Pirisudanol;
+model Pirisudanol = Pharmacolibrary.Drugs.ATC.N.N06BX08;

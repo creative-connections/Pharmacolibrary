@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09B_Skeleton.V09BA03_Technetium99mtcPyrophosphate;
+model Technetium99mtcPyrophosphate = Pharmacolibrary.Drugs.ATC.V.V09BA03;

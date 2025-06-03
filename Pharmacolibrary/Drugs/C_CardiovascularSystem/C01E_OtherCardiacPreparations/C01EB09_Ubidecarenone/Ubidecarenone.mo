@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01E_OtherCardiacPreparations.C01EB09_Ubidecarenone;
+model Ubidecarenone = Pharmacolibrary.Drugs.ATC.C.C01EB09;

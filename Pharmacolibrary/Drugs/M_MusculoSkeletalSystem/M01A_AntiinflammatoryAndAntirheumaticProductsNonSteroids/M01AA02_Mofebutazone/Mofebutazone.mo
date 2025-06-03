@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AA02_Mofebutazone;
+model Mofebutazone = Pharmacolibrary.Drugs.ATC.M.M01AA02;

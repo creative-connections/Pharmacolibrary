@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03A_LowCeilingDiureticsThiazides.C03AA03_Hydrochlorothiazide;
+model Hydrochlorothiazide = Pharmacolibrary.Drugs.ATC.C.C03AA03;

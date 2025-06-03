@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination.C02LK01_VeratrumAndDiuretics;
+model VeratrumAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C02LK01;

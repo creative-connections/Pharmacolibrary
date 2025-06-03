@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09D_HepaticAndReticuloEndothelialSystem.V09DB04_Technetium99mtcTinColloid;
+model Technetium99mtcTinColloid = Pharmacolibrary.Drugs.ATC.V.V09DB04;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DA52_GlycerylTrinitrateCombinations;
+model GlycerylTrinitrateCombinations = Pharmacolibrary.Drugs.ATC.C.C01DA52;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AA12_Fenoxazoline;
+model Fenoxazoline = Pharmacolibrary.Drugs.ATC.R.R01AA12;

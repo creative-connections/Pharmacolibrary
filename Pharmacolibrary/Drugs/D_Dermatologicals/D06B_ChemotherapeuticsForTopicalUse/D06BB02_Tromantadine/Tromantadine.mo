@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D06B_ChemotherapeuticsForTopicalUse.D06BB02_Tromantadine;
+model Tromantadine = Pharmacolibrary.Drugs.ATC.D.D06BB02;

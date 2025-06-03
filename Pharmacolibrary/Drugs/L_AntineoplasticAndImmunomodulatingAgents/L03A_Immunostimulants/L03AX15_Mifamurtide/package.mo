@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants;
+package L03AX15_Mifamurtide
+  extends Icons.Package;
+end L03AX15_Mifamurtide;

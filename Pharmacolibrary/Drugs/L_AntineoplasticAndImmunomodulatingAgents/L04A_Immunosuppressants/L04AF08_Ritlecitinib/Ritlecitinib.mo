@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AF08_Ritlecitinib;
+model Ritlecitinib = Pharmacolibrary.Drugs.ATC.L.L04AF08;

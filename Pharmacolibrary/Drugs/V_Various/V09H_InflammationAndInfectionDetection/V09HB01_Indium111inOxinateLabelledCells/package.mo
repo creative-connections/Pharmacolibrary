@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V09H_InflammationAndInfectionDetection;
+package V09HB01_Indium111inOxinateLabelledCells
+  extends Icons.Package;
+end V09HB01_Indium111inOxinateLabelledCells;

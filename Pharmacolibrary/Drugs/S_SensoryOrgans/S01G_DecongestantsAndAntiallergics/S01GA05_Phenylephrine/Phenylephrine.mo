@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01G_DecongestantsAndAntiallergics.S01GA05_Phenylephrine;
+model Phenylephrine = Pharmacolibrary.Drugs.ATC.S.S01GA05;

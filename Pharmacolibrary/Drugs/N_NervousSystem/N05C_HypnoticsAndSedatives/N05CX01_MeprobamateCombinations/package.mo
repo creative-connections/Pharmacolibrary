@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N05C_HypnoticsAndSedatives;
+package N05CX01_MeprobamateCombinations
+  extends Icons.Package;
+end N05CX01_MeprobamateCombinations;

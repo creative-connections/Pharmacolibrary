@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain;
+package M02AB01_Capsaicin
+  extends Icons.Package;
+end M02AB01_Capsaicin;

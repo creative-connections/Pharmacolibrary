@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AC01_IspaghulaPsyllaSeeds;
+model IspaghulaPsyllaSeeds = Pharmacolibrary.Drugs.ATC.A.A06AC01;

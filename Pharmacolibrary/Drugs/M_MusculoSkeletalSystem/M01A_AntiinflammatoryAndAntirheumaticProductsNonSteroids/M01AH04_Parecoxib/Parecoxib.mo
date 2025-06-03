@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AH04_Parecoxib;
+model Parecoxib = Pharmacolibrary.Drugs.ATC.M.M01AH04;

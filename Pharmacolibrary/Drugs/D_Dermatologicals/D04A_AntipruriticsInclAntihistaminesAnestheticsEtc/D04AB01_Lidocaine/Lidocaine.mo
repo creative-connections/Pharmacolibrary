@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D04A_AntipruriticsInclAntihistaminesAnestheticsEtc.D04AB01_Lidocaine;
+model Lidocaine = Pharmacolibrary.Drugs.ATC.D.D04AB01;

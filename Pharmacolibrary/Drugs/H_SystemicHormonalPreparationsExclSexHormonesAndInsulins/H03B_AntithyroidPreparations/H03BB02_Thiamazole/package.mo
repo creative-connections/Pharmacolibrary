@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03B_AntithyroidPreparations;
+package H03BB02_Thiamazole
+  extends Icons.Package;
+end H03BB02_Thiamazole;

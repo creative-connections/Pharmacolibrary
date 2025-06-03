@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09G_CardiovascularSystem.V09GA02_Technetium99mtcTetrofosmin;
+model Technetium99mtcTetrofosmin = Pharmacolibrary.Drugs.ATC.V.V09GA02;

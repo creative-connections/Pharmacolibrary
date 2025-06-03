@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids;
+package M01AE15_Flunoxaprofen
+  extends Icons.Package;
+end M01AE15_Flunoxaprofen;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.A;
+
+model A12AA10
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.25,
+    Cl             = 0.0011666666666666668,
+    adminDuration  = 600,
+    adminMass      = 1.0,
+    adminCount     = 1,
+    Vd             = 0.0002,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0005,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Calcium glucoheptonate is a calcium supplement used to treat or prevent low blood calcium levels in people who do not get enough calcium from their diets. It is administered orally or intravenously for the treatment of conditions such as hypocalcemia, osteoporosis, rickets, and as a calcium source in some intravenous therapies. It is not a first-line calcium salt and its use has been largely superseded by other calcium supplements, but it is still available in some regions.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic studies identify specific pharmacokinetic parameters for calcium glucoheptonate in humans, regardless of age, sex, or medical condition. Below are estimated parameters based on the known pharmacokinetics of similar calcium salts.</p><h4>References</h4><ol><li> No published PK data specific to calcium glucoheptonate were identified as of June 2024 in indexed literature (PubMed, Embase, Google Scholar). All pharmacokinetic parameters provided are estimates based on literature for similar calcium salts (calcium gluconate, calcium chloride, calcium lactate) and typical values for oral calcium supplementation. Absorption rate constant (ka) and lag time (Tlag) extrapolated from analogous oral calcium formulations. Clearance and volume of distribution are estimated as per available calcium salt data.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end A12AA10;

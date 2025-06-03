@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AB01_InterferonAlfaNatural;
+model InterferonAlfaNatural = Pharmacolibrary.Drugs.ATC.L.L03AB01;

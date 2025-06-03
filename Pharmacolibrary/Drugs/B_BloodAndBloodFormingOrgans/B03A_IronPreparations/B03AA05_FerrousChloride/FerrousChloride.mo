@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AA05_FerrousChloride;
+model FerrousChloride = Pharmacolibrary.Drugs.ATC.B.B03AA05;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03A_MuscleRelaxantsPeripherallyActingAgents.M03AA04_Dimethyltubocurarine;
+model Dimethyltubocurarine = Pharmacolibrary.Drugs.ATC.M.M03AA04;

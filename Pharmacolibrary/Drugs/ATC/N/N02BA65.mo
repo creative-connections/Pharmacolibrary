@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.N;
+
+model N02BA65
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.7,
+    Cl             = 5.833333333333333,
+    adminDuration  = 600,
+    adminMass      = 0.5,
+    adminCount     = 1,
+    Vd             = 0.01,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0016666666666666668,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Carbasalate calcium is a combination of calcium acetylsalicylate and urea, serving as a salt form of aspirin (acetylsalicylic acid) used for its analgesic, antipyretic, and anti-inflammatory effects. It is mainly used for the treatment of mild to moderate pain, fever, and inflammatory conditions; it is approved in some countries, primarily in Europe, and can be found in fixed dose combinations excluding psycholeptics.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic models or studies specific for carbasalate calcium combination (N02BA65) could be identified. Typical PK parameters are estimated based on acetylsalicylic acid (aspirin) as released from carbasalate calcium administered orally to healthy adult volunteers.</p><h4>References</h4><ol><li> No dedicated publications reporting pharmacokinetic modeling or clinical PK studies for carbasalate calcium combinations (ATC N02BA65) were found. Parameters are estimated from general pharmacokinetics of orally administered acetylsalicylic acid, which is rapidly hydrolyzed in the stomach and absorbed as salicylic acid. All values should be interpreted as rough estimates for reference only.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end N02BA65;

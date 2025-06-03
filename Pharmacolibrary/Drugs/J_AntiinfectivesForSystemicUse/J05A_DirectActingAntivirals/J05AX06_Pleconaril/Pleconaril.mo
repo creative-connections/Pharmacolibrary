@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AX06_Pleconaril;
+model Pleconaril = Pharmacolibrary.Drugs.ATC.J.J05AX06;

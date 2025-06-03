@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N05C_HypnoticsAndSedatives.N05CB01_CombinationsOfBarbiturates;
+model CombinationsOfBarbiturates = Pharmacolibrary.Drugs.ATC.N.N05CB01;

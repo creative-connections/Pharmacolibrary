@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins;
+package J01FA03_Midecamycin
+  extends Icons.Package;
+end J01FA03_Midecamycin;

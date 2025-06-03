@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem.M09AA01_Hydroquinine;
+model Hydroquinine = Pharmacolibrary.Drugs.ATC.M.M09AA01;

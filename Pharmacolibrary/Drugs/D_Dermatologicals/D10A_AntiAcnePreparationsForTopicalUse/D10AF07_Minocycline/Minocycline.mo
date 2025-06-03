@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse.D10AF07_Minocycline;
+model Minocycline = Pharmacolibrary.Drugs.ATC.D.D10AF07;

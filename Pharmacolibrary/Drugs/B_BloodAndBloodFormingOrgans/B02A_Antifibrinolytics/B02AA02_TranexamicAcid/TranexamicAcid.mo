@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02A_Antifibrinolytics.B02AA02_TranexamicAcid;
+model TranexamicAcid = Pharmacolibrary.Drugs.ATC.B.B02AA02;

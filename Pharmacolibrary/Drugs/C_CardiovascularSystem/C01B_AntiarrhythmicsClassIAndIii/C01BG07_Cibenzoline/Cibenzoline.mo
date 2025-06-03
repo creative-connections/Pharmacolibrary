@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01B_AntiarrhythmicsClassIAndIii.C01BG07_Cibenzoline;
+model Cibenzoline = Pharmacolibrary.Drugs.ATC.C.C01BG07;

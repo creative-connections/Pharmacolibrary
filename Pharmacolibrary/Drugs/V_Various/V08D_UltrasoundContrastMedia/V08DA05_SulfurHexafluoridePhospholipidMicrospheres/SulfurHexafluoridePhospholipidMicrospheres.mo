@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V08D_UltrasoundContrastMedia.V08DA05_SulfurHexafluoridePhospholipidMicrospheres;
+model SulfurHexafluoridePhospholipidMicrospheres = Pharmacolibrary.Drugs.ATC.V.V08DA05;

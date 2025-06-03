@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03X_OtherAntianemicPreparations;
+package B03XA02_DarbepoetinAlfa
+  extends Icons.Package;
+end B03XA02_DarbepoetinAlfa;

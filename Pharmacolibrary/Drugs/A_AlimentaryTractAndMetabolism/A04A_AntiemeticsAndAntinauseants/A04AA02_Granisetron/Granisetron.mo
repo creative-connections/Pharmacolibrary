@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A04A_AntiemeticsAndAntinauseants.A04AA02_Granisetron;
+model Granisetron = Pharmacolibrary.Drugs.ATC.A.A04AA02;

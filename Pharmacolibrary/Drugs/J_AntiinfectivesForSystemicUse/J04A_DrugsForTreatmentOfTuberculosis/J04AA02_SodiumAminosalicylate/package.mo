@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis;
+package J04AA02_SodiumAminosalicylate
+  extends Icons.Package;
+end J04AA02_SodiumAminosalicylate;

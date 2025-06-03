@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AD07_Mequitazine;
+model Mequitazine = Pharmacolibrary.Drugs.ATC.R.R06AD07;

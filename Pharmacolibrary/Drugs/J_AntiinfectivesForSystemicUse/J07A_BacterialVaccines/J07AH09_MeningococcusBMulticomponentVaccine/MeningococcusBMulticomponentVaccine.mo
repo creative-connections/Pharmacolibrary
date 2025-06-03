@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AH09_MeningococcusBMulticomponentVaccine;
+model MeningococcusBMulticomponentVaccine = Pharmacolibrary.Drugs.ATC.J.J07AH09;

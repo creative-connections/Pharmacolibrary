@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DD04_Ceftriaxone;
+model Ceftriaxone_1 = Pharmacolibrary.Drugs.ATC.J.J01DD04_1;

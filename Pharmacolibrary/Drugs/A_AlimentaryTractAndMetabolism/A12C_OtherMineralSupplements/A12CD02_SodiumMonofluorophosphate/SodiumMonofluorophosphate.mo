@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12C_OtherMineralSupplements.A12CD02_SodiumMonofluorophosphate;
+model SodiumMonofluorophosphate = Pharmacolibrary.Drugs.ATC.A.A12CD02;

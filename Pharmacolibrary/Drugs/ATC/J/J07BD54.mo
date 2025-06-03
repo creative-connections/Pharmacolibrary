@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.J;
+
+model J07BD54
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.0,
+    adminDuration  = 600,
+    adminMass      = 0.0005,
+    adminCount     = 1,
+    Vd             = 0,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>This is a combination vaccine containing live, attenuated viruses for measles, mumps, rubella, and varicella (chickenpox). It is used for immunization against these four viral diseases and is approved for use in children and adults as part of routine vaccination schedules worldwide.</p><h4>Pharmacokinetics</h4><p>As a live attenuated viral vaccine, the pharmacokinetics are not characterized in terms of traditional absorption, distribution, metabolism, and elimination (ADME) parameters used for small molecule drugs or typical biologics. Instead, the vaccine is administered to induce immune response. No published scientific literature reports formal pharmacokinetic parameters for this drug, as the vaccine viruses replicate locally and induce immunity rather than follow conventional drug PK.</p><h4>References</h4><ol><li> No published studies characterize traditional pharmacokinetic parameters for live attenuated combination vaccines (measles, mumps, rubella, varicella) as for conventional drugs. PK parameters such as volume of distribution and clearance are not applicable. The vaccine is administered subcutaneously, typically 0.5 mL per dose. Estimates entered here are based on typical clinical usage information; DOI left empty due to lack of PK publications.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end J07BD54;

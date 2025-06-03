@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.S;
+
+model S01BC06
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.9,
+    Cl             = 0.0015,
+    adminDuration  = 600,
+    adminMass      = 0.02,
+    adminCount     = 1,
+    Vd             = 0.014,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.00036666666666666667,
+    Tlag           = 1200
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Piroxicam is a non-steroidal anti-inflammatory drug (NSAID) used to relieve symptoms of painful inflammatory conditions such as arthritis. It produces its effects by inhibiting prostaglandin synthesis through non-selective inhibition of cyclooxygenase (COX-1 and COX-2) enzymes. Piroxicam is currently approved and widely used in clinical practice for the treatment of pain and inflammation.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters reported for healthy adult subjects, both sexes, after a single oral dose.</p><h4>References</h4><ol><li><a href='https://dx.doi.org/10.1016/0731-7085(92)80123-E'>10.1016/0731-7085(92)80123-E</a> Values are based on published pharmacokinetic studies of piroxicam in healthy adults. Bioavailability is high at 90%. Tlag and absorption rate determined from plasma concentration-time profile in literature.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end S01BC06;

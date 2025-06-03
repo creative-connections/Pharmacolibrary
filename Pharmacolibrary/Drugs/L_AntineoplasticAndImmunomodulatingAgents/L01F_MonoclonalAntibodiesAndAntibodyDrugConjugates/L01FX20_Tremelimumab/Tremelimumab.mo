@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FX20_Tremelimumab;
+model Tremelimumab = Pharmacolibrary.Drugs.ATC.L.L01FX20;

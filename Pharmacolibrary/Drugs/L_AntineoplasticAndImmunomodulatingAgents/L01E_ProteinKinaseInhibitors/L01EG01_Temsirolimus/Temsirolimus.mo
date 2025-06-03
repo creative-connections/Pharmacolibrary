@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EG01_Temsirolimus;
+model Temsirolimus = Pharmacolibrary.Drugs.ATC.L.L01EG01;

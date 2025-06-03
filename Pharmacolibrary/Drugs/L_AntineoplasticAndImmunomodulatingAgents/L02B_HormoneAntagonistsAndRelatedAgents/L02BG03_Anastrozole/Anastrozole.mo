@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02B_HormoneAntagonistsAndRelatedAgents.L02BG03_Anastrozole;
+model Anastrozole = Pharmacolibrary.Drugs.ATC.L.L02BG03;

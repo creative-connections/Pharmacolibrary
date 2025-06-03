@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05A_BloodAndRelatedProducts.B05AA08_HemoglobinCrosfumaril;
+model HemoglobinCrosfumaril = Pharmacolibrary.Drugs.ATC.B.B05AA08;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AC16_Eptifibatide;
+model Eptifibatide = Pharmacolibrary.Drugs.ATC.B.B01AC16;

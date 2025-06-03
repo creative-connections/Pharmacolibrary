@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02D_Anticestodals.P02DX02_Dichlorophen;
+model Dichlorophen = Pharmacolibrary.Drugs.ATC.P.P02DX02;

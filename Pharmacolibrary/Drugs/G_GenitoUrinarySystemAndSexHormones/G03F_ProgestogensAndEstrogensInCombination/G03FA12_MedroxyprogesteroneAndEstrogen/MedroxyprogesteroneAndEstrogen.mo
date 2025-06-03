@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03F_ProgestogensAndEstrogensInCombination.G03FA12_MedroxyprogesteroneAndEstrogen;
+model MedroxyprogesteroneAndEstrogen = Pharmacolibrary.Drugs.ATC.G.G03FA12;

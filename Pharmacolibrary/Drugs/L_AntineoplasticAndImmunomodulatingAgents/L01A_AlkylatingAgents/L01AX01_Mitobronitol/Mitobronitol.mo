@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents.L01AX01_Mitobronitol;
+model Mitobronitol = Pharmacolibrary.Drugs.ATC.L.L01AX01;

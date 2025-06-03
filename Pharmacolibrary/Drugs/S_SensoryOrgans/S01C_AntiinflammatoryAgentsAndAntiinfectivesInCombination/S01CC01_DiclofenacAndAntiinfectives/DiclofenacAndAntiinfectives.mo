@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01C_AntiinflammatoryAgentsAndAntiinfectivesInCombination.S01CC01_DiclofenacAndAntiinfectives;
+model DiclofenacAndAntiinfectives = Pharmacolibrary.Drugs.ATC.S.S01CC01;

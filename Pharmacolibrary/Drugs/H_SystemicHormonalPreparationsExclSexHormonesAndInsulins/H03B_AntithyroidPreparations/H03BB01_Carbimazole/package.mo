@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03B_AntithyroidPreparations;
+package H03BB01_Carbimazole
+  extends Icons.Package;
+end H03BB01_Carbimazole;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins;
+package A10BB11_Glisoxepide
+  extends Icons.Package;
+end A10BB11_Glisoxepide;

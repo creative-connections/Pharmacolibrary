@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V10X_OtherTherapeuticRadiopharmaceuticals.V10XX05_Lutetium177luVipivotideTetraxetan;
+model Lutetium177luVipivotideTetraxetan = Pharmacolibrary.Drugs.ATC.V.V10XX05;

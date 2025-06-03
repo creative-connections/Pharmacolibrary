@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01D_CytotoxicAntibioticsAndRelatedSubstances.L01DA01_Dactinomycin;
+model Dactinomycin = Pharmacolibrary.Drugs.ATC.L.L01DA01;

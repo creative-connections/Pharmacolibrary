@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.R;
+
+model R06AC53
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.4,
+    Cl             = 3.0,
+    adminDuration  = 600,
+    adminMass      = 0.025,
+    adminCount     = 1,
+    Vd             = 0.003,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0008333333333333334,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Chloropyramine is a first-generation antihistamine of the ethylenediamine class, used primarily for the symptomatic relief of allergic conditions. It acts as an H1 receptor antagonist and may exert sedative effects. Its use has declined in favor of newer, less sedating antihistamines, but it may still be available in some regions or as a component of combination anti-allergic preparations.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic studies found for chloropyramine in combinations (ATC R06AC53) in healthy adults or other groups. Estimates based on typical values for first-generation H1 antihistamines.</p><h4>References</h4><ol><li> No peer-reviewed pharmacokinetic data found specific to chloropyramine (combination) in published literature. Parameters estimated based on class and chemical similarity to related H1 antihistamines such as diphenhydramine and mepyramine. Values should be considered rough estimates for modeling purposes only.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end R06AC53;

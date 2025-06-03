@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AB15_Ketorolac;
+model Ketorolac_1 = Pharmacolibrary.Drugs.ATC.M.M01AB15_1;

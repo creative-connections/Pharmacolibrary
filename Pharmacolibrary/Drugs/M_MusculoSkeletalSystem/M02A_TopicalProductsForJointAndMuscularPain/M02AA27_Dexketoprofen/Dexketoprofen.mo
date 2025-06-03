@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain.M02AA27_Dexketoprofen;
+model Dexketoprofen = Pharmacolibrary.Drugs.ATC.M.M02AA27;

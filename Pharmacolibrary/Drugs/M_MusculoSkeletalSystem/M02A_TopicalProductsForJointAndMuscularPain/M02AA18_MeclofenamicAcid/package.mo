@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain;
+package M02AA18_MeclofenamicAcid
+  extends Icons.Package;
+end M02AA18_MeclofenamicAcid;

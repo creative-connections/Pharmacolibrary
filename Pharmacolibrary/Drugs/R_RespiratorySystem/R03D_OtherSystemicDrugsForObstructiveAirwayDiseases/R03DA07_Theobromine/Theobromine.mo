@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases.R03DA07_Theobromine;
+model Theobromine = Pharmacolibrary.Drugs.ATC.R.R03DA07;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H04A_GlycogenolyticHormones.H04AA01_Glucagon;
+model Glucagon = Pharmacolibrary.Drugs.ATC.H.H04AA01;

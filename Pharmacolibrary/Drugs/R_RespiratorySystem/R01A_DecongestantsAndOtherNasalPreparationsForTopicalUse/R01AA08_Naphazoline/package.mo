@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse;
+package R01AA08_Naphazoline
+  extends Icons.Package;
+end R01AA08_Naphazoline;

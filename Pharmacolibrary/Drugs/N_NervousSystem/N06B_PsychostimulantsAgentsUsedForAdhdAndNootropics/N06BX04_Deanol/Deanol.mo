@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BX04_Deanol;
+model Deanol = Pharmacolibrary.Drugs.ATC.N.N06BX04;

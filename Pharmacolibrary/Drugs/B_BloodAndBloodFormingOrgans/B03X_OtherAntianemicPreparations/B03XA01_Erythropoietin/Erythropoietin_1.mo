@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03X_OtherAntianemicPreparations.B03XA01_Erythropoietin;
+model Erythropoietin_1 = Pharmacolibrary.Drugs.ATC.B.B03XA01_1;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07F_BetaBlockingAgentsOtherCombinations.C07FX03_MetoprololAndAcetylsalicylicAcid;
+model MetoprololAndAcetylsalicylicAcid = Pharmacolibrary.Drugs.ATC.C.C07FX03;

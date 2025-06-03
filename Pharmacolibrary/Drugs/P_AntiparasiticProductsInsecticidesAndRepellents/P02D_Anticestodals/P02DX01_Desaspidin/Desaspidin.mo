@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02D_Anticestodals.P02DX01_Desaspidin;
+model Desaspidin = Pharmacolibrary.Drugs.ATC.P.P02DX01;

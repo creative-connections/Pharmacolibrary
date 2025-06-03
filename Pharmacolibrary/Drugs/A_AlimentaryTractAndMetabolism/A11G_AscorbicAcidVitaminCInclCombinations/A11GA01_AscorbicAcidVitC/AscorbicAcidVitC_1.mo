@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11G_AscorbicAcidVitaminCInclCombinations.A11GA01_AscorbicAcidVitC;
+model AscorbicAcidVitC_1 = Pharmacolibrary.Drugs.ATC.A.A11GA01_1;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03E_DiureticsAndPotassiumSparingAgentsInCombination.C03EB01_FurosemideAndPotassiumSparingAgents;
+model FurosemideAndPotassiumSparingAgents = Pharmacolibrary.Drugs.ATC.C.C03EB01;

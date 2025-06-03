@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.M;
+
+model M03BX06
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.6,
+    Cl             = 0.4,
+    adminDuration  = 600,
+    adminMass      = 0.5,
+    adminCount     = 1,
+    Vd             = 0.0008,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0038333333333333336,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Mephenesin is a centrally acting muscle relaxant that was previously used clinically to relieve skeletal muscle spasms and to treat conditions such as muscle pain, rigidity, and spasticity. Currently, mephenesin has largely been replaced by newer agents with improved safety profiles and is not widely approved or used in modern clinical practice.</p><h4>Pharmacokinetics</h4><p>There are no well-documented modern pharmacokinetic studies or original clinical publications reporting the PK parameters of mephenesin in humans. Estimates below are based on general characteristics of similar muscle relaxants and historic references.</p><h4>References</h4><ol><li> No original peer-reviewed pharmacokinetic studies reporting parameters for mephenesin in humans are available. The above values are rough estimates or are derived from older summaries and knowledge about structurally similar muscle relaxants. Parameters should not be considered validated or suitable for strict pharmacometric modeling.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end M03BX06;

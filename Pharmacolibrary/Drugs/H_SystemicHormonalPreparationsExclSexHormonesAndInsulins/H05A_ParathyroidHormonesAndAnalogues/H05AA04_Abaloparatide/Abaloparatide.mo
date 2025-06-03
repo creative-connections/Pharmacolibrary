@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05A_ParathyroidHormonesAndAnalogues.H05AA04_Abaloparatide;
+model Abaloparatide = Pharmacolibrary.Drugs.ATC.H.H05AA04;

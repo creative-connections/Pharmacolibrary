@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03B_AntithyroidPreparations.H03BA03_Benzylthiouracil;
+model Benzylthiouracil = Pharmacolibrary.Drugs.ATC.H.H03BA03;

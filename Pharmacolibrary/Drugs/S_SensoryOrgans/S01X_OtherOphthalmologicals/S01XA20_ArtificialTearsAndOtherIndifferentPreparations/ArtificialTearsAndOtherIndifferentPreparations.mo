@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01X_OtherOphthalmologicals.S01XA20_ArtificialTearsAndOtherIndifferentPreparations;
+model ArtificialTearsAndOtherIndifferentPreparations = Pharmacolibrary.Drugs.ATC.S.S01XA20;

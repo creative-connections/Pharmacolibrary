@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01C_AgentsAgainstLeishmaniasisAndTrypanosomiasis.P01CD01_Melarsoprol;
+model Melarsoprol = Pharmacolibrary.Drugs.ATC.P.P01CD01;

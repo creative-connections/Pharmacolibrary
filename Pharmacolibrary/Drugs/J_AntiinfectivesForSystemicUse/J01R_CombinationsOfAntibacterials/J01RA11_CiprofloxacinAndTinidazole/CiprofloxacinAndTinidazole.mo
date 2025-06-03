@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01R_CombinationsOfAntibacterials.J01RA11_CiprofloxacinAndTinidazole;
+model CiprofloxacinAndTinidazole = Pharmacolibrary.Drugs.ATC.J.J01RA11;

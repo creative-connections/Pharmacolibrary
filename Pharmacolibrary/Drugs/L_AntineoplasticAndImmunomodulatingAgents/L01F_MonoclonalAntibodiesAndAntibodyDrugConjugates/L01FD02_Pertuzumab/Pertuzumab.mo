@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FD02_Pertuzumab;
+model Pertuzumab = Pharmacolibrary.Drugs.ATC.L.L01FD02;

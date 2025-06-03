@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03B_OtherDrugsForObstructiveAirwayDiseasesInhalants.R03BC01_CromoglicicAcid;
+model CromoglicicAcid = Pharmacolibrary.Drugs.ATC.R.R03BC01;

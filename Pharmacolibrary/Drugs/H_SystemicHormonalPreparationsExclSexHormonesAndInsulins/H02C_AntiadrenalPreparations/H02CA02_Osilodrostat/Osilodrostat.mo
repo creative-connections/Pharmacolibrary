@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02C_AntiadrenalPreparations.H02CA02_Osilodrostat;
+model Osilodrostat = Pharmacolibrary.Drugs.ATC.H.H02CA02;

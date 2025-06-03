@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AE04_IronMultivitaminsAndMinerals;
+model IronMultivitaminsAndMinerals = Pharmacolibrary.Drugs.ATC.B.B03AE04;

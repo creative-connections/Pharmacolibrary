@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BB04_InfluenzaVirusLikeParticles;
+model InfluenzaVirusLikeParticles = Pharmacolibrary.Drugs.ATC.J.J07BB04;

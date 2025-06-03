@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts.L01CE03_EtirinotecanPegol;
+model EtirinotecanPegol = Pharmacolibrary.Drugs.ATC.L.L01CE03;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.G;
+
+model G01AX03
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0,
+    Cl             = 0.0,
+    adminDuration  = 600,
+    adminMass      = 0.36,
+    adminCount     = 1,
+    Vd             = 0,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Policresulen is an organic acid with antiseptic and hemostatic properties, primarily used topically in gynecology (e.g. for treatment of cervicitis or vaginitis) and proctology for conditions involving mucous membrane lesions. It is not absorbed systemically in clinically relevant amounts and is not approved for use in the United States and many countries but is used in several European, Asian, and Latin American countries. It is used as a local agent for the treatment of infected mucous membranes and wounds.</p><h4>Pharmacokinetics</h4><p>No published clinical pharmacokinetic studies or parameter data for policresulen in humans; it is generally considered to act locally with negligible systemic absorption.</p><h4>References</h4><ol><li> No human pharmacokinetic or ADME studies could be found in the scientific literature or drug databases for policresulen. It is generally described as a topical medication with negligible systemic absorption, so no meaningful PK parameter could be estimated.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end G01AX03;

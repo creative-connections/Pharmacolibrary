@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AF04_Miconazole;
+model Miconazole_1 = Pharmacolibrary.Drugs.ATC.G.G01AF04_1;

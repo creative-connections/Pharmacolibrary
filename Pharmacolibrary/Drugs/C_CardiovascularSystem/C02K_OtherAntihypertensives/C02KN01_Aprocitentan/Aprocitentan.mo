@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02K_OtherAntihypertensives.C02KN01_Aprocitentan;
+model Aprocitentan = Pharmacolibrary.Drugs.ATC.C.C02KN01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XG03_Ixazomib;
+model Ixazomib = Pharmacolibrary.Drugs.ATC.L.L01XG03;

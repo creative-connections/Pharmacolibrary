@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V08C_MagneticResonanceImagingContrastMedia;
+package V08CA07_FerricAmmoniumCitrate
+  extends Icons.Package;
+end V08CA07_FerricAmmoniumCitrate;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01F_MydriaticsAndCycloplegics.S01FB51_PhenylephrineAndKetorolac;
+model PhenylephrineAndKetorolac = Pharmacolibrary.Drugs.ATC.S.S01FB51;

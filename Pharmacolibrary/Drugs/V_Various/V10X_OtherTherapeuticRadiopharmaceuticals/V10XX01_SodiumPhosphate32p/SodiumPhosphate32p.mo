@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V10X_OtherTherapeuticRadiopharmaceuticals.V10XX01_SodiumPhosphate32p;
+model SodiumPhosphate32p = Pharmacolibrary.Drugs.ATC.V.V10XX01;

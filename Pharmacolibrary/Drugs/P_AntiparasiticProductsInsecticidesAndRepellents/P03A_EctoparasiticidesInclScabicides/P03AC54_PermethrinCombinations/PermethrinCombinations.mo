@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03A_EctoparasiticidesInclScabicides.P03AC54_PermethrinCombinations;
+model PermethrinCombinations = Pharmacolibrary.Drugs.ATC.P.P03AC54;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EF03_Abemaciclib;
+model Abemaciclib = Pharmacolibrary.Drugs.ATC.L.L01EF03;

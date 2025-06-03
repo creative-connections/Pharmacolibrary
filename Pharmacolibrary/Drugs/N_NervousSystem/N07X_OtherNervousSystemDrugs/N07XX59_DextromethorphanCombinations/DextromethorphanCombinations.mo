@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N07X_OtherNervousSystemDrugs.N07XX59_DextromethorphanCombinations;
+model DextromethorphanCombinations = Pharmacolibrary.Drugs.ATC.N.N07XX59;

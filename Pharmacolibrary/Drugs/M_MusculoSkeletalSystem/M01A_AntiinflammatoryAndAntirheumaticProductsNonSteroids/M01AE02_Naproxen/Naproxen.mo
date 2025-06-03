@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AE02_Naproxen;
+model Naproxen = Pharmacolibrary.Drugs.ATC.M.M01AE02;

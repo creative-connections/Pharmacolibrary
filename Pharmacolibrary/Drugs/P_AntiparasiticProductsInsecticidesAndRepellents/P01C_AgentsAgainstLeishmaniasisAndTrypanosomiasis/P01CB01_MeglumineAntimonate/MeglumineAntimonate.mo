@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01C_AgentsAgainstLeishmaniasisAndTrypanosomiasis.P01CB01_MeglumineAntimonate;
+model MeglumineAntimonate = Pharmacolibrary.Drugs.ATC.P.P01CB01;

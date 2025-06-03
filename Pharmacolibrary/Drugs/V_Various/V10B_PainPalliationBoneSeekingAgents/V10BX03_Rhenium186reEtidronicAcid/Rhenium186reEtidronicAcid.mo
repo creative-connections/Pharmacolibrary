@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V10B_PainPalliationBoneSeekingAgents.V10BX03_Rhenium186reEtidronicAcid;
+model Rhenium186reEtidronicAcid = Pharmacolibrary.Drugs.ATC.V.V10BX03;

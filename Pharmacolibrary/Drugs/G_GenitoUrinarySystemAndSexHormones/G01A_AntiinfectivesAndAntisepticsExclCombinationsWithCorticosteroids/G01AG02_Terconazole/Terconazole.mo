@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AG02_Terconazole;
+model Terconazole = Pharmacolibrary.Drugs.ATC.G.G01AG02;

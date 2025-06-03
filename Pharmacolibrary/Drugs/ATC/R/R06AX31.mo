@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.R;
+
+model R06AX31
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.5,
+    Cl             = 0.013333333333333334,
+    adminDuration  = 600,
+    adminMass      = 0.05,
+    adminCount     = 1,
+    Vd             = 0.0035,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0008333333333333334,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Quifenadine is a second-generation antihistamine used primarily in Russia and some other Eastern European countries for the treatment of allergic conditions such as allergic rhinitis and urticaria. It possesses H1 histamine receptor antagonist activity and is not widely approved or used outside these regions.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for a typical adult via oral administration; no clinical PK studies or official publications with detailed parameters were found as of 2024.</p><h4>References</h4><ol><li> No specific published pharmacokinetic study or official clinical data is available for quifenadine in international or accessible scientific literature as of mid-2024. All listed pharmacokinetic parameter values are rough estimates extrapolated from related antihistamines (e.g., loratadine, cetirizine) and typical values for oral antihistamines. Use with caution. Should new clinical PK studies be published, this record should be updated.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end R06AX31;

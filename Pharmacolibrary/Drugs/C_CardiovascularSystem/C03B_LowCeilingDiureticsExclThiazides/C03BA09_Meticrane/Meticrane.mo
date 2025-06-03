@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03B_LowCeilingDiureticsExclThiazides.C03BA09_Meticrane;
+model Meticrane = Pharmacolibrary.Drugs.ATC.C.C03BA09;

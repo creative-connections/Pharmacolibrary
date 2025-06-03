@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03B_AntithyroidPreparations.H03BC01_PotassiumPerchlorate;
+model PotassiumPerchlorate = Pharmacolibrary.Drugs.ATC.H.H03BC01;

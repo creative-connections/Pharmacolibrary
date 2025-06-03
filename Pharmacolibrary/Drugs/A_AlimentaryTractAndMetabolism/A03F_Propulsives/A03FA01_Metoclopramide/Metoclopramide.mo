@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03F_Propulsives.A03FA01_Metoclopramide;
+model Metoclopramide = Pharmacolibrary.Drugs.ATC.A.A03FA01;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.D;
+
+model D08AJ10
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.02,
+    Cl             = 0.00016666666666666666,
+    adminDuration  = 600,
+    adminMass      = 0.002,
+    adminCount     = 1,
+    Vd             = 0.0001,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Decamethoxine, also known as decamethoxin or 'Декаметоксин', is a quaternary ammonium antiseptic used topically for its antimicrobial properties. It is mainly used in Eastern Europe for the treatment and prevention of infections of the skin, mucous membranes, and wounds. Decamethoxine is not FDA-approved in the United States or widely used in Western countries.</p><h4>Pharmacokinetics</h4><p>No published human pharmacokinetic parameters available. Based on chemical class (quaternary ammonium compound) and typical topical/local administration; parameters estimated using general properties of similar antiseptics.</p><h4>References</h4><ol><li> No published pharmacokinetic studies or primary references found for decamethoxine. All values are rough estimates based on analogous quaternary ammonium agents (e.g. chlorhexidine, benzalkonium). Most decamethoxine dosing is topical with minimal systemic absorption; any PK values are speculative.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end D08AJ10;

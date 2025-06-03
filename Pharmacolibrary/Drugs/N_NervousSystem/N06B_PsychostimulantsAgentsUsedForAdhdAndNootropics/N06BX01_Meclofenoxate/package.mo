@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics;
+package N06BX01_Meclofenoxate
+  extends Icons.Package;
+end N06BX01_Meclofenoxate;

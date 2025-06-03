@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12C_OtherMineralSupplements.A12CA01_SodiumChloride;
+model SodiumChloride = Pharmacolibrary.Drugs.ATC.A.A12CA01;

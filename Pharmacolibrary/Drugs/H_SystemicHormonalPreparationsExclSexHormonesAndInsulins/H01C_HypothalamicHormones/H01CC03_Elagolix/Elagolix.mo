@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01C_HypothalamicHormones.H01CC03_Elagolix;
+model Elagolix = Pharmacolibrary.Drugs.ATC.H.H01CC03;

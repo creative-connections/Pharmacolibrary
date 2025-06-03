@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AX22_Morniflumate;
+model Morniflumate = Pharmacolibrary.Drugs.ATC.M.M01AX22;

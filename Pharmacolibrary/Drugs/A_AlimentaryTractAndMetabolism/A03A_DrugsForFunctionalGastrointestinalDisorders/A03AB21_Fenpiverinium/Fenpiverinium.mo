@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders.A03AB21_Fenpiverinium;
+model Fenpiverinium = Pharmacolibrary.Drugs.ATC.A.A03AB21;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations.C09DX04_ValsartanAndSacubitril;
+model ValsartanAndSacubitril = Pharmacolibrary.Drugs.ATC.C.C09DX04;

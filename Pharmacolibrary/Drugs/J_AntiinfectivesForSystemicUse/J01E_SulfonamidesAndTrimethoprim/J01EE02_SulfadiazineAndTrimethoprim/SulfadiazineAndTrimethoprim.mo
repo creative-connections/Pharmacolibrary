@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01EE02_SulfadiazineAndTrimethoprim;
+model SulfadiazineAndTrimethoprim = Pharmacolibrary.Drugs.ATC.J.J01EE02;

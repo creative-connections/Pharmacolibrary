@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03A_MuscleRelaxantsPeripherallyActingAgents.M03AC08_FazadiniumBromide;
+model FazadiniumBromide = Pharmacolibrary.Drugs.ATC.M.M03AC08;

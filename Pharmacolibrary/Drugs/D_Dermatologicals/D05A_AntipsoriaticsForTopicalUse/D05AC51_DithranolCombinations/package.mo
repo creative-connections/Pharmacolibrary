@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D05A_AntipsoriaticsForTopicalUse;
+package D05AC51_DithranolCombinations
+  extends Icons.Package;
+end D05AC51_DithranolCombinations;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts.A16AX09_GlycerolPhenylbutyrate;
+model GlycerolPhenylbutyrate = Pharmacolibrary.Drugs.ATC.A.A16AX09;

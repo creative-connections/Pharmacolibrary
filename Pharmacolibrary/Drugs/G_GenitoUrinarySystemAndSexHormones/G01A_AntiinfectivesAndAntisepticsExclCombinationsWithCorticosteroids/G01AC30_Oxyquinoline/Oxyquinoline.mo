@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AC30_Oxyquinoline;
+model Oxyquinoline = Pharmacolibrary.Drugs.ATC.G.G01AC30;

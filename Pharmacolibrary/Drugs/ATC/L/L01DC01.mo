@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.L;
+
+model L01DC01
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1.0,
+    Cl             = 0.028,
+    adminDuration  = 600,
+    adminMass      = 0.015,
+    adminCount     = 1,
+    Vd             = 0.018,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Bleomycin is an antineoplastic antibiotic used mainly for the treatment of various cancers, including Hodgkin's lymphoma, non-Hodgkin's lymphoma, testicular cancer, ovarian cancer, and certain head and neck cancers. It is usually administered as part of multi-agent chemotherapy regimens. Bleomycin is approved for clinical use, although its application is limited by its potential to cause pulmonary toxicity.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters reported for adult cancer patients receiving intravenous bleomycin. Most PK studies include both male and female adults with normal renal function.</p><h4>References</h4><ol><li><a href='https://dx.doi.org/10.1007/BF00685685'>10.1007/BF00685685</a> Values extracted from the following reference: Dorr RT et al. 'Bleomycin pharmacokinetics in man. I. Clinical effects.' Cancer Chemother Pharmacol. 1979;2(2-3):103-108. PubMed PMID: 518753. Several other sources report similar PK parameters in adult patients.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end L01DC01;

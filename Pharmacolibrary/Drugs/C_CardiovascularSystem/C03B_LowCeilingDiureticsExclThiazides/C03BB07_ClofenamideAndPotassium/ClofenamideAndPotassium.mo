@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03B_LowCeilingDiureticsExclThiazides.C03BB07_ClofenamideAndPotassium;
+model ClofenamideAndPotassium = Pharmacolibrary.Drugs.ATC.C.C03BB07;

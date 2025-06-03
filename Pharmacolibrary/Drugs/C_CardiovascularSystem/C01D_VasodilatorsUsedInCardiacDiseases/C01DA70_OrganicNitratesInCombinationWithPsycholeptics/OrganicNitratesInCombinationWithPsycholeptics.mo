@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DA70_OrganicNitratesInCombinationWithPsycholeptics;
+model OrganicNitratesInCombinationWithPsycholeptics = Pharmacolibrary.Drugs.ATC.C.C01DA70;

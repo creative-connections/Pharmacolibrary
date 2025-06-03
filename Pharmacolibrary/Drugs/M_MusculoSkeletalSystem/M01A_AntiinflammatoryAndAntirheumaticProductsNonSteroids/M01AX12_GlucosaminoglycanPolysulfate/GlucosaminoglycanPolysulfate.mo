@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AX12_GlucosaminoglycanPolysulfate;
+model GlucosaminoglycanPolysulfate = Pharmacolibrary.Drugs.ATC.M.M01AX12;

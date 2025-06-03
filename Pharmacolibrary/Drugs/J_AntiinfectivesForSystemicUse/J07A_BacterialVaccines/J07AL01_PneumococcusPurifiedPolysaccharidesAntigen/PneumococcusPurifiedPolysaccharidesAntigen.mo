@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AL01_PneumococcusPurifiedPolysaccharidesAntigen;
+model PneumococcusPurifiedPolysaccharidesAntigen = Pharmacolibrary.Drugs.ATC.J.J07AL01;

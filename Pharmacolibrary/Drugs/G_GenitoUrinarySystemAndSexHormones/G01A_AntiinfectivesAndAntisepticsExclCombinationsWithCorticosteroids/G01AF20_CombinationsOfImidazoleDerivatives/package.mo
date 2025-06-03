@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids;
+package G01AF20_CombinationsOfImidazoleDerivatives
+  extends Icons.Package;
+end G01AF20_CombinationsOfImidazoleDerivatives;

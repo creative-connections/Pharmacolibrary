@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07B_BetaBlockingAgentsAndThiazides.C07BA02_OxprenololAndThiazides;
+model OxprenololAndThiazides = Pharmacolibrary.Drugs.ATC.C.C07BA02;

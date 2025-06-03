@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations.A01AB14_BenzoxoniumChloride;
+model BenzoxoniumChloride = Pharmacolibrary.Drugs.ATC.A.A01AB14;

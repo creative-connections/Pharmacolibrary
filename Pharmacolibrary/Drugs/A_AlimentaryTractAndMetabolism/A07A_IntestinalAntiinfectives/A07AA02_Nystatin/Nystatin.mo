@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07A_IntestinalAntiinfectives.A07AA02_Nystatin;
+model Nystatin = Pharmacolibrary.Drugs.ATC.A.A07AA02;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A04A_AntiemeticsAndAntinauseants;
+package A04AD02_CeriumOxalate
+  extends Icons.Package;
+end A04AD02_CeriumOxalate;

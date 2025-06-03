@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases;
+package P01AX52_EmetineCombinations
+  extends Icons.Package;
+end P01AX52_EmetineCombinations;

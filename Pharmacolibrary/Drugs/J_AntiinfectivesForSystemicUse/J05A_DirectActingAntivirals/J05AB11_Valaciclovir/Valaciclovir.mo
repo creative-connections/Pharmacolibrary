@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AB11_Valaciclovir;
+model Valaciclovir = Pharmacolibrary.Drugs.ATC.J.J05AB11;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins;
+package J01CG01_Sulbactam
+  extends Icons.Package;
+end J01CG01_Sulbactam;

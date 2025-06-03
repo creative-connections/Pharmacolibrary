@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02B_HormoneAntagonistsAndRelatedAgents.L02BA02_Toremifene;
+model Toremifene = Pharmacolibrary.Drugs.ATC.L.L02BA02;

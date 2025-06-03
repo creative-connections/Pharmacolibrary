@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases.R03DX10_Benralizumab;
+model Benralizumab = Pharmacolibrary.Drugs.ATC.R.R03DX10;

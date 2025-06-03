@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01EA02_Dipivefrine;
+model Dipivefrine = Pharmacolibrary.Drugs.ATC.S.S01EA02;

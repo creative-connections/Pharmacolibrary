@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03D_Progestogens.G03DA04_Progesterone;
+model Progesterone_1 = Pharmacolibrary.Drugs.ATC.G.G03DA04_1;

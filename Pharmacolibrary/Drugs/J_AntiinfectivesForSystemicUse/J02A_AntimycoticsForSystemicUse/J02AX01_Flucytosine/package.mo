@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse;
+package J02AX01_Flucytosine
+  extends Icons.Package;
+end J02AX01_Flucytosine;

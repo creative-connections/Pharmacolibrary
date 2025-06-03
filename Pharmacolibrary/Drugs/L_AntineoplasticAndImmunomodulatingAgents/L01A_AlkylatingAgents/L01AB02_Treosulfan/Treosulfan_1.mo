@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents.L01AB02_Treosulfan;
+model Treosulfan_1 = Pharmacolibrary.Drugs.ATC.L.L01AB02_1;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins.J01FG02_QuinupristinDalfopristin;
+model QuinupristinDalfopristin = Pharmacolibrary.Drugs.ATC.J.J01FG02;

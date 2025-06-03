@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BH04_Alogliptin;
+model Alogliptin = Pharmacolibrary.Drugs.ATC.A.A10BH04;

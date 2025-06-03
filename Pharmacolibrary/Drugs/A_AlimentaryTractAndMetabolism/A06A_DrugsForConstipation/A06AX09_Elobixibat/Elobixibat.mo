@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AX09_Elobixibat;
+model Elobixibat = Pharmacolibrary.Drugs.ATC.A.A06AX09;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AC05_Lornoxicam;
+model Lornoxicam = Pharmacolibrary.Drugs.ATC.M.M01AC05;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AG04_MeclofenamicAcid;
+model MeclofenamicAcid = Pharmacolibrary.Drugs.ATC.M.M01AG04;

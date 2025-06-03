@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain;
+package M02AA25_Aceclofenac
+  extends Icons.Package;
+end M02AA25_Aceclofenac;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12C_OtherMineralSupplements.A12CC06_MagnesiumLactate;
+model MagnesiumLactate = Pharmacolibrary.Drugs.ATC.A.A12CC06;

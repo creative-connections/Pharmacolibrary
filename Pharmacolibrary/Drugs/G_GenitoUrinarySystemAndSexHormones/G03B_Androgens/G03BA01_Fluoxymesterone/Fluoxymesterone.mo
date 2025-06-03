@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03B_Androgens.G03BA01_Fluoxymesterone;
+model Fluoxymesterone = Pharmacolibrary.Drugs.ATC.G.G03BA01;

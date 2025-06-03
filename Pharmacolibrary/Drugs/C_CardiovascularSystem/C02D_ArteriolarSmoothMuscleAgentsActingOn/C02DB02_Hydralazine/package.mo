@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02D_ArteriolarSmoothMuscleAgentsActingOn;
+package C02DB02_Hydralazine
+  extends Icons.Package;
+end C02DB02_Hydralazine;

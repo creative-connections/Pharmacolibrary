@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination.C02LC51_ClonidineAndDiureticsCombinationsWithOtherDrugs;
+model ClonidineAndDiureticsCombinationsWithOtherDrugs = Pharmacolibrary.Drugs.ATC.C.C02LC51;

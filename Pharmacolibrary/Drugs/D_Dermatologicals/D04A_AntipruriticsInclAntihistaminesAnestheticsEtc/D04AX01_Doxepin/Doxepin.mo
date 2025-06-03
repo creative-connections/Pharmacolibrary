@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D04A_AntipruriticsInclAntihistaminesAnestheticsEtc.D04AX01_Doxepin;
+model Doxepin = Pharmacolibrary.Drugs.ATC.D.D04AX01;

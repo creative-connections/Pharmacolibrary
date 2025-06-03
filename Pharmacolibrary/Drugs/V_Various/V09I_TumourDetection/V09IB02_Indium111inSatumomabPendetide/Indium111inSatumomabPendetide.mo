@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection.V09IB02_Indium111inSatumomabPendetide;
+model Indium111inSatumomabPendetide = Pharmacolibrary.Drugs.ATC.V.V09IB02;

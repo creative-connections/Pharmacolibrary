@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts.A16AA01_Levocarnitine;
+model Levocarnitine = Pharmacolibrary.Drugs.ATC.A.A16AA01;

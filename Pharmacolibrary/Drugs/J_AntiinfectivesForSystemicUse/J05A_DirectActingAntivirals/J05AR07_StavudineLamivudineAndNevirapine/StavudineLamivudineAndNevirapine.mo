@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AR07_StavudineLamivudineAndNevirapine;
+model StavudineLamivudineAndNevirapine = Pharmacolibrary.Drugs.ATC.J.J05AR07;

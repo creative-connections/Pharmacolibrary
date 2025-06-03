@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01EB06_Sulfanilamide;
+model Sulfanilamide = Pharmacolibrary.Drugs.ATC.J.J01EB06;

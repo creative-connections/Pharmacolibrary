@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins.J01FA16_Solithromycin;
+model Solithromycin = Pharmacolibrary.Drugs.ATC.J.J01FA16;

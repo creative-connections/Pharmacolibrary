@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A05B_LiverTherapyLipotropics;
+package A05BA10_Phospholipids
+  extends Icons.Package;
+end A05BA10_Phospholipids;

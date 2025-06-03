@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BD10_VonWillebrandFactor;
+model VonWillebrandFactor = Pharmacolibrary.Drugs.ATC.B.B02BD10;

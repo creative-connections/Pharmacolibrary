@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.G;
+
+model G01AX66
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0,
+    Cl             = 0.0,
+    adminDuration  = 600,
+    adminMass      = 0.01,
+    adminCount     = 1,
+    Vd             = 0,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Octenidine dihydrochloride is a cationic surfactant antiseptic used in topical formulations for the treatment and prevention of infections in skin, mucous membranes, and wounds. It is commonly used in combination with other agents for vaginal, oral, and skin antisepsis. The drug is not systemically absorbed to a significant extent and is not typically used for systemic infections. Under the ATC code G01AX66, it refers to gynecological anti-infectives and antiseptics, combinations. It is approved for topical use in several European countries.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for topical/vaginal use, adult female, healthy volunteers. No systemic absorption detected in referenced studies; PK values are modeled/estimated.</p><h4>References</h4><ol><li> No published human pharmacokinetic data available for octenidine (combinations) with ATC G01AX66; published studies consistently report absence of systemic absorption. All pharmacokinetic values reported here are estimated based on drug properties and clinical use patterns, not measured data.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end G01AX66;

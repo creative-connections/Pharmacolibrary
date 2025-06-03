@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07B_CorticosteroidsCombinationsWithAntiseptics;
+package D07BC03_FluocortoloneAndAntiseptics
+  extends Icons.Package;
+end D07BC03_FluocortoloneAndAntiseptics;

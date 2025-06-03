@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03D_Progestogens.G03DC04_Ethisterone;
+model Ethisterone = Pharmacolibrary.Drugs.ATC.G.G03DC04;

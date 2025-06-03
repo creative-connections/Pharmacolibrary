@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins;
+package A10BC01_Glymidine
+  extends Icons.Package;
+end A10BC01_Glymidine;

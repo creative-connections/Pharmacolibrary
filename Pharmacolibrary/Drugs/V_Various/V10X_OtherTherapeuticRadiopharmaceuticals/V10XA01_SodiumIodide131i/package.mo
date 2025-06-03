@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V10X_OtherTherapeuticRadiopharmaceuticals;
+package V10XA01_SodiumIodide131i
+  extends Icons.Package;
+end V10XA01_SodiumIodide131i;

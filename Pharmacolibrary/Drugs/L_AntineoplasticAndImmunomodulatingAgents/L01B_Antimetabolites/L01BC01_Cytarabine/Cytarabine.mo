@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01B_Antimetabolites.L01BC01_Cytarabine;
+model Cytarabine = Pharmacolibrary.Drugs.ATC.L.L01BC01;

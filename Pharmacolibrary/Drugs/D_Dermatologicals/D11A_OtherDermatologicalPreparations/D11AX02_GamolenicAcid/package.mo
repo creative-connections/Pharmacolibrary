@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations;
+package D11AX02_GamolenicAcid
+  extends Icons.Package;
+end D11AX02_GamolenicAcid;

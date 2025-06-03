@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09G_CardiovascularSystem.V09GA01_Technetium99mtcSestamibi;
+model Technetium99mtcSestamibi = Pharmacolibrary.Drugs.ATC.V.V09GA01;

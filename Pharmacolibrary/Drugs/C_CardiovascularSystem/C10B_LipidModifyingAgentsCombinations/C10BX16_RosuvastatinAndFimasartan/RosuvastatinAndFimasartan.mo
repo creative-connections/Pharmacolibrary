@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations.C10BX16_RosuvastatinAndFimasartan;
+model RosuvastatinAndFimasartan = Pharmacolibrary.Drugs.ATC.C.C10BX16;

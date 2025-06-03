@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AX07_Trimetrexate;
+model Trimetrexate = Pharmacolibrary.Drugs.ATC.P.P01AX07;

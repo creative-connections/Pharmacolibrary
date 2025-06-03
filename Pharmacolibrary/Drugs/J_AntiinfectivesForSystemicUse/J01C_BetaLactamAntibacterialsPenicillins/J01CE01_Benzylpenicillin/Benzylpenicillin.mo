@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins.J01CE01_Benzylpenicillin;
+model Benzylpenicillin = Pharmacolibrary.Drugs.ATC.J.J01CE01;

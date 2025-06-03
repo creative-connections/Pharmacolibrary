@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07C_BacterialAndViralVaccinesCombined.J07CA10_TyphoidHepatitisA;
+model TyphoidHepatitisA = Pharmacolibrary.Drugs.ATC.J.J07CA10;

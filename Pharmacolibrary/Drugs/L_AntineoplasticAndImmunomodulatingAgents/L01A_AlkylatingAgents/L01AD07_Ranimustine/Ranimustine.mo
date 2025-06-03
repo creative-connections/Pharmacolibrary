@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents.L01AD07_Ranimustine;
+model Ranimustine = Pharmacolibrary.Drugs.ATC.L.L01AD07;

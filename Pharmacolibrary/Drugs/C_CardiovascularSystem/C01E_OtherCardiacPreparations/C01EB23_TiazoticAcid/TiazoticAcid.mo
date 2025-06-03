@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01E_OtherCardiacPreparations.C01EB23_TiazoticAcid;
+model TiazoticAcid = Pharmacolibrary.Drugs.ATC.C.C01EB23;

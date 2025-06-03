@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
+package L01EN02_Pemigatinib
+  extends Icons.Package;
+end L01EN02_Pemigatinib;

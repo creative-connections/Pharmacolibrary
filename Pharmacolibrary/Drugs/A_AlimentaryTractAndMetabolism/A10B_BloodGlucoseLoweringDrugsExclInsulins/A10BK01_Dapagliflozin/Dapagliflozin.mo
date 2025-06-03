@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BK01_Dapagliflozin;
+model Dapagliflozin = Pharmacolibrary.Drugs.ATC.A.A10BK01;

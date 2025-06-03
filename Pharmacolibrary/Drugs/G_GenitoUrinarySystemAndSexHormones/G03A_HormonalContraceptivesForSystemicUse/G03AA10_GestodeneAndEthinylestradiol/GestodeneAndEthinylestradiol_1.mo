@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AA10_GestodeneAndEthinylestradiol;
+model GestodeneAndEthinylestradiol_1 = Pharmacolibrary.Drugs.ATC.G.G03AA10_1;

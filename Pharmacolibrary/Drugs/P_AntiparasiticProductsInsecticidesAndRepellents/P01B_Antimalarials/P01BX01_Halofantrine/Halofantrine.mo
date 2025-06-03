@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials.P01BX01_Halofantrine;
+model Halofantrine = Pharmacolibrary.Drugs.ATC.P.P01BX01;

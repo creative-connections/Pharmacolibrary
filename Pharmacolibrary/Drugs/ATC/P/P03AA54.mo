@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.P;
+
+model P03AA54
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.8,
+    Cl             = 1.6666666666666667,
+    adminDuration  = 600,
+    adminMass      = 0.5,
+    adminCount     = 1,
+    Vd             = 0.0012,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0025,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Disulfiram is a medication used to support the treatment of chronic alcoholism by producing an acute sensitivity to ethanol (alcohol). It is approved in several countries but is considered less commonly used today due to the availability of alternative treatments for alcohol dependence. Disulfiram is also applied in veterinary medicine and, in combination, for certain antiparasitic indications.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for typical adult individuals. No published studies report detailed population PK parameters for disulfiram, combinations (ATC P03AA54), so estimates are based on known values for disulfiram in adults.</p><h4>References</h4><ol><li> No direct PK studies or published pharmacokinetic models for disulfiram, combinations (ATC P03AA54) could be identified. Parameters estimated based on known single-compound disulfiram PK data in healthy adults as reported in standard references and reviews. These should be treated as approximate values for modeling.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end P03AA54;

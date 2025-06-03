@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AD08_Oxomemazine;
+model Oxomemazine = Pharmacolibrary.Drugs.ATC.R.R06AD08;

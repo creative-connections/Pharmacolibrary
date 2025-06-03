@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse;
+package R01AD57_TixocortolCombinations
+  extends Icons.Package;
+end R01AD57_TixocortolCombinations;

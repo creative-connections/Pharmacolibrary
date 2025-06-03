@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BX03_Nateglinide;
+model Nateglinide = Pharmacolibrary.Drugs.ATC.A.A10BX03;

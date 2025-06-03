@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A04A_AntiemeticsAndAntinauseants.A04AD14_Rolapitant;
+model Rolapitant = Pharmacolibrary.Drugs.ATC.A.A04AD14;

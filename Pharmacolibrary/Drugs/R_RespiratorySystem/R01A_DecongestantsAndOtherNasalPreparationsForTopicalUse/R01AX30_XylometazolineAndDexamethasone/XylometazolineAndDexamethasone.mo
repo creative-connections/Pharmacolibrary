@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AX30_XylometazolineAndDexamethasone;
+model XylometazolineAndDexamethasone = Pharmacolibrary.Drugs.ATC.R.R01AX30;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B06A_OtherHematologicalAgents;
+package B06AC04_ConestatAlfa
+  extends Icons.Package;
+end B06AC04_ConestatAlfa;

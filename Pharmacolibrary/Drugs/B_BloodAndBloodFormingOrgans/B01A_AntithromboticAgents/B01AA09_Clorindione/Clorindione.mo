@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AA09_Clorindione;
+model Clorindione = Pharmacolibrary.Drugs.ATC.B.B01AA09;

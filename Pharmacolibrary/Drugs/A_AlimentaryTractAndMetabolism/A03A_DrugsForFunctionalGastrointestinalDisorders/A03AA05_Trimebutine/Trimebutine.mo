@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders.A03AA05_Trimebutine;
+model Trimebutine = Pharmacolibrary.Drugs.ATC.A.A03AA05;

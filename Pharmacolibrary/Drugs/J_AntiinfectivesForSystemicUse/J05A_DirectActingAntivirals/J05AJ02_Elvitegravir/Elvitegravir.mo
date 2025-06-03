@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AJ02_Elvitegravir;
+model Elvitegravir = Pharmacolibrary.Drugs.ATC.J.J05AJ02;

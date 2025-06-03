@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BB01_FibrinogenHuman;
+model FibrinogenHuman = Pharmacolibrary.Drugs.ATC.B.B02BB01;

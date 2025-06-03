@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts.V03AB18_PotassiumPermanganate;
+model PotassiumPermanganate = Pharmacolibrary.Drugs.ATC.V.V03AB18;

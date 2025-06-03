@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines;
+package J07BN04_Covid19ProteinSubunit
+  extends Icons.Package;
+end J07BN04_Covid19ProteinSubunit;

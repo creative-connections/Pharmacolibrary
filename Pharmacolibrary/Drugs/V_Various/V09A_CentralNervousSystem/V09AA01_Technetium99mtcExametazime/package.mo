@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V09A_CentralNervousSystem;
+package V09AA01_Technetium99mtcExametazime
+  extends Icons.Package;
+end V09AA01_Technetium99mtcExametazime;

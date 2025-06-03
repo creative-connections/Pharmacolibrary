@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N03A_Antiepileptics.N03AD51_EthosuximideCombinations;
+model EthosuximideCombinations = Pharmacolibrary.Drugs.ATC.N.N03AD51;

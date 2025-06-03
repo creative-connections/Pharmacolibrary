@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01A_Tetracyclines.J01AA20_CombinationsOfTetracyclines;
+model CombinationsOfTetracyclines = Pharmacolibrary.Drugs.ATC.J.J01AA20;

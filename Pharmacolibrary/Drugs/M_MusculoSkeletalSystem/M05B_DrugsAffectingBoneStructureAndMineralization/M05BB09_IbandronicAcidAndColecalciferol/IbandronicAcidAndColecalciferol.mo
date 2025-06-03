@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization.M05BB09_IbandronicAcidAndColecalciferol;
+model IbandronicAcidAndColecalciferol = Pharmacolibrary.Drugs.ATC.M.M05BB09;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants.R05DB19_Dropropizine;
+model Dropropizine = Pharmacolibrary.Drugs.ATC.R.R05DB19;

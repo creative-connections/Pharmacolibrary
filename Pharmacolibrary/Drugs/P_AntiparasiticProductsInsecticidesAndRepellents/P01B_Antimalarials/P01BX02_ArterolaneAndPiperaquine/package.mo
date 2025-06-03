@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials;
+package P01BX02_ArterolaneAndPiperaquine
+  extends Icons.Package;
+end P01BX02_ArterolaneAndPiperaquine;

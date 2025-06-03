@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins;
+package J01FF02_Lincomycin
+  extends Icons.Package;
+end J01FF02_Lincomycin;

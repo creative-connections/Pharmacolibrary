@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05B_AntivaricoseTherapy.C05BB56_GlucoseCombinations;
+model GlucoseCombinations = Pharmacolibrary.Drugs.ATC.C.C05BB56;

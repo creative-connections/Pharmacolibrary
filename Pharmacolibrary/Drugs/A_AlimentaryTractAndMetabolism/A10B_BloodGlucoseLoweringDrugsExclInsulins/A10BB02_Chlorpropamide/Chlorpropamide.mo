@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BB02_Chlorpropamide;
+model Chlorpropamide = Pharmacolibrary.Drugs.ATC.A.A10BB02;

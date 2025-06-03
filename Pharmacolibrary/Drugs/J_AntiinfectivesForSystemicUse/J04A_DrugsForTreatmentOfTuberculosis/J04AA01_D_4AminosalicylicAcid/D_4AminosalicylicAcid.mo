@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis.J04AA01_D_4AminosalicylicAcid;
+model D_4AminosalicylicAcid = Pharmacolibrary.Drugs.ATC.J.J04AA01;

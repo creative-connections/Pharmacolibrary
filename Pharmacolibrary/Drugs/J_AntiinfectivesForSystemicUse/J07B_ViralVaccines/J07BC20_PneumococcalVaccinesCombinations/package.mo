@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines;
+package J07BC20_PneumococcalVaccinesCombinations
+  extends Icons.Package;
+end J07BC20_PneumococcalVaccinesCombinations;

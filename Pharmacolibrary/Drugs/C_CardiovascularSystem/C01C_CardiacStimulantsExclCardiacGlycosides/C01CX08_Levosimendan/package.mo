@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides;
+package C01CX08_Levosimendan
+  extends Icons.Package;
+end C01CX08_Levosimendan;

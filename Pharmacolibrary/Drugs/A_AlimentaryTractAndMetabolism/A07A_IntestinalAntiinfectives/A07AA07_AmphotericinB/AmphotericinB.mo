@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07A_IntestinalAntiinfectives.A07AA07_AmphotericinB;
+model AmphotericinB = Pharmacolibrary.Drugs.ATC.A.A07AA07;

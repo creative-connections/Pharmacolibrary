@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.A;
+
+model A10BD26
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.55,
+    Cl             = 0.25,
+    adminDuration  = 600,
+    adminMass      = 0.5,
+    adminCount     = 1,
+    Vd             = 0.08,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.00075,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Metformin and lobeglitazone is a fixed-dose combination medication used in the management of type 2 diabetes mellitus. Metformin is a biguanide antihyperglycemic agent that decreases hepatic glucose production and improves insulin sensitivity. Lobeglitazone is a thiazolidinedione (TZD) that acts as an insulin sensitizer by activating the peroxisome proliferator-activated receptor gamma (PPAR-γ). The combination is designed to improve glycemic control in adults with type 2 diabetes. Lobeglitazone is approved mainly in South Korea and some Asian countries; the combination product is not widely approved outside these regions.</p><h4>Pharmacokinetics</h4><p>There are currently no published population pharmacokinetic models or clinical PK studies reported for the fixed-dose combination of metformin and lobeglitazone in peer-reviewed sources as of June 2024. Below are estimated pharmacokinetic parameters based on known properties of metformin and lobeglitazone administered orally in typical adult populations.</p><h4>References</h4><ol><li> No direct PK studies are published for the combination product (ATC A10BD26). Parameters estimated from individual drug monographs and studies: metformin (Aronoff et al., Diabetes Care. 1999), lobeglitazone (Park et al., J Clin Pharmacol. 2013) and common dosing regimen. PK parameters given pertain primarily to metformin which is the larger dose, with peripheral data from lobeglitazone monotherapy. All values are approximate estimates.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end A10BD26;

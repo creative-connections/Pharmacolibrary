@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EL04_Orelabrutinib;
+model Orelabrutinib = Pharmacolibrary.Drugs.ATC.L.L01EL04;

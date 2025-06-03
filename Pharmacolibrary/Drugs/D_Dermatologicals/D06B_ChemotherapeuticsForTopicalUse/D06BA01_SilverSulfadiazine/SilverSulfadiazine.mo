@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D06B_ChemotherapeuticsForTopicalUse.D06BA01_SilverSulfadiazine;
+model SilverSulfadiazine = Pharmacolibrary.Drugs.ATC.D.D06BA01;

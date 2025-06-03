@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.C;
+
+model C03BB02
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.8,
+    Cl             = 0.016666666666666666,
+    adminDuration  = 600,
+    adminMass      = 0.1,
+    adminCount     = 1,
+    Vd             = 0.0015,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.002,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Quinethazone and potassium is a combination drug of quinethazone, a thiazide-like diuretic used for the treatment of hypertension and edema, and potassium, to counteract potential hypokalemia. Quinethazone is structurally related to thiazide diuretics and acts by inhibiting sodium reabsorption in the distal tubules of the kidney, increasing the excretion of sodium and water. The combination is primarily used in the management of hypertension, though quinethazone is not widely used or available in current clinical practice.</p><h4>Pharmacokinetics</h4><p>No pharmacokinetic data specific to the quinethazone and potassium combination product could be identified in the literature. The following are rough estimates for oral administration based on available data for quinethazone monotherapy in healthy adults.</p><h4>References</h4><ol><li> No specific pharmacokinetic studies on the quinethazone and potassium combination product were found in published literature. Parameter values are estimated from data reported for quinethazone monotherapy in healthy adults. Potassium pharmacokinetics are not relevant in this combination context as it functions to correct electrolyte balance. Parameters are thus approximated; use with caution.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end C03BB02;

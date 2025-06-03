@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse.J02AA02_Hachimycin;
+model Hachimycin = Pharmacolibrary.Drugs.ATC.J.J02AA02;

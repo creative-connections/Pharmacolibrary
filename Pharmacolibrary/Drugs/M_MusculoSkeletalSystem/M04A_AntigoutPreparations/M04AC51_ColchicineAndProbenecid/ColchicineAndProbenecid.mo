@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M04A_AntigoutPreparations.M04AC51_ColchicineAndProbenecid;
+model ColchicineAndProbenecid = Pharmacolibrary.Drugs.ATC.M.M04AC51;

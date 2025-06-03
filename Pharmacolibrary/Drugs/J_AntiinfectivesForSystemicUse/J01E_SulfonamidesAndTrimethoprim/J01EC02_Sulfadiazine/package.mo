@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim;
+package J01EC02_Sulfadiazine
+  extends Icons.Package;
+end J01EC02_Sulfadiazine;

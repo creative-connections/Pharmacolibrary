@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse.D10AF04_Meclocycline;
+model Meclocycline = Pharmacolibrary.Drugs.ATC.D.D10AF04;

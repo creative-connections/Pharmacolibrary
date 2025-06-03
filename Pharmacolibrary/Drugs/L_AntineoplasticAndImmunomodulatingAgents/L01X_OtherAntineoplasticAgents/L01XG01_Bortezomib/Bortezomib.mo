@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XG01_Bortezomib;
+model Bortezomib = Pharmacolibrary.Drugs.ATC.L.L01XG01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S02C_CorticosteroidsAndAntiinfectivesInCombination.S02CA03_HydrocortisoneAndAntiinfectives;
+model HydrocortisoneAndAntiinfectives = Pharmacolibrary.Drugs.ATC.S.S02CA03;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins;
+package H01C_HypothalamicHormones
+  extends Icons.Package;
+end H01C_HypothalamicHormones;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases;
+package P01AB52_MetronidazoleAndDiloxanide
+  extends Icons.Package;
+end P01AB52_MetronidazoleAndDiloxanide;

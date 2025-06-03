@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01C_AgentsAgainstLeishmaniasisAndTrypanosomiasis.P01CA02_Benznidazole;
+model Benznidazole = Pharmacolibrary.Drugs.ATC.P.P01CA02;

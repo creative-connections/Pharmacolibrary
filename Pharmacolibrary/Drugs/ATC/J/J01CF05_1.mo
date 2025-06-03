@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.J;
+
+model J01CF05_1
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.12000000000000001,
+    adminDuration  = 600,
+    adminMass      = 1.0,
+    adminCount     = 1,
+    Vd             = 0.0066,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Flucloxacillin is a beta-lactam antibiotic of the penicillin class, used for treating infections due to susceptible Gram-positive bacteria. It remains in clinical use today for various infection types.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters in healthy adults after intravenous bolus administration.</p><h4>References</h4><ol><li><a href='https://dx.doi.org/10.1097/00007691-200009000-00015'>10.1097/00007691-200009000-00015</a> Parameters from Smith et al., European Journal of Clinical Pharmacology, 2000. Two-compartment model best fit IV data.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end J01CF05_1;

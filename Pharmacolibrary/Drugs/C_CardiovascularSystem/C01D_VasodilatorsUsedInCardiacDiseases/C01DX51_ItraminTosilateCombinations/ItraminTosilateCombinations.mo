@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DX51_ItraminTosilateCombinations;
+model ItraminTosilateCombinations = Pharmacolibrary.Drugs.ATC.C.C01DX51;

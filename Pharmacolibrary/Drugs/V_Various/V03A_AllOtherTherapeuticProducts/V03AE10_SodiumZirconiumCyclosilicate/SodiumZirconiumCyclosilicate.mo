@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts.V03AE10_SodiumZirconiumCyclosilicate;
+model SodiumZirconiumCyclosilicate = Pharmacolibrary.Drugs.ATC.V.V03AE10;

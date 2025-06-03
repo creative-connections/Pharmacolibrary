@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07F_BetaBlockingAgentsOtherCombinations.C07FB12_NebivololAndAmlodipine;
+model NebivololAndAmlodipine = Pharmacolibrary.Drugs.ATC.C.C07FB12;

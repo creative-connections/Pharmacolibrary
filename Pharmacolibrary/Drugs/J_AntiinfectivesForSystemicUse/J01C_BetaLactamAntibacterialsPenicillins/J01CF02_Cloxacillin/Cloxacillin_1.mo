@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins.J01CF02_Cloxacillin;
+model Cloxacillin_1 = Pharmacolibrary.Drugs.ATC.J.J01CF02_1;

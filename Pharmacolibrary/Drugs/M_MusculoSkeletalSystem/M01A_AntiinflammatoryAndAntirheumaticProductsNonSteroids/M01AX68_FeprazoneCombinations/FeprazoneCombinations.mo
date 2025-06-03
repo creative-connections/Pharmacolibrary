@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AX68_FeprazoneCombinations;
+model FeprazoneCombinations = Pharmacolibrary.Drugs.ATC.M.M01AX68;

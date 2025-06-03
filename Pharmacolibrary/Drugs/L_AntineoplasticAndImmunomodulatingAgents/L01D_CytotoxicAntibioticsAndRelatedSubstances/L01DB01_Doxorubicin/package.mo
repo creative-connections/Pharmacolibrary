@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01D_CytotoxicAntibioticsAndRelatedSubstances;
+package L01DB01_Doxorubicin
+  extends Icons.Package;
+end L01DB01_Doxorubicin;

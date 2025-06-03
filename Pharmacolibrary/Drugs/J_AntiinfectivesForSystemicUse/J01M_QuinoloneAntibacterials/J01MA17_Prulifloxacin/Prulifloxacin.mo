@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01M_QuinoloneAntibacterials.J01MA17_Prulifloxacin;
+model Prulifloxacin = Pharmacolibrary.Drugs.ATC.J.J01MA17;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.N_NervousSystem;
+package N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics
+  extends Icons.Package;
+end N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics;

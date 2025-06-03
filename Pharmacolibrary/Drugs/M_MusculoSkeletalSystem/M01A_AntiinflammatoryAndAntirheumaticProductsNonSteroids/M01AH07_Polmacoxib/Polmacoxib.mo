@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AH07_Polmacoxib;
+model Polmacoxib = Pharmacolibrary.Drugs.ATC.M.M01AH07;

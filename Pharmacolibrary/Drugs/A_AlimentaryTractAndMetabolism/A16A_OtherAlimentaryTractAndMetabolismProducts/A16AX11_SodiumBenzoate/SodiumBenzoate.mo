@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts.A16AX11_SodiumBenzoate;
+model SodiumBenzoate = Pharmacolibrary.Drugs.ATC.A.A16AX11;

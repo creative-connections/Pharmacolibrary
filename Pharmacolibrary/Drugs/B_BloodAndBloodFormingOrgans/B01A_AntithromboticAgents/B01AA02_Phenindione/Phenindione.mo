@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AA02_Phenindione;
+model Phenindione = Pharmacolibrary.Drugs.ATC.B.B01AA02;

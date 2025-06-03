@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07E_IntestinalAntiinflammatoryAgents;
+package A07EA05_Tixocortol
+  extends Icons.Package;
+end A07EA05_Tixocortol;

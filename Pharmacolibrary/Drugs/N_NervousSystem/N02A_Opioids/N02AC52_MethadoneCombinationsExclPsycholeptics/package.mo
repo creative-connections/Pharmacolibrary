@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids;
+package N02AC52_MethadoneCombinationsExclPsycholeptics
+  extends Icons.Package;
+end N02AC52_MethadoneCombinationsExclPsycholeptics;

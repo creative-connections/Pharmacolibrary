@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BJ06_Semaglutide;
+model Semaglutide = Pharmacolibrary.Drugs.ATC.A.A10BJ06;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D06B_ChemotherapeuticsForTopicalUse.D06BX01_Metronidazole;
+model Metronidazole = Pharmacolibrary.Drugs.ATC.D.D06BX01;

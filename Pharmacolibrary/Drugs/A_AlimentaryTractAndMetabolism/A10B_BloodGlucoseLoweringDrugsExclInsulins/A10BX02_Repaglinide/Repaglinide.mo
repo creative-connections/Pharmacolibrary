@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BX02_Repaglinide;
+model Repaglinide = Pharmacolibrary.Drugs.ATC.A.A10BX02;

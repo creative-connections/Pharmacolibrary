@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03B_OtherDrugsForObstructiveAirwayDiseasesInhalants.R03BB07_UmeclidiniumBromide;
+model UmeclidiniumBromide = Pharmacolibrary.Drugs.ATC.R.R03BB07;

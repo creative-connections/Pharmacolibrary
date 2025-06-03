@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.N;
+
+model N05BX04
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.5,
+    Cl             = 0.5,
+    adminDuration  = 600,
+    adminMass      = 0.03,
+    adminCount     = 1,
+    Vd             = 0.03,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0005,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Fabomotizole is an anxiolytic drug, classified as a non-benzodiazepine, with claimed neuroprotective and stress-protecting properties. It is mainly used in Russia and former CIS countries for the treatment of anxiety disorders, neurasthenia, adjustment disorder, and mild cognitive impairment. Fabomotizole is not approved for use in the USA or EU and is not widely used outside these countries.</p><h4>Pharmacokinetics</h4><p>No peer-reviewed studies in English providing pharmacokinetic parameters for fabomotizole in humans could be identified. Any numerical values provided are estimates based on typical PK ranges for orally administered small-molecule anxiolytic drugs in adults.</p><h4>References</h4><ol><li> No direct published pharmacokinetic studies in humans for fabomotizole were found as of 2024. Provided values are rough estimates for oral bioavailability, absorption, distribution, and clearance in healthy adults based on analogous CNS-active drugs. All parameters should be used with caution and do not substitute for values derived from actual human PK studies.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end N05BX04;

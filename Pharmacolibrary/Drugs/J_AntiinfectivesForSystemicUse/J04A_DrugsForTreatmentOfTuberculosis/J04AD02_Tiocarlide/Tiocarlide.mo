@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis.J04AD02_Tiocarlide;
+model Tiocarlide = Pharmacolibrary.Drugs.ATC.J.J04AD02;

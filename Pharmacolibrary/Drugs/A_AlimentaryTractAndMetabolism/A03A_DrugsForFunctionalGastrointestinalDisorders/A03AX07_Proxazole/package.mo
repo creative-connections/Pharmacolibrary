@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders;
+package A03AX07_Proxazole
+  extends Icons.Package;
+end A03AX07_Proxazole;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BA02_Dexamfetamine;
+model Dexamfetamine = Pharmacolibrary.Drugs.ATC.N.N06BA02;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines;
+package J07AF01_DiphtheriaToxoid
+  extends Icons.Package;
+end J07AF01_DiphtheriaToxoid;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03A_MuscleRelaxantsPeripherallyActingAgents;
+package M03AC06_PipecuroniumBromide
+  extends Icons.Package;
+end M03AC06_PipecuroniumBromide;

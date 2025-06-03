@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09C_AngiotensinIiReceptorBlockersArbsPlain.C09CA02_Eprosartan;
+model Eprosartan = Pharmacolibrary.Drugs.ATC.C.C09CA02;

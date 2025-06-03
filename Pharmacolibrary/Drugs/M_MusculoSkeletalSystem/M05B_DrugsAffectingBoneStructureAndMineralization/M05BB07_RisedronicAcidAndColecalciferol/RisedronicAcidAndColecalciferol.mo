@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization.M05BB07_RisedronicAcidAndColecalciferol;
+model RisedronicAcidAndColecalciferol = Pharmacolibrary.Drugs.ATC.M.M05BB07;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XX41_Eribulin;
+model Eribulin = Pharmacolibrary.Drugs.ATC.L.L01XX41;

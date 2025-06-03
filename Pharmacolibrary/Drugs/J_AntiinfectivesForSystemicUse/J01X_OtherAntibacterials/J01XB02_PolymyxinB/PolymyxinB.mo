@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01X_OtherAntibacterials.J01XB02_PolymyxinB;
+model PolymyxinB = Pharmacolibrary.Drugs.ATC.J.J01XB02;

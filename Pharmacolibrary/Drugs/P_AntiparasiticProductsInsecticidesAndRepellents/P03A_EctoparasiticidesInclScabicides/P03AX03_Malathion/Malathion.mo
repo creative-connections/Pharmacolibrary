@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03A_EctoparasiticidesInclScabicides.P03AX03_Malathion;
+model Malathion = Pharmacolibrary.Drugs.ATC.P.P03AX03;

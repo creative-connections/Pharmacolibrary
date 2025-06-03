@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials.P01BC01_Quinine;
+model Quinine = Pharmacolibrary.Drugs.ATC.P.P01BC01;

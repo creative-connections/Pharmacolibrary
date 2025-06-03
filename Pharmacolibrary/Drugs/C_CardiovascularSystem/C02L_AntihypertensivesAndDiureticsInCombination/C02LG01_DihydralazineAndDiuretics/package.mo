@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination;
+package C02LG01_DihydralazineAndDiuretics
+  extends Icons.Package;
+end C02LG01_DihydralazineAndDiuretics;

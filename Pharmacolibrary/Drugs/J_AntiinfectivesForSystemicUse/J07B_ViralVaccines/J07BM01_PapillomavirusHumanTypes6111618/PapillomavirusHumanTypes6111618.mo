@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BM01_PapillomavirusHumanTypes6111618;
+model PapillomavirusHumanTypes6111618 = Pharmacolibrary.Drugs.ATC.J.J07BM01;

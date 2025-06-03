@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
+package L01XX53_Vosaroxin
+  extends Icons.Package;
+end L01XX53_Vosaroxin;

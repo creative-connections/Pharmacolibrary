@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B06A_OtherHematologicalAgents.B06AC05_Lanadelumab;
+model Lanadelumab = Pharmacolibrary.Drugs.ATC.B.B06AC05;

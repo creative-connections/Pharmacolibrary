@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AD52_PromethazineCombinations;
+model PromethazineCombinations = Pharmacolibrary.Drugs.ATC.R.R06AD52;

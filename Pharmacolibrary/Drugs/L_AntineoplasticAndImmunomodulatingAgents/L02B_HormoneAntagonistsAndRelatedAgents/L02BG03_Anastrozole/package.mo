@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02B_HormoneAntagonistsAndRelatedAgents;
+package L02BG03_Anastrozole
+  extends Icons.Package;
+end L02BG03_Anastrozole;

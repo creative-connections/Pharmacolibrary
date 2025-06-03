@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.P;
+
+model P01AC02
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.6,
+    Cl             = 0.02,
+    adminDuration  = 600,
+    adminMass      = 0.5,
+    adminCount     = 1,
+    Vd             = 0.05,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0005,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Clefamide is an antiprotozoal agent formerly used for the treatment of intestinal amoebiasis and other protozoal infections. It is a dichlorophenyl derivative with a long history of use. Clefamide is not approved or widely used in current medical practice due to the availability of more effective and safer alternatives.</p><h4>Pharmacokinetics</h4><p>No published human pharmacokinetic data for clefamide are available in the literature. All reported pharmacokinetic parameters are estimated based on chemical class analogies and standard values for orally administered antiprotozoals.</p><h4>References</h4><ol><li> There are no published pharmacokinetic studies for clefamide in humans. All values provided are rough estimates based on existing data for chemically similar agents (e.g., other dichloroacetamides or nitroimidazoles) and standard pharmacokinetic assumptions for orally administered antiprotozoals. These figures should be interpreted with caution and not be used for clinical dosing.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end P01AC02;

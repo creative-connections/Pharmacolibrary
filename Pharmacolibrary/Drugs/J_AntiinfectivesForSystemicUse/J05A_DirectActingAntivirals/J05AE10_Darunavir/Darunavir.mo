@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AE10_Darunavir;
+model Darunavir = Pharmacolibrary.Drugs.ATC.J.J05AE10;

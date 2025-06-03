@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03A_EctoparasiticidesInclScabicides.P03AX05_Dimeticone;
+model Dimeticone = Pharmacolibrary.Drugs.ATC.P.P03AX05;

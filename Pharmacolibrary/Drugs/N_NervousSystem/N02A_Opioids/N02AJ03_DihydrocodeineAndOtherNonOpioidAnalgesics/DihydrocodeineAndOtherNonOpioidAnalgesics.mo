@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids.N02AJ03_DihydrocodeineAndOtherNonOpioidAnalgesics;
+model DihydrocodeineAndOtherNonOpioidAnalgesics = Pharmacolibrary.Drugs.ATC.N.N02AJ03;

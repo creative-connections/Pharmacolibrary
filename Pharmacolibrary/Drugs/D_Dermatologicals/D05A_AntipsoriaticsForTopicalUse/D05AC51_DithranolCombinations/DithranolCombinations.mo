@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D05A_AntipsoriaticsForTopicalUse.D05AC51_DithranolCombinations;
+model DithranolCombinations = Pharmacolibrary.Drugs.ATC.D.D05AC51;

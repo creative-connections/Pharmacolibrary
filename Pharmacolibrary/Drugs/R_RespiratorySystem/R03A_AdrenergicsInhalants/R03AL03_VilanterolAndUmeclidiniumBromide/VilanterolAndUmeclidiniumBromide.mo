@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants.R03AL03_VilanterolAndUmeclidiniumBromide;
+model VilanterolAndUmeclidiniumBromide = Pharmacolibrary.Drugs.ATC.R.R03AL03;

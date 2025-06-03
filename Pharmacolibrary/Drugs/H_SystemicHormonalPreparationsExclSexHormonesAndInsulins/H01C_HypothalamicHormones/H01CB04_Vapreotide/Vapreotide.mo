@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01C_HypothalamicHormones.H01CB04_Vapreotide;
+model Vapreotide = Pharmacolibrary.Drugs.ATC.H.H01CB04;

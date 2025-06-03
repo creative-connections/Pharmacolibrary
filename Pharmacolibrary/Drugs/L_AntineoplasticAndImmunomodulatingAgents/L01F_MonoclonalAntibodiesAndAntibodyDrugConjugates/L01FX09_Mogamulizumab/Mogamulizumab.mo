@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FX09_Mogamulizumab;
+model Mogamulizumab = Pharmacolibrary.Drugs.ATC.L.L01FX09;

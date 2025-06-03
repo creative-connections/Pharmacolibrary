@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse;
+package J02AA02_Hachimycin
+  extends Icons.Package;
+end J02AA02_Hachimycin;

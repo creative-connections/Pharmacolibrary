@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants.R05CB15_Erdosteine;
+model Erdosteine = Pharmacolibrary.Drugs.ATC.R.R05CB15;

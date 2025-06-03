@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids;
+package M01AB05_Diclofenac
+  extends Icons.Package;
+end M01AB05_Diclofenac;

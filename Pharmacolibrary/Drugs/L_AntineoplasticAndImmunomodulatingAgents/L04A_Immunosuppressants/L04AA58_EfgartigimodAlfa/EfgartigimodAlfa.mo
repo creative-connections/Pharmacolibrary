@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AA58_EfgartigimodAlfa;
+model EfgartigimodAlfa = Pharmacolibrary.Drugs.ATC.L.L04AA58;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02A_Antacids.A02AA05_MagnesiumSilicate;
+model MagnesiumSilicate = Pharmacolibrary.Drugs.ATC.A.A02AA05;

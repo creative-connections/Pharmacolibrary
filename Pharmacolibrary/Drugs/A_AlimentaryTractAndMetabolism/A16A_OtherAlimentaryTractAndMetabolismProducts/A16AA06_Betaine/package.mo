@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts;
+package A16AA06_Betaine
+  extends Icons.Package;
+end A16AA06_Betaine;

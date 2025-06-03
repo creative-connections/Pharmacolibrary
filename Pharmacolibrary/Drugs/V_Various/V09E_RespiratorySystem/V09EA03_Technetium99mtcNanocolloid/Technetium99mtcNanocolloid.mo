@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09E_RespiratorySystem.V09EA03_Technetium99mtcNanocolloid;
+model Technetium99mtcNanocolloid = Pharmacolibrary.Drugs.ATC.V.V09EA03;

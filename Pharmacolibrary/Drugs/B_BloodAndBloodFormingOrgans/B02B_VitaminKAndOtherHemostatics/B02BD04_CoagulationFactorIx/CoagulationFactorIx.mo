@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BD04_CoagulationFactorIx;
+model CoagulationFactorIx = Pharmacolibrary.Drugs.ATC.B.B02BD04;

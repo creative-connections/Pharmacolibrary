@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02C_AntiadrenergicAgentsPeripherallyActing;
+package C02CA04_Doxazosin
+  extends Icons.Package;
+end C02CA04_Doxazosin;

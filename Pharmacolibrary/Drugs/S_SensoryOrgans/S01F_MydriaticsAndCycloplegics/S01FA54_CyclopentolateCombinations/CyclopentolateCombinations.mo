@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01F_MydriaticsAndCycloplegics.S01FA54_CyclopentolateCombinations;
+model CyclopentolateCombinations = Pharmacolibrary.Drugs.ATC.S.S01FA54;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AJ57_OctenidineCombinations;
+model OctenidineCombinations = Pharmacolibrary.Drugs.ATC.D.D08AJ57;

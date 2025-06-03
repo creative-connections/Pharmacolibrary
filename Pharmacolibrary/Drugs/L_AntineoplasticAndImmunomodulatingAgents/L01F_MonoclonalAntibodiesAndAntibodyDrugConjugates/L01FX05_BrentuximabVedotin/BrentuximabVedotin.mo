@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FX05_BrentuximabVedotin;
+model BrentuximabVedotin = Pharmacolibrary.Drugs.ATC.L.L01FX05;

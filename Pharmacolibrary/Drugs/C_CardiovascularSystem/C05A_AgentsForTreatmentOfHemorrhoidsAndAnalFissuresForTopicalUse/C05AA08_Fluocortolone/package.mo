@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse;
+package C05AA08_Fluocortolone
+  extends Icons.Package;
+end C05AA08_Fluocortolone;

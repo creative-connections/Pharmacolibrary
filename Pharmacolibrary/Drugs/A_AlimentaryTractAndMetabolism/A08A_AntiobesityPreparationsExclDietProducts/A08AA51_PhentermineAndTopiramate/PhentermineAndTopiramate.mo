@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A08A_AntiobesityPreparationsExclDietProducts.A08AA51_PhentermineAndTopiramate;
+model PhentermineAndTopiramate = Pharmacolibrary.Drugs.ATC.A.A08AA51;

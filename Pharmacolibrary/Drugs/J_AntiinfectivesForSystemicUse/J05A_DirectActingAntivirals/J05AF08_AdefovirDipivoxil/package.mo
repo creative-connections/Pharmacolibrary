@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
+package J05AF08_AdefovirDipivoxil
+  extends Icons.Package;
+end J05AF08_AdefovirDipivoxil;

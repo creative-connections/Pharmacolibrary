@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
+package A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord
+  extends Icons.Package;
+end A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02A_Antacids.A02AC01_CalciumCarbonate;
+model CalciumCarbonate = Pharmacolibrary.Drugs.ATC.A.A02AC01;

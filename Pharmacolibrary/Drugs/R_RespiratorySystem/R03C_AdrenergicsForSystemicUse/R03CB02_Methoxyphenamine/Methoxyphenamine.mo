@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03C_AdrenergicsForSystemicUse.R03CB02_Methoxyphenamine;
+model Methoxyphenamine = Pharmacolibrary.Drugs.ATC.R.R03CB02;

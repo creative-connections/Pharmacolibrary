@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S02C_CorticosteroidsAndAntiinfectivesInCombination.S02CA06_DexamethasoneAndAntiinfectives;
+model DexamethasoneAndAntiinfectives = Pharmacolibrary.Drugs.ATC.S.S02CA06;

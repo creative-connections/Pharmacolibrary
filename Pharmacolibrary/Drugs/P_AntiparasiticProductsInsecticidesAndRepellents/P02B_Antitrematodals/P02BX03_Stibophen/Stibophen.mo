@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02B_Antitrematodals.P02BX03_Stibophen;
+model Stibophen = Pharmacolibrary.Drugs.ATC.P.P02BX03;

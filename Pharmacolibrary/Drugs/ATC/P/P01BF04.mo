@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.P;
+
+model P01BF04
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.4,
+    Cl             = 0.02,
+    adminDuration  = 600,
+    adminMass      = 0.2,
+    adminCount     = 1,
+    Vd             = 0.0015,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.011666666666666665,
+    Tlag           = 10.200000000000001
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>A fixed-dose antimalarial combination used in the treatment of uncomplicated Plasmodium falciparum malaria. Artesunate is a fast-acting artemisinin derivative; sulfalene is a long-acting sulfonamide; pyrimethamine is a dihydrofolate reductase inhibitor. This combination is approved and used in some malaria-endemic regions.</p><h4>Pharmacokinetics</h4><p>No published population pharmacokinetic model specifically for the fixed-dose combination of artesunate, sulfalene, and pyrimethamine with ATC P01BF04. Parameter estimates are approximated from component data (adults, oral administration, healthy or malaria-infected subjects).</p><h4>References</h4><ol><li> There is no published pharmacokinetic model for the fixed combination under ATC P01BF04. Values above are rough estimates derived from individual component PK in published studies (e.g., artesunate: Vd ~1.5 L/kg, CL ~1–1.5 L/h/kg, ka ~0.7 1/h, F ~0.4; sulfalene: Vd >20 L/kg, CL ~0.03 L/h/kg; pyrimethamine: Vd ~2–7 L/kg, CL ~0.04 L/h/kg). These estimates are averaged to reflect the combination but are not specific to combination therapy PK or possible PK interactions.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end P01BF04;

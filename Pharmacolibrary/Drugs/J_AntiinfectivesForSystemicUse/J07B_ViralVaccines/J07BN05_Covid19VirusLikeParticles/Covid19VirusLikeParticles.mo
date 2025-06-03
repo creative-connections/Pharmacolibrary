@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BN05_Covid19VirusLikeParticles;
+model Covid19VirusLikeParticles = Pharmacolibrary.Drugs.ATC.J.J07BN05;

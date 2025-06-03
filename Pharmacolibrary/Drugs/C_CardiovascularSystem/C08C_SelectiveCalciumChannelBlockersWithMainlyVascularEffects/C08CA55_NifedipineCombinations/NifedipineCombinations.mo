@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08C_SelectiveCalciumChannelBlockersWithMainlyVascularEffects.C08CA55_NifedipineCombinations;
+model NifedipineCombinations = Pharmacolibrary.Drugs.ATC.C.C08CA55;

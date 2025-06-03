@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12B_Potassium.A12BA51_PotassiumChlorideCombinations;
+model PotassiumChlorideCombinations = Pharmacolibrary.Drugs.ATC.A.A12BA51;

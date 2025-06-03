@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EJ04_Momelotinib;
+model Momelotinib = Pharmacolibrary.Drugs.ATC.L.L01EJ04;

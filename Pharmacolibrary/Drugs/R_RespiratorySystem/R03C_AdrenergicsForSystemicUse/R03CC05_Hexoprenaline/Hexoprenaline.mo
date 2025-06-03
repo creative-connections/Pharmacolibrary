@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03C_AdrenergicsForSystemicUse.R03CC05_Hexoprenaline;
+model Hexoprenaline = Pharmacolibrary.Drugs.ATC.R.R03CC05;

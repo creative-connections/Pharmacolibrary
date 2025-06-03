@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AH04_Naloxone;
+model Naloxone_2 = Pharmacolibrary.Drugs.ATC.A.A06AH04_2;

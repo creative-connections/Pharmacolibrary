@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations.C10BX13_RosuvastatinPerindoprilAndIndapamide;
+model RosuvastatinPerindoprilAndIndapamide = Pharmacolibrary.Drugs.ATC.C.C10BX13;

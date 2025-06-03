@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants;
+package D08AG04_Diiodohydroxypropane
+  extends Icons.Package;
+end D08AG04_Diiodohydroxypropane;

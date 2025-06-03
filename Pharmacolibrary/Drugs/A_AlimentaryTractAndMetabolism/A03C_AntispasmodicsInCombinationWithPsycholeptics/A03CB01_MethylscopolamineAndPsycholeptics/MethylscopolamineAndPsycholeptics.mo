@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03C_AntispasmodicsInCombinationWithPsycholeptics.A03CB01_MethylscopolamineAndPsycholeptics;
+model MethylscopolamineAndPsycholeptics = Pharmacolibrary.Drugs.ATC.A.A03CB01;

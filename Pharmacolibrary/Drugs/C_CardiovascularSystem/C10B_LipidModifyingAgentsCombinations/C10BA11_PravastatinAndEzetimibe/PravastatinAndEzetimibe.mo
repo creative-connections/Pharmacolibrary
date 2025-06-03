@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations.C10BA11_PravastatinAndEzetimibe;
+model PravastatinAndEzetimibe = Pharmacolibrary.Drugs.ATC.C.C10BA11;

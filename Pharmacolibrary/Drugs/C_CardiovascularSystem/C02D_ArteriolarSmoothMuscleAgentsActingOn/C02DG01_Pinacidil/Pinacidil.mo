@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02D_ArteriolarSmoothMuscleAgentsActingOn.C02DG01_Pinacidil;
+model Pinacidil = Pharmacolibrary.Drugs.ATC.C.C02DG01;

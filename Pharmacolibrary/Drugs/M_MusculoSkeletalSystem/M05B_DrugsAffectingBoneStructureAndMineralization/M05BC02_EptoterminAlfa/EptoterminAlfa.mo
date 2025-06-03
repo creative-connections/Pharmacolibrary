@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization.M05BC02_EptoterminAlfa;
+model EptoterminAlfa = Pharmacolibrary.Drugs.ATC.M.M05BC02;

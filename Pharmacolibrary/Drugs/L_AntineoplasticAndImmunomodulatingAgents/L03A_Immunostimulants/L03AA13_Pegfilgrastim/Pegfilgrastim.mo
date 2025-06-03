@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AA13_Pegfilgrastim;
+model Pegfilgrastim = Pharmacolibrary.Drugs.ATC.L.L03AA13;

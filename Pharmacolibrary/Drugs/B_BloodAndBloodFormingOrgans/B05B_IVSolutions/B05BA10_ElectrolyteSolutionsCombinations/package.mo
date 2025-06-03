@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05B_IVSolutions;
+package B05BA10_ElectrolyteSolutionsCombinations
+  extends Icons.Package;
+end B05BA10_ElectrolyteSolutionsCombinations;

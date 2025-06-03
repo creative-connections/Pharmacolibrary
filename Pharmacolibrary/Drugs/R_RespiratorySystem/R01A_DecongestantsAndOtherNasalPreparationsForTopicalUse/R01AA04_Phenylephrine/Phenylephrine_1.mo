@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AA04_Phenylephrine;
+model Phenylephrine_1 = Pharmacolibrary.Drugs.ATC.R.R01AA04_1;

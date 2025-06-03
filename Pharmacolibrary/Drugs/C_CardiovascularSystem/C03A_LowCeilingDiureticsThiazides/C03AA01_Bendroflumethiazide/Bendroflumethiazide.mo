@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03A_LowCeilingDiureticsThiazides.C03AA01_Bendroflumethiazide;
+model Bendroflumethiazide = Pharmacolibrary.Drugs.ATC.C.C03AA01;

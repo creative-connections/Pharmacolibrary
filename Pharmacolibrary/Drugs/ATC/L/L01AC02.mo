@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.L;
+
+model L01AC02
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1.0,
+    Cl             = 0.25,
+    adminDuration  = 600,
+    adminMass      = 0.1,
+    adminCount     = 1,
+    Vd             = 0.02,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Triaziquone is an alkylating agent and a polyfunctional aziridine derivative. It was formerly investigated as an antineoplastic (anticancer) agent primarily for the treatment of various malignancies, including leukemia, lymphomas, and solid tumors. Its use is now largely obsolete, and it is not an approved or commonly used anticancer agent today.</p><h4>Pharmacokinetics</h4><p>No published human pharmacokinetic (PK) parameters for triaziquone could be identified in the scientific literature for any population, sex, or age group.</p><h4>References</h4><ol><li> There is no available pharmacokinetic data in the published biomedical literature specifically for triaziquone. All values are conservative estimates made by analogy to other nitrogen mustard or polyaziridine alkylating agents (such as thiotepa or altretamine) in adults and intended only for hypothetical modeling purposes. No primary human or animal PK study reference exists.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end L01AC02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03C_MuscleRelaxantsDirectlyActingAgents.M03CA01_Dantrolene;
+model Dantrolene_1 = Pharmacolibrary.Drugs.ATC.M.M03CA01_1;

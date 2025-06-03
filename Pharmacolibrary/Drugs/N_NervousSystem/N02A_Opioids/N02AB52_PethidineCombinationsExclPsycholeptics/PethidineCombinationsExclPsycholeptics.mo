@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids.N02AB52_PethidineCombinationsExclPsycholeptics;
+model PethidineCombinationsExclPsycholeptics = Pharmacolibrary.Drugs.ATC.N.N02AB52;

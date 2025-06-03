@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives.B05XA15_PotassiumLactate;
+model PotassiumLactate = Pharmacolibrary.Drugs.ATC.B.B05XA15;

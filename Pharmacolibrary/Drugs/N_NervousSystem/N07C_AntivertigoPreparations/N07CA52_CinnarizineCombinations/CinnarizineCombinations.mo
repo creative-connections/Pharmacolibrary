@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N07C_AntivertigoPreparations.N07CA52_CinnarizineCombinations;
+model CinnarizineCombinations = Pharmacolibrary.Drugs.ATC.N.N07CA52;

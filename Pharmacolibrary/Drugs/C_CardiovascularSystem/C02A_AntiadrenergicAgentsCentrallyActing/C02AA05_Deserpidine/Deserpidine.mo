@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02A_AntiadrenergicAgentsCentrallyActing.C02AA05_Deserpidine;
+model Deserpidine = Pharmacolibrary.Drugs.ATC.C.C02AA05;

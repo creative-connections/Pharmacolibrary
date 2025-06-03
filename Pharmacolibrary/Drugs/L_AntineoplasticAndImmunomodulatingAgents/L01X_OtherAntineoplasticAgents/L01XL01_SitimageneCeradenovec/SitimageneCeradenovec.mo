@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XL01_SitimageneCeradenovec;
+model SitimageneCeradenovec = Pharmacolibrary.Drugs.ATC.L.L01XL01;

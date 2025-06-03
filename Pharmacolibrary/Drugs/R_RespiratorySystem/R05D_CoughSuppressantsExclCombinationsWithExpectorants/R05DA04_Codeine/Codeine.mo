@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants.R05DA04_Codeine;
+model Codeine = Pharmacolibrary.Drugs.ATC.R.R05DA04;

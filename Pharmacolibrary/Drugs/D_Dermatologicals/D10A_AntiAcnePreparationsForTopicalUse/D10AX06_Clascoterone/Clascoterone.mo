@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse.D10AX06_Clascoterone;
+model Clascoterone = Pharmacolibrary.Drugs.ATC.D.D10AX06;

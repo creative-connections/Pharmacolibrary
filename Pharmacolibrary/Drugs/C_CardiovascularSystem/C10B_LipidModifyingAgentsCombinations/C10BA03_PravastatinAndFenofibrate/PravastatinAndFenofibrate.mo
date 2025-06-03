@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations.C10BA03_PravastatinAndFenofibrate;
+model PravastatinAndFenofibrate = Pharmacolibrary.Drugs.ATC.C.C10BA03;

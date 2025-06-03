@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord;
+package A02BB01_Misoprostol
+  extends Icons.Package;
+end A02BB01_Misoprostol;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12C_OtherMineralSupplements.A12CC05_MagnesiumAspartate;
+model MagnesiumAspartate = Pharmacolibrary.Drugs.ATC.A.A12CC05;

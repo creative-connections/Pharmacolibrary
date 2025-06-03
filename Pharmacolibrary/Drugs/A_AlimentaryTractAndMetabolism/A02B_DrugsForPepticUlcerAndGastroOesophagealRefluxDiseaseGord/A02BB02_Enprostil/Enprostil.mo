@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BB02_Enprostil;
+model Enprostil = Pharmacolibrary.Drugs.ATC.A.A02BB02;

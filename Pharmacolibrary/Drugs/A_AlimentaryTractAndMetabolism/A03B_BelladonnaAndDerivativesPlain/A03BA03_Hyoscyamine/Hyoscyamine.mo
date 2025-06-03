@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03B_BelladonnaAndDerivativesPlain.A03BA03_Hyoscyamine;
+model Hyoscyamine = Pharmacolibrary.Drugs.ATC.A.A03BA03;

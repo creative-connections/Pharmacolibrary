@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04C_DrugsUsedInBenignProstaticHypertrophy.G04CB01_Finasteride;
+model Finasteride = Pharmacolibrary.Drugs.ATC.G.G04CB01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02A_HormonesAndRelatedAgents.L02AB03_Gestonorone;
+model Gestonorone = Pharmacolibrary.Drugs.ATC.L.L02AB03;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N03A_Antiepileptics.N03AB03_AminoDiphenylhydantoinValericAcid;
+model AminoDiphenylhydantoinValericAcid = Pharmacolibrary.Drugs.ATC.N.N03AB03;

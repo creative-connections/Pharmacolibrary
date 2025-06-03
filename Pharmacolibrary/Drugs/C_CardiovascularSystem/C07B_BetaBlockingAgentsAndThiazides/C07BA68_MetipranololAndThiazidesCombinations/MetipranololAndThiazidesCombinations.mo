@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07B_BetaBlockingAgentsAndThiazides.C07BA68_MetipranololAndThiazidesCombinations;
+model MetipranololAndThiazidesCombinations = Pharmacolibrary.Drugs.ATC.C.C07BA68;

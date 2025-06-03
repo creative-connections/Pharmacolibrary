@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents.M03BX05_Thiocolchicoside;
+model Thiocolchicoside = Pharmacolibrary.Drugs.ATC.M.M03BX05;

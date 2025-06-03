@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AX11_Hydroquinone;
+model Hydroquinone = Pharmacolibrary.Drugs.ATC.D.D11AX11;

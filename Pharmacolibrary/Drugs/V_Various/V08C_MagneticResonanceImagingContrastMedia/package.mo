@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various;
+package V08C_MagneticResonanceImagingContrastMedia
+  extends Icons.Package;
+end V08C_MagneticResonanceImagingContrastMedia;

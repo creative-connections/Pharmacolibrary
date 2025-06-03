@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.J;
+
+model J01CA14
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.4,
+    Cl             = 1.5,
+    adminDuration  = 600,
+    adminMass      = 0.5,
+    adminCount     = 1,
+    Vd             = 0.0002,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.025,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Metampicillin is a semisynthetic penicillin antibiotic, formerly used to treat various bacterial infections. It is a prodrug of ampicillin, rapidly hydrolyzed to the active form in body fluids. Metampicillin is not widely used today and is considered obsolete in most countries, having been largely replaced by other beta-lactam antibiotics.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters are not well-documented in the published literature for metampicillin. The following parameters are estimated based on general properties of ampicillin and related penicillin antibiotics in adults with normal renal function.</p><h4>References</h4><ol><li> No primary pharmacokinetic publications for metampicillin were identified. Values are estimated from literature on ampicillin and prodrug behavior; all numbers are approximations for adult populations with normal renal function. No dosing recommendations or PK models based on direct clinical studies found.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end J01CA14;

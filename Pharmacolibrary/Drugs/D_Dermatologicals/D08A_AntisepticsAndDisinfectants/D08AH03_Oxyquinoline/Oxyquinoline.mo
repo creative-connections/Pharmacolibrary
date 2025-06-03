@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AH03_Oxyquinoline;
+model Oxyquinoline = Pharmacolibrary.Drugs.ATC.D.D08AH03;

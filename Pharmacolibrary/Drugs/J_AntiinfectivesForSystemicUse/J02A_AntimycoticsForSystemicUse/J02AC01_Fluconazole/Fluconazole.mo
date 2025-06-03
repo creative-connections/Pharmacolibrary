@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse.J02AC01_Fluconazole;
+model Fluconazole = Pharmacolibrary.Drugs.ATC.J.J02AC01;

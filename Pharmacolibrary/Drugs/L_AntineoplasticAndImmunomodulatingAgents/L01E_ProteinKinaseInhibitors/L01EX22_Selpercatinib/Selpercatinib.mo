@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EX22_Selpercatinib;
+model Selpercatinib = Pharmacolibrary.Drugs.ATC.L.L01EX22;

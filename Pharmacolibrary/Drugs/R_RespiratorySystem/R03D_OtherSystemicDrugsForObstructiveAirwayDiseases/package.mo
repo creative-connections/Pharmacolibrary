@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem;
+package R03D_OtherSystemicDrugsForObstructiveAirwayDiseases
+  extends Icons.Package;
+end R03D_OtherSystemicDrugsForObstructiveAirwayDiseases;

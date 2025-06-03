@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem;
+package M09AB01_Chymopapain
+  extends Icons.Package;
+end M09AB01_Chymopapain;

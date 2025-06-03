@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08C_SelectiveCalciumChannelBlockersWithMainlyVascularEffects.C08CA04_Nicardipine;
+model Nicardipine = Pharmacolibrary.Drugs.ATC.C.C08CA04;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FE01_Cetuximab;
+model Cetuximab = Pharmacolibrary.Drugs.ATC.L.L01FE01;

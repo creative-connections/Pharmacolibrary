@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07A_CorticosteroidsPlain.D07AB02_HydrocortisoneButyrate;
+model HydrocortisoneButyrate = Pharmacolibrary.Drugs.ATC.D.D07AB02;

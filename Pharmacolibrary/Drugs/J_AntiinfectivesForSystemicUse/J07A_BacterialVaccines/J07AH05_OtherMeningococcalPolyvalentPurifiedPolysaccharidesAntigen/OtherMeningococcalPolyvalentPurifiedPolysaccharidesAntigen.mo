@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AH05_OtherMeningococcalPolyvalentPurifiedPolysaccharidesAntigen;
+model OtherMeningococcalPolyvalentPurifiedPolysaccharidesAntigen = Pharmacolibrary.Drugs.ATC.J.J07AH05;

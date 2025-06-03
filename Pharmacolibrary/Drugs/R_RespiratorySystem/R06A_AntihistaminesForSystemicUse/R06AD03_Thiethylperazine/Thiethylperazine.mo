@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AD03_Thiethylperazine;
+model Thiethylperazine = Pharmacolibrary.Drugs.ATC.R.R06AD03;

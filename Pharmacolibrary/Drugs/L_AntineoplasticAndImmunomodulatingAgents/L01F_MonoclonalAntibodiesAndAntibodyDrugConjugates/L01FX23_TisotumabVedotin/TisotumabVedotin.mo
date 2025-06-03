@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FX23_TisotumabVedotin;
+model TisotumabVedotin = Pharmacolibrary.Drugs.ATC.L.L01FX23;

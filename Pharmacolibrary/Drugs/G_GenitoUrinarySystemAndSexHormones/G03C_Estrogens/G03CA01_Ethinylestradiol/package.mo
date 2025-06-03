@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03C_Estrogens;
+package G03CA01_Ethinylestradiol
+  extends Icons.Package;
+end G03CA01_Ethinylestradiol;

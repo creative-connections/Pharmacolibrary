@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BC07_Collagen;
+model Collagen = Pharmacolibrary.Drugs.ATC.B.B02BC07;

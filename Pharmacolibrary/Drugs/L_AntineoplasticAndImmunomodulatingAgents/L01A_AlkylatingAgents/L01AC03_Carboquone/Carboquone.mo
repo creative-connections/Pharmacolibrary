@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents.L01AC03_Carboquone;
+model Carboquone = Pharmacolibrary.Drugs.ATC.L.L01AC03;

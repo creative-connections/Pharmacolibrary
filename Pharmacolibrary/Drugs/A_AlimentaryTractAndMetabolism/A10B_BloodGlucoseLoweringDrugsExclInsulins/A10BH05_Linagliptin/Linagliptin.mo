@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BH05_Linagliptin;
+model Linagliptin = Pharmacolibrary.Drugs.ATC.A.A10BH05;

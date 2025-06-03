@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11G_AscorbicAcidVitaminCInclCombinations;
+package A11GB01_AscorbicAcidVitCAndCalcium
+  extends Icons.Package;
+end A11GB01_AscorbicAcidVitCAndCalcium;

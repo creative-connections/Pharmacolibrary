@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02C_OtherGynecologicals.G02CX06_Fezolinetant;
+model Fezolinetant = Pharmacolibrary.Drugs.ATC.G.G02CX06;

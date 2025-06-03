@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07F_BetaBlockingAgentsOtherCombinations.C07FX04_BisoprololAndAcetylsalicylicAcid;
+model BisoprololAndAcetylsalicylicAcid = Pharmacolibrary.Drugs.ATC.C.C07FX04;

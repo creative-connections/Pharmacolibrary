@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection.V09IX09_Gallium68gaEdotreotide;
+model Gallium68gaEdotreotide = Pharmacolibrary.Drugs.ATC.V.V09IX09;

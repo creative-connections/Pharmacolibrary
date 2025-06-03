@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AF08_AdefovirDipivoxil;
+model AdefovirDipivoxil = Pharmacolibrary.Drugs.ATC.J.J05AF08;

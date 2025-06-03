@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives.B05XA01_PotassiumChloride;
+model PotassiumChloride = Pharmacolibrary.Drugs.ATC.B.B05XA01;

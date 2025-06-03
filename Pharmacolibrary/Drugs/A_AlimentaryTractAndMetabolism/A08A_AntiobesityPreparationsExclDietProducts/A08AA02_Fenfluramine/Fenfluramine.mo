@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A08A_AntiobesityPreparationsExclDietProducts.A08AA02_Fenfluramine;
+model Fenfluramine = Pharmacolibrary.Drugs.ATC.A.A08AA02;

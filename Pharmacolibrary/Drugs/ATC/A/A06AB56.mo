@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.A;
+
+model A06AB56
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.2,
+    Cl             = 0.08333333333333333,
+    adminDuration  = 600,
+    adminMass      = 0.015,
+    adminCount     = 1,
+    Vd             = 0.05,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0008333333333333334,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Senna glycosides, often used in combination with other agents, are stimulant laxatives primarily indicated for the short-term treatment of constipation. They are herbal preparations containing sennosides derived from Senna plants. Senna glycosides are approved and widely used today for bowel evacuation prior to diagnostic procedures and for relief of occasional constipation.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic models with explicit parameters for senna glycosides combinations (ATC A06AB56) identified in literature as of 2024. The values below are rough estimates based on known pharmacokinetic properties of senna glycosides and general characteristics reported for similar laxative agents in healthy adult volunteers.</p><h4>References</h4><ol><li> No direct pharmacokinetic data for senna glycosides combinations (ATC A06AB56) found in databases or literature as of 2024. Parameters provided are rough estimates based on published knowledge of senna glycosides, their delayed absorption (due to colonic bacterial hydrolysis), and comparable agents. Values may differ significantly depending on formulation and study population.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end A06AB56;

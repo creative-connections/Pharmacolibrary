@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.G;
+
+model G01AF16
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.05,
+    Cl             = 0.008333333333333333,
+    adminDuration  = 600,
+    adminMass      = 0.03,
+    adminCount     = 1,
+    Vd             = 0.01,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Omoconazole is an imidazole-class antifungal agent used topically for the treatment of dermatological and vaginal yeast infections, such as vulvovaginal candidiasis. It acts primarily by inhibiting the synthesis of ergosterol, an essential component of fungal cell membranes. Omoconazole is approved and in use in certain countries, though it is less widely available globally compared to other azole antifungals.</p><h4>Pharmacokinetics</h4><p>No pharmacokinetic (PK) parameters for omoconazole in humans were found in existing literature. The PK parameters below are estimated based on class-typical topical azole antifungals, assuming adult female vaginal administration.</p><h4>References</h4><ol><li> No published clinical pharmacokinetic studies or data were found for omoconazole in humans (PubMed, clinicaltrials.gov, EMA and FDA documents, last reviewed June 2024). The above PK values are inferred estimates based on typical properties of similar topical imidazole antifungals (e.g., miconazole, clotrimazole), and should be interpreted with caution for reference only.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end G01AF16;

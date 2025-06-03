@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AD11_Tenecteplase;
+model Tenecteplase = Pharmacolibrary.Drugs.ATC.B.B01AD11;

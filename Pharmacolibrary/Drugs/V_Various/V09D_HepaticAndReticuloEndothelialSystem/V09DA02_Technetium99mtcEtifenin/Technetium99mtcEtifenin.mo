@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09D_HepaticAndReticuloEndothelialSystem.V09DA02_Technetium99mtcEtifenin;
+model Technetium99mtcEtifenin = Pharmacolibrary.Drugs.ATC.V.V09DA02;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.J;
+
+model J07BF04
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0,
+    Cl             = 0.0,
+    adminDuration  = 600,
+    adminMass      = 0.002,
+    adminCount     = 1,
+    Vd             = 0,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>The bivalent oral polio vaccine (bOPV) contains live attenuated poliovirus types 1 and 3. It is primarily used for immunization against poliomyelitis in children, and is an important part of the global eradication initiative. The vaccine prompts immune response in the gut and is usually administered orally. It is approved for use in many countries, especially those still at risk of wild-type virus transmission or with ongoing eradication programs.</p><h4>Pharmacokinetics</h4><p>There are no published studies with detailed pharmacokinetic parameters for live attenuated bivalent oral poliomyelitis vaccine in humans, as it is a biologic vaccine acting at mucosal surfaces and systemic absorption is not meaningful. Standard pharmacokinetic parameters such as bioavailability, clearance, or volume of distribution are generally not applied for live vaccines.</p><h4>References</h4><ol><li> No published pharmacokinetic (PK) studies or parameters exist for oral bivalent live attenuated poliovirus vaccine. Live vaccines act locally on gut mucosa to induce immunity—systemic exposure and conventional PK concepts such as absorption, clearance, and volume of distribution do not apply. Estimates above (dose, Tlag) are based on typical administration and conventions, not measured PK parameters.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end J07BF04;

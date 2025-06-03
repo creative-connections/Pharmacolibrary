@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11C_VitaminAAndDInclCombinationsOfTheTwo.A11CC04_Calcitriol;
+model Calcitriol = Pharmacolibrary.Drugs.ATC.A.A11CC04;

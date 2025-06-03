@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts.L01CA06_Vintafolide;
+model Vintafolide = Pharmacolibrary.Drugs.ATC.L.L01CA06;

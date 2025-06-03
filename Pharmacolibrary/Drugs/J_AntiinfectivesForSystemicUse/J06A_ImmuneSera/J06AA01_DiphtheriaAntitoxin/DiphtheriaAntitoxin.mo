@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J06A_ImmuneSera.J06AA01_DiphtheriaAntitoxin;
+model DiphtheriaAntitoxin = Pharmacolibrary.Drugs.ATC.J.J06AA01;

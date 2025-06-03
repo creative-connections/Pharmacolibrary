@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03X_OtherSexHormonesAndModulatorsOfTheGenitalSystem;
+package G03XB01_Mifepristone
+  extends Icons.Package;
+end G03XB01_Mifepristone;

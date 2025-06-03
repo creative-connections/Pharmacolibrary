@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B06A_OtherHematologicalAgents.B06AA02_FibrinolysinAndDesoxyribonuclease;
+model FibrinolysinAndDesoxyribonuclease = Pharmacolibrary.Drugs.ATC.B.B06AA02;

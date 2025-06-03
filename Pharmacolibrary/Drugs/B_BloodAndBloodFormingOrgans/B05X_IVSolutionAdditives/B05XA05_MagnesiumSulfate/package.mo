@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives;
+package B05XA05_MagnesiumSulfate
+  extends Icons.Package;
+end B05XA05_MagnesiumSulfate;

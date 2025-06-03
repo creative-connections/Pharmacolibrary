@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02B_HormoneAntagonistsAndRelatedAgents.L02BX03_Abiraterone;
+model Abiraterone = Pharmacolibrary.Drugs.ATC.L.L02BX03;

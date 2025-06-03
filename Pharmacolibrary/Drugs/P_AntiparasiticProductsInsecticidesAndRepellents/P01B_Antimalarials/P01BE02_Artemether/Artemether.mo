@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials.P01BE02_Artemether;
+model Artemether = Pharmacolibrary.Drugs.ATC.P.P01BE02;

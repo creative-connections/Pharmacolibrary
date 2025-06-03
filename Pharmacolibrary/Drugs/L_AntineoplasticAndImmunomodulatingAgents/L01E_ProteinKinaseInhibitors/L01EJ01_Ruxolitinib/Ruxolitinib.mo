@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EJ01_Ruxolitinib;
+model Ruxolitinib = Pharmacolibrary.Drugs.ATC.L.L01EJ01;

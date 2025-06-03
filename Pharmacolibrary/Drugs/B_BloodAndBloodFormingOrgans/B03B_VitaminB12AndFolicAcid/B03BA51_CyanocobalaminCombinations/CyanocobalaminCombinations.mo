@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03B_VitaminB12AndFolicAcid.B03BA51_CyanocobalaminCombinations;
+model CyanocobalaminCombinations = Pharmacolibrary.Drugs.ATC.B.B03BA51;

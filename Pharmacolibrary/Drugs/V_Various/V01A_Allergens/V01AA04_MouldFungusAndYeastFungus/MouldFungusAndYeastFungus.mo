@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V01A_Allergens.V01AA04_MouldFungusAndYeastFungus;
+model MouldFungusAndYeastFungus = Pharmacolibrary.Drugs.ATC.V.V01AA04;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03B_AntithyroidPreparations.H03BB02_Thiamazole;
+model Thiamazole = Pharmacolibrary.Drugs.ATC.H.H03BB02;

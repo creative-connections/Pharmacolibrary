@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants.R05DB16_Dibunate;
+model Dibunate = Pharmacolibrary.Drugs.ATC.R.R05DB16;

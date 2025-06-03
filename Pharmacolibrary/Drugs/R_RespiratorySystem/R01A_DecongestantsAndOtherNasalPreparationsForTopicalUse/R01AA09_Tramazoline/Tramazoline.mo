@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AA09_Tramazoline;
+model Tramazoline = Pharmacolibrary.Drugs.ATC.R.R01AA09;

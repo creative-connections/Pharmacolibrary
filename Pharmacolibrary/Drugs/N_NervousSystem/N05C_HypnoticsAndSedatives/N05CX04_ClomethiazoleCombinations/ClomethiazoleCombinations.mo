@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N05C_HypnoticsAndSedatives.N05CX04_ClomethiazoleCombinations;
+model ClomethiazoleCombinations = Pharmacolibrary.Drugs.ATC.N.N05CX04;

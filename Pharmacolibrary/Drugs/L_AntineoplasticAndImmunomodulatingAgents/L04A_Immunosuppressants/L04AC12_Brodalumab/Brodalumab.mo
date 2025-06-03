@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AC12_Brodalumab;
+model Brodalumab = Pharmacolibrary.Drugs.ATC.L.L04AC12;

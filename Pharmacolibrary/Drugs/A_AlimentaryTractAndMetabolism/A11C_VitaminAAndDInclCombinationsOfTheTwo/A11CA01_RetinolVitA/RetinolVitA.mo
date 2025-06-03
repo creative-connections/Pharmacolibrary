@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11C_VitaminAAndDInclCombinationsOfTheTwo.A11CA01_RetinolVitA;
+model RetinolVitA = Pharmacolibrary.Drugs.ATC.A.A11CA01;

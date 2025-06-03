@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01EE04_SulfamoxoleAndTrimethoprim;
+model SulfamoxoleAndTrimethoprim = Pharmacolibrary.Drugs.ATC.J.J01EE04;

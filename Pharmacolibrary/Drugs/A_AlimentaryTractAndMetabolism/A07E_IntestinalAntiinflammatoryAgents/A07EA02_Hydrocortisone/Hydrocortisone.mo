@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07E_IntestinalAntiinflammatoryAgents.A07EA02_Hydrocortisone;
+model Hydrocortisone = Pharmacolibrary.Drugs.ATC.A.A07EA02;

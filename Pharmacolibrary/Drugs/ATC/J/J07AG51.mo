@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.J;
+
+model J07AG51
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.0033333333333333335,
+    adminDuration  = 600,
+    adminMass      = 0.0005,
+    adminCount     = 1,
+    Vd             = 0.003,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Vaccines containing Haemophilus influenzae type B polysaccharide conjugated to a protein carrier (such as diphtheria or tetanus toxoid), used for prevention of invasive diseases (e.g., meningitis, pneumonia, epiglottitis) caused by Haemophilus influenzae type B. This vaccine is commonly administered in childhood immunization schedules and is approved and in use in many countries.</p><h4>Pharmacokinetics</h4><p>No published studies reporting quantitative pharmacokinetic (PK) parameters for Haemophilus influenzae B conjugate vaccine. As with most protein conjugate vaccines, detailed PK modeling is uncommon since the immunogenic effect, not systemic concentration of drug, is monitored. Most vaccines are assumed to follow simple absorption and elimination after intramuscular administration in healthy pediatric populations.</p><h4>References</h4><ol><li> No specific pharmacokinetic studies on Hib conjugate vaccine (ATC J07AG51) found. All values (volume of distribution, clearance) are estimated based on typical distribution and elimination of large protein antigens after intramuscular administration in children. Detailed systemic PK is rarely relevant for vaccines since immunogenicity is the main outcome; cited values are illustrative and not from a primary source.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end J07AG51;

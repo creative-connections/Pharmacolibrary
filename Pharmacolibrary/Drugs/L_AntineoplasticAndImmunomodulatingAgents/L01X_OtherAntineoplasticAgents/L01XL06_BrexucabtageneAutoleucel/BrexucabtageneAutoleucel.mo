@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XL06_BrexucabtageneAutoleucel;
+model BrexucabtageneAutoleucel = Pharmacolibrary.Drugs.ATC.L.L01XL06;

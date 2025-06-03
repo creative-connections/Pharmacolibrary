@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins.J01CE30_PhenoxymethylpenicillinAndSulfonamidesCombinations;
+model PhenoxymethylpenicillinAndSulfonamidesCombinations = Pharmacolibrary.Drugs.ATC.J.J01CE30;

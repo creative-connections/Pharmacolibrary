@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03D_Progestogens.G03DA01_Gestonorone;
+model Gestonorone = Pharmacolibrary.Drugs.ATC.G.G03DA01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BX02_Carbazochrome;
+model Carbazochrome = Pharmacolibrary.Drugs.ATC.B.B02BX02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M04A_AntigoutPreparations.M04AB04_Isobromindione;
+model Isobromindione = Pharmacolibrary.Drugs.ATC.M.M04AB04;

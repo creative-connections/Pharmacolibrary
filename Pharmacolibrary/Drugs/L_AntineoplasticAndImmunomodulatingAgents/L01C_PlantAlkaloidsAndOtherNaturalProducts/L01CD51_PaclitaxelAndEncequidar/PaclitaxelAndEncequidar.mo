@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts.L01CD51_PaclitaxelAndEncequidar;
+model PaclitaxelAndEncequidar = Pharmacolibrary.Drugs.ATC.L.L01CD51;

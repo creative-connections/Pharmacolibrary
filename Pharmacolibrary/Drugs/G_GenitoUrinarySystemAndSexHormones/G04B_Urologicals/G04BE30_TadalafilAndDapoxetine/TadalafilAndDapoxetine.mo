@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04B_Urologicals.G04BE30_TadalafilAndDapoxetine;
+model TadalafilAndDapoxetine = Pharmacolibrary.Drugs.ATC.G.G04BE30;

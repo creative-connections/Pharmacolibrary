@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins;
+package H02C_AntiadrenalPreparations
+  extends Icons.Package;
+end H02C_AntiadrenalPreparations;

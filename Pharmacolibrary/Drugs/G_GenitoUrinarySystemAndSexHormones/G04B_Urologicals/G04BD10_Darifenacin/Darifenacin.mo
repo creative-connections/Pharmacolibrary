@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04B_Urologicals.G04BD10_Darifenacin;
+model Darifenacin = Pharmacolibrary.Drugs.ATC.G.G04BD10;

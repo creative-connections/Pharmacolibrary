@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D05A_AntipsoriaticsForTopicalUse.D05AX52_CalcipotriolCombinations;
+model CalcipotriolCombinations = Pharmacolibrary.Drugs.ATC.D.D05AX52;

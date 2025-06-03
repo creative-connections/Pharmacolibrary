@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids;
+package G01AX11_PovidoneIodine
+  extends Icons.Package;
+end G01AX11_PovidoneIodine;

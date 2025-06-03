@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01B_PosteriorPituitaryLobeHormones.H01BA01_VasopressinArgipressin;
+model VasopressinArgipressin = Pharmacolibrary.Drugs.ATC.H.H01BA01;

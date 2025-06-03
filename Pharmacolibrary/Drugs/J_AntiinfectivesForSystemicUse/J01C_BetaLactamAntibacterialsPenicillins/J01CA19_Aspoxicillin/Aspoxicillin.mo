@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins.J01CA19_Aspoxicillin;
+model Aspoxicillin = Pharmacolibrary.Drugs.ATC.J.J01CA19;

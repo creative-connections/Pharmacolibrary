@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08G_CalciumChannelBlockersAndDiuretics.C08GA02_AmlodipineAndDiuretics;
+model AmlodipineAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C08GA02;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.C;
+
+model C03BB07
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.7,
+    Cl             = 0.13333333333333333,
+    adminDuration  = 600,
+    adminMass      = 0.1,
+    adminCount     = 1,
+    Vd             = 0.01,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0005,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Clofenamide and potassium is a combination drug consisting of clofenamide, a sulfonamide-derived diuretic (thiazide-like) with antihypertensive and diuretic properties, and potassium, typically used to prevent potassium loss associated with thiazide diuretics. It was formerly used for the treatment of hypertension and edema but is no longer widely approved or commonly used.</p><h4>Pharmacokinetics</h4><p>No specific pharmacokinetic study or published data available for clofenamide and potassium combination. Pharmacokinetic parameters estimated based on properties of thiazide-type diuretics. Parameters represent typical adult values for oral administration.</p><h4>References</h4><ol><li> No published pharmacokinetic studies found for clofenamide and potassium combination or for clofenamide alone; all values are estimated based on the pharmacokinetics of typical thiazide diuretics and clinical dosing patterns. Parameters should be interpreted as rough estimates.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end C03BB07;

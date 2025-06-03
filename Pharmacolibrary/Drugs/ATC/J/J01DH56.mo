@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.J;
+
+model J01DH56
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.16583333333333333,
+    adminDuration  = 600,
+    adminMass      = 0.5,
+    adminCount     = 1,
+    Vd             = 0.0165,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Imipenem, cilastatin and relebactam is a fixed-dose combination antibiotic used for the treatment of complicated urinary tract infections, complicated intra-abdominal infections, and hospital-acquired or ventilator-associated bacterial pneumonia in adult patients. Imipenem is a carbapenem antibiotic, cilastatin is a renal dehydropeptidase inhibitor that prevents the degradation of imipenem, and relebactam is a beta-lactamase inhibitor that broadens the antibiotic spectrum. The combination is approved and in current clinical use.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters observed in healthy adult subjects following single intravenous dose administration. Based on published population pharmacokinetic analysis.</p><h4>References</h4><ol><li><a href='https://dx.doi.org/10.1093/jac/dkaa015'>10.1093/jac/dkaa015</a> Pharmacokinetic parameters taken from the publication 'Population pharmacokinetics and dosing of relebactam, a β-lactamase inhibitor, in combination with imipenem and cilastatin in healthy volunteers and patients with bacterial infections' (J Antimicrob Chemother. 2020 Apr 1;75(4):775-783). Parameters are for imipenem. Parameters for cilastatin and relebactam are similar in two-compartmental structure but may have different numerical values.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end J01DH56;

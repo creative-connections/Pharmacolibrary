@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01EC01_Acetazolamide;
+model Acetazolamide = Pharmacolibrary.Drugs.ATC.S.S01EC01;

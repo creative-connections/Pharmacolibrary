@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AJ03_Dolutegravir;
+model Dolutegravir = Pharmacolibrary.Drugs.ATC.J.J05AJ03;

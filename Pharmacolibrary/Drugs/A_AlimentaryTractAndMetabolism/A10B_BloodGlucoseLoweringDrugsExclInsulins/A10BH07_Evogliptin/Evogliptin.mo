@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BH07_Evogliptin;
+model Evogliptin = Pharmacolibrary.Drugs.ATC.A.A10BH07;

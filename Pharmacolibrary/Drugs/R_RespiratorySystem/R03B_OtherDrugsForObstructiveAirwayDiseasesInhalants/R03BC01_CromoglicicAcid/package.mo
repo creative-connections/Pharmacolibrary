@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03B_OtherDrugsForObstructiveAirwayDiseasesInhalants;
+package R03BC01_CromoglicicAcid
+  extends Icons.Package;
+end R03BC01_CromoglicicAcid;

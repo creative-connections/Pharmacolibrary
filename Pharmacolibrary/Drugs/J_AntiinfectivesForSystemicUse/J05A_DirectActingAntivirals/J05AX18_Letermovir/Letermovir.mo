@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AX18_Letermovir;
+model Letermovir = Pharmacolibrary.Drugs.ATC.J.J05AX18;

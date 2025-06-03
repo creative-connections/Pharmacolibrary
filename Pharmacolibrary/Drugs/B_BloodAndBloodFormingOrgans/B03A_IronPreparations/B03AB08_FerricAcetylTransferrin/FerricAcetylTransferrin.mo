@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AB08_FerricAcetylTransferrin;
+model FerricAcetylTransferrin = Pharmacolibrary.Drugs.ATC.B.B03AB08;

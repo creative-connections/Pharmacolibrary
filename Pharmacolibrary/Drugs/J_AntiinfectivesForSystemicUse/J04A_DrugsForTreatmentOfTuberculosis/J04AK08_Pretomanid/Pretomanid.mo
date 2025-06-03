@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis.J04AK08_Pretomanid;
+model Pretomanid = Pharmacolibrary.Drugs.ATC.J.J04AK08;

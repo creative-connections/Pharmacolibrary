@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders.A03AB17_TiemoniumIodide;
+model TiemoniumIodide = Pharmacolibrary.Drugs.ATC.A.A03AB17;

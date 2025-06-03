@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02C_AntiadrenergicAgentsPeripherallyActing.C02CC03_Guanoxan;
+model Guanoxan = Pharmacolibrary.Drugs.ATC.C.C02CC03;

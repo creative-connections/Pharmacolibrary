@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders.A03AX07_Proxazole;
+model Proxazole = Pharmacolibrary.Drugs.ATC.A.A03AX07;

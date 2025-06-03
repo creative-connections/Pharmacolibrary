@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.A;
+
+model A10BX17
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.7,
+    Cl             = 0.06666666666666667,
+    adminDuration  = 600,
+    adminMass      = 0.1,
+    adminCount     = 1,
+    Vd             = 0.05,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0005,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Carfloglitazar is a dual PPAR alpha and gamma agonist developed for the treatment of type 2 diabetes mellitus. It works by improving insulin sensitivity and modulating lipid metabolism. As of 2024, carfloglitazar is not an approved or marketed drug and was primarily investigated in early-phase clinical trials.</p><h4>Pharmacokinetics</h4><p>No published clinical pharmacokinetic studies are available for carfloglitazar in humans. The following parameters are estimated based on typical values for drugs in this class (PPAR agonists) and preclinical information.</p><h4>References</h4><ol><li> No peer-reviewed or published human pharmacokinetic data available as of June 2024; all PK parameters are estimated based on class similarity (other PPAR agonists such as pioglitazone) and preclinical/pharmacological expectations.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end A10BX17;

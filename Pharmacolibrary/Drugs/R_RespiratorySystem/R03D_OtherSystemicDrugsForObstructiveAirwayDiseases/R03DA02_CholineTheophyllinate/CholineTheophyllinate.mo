@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases.R03DA02_CholineTheophyllinate;
+model CholineTheophyllinate = Pharmacolibrary.Drugs.ATC.R.R03DA02;

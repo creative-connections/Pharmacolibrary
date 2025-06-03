@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans;
+package S01C_AntiinflammatoryAgentsAndAntiinfectivesInCombination
+  extends Icons.Package;
+end S01C_AntiinflammatoryAgentsAndAntiinfectivesInCombination;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
+package A07A_IntestinalAntiinfectives
+  extends Icons.Package;
+end A07A_IntestinalAntiinfectives;

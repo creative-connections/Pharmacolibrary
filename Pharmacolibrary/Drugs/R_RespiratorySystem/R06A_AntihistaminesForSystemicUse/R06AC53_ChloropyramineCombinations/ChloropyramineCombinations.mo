@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AC53_ChloropyramineCombinations;
+model ChloropyramineCombinations = Pharmacolibrary.Drugs.ATC.R.R06AC53;

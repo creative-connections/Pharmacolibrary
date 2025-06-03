@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.G;
+
+model G03EA01
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.25,
+    Cl             = 1.0,
+    adminDuration  = 600,
+    adminMass      = 0.005,
+    adminCount     = 1,
+    Vd             = 0.02,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.016666666666666666,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Methyltestosterone and estrogen combination is a hormonal preparation historically used in hormone replacement therapy (HRT) for postmenopausal symptoms. Methyltestosterone is a synthetic androgen, while estrogen (commonly as conjugated estrogens or estradiol) serves as female sex hormone replacement. This combination is rarely used today due to concerns about adverse effects and availability of safer alternatives. In many countries, such fixed combinations are not currently approved.</p><h4>Pharmacokinetics</h4><p>No pharmacokinetic studies reporting population PK parameters for the fixed combination of methyltestosterone and estrogen with ATC code G03EA01 are available in published literature. Below are estimated parameters based on known individual PK properties of methyltestosterone and oral estrogens in healthy adult women.</p><h4>References</h4><ol><li> No published PK model for the combination product found (as of June 2024). PK parameter values are approximate, based on known values for oral methyltestosterone and conjugated estrogen monotherapies in healthy adult women. Estimates serve for modeling or general reference only and should not be used clinically. Sources include general monograph data and review articles without specific DOI for the combination.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end G03EA01;

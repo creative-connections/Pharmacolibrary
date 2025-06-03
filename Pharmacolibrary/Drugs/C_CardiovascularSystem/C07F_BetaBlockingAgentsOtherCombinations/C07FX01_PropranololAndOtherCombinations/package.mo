@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07F_BetaBlockingAgentsOtherCombinations;
+package C07FX01_PropranololAndOtherCombinations
+  extends Icons.Package;
+end C07FX01_PropranololAndOtherCombinations;

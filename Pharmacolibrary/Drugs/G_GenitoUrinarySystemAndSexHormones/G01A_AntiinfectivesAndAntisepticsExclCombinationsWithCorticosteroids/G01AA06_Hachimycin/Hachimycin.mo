@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AA06_Hachimycin;
+model Hachimycin = Pharmacolibrary.Drugs.ATC.G.G01AA06;

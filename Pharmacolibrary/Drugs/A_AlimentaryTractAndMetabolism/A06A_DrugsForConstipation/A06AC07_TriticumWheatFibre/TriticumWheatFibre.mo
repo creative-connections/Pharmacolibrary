@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AC07_TriticumWheatFibre;
+model TriticumWheatFibre = Pharmacolibrary.Drugs.ATC.A.A06AC07;

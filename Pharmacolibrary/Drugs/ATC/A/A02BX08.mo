@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.A;
+
+model A02BX08
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0,
+    Cl             = 0.0,
+    adminDuration  = 600,
+    adminMass      = 0.4,
+    adminCount     = 1,
+    Vd             = 0,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Sulglicotide is a cytoprotective drug formerly used for the treatment of peptic ulcer and other gastrointestinal disorders. It is known for promoting gastric mucosal defense mechanisms. It is not widely approved or used in current clinical practice, having limited registration globally.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters for sulglicotide are poorly characterized in the literature. No published studies with validated, quantifiable pharmacokinetic parameters in humans or animals are available.</p><h4>References</h4><ol><li> There are no pharmacokinetic publications or clinical studies reporting PK parameters for sulglicotide. No values could be reliably estimated. Most information comes from product summaries and narrative reviews without quantitative PK information.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end A02BX08;

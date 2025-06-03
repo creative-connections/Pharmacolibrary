@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DF02_Carumonam;
+model Carumonam = Pharmacolibrary.Drugs.ATC.J.J01DF02;

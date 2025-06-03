@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AX09_HyaluronicAcid;
+model HyaluronicAcid = Pharmacolibrary.Drugs.ATC.R.R01AX09;

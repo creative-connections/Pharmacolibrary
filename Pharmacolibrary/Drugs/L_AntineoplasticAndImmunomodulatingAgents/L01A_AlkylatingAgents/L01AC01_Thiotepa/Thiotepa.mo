@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents.L01AC01_Thiotepa;
+model Thiotepa = Pharmacolibrary.Drugs.ATC.L.L01AC01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AC02_Tenoxicam;
+model Tenoxicam_1 = Pharmacolibrary.Drugs.ATC.M.M01AC02_1;

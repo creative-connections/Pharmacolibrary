@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DX16_Nicorandil;
+model Nicorandil = Pharmacolibrary.Drugs.ATC.C.C01DX16;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03X_OtherAntianemicPreparations;
+package B03XA03_MethoxyPolyethyleneGlycolEpoetinBeta
+  extends Icons.Package;
+end B03XA03_MethoxyPolyethyleneGlycolEpoetinBeta;

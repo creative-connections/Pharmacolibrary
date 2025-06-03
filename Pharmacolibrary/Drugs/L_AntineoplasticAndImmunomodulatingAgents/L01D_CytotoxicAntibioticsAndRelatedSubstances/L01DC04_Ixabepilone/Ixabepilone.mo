@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01D_CytotoxicAntibioticsAndRelatedSubstances.L01DC04_Ixabepilone;
+model Ixabepilone = Pharmacolibrary.Drugs.ATC.L.L01DC04;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03B_OtherDrugsForObstructiveAirwayDiseasesInhalants.R03BA06_Triamcinolone;
+model Triamcinolone = Pharmacolibrary.Drugs.ATC.R.R03BA06;

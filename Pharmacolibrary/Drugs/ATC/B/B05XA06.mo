@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.B;
+
+model B05XA06
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.119,
+    adminDuration  = 600,
+    adminMass      = 0.02,
+    adminCount     = 1,
+    Vd             = 0.0005,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Potassium phosphate is an electrolyte replacement drug used to treat or prevent low blood levels of phosphate (hypophosphatemia). It is sometimes used in combination with other potassium salts and is typically administered intravenously in hospital settings. It is approved and commonly used in clinical practice for patients with phosphate depletion, particularly in critical care, parenteral nutrition, and certain renal conditions.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters estimated based on typical physiological phosphate handling in adult patients receiving intravenous potassium phosphate. No peer-reviewed publications reporting detailed pharmacokinetic models (volume of distribution, clearance, etc.) for this exact formulation and indication have been identified.</p><h4>References</h4><ol><li> No direct clinical pharmacokinetic publications for potassium phosphate with ATC code B05XA06 reporting compartmental model parameters were found. Estimates are based on general clinical and physiological data for phosphate, typical IV dosing practices, and reference medical textbooks. Volume of distribution and clearance may vary by renal function and patient population.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end B05XA06;

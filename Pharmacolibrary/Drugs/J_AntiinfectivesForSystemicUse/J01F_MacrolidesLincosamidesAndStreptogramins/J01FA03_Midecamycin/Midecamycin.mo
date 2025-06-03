@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins.J01FA03_Midecamycin;
+model Midecamycin = Pharmacolibrary.Drugs.ATC.J.J01FA03;

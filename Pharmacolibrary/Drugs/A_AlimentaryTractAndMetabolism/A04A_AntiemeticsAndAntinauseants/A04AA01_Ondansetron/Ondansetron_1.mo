@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A04A_AntiemeticsAndAntinauseants.A04AA01_Ondansetron;
+model Ondansetron_1 = Pharmacolibrary.Drugs.ATC.A.A04AA01_1;

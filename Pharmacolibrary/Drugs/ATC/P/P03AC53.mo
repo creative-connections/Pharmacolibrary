@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.P;
+
+model P03AC53
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.05,
+    Cl             = 0.006666666666666667,
+    adminDuration  = 600,
+    adminMass      = 0.1,
+    adminCount     = 1,
+    Vd             = 0.003,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Phenothrin is a synthetic pyrethroid insecticide commonly used for the treatment of lice and flea infestations in humans and animals. It is used in topical formulations, often in combination with other agents, and acts by disrupting the nervous system of ectoparasites. Phenothrin has been widely used in over-the-counter pediculicidal and veterinary products, although concerns about resistance and safety have affected its use in some regions. Its use today is limited in some countries due to the availability of alternative agents and resistance concerns.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for topical application in humans, as no published population PK models or clinical PK data are available for phenothrin or its combinations in indexed literature.</p><h4>References</h4><ol><li> No peer-reviewed pharmacokinetic data for phenothrin combinations (ATC code P03AC53) was found. Parameters were estimated based on general pyrethroid pharmacokinetics, topical use characteristics, and typical product concentrations. All values should be interpreted as rough estimates for lack of published PK studies.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end P03AC53;

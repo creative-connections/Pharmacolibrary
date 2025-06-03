@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03B_Androgens.G03BA02_Methyltestosterone;
+model Methyltestosterone = Pharmacolibrary.Drugs.ATC.G.G03BA02;

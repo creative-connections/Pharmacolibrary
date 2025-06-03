@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AB06_Nadroparin;
+model Nadroparin = Pharmacolibrary.Drugs.ATC.B.B01AB06;

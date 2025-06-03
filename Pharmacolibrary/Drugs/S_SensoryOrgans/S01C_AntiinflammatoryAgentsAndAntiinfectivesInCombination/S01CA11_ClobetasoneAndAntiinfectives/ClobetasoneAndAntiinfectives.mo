@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01C_AntiinflammatoryAgentsAndAntiinfectivesInCombination.S01CA11_ClobetasoneAndAntiinfectives;
+model ClobetasoneAndAntiinfectives = Pharmacolibrary.Drugs.ATC.S.S01CA11;

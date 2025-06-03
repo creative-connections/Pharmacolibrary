@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AH10_Lebrikizumab;
+model Lebrikizumab = Pharmacolibrary.Drugs.ATC.D.D11AH10;

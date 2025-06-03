@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BD08_CoagulationFactorViia;
+model CoagulationFactorViia = Pharmacolibrary.Drugs.ATC.B.B02BD08;

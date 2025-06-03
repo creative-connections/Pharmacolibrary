@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.B;
+
+model B03AD05
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.1,
+    Cl             = 0.016666666666666666,
+    adminDuration  = 600,
+    adminMass      = 0.3,
+    adminCount     = 1,
+    Vd             = 0.001,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0005,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Ferrous gluconate and folic acid is a combination medication used to treat or prevent iron deficiency anemia, particularly in situations where both iron and folic acid deficiencies coexist, such as in pregnancy or certain chronic diseases. This combination is approved and available in several countries, typically as an oral formulation.</p><h4>Pharmacokinetics</h4><p>No published population pharmacokinetic (PK) models describing the combined PK parameters for ferrous gluconate and folic acid as a combination preparation in humans found. The following parameters are estimated based on the known PK properties of each component when administered orally to healthy adults.</p><h4>References</h4><ol><li> No specific publication reports population PK parameters for the ferrous gluconate and folic acid combination. All values are best estimates based on the pharmacokinetics of ferrous gluconate and folic acid given orally as monotherapies in healthy adults. Bioavailability after oral iron is variable and averages about 10%. Rate constant (ka) and lag time (Tlag) are estimated. Doses may vary depending on the formulation.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end B03AD05;

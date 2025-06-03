@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations;
+package A01AC03_Hydrocortisone
+  extends Icons.Package;
+end A01AC03_Hydrocortisone;

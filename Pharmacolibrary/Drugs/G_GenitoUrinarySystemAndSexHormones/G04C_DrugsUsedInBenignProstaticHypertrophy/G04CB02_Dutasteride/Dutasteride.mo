@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04C_DrugsUsedInBenignProstaticHypertrophy.G04CB02_Dutasteride;
+model Dutasteride = Pharmacolibrary.Drugs.ATC.G.G04CB02;

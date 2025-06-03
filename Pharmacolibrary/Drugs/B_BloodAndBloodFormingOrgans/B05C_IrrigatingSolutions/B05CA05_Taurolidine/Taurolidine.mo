@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05C_IrrigatingSolutions.B05CA05_Taurolidine;
+model Taurolidine = Pharmacolibrary.Drugs.ATC.B.B05CA05;

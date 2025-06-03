@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03D_AldosteroneAntagonistsAndOtherPotassiumSparingAgents.C03DB01_Amiloride;
+model Amiloride = Pharmacolibrary.Drugs.ATC.C.C03DB01;

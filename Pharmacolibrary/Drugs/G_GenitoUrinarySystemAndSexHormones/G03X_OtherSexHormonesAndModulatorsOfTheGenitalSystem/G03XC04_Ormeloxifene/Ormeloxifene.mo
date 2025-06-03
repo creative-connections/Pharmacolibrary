@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03X_OtherSexHormonesAndModulatorsOfTheGenitalSystem.G03XC04_Ormeloxifene;
+model Ormeloxifene = Pharmacolibrary.Drugs.ATC.G.G03XC04;

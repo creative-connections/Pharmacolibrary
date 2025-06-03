@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization.M05BX06_Romosozumab;
+model Romosozumab = Pharmacolibrary.Drugs.ATC.M.M05BX06;

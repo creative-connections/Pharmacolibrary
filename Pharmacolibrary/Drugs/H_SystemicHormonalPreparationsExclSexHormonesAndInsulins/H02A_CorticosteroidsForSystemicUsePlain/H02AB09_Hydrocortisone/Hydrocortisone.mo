@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02A_CorticosteroidsForSystemicUsePlain.H02AB09_Hydrocortisone;
+model Hydrocortisone = Pharmacolibrary.Drugs.ATC.H.H02AB09;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01C_HypothalamicHormones.H01CB03_Lanreotide;
+model Lanreotide = Pharmacolibrary.Drugs.ATC.H.H01CB03;

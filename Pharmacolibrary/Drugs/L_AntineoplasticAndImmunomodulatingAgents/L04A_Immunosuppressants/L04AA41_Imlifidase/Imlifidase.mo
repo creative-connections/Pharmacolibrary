@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AA41_Imlifidase;
+model Imlifidase = Pharmacolibrary.Drugs.ATC.L.L04AA41;

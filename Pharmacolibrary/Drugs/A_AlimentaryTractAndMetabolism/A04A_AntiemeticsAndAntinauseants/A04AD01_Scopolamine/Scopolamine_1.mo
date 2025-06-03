@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A04A_AntiemeticsAndAntinauseants.A04AD01_Scopolamine;
+model Scopolamine_1 = Pharmacolibrary.Drugs.ATC.A.A04AD01_1;

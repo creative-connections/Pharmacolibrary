@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BX08_Mitiglinide;
+model Mitiglinide = Pharmacolibrary.Drugs.ATC.A.A10BX08;

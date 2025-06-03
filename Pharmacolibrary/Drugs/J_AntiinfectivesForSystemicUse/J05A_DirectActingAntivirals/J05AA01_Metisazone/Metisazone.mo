@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AA01_Metisazone;
+model Metisazone = Pharmacolibrary.Drugs.ATC.J.J05AA01;

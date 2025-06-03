@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.V;
+
+model V10AA03
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 1.6666666666666667e-05,
+    adminDuration  = 600,
+    adminMass      = 0.185,
+    adminCount     = 1,
+    Vd             = 0.0001,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Yttrium-90 silicate colloid is a radiopharmaceutical primarily used for intracavitary radiation therapy, notably in the treatment of malignant pleural and peritoneal effusions and for radiosynovectomy (e.g., for refractory synovitis in hemophilia). It is not routinely used for systemic administration and is administered locally to restrict radioactivity to the target sites. It is generally not widely approved for clinical use today except in specialized or investigational settings.</p><h4>Pharmacokinetics</h4><p>No direct human pharmacokinetic models or parameters have been published for 90Y silicate colloid due to its local administration and primary mechanism of action by local irradiation after injection rather than systemic absorption. PK properties are inferred or estimated, not experimentally measured.</p><h4>References</h4><ol><li> No published clinical PK data was found for yttrium (90Y) silicate colloid. The pharmacokinetic parameter values are estimates based on the intended local administration, its particulate and colloidal form leading to minimal systemic absorption, and data from similar radiocolloids described in reviews. Doses are based on radiopharmaceutical product summaries and clinical practice. Typical values reflect minimal systemic distribution and assumed PK as a depot preparation with essentially only local decay. The clearance reflects presumed rate of systemic leakage. For further information see reviews: PMID 21175407, PMID 9305571.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end V10AA03;

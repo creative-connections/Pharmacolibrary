@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AC08_Etonogestrel;
+model Etonogestrel = Pharmacolibrary.Drugs.ATC.G.G03AC08;

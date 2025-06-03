@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants;
+package L03AB06_InterferonAlfaN1
+  extends Icons.Package;
+end L03AB06_InterferonAlfaN1;

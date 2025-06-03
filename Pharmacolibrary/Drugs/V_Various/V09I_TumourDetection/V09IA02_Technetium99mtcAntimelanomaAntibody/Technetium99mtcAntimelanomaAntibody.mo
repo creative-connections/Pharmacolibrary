@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection.V09IA02_Technetium99mtcAntimelanomaAntibody;
+model Technetium99mtcAntimelanomaAntibody = Pharmacolibrary.Drugs.ATC.V.V09IA02;

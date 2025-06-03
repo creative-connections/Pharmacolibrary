@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V09G_CardiovascularSystem;
+package V09GB02_Iodine125iHumanAlbumin
+  extends Icons.Package;
+end V09GB02_Iodine125iHumanAlbumin;

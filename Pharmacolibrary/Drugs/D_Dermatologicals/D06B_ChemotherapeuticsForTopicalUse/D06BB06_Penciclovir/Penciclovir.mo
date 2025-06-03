@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D06B_ChemotherapeuticsForTopicalUse.D06BB06_Penciclovir;
+model Penciclovir = Pharmacolibrary.Drugs.ATC.D.D06BB06;

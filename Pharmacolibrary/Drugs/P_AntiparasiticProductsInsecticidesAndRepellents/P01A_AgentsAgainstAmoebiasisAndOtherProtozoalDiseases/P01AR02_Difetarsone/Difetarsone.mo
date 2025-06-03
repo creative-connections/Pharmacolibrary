@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AR02_Difetarsone;
+model Difetarsone = Pharmacolibrary.Drugs.ATC.P.P01AR02;

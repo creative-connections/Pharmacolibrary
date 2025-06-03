@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03E_DiureticsAndPotassiumSparingAgentsInCombination.C03EA01_HydrochlorothiazideAndPotassiumSparingAgents;
+model HydrochlorothiazideAndPotassiumSparingAgents = Pharmacolibrary.Drugs.ATC.C.C03EA01;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.N;
+
+model N04AA03
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.3,
+    Cl             = 5.0,
+    adminDuration  = 600,
+    adminMass      = 0.005,
+    adminCount     = 1,
+    Vd             = 0.005,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0008333333333333334,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Metixene is an anticholinergic drug used primarily in the treatment of Parkinson's disease and drug-induced extrapyramidal symptoms. It acts as a muscarinic receptor antagonist, reducing tremor and rigidity. Metixene is no longer widely used and is not approved in many countries today.</p><h4>Pharmacokinetics</h4><p>No peer-reviewed publications reporting pharmacokinetic models or parameters for metixene in humans were identified. The following are estimated parameters based on the general properties of anticholinergic drugs in the same therapeutic class.</p><h4>References</h4><ol><li> No human pharmacokinetic data for metixene was found in published literature. All parameters are estimated based on analogs in the anticholinergic class. Parameters such as volume of distribution and clearance inferred from similar agents like trihexyphenidyl and biperiden. This record is provided as an estimate only due to lack of specific data.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end N04AA03;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DX09_Imolamine;
+model Imolamine = Pharmacolibrary.Drugs.ATC.C.C01DX09;

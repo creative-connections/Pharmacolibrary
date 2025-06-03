@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AE51_CholeraCombinationsWithTyphoidVaccineInactivatedWholeCell;
+model CholeraCombinationsWithTyphoidVaccineInactivatedWholeCell = Pharmacolibrary.Drugs.ATC.J.J07AE51;

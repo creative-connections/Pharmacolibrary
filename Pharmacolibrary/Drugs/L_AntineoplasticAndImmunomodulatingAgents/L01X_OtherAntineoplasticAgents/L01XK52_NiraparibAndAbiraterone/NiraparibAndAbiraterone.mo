@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XK52_NiraparibAndAbiraterone;
+model NiraparibAndAbiraterone = Pharmacolibrary.Drugs.ATC.L.L01XK52;

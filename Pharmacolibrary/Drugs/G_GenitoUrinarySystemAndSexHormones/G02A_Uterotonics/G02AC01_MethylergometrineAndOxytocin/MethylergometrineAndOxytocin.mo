@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02A_Uterotonics.G02AC01_MethylergometrineAndOxytocin;
+model MethylergometrineAndOxytocin = Pharmacolibrary.Drugs.ATC.G.G02AC01;

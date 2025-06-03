@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09X_OtherAgentsActingOnTheReninAngiotensinSystem.C09XA53_AliskirenAndAmlodipine;
+model AliskirenAndAmlodipine = Pharmacolibrary.Drugs.ATC.C.C09XA53;

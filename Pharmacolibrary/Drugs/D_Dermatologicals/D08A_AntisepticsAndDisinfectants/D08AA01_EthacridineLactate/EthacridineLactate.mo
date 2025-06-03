@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AA01_EthacridineLactate;
+model EthacridineLactate = Pharmacolibrary.Drugs.ATC.D.D08AA01;

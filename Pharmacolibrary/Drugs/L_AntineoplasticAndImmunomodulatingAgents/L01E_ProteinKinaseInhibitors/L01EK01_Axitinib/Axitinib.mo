@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EK01_Axitinib;
+model Axitinib = Pharmacolibrary.Drugs.ATC.L.L01EK01;

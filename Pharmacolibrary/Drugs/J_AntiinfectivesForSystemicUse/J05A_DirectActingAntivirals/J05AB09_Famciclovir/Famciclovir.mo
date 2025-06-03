@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AB09_Famciclovir;
+model Famciclovir = Pharmacolibrary.Drugs.ATC.J.J05AB09;

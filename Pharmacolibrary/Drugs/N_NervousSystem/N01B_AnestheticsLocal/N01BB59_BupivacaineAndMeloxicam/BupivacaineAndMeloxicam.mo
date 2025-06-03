@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N01B_AnestheticsLocal.N01BB59_BupivacaineAndMeloxicam;
+model BupivacaineAndMeloxicam = Pharmacolibrary.Drugs.ATC.N.N01BB59;

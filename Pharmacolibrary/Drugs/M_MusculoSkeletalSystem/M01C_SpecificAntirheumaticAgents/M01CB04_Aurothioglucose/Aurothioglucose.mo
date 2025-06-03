@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01C_SpecificAntirheumaticAgents.M01CB04_Aurothioglucose;
+model Aurothioglucose = Pharmacolibrary.Drugs.ATC.M.M01CB04;

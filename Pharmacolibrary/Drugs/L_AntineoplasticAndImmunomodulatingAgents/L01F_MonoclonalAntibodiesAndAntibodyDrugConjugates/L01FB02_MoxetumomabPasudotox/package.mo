@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates;
+package L01FB02_MoxetumomabPasudotox
+  extends Icons.Package;
+end L01FB02_MoxetumomabPasudotox;

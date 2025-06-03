@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03F_ProgestogensAndEstrogensInCombination.G03FB07_MedrogestoneAndEstrogen;
+model MedrogestoneAndEstrogen = Pharmacolibrary.Drugs.ATC.G.G03FB07;

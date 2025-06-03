@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D01B_AntifungalsForSystemicUse.D01BA03_Fosravuconazole;
+model Fosravuconazole = Pharmacolibrary.Drugs.ATC.D.D01BA03;

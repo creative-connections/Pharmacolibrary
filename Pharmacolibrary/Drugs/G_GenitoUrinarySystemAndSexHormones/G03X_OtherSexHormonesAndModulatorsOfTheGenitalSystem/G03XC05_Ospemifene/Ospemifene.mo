@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03X_OtherSexHormonesAndModulatorsOfTheGenitalSystem.G03XC05_Ospemifene;
+model Ospemifene = Pharmacolibrary.Drugs.ATC.G.G03XC05;

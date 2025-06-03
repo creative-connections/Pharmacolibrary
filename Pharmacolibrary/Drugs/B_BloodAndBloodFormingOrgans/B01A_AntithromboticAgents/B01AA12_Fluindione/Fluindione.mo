@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AA12_Fluindione;
+model Fluindione = Pharmacolibrary.Drugs.ATC.B.B01AA12;

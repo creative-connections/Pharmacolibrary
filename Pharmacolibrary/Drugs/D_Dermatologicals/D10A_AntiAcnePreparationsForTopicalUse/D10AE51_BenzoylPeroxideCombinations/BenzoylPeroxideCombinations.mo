@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse.D10AE51_BenzoylPeroxideCombinations;
+model BenzoylPeroxideCombinations = Pharmacolibrary.Drugs.ATC.D.D10AE51;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants.R03AL10_FormoterolAndTiotropiumBromide;
+model FormoterolAndTiotropiumBromide = Pharmacolibrary.Drugs.ATC.R.R03AL10;

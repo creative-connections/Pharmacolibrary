@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EC01_Vemurafenib;
+model Vemurafenib = Pharmacolibrary.Drugs.ATC.L.L01EC01;

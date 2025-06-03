@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FF10_Retifanlimab;
+model Retifanlimab = Pharmacolibrary.Drugs.ATC.L.L01FF10;

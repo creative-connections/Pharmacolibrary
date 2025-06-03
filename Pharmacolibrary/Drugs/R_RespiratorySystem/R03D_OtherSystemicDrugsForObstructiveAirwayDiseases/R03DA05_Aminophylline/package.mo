@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases;
+package R03DA05_Aminophylline
+  extends Icons.Package;
+end R03DA05_Aminophylline;

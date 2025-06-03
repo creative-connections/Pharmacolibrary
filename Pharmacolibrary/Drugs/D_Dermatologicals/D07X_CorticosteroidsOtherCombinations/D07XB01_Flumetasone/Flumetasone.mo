@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07X_CorticosteroidsOtherCombinations.D07XB01_Flumetasone;
+model Flumetasone = Pharmacolibrary.Drugs.ATC.D.D07XB01;

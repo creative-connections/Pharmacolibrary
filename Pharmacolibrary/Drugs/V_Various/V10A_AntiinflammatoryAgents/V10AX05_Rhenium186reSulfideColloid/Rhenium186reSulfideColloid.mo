@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V10A_AntiinflammatoryAgents.V10AX05_Rhenium186reSulfideColloid;
+model Rhenium186reSulfideColloid = Pharmacolibrary.Drugs.ATC.V.V10AX05;

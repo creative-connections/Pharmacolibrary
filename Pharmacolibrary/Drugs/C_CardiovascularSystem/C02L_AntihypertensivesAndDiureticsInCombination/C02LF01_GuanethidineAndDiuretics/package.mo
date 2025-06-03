@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination;
+package C02LF01_GuanethidineAndDiuretics
+  extends Icons.Package;
+end C02LF01_GuanethidineAndDiuretics;

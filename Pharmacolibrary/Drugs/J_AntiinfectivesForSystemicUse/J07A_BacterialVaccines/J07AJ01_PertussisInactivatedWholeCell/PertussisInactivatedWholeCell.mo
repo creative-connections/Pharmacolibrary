@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AJ01_PertussisInactivatedWholeCell;
+model PertussisInactivatedWholeCell = Pharmacolibrary.Drugs.ATC.J.J07AJ01;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines;
+package J07AX01_LeptospiraVaccines
+  extends Icons.Package;
+end J07AX01_LeptospiraVaccines;

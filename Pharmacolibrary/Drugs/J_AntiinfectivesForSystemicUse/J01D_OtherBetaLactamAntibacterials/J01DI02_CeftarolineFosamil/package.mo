@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials;
+package J01DI02_CeftarolineFosamil
+  extends Icons.Package;
+end J01DI02_CeftarolineFosamil;

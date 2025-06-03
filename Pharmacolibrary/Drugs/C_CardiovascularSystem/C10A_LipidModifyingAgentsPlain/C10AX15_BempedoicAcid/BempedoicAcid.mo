@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10A_LipidModifyingAgentsPlain.C10AX15_BempedoicAcid;
+model BempedoicAcid = Pharmacolibrary.Drugs.ATC.C.C10AX15;

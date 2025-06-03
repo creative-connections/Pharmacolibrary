@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins;
+package A10BX08_Mitiglinide
+  extends Icons.Package;
+end A10BX08_Mitiglinide;

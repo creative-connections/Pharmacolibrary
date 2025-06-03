@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.B;
+
+model B03AE02
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.1,
+    Cl             = 0.013333333333333334,
+    adminDuration  = 600,
+    adminMass      = 0.1,
+    adminCount     = 1,
+    Vd             = 0.01,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0003333333333333333,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>This drug is a combination preparation containing iron, multivitamins, and folic acid, used primarily for the prevention and treatment of iron deficiency anemia, especially in pregnant women. The product is generally used as a dietary supplement and is approved for use in many countries.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic models available for the specific combination of iron, multivitamins, and folic acid (ATC B03AE02). The following are estimated parameters based on typical oral iron formulations in healthy adult subjects.</p><h4>References</h4><ol><li> No publications exist reporting compartmental pharmacokinetic parameters for this exact combination product (ATC B03AE02). Parameters are estimated based on data for oral iron salt preparations (such as ferrous sulfate) in adults and may not directly represent multivitamin/folic acid combinations. Estimates assume typical absorption rate (ka), bioavailability, and clearance from published values for iron only.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end B03AE02;

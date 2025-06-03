@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BD11_PantoprazoleAmoxicillinClarithromycinAndMetronidazole;
+model PantoprazoleAmoxicillinClarithromycinAndMetronidazole = Pharmacolibrary.Drugs.ATC.A.A02BD11;

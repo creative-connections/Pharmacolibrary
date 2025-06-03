@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AD02_MagnesiumOxide;
+model MagnesiumOxide = Pharmacolibrary.Drugs.ATC.A.A06AD02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AG02_TolfenamicAcid;
+model TolfenamicAcid = Pharmacolibrary.Drugs.ATC.M.M01AG02;

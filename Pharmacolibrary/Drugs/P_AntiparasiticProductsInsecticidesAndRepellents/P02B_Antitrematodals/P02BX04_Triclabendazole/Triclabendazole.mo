@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02B_Antitrematodals.P02BX04_Triclabendazole;
+model Triclabendazole = Pharmacolibrary.Drugs.ATC.P.P02BX04;

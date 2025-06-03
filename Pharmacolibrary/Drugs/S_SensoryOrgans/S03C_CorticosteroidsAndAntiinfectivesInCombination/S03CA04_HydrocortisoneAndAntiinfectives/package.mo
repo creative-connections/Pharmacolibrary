@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S03C_CorticosteroidsAndAntiinfectivesInCombination;
+package S03CA04_HydrocortisoneAndAntiinfectives
+  extends Icons.Package;
+end S03CA04_HydrocortisoneAndAntiinfectives;

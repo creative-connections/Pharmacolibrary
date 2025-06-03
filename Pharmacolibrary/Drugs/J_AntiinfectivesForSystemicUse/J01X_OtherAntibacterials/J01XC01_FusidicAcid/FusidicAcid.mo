@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01X_OtherAntibacterials.J01XC01_FusidicAcid;
+model FusidicAcid = Pharmacolibrary.Drugs.ATC.J.J01XC01;

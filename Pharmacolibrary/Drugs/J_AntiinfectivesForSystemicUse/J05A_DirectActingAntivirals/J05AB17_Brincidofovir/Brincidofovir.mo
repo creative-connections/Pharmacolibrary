@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AB17_Brincidofovir;
+model Brincidofovir = Pharmacolibrary.Drugs.ATC.J.J05AB17;

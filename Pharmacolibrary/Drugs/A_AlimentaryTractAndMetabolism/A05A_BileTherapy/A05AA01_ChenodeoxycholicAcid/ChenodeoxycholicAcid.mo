@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A05A_BileTherapy.A05AA01_ChenodeoxycholicAcid;
+model ChenodeoxycholicAcid = Pharmacolibrary.Drugs.ATC.A.A05AA01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders.A03AB16_D_2BenzhydryloxyethylDiethylMethylammoniumIodide;
+model D_2BenzhydryloxyethylDiethylMethylammoniumIodide = Pharmacolibrary.Drugs.ATC.A.A03AB16;

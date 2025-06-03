@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03B_InsecticidesAndRepellents.P03BX03_Dibutylphthalate;
+model Dibutylphthalate = Pharmacolibrary.Drugs.ATC.P.P03BX03;

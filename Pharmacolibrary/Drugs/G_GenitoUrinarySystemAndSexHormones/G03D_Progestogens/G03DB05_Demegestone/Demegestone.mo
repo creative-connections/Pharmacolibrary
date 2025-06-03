@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03D_Progestogens.G03DB05_Demegestone;
+model Demegestone = Pharmacolibrary.Drugs.ATC.G.G03DB05;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D10B_AntiAcnePreparationsForSystemicUse.D10BA01_Isotretinoin;
+model Isotretinoin = Pharmacolibrary.Drugs.ATC.D.D10BA01;

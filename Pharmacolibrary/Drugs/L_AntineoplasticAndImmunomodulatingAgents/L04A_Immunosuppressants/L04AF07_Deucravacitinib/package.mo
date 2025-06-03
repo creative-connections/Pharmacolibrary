@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
+package L04AF07_Deucravacitinib
+  extends Icons.Package;
+end L04AF07_Deucravacitinib;

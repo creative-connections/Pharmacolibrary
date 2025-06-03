@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.R;
+
+model R07AB05
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.013333333333333334,
+    adminDuration  = 600,
+    adminMass      = 0.1,
+    adminCount     = 1,
+    Vd             = 0.0007,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Bemegride is a central nervous system stimulant that was historically used as an analeptic for the treatment of barbiturate overdose and respiratory depression. It acts as an antagonist to barbiturates and has been used primarily in emergency medicine and as a research tool. Bemegride is no longer widely used or approved for clinical use in most countries due to safety concerns and the availability of better alternatives.</p><h4>Pharmacokinetics</h4><p>No human pharmacokinetic studies with detailed compartmental models, clearance or bioavailability values for bemegride are available in the scientific literature. Pharmacokinetic parameters listed are generalized estimates based on expected properties for a stimulant with high hepatic metabolism, as no clinical PK values in humans are published.</p><h4>References</h4><ol><li> No published human pharmacokinetic compartmental data or studies for bemegride are available. The values reported here are rough estimates based on general pharmacology sources, animal studies, and expected behavior for a short-acting CNS stimulant with hepatic metabolism. The actual values in humans may vary; references do not exist for specific PK values.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end R07AB05;

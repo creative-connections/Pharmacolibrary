@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BB10_Metahexamide;
+model Metahexamide = Pharmacolibrary.Drugs.ATC.A.A10BB10;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03B_OtherDrugsForObstructiveAirwayDiseasesInhalants;
+package R03BB07_UmeclidiniumBromide
+  extends Icons.Package;
+end R03BB07_UmeclidiniumBromide;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03C_AdrenergicsForSystemicUse.R03CB53_OrciprenalineCombinations;
+model OrciprenalineCombinations = Pharmacolibrary.Drugs.ATC.R.R03CB53;

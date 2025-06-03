@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XJ03_Glasdegib;
+model Glasdegib = Pharmacolibrary.Drugs.ATC.L.L01XJ03;

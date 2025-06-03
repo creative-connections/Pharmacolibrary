@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D05A_AntipsoriaticsForTopicalUse.D05AX55_TazaroteneAndUlobetasol;
+model TazaroteneAndUlobetasol = Pharmacolibrary.Drugs.ATC.D.D05AX55;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03D_Progestogens.G03DB07_Promegestone;
+model Promegestone = Pharmacolibrary.Drugs.ATC.G.G03DB07;

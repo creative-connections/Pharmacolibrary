@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AH02_Pimecrolimus;
+model Pimecrolimus = Pharmacolibrary.Drugs.ATC.D.D11AH02;

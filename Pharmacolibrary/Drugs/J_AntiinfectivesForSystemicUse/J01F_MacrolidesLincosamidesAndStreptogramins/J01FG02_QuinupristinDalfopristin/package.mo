@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins;
+package J01FG02_QuinupristinDalfopristin
+  extends Icons.Package;
+end J01FG02_QuinupristinDalfopristin;

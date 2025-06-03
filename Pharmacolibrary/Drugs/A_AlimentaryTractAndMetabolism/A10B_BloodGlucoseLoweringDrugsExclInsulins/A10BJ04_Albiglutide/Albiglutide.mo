@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BJ04_Albiglutide;
+model Albiglutide = Pharmacolibrary.Drugs.ATC.A.A10BJ04;

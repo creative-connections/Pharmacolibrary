@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AX24_DeoxycholicAcid;
+model DeoxycholicAcid = Pharmacolibrary.Drugs.ATC.D.D11AX24;

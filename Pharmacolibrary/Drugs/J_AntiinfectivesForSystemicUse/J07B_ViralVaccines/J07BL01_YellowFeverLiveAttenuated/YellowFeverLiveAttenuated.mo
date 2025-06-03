@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BL01_YellowFeverLiveAttenuated;
+model YellowFeverLiveAttenuated = Pharmacolibrary.Drugs.ATC.J.J07BL01;

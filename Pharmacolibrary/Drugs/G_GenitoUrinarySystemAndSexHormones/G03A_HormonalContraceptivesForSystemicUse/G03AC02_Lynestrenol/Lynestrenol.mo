@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AC02_Lynestrenol;
+model Lynestrenol = Pharmacolibrary.Drugs.ATC.G.G03AC02;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.R;
+
+model R03AK01
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.16,
+    Cl             = 13.333333333333334,
+    adminDuration  = 600,
+    adminMass      = 0.0005,
+    adminCount     = 1,
+    Vd             = 0.0022,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>This combination drug is used as a bronchodilator for the treatment of obstructive airway diseases such as asthma and chronic obstructive pulmonary disease (COPD). Epinephrine acts as a non-selective adrenergic agonist, causing bronchodilation and relief of bronchospasm. The combination is intended for acute management of bronchoconstrictive episodes. There are limited available modern fixed-dose combinations with this specific ATC, and such combinations are not widely used or approved in current clinical guidelines.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters are estimated based on general epinephrine inhalation data in healthy adults; no published population-specific PK studies were found for R03AK01 fixed-dose combinations.</p><h4>References</h4><ol><li> No published PK studies specifically on R03AK01 combinations were found. The parameters reported here are taken from published values for inhaled or intravenous epinephrine in healthy adults, intended as estimates. Actual PK may differ for specific fixed-dose combinations or in patient populations. No direct reference available.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end R03AK01;

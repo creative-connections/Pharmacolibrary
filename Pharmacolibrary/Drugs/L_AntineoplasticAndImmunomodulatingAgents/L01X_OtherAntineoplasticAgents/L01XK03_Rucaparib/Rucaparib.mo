@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XK03_Rucaparib;
+model Rucaparib = Pharmacolibrary.Drugs.ATC.L.L01XK03;

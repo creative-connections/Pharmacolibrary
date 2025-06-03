@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01D_CytotoxicAntibioticsAndRelatedSubstances.L01DB11_Pixantrone;
+model Pixantrone = Pharmacolibrary.Drugs.ATC.L.L01DB11;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D04A_AntipruriticsInclAntihistaminesAnestheticsEtc.D04AB04_Benzocaine;
+model Benzocaine = Pharmacolibrary.Drugs.ATC.D.D04AB04;

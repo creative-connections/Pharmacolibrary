@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain.M02AX06_Tolperisone;
+model Tolperisone = Pharmacolibrary.Drugs.ATC.M.M02AX06;

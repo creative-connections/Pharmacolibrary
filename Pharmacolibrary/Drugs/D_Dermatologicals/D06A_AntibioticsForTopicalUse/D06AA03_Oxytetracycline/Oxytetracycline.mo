@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D06A_AntibioticsForTopicalUse.D06AA03_Oxytetracycline;
+model Oxytetracycline = Pharmacolibrary.Drugs.ATC.D.D06AA03;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection.V09IA07_Technetium99mtcHynicOctreotide;
+model Technetium99mtcHynicOctreotide = Pharmacolibrary.Drugs.ATC.V.V09IA07;

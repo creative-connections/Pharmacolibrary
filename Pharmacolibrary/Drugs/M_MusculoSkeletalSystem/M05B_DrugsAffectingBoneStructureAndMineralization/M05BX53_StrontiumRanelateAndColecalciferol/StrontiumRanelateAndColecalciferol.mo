@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization.M05BX53_StrontiumRanelateAndColecalciferol;
+model StrontiumRanelateAndColecalciferol = Pharmacolibrary.Drugs.ATC.M.M05BX53;

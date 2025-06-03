@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection.V09IA05_Technetium99mtcDepreotide;
+model Technetium99mtcDepreotide = Pharmacolibrary.Drugs.ATC.V.V09IA05;

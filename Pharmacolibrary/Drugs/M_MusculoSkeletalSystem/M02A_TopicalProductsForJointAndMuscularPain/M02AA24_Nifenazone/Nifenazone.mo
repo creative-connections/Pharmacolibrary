@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain.M02AA24_Nifenazone;
+model Nifenazone = Pharmacolibrary.Drugs.ATC.M.M02AA24;

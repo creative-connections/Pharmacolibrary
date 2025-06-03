@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AC21_Treprostinil;
+model Treprostinil = Pharmacolibrary.Drugs.ATC.B.B01AC21;

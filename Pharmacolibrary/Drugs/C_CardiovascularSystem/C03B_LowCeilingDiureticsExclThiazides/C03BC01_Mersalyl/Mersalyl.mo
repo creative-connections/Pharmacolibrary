@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03B_LowCeilingDiureticsExclThiazides.C03BC01_Mersalyl;
+model Mersalyl = Pharmacolibrary.Drugs.ATC.C.C03BC01;

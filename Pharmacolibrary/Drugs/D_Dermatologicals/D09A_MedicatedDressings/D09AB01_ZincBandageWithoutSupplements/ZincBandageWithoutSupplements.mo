@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D09A_MedicatedDressings.D09AB01_ZincBandageWithoutSupplements;
+model ZincBandageWithoutSupplements = Pharmacolibrary.Drugs.ATC.D.D09AB01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations.C09DA04_IrbesartanAndDiuretics;
+model IrbesartanAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C09DA04;

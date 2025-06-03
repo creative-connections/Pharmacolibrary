@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AX04_Lenalidomide;
+model Lenalidomide = Pharmacolibrary.Drugs.ATC.L.L04AX04;

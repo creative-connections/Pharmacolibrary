@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02B_HormoneAntagonistsAndRelatedAgents.L02BG06_Exemestane;
+model Exemestane = Pharmacolibrary.Drugs.ATC.L.L02BG06;

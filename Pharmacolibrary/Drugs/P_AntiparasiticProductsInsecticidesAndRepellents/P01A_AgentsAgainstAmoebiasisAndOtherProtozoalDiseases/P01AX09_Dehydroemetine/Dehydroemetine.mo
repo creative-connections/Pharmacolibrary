@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AX09_Dehydroemetine;
+model Dehydroemetine = Pharmacolibrary.Drugs.ATC.P.P01AX09;

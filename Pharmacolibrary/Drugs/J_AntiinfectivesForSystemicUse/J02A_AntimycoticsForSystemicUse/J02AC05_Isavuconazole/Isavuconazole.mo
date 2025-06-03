@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse.J02AC05_Isavuconazole;
+model Isavuconazole = Pharmacolibrary.Drugs.ATC.J.J02AC05;

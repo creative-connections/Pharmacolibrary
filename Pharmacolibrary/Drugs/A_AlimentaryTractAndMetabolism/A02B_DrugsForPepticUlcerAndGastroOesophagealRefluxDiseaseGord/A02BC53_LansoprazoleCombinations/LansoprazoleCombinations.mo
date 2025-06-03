@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BC53_LansoprazoleCombinations;
+model LansoprazoleCombinations = Pharmacolibrary.Drugs.ATC.A.A02BC53;

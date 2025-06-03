@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11H_OtherPlainVitaminPreparations.A11HA03_TocopherolVitE;
+model TocopherolVitE = Pharmacolibrary.Drugs.ATC.A.A11HA03;

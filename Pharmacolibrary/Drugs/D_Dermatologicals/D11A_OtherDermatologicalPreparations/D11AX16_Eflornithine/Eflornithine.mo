@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AX16_Eflornithine;
+model Eflornithine = Pharmacolibrary.Drugs.ATC.D.D11AX16;

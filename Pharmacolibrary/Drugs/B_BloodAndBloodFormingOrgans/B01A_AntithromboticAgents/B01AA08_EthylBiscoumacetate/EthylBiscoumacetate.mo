@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AA08_EthylBiscoumacetate;
+model EthylBiscoumacetate = Pharmacolibrary.Drugs.ATC.B.B01AA08;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AA02_FerrousFumarate;
+model FerrousFumarate = Pharmacolibrary.Drugs.ATC.B.B03AA02;

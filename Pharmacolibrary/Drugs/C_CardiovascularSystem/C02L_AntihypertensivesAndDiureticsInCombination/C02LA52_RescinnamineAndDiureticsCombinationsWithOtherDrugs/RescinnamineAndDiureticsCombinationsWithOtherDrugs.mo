@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination.C02LA52_RescinnamineAndDiureticsCombinationsWithOtherDrugs;
+model RescinnamineAndDiureticsCombinationsWithOtherDrugs = Pharmacolibrary.Drugs.ATC.C.C02LA52;

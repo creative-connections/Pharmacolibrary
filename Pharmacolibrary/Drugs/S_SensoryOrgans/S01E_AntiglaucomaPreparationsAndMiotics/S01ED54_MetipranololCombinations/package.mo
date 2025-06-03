@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics;
+package S01ED54_MetipranololCombinations
+  extends Icons.Package;
+end S01ED54_MetipranololCombinations;

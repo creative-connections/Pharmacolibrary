@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XL10_NadofarageneFiradenovec;
+model NadofarageneFiradenovec = Pharmacolibrary.Drugs.ATC.L.L01XL10;

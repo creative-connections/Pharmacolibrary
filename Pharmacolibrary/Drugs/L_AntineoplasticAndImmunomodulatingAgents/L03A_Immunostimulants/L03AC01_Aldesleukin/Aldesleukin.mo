@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AC01_Aldesleukin;
+model Aldesleukin = Pharmacolibrary.Drugs.ATC.L.L03AC01;

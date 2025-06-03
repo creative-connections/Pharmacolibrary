@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants;
+package R05CB14_Neltenexine
+  extends Icons.Package;
+end R05CB14_Neltenexine;

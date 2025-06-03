@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AB07_Secnidazole;
+model Secnidazole = Pharmacolibrary.Drugs.ATC.P.P01AB07;

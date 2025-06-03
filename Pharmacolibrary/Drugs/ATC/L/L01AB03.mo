@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.L;
+
+model L01AB03
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.058333333333333334,
+    adminDuration  = 600,
+    adminMass      = 0.06,
+    adminCount     = 1,
+    Vd             = 0.0007,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Mannosulfan is an alkylating agent and a derivative of busulfan, developed for use as an antitumor and immunosuppressive agent. It has been investigated in the past mainly for potential use in oncology, but it is not approved or widely used in current clinical practice. Clinical development and usage remain very limited.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic models or specific human studies reporting compartment models or quantitative pharmacokinetic parameters for mannosulfan were identified as of 2024. Therefore, only estimated parameters can be provided based on analogy to structurally similar drugs (such as busulfan) and typical values for nonvolatile alkylating agents.</p><h4>References</h4><ol><li> No peer-reviewed publication with explicit pharmacokinetic parameters or compartmental models for mannosulfan is available as of 2024. All values are estimated by analogy to busulfan, a close structural analogue, and standard pharmacokinetic textbooks. PK parameters should be interpreted with caution pending future human studies.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end L01AB03;

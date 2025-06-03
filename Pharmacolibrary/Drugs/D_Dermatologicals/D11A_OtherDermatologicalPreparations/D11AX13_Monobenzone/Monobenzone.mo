@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AX13_Monobenzone;
+model Monobenzone = Pharmacolibrary.Drugs.ATC.D.D11AX13;

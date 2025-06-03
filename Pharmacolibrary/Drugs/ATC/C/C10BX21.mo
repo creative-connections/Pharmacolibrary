@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.C;
+
+model C10BX21
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.2,
+    Cl             = 0.3333333333333333,
+    adminDuration  = 600,
+    adminMass      = 0.01,
+    adminCount     = 1,
+    Vd             = 0.05,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.025,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Rosuvastatin and perindopril is a fixed combination antihypertensive and lipid-lowering medication. Rosuvastatin is an HMG-CoA reductase inhibitor (statin) primarily used for lowering cholesterol and preventing cardiovascular disease. Perindopril is an angiotensin-converting enzyme (ACE) inhibitor used for treating high blood pressure and heart failure. The combination is approved for cardiovascular risk reduction in selected adult patients.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic models reporting population PK parameters for the fixed combination of rosuvastatin and perindopril with ATC code C10BX21 in humans. Individual component PK parameters are established: rosuvastatin is well-absorbed orally (bioavailability ~0.20), with a Tlag around 10 min, one-compartment model, central Vd 50 L, oral clearance approx 20 L/h; perindopril is well-absorbed, rapidly converted to active perindoprilat (bioavailability ~0.65), central Vd approx 75 L, clearance ~17 L/h. Estimates below based on published individual drug PK studies in adults after oral administration.</p><h4>References</h4><ol><li> No published pharmacokinetic data specific to the fixed combination C10BX21 rosuvastatin/perindopril in humans. PK parameters above are based on typical published single-drug PK values for oral administration in healthy adults. Combination products are assumed not to alter individual component PK significantly, but clinical interaction studies are limited.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end C10BX21;

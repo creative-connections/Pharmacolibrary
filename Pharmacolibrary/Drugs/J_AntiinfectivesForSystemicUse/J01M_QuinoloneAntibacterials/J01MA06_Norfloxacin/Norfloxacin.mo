@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01M_QuinoloneAntibacterials.J01MA06_Norfloxacin;
+model Norfloxacin = Pharmacolibrary.Drugs.ATC.J.J01MA06;

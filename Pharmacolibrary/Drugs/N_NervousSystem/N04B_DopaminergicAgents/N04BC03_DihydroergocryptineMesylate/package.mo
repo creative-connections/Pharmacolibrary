@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N04B_DopaminergicAgents;
+package N04BC03_DihydroergocryptineMesylate
+  extends Icons.Package;
+end N04BC03_DihydroergocryptineMesylate;

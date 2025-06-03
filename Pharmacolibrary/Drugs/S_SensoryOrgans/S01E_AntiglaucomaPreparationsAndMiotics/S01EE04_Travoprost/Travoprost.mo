@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01EE04_Travoprost;
+model Travoprost = Pharmacolibrary.Drugs.ATC.S.S01EE04;

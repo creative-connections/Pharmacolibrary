@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BA04_Nizatidine;
+model Nizatidine = Pharmacolibrary.Drugs.ATC.A.A02BA04;

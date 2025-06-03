@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AD01_Foscarnet;
+model Foscarnet = Pharmacolibrary.Drugs.ATC.J.J05AD01;

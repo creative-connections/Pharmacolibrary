@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03A_EctoparasiticidesInclScabicides.P03AB51_ClofenotaneCombinations;
+model ClofenotaneCombinations = Pharmacolibrary.Drugs.ATC.P.P03AB51;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DA09_Trolnitrate;
+model Trolnitrate = Pharmacolibrary.Drugs.ATC.C.C01DA09;

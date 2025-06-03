@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AX04_Pegademase;
+model Pegademase = Pharmacolibrary.Drugs.ATC.L.L03AX04;

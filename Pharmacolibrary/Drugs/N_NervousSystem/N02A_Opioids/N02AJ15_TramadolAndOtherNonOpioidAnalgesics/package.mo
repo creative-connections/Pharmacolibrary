@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids;
+package N02AJ15_TramadolAndOtherNonOpioidAnalgesics
+  extends Icons.Package;
+end N02AJ15_TramadolAndOtherNonOpioidAnalgesics;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03A_ThyroidPreparations.H03AA01_LevothyroxineSodium;
+model LevothyroxineSodium = Pharmacolibrary.Drugs.ATC.H.H03AA01;

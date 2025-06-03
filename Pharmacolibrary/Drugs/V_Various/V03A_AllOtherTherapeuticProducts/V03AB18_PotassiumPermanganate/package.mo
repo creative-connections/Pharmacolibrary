@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts;
+package V03AB18_PotassiumPermanganate
+  extends Icons.Package;
+end V03AB18_PotassiumPermanganate;

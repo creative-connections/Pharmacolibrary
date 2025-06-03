@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01X_OtherOphthalmologicals.S01XA19_LimbalStemCellsAutologous;
+model LimbalStemCellsAutologous = Pharmacolibrary.Drugs.ATC.S.S01XA19;

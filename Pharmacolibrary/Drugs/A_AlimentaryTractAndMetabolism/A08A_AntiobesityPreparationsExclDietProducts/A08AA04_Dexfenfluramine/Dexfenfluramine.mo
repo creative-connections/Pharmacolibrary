@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A08A_AntiobesityPreparationsExclDietProducts.A08AA04_Dexfenfluramine;
+model Dexfenfluramine = Pharmacolibrary.Drugs.ATC.A.A08AA04;

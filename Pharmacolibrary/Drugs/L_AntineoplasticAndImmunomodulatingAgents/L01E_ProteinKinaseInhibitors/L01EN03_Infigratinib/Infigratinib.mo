@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EN03_Infigratinib;
+model Infigratinib = Pharmacolibrary.Drugs.ATC.L.L01EN03;

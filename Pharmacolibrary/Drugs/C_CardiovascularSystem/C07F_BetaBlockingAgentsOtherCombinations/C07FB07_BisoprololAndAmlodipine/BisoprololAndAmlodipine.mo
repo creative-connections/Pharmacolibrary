@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07F_BetaBlockingAgentsOtherCombinations.C07FB07_BisoprololAndAmlodipine;
+model BisoprololAndAmlodipine = Pharmacolibrary.Drugs.ATC.C.C07FB07;

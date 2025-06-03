@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01A_AnteriorPituitaryLobeHormonesAndAnalogues.H01AC09_Lonapegsomatropin;
+model Lonapegsomatropin = Pharmacolibrary.Drugs.ATC.H.H01AC09;

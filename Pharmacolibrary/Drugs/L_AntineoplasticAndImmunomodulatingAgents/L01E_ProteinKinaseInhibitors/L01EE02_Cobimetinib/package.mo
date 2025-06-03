@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
+package L01EE02_Cobimetinib
+  extends Icons.Package;
+end L01EE02_Cobimetinib;

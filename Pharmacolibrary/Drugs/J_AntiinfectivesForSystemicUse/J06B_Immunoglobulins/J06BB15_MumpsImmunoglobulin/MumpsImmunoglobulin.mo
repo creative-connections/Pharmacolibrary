@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J06B_Immunoglobulins.J06BB15_MumpsImmunoglobulin;
+model MumpsImmunoglobulin = Pharmacolibrary.Drugs.ATC.J.J06BB15;

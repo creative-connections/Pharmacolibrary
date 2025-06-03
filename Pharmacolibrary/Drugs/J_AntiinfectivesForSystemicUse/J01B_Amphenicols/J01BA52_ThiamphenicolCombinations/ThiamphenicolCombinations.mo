@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01B_Amphenicols.J01BA52_ThiamphenicolCombinations;
+model ThiamphenicolCombinations = Pharmacolibrary.Drugs.ATC.J.J01BA52;

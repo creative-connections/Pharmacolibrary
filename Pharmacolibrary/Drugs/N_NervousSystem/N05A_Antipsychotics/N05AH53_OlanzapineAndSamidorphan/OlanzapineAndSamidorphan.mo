@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N05A_Antipsychotics.N05AH53_OlanzapineAndSamidorphan;
+model OlanzapineAndSamidorphan = Pharmacolibrary.Drugs.ATC.N.N05AH53;

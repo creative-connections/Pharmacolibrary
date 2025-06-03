@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02C_AntiadrenalPreparations.H02CA04_Levoketoconazole;
+model Levoketoconazole = Pharmacolibrary.Drugs.ATC.H.H02CA04;

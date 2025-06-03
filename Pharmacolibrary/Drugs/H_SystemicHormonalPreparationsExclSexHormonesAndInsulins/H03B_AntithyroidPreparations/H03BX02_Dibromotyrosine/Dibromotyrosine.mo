@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03B_AntithyroidPreparations.H03BX02_Dibromotyrosine;
+model Dibromotyrosine = Pharmacolibrary.Drugs.ATC.H.H03BX02;

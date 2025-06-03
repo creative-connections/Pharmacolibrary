@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BX11_Troxipide;
+model Troxipide = Pharmacolibrary.Drugs.ATC.A.A02BX11;

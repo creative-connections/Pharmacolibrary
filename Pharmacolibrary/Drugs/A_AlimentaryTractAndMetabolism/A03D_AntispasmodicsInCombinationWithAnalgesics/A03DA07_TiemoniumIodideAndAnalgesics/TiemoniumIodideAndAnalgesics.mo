@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03D_AntispasmodicsInCombinationWithAnalgesics.A03DA07_TiemoniumIodideAndAnalgesics;
+model TiemoniumIodideAndAnalgesics = Pharmacolibrary.Drugs.ATC.A.A03DA07;

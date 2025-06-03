@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis.J04AA02_SodiumAminosalicylate;
+model SodiumAminosalicylate = Pharmacolibrary.Drugs.ATC.J.J04AA02;

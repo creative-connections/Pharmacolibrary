@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10A_InsulinsAndAnalogues;
+package A10AC30_InsulinDegludecAndLiraglutide
+  extends Icons.Package;
+end A10AC30_InsulinDegludecAndLiraglutide;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07B_BetaBlockingAgentsAndThiazides.C07BB02_MetoprololAndThiazides;
+model MetoprololAndThiazides = Pharmacolibrary.Drugs.ATC.C.C07BB02;

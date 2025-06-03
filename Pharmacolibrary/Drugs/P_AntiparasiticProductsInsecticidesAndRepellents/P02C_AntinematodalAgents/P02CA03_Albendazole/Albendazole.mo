@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02C_AntinematodalAgents.P02CA03_Albendazole;
+model Albendazole = Pharmacolibrary.Drugs.ATC.P.P02CA03;

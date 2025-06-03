@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A14A_AnabolicSteroids.A14AA05_Oxymetholone;
+model Oxymetholone = Pharmacolibrary.Drugs.ATC.A.A14AA05;

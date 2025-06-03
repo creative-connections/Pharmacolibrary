@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AX16_Hexetidine;
+model Hexetidine = Pharmacolibrary.Drugs.ATC.G.G01AX16;

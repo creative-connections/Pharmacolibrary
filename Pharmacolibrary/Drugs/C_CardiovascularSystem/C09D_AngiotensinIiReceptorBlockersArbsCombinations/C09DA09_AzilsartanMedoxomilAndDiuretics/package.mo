@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations;
+package C09DA09_AzilsartanMedoxomilAndDiuretics
+  extends Icons.Package;
+end C09DA09_AzilsartanMedoxomilAndDiuretics;

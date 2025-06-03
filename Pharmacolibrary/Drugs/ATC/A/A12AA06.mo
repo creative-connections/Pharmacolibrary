@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.A;
+
+model A12AA06
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.002,
+    adminDuration  = 600,
+    adminMass      = 1.0,
+    adminCount     = 1,
+    Vd             = 0.00017,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Calcium lactate gluconate is a highly soluble calcium salt used as a source of calcium in pharmaceutical preparations. It is often administered to treat and prevent calcium deficiencies, including hypocalcemia, and is sometimes used in intravenous form for acute management. It is an approved drug used in clinical practice for the correction of hypocalcemic conditions.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters estimated for healthy adults, as published data specifically for calcium lactate gluconate formulation are unavailable; typical values were estimated based on intravenous calcium salts.</p><h4>References</h4><ol><li> No PK publications found specifically for calcium lactate gluconate. Parameters above are estimated based on literature values for intravenous calcium salts (such as calcium chloride or gluconate), and typical pharmacokinetics of calcium in healthy adults. All values are approximate and provided for informational purposes only.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end A12AA06;

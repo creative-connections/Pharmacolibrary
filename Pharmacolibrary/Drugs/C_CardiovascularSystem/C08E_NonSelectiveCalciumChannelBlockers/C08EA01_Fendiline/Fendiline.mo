@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08E_NonSelectiveCalciumChannelBlockers.C08EA01_Fendiline;
+model Fendiline = Pharmacolibrary.Drugs.ATC.C.C08EA01;

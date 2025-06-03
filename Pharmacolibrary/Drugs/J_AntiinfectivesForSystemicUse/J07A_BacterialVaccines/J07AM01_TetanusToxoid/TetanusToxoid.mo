@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AM01_TetanusToxoid;
+model TetanusToxoid = Pharmacolibrary.Drugs.ATC.J.J07AM01;

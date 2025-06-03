@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02B_ContraceptivesForTopicalUse;
+package G02BA02_PlasticIudWithCopper
+  extends Icons.Package;
+end G02BA02_PlasticIudWithCopper;

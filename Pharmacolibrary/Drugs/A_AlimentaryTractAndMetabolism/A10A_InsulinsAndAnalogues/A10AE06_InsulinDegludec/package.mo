@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10A_InsulinsAndAnalogues;
+package A10AE06_InsulinDegludec
+  extends Icons.Package;
+end A10AE06_InsulinDegludec;

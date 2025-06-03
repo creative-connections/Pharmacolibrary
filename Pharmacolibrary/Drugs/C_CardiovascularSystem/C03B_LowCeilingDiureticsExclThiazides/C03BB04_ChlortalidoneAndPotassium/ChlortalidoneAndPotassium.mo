@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03B_LowCeilingDiureticsExclThiazides.C03BB04_ChlortalidoneAndPotassium;
+model ChlortalidoneAndPotassium = Pharmacolibrary.Drugs.ATC.C.C03BB04;

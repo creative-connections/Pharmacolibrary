@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides.C01CA16_Ibopamine;
+model Ibopamine = Pharmacolibrary.Drugs.ATC.C.C01CA16;

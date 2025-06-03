@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09C_RenalSystem.V09CA01_Technetium99mtcPenteticAcid;
+model Technetium99mtcPenteticAcid = Pharmacolibrary.Drugs.ATC.V.V09CA01;

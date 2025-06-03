@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials.P01BB51_ProguanilAndAtovaquone;
+model ProguanilAndAtovaquone = Pharmacolibrary.Drugs.ATC.P.P01BB51;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics.N02BE53_PhenacetinCombinationsExclPsycholeptics;
+model PhenacetinCombinationsExclPsycholeptics = Pharmacolibrary.Drugs.ATC.N.N02BE53;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AE07_Fosamprenavir;
+model Fosamprenavir = Pharmacolibrary.Drugs.ATC.J.J05AE07;

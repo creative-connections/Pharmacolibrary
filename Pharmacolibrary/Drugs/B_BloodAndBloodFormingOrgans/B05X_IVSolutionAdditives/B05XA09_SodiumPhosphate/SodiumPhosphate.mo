@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives.B05XA09_SodiumPhosphate;
+model SodiumPhosphate = Pharmacolibrary.Drugs.ATC.B.B05XA09;

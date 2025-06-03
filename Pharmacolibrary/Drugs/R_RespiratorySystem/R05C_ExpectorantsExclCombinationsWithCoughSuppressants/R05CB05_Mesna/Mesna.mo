@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants.R05CB05_Mesna;
+model Mesna = Pharmacolibrary.Drugs.ATC.R.R05CB05;

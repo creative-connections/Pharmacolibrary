@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N04A_AnticholinergicAgents.N04AB02_OrphenadrineChloride;
+model OrphenadrineChloride = Pharmacolibrary.Drugs.ATC.N.N04AB02;

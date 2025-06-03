@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01X_OtherAntibacterials.J01XD03_Ornidazole;
+model Ornidazole = Pharmacolibrary.Drugs.ATC.J.J01XD03;

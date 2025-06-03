@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts.L01CX01_Trabectedin;
+model Trabectedin = Pharmacolibrary.Drugs.ATC.L.L01CX01;

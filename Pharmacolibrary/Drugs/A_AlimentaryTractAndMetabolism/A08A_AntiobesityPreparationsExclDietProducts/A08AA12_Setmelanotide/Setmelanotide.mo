@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A08A_AntiobesityPreparationsExclDietProducts.A08AA12_Setmelanotide;
+model Setmelanotide = Pharmacolibrary.Drugs.ATC.A.A08AA12;

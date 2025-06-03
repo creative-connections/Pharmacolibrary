@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BA01_Phenformin;
+model Phenformin = Pharmacolibrary.Drugs.ATC.A.A10BA01;

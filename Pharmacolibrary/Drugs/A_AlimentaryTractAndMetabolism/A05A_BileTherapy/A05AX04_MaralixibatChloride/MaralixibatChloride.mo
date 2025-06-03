@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A05A_BileTherapy.A05AX04_MaralixibatChloride;
+model MaralixibatChloride = Pharmacolibrary.Drugs.ATC.A.A05AX04;

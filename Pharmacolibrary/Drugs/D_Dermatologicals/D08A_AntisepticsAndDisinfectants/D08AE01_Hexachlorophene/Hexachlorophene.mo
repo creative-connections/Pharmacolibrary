@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AE01_Hexachlorophene;
+model Hexachlorophene = Pharmacolibrary.Drugs.ATC.D.D08AE01;

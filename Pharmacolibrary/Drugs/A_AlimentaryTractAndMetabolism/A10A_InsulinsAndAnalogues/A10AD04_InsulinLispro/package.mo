@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10A_InsulinsAndAnalogues;
+package A10AD04_InsulinLispro
+  extends Icons.Package;
+end A10AD04_InsulinLispro;

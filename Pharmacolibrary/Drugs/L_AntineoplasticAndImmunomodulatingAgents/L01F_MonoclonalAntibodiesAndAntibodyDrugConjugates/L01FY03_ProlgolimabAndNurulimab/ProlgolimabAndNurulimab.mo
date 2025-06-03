@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FY03_ProlgolimabAndNurulimab;
+model ProlgolimabAndNurulimab = Pharmacolibrary.Drugs.ATC.L.L01FY03;

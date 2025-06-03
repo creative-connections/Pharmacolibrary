@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BA12_Lisdexamfetamine;
+model Lisdexamfetamine = Pharmacolibrary.Drugs.ATC.N.N06BA12;

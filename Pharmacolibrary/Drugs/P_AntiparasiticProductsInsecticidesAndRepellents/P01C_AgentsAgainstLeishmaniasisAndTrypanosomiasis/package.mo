@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents;
+package P01C_AgentsAgainstLeishmaniasisAndTrypanosomiasis
+  extends Icons.Package;
+end P01C_AgentsAgainstLeishmaniasisAndTrypanosomiasis;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants.R03AK02_IsoprenalineAndOtherDrugsForObstructiveAirwayDiseases;
+model IsoprenalineAndOtherDrugsForObstructiveAirwayDiseases = Pharmacolibrary.Drugs.ATC.R.R03AK02;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BC02_HepatitisAInactivatedWholeVirus;
+model HepatitisAInactivatedWholeVirus = Pharmacolibrary.Drugs.ATC.J.J07BC02;

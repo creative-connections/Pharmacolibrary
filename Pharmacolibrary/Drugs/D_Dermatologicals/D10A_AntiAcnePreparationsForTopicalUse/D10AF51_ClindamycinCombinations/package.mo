@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse;
+package D10AF51_ClindamycinCombinations
+  extends Icons.Package;
+end D10AF51_ClindamycinCombinations;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.C;
+
+model C10AX06
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.15,
+    Cl             = 0.012,
+    adminDuration  = 600,
+    adminMass      = 4.0,
+    adminCount     = 1,
+    Vd             = 0.049,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0003333333333333333,
+    Tlag           = 3600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Omega-3-triglycerides, including other esters and acids, are preparations containing predominantly omega-3 polyunsaturated fatty acids, mainly eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA), often as ethyl esters or triglycerides. They are used as adjuncts to diet for reducing high triglyceride levels in adults and may have cardiovascular benefits. Such formulations are approved for use in managing severe hypertriglyceridemia and for secondary prevention of cardiovascular events.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for healthy adult subjects based on published literature survey; no direct population PK model data located for omega-3-triglycerides as a drug. Estimates partially inferred from pharmacokinetic studies of EPA/DHA oral formulations.</p><h4>References</h4><ol><li> No direct compartmental population PK model for omega-3-triglycerides (C10AX06) identified in the literature. Key PK parameters are estimated based on published studies on oral omega-3 fatty acid formulations (EPA/DHA, ethyl esters/triglycerides), including pharmacokinetic reviews and regulatory documents. Parameters should be interpreted as estimates for adult healthy population; significant variability may exist depending on formulation, fed state, and subject condition.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end C10AX06;

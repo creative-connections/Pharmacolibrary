@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics;
+package N02BA12_PotassiumSalicylate
+  extends Icons.Package;
+end N02BA12_PotassiumSalicylate;

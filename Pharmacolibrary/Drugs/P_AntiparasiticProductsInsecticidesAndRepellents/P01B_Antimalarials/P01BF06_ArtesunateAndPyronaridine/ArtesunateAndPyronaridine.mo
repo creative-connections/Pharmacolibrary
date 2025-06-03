@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials.P01BF06_ArtesunateAndPyronaridine;
+model ArtesunateAndPyronaridine = Pharmacolibrary.Drugs.ATC.P.P01BF06;

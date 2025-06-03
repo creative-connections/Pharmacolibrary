@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D01A_AntifungalsForTopicalUse.D01AE02_Methylrosaniline;
+model Methylrosaniline = Pharmacolibrary.Drugs.ATC.D.D01AE02;

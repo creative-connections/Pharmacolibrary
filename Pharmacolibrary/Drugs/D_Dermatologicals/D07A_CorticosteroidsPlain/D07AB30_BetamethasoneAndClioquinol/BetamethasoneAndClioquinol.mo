@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07A_CorticosteroidsPlain.D07AB30_BetamethasoneAndClioquinol;
+model BetamethasoneAndClioquinol = Pharmacolibrary.Drugs.ATC.D.D07AB30;

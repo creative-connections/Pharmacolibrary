@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V08D_UltrasoundContrastMedia.V08DA04_PerflutrenPhospholipidMicrospheres;
+model PerflutrenPhospholipidMicrospheres = Pharmacolibrary.Drugs.ATC.V.V08DA04;

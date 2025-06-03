@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides.C01CA23_Theodrenaline;
+model Theodrenaline = Pharmacolibrary.Drugs.ATC.C.C01CA23;

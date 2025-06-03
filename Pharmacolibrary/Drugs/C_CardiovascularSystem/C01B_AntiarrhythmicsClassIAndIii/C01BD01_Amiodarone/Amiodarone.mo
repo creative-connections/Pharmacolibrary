@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01B_AntiarrhythmicsClassIAndIii.C01BD01_Amiodarone;
+model Amiodarone = Pharmacolibrary.Drugs.ATC.C.C01BD01;

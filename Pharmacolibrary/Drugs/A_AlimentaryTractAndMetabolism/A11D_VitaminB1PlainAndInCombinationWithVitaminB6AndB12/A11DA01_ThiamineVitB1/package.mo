@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11D_VitaminB1PlainAndInCombinationWithVitaminB6AndB12;
+package A11DA01_ThiamineVitB1
+  extends Icons.Package;
+end A11DA01_ThiamineVitB1;

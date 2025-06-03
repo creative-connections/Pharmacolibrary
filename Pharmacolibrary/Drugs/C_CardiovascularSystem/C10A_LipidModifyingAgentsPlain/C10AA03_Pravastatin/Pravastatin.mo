@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10A_LipidModifyingAgentsPlain.C10AA03_Pravastatin;
+model Pravastatin = Pharmacolibrary.Drugs.ATC.C.C10AA03;

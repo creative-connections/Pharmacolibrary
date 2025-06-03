@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03D_Progestogens.G03DA02_Medroxyprogesterone;
+model Medroxyprogesterone_1 = Pharmacolibrary.Drugs.ATC.G.G03DA02_1;

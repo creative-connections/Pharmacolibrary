@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis.J04AB02_Rifampicin;
+model Rifampicin = Pharmacolibrary.Drugs.ATC.J.J04AB02;

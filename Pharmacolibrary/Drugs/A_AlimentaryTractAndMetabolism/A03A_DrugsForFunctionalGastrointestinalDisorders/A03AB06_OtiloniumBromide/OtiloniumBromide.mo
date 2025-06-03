@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders.A03AB06_OtiloniumBromide;
+model OtiloniumBromide = Pharmacolibrary.Drugs.ATC.A.A03AB06;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C04A_PeripheralVasodilators.C04AC02_NicotinylAlcoholPyridylcarbinol;
+model NicotinylAlcoholPyridylcarbinol = Pharmacolibrary.Drugs.ATC.C.C04AC02;

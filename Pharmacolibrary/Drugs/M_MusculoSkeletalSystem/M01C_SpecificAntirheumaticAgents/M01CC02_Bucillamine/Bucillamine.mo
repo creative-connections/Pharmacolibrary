@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01C_SpecificAntirheumaticAgents.M01CC02_Bucillamine;
+model Bucillamine = Pharmacolibrary.Drugs.ATC.M.M01CC02;

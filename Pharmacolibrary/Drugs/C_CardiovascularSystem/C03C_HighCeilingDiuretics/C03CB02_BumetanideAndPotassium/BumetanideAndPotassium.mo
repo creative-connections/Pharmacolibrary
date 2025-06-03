@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03C_HighCeilingDiuretics.C03CB02_BumetanideAndPotassium;
+model BumetanideAndPotassium = Pharmacolibrary.Drugs.ATC.C.C03CB02;

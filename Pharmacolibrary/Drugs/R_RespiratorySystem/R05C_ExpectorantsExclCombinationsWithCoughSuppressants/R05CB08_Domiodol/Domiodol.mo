@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants.R05CB08_Domiodol;
+model Domiodol = Pharmacolibrary.Drugs.ATC.R.R05CB08;

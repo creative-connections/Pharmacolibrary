@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N07C_AntivertigoPreparations;
+package N07CA52_CinnarizineCombinations
+  extends Icons.Package;
+end N07CA52_CinnarizineCombinations;

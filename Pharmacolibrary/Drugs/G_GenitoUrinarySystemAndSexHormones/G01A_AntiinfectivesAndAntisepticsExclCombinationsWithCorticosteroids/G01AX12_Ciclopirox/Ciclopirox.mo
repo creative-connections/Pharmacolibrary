@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AX12_Ciclopirox;
+model Ciclopirox = Pharmacolibrary.Drugs.ATC.G.G01AX12;

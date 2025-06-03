@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03G_GonadotropinsAndOtherOvulationStimulants.G03GB02_Clomifene;
+model Clomifene = Pharmacolibrary.Drugs.ATC.G.G03GB02;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.J;
+
+model J07BK02
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 1,
+    Cl             = 0.0,
+    adminDuration  = 600,
+    adminMass      = 0.00065,
+    adminCount     = 1,
+    Vd             = 0,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Zoster, live attenuated vaccine is a preparation containing a weakened (attenuated) strain of varicella-zoster virus. It is used to boost immunity and prevent herpes zoster (shingles) in adults, especially those over 50 or individuals at increased risk of developing shingles. It is an approved and widely used vaccine.</p><h4>Pharmacokinetics</h4><p>No pharmacokinetic data available for zoster, live attenuated vaccine. As a live attenuated viral vaccine, traditional pharmacokinetic parameters such as volume of distribution or clearance are not typically applicable or reported, since immunogenicity and virological replication are the relevant endpoints. The vaccine is generally administered via the subcutaneous route as a single dose to adults.</p><h4>References</h4><ol><li> No published studies report classical pharmacokinetic parameters (e.g., volume of distribution or clearance) for zoster, live attenuated vaccine. Such parameters are not relevant for vaccines, as their disposition is determined by viral replication and immune response rather than absorption, distribution, metabolism, and elimination. Dose information is based on official product literature. All other PK fields are reported as not applicable or estimated as per instructions.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end J07BK02;

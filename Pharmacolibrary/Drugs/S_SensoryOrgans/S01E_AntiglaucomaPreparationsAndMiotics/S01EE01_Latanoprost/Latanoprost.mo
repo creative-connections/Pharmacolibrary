@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01EE01_Latanoprost;
+model Latanoprost = Pharmacolibrary.Drugs.ATC.S.S01EE01;

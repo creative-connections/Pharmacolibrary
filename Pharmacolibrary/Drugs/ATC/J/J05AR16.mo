@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.J;
+
+model J05AR16
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.85,
+    Cl             = 0.36666666666666664,
+    adminDuration  = 600,
+    adminMass      = 0.3,
+    adminCount     = 1,
+    Vd             = 0.0013,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.016666666666666666,
+    Tlag           = 10.200000000000001
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Lamivudine and raltegravir is a fixed-dose combination antiretroviral medication used for the treatment of Human Immunodeficiency Virus (HIV) infection. Lamivudine is a nucleoside reverse transcriptase inhibitor (NRTI), while raltegravir is an integrase inhibitor. This combination is currently approved and used for HIV treatment as part of antiretroviral therapy.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for adult subjects, as no direct clinical PK studies for the fixed-dose combination have been published. Estimates are based on separate published parameters for each drug, assuming standard oral dosing in adults without renal or hepatic impairment.</p><h4>References</h4><ol><li> No published population pharmacokinetic modeling for the fixed-dose lamivudine and raltegravir combination (ATC J05AR16) with full PK parameters found. Estimates provided based on individual drug PK properties from product labels and review articles. Used approximate values for adults. Adjustments may be needed for co-administration or specific populations.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end J05AR16;

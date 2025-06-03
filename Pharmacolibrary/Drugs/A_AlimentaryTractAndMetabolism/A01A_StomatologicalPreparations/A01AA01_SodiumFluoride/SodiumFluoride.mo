@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations.A01AA01_SodiumFluoride;
+model SodiumFluoride = Pharmacolibrary.Drugs.ATC.A.A01AA01;

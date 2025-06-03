@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09E_RespiratorySystem.V09EB01_Technetium99mtcMacrosalb;
+model Technetium99mtcMacrosalb = Pharmacolibrary.Drugs.ATC.V.V09EB01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A08A_AntiobesityPreparationsExclDietProducts.A08AA03_Amfepramone;
+model Amfepramone = Pharmacolibrary.Drugs.ATC.A.A08AA03;

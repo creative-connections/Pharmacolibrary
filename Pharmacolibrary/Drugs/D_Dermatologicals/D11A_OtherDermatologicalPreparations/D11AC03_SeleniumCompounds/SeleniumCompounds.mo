@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AC03_SeleniumCompounds;
+model SeleniumCompounds = Pharmacolibrary.Drugs.ATC.D.D11AC03;

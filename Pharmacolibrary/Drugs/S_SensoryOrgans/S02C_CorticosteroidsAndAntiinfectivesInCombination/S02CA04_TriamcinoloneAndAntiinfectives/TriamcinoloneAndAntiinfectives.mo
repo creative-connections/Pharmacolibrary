@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S02C_CorticosteroidsAndAntiinfectivesInCombination.S02CA04_TriamcinoloneAndAntiinfectives;
+model TriamcinoloneAndAntiinfectives = Pharmacolibrary.Drugs.ATC.S.S02CA04;

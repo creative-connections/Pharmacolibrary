@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04C_DrugsUsedInBenignProstaticHypertrophy.G04CA53_TamsulosinAndSolifenacin;
+model TamsulosinAndSolifenacin = Pharmacolibrary.Drugs.ATC.G.G04CA53;

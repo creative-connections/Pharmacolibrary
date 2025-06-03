@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03C_AdrenergicsForSystemicUse.R03CB03_Orciprenaline;
+model Orciprenaline = Pharmacolibrary.Drugs.ATC.R.R03CB03;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05B_AntiParathyroidAgents.H05BA04_Elcatonin;
+model Elcatonin = Pharmacolibrary.Drugs.ATC.H.H05BA04;

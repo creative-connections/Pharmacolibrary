@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02C_AntimigrainePreparations;
+package N02CC51_SumatriptanAndNaproxen
+  extends Icons.Package;
+end N02CC51_SumatriptanAndNaproxen;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AG11_SodiumLaurylSulfoacetateInclCombinations;
+model SodiumLaurylSulfoacetateInclCombinations = Pharmacolibrary.Drugs.ATC.A.A06AG11;

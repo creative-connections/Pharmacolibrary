@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
+package A03B_BelladonnaAndDerivativesPlain
+  extends Icons.Package;
+end A03B_BelladonnaAndDerivativesPlain;

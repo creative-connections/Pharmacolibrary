@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04C_DrugsUsedInBenignProstaticHypertrophy;
+package G04CX01_PrunusAfricanaeCortex
+  extends Icons.Package;
+end G04CX01_PrunusAfricanaeCortex;

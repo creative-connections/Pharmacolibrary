@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids.N02AJ01_DihydrocodeineAndParacetamol;
+model DihydrocodeineAndParacetamol = Pharmacolibrary.Drugs.ATC.N.N02AJ01;

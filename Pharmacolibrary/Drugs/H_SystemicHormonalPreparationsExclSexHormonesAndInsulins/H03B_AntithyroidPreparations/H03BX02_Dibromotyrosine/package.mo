@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03B_AntithyroidPreparations;
+package H03BX02_Dibromotyrosine
+  extends Icons.Package;
+end H03BX02_Dibromotyrosine;

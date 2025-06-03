@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10A_LipidModifyingAgentsPlain.C10AX01_Dextrothyroxine;
+model Dextrothyroxine = Pharmacolibrary.Drugs.ATC.C.C10AX01;

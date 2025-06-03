@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.R;
+
+model R05DA10
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.3,
+    Cl             = 0.3333333333333333,
+    adminDuration  = 600,
+    adminMass      = 0.01,
+    adminCount     = 1,
+    Vd             = 0.0025,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0013333333333333333,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Thebacon (also known as thebacone) is an opioid analgesic derived from thebaine. It was historically used as a pain reliever and cough suppressant, but is no longer approved or in use in most countries today due to its abuse potential and the availability of safer alternatives.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for a typical adult; no published pharmacokinetic studies in humans identified.</p><h4>References</h4><ol><li> No published human pharmacokinetic studies for thebacon could be identified; all pharmacokinetic parameters are estimated based on values typical for opioids with similar structure and properties, such as codeine and dihydrocodeine. All values should be interpreted as rough estimates.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end R05DA10;

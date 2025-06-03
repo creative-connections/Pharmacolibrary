@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N01B_AnestheticsLocal.N01BB54_PrilocaineCombinations;
+model PrilocaineCombinations = Pharmacolibrary.Drugs.ATC.N.N01BB54;

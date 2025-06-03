@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AB11_Sulodexide;
+model Sulodexide = Pharmacolibrary.Drugs.ATC.B.B01AB11;

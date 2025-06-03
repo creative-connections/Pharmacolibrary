@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09G_CardiovascularSystem.V09GA07_Technetium99mtcApcitide;
+model Technetium99mtcApcitide = Pharmacolibrary.Drugs.ATC.V.V09GA07;

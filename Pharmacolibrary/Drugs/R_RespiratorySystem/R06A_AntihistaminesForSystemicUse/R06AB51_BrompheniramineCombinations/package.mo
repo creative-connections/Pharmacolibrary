@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse;
+package R06AB51_BrompheniramineCombinations
+  extends Icons.Package;
+end R06AB51_BrompheniramineCombinations;

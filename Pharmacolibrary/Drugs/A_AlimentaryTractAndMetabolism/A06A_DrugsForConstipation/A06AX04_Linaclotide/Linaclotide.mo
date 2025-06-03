@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AX04_Linaclotide;
+model Linaclotide = Pharmacolibrary.Drugs.ATC.A.A06AX04;

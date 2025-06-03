@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02C_AntinematodalAgents;
+package P02CF01_Ivermectin
+  extends Icons.Package;
+end P02CF01_Ivermectin;

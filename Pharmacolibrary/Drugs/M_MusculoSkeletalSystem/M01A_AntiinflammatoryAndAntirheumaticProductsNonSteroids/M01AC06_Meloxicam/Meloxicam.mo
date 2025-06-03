@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AC06_Meloxicam;
+model Meloxicam = Pharmacolibrary.Drugs.ATC.M.M01AC06;

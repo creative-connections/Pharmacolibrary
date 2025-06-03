@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03D_AldosteroneAntagonistsAndOtherPotassiumSparingAgents;
+package C03DA04_Eplerenone
+  extends Icons.Package;
+end C03DA04_Eplerenone;

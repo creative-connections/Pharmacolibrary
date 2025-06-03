@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AG07_Begelomab;
+model Begelomab = Pharmacolibrary.Drugs.ATC.L.L04AG07;

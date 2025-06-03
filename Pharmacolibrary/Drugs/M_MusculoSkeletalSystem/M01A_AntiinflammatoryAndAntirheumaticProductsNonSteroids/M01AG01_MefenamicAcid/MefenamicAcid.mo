@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AG01_MefenamicAcid;
+model MefenamicAcid = Pharmacolibrary.Drugs.ATC.M.M01AG01;

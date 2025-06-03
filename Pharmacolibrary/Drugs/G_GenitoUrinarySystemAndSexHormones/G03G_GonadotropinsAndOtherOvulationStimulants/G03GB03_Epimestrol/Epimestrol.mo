@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03G_GonadotropinsAndOtherOvulationStimulants.G03GB03_Epimestrol;
+model Epimestrol = Pharmacolibrary.Drugs.ATC.G.G03GB03;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03A_LowCeilingDiureticsThiazides.C03AH02_HydroflumethiazideCombinations;
+model HydroflumethiazideCombinations = Pharmacolibrary.Drugs.ATC.C.C03AH02;

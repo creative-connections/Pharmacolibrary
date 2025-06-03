@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XX29_DenileukinDiftitox;
+model DenileukinDiftitox = Pharmacolibrary.Drugs.ATC.L.L01XX29;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02A_HormonesAndRelatedAgents.L02AE51_LeuprorelinAndBicalutamide;
+model LeuprorelinAndBicalutamide = Pharmacolibrary.Drugs.ATC.L.L02AE51;

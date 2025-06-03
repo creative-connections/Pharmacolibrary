@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V09E_RespiratorySystem;
+package V09EB02_Technetium99mtcMicrospheres
+  extends Icons.Package;
+end V09EB02_Technetium99mtcMicrospheres;

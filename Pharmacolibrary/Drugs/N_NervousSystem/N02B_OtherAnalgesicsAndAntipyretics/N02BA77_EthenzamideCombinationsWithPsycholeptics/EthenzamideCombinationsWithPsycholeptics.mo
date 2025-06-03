@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics.N02BA77_EthenzamideCombinationsWithPsycholeptics;
+model EthenzamideCombinationsWithPsycholeptics = Pharmacolibrary.Drugs.ATC.N.N02BA77;

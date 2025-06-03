@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01E_OtherCardiacPreparations.C01EB06_Fosfocreatine;
+model Fosfocreatine = Pharmacolibrary.Drugs.ATC.C.C01EB06;

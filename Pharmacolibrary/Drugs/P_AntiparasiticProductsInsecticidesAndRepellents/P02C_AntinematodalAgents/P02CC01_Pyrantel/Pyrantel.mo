@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02C_AntinematodalAgents.P02CC01_Pyrantel;
+model Pyrantel = Pharmacolibrary.Drugs.ATC.P.P02CC01;

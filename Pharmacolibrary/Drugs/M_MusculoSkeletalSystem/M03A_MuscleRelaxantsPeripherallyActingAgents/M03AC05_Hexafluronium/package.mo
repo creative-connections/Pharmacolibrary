@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03A_MuscleRelaxantsPeripherallyActingAgents;
+package M03AC05_Hexafluronium
+  extends Icons.Package;
+end M03AC05_Hexafluronium;

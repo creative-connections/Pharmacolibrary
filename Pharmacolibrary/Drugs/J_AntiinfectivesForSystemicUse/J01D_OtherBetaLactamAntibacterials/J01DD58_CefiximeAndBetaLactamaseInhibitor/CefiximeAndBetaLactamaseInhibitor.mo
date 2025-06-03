@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DD58_CefiximeAndBetaLactamaseInhibitor;
+model CefiximeAndBetaLactamaseInhibitor = Pharmacolibrary.Drugs.ATC.J.J01DD58;

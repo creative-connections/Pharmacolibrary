@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.J;
+
+model J04AM06
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.9,
+    Cl             = 0.145,
+    adminDuration  = 600,
+    adminMass      = 0.6,
+    adminCount     = 1,
+    Vd             = 0.052,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.018333333333333333,
+    Tlag           = 900
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>This combination drug is used for the treatment of active tuberculosis infection and is composed of rifampicin, pyrazinamide, ethambutol, and isoniazid. It is an essential, approved regimen in first-line tuberculosis therapy recommended by the WHO and many national tuberculosis programs. It targets Mycobacterium tuberculosis through multiple mechanisms: rifampicin inhibits RNA synthesis, isoniazid inhibits mycolic acid synthesis, pyrazinamide disrupts membrane energetics, and ethambutol interferes with cell wall synthesis.</p><h4>Pharmacokinetics</h4><p>Population pharmacokinetics in adult patients with pulmonary tuberculosis receiving fixed-dose combination tablets under directly observed therapy; mixed male and female, mean age around 38 years.</p><h4>References</h4><ol><li><a href='https://dx.doi.org/10.1093/jac/dku072'>10.1093/jac/dku072</a> Parameters taken from fixed-dose combination pharmacokinetic studies describing population PK in adults under standard therapy. Individual drugs have been characterized separately, but combined fixed dose studies report comparable PK. The reported ka, Vd, and clearance are representative for rifampicin, which generally governs overall PK. PK parameters for other components (isoniazid, ethambutol, pyrazinamide) vary and are characterized separately in other publications. FDCs do not appear to significantly alter rifampicin PK.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end J04AM06;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03C_AntispasmodicsInCombinationWithPsycholeptics.A03CA30_EmeproniumAndPsycholeptics;
+model EmeproniumAndPsycholeptics = Pharmacolibrary.Drugs.ATC.A.A03CA30;

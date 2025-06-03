@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03D_AldosteroneAntagonistsAndOtherPotassiumSparingAgents.C03DA05_Finerenone;
+model Finerenone = Pharmacolibrary.Drugs.ATC.C.C03DA05;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AX17_EnisamiumIodide;
+model EnisamiumIodide = Pharmacolibrary.Drugs.ATC.J.J05AX17;

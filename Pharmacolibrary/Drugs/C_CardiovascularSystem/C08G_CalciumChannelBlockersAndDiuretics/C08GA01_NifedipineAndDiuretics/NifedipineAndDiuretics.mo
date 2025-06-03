@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08G_CalciumChannelBlockersAndDiuretics.C08GA01_NifedipineAndDiuretics;
+model NifedipineAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C08GA01;

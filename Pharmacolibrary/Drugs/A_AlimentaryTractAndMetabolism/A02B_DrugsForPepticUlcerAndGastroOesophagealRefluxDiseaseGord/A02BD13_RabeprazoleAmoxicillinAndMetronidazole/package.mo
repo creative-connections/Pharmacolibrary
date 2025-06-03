@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord;
+package A02BD13_RabeprazoleAmoxicillinAndMetronidazole
+  extends Icons.Package;
+end A02BD13_RabeprazoleAmoxicillinAndMetronidazole;

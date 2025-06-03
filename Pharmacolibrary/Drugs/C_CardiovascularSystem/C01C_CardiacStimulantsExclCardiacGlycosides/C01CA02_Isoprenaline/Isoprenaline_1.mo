@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides.C01CA02_Isoprenaline;
+model Isoprenaline_1 = Pharmacolibrary.Drugs.ATC.C.C01CA02_1;

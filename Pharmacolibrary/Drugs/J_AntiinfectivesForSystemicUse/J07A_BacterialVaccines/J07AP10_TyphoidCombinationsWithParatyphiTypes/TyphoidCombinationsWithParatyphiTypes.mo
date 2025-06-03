@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AP10_TyphoidCombinationsWithParatyphiTypes;
+model TyphoidCombinationsWithParatyphiTypes = Pharmacolibrary.Drugs.ATC.J.J07AP10;

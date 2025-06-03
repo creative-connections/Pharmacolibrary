@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse;
+package R01AX05_Ritiometan
+  extends Icons.Package;
+end R01AX05_Ritiometan;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BX09_Fostamatinib;
+model Fostamatinib = Pharmacolibrary.Drugs.ATC.B.B02BX09;

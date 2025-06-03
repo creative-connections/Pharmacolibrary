@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BD03_MetforminAndRosiglitazone;
+model MetforminAndRosiglitazone = Pharmacolibrary.Drugs.ATC.A.A10BD03;

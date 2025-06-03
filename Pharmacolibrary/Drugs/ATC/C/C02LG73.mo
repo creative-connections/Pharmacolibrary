@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.C;
+
+model C02LG73
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.4,
+    Cl             = 0.9166666666666666,
+    adminDuration  = 600,
+    adminMass      = 0.025,
+    adminCount     = 1,
+    Vd             = 0.085,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.002,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Picodralazine is a vasodilator used primarily as an antihypertensive agent. It may be combined with diuretics for enhanced blood pressure control. The combination with psycholeptics (agents with central nervous system depressant activity) is rare and not commonly used in contemporary clinical practice. The drug and its combinations are not widely approved or used today, and limited information is available regarding current use.</p><h4>Pharmacokinetics</h4><p>No pharmacokinetic data found for the combination of picodralazine and diuretics with psycholeptics (ATC C02LG73) in any published literature. The following parameters are estimated based on related vasodilators and thiazide diuretic combinations in healthy adult subjects (typical oral administration).</p><h4>References</h4><ol><li> No published pharmacokinetic studies found for 'picodralazine and diuretics, combinations with psycholeptics' (ATC C02LG73). Values are estimated from related antihypertensive vasodilators (e.g., hydralazine) with thiazide diuretic oral combinations. Users should consult primary literature if available for exact parameters.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end C02LG73;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins;
+package J01FA11_Miocamycin
+  extends Icons.Package;
+end J01FA11_Miocamycin;

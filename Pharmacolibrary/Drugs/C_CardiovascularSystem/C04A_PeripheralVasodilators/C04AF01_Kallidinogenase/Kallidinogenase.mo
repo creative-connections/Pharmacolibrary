@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C04A_PeripheralVasodilators.C04AF01_Kallidinogenase;
+model Kallidinogenase = Pharmacolibrary.Drugs.ATC.C.C04AF01;

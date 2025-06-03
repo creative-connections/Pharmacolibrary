@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03C_Estrogens.G03CA09_Promestriene;
+model Promestriene = Pharmacolibrary.Drugs.ATC.G.G03CA09;

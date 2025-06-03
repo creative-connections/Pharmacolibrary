@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01A_AnteriorPituitaryLobeHormonesAndAnalogues.H01AC05_MecaserminRinfabate;
+model MecaserminRinfabate = Pharmacolibrary.Drugs.ATC.H.H01AC05;

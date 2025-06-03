@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N07A_Parasympathomimetics.N07AA51_NeostigmineCombinations;
+model NeostigmineCombinations = Pharmacolibrary.Drugs.ATC.N.N07AA51;

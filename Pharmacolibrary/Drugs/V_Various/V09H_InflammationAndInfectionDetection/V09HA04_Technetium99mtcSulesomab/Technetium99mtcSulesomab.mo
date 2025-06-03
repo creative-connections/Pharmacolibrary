@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09H_InflammationAndInfectionDetection.V09HA04_Technetium99mtcSulesomab;
+model Technetium99mtcSulesomab = Pharmacolibrary.Drugs.ATC.V.V09HA04;

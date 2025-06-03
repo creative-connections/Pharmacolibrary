@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain.M02AA17_NiflumicAcid;
+model NiflumicAcid = Pharmacolibrary.Drugs.ATC.M.M02AA17;

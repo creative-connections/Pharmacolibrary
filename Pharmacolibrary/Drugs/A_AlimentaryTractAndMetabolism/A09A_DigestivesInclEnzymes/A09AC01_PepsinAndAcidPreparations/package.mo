@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A09A_DigestivesInclEnzymes;
+package A09AC01_PepsinAndAcidPreparations
+  extends Icons.Package;
+end A09AC01_PepsinAndAcidPreparations;

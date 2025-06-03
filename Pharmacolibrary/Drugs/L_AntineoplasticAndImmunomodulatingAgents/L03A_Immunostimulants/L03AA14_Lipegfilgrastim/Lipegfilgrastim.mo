@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AA14_Lipegfilgrastim;
+model Lipegfilgrastim = Pharmacolibrary.Drugs.ATC.L.L03AA14;

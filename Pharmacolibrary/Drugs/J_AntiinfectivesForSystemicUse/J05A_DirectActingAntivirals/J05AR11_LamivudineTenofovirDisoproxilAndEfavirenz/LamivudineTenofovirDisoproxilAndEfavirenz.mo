@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AR11_LamivudineTenofovirDisoproxilAndEfavirenz;
+model LamivudineTenofovirDisoproxilAndEfavirenz = Pharmacolibrary.Drugs.ATC.J.J05AR11;

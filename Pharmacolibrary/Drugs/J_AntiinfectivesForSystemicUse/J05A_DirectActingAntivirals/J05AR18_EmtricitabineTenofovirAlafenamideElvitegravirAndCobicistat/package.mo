@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
+package J05AR18_EmtricitabineTenofovirAlafenamideElvitegravirAndCobicistat
+  extends Icons.Package;
+end J05AR18_EmtricitabineTenofovirAlafenamideElvitegravirAndCobicistat;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans;
+package S01E_AntiglaucomaPreparationsAndMiotics
+  extends Icons.Package;
+end S01E_AntiglaucomaPreparationsAndMiotics;

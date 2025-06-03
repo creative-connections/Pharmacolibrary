@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EE02_Cobimetinib;
+model Cobimetinib = Pharmacolibrary.Drugs.ATC.L.L01EE02;

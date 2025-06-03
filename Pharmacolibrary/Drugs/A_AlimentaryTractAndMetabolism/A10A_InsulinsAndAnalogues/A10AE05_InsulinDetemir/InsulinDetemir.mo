@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10A_InsulinsAndAnalogues.A10AE05_InsulinDetemir;
+model InsulinDetemir = Pharmacolibrary.Drugs.ATC.A.A10AE05;

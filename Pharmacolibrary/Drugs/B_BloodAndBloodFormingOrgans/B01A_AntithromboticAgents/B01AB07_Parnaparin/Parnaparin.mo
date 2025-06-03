@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AB07_Parnaparin;
+model Parnaparin = Pharmacolibrary.Drugs.ATC.B.B01AB07;

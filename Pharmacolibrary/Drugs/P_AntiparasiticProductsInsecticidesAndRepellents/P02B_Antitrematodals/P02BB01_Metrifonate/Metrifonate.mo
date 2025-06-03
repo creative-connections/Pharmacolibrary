@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02B_Antitrematodals.P02BB01_Metrifonate;
+model Metrifonate = Pharmacolibrary.Drugs.ATC.P.P02BB01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AC03_Anakinra;
+model Anakinra_1 = Pharmacolibrary.Drugs.ATC.L.L04AC03_1;

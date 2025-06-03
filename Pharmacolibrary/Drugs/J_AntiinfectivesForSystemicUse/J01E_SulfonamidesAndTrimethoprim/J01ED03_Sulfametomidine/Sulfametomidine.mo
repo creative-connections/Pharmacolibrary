@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01ED03_Sulfametomidine;
+model Sulfametomidine = Pharmacolibrary.Drugs.ATC.J.J01ED03;

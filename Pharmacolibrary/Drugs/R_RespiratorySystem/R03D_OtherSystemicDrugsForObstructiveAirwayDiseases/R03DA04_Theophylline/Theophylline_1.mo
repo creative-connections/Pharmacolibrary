@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases.R03DA04_Theophylline;
+model Theophylline_1 = Pharmacolibrary.Drugs.ATC.R.R03DA04_1;

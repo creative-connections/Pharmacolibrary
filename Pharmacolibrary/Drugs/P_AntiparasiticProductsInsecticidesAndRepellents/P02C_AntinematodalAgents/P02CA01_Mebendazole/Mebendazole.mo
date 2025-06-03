@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02C_AntinematodalAgents.P02CA01_Mebendazole;
+model Mebendazole = Pharmacolibrary.Drugs.ATC.P.P02CA01;

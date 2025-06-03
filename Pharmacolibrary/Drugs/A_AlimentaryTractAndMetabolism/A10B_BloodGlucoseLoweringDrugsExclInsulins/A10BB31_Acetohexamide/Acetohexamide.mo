@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BB31_Acetohexamide;
+model Acetohexamide = Pharmacolibrary.Drugs.ATC.A.A10BB31;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09H_InflammationAndInfectionDetection.V09HA01_Technetium99mtcHumanImmunoglobulin;
+model Technetium99mtcHumanImmunoglobulin = Pharmacolibrary.Drugs.ATC.V.V09HA01;

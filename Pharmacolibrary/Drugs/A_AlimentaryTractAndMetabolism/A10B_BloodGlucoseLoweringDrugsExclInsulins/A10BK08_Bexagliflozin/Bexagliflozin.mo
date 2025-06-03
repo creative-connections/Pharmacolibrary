@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BK08_Bexagliflozin;
+model Bexagliflozin = Pharmacolibrary.Drugs.ATC.A.A10BK08;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XA04_Satraplatin;
+model Satraplatin = Pharmacolibrary.Drugs.ATC.L.L01XA04;

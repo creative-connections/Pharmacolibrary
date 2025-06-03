@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FF01_Nivolumab;
+model Nivolumab = Pharmacolibrary.Drugs.ATC.L.L01FF01;

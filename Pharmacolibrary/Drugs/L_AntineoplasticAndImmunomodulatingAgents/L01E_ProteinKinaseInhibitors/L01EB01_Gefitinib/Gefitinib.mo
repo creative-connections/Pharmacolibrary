@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EB01_Gefitinib;
+model Gefitinib = Pharmacolibrary.Drugs.ATC.L.L01EB01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BJ01_Exenatide;
+model Exenatide = Pharmacolibrary.Drugs.ATC.A.A10BJ01;

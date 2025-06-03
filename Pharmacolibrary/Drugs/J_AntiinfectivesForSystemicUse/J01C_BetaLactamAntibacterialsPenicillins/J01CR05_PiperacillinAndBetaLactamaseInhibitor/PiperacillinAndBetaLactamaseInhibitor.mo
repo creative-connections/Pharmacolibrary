@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins.J01CR05_PiperacillinAndBetaLactamaseInhibitor;
+model PiperacillinAndBetaLactamaseInhibitor = Pharmacolibrary.Drugs.ATC.J.J01CR05;

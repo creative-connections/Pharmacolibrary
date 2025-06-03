@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AD09_Mometasone;
+model Mometasone = Pharmacolibrary.Drugs.ATC.R.R01AD09;

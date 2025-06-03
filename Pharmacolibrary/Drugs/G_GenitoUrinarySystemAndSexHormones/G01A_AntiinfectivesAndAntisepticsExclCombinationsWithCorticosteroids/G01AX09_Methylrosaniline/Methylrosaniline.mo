@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AX09_Methylrosaniline;
+model Methylrosaniline = Pharmacolibrary.Drugs.ATC.G.G01AX09;

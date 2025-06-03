@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03F_ProgestogensAndEstrogensInCombination.G03FA05_MethylnortestosteroneAndEstrogen;
+model MethylnortestosteroneAndEstrogen = Pharmacolibrary.Drugs.ATC.G.G03FA05;

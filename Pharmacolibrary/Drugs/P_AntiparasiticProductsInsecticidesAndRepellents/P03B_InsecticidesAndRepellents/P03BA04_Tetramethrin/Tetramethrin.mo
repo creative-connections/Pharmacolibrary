@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03B_InsecticidesAndRepellents.P03BA04_Tetramethrin;
+model Tetramethrin = Pharmacolibrary.Drugs.ATC.P.P03BA04;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AP01_TyphoidOralLiveAttenuated;
+model TyphoidOralLiveAttenuated = Pharmacolibrary.Drugs.ATC.J.J07AP01;

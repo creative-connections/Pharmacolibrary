@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10A_LipidModifyingAgentsPlain.C10AX08_Policosanol;
+model Policosanol = Pharmacolibrary.Drugs.ATC.C.C10AX08;

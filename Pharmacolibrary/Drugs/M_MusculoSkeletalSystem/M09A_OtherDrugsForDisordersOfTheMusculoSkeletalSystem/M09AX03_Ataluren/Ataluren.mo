@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem.M09AX03_Ataluren;
+model Ataluren = Pharmacolibrary.Drugs.ATC.M.M09AX03;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09X_OtherDiagnosticRadiopharmaceuticals.V09XX02_Cobalt58coCyanocobalamine;
+model Cobalt58coCyanocobalamine = Pharmacolibrary.Drugs.ATC.V.V09XX02;

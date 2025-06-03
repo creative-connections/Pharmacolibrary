@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem.M09AX12_Viltolarsen;
+model Viltolarsen = Pharmacolibrary.Drugs.ATC.M.M09AX12;

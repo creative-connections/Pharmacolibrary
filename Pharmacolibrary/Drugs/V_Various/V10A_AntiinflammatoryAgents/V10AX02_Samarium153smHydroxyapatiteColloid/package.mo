@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V10A_AntiinflammatoryAgents;
+package V10AX02_Samarium153smHydroxyapatiteColloid
+  extends Icons.Package;
+end V10AX02_Samarium153smHydroxyapatiteColloid;

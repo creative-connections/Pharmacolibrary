@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B06A_OtherHematologicalAgents.B06AX04_Mitapivat;
+model Mitapivat = Pharmacolibrary.Drugs.ATC.B.B06AX04;

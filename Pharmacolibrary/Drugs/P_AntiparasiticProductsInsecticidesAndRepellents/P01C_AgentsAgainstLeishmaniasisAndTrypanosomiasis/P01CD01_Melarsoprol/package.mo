@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01C_AgentsAgainstLeishmaniasisAndTrypanosomiasis;
+package P01CD01_Melarsoprol
+  extends Icons.Package;
+end P01CD01_Melarsoprol;

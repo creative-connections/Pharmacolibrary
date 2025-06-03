@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EA04_Bosutinib;
+model Bosutinib = Pharmacolibrary.Drugs.ATC.L.L01EA04;

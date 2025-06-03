@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05B_IVSolutions.B05BA10_ElectrolyteSolutionsCombinations;
+model ElectrolyteSolutionsCombinations = Pharmacolibrary.Drugs.ATC.B.B05BA10;

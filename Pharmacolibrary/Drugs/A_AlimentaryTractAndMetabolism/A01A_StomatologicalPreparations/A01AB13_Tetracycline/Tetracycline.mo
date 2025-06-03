@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations.A01AB13_Tetracycline;
+model Tetracycline = Pharmacolibrary.Drugs.ATC.A.A01AB13;

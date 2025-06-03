@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts;
+package V03AG01_SodiumCellulosePhosphate
+  extends Icons.Package;
+end V03AG01_SodiumCellulosePhosphate;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05A_ParathyroidHormonesAndAnalogues.H05AA01_ParathyroidGlandExtract;
+model ParathyroidGlandExtract = Pharmacolibrary.Drugs.ATC.H.H05AA01;

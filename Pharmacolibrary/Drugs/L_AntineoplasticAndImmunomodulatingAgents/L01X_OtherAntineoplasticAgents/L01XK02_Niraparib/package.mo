@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
+package L01XK02_Niraparib
+  extends Icons.Package;
+end L01XK02_Niraparib;

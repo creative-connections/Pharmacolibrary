@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03B_BelladonnaAndDerivativesPlain.A03BB02_Methylatropine;
+model Methylatropine = Pharmacolibrary.Drugs.ATC.A.A03BB02;

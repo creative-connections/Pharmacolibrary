@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants.R05CA03_Guaifenesin;
+model Guaifenesin = Pharmacolibrary.Drugs.ATC.R.R05CA03;

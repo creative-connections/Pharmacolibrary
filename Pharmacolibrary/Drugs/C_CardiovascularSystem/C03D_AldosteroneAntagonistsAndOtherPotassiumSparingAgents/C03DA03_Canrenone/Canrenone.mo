@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03D_AldosteroneAntagonistsAndOtherPotassiumSparingAgents.C03DA03_Canrenone;
+model Canrenone = Pharmacolibrary.Drugs.ATC.C.C03DA03;

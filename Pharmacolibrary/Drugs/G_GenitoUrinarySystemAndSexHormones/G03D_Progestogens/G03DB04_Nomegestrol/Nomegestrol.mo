@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03D_Progestogens.G03DB04_Nomegestrol;
+model Nomegestrol = Pharmacolibrary.Drugs.ATC.G.G03DB04;

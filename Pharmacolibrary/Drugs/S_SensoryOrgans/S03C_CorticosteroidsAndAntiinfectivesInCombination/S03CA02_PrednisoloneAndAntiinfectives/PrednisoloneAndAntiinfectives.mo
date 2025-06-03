@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S03C_CorticosteroidsAndAntiinfectivesInCombination.S03CA02_PrednisoloneAndAntiinfectives;
+model PrednisoloneAndAntiinfectives = Pharmacolibrary.Drugs.ATC.S.S03CA02;

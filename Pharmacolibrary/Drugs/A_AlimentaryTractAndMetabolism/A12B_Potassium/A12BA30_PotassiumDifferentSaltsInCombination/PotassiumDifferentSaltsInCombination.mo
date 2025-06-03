@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12B_Potassium.A12BA30_PotassiumDifferentSaltsInCombination;
+model PotassiumDifferentSaltsInCombination = Pharmacolibrary.Drugs.ATC.A.A12BA30;

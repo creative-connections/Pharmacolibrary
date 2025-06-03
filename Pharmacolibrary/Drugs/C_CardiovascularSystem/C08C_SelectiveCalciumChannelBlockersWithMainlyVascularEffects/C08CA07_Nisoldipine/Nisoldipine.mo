@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08C_SelectiveCalciumChannelBlockersWithMainlyVascularEffects.C08CA07_Nisoldipine;
+model Nisoldipine = Pharmacolibrary.Drugs.ATC.C.C08CA07;

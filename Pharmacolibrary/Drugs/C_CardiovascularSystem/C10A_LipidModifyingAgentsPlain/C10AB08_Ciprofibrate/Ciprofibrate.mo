@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10A_LipidModifyingAgentsPlain.C10AB08_Ciprofibrate;
+model Ciprofibrate = Pharmacolibrary.Drugs.ATC.C.C10AB08;

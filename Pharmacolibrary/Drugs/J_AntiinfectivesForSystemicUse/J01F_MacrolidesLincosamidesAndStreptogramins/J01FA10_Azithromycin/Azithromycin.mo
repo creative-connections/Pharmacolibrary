@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins.J01FA10_Azithromycin;
+model Azithromycin = Pharmacolibrary.Drugs.ATC.J.J01FA10;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AB14_CepeginterferonAlfa2b;
+model CepeginterferonAlfa2b = Pharmacolibrary.Drugs.ATC.L.L03AB14;

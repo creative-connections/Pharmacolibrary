@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02D_ArteriolarSmoothMuscleAgentsActingOn.C02DA01_Diazoxide;
+model Diazoxide = Pharmacolibrary.Drugs.ATC.C.C02DA01;

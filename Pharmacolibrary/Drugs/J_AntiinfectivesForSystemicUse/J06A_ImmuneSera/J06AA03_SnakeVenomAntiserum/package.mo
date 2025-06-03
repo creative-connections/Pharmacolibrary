@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J06A_ImmuneSera;
+package J06AA03_SnakeVenomAntiserum
+  extends Icons.Package;
+end J06AA03_SnakeVenomAntiserum;

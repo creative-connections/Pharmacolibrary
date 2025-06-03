@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination.C02LA07_BietaserpineAndDiuretics;
+model BietaserpineAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C02LA07;

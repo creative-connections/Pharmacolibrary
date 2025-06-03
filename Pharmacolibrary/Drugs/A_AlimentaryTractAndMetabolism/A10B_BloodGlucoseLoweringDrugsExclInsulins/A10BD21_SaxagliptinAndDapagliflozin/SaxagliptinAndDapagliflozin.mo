@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BD21_SaxagliptinAndDapagliflozin;
+model SaxagliptinAndDapagliflozin = Pharmacolibrary.Drugs.ATC.A.A10BD21;

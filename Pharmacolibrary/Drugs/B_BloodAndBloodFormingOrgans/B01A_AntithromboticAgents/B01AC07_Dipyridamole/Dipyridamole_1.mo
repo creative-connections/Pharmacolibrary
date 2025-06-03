@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AC07_Dipyridamole;
+model Dipyridamole_1 = Pharmacolibrary.Drugs.ATC.B.B01AC07_1;

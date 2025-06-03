@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
+package A16A_OtherAlimentaryTractAndMetabolismProducts
+  extends Icons.Package;
+end A16A_OtherAlimentaryTractAndMetabolismProducts;

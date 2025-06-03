@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02C_OtherGynecologicals.G02CB06_Terguride;
+model Terguride = Pharmacolibrary.Drugs.ATC.G.G02CB06;

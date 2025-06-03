@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants;
+package R05CA09_Guaiacolsulfonate
+  extends Icons.Package;
+end R05CA09_Guaiacolsulfonate;

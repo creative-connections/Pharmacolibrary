@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N05C_HypnoticsAndSedatives.N05CX05_EmeproniumCombinations;
+model EmeproniumCombinations = Pharmacolibrary.Drugs.ATC.N.N05CX05;

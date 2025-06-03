@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AB04_Adalimumab;
+model Adalimumab = Pharmacolibrary.Drugs.ATC.L.L04AB04;

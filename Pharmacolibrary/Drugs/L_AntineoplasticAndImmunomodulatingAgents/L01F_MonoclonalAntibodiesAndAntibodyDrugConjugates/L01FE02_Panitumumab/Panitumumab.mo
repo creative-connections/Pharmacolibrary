@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FE02_Panitumumab;
+model Panitumumab = Pharmacolibrary.Drugs.ATC.L.L01FE02;

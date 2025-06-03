@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BB01_InfluenzaInactivatedWholeVirus;
+model InfluenzaInactivatedWholeVirus = Pharmacolibrary.Drugs.ATC.J.J07BB01;

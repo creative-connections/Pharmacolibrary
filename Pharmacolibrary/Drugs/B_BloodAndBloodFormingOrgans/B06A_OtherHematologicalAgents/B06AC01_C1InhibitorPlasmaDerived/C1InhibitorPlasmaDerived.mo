@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B06A_OtherHematologicalAgents.B06AC01_C1InhibitorPlasmaDerived;
+model C1InhibitorPlasmaDerived = Pharmacolibrary.Drugs.ATC.B.B06AC01;

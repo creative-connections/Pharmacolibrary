@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12B_Potassium.A12BA01_PotassiumChloride;
+model PotassiumChloride = Pharmacolibrary.Drugs.ATC.A.A12BA01;

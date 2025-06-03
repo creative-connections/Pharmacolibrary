@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01M_QuinoloneAntibacterials.J01MA23_Delafloxacin;
+model Delafloxacin_1 = Pharmacolibrary.Drugs.ATC.J.J01MA23_1;

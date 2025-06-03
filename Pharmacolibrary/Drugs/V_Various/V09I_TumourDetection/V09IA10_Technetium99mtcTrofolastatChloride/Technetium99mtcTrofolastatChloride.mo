@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection.V09IA10_Technetium99mtcTrofolastatChloride;
+model Technetium99mtcTrofolastatChloride = Pharmacolibrary.Drugs.ATC.V.V09IA10;

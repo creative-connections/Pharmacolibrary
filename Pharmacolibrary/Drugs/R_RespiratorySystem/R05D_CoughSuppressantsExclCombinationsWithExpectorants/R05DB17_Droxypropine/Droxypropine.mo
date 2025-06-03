@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants.R05DB17_Droxypropine;
+model Droxypropine = Pharmacolibrary.Drugs.ATC.R.R05DB17;

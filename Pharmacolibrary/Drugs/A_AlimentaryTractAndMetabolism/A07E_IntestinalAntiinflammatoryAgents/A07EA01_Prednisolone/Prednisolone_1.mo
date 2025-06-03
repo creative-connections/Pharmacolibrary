@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07E_IntestinalAntiinflammatoryAgents.A07EA01_Prednisolone;
+model Prednisolone_1 = Pharmacolibrary.Drugs.ATC.A.A07EA01_1;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09X_OtherDiagnosticRadiopharmaceuticals.V09XX04_Ferric59feCitrate;
+model Ferric59feCitrate = Pharmacolibrary.Drugs.ATC.V.V09XX04;

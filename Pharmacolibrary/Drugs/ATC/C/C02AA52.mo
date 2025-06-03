@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.C;
+
+model C02AA52
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.5,
+    Cl             = 0.26666666666666666,
+    adminDuration  = 600,
+    adminMass      = 0.0002,
+    adminCount     = 1,
+    Vd             = 0.225,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0008333333333333334,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Reserpine, in combination with other antihypertensive agents, has historically been used for the management of hypertension. Reserpine depletes catecholamines from peripheral sympathetic nerve endings, thereby reducing blood pressure. The drug combination is rarely used today due to the availability of safer and better-tolerated antihypertensive medications. Use of reserpine in such combinations is mostly of historical interest.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters are estimated for adult patients following oral administration, due to lack of specific published PK data for reserpine in combination products (C02AA52). Parameters are based on known PK of reserpine alone and general combination drug dosing.</p><h4>References</h4><ol><li> No direct PK studies or publications were found for reserpine in C02AA52 combination products. All pharmacokinetic values are estimated based on known monotherapy reserpine data (oral dosing in adults) and may differ in the presence of co-formulated drugs. Estimates should be interpreted cautiously and individualized when possible.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end C02AA52;

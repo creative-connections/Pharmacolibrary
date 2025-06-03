@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AB09_NorgestimateAndEthinylestradiol;
+model NorgestimateAndEthinylestradiol = Pharmacolibrary.Drugs.ATC.G.G03AB09;

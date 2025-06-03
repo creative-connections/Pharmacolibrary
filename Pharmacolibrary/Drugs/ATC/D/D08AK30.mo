@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.D;
+
+model D08AK30
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.01,
+    Cl             = 0.0016666666666666668,
+    adminDuration  = 600,
+    adminMass      = 0.01,
+    adminCount     = 1,
+    Vd             = 0.001,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Mercuric iodide (HgI2) is an inorganic compound formerly used as a topical antiseptic and disinfectant. Due to its high toxicity and potential for mercury poisoning, it is no longer approved or in use for medical applications today.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic studies in humans or animals are available for mercuric iodide. The following parameters are theoretical estimates extrapolated based on the general pharmacokinetics of inorganic mercury salts and related toxicology data.</p><h4>References</h4><ol><li> No primary pharmacokinetic or clinical studies on mercuric iodide were found in indexed literature. All parameters are estimates based on general information for inorganic mercury salts. Parameters may be inaccurate for mercuric iodide specifically.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end D08AK30;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02C_AntiadrenergicAgentsPeripherallyActing.C02CA06_Urapidil;
+model Urapidil_1 = Pharmacolibrary.Drugs.ATC.C.C02CA06_1;

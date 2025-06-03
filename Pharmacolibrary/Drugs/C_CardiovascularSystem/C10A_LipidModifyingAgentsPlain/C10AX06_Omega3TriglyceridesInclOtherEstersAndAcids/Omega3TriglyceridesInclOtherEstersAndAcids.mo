@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10A_LipidModifyingAgentsPlain.C10AX06_Omega3TriglyceridesInclOtherEstersAndAcids;
+model Omega3TriglyceridesInclOtherEstersAndAcids = Pharmacolibrary.Drugs.ATC.C.C10AX06;

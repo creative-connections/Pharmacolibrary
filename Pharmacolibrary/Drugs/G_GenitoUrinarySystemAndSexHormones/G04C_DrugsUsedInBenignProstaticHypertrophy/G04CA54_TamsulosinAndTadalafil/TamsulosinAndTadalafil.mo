@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04C_DrugsUsedInBenignProstaticHypertrophy.G04CA54_TamsulosinAndTadalafil;
+model TamsulosinAndTadalafil = Pharmacolibrary.Drugs.ATC.G.G04CA54;

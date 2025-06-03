@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AB10_FerricMaltol;
+model FerricMaltol = Pharmacolibrary.Drugs.ATC.B.B03AB10;

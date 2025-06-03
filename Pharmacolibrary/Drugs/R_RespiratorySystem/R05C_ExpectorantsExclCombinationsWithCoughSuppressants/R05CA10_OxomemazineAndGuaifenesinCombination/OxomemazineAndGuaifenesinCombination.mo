@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants.R05CA10_OxomemazineAndGuaifenesinCombination;
+model OxomemazineAndGuaifenesinCombination = Pharmacolibrary.Drugs.ATC.R.R05CA10;

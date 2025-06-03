@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AX15_CopperUsnate;
+model CopperUsnate = Pharmacolibrary.Drugs.ATC.G.G01AX15;

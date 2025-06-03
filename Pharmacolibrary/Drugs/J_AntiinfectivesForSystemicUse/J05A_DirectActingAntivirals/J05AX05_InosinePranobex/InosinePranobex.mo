@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AX05_InosinePranobex;
+model InosinePranobex = Pharmacolibrary.Drugs.ATC.J.J05AX05;

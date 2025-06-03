@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.S;
+
+model S01AX07
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.01,
+    Cl             = 0.025,
+    adminDuration  = 600,
+    adminMass      = 0.001,
+    adminCount     = 1,
+    Vd             = 0.0002,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Sodium borate (borax) is an inorganic compound used historically as an antiseptic, buffer, and preservative in ophthalmic and topical preparations. Due to toxicity concerns, especially in children, sodium borate is rarely used therapeutically today and is not approved for clinical use in many countries.</p><h4>Pharmacokinetics</h4><p>No human pharmacokinetic studies specific to sodium borate with detailed model parameters are published. Estimates provided below are based on general boron (borate) pharmacokinetic behavior as reported for related exposures in toxicological studies.</p><h4>References</h4><ol><li> No direct clinical pharmacokinetic studies were found for sodium borate. Parameters are estimated from general borate toxicology reviews and public safety data. Ophthalmic administration is associated with negligible systemic absorption; estimates refer to what little systemic absorption may occur.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end S01AX07;

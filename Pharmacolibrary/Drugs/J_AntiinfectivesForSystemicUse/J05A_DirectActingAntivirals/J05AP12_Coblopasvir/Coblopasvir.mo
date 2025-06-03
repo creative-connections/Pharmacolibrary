@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AP12_Coblopasvir;
+model Coblopasvir = Pharmacolibrary.Drugs.ATC.J.J05AP12;

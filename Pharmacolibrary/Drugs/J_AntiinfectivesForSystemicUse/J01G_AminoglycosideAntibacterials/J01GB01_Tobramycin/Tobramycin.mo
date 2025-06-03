@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01G_AminoglycosideAntibacterials.J01GB01_Tobramycin;
+model Tobramycin = Pharmacolibrary.Drugs.ATC.J.J01GB01;

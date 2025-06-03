@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AH02_Chlorquinaldol;
+model Chlorquinaldol = Pharmacolibrary.Drugs.ATC.D.D08AH02;

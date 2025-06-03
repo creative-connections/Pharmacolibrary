@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03A_LowCeilingDiureticsThiazides;
+package C03AB05_PolythiazideAndPotassium
+  extends Icons.Package;
+end C03AB05_PolythiazideAndPotassium;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04B_DrugsForTreatmentOfLepra.J04BA51_DapsoneRifampicinAndClofazimine;
+model DapsoneRifampicinAndClofazimine = Pharmacolibrary.Drugs.ATC.J.J04BA51;

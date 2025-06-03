@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05C_IrrigatingSolutions.B05CB03_MagnesiumCitrate;
+model MagnesiumCitrate = Pharmacolibrary.Drugs.ATC.B.B05CB03;

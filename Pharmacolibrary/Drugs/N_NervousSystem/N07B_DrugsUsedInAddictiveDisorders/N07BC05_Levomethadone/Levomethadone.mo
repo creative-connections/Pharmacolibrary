@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N07B_DrugsUsedInAddictiveDisorders.N07BC05_Levomethadone;
+model Levomethadone = Pharmacolibrary.Drugs.ATC.N.N07BC05;

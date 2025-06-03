@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07C_CorticosteroidsCombinationsWithAntibiotics.D07CC03_FludroxycortideAndAntibiotics;
+model FludroxycortideAndAntibiotics = Pharmacolibrary.Drugs.ATC.D.D07CC03;

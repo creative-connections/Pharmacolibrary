@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins;
+package A10BX17_Carfloglitazar
+  extends Icons.Package;
+end A10BX17_Carfloglitazar;

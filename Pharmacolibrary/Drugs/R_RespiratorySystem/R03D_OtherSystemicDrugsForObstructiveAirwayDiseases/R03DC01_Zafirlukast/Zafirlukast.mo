@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases.R03DC01_Zafirlukast;
+model Zafirlukast = Pharmacolibrary.Drugs.ATC.R.R03DC01;

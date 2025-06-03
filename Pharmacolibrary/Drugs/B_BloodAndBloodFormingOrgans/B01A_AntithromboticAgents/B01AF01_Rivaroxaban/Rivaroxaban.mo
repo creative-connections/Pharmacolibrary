@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AF01_Rivaroxaban;
+model Rivaroxaban = Pharmacolibrary.Drugs.ATC.B.B01AF01;

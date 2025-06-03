@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01C_SpecificAntirheumaticAgents;
+package M01CB01_SodiumAurothiomalate
+  extends Icons.Package;
+end M01CB01_SodiumAurothiomalate;

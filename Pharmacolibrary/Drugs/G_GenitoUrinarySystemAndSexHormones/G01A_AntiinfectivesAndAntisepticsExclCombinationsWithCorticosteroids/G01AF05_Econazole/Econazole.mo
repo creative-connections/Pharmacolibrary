@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AF05_Econazole;
+model Econazole = Pharmacolibrary.Drugs.ATC.G.G01AF05;

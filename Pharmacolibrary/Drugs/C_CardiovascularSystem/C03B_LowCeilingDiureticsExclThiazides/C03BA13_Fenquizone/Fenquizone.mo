@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03B_LowCeilingDiureticsExclThiazides.C03BA13_Fenquizone;
+model Fenquizone = Pharmacolibrary.Drugs.ATC.C.C03BA13;

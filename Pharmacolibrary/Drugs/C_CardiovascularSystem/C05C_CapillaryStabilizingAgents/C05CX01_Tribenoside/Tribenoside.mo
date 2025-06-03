@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05C_CapillaryStabilizingAgents.C05CX01_Tribenoside;
+model Tribenoside = Pharmacolibrary.Drugs.ATC.C.C05CX01;

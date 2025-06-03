@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations.C10BX20_RosuvastatinAndTelmisartan;
+model RosuvastatinAndTelmisartan = Pharmacolibrary.Drugs.ATC.C.C10BX20;

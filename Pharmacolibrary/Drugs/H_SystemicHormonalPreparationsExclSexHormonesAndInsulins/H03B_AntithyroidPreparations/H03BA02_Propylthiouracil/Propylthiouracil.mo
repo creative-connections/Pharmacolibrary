@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03B_AntithyroidPreparations.H03BA02_Propylthiouracil;
+model Propylthiouracil = Pharmacolibrary.Drugs.ATC.H.H03BA02;

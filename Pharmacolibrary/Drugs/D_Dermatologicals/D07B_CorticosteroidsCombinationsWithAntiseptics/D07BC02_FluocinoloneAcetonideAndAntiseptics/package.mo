@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07B_CorticosteroidsCombinationsWithAntiseptics;
+package D07BC02_FluocinoloneAcetonideAndAntiseptics
+  extends Icons.Package;
+end D07BC02_FluocinoloneAcetonideAndAntiseptics;

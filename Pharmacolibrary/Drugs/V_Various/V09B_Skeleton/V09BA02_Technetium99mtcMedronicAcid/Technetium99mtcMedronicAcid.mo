@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09B_Skeleton.V09BA02_Technetium99mtcMedronicAcid;
+model Technetium99mtcMedronicAcid = Pharmacolibrary.Drugs.ATC.V.V09BA02;

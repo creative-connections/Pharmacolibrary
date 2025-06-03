@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders.A03AC02_Dimethylaminopropionylphenothiazine;
+model Dimethylaminopropionylphenothiazine = Pharmacolibrary.Drugs.ATC.A.A03AC02;

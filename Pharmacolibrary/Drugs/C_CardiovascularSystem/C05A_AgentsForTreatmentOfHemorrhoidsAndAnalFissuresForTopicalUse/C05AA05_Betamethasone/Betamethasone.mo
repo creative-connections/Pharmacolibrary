@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse.C05AA05_Betamethasone;
+model Betamethasone = Pharmacolibrary.Drugs.ATC.C.C05AA05;

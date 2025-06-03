@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis.J04AK06_Delamanid;
+model Delamanid = Pharmacolibrary.Drugs.ATC.J.J04AK06;

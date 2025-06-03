@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides.C01CA04_Dopamine;
+model Dopamine = Pharmacolibrary.Drugs.ATC.C.C01CA04;

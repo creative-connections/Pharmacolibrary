@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11C_VitaminAAndDInclCombinationsOfTheTwo;
+package A11CA02_Betacarotene
+  extends Icons.Package;
+end A11CA02_Betacarotene;

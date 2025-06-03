@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides.C01CA13_Prenalterol;
+model Prenalterol = Pharmacolibrary.Drugs.ATC.C.C01CA13;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05X_OtherVasoprotectives.C05XX01_BeperminogenePerplasmid;
+model BeperminogenePerplasmid = Pharmacolibrary.Drugs.ATC.C.C05XX01;

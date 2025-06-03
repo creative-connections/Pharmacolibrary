@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02A_AntiadrenergicAgentsCentrallyActing.C02AA57_BietaserpineCombinations;
+model BietaserpineCombinations = Pharmacolibrary.Drugs.ATC.C.C02AA57;

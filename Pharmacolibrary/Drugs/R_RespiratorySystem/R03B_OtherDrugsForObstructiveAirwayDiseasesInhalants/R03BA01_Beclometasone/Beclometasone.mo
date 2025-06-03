@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03B_OtherDrugsForObstructiveAirwayDiseasesInhalants.R03BA01_Beclometasone;
+model Beclometasone = Pharmacolibrary.Drugs.ATC.R.R03BA01;

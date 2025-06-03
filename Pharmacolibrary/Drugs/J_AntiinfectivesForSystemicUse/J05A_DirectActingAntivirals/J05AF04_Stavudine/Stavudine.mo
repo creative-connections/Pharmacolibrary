@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AF04_Stavudine;
+model Stavudine = Pharmacolibrary.Drugs.ATC.J.J05AF04;

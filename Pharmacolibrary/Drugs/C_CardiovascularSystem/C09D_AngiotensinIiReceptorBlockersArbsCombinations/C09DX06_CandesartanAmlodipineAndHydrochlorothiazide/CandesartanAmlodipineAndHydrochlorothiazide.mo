@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations.C09DX06_CandesartanAmlodipineAndHydrochlorothiazide;
+model CandesartanAmlodipineAndHydrochlorothiazide = Pharmacolibrary.Drugs.ATC.C.C09DX06;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins.J01CA07_Epicillin;
+model Epicillin = Pharmacolibrary.Drugs.ATC.J.J01CA07;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AD53_DexamethasoneCombinations;
+model DexamethasoneCombinations = Pharmacolibrary.Drugs.ATC.R.R01AD53;

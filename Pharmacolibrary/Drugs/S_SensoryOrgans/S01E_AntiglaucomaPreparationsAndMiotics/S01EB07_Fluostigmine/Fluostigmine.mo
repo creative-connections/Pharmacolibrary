@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01EB07_Fluostigmine;
+model Fluostigmine = Pharmacolibrary.Drugs.ATC.S.S01EB07;

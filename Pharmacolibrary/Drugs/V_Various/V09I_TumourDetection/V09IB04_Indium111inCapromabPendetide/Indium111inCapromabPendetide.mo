@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection.V09IB04_Indium111inCapromabPendetide;
+model Indium111inCapromabPendetide = Pharmacolibrary.Drugs.ATC.V.V09IB04;

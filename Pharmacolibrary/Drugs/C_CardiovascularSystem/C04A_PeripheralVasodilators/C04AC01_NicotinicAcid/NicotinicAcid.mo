@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C04A_PeripheralVasodilators.C04AC01_NicotinicAcid;
+model NicotinicAcid = Pharmacolibrary.Drugs.ATC.C.C04AC01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AA05_Clofezone;
+model Clofezone = Pharmacolibrary.Drugs.ATC.M.M01AA05;

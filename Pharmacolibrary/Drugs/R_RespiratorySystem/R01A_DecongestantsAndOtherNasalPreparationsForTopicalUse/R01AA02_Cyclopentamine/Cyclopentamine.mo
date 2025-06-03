@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AA02_Cyclopentamine;
+model Cyclopentamine = Pharmacolibrary.Drugs.ATC.R.R01AA02;

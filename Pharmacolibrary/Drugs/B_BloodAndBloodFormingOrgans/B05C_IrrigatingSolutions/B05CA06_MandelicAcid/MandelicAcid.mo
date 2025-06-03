@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05C_IrrigatingSolutions.B05CA06_MandelicAcid;
+model MandelicAcid = Pharmacolibrary.Drugs.ATC.B.B05CA06;

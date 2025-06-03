@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis.J04AB30_Capreomycin;
+model Capreomycin = Pharmacolibrary.Drugs.ATC.J.J04AB30;

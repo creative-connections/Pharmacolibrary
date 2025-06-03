@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AF12_Clevudine;
+model Clevudine = Pharmacolibrary.Drugs.ATC.J.J05AF12;

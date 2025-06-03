@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AX52_GamolenicAcidCombinations;
+model GamolenicAcidCombinations = Pharmacolibrary.Drugs.ATC.D.D11AX52;

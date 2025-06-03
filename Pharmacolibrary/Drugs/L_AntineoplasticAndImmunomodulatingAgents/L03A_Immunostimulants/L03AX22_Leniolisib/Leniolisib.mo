@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AX22_Leniolisib;
+model Leniolisib = Pharmacolibrary.Drugs.ATC.L.L03AX22;

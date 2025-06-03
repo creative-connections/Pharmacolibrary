@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AE53_CyclizineCombinations;
+model CyclizineCombinations = Pharmacolibrary.Drugs.ATC.R.R06AE53;

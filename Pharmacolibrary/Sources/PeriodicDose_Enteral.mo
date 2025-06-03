@@ -16,7 +16,7 @@ parameter Modelica.Units.SI.Time Tlag(displayUnit = "min") = 600 "time delay bet
     Placement(transformation(origin = {3, -53}, extent = {{-17, -17}, {17, 17}})));
   Pharmacokinetic.LumenCompartment giLumen annotation(
     Placement(transformation(origin = {-36, -22}, extent = {{-16, -16}, {16, 16}})));
-  Modelica.Blocks.Sources.Pulse pulse(amplitude = adminMass, nperiod = doseCount, period = adminPeriod, startTime = firstAdminTime, width = 1/adminPeriod*100) annotation(
+  Modelica.Blocks.Sources.Pulse pulse(amplitude = adminMass, nperiod = doseCount, period = adminPeriod, startTime = firstAdminTime, width = adminDuration/adminPeriod*100) annotation(
     Placement(transformation(origin = {-90, 23}, extent = {{-10, -10}, {10, 10}})));
   Modelica.Blocks.Nonlinear.FixedDelay delay(delayTime = Tlag)  annotation(
     Placement(transformation(origin = {-48, 22}, extent = {{-10, -10}, {10, 10}})));

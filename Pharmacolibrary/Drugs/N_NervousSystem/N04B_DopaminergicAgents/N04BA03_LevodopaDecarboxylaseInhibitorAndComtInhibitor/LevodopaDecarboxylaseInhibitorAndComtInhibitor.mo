@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N04B_DopaminergicAgents.N04BA03_LevodopaDecarboxylaseInhibitorAndComtInhibitor;
+model LevodopaDecarboxylaseInhibitorAndComtInhibitor = Pharmacolibrary.Drugs.ATC.N.N04BA03;

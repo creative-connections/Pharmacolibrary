@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07X_CorticosteroidsOtherCombinations.D07XA02_Prednisolone;
+model Prednisolone = Pharmacolibrary.Drugs.ATC.D.D07XA02;

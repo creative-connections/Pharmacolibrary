@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DA04_MethylpropylpropanediolDinitrate;
+model MethylpropylpropanediolDinitrate = Pharmacolibrary.Drugs.ATC.C.C01DA04;

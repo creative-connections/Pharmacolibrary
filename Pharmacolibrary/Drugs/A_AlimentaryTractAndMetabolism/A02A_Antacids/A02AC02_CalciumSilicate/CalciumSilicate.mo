@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02A_Antacids.A02AC02_CalciumSilicate;
+model CalciumSilicate = Pharmacolibrary.Drugs.ATC.A.A02AC02;

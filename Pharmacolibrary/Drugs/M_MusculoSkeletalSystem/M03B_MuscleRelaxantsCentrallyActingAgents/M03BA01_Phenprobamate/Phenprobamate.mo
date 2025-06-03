@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents.M03BA01_Phenprobamate;
+model Phenprobamate = Pharmacolibrary.Drugs.ATC.M.M03BA01;

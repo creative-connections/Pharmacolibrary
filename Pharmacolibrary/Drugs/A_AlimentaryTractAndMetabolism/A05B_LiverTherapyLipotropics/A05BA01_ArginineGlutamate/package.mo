@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A05B_LiverTherapyLipotropics;
+package A05BA01_ArginineGlutamate
+  extends Icons.Package;
+end A05BA01_ArginineGlutamate;

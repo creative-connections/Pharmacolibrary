@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AB56_SennaGlycosidesCombinations;
+model SennaGlycosidesCombinations = Pharmacolibrary.Drugs.ATC.A.A06AB56;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations.C09DX05_ValsartanAndNebivolol;
+model ValsartanAndNebivolol = Pharmacolibrary.Drugs.ATC.C.C09DX05;

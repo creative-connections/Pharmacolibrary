@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AB12_Cidofovir;
+model Cidofovir = Pharmacolibrary.Drugs.ATC.J.J05AB12;

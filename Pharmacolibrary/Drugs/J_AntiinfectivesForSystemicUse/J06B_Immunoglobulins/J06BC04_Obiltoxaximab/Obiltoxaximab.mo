@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J06B_Immunoglobulins.J06BC04_Obiltoxaximab;
+model Obiltoxaximab = Pharmacolibrary.Drugs.ATC.J.J06BC04;

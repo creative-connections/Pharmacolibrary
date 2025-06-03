@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01D_CytotoxicAntibioticsAndRelatedSubstances.L01DB08_Pirarubicin;
+model Pirarubicin = Pharmacolibrary.Drugs.ATC.L.L01DB08;

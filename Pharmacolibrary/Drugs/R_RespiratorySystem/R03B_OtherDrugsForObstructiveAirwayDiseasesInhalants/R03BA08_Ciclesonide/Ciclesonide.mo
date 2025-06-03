@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03B_OtherDrugsForObstructiveAirwayDiseasesInhalants.R03BA08_Ciclesonide;
+model Ciclesonide = Pharmacolibrary.Drugs.ATC.R.R03BA08;

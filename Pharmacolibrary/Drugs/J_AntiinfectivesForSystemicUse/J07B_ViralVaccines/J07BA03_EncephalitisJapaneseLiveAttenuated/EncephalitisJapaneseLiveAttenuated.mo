@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BA03_EncephalitisJapaneseLiveAttenuated;
+model EncephalitisJapaneseLiveAttenuated = Pharmacolibrary.Drugs.ATC.J.J07BA03;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01M_QuinoloneAntibacterials.J01MB01_Rosoxacin;
+model Rosoxacin = Pharmacolibrary.Drugs.ATC.J.J01MB01;

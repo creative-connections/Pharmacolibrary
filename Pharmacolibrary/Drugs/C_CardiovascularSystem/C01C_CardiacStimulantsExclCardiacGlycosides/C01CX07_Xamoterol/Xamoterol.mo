@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides.C01CX07_Xamoterol;
+model Xamoterol = Pharmacolibrary.Drugs.ATC.C.C01CX07;

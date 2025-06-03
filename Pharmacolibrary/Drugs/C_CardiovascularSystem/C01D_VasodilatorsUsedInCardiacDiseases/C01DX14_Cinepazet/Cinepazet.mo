@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DX14_Cinepazet;
+model Cinepazet = Pharmacolibrary.Drugs.ATC.C.C01DX14;

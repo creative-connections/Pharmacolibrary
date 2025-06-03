@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts.L01CD04_Cabazitaxel;
+model Cabazitaxel = Pharmacolibrary.Drugs.ATC.L.L01CD04;

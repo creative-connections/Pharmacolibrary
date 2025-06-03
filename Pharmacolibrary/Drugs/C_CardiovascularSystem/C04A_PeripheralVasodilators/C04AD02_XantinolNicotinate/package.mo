@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C04A_PeripheralVasodilators;
+package C04AD02_XantinolNicotinate
+  extends Icons.Package;
+end C04AD02_XantinolNicotinate;

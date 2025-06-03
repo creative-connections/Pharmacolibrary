@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination.C02LA08_RauwolfiaAlkaloidsWholeRootAndDiuretics;
+model RauwolfiaAlkaloidsWholeRootAndDiuretics = Pharmacolibrary.Drugs.ATC.C.C02LA08;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01R_CombinationsOfAntibacterials.J01RA05_LevofloxacinAndOrnidazole;
+model LevofloxacinAndOrnidazole = Pharmacolibrary.Drugs.ATC.J.J01RA05;

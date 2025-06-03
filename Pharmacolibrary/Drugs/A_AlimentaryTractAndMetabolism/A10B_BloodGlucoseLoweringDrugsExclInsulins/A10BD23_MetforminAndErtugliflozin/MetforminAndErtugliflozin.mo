@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BD23_MetforminAndErtugliflozin;
+model MetforminAndErtugliflozin = Pharmacolibrary.Drugs.ATC.A.A10BD23;

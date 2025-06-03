@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.D;
+
+model D07CC06
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.05,
+    Cl             = 4.166666666666667,
+    adminDuration  = 600,
+    adminMass      = 0.02,
+    adminCount     = 1,
+    Vd             = 0.0025,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Fluocortolone and antibiotics (ATC code D07CC06) are combination topical medications used in dermatology, primarily for the treatment of inflammatory skin conditions that are either infected or at risk of infection. Fluocortolone is a corticosteroid used for its anti-inflammatory and immunosuppressive properties, while the antibiotic component varies and acts against susceptible skin pathogens. Such combinations are indicated for eczematous or other dermatoses complicated by infection. Currently, such combinations are still used in clinical practice, although corticosteroid-antibiotic combinations should be used with caution due to possible resistance.</p><h4>Pharmacokinetics</h4><p>No dedicated pharmacokinetic (PK) studies for fluocortolone in combination with antibiotics (topical, D07CC06) have been found in the literature. Classical PK parameters are largely unreported for topical corticosteroid-antibiotic combinations, as systemic absorption is expected to be minimal when used as directed on intact skin. The following model parameters are estimated based on the known low percutaneous absorption and general properties of topical corticosteroids.</p><h4>References</h4><ol><li> No published pharmacokinetic studies specific for fluocortolone and antibiotic combinations (D07CC06) were identified. Parameter values represent cautious estimates based on data from systemically administered corticosteroids and general absorption profiles for topical corticosteroids. Systemic exposure expected to be very low with intended use on intact skin.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end D07CC06;

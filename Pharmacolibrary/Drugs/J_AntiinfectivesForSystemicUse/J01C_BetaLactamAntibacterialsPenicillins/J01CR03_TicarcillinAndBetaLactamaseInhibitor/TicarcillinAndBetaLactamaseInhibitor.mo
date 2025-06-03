@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins.J01CR03_TicarcillinAndBetaLactamaseInhibitor;
+model TicarcillinAndBetaLactamaseInhibitor = Pharmacolibrary.Drugs.ATC.J.J01CR03;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.R;
+
+model R01AA06
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.4,
+    Cl             = 0.0003333333333333333,
+    adminDuration  = 600,
+    adminMass      = 0.0005,
+    adminCount     = 1,
+    Vd             = 0.0015,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Tetryzoline (also known as tetrahydrozoline) is an imidazoline derivative used as a topical decongestant for relieving redness in the eyes and nasal congestion. It acts as an alpha-adrenergic agonist, causing vasoconstriction. Tetryzoline is available in over-the-counter ocular (eye drops) and nasal preparations in many countries but systemic/injectable use is not approved.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetics for healthy adult population based on published data for topical imidazoline decongestants and tetrahydrozoline class due to lack of primary PK studies on tetryzoline.</p><h4>References</h4><ol><li> No direct PK data for tetryzoline could be identified in published literature. Parameter values are estimates based on class effect/imidazoline analogs (notably tetrahydrozoline), typical dosing, and route of administration. No human PK data or clinical DOI available; all values should be considered approximations.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end R01AA06;

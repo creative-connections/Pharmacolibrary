@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02C_AntinematodalAgents.P02CA06_Fenbendazole;
+model Fenbendazole = Pharmacolibrary.Drugs.ATC.P.P02CA06;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AA51_LiquidParaffinCombinations;
+model LiquidParaffinCombinations = Pharmacolibrary.Drugs.ATC.A.A06AA51;

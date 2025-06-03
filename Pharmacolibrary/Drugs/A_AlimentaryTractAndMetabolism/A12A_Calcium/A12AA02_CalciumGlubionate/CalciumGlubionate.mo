@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12A_Calcium.A12AA02_CalciumGlubionate;
+model CalciumGlubionate = Pharmacolibrary.Drugs.ATC.A.A12AA02;

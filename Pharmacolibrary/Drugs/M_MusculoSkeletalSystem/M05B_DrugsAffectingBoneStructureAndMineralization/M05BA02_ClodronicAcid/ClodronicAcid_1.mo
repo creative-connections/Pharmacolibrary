@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization.M05BA02_ClodronicAcid;
+model ClodronicAcid_1 = Pharmacolibrary.Drugs.ATC.M.M05BA02_1;

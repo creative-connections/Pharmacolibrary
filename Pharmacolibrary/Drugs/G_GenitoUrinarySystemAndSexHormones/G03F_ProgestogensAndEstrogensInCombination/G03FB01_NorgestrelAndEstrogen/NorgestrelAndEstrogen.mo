@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03F_ProgestogensAndEstrogensInCombination.G03FB01_NorgestrelAndEstrogen;
+model NorgestrelAndEstrogen = Pharmacolibrary.Drugs.ATC.G.G03FB01;

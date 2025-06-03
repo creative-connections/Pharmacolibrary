@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AB05_InterferonAlfa2b;
+model InterferonAlfa2b = Pharmacolibrary.Drugs.ATC.L.L03AB05;

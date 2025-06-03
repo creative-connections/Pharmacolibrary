@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis.J04AD01_Protionamide;
+model Protionamide = Pharmacolibrary.Drugs.ATC.J.J04AD01;

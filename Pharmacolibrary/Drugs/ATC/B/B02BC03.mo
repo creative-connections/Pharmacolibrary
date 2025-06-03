@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.B;
+
+model B02BC03
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0,
+    Cl             = 0.00016666666666666666,
+    adminDuration  = 600,
+    adminMass      = 0.5,
+    adminCount     = 1,
+    Vd             = 5e-05,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0,
+    Tlag           = 0
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Tetragalacturonic acid hydroxymethylester is a semi-synthetic polysaccharide derivative used primarily as a hemostatic agent to control bleeding in various clinical situations. It acts locally to promote coagulation, often applied during surgery or in wound care. The compound is not widely approved as an active pharmaceutical ingredient in major regulatory regions and is currently used in select medical settings, primarily in Europe.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic model or quantitative data is available for any population, adult or pediatric, and all parameters are estimated based on physicochemical properties of large, hydrophilic polysaccharides and expected local action.</p><h4>References</h4><ol><li> No published pharmacokinetic studies or quantitative parameters exist for tetragalacturonic acid hydroxymethylester. All values reported here are rough estimates based on class properties (large hydrophilic polysaccharides) and route of administration (topical/local). Systemic PK parameters are not meaningful due to intended local effect and negligible absorption.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end B02BC03;

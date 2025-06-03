@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AX17_Nimesulide;
+model Nimesulide = Pharmacolibrary.Drugs.ATC.M.M01AX17;

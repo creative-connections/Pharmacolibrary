@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02A_CorticosteroidsForSystemicUsePlain;
+package H02AB02_Dexamethasone
+  extends Icons.Package;
+end H02AB02_Dexamethasone;

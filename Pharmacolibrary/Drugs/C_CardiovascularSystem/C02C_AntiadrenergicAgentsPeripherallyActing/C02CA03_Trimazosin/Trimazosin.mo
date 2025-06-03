@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02C_AntiadrenergicAgentsPeripherallyActing.C02CA03_Trimazosin;
+model Trimazosin = Pharmacolibrary.Drugs.ATC.C.C02CA03;

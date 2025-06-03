@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.J;
+
+model J01CA18
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.6,
+    Cl             = 0.25,
+    adminDuration  = 600,
+    adminMass      = 0.5,
+    adminCount     = 1,
+    Vd             = 0.015,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.0008333333333333334,
+    Tlag           = 600
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Hetacillin is a broad-spectrum beta-lactam antibiotic of the aminopenicillin class, developed as a prodrug of ampicillin. It was once used primarily for bacterial infections in humans and veterinary medicine. Hetacillin is no longer approved for human use due to safety and availability of more effective alternatives; historical usage was mostly in the 1960s-1980s.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for healthy adult subjects based on data for ampicillin (the active moiety formed after hetacillin administration), as no published, peer-reviewed pharmacokinetic model specific to hetacillin is available.</p><h4>References</h4><ol><li> No primary literature reporting human pharmacokinetic parameters of hetacillin could be found. All PK values above are estimated from typical values for oral ampicillin, as hetacillin is rapidly hydrolyzed to ampicillin in vivo. Parameters are indicative only, based on secondary and tertiary literature and drug class estimates.</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end J01CA18;

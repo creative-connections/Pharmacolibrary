@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations.A01AA03_Olaflur;
+model Olaflur = Pharmacolibrary.Drugs.ATC.A.A01AA03;

@@ -1,0 +1,24 @@
+within Pharmacolibrary.Drugs.ATC.R;
+
+model R07AX32
+  extends Pharmacokinetic.Models.PK_1C_enteral(
+    weight         = 70,
+    F              = 0.6,
+    Cl             = 0.28833333333333333,
+    adminDuration  = 600,
+    adminMass      = 0.2,
+    adminCount     = 1,
+    Vd             = 0.13,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.013083333333333334,
+    Tlag           = 10.200000000000001
+  );
+
+  annotation(Documentation(
+    info ="<html><body><p>Ivacaftor, tezacaftor, and elexacaftor are a fixed-dose triple combination therapy used in the treatment of cystic fibrosis in patients with specific mutations in the CFTR gene. This combination increases the quantity and function of the CFTR protein at the cell surface. The drug combination is FDA and EMA approved for use in eligible patients with cystic fibrosis.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters reported in healthy adult subjects and cystic fibrosis patients (mixed population, both sexes, age 12 and above), after repeated oral dosing at recommended therapeutic doses.</p><h4>References</h4><ol><li><a href='https://dx.doi.org/10.1016/j.jcf.2020.10.011'>10.1016/j.jcf.2020.10.011</a> Values are approximate median pharmacokinetic estimates extracted primarily for ivacaftor as representative of the combination. Elexacaftor and tezacaftor have similar PK profile and distribution. Central, peripheral Vd and clearance are based on healthy adult and cystic fibrosis patients' published PK studies. ka and Tlag values are estimated from available oral absorption data. Reference: https://doi.org/10.1016/j.jcf.2020.10.011</li></ol></body></html>",
+    revisions = "<html><body><ul><li>03/06/2025 model generated from PK parameters and knowledge obtained by LLM gpt-4.1 and scripts created by Tomas Kulhanek</li></ul></body></html>"
+  ));
+end R07AX32;

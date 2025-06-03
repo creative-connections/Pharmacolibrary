@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AX02_Roquinimex;
+model Roquinimex = Pharmacolibrary.Drugs.ATC.L.L03AX02;

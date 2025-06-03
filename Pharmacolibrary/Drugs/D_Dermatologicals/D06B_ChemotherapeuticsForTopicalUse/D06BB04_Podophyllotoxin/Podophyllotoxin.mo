@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D06B_ChemotherapeuticsForTopicalUse.D06BB04_Podophyllotoxin;
+model Podophyllotoxin = Pharmacolibrary.Drugs.ATC.D.D06BB04;

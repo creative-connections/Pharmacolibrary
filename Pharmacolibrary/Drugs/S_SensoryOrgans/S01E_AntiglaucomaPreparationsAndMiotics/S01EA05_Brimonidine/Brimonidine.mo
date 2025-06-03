@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01EA05_Brimonidine;
+model Brimonidine = Pharmacolibrary.Drugs.ATC.S.S01EA05;

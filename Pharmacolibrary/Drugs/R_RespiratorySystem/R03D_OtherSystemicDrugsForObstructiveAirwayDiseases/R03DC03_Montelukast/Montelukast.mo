@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases.R03DC03_Montelukast;
+model Montelukast = Pharmacolibrary.Drugs.ATC.R.R03DC03;

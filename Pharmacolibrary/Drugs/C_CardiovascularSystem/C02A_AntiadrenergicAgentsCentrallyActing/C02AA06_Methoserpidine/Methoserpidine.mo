@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02A_AntiadrenergicAgentsCentrallyActing.C02AA06_Methoserpidine;
+model Methoserpidine = Pharmacolibrary.Drugs.ATC.C.C02AA06;

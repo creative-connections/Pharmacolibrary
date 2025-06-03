@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse.C05AX04_ZincPreparations;
+model ZincPreparations = Pharmacolibrary.Drugs.ATC.C.C05AX04;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12C_OtherMineralSupplements.A12CD01_SodiumFluoride;
+model SodiumFluoride = Pharmacolibrary.Drugs.ATC.A.A12CD01;

@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AX04_DermatanSulfate;
+model DermatanSulfate = Pharmacolibrary.Drugs.ATC.B.B01AX04;

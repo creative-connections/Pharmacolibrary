@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases.C01DX02_Prenylamine;
+model Prenylamine = Pharmacolibrary.Drugs.ATC.C.C01DX02;

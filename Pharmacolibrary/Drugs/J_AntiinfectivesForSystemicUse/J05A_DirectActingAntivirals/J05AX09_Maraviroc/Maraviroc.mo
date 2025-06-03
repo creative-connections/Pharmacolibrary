@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AX09_Maraviroc;
+model Maraviroc = Pharmacolibrary.Drugs.ATC.J.J05AX09;

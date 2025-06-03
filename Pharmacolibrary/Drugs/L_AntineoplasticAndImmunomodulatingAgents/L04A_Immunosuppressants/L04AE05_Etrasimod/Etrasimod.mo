@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AE05_Etrasimod;
+model Etrasimod = Pharmacolibrary.Drugs.ATC.L.L04AE05;

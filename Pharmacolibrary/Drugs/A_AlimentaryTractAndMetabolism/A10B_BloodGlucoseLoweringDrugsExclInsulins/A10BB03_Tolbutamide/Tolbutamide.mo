@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BB03_Tolbutamide;
+model Tolbutamide = Pharmacolibrary.Drugs.ATC.A.A10BB03;

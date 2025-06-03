@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FX26_MirvetuximabSoravtansine;
+model MirvetuximabSoravtansine = Pharmacolibrary.Drugs.ATC.L.L01FX26;

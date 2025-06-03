@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12C_OtherMineralSupplements;
+package A12CD01_SodiumFluoride
+  extends Icons.Package;
+end A12CD01_SodiumFluoride;

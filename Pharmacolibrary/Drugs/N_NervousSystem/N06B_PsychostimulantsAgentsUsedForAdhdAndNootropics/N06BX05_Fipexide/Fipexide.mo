@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BX05_Fipexide;
+model Fipexide = Pharmacolibrary.Drugs.ATC.N.N06BX05;

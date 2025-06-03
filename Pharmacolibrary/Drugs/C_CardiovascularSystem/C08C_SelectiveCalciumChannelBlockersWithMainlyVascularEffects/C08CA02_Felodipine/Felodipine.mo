@@ -1,0 +1,2 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08C_SelectiveCalciumChannelBlockersWithMainlyVascularEffects.C08CA02_Felodipine;
+model Felodipine = Pharmacolibrary.Drugs.ATC.C.C08CA02;
