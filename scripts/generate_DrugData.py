@@ -99,12 +99,11 @@ for drug in drug_list:
         # Generate Modelica code
         with open(output_file, "a", encoding="utf-8") as f:
             f.write(f"""\
-constant DataRecord {drug['atc']}_{drug['name']}(
+constant DataRecord {drug['atc']}(
   atc = "{drug['atc']}",
   name = "{drug['rawname']}",
   synonyms = {synonyms},
-  molarMass = {molarMass}, // converted to kg/mol
-  molarMassRaw = {mw},
+  molarMass = {molarMass}, // in kg/mol
   logP = {logP},
   solubilityWater = {solubility},
   referenceURL = "{db_url}"
