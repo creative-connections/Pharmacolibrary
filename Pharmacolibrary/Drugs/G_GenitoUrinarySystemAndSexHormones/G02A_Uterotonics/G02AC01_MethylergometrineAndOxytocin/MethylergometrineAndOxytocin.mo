@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02A_Uterotonics.G02AC01_MethylergometrineAndOxytocin;
-model MethylergometrineAndOxytocin = Pharmacolibrary.Drugs.ATC.G.G02AC01;
+model MethylergometrineAndOxytocin
+    extends Pharmacolibrary.Drugs.ATC.G.G02AC01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end MethylergometrineAndOxytocin;

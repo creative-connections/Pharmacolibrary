@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02A_Antifibrinolytics.B02AB04_Camostat;
-model Camostat = Pharmacolibrary.Drugs.ATC.B.B02AB04;
+model Camostat
+    extends Pharmacolibrary.Drugs.ATC.B.B02AB04;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Camostat;

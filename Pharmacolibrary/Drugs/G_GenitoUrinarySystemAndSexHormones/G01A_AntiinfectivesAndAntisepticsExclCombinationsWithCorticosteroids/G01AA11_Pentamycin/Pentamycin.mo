@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AA11_Pentamycin;
-model Pentamycin = Pharmacolibrary.Drugs.ATC.G.G01AA11;
+model Pentamycin
+    extends Pharmacolibrary.Drugs.ATC.G.G01AA11;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Pentamycin;

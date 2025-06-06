@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts.V03AB17_MethylthioniniumChloride;
-model MethylthioniniumChloride_1 = Pharmacolibrary.Drugs.ATC.V.V03AB17_1;
+model MethylthioniniumChloride_1
+    extends Pharmacolibrary.Drugs.ATC.V.V03AB17_1;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end MethylthioniniumChloride_1;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R02A_ThroatPreparations.R02AA01_Ambazone;
-model Ambazone = Pharmacolibrary.Drugs.ATC.R.R02AA01;
+model Ambazone
+    extends Pharmacolibrary.Drugs.ATC.R.R02AA01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Ambazone;

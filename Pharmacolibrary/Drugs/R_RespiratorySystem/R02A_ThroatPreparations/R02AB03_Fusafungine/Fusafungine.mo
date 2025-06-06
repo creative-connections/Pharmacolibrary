@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R02A_ThroatPreparations.R02AB03_Fusafungine;
-model Fusafungine = Pharmacolibrary.Drugs.ATC.R.R02AB03;
+model Fusafungine
+    extends Pharmacolibrary.Drugs.ATC.R.R02AB03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Fusafungine;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N05B_Anxiolytics.N05BA03_Medazepam;
-model Medazepam = Pharmacolibrary.Drugs.ATC.N.N05BA03;
+model Medazepam
+    extends Pharmacolibrary.Drugs.ATC.N.N05BA03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Medazepam;

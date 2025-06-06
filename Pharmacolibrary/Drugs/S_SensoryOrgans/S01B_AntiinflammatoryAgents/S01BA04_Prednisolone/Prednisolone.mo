@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S01B_AntiinflammatoryAgents.S01BA04_Prednisolone;
-model Prednisolone = Pharmacolibrary.Drugs.ATC.S.S01BA04;
+model Prednisolone
+    extends Pharmacolibrary.Drugs.ATC.S.S01BA04;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Prednisolone;

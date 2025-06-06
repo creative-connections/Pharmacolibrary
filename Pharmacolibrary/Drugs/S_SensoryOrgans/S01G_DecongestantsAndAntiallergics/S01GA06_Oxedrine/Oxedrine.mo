@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S01G_DecongestantsAndAntiallergics.S01GA06_Oxedrine;
-model Oxedrine = Pharmacolibrary.Drugs.ATC.S.S01GA06;
+model Oxedrine
+    extends Pharmacolibrary.Drugs.ATC.S.S01GA06;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Oxedrine;

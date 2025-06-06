@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03A_LowCeilingDiureticsThiazides.C03AB08_MethyclothiazideAndPotassium;
-model MethyclothiazideAndPotassium = Pharmacolibrary.Drugs.ATC.C.C03AB08;
+model MethyclothiazideAndPotassium
+    extends Pharmacolibrary.Drugs.ATC.C.C03AB08;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end MethyclothiazideAndPotassium;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization.M05BB01_EtidronicAcidAndCalciumSequential;
-model EtidronicAcidAndCalciumSequential = Pharmacolibrary.Drugs.ATC.M.M05BB01;
+model EtidronicAcidAndCalciumSequential
+    extends Pharmacolibrary.Drugs.ATC.M.M05BB01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end EtidronicAcidAndCalciumSequential;

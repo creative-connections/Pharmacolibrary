@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations.A01AB24_Octenidine;
-model Octenidine = Pharmacolibrary.Drugs.ATC.A.A01AB24;
+model Octenidine
+    extends Pharmacolibrary.Drugs.ATC.A.A01AB24;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Octenidine;

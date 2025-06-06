@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D01A_AntifungalsForTopicalUse.D01AE23_Butenafine;
-model Butenafine = Pharmacolibrary.Drugs.ATC.D.D01AE23;
+model Butenafine
+    extends Pharmacolibrary.Drugs.ATC.D.D01AE23;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Butenafine;

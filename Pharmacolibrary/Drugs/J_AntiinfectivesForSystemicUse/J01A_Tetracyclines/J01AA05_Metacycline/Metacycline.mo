@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01A_Tetracyclines.J01AA05_Metacycline;
-model Metacycline = Pharmacolibrary.Drugs.ATC.J.J01AA05;
+model Metacycline
+    extends Pharmacolibrary.Drugs.ATC.J.J01AA05;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Metacycline;

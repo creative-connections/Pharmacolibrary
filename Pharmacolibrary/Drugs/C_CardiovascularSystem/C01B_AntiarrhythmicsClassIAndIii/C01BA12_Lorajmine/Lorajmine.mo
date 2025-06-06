@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01B_AntiarrhythmicsClassIAndIii.C01BA12_Lorajmine;
-model Lorajmine = Pharmacolibrary.Drugs.ATC.C.C01BA12;
+model Lorajmine
+    extends Pharmacolibrary.Drugs.ATC.C.C01BA12;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Lorajmine;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01ED01_Crizotinib;
-model Crizotinib = Pharmacolibrary.Drugs.ATC.L.L01ED01;
+model Crizotinib
+    extends Pharmacolibrary.Drugs.ATC.L.L01ED01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Crizotinib;

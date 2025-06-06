@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D01A_AntifungalsForTopicalUse.D01AE10_EthylHydroxybenzoate;
-model EthylHydroxybenzoate = Pharmacolibrary.Drugs.ATC.D.D01AE10;
+model EthylHydroxybenzoate
+    extends Pharmacolibrary.Drugs.ATC.D.D01AE10;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end EthylHydroxybenzoate;

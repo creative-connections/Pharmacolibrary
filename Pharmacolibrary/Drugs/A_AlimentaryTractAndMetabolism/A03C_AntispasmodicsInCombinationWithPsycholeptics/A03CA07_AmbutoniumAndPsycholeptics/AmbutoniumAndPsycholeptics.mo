@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03C_AntispasmodicsInCombinationWithPsycholeptics.A03CA07_AmbutoniumAndPsycholeptics;
-model AmbutoniumAndPsycholeptics = Pharmacolibrary.Drugs.ATC.A.A03CA07;
+model AmbutoniumAndPsycholeptics
+    extends Pharmacolibrary.Drugs.ATC.A.A03CA07;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end AmbutoniumAndPsycholeptics;

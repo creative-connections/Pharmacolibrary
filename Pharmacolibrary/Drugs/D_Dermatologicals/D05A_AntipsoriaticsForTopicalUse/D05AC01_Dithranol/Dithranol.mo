@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D05A_AntipsoriaticsForTopicalUse.D05AC01_Dithranol;
-model Dithranol = Pharmacolibrary.Drugs.ATC.D.D05AC01;
+model Dithranol
+    extends Pharmacolibrary.Drugs.ATC.D.D05AC01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Dithranol;

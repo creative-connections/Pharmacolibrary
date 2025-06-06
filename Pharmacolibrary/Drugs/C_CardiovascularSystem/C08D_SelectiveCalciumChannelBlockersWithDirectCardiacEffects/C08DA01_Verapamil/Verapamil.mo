@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08D_SelectiveCalciumChannelBlockersWithDirectCardiacEffects.C08DA01_Verapamil;
-model Verapamil = Pharmacolibrary.Drugs.ATC.C.C08DA01;
+model Verapamil
+    extends Pharmacolibrary.Drugs.ATC.C.C08DA01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Verapamil;

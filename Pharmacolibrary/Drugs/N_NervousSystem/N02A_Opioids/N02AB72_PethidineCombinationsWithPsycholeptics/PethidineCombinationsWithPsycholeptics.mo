@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids.N02AB72_PethidineCombinationsWithPsycholeptics;
-model PethidineCombinationsWithPsycholeptics = Pharmacolibrary.Drugs.ATC.N.N02AB72;
+model PethidineCombinationsWithPsycholeptics
+    extends Pharmacolibrary.Drugs.ATC.N.N02AB72;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end PethidineCombinationsWithPsycholeptics;

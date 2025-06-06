@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AE03_Cyclizine;
-model Cyclizine = Pharmacolibrary.Drugs.ATC.R.R06AE03;
+model Cyclizine
+    extends Pharmacolibrary.Drugs.ATC.R.R06AE03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Cyclizine;

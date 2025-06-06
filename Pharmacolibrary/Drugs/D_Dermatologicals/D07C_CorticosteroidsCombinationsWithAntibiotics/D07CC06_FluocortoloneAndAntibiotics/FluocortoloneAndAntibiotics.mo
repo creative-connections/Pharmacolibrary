@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D07C_CorticosteroidsCombinationsWithAntibiotics.D07CC06_FluocortoloneAndAntibiotics;
-model FluocortoloneAndAntibiotics = Pharmacolibrary.Drugs.ATC.D.D07CC06;
+model FluocortoloneAndAntibiotics
+    extends Pharmacolibrary.Drugs.ATC.D.D07CC06;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end FluocortoloneAndAntibiotics;

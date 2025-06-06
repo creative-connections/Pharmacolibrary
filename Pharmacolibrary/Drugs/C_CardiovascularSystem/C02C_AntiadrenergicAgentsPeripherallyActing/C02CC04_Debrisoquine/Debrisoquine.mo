@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02C_AntiadrenergicAgentsPeripherallyActing.C02CC04_Debrisoquine;
-model Debrisoquine = Pharmacolibrary.Drugs.ATC.C.C02CC04;
+model Debrisoquine
+    extends Pharmacolibrary.Drugs.ATC.C.C02CC04;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Debrisoquine;

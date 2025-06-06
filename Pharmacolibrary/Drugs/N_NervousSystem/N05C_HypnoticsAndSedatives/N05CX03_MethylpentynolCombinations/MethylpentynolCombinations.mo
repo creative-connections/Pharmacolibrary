@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N05C_HypnoticsAndSedatives.N05CX03_MethylpentynolCombinations;
-model MethylpentynolCombinations = Pharmacolibrary.Drugs.ATC.N.N05CX03;
+model MethylpentynolCombinations
+    extends Pharmacolibrary.Drugs.ATC.N.N05CX03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end MethylpentynolCombinations;

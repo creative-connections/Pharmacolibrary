@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AJ58_BenzethoniumChlorideCombinations;
-model BenzethoniumChlorideCombinations = Pharmacolibrary.Drugs.ATC.D.D08AJ58;
+model BenzethoniumChlorideCombinations
+    extends Pharmacolibrary.Drugs.ATC.D.D08AJ58;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end BenzethoniumChlorideCombinations;

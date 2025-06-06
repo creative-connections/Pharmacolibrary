@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N05C_HypnoticsAndSedatives.N05CM01_Methaqualone;
-model Methaqualone = Pharmacolibrary.Drugs.ATC.N.N05CM01;
+model Methaqualone
+    extends Pharmacolibrary.Drugs.ATC.N.N05CM01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Methaqualone;

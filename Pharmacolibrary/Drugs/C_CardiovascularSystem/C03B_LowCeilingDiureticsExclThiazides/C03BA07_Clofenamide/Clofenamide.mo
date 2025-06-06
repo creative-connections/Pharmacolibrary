@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03B_LowCeilingDiureticsExclThiazides.C03BA07_Clofenamide;
-model Clofenamide = Pharmacolibrary.Drugs.ATC.C.C03BA07;
+model Clofenamide
+    extends Pharmacolibrary.Drugs.ATC.C.C03BA07;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Clofenamide;

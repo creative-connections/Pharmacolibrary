@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics.N02BA11_Diflunisal;
-model Diflunisal = Pharmacolibrary.Drugs.ATC.N.N02BA11;
+model Diflunisal
+    extends Pharmacolibrary.Drugs.ATC.N.N02BA11;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Diflunisal;

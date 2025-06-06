@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A05B_LiverTherapyLipotropics.A05BA09_Metadoxine;
-model Metadoxine = Pharmacolibrary.Drugs.ATC.A.A05BA09;
+model Metadoxine
+    extends Pharmacolibrary.Drugs.ATC.A.A05BA09;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Metadoxine;

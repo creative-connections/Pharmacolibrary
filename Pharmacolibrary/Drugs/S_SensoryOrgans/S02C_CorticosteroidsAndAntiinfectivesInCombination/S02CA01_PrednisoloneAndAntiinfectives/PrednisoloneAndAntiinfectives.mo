@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S02C_CorticosteroidsAndAntiinfectivesInCombination.S02CA01_PrednisoloneAndAntiinfectives;
-model PrednisoloneAndAntiinfectives = Pharmacolibrary.Drugs.ATC.S.S02CA01;
+model PrednisoloneAndAntiinfectives
+    extends Pharmacolibrary.Drugs.ATC.S.S02CA01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end PrednisoloneAndAntiinfectives;

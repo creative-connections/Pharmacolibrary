@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AX05_Pirfenidone;
-model Pirfenidone = Pharmacolibrary.Drugs.ATC.L.L04AX05;
+model Pirfenidone
+    extends Pharmacolibrary.Drugs.ATC.L.L04AX05;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Pirfenidone;

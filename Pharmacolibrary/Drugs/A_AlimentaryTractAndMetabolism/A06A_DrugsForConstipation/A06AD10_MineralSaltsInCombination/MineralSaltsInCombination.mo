@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AD10_MineralSaltsInCombination;
-model MineralSaltsInCombination = Pharmacolibrary.Drugs.ATC.A.A06AD10;
+model MineralSaltsInCombination
+    extends Pharmacolibrary.Drugs.ATC.A.A06AD10;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end MineralSaltsInCombination;

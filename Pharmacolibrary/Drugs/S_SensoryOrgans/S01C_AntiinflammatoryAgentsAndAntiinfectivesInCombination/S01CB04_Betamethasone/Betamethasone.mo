@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S01C_AntiinflammatoryAgentsAndAntiinfectivesInCombination.S01CB04_Betamethasone;
-model Betamethasone = Pharmacolibrary.Drugs.ATC.S.S01CB04;
+model Betamethasone
+    extends Pharmacolibrary.Drugs.ATC.S.S01CB04;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Betamethasone;

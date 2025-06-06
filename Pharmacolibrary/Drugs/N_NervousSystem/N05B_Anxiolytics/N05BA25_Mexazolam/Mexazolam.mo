@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N05B_Anxiolytics.N05BA25_Mexazolam;
-model Mexazolam = Pharmacolibrary.Drugs.ATC.N.N05BA25;
+model Mexazolam
+    extends Pharmacolibrary.Drugs.ATC.N.N05BA25;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Mexazolam;

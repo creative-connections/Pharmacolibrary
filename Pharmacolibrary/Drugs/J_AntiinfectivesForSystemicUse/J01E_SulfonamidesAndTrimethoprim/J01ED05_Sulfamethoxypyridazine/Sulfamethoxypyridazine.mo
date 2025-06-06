@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01ED05_Sulfamethoxypyridazine;
-model Sulfamethoxypyridazine = Pharmacolibrary.Drugs.ATC.J.J01ED05;
+model Sulfamethoxypyridazine
+    extends Pharmacolibrary.Drugs.ATC.J.J01ED05;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Sulfamethoxypyridazine;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EA02_Dasatinib;
-model Dasatinib = Pharmacolibrary.Drugs.ATC.L.L01EA02;
+model Dasatinib
+    extends Pharmacolibrary.Drugs.ATC.L.L01EA02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Dasatinib;

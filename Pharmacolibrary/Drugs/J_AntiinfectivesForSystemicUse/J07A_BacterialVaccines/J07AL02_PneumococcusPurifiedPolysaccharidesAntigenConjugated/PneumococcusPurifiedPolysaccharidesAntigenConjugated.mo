@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AL02_PneumococcusPurifiedPolysaccharidesAntigenConjugated;
-model PneumococcusPurifiedPolysaccharidesAntigenConjugated = Pharmacolibrary.Drugs.ATC.J.J07AL02;
+model PneumococcusPurifiedPolysaccharidesAntigenConjugated
+    extends Pharmacolibrary.Drugs.ATC.J.J07AL02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end PneumococcusPurifiedPolysaccharidesAntigenConjugated;

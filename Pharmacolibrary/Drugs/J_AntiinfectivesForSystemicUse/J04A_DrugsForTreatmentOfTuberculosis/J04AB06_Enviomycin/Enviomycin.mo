@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis.J04AB06_Enviomycin;
-model Enviomycin = Pharmacolibrary.Drugs.ATC.J.J04AB06;
+model Enviomycin
+    extends Pharmacolibrary.Drugs.ATC.J.J04AB06;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Enviomycin;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01A_CardiacGlycosides.C01AA05_Digoxin;
-model Digoxin_1 = Pharmacolibrary.Drugs.ATC.C.C01AA05_1;
+model Digoxin_1
+    extends Pharmacolibrary.Drugs.ATC.C.C01AA05_1;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Digoxin_1;

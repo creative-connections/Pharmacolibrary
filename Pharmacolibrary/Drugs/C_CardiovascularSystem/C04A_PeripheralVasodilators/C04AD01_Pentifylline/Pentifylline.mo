@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C04A_PeripheralVasodilators.C04AD01_Pentifylline;
-model Pentifylline = Pharmacolibrary.Drugs.ATC.C.C04AD01;
+model Pentifylline
+    extends Pharmacolibrary.Drugs.ATC.C.C04AD01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Pentifylline;

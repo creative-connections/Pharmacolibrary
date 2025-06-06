@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D01A_AntifungalsForTopicalUse.D01AC01_Clotrimazole;
-model Clotrimazole_1 = Pharmacolibrary.Drugs.ATC.D.D01AC01_1;
+model Clotrimazole_1
+    extends Pharmacolibrary.Drugs.ATC.D.D01AC01_1;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Clotrimazole_1;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AP03_TyphoidPurifiedPolysaccharideAntigen;
-model TyphoidPurifiedPolysaccharideAntigen = Pharmacolibrary.Drugs.ATC.J.J07AP03;
+model TyphoidPurifiedPolysaccharideAntigen
+    extends Pharmacolibrary.Drugs.ATC.J.J07AP03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end TyphoidPurifiedPolysaccharideAntigen;

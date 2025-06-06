@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AC08_CarbasalateCalcium;
-model CarbasalateCalcium = Pharmacolibrary.Drugs.ATC.B.B01AC08;
+model CarbasalateCalcium
+    extends Pharmacolibrary.Drugs.ATC.B.B01AC08;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end CarbasalateCalcium;

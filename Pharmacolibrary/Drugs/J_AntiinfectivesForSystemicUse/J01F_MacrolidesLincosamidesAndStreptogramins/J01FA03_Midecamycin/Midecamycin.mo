@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins.J01FA03_Midecamycin;
-model Midecamycin = Pharmacolibrary.Drugs.ATC.J.J01FA03;
+model Midecamycin
+    extends Pharmacolibrary.Drugs.ATC.J.J01FA03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Midecamycin;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations.A01AB15_TibezoniumIodide;
-model TibezoniumIodide = Pharmacolibrary.Drugs.ATC.A.A01AB15;
+model TibezoniumIodide
+    extends Pharmacolibrary.Drugs.ATC.A.A01AB15;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end TibezoniumIodide;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids.N02AX01_Tilidine;
-model Tilidine = Pharmacolibrary.Drugs.ATC.N.N02AX01;
+model Tilidine
+    extends Pharmacolibrary.Drugs.ATC.N.N02AX01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Tilidine;

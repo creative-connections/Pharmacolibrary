@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D07B_CorticosteroidsCombinationsWithAntiseptics.D07BB04_HydrocortisoneButyrateAndAntiseptics;
-model HydrocortisoneButyrateAndAntiseptics = Pharmacolibrary.Drugs.ATC.D.D07BB04;
+model HydrocortisoneButyrateAndAntiseptics
+    extends Pharmacolibrary.Drugs.ATC.D.D07BB04;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end HydrocortisoneButyrateAndAntiseptics;

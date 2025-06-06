@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders.A03AX02_Diisopromine;
-model Diisopromine = Pharmacolibrary.Drugs.ATC.A.A03AX02;
+model Diisopromine
+    extends Pharmacolibrary.Drugs.ATC.A.A03AX02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Diisopromine;

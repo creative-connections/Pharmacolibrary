@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05B_AntiParathyroidAgents.H05BA04_Elcatonin;
-model Elcatonin = Pharmacolibrary.Drugs.ATC.H.H05BA04;
+model Elcatonin
+    extends Pharmacolibrary.Drugs.ATC.H.H05BA04;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Elcatonin;

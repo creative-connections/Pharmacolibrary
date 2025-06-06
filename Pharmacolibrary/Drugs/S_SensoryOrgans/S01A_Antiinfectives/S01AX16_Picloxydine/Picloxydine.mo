@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S01A_Antiinfectives.S01AX16_Picloxydine;
-model Picloxydine = Pharmacolibrary.Drugs.ATC.S.S01AX16;
+model Picloxydine
+    extends Pharmacolibrary.Drugs.ATC.S.S01AX16;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Picloxydine;

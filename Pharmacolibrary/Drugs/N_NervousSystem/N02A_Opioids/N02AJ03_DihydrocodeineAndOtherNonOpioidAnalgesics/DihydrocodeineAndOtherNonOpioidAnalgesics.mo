@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids.N02AJ03_DihydrocodeineAndOtherNonOpioidAnalgesics;
-model DihydrocodeineAndOtherNonOpioidAnalgesics = Pharmacolibrary.Drugs.ATC.N.N02AJ03;
+model DihydrocodeineAndOtherNonOpioidAnalgesics
+    extends Pharmacolibrary.Drugs.ATC.N.N02AJ03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end DihydrocodeineAndOtherNonOpioidAnalgesics;

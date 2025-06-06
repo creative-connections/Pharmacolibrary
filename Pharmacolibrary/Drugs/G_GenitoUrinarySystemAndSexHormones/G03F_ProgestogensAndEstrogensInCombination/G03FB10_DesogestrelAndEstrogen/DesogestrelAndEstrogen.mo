@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03F_ProgestogensAndEstrogensInCombination.G03FB10_DesogestrelAndEstrogen;
-model DesogestrelAndEstrogen = Pharmacolibrary.Drugs.ATC.G.G03FB10;
+model DesogestrelAndEstrogen
+    extends Pharmacolibrary.Drugs.ATC.G.G03FB10;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end DesogestrelAndEstrogen;

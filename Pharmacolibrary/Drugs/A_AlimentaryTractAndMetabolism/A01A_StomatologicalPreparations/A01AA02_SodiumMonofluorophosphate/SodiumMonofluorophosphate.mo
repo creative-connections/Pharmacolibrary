@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations.A01AA02_SodiumMonofluorophosphate;
-model SodiumMonofluorophosphate = Pharmacolibrary.Drugs.ATC.A.A01AA02;
+model SodiumMonofluorophosphate
+    extends Pharmacolibrary.Drugs.ATC.A.A01AA02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end SodiumMonofluorophosphate;

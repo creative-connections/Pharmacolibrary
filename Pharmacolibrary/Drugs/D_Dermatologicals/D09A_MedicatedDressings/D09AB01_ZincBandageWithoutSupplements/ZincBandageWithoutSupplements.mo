@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D09A_MedicatedDressings.D09AB01_ZincBandageWithoutSupplements;
-model ZincBandageWithoutSupplements = Pharmacolibrary.Drugs.ATC.D.D09AB01;
+model ZincBandageWithoutSupplements
+    extends Pharmacolibrary.Drugs.ATC.D.D09AB01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end ZincBandageWithoutSupplements;

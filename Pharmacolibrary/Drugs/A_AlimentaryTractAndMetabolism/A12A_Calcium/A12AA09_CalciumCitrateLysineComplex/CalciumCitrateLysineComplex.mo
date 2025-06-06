@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12A_Calcium.A12AA09_CalciumCitrateLysineComplex;
-model CalciumCitrateLysineComplex = Pharmacolibrary.Drugs.ATC.A.A12AA09;
+model CalciumCitrateLysineComplex
+    extends Pharmacolibrary.Drugs.ATC.A.A12AA09;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end CalciumCitrateLysineComplex;

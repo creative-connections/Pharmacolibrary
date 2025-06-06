@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization.M05BX02_AluminiumChlorohydrate;
-model AluminiumChlorohydrate = Pharmacolibrary.Drugs.ATC.M.M05BX02;
+model AluminiumChlorohydrate
+    extends Pharmacolibrary.Drugs.ATC.M.M05BX02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end AluminiumChlorohydrate;

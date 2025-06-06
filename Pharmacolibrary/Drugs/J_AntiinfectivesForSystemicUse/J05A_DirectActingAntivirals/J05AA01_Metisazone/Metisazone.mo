@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AA01_Metisazone;
-model Metisazone = Pharmacolibrary.Drugs.ATC.J.J05AA01;
+model Metisazone
+    extends Pharmacolibrary.Drugs.ATC.J.J05AA01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Metisazone;

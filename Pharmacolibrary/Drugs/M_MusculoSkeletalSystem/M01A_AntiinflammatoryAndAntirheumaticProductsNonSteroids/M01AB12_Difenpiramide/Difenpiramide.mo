@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AB12_Difenpiramide;
-model Difenpiramide = Pharmacolibrary.Drugs.ATC.M.M01AB12;
+model Difenpiramide
+    extends Pharmacolibrary.Drugs.ATC.M.M01AB12;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Difenpiramide;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03G_GonadotropinsAndOtherOvulationStimulants.G03GA05_FollitropinAlfa;
-model FollitropinAlfa = Pharmacolibrary.Drugs.ATC.G.G03GA05;
+model FollitropinAlfa
+    extends Pharmacolibrary.Drugs.ATC.G.G03GA05;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end FollitropinAlfa;

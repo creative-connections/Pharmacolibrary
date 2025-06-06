@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BF03_Voglibose;
-model Voglibose = Pharmacolibrary.Drugs.ATC.A.A10BF03;
+model Voglibose
+    extends Pharmacolibrary.Drugs.ATC.A.A10BF03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Voglibose;

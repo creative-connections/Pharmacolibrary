@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AB06_Ganciclovir;
-model Ganciclovir_1 = Pharmacolibrary.Drugs.ATC.J.J05AB06_1;
+model Ganciclovir_1
+    extends Pharmacolibrary.Drugs.ATC.J.J05AB06_1;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Ganciclovir_1;

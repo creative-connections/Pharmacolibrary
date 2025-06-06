@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EL03_Zanubrutinib;
-model Zanubrutinib = Pharmacolibrary.Drugs.ATC.L.L01EL03;
+model Zanubrutinib
+    extends Pharmacolibrary.Drugs.ATC.L.L01EL03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Zanubrutinib;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AA11_NorgestimateAndEthinylestradiol;
-model NorgestimateAndEthinylestradiol = Pharmacolibrary.Drugs.ATC.G.G03AA11;
+model NorgestimateAndEthinylestradiol
+    extends Pharmacolibrary.Drugs.ATC.G.G03AA11;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end NorgestimateAndEthinylestradiol;

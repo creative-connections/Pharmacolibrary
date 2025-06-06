@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AB11_Acemetacin;
-model Acemetacin = Pharmacolibrary.Drugs.ATC.M.M01AB11;
+model Acemetacin
+    extends Pharmacolibrary.Drugs.ATC.M.M01AB11;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Acemetacin;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins.J01FA01_Erythromycin;
-model Erythromycin = Pharmacolibrary.Drugs.ATC.J.J01FA01;
+model Erythromycin
+    extends Pharmacolibrary.Drugs.ATC.J.J01FA01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Erythromycin;

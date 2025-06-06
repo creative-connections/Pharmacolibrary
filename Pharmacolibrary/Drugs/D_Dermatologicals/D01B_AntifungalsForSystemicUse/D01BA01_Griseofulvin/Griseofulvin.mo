@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D01B_AntifungalsForSystemicUse.D01BA01_Griseofulvin;
-model Griseofulvin = Pharmacolibrary.Drugs.ATC.D.D01BA01;
+model Griseofulvin
+    extends Pharmacolibrary.Drugs.ATC.D.D01BA01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Griseofulvin;

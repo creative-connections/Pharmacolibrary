@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases.P01AA30_TilbroquinolAndTiliquinol;
-model TilbroquinolAndTiliquinol = Pharmacolibrary.Drugs.ATC.P.P01AA30;
+model TilbroquinolAndTiliquinol
+    extends Pharmacolibrary.Drugs.ATC.P.P01AA30;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end TilbroquinolAndTiliquinol;

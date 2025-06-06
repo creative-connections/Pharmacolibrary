@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse.J02AX05_Micafungin;
-model Micafungin = Pharmacolibrary.Drugs.ATC.J.J02AX05;
+model Micafungin
+    extends Pharmacolibrary.Drugs.ATC.J.J02AX05;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Micafungin;

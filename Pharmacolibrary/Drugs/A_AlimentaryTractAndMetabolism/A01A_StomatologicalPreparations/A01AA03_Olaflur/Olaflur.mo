@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations.A01AA03_Olaflur;
-model Olaflur = Pharmacolibrary.Drugs.ATC.A.A01AA03;
+model Olaflur
+    extends Pharmacolibrary.Drugs.ATC.A.A01AA03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Olaflur;

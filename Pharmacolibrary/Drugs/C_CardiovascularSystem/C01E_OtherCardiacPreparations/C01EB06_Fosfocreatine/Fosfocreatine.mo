@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01E_OtherCardiacPreparations.C01EB06_Fosfocreatine;
-model Fosfocreatine = Pharmacolibrary.Drugs.ATC.C.C01EB06;
+model Fosfocreatine
+    extends Pharmacolibrary.Drugs.ATC.C.C01EB06;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Fosfocreatine;

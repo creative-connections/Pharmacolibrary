@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics.N02BA57_EthenzamideCombinationsExclPsycholeptics;
-model EthenzamideCombinationsExclPsycholeptics = Pharmacolibrary.Drugs.ATC.N.N02BA57;
+model EthenzamideCombinationsExclPsycholeptics
+    extends Pharmacolibrary.Drugs.ATC.N.N02BA57;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end EthenzamideCombinationsExclPsycholeptics;

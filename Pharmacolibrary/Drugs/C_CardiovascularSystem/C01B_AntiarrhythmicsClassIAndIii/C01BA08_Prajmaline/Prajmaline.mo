@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01B_AntiarrhythmicsClassIAndIii.C01BA08_Prajmaline;
-model Prajmaline = Pharmacolibrary.Drugs.ATC.C.C01BA08;
+model Prajmaline
+    extends Pharmacolibrary.Drugs.ATC.C.C01BA08;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Prajmaline;

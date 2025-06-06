@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AB03_Dimetindene;
-model Dimetindene = Pharmacolibrary.Drugs.ATC.R.R06AB03;
+model Dimetindene
+    extends Pharmacolibrary.Drugs.ATC.R.R06AB03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Dimetindene;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents.M03BB52_ChlormezanoneCombinationsExclPsycholeptics;
-model ChlormezanoneCombinationsExclPsycholeptics = Pharmacolibrary.Drugs.ATC.M.M03BB52;
+model ChlormezanoneCombinationsExclPsycholeptics
+    extends Pharmacolibrary.Drugs.ATC.M.M03BB52;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end ChlormezanoneCombinationsExclPsycholeptics;

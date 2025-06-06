@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AJ01_Benzalkonium;
-model Benzalkonium = Pharmacolibrary.Drugs.ATC.D.D08AJ01;
+model Benzalkonium
+    extends Pharmacolibrary.Drugs.ATC.D.D08AJ01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Benzalkonium;

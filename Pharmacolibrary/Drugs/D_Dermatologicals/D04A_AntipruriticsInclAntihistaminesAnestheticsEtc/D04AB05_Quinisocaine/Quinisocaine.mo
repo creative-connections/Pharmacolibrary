@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D04A_AntipruriticsInclAntihistaminesAnestheticsEtc.D04AB05_Quinisocaine;
-model Quinisocaine = Pharmacolibrary.Drugs.ATC.D.D04AB05;
+model Quinisocaine
+    extends Pharmacolibrary.Drugs.ATC.D.D04AB05;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Quinisocaine;

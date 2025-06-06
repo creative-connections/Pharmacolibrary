@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases.R03DX07_Roflumilast;
-model Roflumilast = Pharmacolibrary.Drugs.ATC.R.R03DX07;
+model Roflumilast
+    extends Pharmacolibrary.Drugs.ATC.R.R03DX07;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Roflumilast;

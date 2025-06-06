@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AD16_Mannitol;
-model Mannitol = Pharmacolibrary.Drugs.ATC.A.A06AD16;
+model Mannitol
+    extends Pharmacolibrary.Drugs.ATC.A.A06AD16;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Mannitol;

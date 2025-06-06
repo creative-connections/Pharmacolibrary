@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts.L01CA01_Vinblastine;
-model Vinblastine = Pharmacolibrary.Drugs.ATC.L.L01CA01;
+model Vinblastine
+    extends Pharmacolibrary.Drugs.ATC.L.L01CA01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Vinblastine;

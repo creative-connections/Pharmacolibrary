@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N03A_Antiepileptics.N03AX09_Lamotrigine;
-model Lamotrigine = Pharmacolibrary.Drugs.ATC.N.N03AX09;
+model Lamotrigine
+    extends Pharmacolibrary.Drugs.ATC.N.N03AX09;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Lamotrigine;

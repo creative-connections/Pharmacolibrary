@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N05C_HypnoticsAndSedatives.N05CA03_Butobarbital;
-model Butobarbital = Pharmacolibrary.Drugs.ATC.N.N05CA03;
+model Butobarbital
+    extends Pharmacolibrary.Drugs.ATC.N.N05CA03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Butobarbital;

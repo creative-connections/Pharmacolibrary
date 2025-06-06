@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01A_Tetracyclines.J01AA10_Penimepicycline;
-model Penimepicycline = Pharmacolibrary.Drugs.ATC.J.J01AA10;
+model Penimepicycline
+    extends Pharmacolibrary.Drugs.ATC.J.J01AA10;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Penimepicycline;

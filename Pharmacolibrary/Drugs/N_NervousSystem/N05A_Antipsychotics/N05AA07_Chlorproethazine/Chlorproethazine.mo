@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N05A_Antipsychotics.N05AA07_Chlorproethazine;
-model Chlorproethazine = Pharmacolibrary.Drugs.ATC.N.N05AA07;
+model Chlorproethazine
+    extends Pharmacolibrary.Drugs.ATC.N.N05AA07;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Chlorproethazine;

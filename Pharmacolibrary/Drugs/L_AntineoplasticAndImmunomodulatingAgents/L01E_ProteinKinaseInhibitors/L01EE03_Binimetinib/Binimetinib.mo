@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EE03_Binimetinib;
-model Binimetinib = Pharmacolibrary.Drugs.ATC.L.L01EE03;
+model Binimetinib
+    extends Pharmacolibrary.Drugs.ATC.L.L01EE03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Binimetinib;

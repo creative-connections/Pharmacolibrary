@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01EB10_Paraoxon;
-model Paraoxon = Pharmacolibrary.Drugs.ATC.S.S01EB10;
+model Paraoxon
+    extends Pharmacolibrary.Drugs.ATC.S.S01EB10;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Paraoxon;

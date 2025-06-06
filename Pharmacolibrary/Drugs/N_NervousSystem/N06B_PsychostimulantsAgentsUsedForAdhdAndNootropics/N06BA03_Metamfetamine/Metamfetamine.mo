@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BA03_Metamfetamine;
-model Metamfetamine = Pharmacolibrary.Drugs.ATC.N.N06BA03;
+model Metamfetamine
+    extends Pharmacolibrary.Drugs.ATC.N.N06BA03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Metamfetamine;

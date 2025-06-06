@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants.R05DA03_Hydrocodone;
-model Hydrocodone = Pharmacolibrary.Drugs.ATC.R.R05DA03;
+model Hydrocodone
+    extends Pharmacolibrary.Drugs.ATC.R.R05DA03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Hydrocodone;

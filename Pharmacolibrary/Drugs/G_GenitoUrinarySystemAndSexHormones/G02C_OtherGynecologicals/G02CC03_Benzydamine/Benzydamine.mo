@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02C_OtherGynecologicals.G02CC03_Benzydamine;
-model Benzydamine = Pharmacolibrary.Drugs.ATC.G.G02CC03;
+model Benzydamine
+    extends Pharmacolibrary.Drugs.ATC.G.G02CC03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Benzydamine;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AC01_Ditazole;
-model Ditazole = Pharmacolibrary.Drugs.ATC.B.B01AC01;
+model Ditazole
+    extends Pharmacolibrary.Drugs.ATC.B.B01AC01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Ditazole;

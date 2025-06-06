@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EH02_Neratinib;
-model Neratinib = Pharmacolibrary.Drugs.ATC.L.L01EH02;
+model Neratinib
+    extends Pharmacolibrary.Drugs.ATC.L.L01EH02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Neratinib;

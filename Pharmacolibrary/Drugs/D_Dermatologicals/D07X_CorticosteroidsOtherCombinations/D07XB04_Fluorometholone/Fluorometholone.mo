@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D07X_CorticosteroidsOtherCombinations.D07XB04_Fluorometholone;
-model Fluorometholone = Pharmacolibrary.Drugs.ATC.D.D07XB04;
+model Fluorometholone
+    extends Pharmacolibrary.Drugs.ATC.D.D07XB04;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Fluorometholone;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts.V03AX02_Nalfurafine;
-model Nalfurafine = Pharmacolibrary.Drugs.ATC.V.V03AX02;
+model Nalfurafine
+    extends Pharmacolibrary.Drugs.ATC.V.V03AX02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Nalfurafine;

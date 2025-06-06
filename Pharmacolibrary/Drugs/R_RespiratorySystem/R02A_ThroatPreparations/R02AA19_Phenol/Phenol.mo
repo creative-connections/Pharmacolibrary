@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R02A_ThroatPreparations.R02AA19_Phenol;
-model Phenol = Pharmacolibrary.Drugs.ATC.R.R02AA19;
+model Phenol
+    extends Pharmacolibrary.Drugs.ATC.R.R02AA19;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Phenol;

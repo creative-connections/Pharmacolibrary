@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N03A_Antiepileptics.N03AX13_Pheneturide;
-model Pheneturide = Pharmacolibrary.Drugs.ATC.N.N03AX13;
+model Pheneturide
+    extends Pharmacolibrary.Drugs.ATC.N.N03AX13;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Pheneturide;

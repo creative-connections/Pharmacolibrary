@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03B_AntithyroidPreparations.H03BA02_Propylthiouracil;
-model Propylthiouracil = Pharmacolibrary.Drugs.ATC.H.H03BA02;
+model Propylthiouracil
+    extends Pharmacolibrary.Drugs.ATC.H.H03BA02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Propylthiouracil;

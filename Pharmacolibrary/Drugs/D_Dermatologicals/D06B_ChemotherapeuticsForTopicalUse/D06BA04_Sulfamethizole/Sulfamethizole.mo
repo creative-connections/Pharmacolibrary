@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D06B_ChemotherapeuticsForTopicalUse.D06BA04_Sulfamethizole;
-model Sulfamethizole = Pharmacolibrary.Drugs.ATC.D.D06BA04;
+model Sulfamethizole
+    extends Pharmacolibrary.Drugs.ATC.D.D06BA04;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Sulfamethizole;

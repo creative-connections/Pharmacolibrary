@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations.C10BX11_AtorvastatinAmlodipineAndPerindopril;
-model AtorvastatinAmlodipineAndPerindopril = Pharmacolibrary.Drugs.ATC.C.C10BX11;
+model AtorvastatinAmlodipineAndPerindopril
+    extends Pharmacolibrary.Drugs.ATC.C.C10BX11;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end AtorvastatinAmlodipineAndPerindopril;

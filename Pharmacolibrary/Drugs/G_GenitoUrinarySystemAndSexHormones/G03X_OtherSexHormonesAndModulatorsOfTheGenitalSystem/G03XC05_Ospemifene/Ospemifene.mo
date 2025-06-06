@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03X_OtherSexHormonesAndModulatorsOfTheGenitalSystem.G03XC05_Ospemifene;
-model Ospemifene = Pharmacolibrary.Drugs.ATC.G.G03XC05;
+model Ospemifene
+    extends Pharmacolibrary.Drugs.ATC.G.G03XC05;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Ospemifene;

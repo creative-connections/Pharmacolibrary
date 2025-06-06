@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives.B05XA30_CombinationsOfElectrolytes;
-model CombinationsOfElectrolytes = Pharmacolibrary.Drugs.ATC.B.B05XA30;
+model CombinationsOfElectrolytes
+    extends Pharmacolibrary.Drugs.ATC.B.B05XA30;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end CombinationsOfElectrolytes;

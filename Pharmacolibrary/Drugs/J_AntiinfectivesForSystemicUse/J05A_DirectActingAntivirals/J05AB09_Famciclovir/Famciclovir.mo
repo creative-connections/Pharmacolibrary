@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AB09_Famciclovir;
-model Famciclovir = Pharmacolibrary.Drugs.ATC.J.J05AB09;
+model Famciclovir
+    extends Pharmacolibrary.Drugs.ATC.J.J05AB09;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Famciclovir;

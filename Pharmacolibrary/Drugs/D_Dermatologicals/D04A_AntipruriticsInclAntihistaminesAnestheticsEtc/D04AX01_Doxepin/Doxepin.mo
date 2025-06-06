@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D04A_AntipruriticsInclAntihistaminesAnestheticsEtc.D04AX01_Doxepin;
-model Doxepin = Pharmacolibrary.Drugs.ATC.D.D04AX01;
+model Doxepin
+    extends Pharmacolibrary.Drugs.ATC.D.D04AX01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Doxepin;

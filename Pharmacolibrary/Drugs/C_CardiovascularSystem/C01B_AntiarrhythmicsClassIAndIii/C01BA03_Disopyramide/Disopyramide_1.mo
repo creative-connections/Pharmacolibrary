@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01B_AntiarrhythmicsClassIAndIii.C01BA03_Disopyramide;
-model Disopyramide_1 = Pharmacolibrary.Drugs.ATC.C.C01BA03_1;
+model Disopyramide_1
+    extends Pharmacolibrary.Drugs.ATC.C.C01BA03_1;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Disopyramide_1;

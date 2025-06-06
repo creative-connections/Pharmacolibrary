@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01B_Antimetabolites.L01BC07_Azacitidine;
-model Azacitidine_1 = Pharmacolibrary.Drugs.ATC.L.L01BC07_1;
+model Azacitidine_1
+    extends Pharmacolibrary.Drugs.ATC.L.L01BC07_1;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Azacitidine_1;

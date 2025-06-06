@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07X_OtherAntidiarrheals.A07XA02_Ceratonia;
-model Ceratonia = Pharmacolibrary.Drugs.ATC.A.A07XA02;
+model Ceratonia
+    extends Pharmacolibrary.Drugs.ATC.A.A07XA02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Ceratonia;

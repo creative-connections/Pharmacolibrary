@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents.M03BA53_MethocarbamolCombinationsExclPsycholeptics;
-model MethocarbamolCombinationsExclPsycholeptics = Pharmacolibrary.Drugs.ATC.M.M03BA53;
+model MethocarbamolCombinationsExclPsycholeptics
+    extends Pharmacolibrary.Drugs.ATC.M.M03BA53;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end MethocarbamolCombinationsExclPsycholeptics;

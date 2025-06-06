@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem.M09AX06_Eteplirsen;
-model Eteplirsen = Pharmacolibrary.Drugs.ATC.M.M09AX06;
+model Eteplirsen
+    extends Pharmacolibrary.Drugs.ATC.M.M09AX06;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Eteplirsen;

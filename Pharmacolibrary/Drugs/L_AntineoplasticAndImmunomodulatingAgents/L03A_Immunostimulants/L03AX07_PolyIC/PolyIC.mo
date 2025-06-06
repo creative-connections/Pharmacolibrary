@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AX07_PolyIC;
-model PolyIC = Pharmacolibrary.Drugs.ATC.L.L03AX07;
+model PolyIC
+    extends Pharmacolibrary.Drugs.ATC.L.L03AX07;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end PolyIC;

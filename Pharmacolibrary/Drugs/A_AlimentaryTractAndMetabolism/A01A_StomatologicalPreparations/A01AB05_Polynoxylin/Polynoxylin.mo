@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations.A01AB05_Polynoxylin;
-model Polynoxylin = Pharmacolibrary.Drugs.ATC.A.A01AB05;
+model Polynoxylin
+    extends Pharmacolibrary.Drugs.ATC.A.A01AB05;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Polynoxylin;

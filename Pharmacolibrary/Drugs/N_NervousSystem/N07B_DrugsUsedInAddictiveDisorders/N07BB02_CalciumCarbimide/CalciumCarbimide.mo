@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N07B_DrugsUsedInAddictiveDisorders.N07BB02_CalciumCarbimide;
-model CalciumCarbimide = Pharmacolibrary.Drugs.ATC.N.N07BB02;
+model CalciumCarbimide
+    extends Pharmacolibrary.Drugs.ATC.N.N07BB02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end CalciumCarbimide;

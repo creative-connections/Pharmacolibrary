@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AR07_StavudineLamivudineAndNevirapine;
-model StavudineLamivudineAndNevirapine = Pharmacolibrary.Drugs.ATC.J.J05AR07;
+model StavudineLamivudineAndNevirapine
+    extends Pharmacolibrary.Drugs.ATC.J.J05AR07;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end StavudineLamivudineAndNevirapine;

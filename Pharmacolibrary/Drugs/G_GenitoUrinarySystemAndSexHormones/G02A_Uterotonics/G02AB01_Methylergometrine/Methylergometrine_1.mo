@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02A_Uterotonics.G02AB01_Methylergometrine;
-model Methylergometrine_1 = Pharmacolibrary.Drugs.ATC.G.G02AB01_1;
+model Methylergometrine_1
+    extends Pharmacolibrary.Drugs.ATC.G.G02AB01_1;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Methylergometrine_1;

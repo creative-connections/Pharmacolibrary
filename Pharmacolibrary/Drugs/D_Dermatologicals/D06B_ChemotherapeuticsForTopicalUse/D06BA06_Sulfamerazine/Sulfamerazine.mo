@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D06B_ChemotherapeuticsForTopicalUse.D06BA06_Sulfamerazine;
-model Sulfamerazine = Pharmacolibrary.Drugs.ATC.D.D06BA06;
+model Sulfamerazine
+    extends Pharmacolibrary.Drugs.ATC.D.D06BA06;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Sulfamerazine;

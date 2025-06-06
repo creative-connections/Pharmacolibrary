@@ -33,23 +33,24 @@ model PK_2C_enteral
   Pharmacolibrary.Pharmacokinetic.NoPerfusedTissueCompartment peripheral(V= Vdp) annotation(
     Placement(transformation(origin = {48, -8}, extent = {{-10, -10}, {10, 10}})));
   Pharmacolibrary.Pharmacokinetic.TransferFirstOrderNonSym transfer(CLa = k12, CLb = k21) annotation(
-    Placement(transformation(origin = {20, -6}, extent = {{-10, -10}, {10, 10}})));
+    Placement(transformation(origin = {20, -4}, extent = {{-10, -10}, {10, 10}})));
   Pharmacolibrary.Types.ConcentrationOutput cp_out annotation(
     Placement(transformation(origin = {-82, 102}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-106, 38}, extent = {{-18, -18}, {18, 18}}, rotation = 180)));
 equation
   connect(central.cport, elim.cport) annotation(
-    Line(points = {{-12, 2}, {-12, -5}, {-40, -5}, {-40, 2}}, color = {114, 159, 207}));
+    Line(points = {{-12, 2}, {-12, 3}, {-40, 3}, {-40, 2}}, color = {114, 159, 207}));
   connect(periodicDose.cport, central.cport) annotation(
     Line(points = {{-12, 12}, {-12, 2}}, color = {114, 159, 207}));
   c_out = central.cport.c;
   cp_out = peripheral.cport.c;
   connect(central.cport, transfer.cport_b) annotation(
-    Line(points = {{-12, 2}, {4, 2}, {4, -14}, {20, -14}, {20, -16}}, color = {114, 159, 207}));
+    Line(points = {{-12, 2}, {4, 2}, {4, -12}, {20, -12}, {20, -14}}, color = {114, 159, 207}));
   connect(transfer.cport_a, peripheral.cport) annotation(
-    Line(points = {{20, 4}, {48, 4}, {48, 2}}, color = {114, 159, 207}));
+    Line(points = {{20, 6}, {20, 4}, {48, 4}, {48, 2}}, color = {114, 159, 207}));
   annotation(
     experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1),
-  Diagram(graphics),
+  Diagram(graphics= {Text(origin = {-40, -21}, extent = {{-20, 1}, {20, -1}}, textString = "Cl=%Cl"), Text(origin = {-13, -21}, extent = {{-20, 1}, {20, -1}}, textString = "Vd=%Vd"), Text(origin = {19, -21}, extent = {{-20, 1}, {20, -1}}, textString = "k12=%k12
+k21=%k21"), Text(origin = {47, -22}, extent = {{-20, 1}, {20, -1}}, textString = "Vdp=%Vdp"), Text(origin = {-18, 37}, extent = {{-20, 1}, {20, -1}}, textString = "adminMass=%adminMass"), Text(origin = {-15, 40}, extent = {{-20, 1}, {20, -1}}, textString = "F=%F")}),
   Icon(graphics = {Bitmap(origin = {-58, -2}, extent = {{-98, -98}, {98, 98}}, fileName = "modelica://Pharmacolibrary/Resources/Icons/human_lungs_git.png"), Text(origin = {123, -21}, extent = {{-149, 69}, {149, -69}}, textString = "Weight = %weight
   Absorption (bioavailability)
   F = %F

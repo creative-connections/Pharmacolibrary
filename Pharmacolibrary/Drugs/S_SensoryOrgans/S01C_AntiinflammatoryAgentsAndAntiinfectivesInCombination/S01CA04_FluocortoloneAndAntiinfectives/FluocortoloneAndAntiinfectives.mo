@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S01C_AntiinflammatoryAgentsAndAntiinfectivesInCombination.S01CA04_FluocortoloneAndAntiinfectives;
-model FluocortoloneAndAntiinfectives = Pharmacolibrary.Drugs.ATC.S.S01CA04;
+model FluocortoloneAndAntiinfectives
+    extends Pharmacolibrary.Drugs.ATC.S.S01CA04;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end FluocortoloneAndAntiinfectives;

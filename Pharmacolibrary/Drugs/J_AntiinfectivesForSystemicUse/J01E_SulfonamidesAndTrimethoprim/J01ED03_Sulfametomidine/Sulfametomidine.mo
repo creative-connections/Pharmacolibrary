@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01ED03_Sulfametomidine;
-model Sulfametomidine = Pharmacolibrary.Drugs.ATC.J.J01ED03;
+model Sulfametomidine
+    extends Pharmacolibrary.Drugs.ATC.J.J01ED03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Sulfametomidine;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AA07_LevonorgestrelAndEthinylestradiol;
-model LevonorgestrelAndEthinylestradiol_1 = Pharmacolibrary.Drugs.ATC.G.G03AA07_1;
+model LevonorgestrelAndEthinylestradiol_1
+    extends Pharmacolibrary.Drugs.ATC.G.G03AA07_1;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end LevonorgestrelAndEthinylestradiol_1;

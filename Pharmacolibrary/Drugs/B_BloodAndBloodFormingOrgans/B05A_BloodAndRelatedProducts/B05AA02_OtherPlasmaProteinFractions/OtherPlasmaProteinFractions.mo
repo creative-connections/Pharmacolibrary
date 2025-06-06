@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05A_BloodAndRelatedProducts.B05AA02_OtherPlasmaProteinFractions;
-model OtherPlasmaProteinFractions = Pharmacolibrary.Drugs.ATC.B.B05AA02;
+model OtherPlasmaProteinFractions
+    extends Pharmacolibrary.Drugs.ATC.B.B05AA02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end OtherPlasmaProteinFractions;

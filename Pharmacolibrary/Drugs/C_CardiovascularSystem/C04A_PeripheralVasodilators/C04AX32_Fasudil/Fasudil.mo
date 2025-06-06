@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C04A_PeripheralVasodilators.C04AX32_Fasudil;
-model Fasudil = Pharmacolibrary.Drugs.ATC.C.C04AX32;
+model Fasudil
+    extends Pharmacolibrary.Drugs.ATC.C.C04AX32;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Fasudil;

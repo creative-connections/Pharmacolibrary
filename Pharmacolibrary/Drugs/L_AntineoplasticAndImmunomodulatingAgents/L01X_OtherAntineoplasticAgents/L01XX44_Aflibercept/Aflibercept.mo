@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XX44_Aflibercept;
-model Aflibercept = Pharmacolibrary.Drugs.ATC.L.L01XX44;
+model Aflibercept
+    extends Pharmacolibrary.Drugs.ATC.L.L01XX44;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Aflibercept;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BD54_MeaslesCombinationsWithMumpsRubellaAndVaricellaLiveAttenuated;
-model MeaslesCombinationsWithMumpsRubellaAndVaricellaLiveAttenuated = Pharmacolibrary.Drugs.ATC.J.J07BD54;
+model MeaslesCombinationsWithMumpsRubellaAndVaricellaLiveAttenuated
+    extends Pharmacolibrary.Drugs.ATC.J.J07BD54;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end MeaslesCombinationsWithMumpsRubellaAndVaricellaLiveAttenuated;

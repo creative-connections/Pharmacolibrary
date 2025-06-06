@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AC01_CromoglicicAcid;
-model CromoglicicAcid = Pharmacolibrary.Drugs.ATC.R.R01AC01;
+model CromoglicicAcid
+    extends Pharmacolibrary.Drugs.ATC.R.R01AC01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end CromoglicicAcid;

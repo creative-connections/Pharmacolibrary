@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BK02_ZosterLiveAttenuated;
-model ZosterLiveAttenuated = Pharmacolibrary.Drugs.ATC.J.J07BK02;
+model ZosterLiveAttenuated
+    extends Pharmacolibrary.Drugs.ATC.J.J07BK02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end ZosterLiveAttenuated;

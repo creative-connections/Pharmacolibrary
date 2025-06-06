@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids.N02AF01_Butorphanol;
-model Butorphanol_1 = Pharmacolibrary.Drugs.ATC.N.N02AF01_1;
+model Butorphanol_1
+    extends Pharmacolibrary.Drugs.ATC.N.N02AF01_1;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Butorphanol_1;

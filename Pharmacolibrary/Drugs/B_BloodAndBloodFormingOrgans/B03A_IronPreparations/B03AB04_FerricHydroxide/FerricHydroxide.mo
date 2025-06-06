@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AB04_FerricHydroxide;
-model FerricHydroxide = Pharmacolibrary.Drugs.ATC.B.B03AB04;
+model FerricHydroxide
+    extends Pharmacolibrary.Drugs.ATC.B.B03AB04;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end FerricHydroxide;

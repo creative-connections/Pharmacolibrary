@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts.V03AE06_Colestilan;
-model Colestilan = Pharmacolibrary.Drugs.ATC.V.V03AE06;
+model Colestilan
+    extends Pharmacolibrary.Drugs.ATC.V.V03AE06;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Colestilan;

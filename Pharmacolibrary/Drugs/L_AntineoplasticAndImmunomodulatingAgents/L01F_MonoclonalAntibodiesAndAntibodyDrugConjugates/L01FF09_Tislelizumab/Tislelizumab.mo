@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates.L01FF09_Tislelizumab;
-model Tislelizumab = Pharmacolibrary.Drugs.ATC.L.L01FF09;
+model Tislelizumab
+    extends Pharmacolibrary.Drugs.ATC.L.L01FF09;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Tislelizumab;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AP51_SofosbuvirAndLedipasvir;
-model SofosbuvirAndLedipasvir = Pharmacolibrary.Drugs.ATC.J.J05AP51;
+model SofosbuvirAndLedipasvir
+    extends Pharmacolibrary.Drugs.ATC.J.J05AP51;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end SofosbuvirAndLedipasvir;

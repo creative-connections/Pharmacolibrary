@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05C_IrrigatingSolutions.B05CA01_Cetylpyridinium;
-model Cetylpyridinium = Pharmacolibrary.Drugs.ATC.B.B05CA01;
+model Cetylpyridinium
+    extends Pharmacolibrary.Drugs.ATC.B.B05CA01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Cetylpyridinium;

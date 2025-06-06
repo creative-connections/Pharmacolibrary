@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents.M03BC01_OrphenadrineCitrate;
-model OrphenadrineCitrate = Pharmacolibrary.Drugs.ATC.M.M03BC01;
+model OrphenadrineCitrate
+    extends Pharmacolibrary.Drugs.ATC.M.M03BC01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end OrphenadrineCitrate;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03X_OtherSexHormonesAndModulatorsOfTheGenitalSystem.G03XB02_Ulipristal;
-model Ulipristal = Pharmacolibrary.Drugs.ATC.G.G03XB02;
+model Ulipristal
+    extends Pharmacolibrary.Drugs.ATC.G.G03XB02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Ulipristal;

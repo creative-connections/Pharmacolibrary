@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations.A01AB14_BenzoxoniumChloride;
-model BenzoxoniumChloride = Pharmacolibrary.Drugs.ATC.A.A01AB14;
+model BenzoxoniumChloride
+    extends Pharmacolibrary.Drugs.ATC.A.A01AB14;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end BenzoxoniumChloride;

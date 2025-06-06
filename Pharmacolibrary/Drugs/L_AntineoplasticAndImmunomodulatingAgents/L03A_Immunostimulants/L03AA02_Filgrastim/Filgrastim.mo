@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants.L03AA02_Filgrastim;
-model Filgrastim = Pharmacolibrary.Drugs.ATC.L.L03AA02;
+model Filgrastim
+    extends Pharmacolibrary.Drugs.ATC.L.L03AA02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Filgrastim;

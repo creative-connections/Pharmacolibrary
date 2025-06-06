@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AK02_Teriflunomide;
-model Teriflunomide = Pharmacolibrary.Drugs.ATC.L.L04AK02;
+model Teriflunomide
+    extends Pharmacolibrary.Drugs.ATC.L.L04AK02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Teriflunomide;

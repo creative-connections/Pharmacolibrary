@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N06A_Antidepressants.N06AF01_Isocarboxazid;
-model Isocarboxazid = Pharmacolibrary.Drugs.ATC.N.N06AF01;
+model Isocarboxazid
+    extends Pharmacolibrary.Drugs.ATC.N.N06AF01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Isocarboxazid;

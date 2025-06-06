@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse.R06AE05_Meclozine;
-model Meclozine = Pharmacolibrary.Drugs.ATC.R.R06AE05;
+model Meclozine
+    extends Pharmacolibrary.Drugs.ATC.R.R06AE05;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Meclozine;

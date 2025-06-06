@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids.N02AA55_OxycodoneAndNaloxone;
-model OxycodoneAndNaloxone = Pharmacolibrary.Drugs.ATC.N.N02AA55;
+model OxycodoneAndNaloxone
+    extends Pharmacolibrary.Drugs.ATC.N.N02AA55;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end OxycodoneAndNaloxone;

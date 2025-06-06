@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A09A_DigestivesInclEnzymes.A09AB03_HydrochloricAcid;
-model HydrochloricAcid = Pharmacolibrary.Drugs.ATC.A.A09AB03;
+model HydrochloricAcid
+    extends Pharmacolibrary.Drugs.ATC.A.A09AB03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end HydrochloricAcid;

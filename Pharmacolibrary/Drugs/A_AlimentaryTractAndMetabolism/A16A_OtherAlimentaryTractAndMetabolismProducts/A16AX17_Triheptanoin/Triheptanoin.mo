@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts.A16AX17_Triheptanoin;
-model Triheptanoin = Pharmacolibrary.Drugs.ATC.A.A16AX17;
+model Triheptanoin
+    extends Pharmacolibrary.Drugs.ATC.A.A16AX17;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Triheptanoin;

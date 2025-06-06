@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BX21_Temgicoluril;
-model Temgicoluril = Pharmacolibrary.Drugs.ATC.N.N06BX21;
+model Temgicoluril
+    extends Pharmacolibrary.Drugs.ATC.N.N06BX21;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Temgicoluril;

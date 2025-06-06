@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D07A_CorticosteroidsPlain.D07AA01_Methylprednisolone;
-model Methylprednisolone = Pharmacolibrary.Drugs.ATC.D.D07AA01;
+model Methylprednisolone
+    extends Pharmacolibrary.Drugs.ATC.D.D07AA01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Methylprednisolone;

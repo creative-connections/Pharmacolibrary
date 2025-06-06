@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02A_Antacids.A02AD03_Almagate;
-model Almagate = Pharmacolibrary.Drugs.ATC.A.A02AD03;
+model Almagate
+    extends Pharmacolibrary.Drugs.ATC.A.A02AD03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Almagate;

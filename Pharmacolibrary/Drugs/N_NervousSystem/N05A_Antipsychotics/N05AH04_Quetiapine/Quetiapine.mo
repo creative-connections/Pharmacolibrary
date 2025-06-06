@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N05A_Antipsychotics.N05AH04_Quetiapine;
-model Quetiapine = Pharmacolibrary.Drugs.ATC.N.N05AH04;
+model Quetiapine
+    extends Pharmacolibrary.Drugs.ATC.N.N05AH04;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Quetiapine;

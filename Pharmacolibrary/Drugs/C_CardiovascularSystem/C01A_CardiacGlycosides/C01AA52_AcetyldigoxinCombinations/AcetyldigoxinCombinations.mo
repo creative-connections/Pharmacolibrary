@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01A_CardiacGlycosides.C01AA52_AcetyldigoxinCombinations;
-model AcetyldigoxinCombinations = Pharmacolibrary.Drugs.ATC.C.C01AA52;
+model AcetyldigoxinCombinations
+    extends Pharmacolibrary.Drugs.ATC.C.C01AA52;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end AcetyldigoxinCombinations;

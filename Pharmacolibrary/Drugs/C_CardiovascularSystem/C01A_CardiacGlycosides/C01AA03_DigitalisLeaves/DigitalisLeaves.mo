@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01A_CardiacGlycosides.C01AA03_DigitalisLeaves;
-model DigitalisLeaves = Pharmacolibrary.Drugs.ATC.C.C01AA03;
+model DigitalisLeaves
+    extends Pharmacolibrary.Drugs.ATC.C.C01AA03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end DigitalisLeaves;

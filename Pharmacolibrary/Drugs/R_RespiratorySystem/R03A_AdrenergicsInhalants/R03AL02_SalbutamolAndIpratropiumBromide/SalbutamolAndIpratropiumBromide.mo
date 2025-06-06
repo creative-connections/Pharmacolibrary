@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants.R03AL02_SalbutamolAndIpratropiumBromide;
-model SalbutamolAndIpratropiumBromide = Pharmacolibrary.Drugs.ATC.R.R03AL02;
+model SalbutamolAndIpratropiumBromide
+    extends Pharmacolibrary.Drugs.ATC.R.R03AL02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end SalbutamolAndIpratropiumBromide;

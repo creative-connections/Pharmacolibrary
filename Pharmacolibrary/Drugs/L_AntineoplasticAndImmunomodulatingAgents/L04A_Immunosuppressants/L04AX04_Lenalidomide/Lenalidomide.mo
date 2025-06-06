@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AX04_Lenalidomide;
-model Lenalidomide = Pharmacolibrary.Drugs.ATC.L.L04AX04;
+model Lenalidomide
+    extends Pharmacolibrary.Drugs.ATC.L.L04AX04;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Lenalidomide;

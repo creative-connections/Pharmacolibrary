@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants.R03AK10_VilanterolAndFluticasoneFuroate;
-model VilanterolAndFluticasoneFuroate = Pharmacolibrary.Drugs.ATC.R.R03AK10;
+model VilanterolAndFluticasoneFuroate
+    extends Pharmacolibrary.Drugs.ATC.R.R03AK10;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end VilanterolAndFluticasoneFuroate;

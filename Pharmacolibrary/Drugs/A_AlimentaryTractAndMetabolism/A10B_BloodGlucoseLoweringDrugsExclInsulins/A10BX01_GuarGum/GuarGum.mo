@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BX01_GuarGum;
-model GuarGum = Pharmacolibrary.Drugs.ATC.A.A10BX01;
+model GuarGum
+    extends Pharmacolibrary.Drugs.ATC.A.A10BX01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end GuarGum;

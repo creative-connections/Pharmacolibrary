@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01EB05_Physostigmine;
-model Physostigmine = Pharmacolibrary.Drugs.ATC.S.S01EB05;
+model Physostigmine
+    extends Pharmacolibrary.Drugs.ATC.S.S01EB05;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Physostigmine;

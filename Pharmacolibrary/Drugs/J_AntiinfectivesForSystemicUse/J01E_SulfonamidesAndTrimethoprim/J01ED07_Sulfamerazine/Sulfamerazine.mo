@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01ED07_Sulfamerazine;
-model Sulfamerazine = Pharmacolibrary.Drugs.ATC.J.J01ED07;
+model Sulfamerazine
+    extends Pharmacolibrary.Drugs.ATC.J.J01ED07;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Sulfamerazine;

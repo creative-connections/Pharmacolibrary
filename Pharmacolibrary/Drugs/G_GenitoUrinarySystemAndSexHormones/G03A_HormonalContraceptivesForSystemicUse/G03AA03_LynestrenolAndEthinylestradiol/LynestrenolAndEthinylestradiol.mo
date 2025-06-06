@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AA03_LynestrenolAndEthinylestradiol;
-model LynestrenolAndEthinylestradiol = Pharmacolibrary.Drugs.ATC.G.G03AA03;
+model LynestrenolAndEthinylestradiol
+    extends Pharmacolibrary.Drugs.ATC.G.G03AA03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end LynestrenolAndEthinylestradiol;

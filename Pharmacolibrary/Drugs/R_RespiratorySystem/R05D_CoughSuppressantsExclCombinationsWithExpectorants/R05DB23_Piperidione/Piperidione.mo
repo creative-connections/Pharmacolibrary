@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants.R05DB23_Piperidione;
-model Piperidione = Pharmacolibrary.Drugs.ATC.R.R05DB23;
+model Piperidione
+    extends Pharmacolibrary.Drugs.ATC.R.R05DB23;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Piperidione;

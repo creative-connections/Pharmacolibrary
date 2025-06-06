@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R02A_ThroatPreparations.R02AD05_Ambroxol;
-model Ambroxol = Pharmacolibrary.Drugs.ATC.R.R02AD05;
+model Ambroxol
+    extends Pharmacolibrary.Drugs.ATC.R.R02AD05;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Ambroxol;

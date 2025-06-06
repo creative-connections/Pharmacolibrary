@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse.J02AC05_Isavuconazole;
-model Isavuconazole = Pharmacolibrary.Drugs.ATC.J.J02AC05;
+model Isavuconazole
+    extends Pharmacolibrary.Drugs.ATC.J.J02AC05;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Isavuconazole;

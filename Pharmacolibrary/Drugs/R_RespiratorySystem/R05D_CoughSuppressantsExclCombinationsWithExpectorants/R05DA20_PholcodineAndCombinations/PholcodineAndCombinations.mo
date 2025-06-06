@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants.R05DA20_PholcodineAndCombinations;
-model PholcodineAndCombinations = Pharmacolibrary.Drugs.ATC.R.R05DA20;
+model PholcodineAndCombinations
+    extends Pharmacolibrary.Drugs.ATC.R.R05DA20;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end PholcodineAndCombinations;

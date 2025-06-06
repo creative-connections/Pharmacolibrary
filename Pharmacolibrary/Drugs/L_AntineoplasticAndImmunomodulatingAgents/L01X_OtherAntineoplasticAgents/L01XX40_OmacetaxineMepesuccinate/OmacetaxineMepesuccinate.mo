@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XX40_OmacetaxineMepesuccinate;
-model OmacetaxineMepesuccinate = Pharmacolibrary.Drugs.ATC.L.L01XX40;
+model OmacetaxineMepesuccinate
+    extends Pharmacolibrary.Drugs.ATC.L.L01XX40;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end OmacetaxineMepesuccinate;

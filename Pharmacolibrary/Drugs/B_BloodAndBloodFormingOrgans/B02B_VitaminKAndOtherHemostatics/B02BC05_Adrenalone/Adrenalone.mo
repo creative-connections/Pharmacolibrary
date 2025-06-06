@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BC05_Adrenalone;
-model Adrenalone = Pharmacolibrary.Drugs.ATC.B.B02BC05;
+model Adrenalone
+    extends Pharmacolibrary.Drugs.ATC.B.B02BC05;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Adrenalone;

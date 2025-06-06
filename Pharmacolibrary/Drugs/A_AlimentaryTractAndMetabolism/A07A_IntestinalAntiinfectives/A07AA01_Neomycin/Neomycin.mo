@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07A_IntestinalAntiinfectives.A07AA01_Neomycin;
-model Neomycin = Pharmacolibrary.Drugs.ATC.A.A07AA01;
+model Neomycin
+    extends Pharmacolibrary.Drugs.ATC.A.A07AA01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Neomycin;

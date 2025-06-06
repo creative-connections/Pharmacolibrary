@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11H_OtherPlainVitaminPreparations.A11HA01_Nicotinamide;
-model Nicotinamide = Pharmacolibrary.Drugs.ATC.A.A11HA01;
+model Nicotinamide
+    extends Pharmacolibrary.Drugs.ATC.A.A11HA01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Nicotinamide;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts.V03AF09_Glucarpidase;
-model Glucarpidase = Pharmacolibrary.Drugs.ATC.V.V03AF09;
+model Glucarpidase
+    extends Pharmacolibrary.Drugs.ATC.V.V03AF09;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Glucarpidase;

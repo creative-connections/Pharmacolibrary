@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AC05_Lornoxicam;
-model Lornoxicam = Pharmacolibrary.Drugs.ATC.M.M01AC05;
+model Lornoxicam
+    extends Pharmacolibrary.Drugs.ATC.M.M01AC05;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Lornoxicam;

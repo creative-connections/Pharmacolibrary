@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03F_Propulsives.A03FA05_Alizapride;
-model Alizapride = Pharmacolibrary.Drugs.ATC.A.A03FA05;
+model Alizapride
+    extends Pharmacolibrary.Drugs.ATC.A.A03FA05;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Alizapride;

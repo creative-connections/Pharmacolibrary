@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01B_Amphenicols.J01BA02_Thiamphenicol;
-model Thiamphenicol = Pharmacolibrary.Drugs.ATC.J.J01BA02;
+model Thiamphenicol
+    extends Pharmacolibrary.Drugs.ATC.J.J01BA02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Thiamphenicol;

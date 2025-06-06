@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02B_HormoneAntagonistsAndRelatedAgents.L02BG01_Aminoglutethimide;
-model Aminoglutethimide = Pharmacolibrary.Drugs.ATC.L.L02BG01;
+model Aminoglutethimide
+    extends Pharmacolibrary.Drugs.ATC.L.L02BG01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Aminoglutethimide;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01M_QuinoloneAntibacterials.J01MB08_Nemonoxacin;
-model Nemonoxacin = Pharmacolibrary.Drugs.ATC.J.J01MB08;
+model Nemonoxacin
+    extends Pharmacolibrary.Drugs.ATC.J.J01MB08;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Nemonoxacin;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D07A_CorticosteroidsPlain.D07AB02_HydrocortisoneButyrate;
-model HydrocortisoneButyrate = Pharmacolibrary.Drugs.ATC.D.D07AB02;
+model HydrocortisoneButyrate
+    extends Pharmacolibrary.Drugs.ATC.D.D07AB02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end HydrocortisoneButyrate;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N01B_AnestheticsLocal.N01BB08_Articaine;
-model Articaine = Pharmacolibrary.Drugs.ATC.N.N01BB08;
+model Articaine
+    extends Pharmacolibrary.Drugs.ATC.N.N01BB08;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Articaine;

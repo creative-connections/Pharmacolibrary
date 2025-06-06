@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse.D10AD51_TretinoinCombinations;
-model TretinoinCombinations = Pharmacolibrary.Drugs.ATC.D.D10AD51;
+model TretinoinCombinations
+    extends Pharmacolibrary.Drugs.ATC.D.D10AD51;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end TretinoinCombinations;

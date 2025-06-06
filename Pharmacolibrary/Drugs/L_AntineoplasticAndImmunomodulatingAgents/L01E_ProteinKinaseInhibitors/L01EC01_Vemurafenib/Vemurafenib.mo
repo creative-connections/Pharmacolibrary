@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EC01_Vemurafenib;
-model Vemurafenib = Pharmacolibrary.Drugs.ATC.L.L01EC01;
+model Vemurafenib
+    extends Pharmacolibrary.Drugs.ATC.L.L01EC01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Vemurafenib;

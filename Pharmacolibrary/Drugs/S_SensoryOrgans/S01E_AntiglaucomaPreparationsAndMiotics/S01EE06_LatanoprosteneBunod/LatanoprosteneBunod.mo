@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01EE06_LatanoprosteneBunod;
-model LatanoprosteneBunod = Pharmacolibrary.Drugs.ATC.S.S01EE06;
+model LatanoprosteneBunod
+    extends Pharmacolibrary.Drugs.ATC.S.S01EE06;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end LatanoprosteneBunod;

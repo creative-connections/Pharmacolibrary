@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents.L01XL02_TalimogeneLaherparepvec;
-model TalimogeneLaherparepvec = Pharmacolibrary.Drugs.ATC.L.L01XL02;
+model TalimogeneLaherparepvec
+    extends Pharmacolibrary.Drugs.ATC.L.L01XL02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end TalimogeneLaherparepvec;

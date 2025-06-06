@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents.M03BX03_Pridinol;
-model Pridinol = Pharmacolibrary.Drugs.ATC.M.M03BX03;
+model Pridinol
+    extends Pharmacolibrary.Drugs.ATC.M.M03BX03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Pridinol;

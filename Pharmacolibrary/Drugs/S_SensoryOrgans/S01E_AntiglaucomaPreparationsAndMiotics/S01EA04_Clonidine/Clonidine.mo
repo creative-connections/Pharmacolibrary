@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01EA04_Clonidine;
-model Clonidine = Pharmacolibrary.Drugs.ATC.S.S01EA04;
+model Clonidine
+    extends Pharmacolibrary.Drugs.ATC.S.S01EA04;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Clonidine;

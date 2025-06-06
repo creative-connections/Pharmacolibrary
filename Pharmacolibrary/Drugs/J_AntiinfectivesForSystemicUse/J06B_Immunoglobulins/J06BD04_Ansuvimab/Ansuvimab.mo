@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J06B_Immunoglobulins.J06BD04_Ansuvimab;
-model Ansuvimab = Pharmacolibrary.Drugs.ATC.J.J06BD04;
+model Ansuvimab
+    extends Pharmacolibrary.Drugs.ATC.J.J06BD04;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Ansuvimab;

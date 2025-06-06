@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03G_GonadotropinsAndOtherOvulationStimulants.G03GA30_EstradiolCombinations;
-model EstradiolCombinations = Pharmacolibrary.Drugs.ATC.G.G03GA30;
+model EstradiolCombinations
+    extends Pharmacolibrary.Drugs.ATC.G.G03GA30;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end EstradiolCombinations;

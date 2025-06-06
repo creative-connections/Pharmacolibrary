@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse.R01AD04_Flunisolide;
-model Flunisolide = Pharmacolibrary.Drugs.ATC.R.R01AD04;
+model Flunisolide
+    extends Pharmacolibrary.Drugs.ATC.R.R01AD04;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Flunisolide;

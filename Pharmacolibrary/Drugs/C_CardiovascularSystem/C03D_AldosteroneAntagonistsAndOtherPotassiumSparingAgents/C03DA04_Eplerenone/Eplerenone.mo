@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03D_AldosteroneAntagonistsAndOtherPotassiumSparingAgents.C03DA04_Eplerenone;
-model Eplerenone = Pharmacolibrary.Drugs.ATC.C.C03DA04;
+model Eplerenone
+    extends Pharmacolibrary.Drugs.ATC.C.C03DA04;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Eplerenone;

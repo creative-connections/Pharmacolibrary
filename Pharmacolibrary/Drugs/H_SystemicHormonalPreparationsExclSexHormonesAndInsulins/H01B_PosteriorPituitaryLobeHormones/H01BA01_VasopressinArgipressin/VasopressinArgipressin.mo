@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01B_PosteriorPituitaryLobeHormones.H01BA01_VasopressinArgipressin;
-model VasopressinArgipressin = Pharmacolibrary.Drugs.ATC.H.H01BA01;
+model VasopressinArgipressin
+    extends Pharmacolibrary.Drugs.ATC.H.H01BA01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end VasopressinArgipressin;

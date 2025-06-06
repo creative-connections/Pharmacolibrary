@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids.N02AJ17_OxycodoneAndParacetamol;
-model OxycodoneAndParacetamol = Pharmacolibrary.Drugs.ATC.N.N02AJ17;
+model OxycodoneAndParacetamol
+    extends Pharmacolibrary.Drugs.ATC.N.N02AJ17;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end OxycodoneAndParacetamol;

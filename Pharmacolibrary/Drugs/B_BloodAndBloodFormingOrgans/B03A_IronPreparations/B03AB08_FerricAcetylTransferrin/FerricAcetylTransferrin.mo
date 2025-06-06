@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AB08_FerricAcetylTransferrin;
-model FerricAcetylTransferrin = Pharmacolibrary.Drugs.ATC.B.B03AB08;
+model FerricAcetylTransferrin
+    extends Pharmacolibrary.Drugs.ATC.B.B03AB08;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end FerricAcetylTransferrin;

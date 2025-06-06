@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts.V03AX04_Difelikefalin;
-model Difelikefalin = Pharmacolibrary.Drugs.ATC.V.V03AX04;
+model Difelikefalin
+    extends Pharmacolibrary.Drugs.ATC.V.V03AX04;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Difelikefalin;

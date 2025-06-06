@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AA03_Euflavine;
-model Euflavine = Pharmacolibrary.Drugs.ATC.D.D08AA03;
+model Euflavine
+    extends Pharmacolibrary.Drugs.ATC.D.D08AA03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Euflavine;

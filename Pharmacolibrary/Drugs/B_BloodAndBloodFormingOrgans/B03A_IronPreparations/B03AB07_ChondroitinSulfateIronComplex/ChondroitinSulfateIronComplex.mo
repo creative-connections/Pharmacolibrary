@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AB07_ChondroitinSulfateIronComplex;
-model ChondroitinSulfateIronComplex = Pharmacolibrary.Drugs.ATC.B.B03AB07;
+model ChondroitinSulfateIronComplex
+    extends Pharmacolibrary.Drugs.ATC.B.B03AB07;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end ChondroitinSulfateIronComplex;

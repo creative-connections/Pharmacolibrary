@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AJ03_Pegcetacoplan;
-model Pegcetacoplan = Pharmacolibrary.Drugs.ATC.L.L04AJ03;
+model Pegcetacoplan
+    extends Pharmacolibrary.Drugs.ATC.L.L04AJ03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Pegcetacoplan;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D09A_MedicatedDressings.D09AA01_Framycetin;
-model Framycetin = Pharmacolibrary.Drugs.ATC.D.D09AA01;
+model Framycetin
+    extends Pharmacolibrary.Drugs.ATC.D.D09AA01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Framycetin;

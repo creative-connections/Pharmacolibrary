@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D07B_CorticosteroidsCombinationsWithAntiseptics.D07BC01_BetamethasoneAndAntiseptics;
-model BetamethasoneAndAntiseptics = Pharmacolibrary.Drugs.ATC.D.D07BC01;
+model BetamethasoneAndAntiseptics
+    extends Pharmacolibrary.Drugs.ATC.D.D07BC01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end BetamethasoneAndAntiseptics;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D01A_AntifungalsForTopicalUse.D01AE08_Ticlatone;
-model Ticlatone = Pharmacolibrary.Drugs.ATC.D.D01AE08;
+model Ticlatone
+    extends Pharmacolibrary.Drugs.ATC.D.D01AE08;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Ticlatone;

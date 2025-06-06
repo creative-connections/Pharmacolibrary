@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07E_IntestinalAntiinflammatoryAgents.A07EC02_Mesalazine;
-model Mesalazine_1 = Pharmacolibrary.Drugs.ATC.A.A07EC02_1;
+model Mesalazine_1
+    extends Pharmacolibrary.Drugs.ATC.A.A07EC02_1;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Mesalazine_1;

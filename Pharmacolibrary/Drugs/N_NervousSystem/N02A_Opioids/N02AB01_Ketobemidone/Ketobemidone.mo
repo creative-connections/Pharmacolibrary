@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids.N02AB01_Ketobemidone;
-model Ketobemidone = Pharmacolibrary.Drugs.ATC.N.N02AB01;
+model Ketobemidone
+    extends Pharmacolibrary.Drugs.ATC.N.N02AB01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Ketobemidone;

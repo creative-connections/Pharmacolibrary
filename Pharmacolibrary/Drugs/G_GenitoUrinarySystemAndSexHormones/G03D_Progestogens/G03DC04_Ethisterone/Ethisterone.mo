@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03D_Progestogens.G03DC04_Ethisterone;
-model Ethisterone = Pharmacolibrary.Drugs.ATC.G.G03DC04;
+model Ethisterone
+    extends Pharmacolibrary.Drugs.ATC.G.G03DC04;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Ethisterone;

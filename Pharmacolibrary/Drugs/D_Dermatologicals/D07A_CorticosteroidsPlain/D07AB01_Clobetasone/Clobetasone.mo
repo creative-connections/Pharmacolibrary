@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D07A_CorticosteroidsPlain.D07AB01_Clobetasone;
-model Clobetasone = Pharmacolibrary.Drugs.ATC.D.D07AB01;
+model Clobetasone
+    extends Pharmacolibrary.Drugs.ATC.D.D07AB01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Clobetasone;

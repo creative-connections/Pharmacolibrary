@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N05B_Anxiolytics.N05BX01_Mephenoxalone;
-model Mephenoxalone = Pharmacolibrary.Drugs.ATC.N.N05BX01;
+model Mephenoxalone
+    extends Pharmacolibrary.Drugs.ATC.N.N05BX01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Mephenoxalone;

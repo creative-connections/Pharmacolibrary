@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BH52_GemigliptinAndRosuvastatin;
-model GemigliptinAndRosuvastatin = Pharmacolibrary.Drugs.ATC.A.A10BH52;
+model GemigliptinAndRosuvastatin
+    extends Pharmacolibrary.Drugs.ATC.A.A10BH52;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end GemigliptinAndRosuvastatin;

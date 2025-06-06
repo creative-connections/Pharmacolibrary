@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03B_LowCeilingDiureticsExclThiazides.C03BA05_Mefruside;
-model Mefruside = Pharmacolibrary.Drugs.ATC.C.C03BA05;
+model Mefruside
+    extends Pharmacolibrary.Drugs.ATC.C.C03BA05;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Mefruside;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AG01_MefenamicAcid;
-model MefenamicAcid = Pharmacolibrary.Drugs.ATC.M.M01AG01;
+model MefenamicAcid
+    extends Pharmacolibrary.Drugs.ATC.M.M01AG01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end MefenamicAcid;

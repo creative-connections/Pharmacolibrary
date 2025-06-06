@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03B_AntithyroidPreparations.H03BX02_Dibromotyrosine;
-model Dibromotyrosine = Pharmacolibrary.Drugs.ATC.H.H03BX02;
+model Dibromotyrosine
+    extends Pharmacolibrary.Drugs.ATC.H.H03BX02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Dibromotyrosine;

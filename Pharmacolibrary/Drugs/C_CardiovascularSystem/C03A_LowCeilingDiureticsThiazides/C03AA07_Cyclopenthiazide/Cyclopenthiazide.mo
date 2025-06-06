@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03A_LowCeilingDiureticsThiazides.C03AA07_Cyclopenthiazide;
-model Cyclopenthiazide = Pharmacolibrary.Drugs.ATC.C.C03AA07;
+model Cyclopenthiazide
+    extends Pharmacolibrary.Drugs.ATC.C.C03AA07;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Cyclopenthiazide;

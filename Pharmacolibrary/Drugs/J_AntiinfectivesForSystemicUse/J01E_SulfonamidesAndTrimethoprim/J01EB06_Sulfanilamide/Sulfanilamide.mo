@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim.J01EB06_Sulfanilamide;
-model Sulfanilamide = Pharmacolibrary.Drugs.ATC.J.J01EB06;
+model Sulfanilamide
+    extends Pharmacolibrary.Drugs.ATC.J.J01EB06;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Sulfanilamide;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01B_Antimetabolites.L01BC59_TrifluridineCombinations;
-model TrifluridineCombinations = Pharmacolibrary.Drugs.ATC.L.L01BC59;
+model TrifluridineCombinations
+    extends Pharmacolibrary.Drugs.ATC.L.L01BC59;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end TrifluridineCombinations;

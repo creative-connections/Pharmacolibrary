@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D06A_AntibioticsForTopicalUse.D06AA03_Oxytetracycline;
-model Oxytetracycline = Pharmacolibrary.Drugs.ATC.D.D06AA03;
+model Oxytetracycline
+    extends Pharmacolibrary.Drugs.ATC.D.D06AA03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Oxytetracycline;

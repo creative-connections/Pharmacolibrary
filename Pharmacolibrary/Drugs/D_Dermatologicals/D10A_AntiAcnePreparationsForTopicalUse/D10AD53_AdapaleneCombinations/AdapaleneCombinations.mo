@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse.D10AD53_AdapaleneCombinations;
-model AdapaleneCombinations = Pharmacolibrary.Drugs.ATC.D.D10AD53;
+model AdapaleneCombinations
+    extends Pharmacolibrary.Drugs.ATC.D.D10AD53;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end AdapaleneCombinations;

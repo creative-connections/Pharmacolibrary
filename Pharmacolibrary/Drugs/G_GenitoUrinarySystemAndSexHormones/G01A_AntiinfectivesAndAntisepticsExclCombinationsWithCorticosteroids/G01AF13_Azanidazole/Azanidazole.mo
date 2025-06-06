@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AF13_Azanidazole;
-model Azanidazole = Pharmacolibrary.Drugs.ATC.G.G01AF13;
+model Azanidazole
+    extends Pharmacolibrary.Drugs.ATC.G.G01AF13;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Azanidazole;

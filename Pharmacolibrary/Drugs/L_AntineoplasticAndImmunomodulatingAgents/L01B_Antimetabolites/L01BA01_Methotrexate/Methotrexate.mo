@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01B_Antimetabolites.L01BA01_Methotrexate;
-model Methotrexate = Pharmacolibrary.Drugs.ATC.L.L01BA01;
+model Methotrexate
+    extends Pharmacolibrary.Drugs.ATC.L.L01BA01;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Methotrexate;

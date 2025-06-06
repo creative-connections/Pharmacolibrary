@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S01F_MydriaticsAndCycloplegics.S01FB02_Ephedrine;
-model Ephedrine = Pharmacolibrary.Drugs.ATC.S.S01FB02;
+model Ephedrine
+    extends Pharmacolibrary.Drugs.ATC.S.S01FB02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Ephedrine;

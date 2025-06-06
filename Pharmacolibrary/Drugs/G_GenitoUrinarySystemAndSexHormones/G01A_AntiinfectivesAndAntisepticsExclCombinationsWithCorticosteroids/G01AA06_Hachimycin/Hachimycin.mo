@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AA06_Hachimycin;
-model Hachimycin = Pharmacolibrary.Drugs.ATC.G.G01AA06;
+model Hachimycin
+    extends Pharmacolibrary.Drugs.ATC.G.G01AA06;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Hachimycin;

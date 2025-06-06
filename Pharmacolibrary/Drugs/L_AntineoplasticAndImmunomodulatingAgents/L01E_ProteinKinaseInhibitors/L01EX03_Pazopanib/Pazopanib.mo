@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EX03_Pazopanib;
-model Pazopanib = Pharmacolibrary.Drugs.ATC.L.L01EX03;
+model Pazopanib
+    extends Pharmacolibrary.Drugs.ATC.L.L01EX03;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Pazopanib;

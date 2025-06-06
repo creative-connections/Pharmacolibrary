@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D06A_AntibioticsForTopicalUse.D06AX02_Chloramphenicol;
-model Chloramphenicol_1 = Pharmacolibrary.Drugs.ATC.D.D06AX02_1;
+model Chloramphenicol_1
+    extends Pharmacolibrary.Drugs.ATC.D.D06AX02_1;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Chloramphenicol_1;

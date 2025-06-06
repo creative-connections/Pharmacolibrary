@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations.A01AB09_Miconazole;
-model Miconazole = Pharmacolibrary.Drugs.ATC.A.A01AB09;
+model Miconazole
+    extends Pharmacolibrary.Drugs.ATC.A.A01AB09;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Miconazole;

@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AC28_Limaprost;
-model Limaprost = Pharmacolibrary.Drugs.ATC.B.B01AC28;
+model Limaprost
+    extends Pharmacolibrary.Drugs.ATC.B.B01AC28;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Limaprost;

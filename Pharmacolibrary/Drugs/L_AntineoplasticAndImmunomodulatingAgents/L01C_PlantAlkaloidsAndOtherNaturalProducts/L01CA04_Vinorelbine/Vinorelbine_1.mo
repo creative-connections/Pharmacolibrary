@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts.L01CA04_Vinorelbine;
-model Vinorelbine_1 = Pharmacolibrary.Drugs.ATC.L.L01CA04_1;
+model Vinorelbine_1
+    extends Pharmacolibrary.Drugs.ATC.L.L01CA04_1;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Vinorelbine_1;

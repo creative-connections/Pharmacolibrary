@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03B_BelladonnaAndDerivativesPlain.A03BA04_BelladonnaTotalAlkaloids;
-model BelladonnaTotalAlkaloids = Pharmacolibrary.Drugs.ATC.A.A03BA04;
+model BelladonnaTotalAlkaloids
+    extends Pharmacolibrary.Drugs.ATC.A.A03BA04;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end BelladonnaTotalAlkaloids;

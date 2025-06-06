@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations.C09DX07_IrbesartanAmlodipineAndHydrochlorothiazide;
-model IrbesartanAmlodipineAndHydrochlorothiazide = Pharmacolibrary.Drugs.ATC.C.C09DX07;
+model IrbesartanAmlodipineAndHydrochlorothiazide
+    extends Pharmacolibrary.Drugs.ATC.C.C09DX07;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end IrbesartanAmlodipineAndHydrochlorothiazide;

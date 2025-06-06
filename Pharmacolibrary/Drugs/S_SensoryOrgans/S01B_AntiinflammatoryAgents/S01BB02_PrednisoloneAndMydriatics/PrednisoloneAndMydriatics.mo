@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S01B_AntiinflammatoryAgents.S01BB02_PrednisoloneAndMydriatics;
-model PrednisoloneAndMydriatics = Pharmacolibrary.Drugs.ATC.S.S01BB02;
+model PrednisoloneAndMydriatics
+    extends Pharmacolibrary.Drugs.ATC.S.S01BB02;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end PrednisoloneAndMydriatics;

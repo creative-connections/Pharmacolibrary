@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01EX23_Pralsetinib;
-model Pralsetinib = Pharmacolibrary.Drugs.ATC.L.L01EX23;
+model Pralsetinib
+    extends Pharmacolibrary.Drugs.ATC.L.L01EX23;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Pralsetinib;

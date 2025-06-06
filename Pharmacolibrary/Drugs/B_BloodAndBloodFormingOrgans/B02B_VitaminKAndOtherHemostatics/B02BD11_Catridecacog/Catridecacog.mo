@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BD11_Catridecacog;
-model Catridecacog = Pharmacolibrary.Drugs.ATC.B.B02BD11;
+model Catridecacog
+    extends Pharmacolibrary.Drugs.ATC.B.B02BD11;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Catridecacog;

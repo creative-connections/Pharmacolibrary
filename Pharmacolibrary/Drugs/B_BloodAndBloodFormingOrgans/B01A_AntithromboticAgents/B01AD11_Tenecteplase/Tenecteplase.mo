@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AD11_Tenecteplase;
-model Tenecteplase = Pharmacolibrary.Drugs.ATC.B.B01AD11;
+model Tenecteplase
+    extends Pharmacolibrary.Drugs.ATC.B.B01AD11;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Tenecteplase;

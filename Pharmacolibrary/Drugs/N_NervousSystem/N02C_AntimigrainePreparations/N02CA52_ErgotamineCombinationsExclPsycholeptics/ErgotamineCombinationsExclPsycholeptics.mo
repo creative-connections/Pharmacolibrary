@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N02C_AntimigrainePreparations.N02CA52_ErgotamineCombinationsExclPsycholeptics;
-model ErgotamineCombinationsExclPsycholeptics = Pharmacolibrary.Drugs.ATC.N.N02CA52;
+model ErgotamineCombinationsExclPsycholeptics
+    extends Pharmacolibrary.Drugs.ATC.N.N02CA52;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end ErgotamineCombinationsExclPsycholeptics;

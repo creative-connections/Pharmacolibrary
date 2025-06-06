@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants.L04AA19_Gusperimus;
-model Gusperimus = Pharmacolibrary.Drugs.ATC.L.L04AA19;
+model Gusperimus
+    extends Pharmacolibrary.Drugs.ATC.L.L04AA19;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Gusperimus;

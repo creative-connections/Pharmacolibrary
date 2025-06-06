@@ -1,2 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants.R05DB09_Oxeladin;
-model Oxeladin = Pharmacolibrary.Drugs.ATC.R.R05DB09;
+model Oxeladin
+    extends Pharmacolibrary.Drugs.ATC.R.R05DB09;
+    annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1));    
+end Oxeladin;
