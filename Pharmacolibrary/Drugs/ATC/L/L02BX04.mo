@@ -4,9 +4,9 @@ model L02BX04
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.12,
-    Cl             = 0.49,
+    Cl             = 29.4 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.12,
+    adminMass      = 120 / 1000000,
     adminCount     = 1,
     Vd             = 0.39,
     Cmin           = 0.001,

@@ -4,9 +4,9 @@ model N06BA15
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.22,
-    Cl             = 0.006666666666666667,
+    Cl             = 0.4 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.039200000000000006,
+    adminMass      = 39.2 / 1000000,
     adminCount     = 1,
     Vd             = 0.00265,
     Cmin           = 0.001,

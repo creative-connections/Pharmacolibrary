@@ -4,9 +4,9 @@ model M03BA73
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.8,
-    Cl             = 0.08,
+    Cl             = 4.8 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 1.5,
+    adminMass      = 1500 / 1000000,
     adminCount     = 1,
     Vd             = 0.036,
     Cmin           = 0.001,

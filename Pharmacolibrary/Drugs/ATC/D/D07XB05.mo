@@ -4,9 +4,9 @@ model D07XB05
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.77,
-    Cl             = 0.002,
+    Cl             = 0.12 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.008,
+    adminMass      = 8 / 1000000,
     adminCount     = 1,
     Vd             = 0.0011200000000000001,
     Cmin           = 0.001,
@@ -14,7 +14,7 @@ model D07XB05
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
     ka             = 0.023166666666666665,
-    Tlag           = 0
+    Tlag           = 600
   );
 
   annotation(Documentation(

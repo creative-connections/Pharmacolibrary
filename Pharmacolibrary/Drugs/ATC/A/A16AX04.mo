@@ -4,9 +4,9 @@ model A16AX04
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 1,
-    Cl             = 5.9499999999999996e-05,
+    Cl             = 0.00357 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.06,
+    adminMass      = 60 / 1000000,
     adminCount     = 1,
     Vd             = 0.00018099999999999998,
     Cmin           = 0.001,
@@ -14,7 +14,7 @@ model A16AX04
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
     ka             = 0.0010666666666666667,
-    Tlag           = 0
+    Tlag           = 600
   );
 
   annotation(Documentation(

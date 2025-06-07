@@ -4,9 +4,9 @@ model G04BX01
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.15,
-    Cl             = 0.1,
+    Cl             = 6 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 1.2,
+    adminMass      = 1200 / 1000000,
     adminCount     = 1,
     Vd             = 0.0003,
     Cmin           = 0.001,

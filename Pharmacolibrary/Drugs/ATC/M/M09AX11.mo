@@ -4,9 +4,9 @@ model M09AX11
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.33,
-    Cl             = 0.22666666666666666,
+    Cl             = 13.6 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.01,
+    adminMass      = 10 / 1000000,
     adminCount     = 1,
     Vd             = 0.282,
     Cmin           = 0.001,

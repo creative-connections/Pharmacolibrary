@@ -4,9 +4,9 @@ model A14AA03
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.399,
-    Cl             = 0.09166666666666666,
+    Cl             = 5.5 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.005,
+    adminMass      = 5 / 1000000,
     adminCount     = 1,
     Vd             = 0.0011200000000000001,
     Cmin           = 0.001,

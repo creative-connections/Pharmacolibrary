@@ -4,9 +4,9 @@ model N05AL04
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.42,
-    Cl             = 0.02333333333333333,
+    Cl             = 1.4 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.1,
+    adminMass      = 100 / 1000000,
     adminCount     = 1,
     Vd             = 0.0029,
     Cmin           = 0.001,
@@ -14,7 +14,7 @@ model N05AL04
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
     ka             = 0.013333333333333334,
-    Tlag           = 0
+    Tlag           = 600
   );
 
   annotation(Documentation(

@@ -4,9 +4,9 @@ model A03AX15
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.17,
-    Cl             = 0.0095,
+    Cl             = 0.57 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.18,
+    adminMass      = 180 / 1000000,
     adminCount     = 1,
     Vd             = 0.027,
     Cmin           = 0.001,

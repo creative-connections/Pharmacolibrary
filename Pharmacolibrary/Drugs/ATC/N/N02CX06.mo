@@ -4,9 +4,9 @@ model N02CX06
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.3,
-    Cl             = 10.0,
+    Cl             = 600 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.06,
+    adminMass      = 60 / 1000000,
     adminCount     = 1,
     Vd             = 0.006,
     Cmin           = 0.001,

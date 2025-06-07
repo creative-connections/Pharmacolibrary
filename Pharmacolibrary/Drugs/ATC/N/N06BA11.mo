@@ -4,9 +4,9 @@ model N06BA11
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.22,
-    Cl             = 0.003,
+    Cl             = 0.18 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.01,
+    adminMass      = 10 / 1000000,
     adminCount     = 1,
     Vd             = 0.00265,
     Cmin           = 0.001,

@@ -4,9 +4,9 @@ model N06DA04
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.9,
-    Cl             = 0.25666666666666665,
+    Cl             = 15.4 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.008,
+    adminMass      = 8 / 1000000,
     adminCount     = 1,
     Vd             = 0.175,
     Cmin           = 0.001,

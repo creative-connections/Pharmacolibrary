@@ -4,9 +4,9 @@ model J05AB14
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.6,
-    Cl             = 0.10833333333333334,
+    Cl             = 6.5 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.9,
+    adminMass      = 900 / 1000000,
     adminCount     = 1,
     Vd             = 0.00074,
     Cmin           = 0.001,

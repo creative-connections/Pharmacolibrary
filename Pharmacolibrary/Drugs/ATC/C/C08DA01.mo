@@ -4,9 +4,9 @@ model C08DA01
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.23,
-    Cl             = 0.6166666666666667,
+    Cl             = 37 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.08,
+    adminMass      = 80 / 1000000,
     adminCount     = 1,
     Vd             = 0.0028,
     Cmin           = 0.001,

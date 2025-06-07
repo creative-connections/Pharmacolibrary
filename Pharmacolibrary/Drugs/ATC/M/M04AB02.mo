@@ -4,9 +4,9 @@ model M04AB02
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.9,
-    Cl             = 0.02,
+    Cl             = 1.2 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.2,
+    adminMass      = 200 / 1000000,
     adminCount     = 1,
     Vd             = 0.01,
     Cmin           = 0.001,
@@ -14,7 +14,7 @@ model M04AB02
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
     ka             = 0.008333333333333333,
-    Tlag           = 0
+    Tlag           = 600
   );
 
   annotation(Documentation(

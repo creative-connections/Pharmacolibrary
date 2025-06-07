@@ -4,9 +4,9 @@ model A11HA31
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.5,
-    Cl             = 0.025,
+    Cl             = 1.5 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.1,
+    adminMass      = 100 / 1000000,
     adminCount     = 1,
     Vd             = 0.0006,
     Cmin           = 0.001,

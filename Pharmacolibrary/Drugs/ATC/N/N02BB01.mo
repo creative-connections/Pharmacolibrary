@@ -4,9 +4,9 @@ model N02BB01
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 1,
-    Cl             = 0.045000000000000005,
+    Cl             = 2.7 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.9,
+    adminMass      = 900 / 1000000,
     adminCount     = 1,
     Vd             = 0.0006,
     Cmin           = 0.001,
@@ -14,7 +14,7 @@ model N02BB01
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
     ka             = 0.0025166666666666666,
-    Tlag           = 0
+    Tlag           = 600
   );
 
   annotation(Documentation(

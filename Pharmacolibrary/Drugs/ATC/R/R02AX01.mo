@@ -4,9 +4,9 @@ model R02AX01
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.8,
-    Cl             = 0.016,
+    Cl             = 0.96 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.05,
+    adminMass      = 50 / 1000000,
     adminCount     = 1,
     Vd             = 0.00011999999999999999,
     Cmin           = 0.001,
@@ -14,7 +14,7 @@ model R02AX01
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
     ka             = 0.02,
-    Tlag           = 0
+    Tlag           = 600
   );
 
   annotation(Documentation(

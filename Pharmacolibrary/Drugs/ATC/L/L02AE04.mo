@@ -4,17 +4,17 @@ model L02AE04
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 1,
-    Cl             = 0.025666666666666667,
+    Cl             = 1.54 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.00375,
+    adminMass      = 3.75 / 1000000,
     adminCount     = 1,
     Vd             = 0.0292,
     Cmin           = 0.001,
     Cmax           = 0.01,
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
-    ka             = 0.0,
-    Tlag           = 0
+    ka             = 0.016666666666666666,
+    Tlag           = 600
   );
 
   annotation(Documentation(

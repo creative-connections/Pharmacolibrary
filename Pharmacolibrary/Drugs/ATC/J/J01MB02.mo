@@ -4,9 +4,9 @@ model J01MB02
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.95,
-    Cl             = 0.0023333333333333335,
+    Cl             = 0.14 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 1.0,
+    adminMass      = 1000 / 1000000,
     adminCount     = 1,
     Vd             = 0.0017,
     Cmin           = 0.001,
@@ -14,7 +14,7 @@ model J01MB02
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
     ka             = 0.003,
-    Tlag           = 0
+    Tlag           = 600
   );
 
   annotation(Documentation(

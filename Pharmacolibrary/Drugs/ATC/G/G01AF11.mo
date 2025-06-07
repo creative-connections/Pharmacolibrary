@@ -4,9 +4,9 @@ model G01AF11
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.37,
-    Cl             = 0.028333333333333332,
+    Cl             = 1.7 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.2,
+    adminMass      = 200 / 1000000,
     adminCount     = 1,
     Vd             = 0.00041999999999999996,
     Cmin           = 0.001,

@@ -4,9 +4,9 @@ model N04BA03
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.4,
-    Cl             = 0.5666666666666667,
+    Cl             = 34 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.1,
+    adminMass      = 100 / 1000000,
     adminCount     = 1,
     Vd             = 0.055,
     Cmin           = 0.001,

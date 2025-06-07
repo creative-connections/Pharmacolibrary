@@ -4,9 +4,9 @@ model L04AC19
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.85,
-    Cl             = 0.0024166666666666664,
+    Cl             = 0.145 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.12,
+    adminMass      = 120 / 1000000,
     adminCount     = 1,
     Vd             = 0.00346,
     Cmin           = 0.001,
@@ -14,7 +14,7 @@ model L04AC19
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
     ka             = 0.00031666666666666665,
-    Tlag           = 0
+    Tlag           = 600
   );
 
   annotation(Documentation(

@@ -4,9 +4,9 @@ model S01XA02
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.7,
-    Cl             = 0.007500000000000001,
+    Cl             = 0.45 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 5.0,
+    adminMass      = 5000 / 1000000,
     adminCount     = 1,
     Vd             = 0.001,
     Cmin           = 0.001,

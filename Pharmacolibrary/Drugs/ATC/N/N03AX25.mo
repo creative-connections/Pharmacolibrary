@@ -4,9 +4,9 @@ model N03AX25
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.88,
-    Cl             = 0.029500000000000002,
+    Cl             = 1.77 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.2,
+    adminMass      = 200 / 1000000,
     adminCount     = 1,
     Vd             = 0.040100000000000004,
     Cmin           = 0.001,
@@ -14,7 +14,7 @@ model N03AX25
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
     ka             = 0.001,
-    Tlag           = 0
+    Tlag           = 600
   );
 
   annotation(Documentation(

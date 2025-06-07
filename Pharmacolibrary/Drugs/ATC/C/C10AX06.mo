@@ -4,9 +4,9 @@ model C10AX06
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.15,
-    Cl             = 0.012,
+    Cl             = 0.72 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 4.0,
+    adminMass      = 4000 / 1000000,
     adminCount     = 1,
     Vd             = 0.049,
     Cmin           = 0.001,

@@ -4,9 +4,9 @@ model D11AX22
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.6,
-    Cl             = 0.02383333333333333,
+    Cl             = 1.43 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.012,
+    adminMass      = 12 / 1000000,
     adminCount     = 1,
     Vd             = 0.0031,
     Cmin           = 0.001,

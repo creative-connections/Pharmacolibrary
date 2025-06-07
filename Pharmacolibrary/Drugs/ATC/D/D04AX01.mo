@@ -4,9 +4,9 @@ model D04AX01
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.5,
-    Cl             = 0.22833333333333333,
+    Cl             = 13.7 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.075,
+    adminMass      = 75 / 1000000,
     adminCount     = 1,
     Vd             = 0.0121,
     Cmin           = 0.001,

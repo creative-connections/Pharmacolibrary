@@ -4,9 +4,9 @@ model L03AX22
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.74,
-    Cl             = 0.24166666666666667,
+    Cl             = 14.5 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.07,
+    adminMass      = 70 / 1000000,
     adminCount     = 1,
     Vd             = 0.022699999999999998,
     Cmin           = 0.001,

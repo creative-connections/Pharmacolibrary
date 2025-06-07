@@ -4,9 +4,9 @@ model A06AG04
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.9,
-    Cl             = 1.6666666666666667,
+    Cl             = 100 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 30.0,
+    adminMass      = 30000 / 1000000,
     adminCount     = 1,
     Vd             = 0.0006,
     Cmin           = 0.001,

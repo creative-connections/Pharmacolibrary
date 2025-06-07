@@ -4,9 +4,9 @@ model L01BC06
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.55,
-    Cl             = 9.75,
+    Cl             = 585 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 2.0,
+    adminMass      = 2000 / 1000000,
     adminCount     = 1,
     Vd             = 0.186,
     Cmin           = 0.001,

@@ -4,9 +4,9 @@ model N07XX16
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.49,
-    Cl             = 0.36666666666666664,
+    Cl             = 22 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.012,
+    adminMass      = 12 / 1000000,
     adminCount     = 1,
     Vd             = 0.1,
     Cmin           = 0.001,

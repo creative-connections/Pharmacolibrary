@@ -4,9 +4,9 @@ model A10BK04
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.95,
-    Cl             = 0.18666666666666665,
+    Cl             = 11.2 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.015,
+    adminMass      = 15 / 1000000,
     adminCount     = 1,
     Vd             = 0.0855,
     Cmin           = 0.001,

@@ -4,9 +4,9 @@ model C02LA71
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.5,
-    Cl             = 0.7666666666666667,
+    Cl             = 46 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.00025,
+    adminMass      = 0.25 / 1000000,
     adminCount     = 1,
     Vd             = 0.0065,
     Cmin           = 0.001,

@@ -4,9 +4,9 @@ model V03AB17_1
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.729,
-    Cl             = 0.0475,
+    Cl             = 2.85 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.26,
+    adminMass      = 260 / 1000000,
     adminCount     = 1,
     Vd             = 0.0045,
     Cmin           = 0.001,

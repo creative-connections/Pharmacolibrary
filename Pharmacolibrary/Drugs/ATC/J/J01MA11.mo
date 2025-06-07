@@ -4,9 +4,9 @@ model J01MA11
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.85,
-    Cl             = 0.12666666666666665,
+    Cl             = 7.6 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.4,
+    adminMass      = 400 / 1000000,
     adminCount     = 1,
     Vd             = 0.148,
     Cmin           = 0.001,

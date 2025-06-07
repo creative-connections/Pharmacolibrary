@@ -4,17 +4,17 @@ model S01BA13
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.01,
-    Cl             = 0.0008333333333333334,
+    Cl             = 0.05 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.001,
+    adminMass      = 1 / 1000000,
     adminCount     = 1,
     Vd             = 5e-05,
     Cmin           = 0.001,
     Cmax           = 0.01,
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
-    ka             = 0.0,
-    Tlag           = 0
+    ka             = 0.016666666666666666,
+    Tlag           = 600
   );
 
   annotation(Documentation(

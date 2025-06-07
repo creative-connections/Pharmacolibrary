@@ -4,9 +4,9 @@ model L01EX26
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.7,
-    Cl             = 0.10833333333333334,
+    Cl             = 6.5 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.12,
+    adminMass      = 120 / 1000000,
     adminCount     = 1,
     Vd             = 0.16,
     Cmin           = 0.001,

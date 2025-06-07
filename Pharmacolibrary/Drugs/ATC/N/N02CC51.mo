@@ -4,9 +4,9 @@ model N02CC51
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.15,
-    Cl             = 19.333333333333332,
+    Cl             = 1160 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.085,
+    adminMass      = 85 / 1000000,
     adminCount     = 1,
     Vd             = 0.0024,
     Cmin           = 0.001,

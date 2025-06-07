@@ -4,9 +4,9 @@ model C09BA15
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.65,
-    Cl             = 20.833333333333332,
+    Cl             = 1250 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.03,
+    adminMass      = 30 / 1000000,
     adminCount     = 1,
     Vd             = 0.096,
     Cmin           = 0.001,

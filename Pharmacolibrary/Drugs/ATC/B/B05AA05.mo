@@ -4,17 +4,17 @@ model B05AA05
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 1,
-    Cl             = 0.38333333333333336,
+    Cl             = 23.0 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 75.0,
+    adminMass      = 75000 / 1000000,
     adminCount     = 1,
     Vd             = 0.0064,
     Cmin           = 0.001,
     Cmax           = 0.01,
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
-    ka             = 0.0,
-    Tlag           = 0
+    ka             = 0.016666666666666666,
+    Tlag           = 600
   );
 
   annotation(Documentation(

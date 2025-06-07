@@ -4,9 +4,9 @@ model A10AE30
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.6,
-    Cl             = 0.0005,
+    Cl             = 0.03 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.016,
+    adminMass      = 16 / 1000000,
     adminCount     = 1,
     Vd             = 0.01,
     Cmin           = 0.001,

@@ -4,9 +4,9 @@ model N03AX24
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.06,
-    Cl             = 0.023666666666666666,
+    Cl             = 1.42 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 1.5,
+    adminMass      = 1500 / 1000000,
     adminCount     = 1,
     Vd             = 0.0327,
     Cmin           = 0.001,

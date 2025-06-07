@@ -4,9 +4,9 @@ model P01AB07
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.9,
-    Cl             = 0.019166666666666665,
+    Cl             = 1.15 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 2.0,
+    adminMass      = 2000 / 1000000,
     adminCount     = 1,
     Vd             = 0.0516,
     Cmin           = 0.001,

@@ -4,9 +4,9 @@ model D06BB03
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.2,
-    Cl             = 4.333333333333333,
+    Cl             = 260 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.4,
+    adminMass      = 400 / 1000000,
     adminCount     = 1,
     Vd             = 0.00067,
     Cmin           = 0.001,
@@ -14,7 +14,7 @@ model D06BB03
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
     ka             = 0.014,
-    Tlag           = 0
+    Tlag           = 600
   );
 
   annotation(Documentation(

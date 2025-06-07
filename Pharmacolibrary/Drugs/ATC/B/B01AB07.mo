@@ -4,17 +4,17 @@ model B01AB07
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.9,
-    Cl             = 0.06333333333333332,
+    Cl             = 3.8 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 3.2,
+    adminMass      = 3200 / 1000000,
     adminCount     = 1,
     Vd             = 0.0043,
     Cmin           = 0.001,
     Cmax           = 0.01,
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
-    ka             = 0.0,
-    Tlag           = 0
+    ka             = 0.016666666666666666,
+    Tlag           = 600
   );
 
   annotation(Documentation(

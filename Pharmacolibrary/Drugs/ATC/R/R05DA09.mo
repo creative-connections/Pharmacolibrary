@@ -4,9 +4,9 @@ model R05DA09
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.11,
-    Cl             = 3.6333333333333333,
+    Cl             = 218 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.03,
+    adminMass      = 30 / 1000000,
     adminCount     = 1,
     Vd             = 0.0052,
     Cmin           = 0.001,

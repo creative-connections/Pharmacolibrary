@@ -4,9 +4,9 @@ model S01HA07_1
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.01,
-    Cl             = 0.13333333333333333,
+    Cl             = 8 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.04,
+    adminMass      = 40 / 1000000,
     adminCount     = 1,
     Vd             = 0.0006,
     Cmin           = 0.001,

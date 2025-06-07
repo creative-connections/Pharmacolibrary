@@ -4,9 +4,9 @@ model B03XA07
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.65,
-    Cl             = 0.14166666666666666,
+    Cl             = 8.5 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.01,
+    adminMass      = 10 / 1000000,
     adminCount     = 1,
     Vd             = 0.0145,
     Cmin           = 0.001,

@@ -4,9 +4,9 @@ model C01DA08
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.25,
-    Cl             = 0.021666666666666667,
+    Cl             = 1.3 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.02,
+    adminMass      = 20 / 1000000,
     adminCount     = 1,
     Vd             = 0.0029,
     Cmin           = 0.001,
@@ -14,7 +14,7 @@ model C01DA08
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
     ka             = 0.0145,
-    Tlag           = 0
+    Tlag           = 600
   );
 
   annotation(Documentation(

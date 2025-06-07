@@ -4,9 +4,9 @@ model A04AD12
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.6,
-    Cl             = 1.0383333333333333,
+    Cl             = 62.3 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.125,
+    adminMass      = 125 / 1000000,
     adminCount     = 1,
     Vd             = 0.082,
     Cmin           = 0.001,

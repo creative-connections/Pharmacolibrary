@@ -4,9 +4,9 @@ model C01BC08
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.3,
-    Cl             = 0.31666666666666665,
+    Cl             = 19 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.1,
+    adminMass      = 100 / 1000000,
     adminCount     = 1,
     Vd             = 0.0057,
     Cmin           = 0.001,
@@ -14,7 +14,7 @@ model C01BC08
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
     ka             = 0.008333333333333333,
-    Tlag           = 0
+    Tlag           = 600
   );
 
   annotation(Documentation(

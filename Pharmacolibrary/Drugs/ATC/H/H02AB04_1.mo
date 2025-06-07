@@ -4,9 +4,9 @@ model H02AB04_1
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.82,
-    Cl             = 0.0029666666666666665,
+    Cl             = 0.178 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.024,
+    adminMass      = 24 / 1000000,
     adminCount     = 1,
     Vd             = 0.00138,
     Cmin           = 0.001,

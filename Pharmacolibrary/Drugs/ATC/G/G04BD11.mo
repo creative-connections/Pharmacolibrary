@@ -4,9 +4,9 @@ model G04BD11
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.52,
-    Cl             = 0.11666666666666667,
+    Cl             = 7.0 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.008,
+    adminMass      = 8 / 1000000,
     adminCount     = 1,
     Vd             = 0.169,
     Cmin           = 0.001,

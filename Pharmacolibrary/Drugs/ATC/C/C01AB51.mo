@@ -4,9 +4,9 @@ model C01AB51
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.5,
-    Cl             = 1.5,
+    Cl             = 90 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.001,
+    adminMass      = 1 / 1000000,
     adminCount     = 1,
     Vd             = 0.0015,
     Cmin           = 0.001,

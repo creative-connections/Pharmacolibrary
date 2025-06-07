@@ -3,17 +3,17 @@ within Pharmacolibrary.Drugs.ATC.A;
 model A06AG06
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
-    F              = 0,
-    Cl             = 0.0,
+    F              = 1,
+    Cl             = 0 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.015,
+    adminMass      = 15 / 1000000,
     adminCount     = 1,
     Vd             = 0,
     Cmin           = 0.001,
     Cmax           = 0.01,
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
-    ka             = 0.0,
+    ka             = 0.016666666666666666,
     Tlag           = 600
   );
 

@@ -4,17 +4,17 @@ model R01AC08_1
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.006,
-    Cl             = 0.1716666666666667,
+    Cl             = 10.3 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.000665,
+    adminMass      = 0.665 / 1000000,
     adminCount     = 1,
     Vd             = 0.05,
     Cmin           = 0.001,
     Cmax           = 0.01,
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
-    ka             = 0.0,
-    Tlag           = 0
+    ka             = 0.016666666666666666,
+    Tlag           = 600
   );
 
   annotation(Documentation(

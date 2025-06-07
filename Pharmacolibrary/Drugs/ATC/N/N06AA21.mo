@@ -4,9 +4,9 @@ model N06AA21
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.66,
-    Cl             = 0.38333333333333336,
+    Cl             = 23 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.1,
+    adminMass      = 100 / 1000000,
     adminCount     = 1,
     Vd             = 0.015,
     Cmin           = 0.001,

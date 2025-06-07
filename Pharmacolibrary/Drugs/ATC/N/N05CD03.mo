@@ -4,9 +4,9 @@ model N05CD03
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.79,
-    Cl             = 0.03833333333333333,
+    Cl             = 2.3 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.002,
+    adminMass      = 2 / 1000000,
     adminCount     = 1,
     Vd             = 0.0011,
     Cmin           = 0.001,

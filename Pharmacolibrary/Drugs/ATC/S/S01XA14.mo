@@ -4,17 +4,17 @@ model S01XA14
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 1,
-    Cl             = 0.0205,
+    Cl             = 1.23 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 5.0,
+    adminMass      = 5000 / 1000000,
     adminCount     = 1,
     Vd             = 7.000000000000001e-05,
     Cmin           = 0.001,
     Cmax           = 0.01,
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
-    ka             = 0.0,
-    Tlag           = 0
+    ka             = 0.016666666666666666,
+    Tlag           = 600
   );
 
   annotation(Documentation(

@@ -4,9 +4,9 @@ model A11CC01
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.6,
-    Cl             = 8.333333333333334e-06,
+    Cl             = 0.0005 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 50.0,
+    adminMass      = 50000 / 1000000,
     adminCount     = 1,
     Vd             = 0.0005,
     Cmin           = 0.001,

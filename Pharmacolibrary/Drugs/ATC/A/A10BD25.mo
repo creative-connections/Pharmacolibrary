@@ -4,9 +4,9 @@ model A10BD25
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.52,
-    Cl             = 0.4,
+    Cl             = 24 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 1.0,
+    adminMass      = 1000 / 1000000,
     adminCount     = 1,
     Vd             = 0.07,
     Cmin           = 0.001,

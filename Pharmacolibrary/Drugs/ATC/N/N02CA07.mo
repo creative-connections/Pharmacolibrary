@@ -4,9 +4,9 @@ model N02CA07
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.1,
-    Cl             = 1.1666666666666667,
+    Cl             = 70 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.0002,
+    adminMass      = 0.2 / 1000000,
     adminCount     = 1,
     Vd             = 0.13,
     Cmin           = 0.001,

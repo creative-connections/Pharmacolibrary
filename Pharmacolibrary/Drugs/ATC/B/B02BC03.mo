@@ -3,18 +3,18 @@ within Pharmacolibrary.Drugs.ATC.B;
 model B02BC03
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
-    F              = 0,
-    Cl             = 0.00016666666666666666,
+    F              = 1,
+    Cl             = 0.01 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.5,
+    adminMass      = 500 / 1000000,
     adminCount     = 1,
     Vd             = 5e-05,
     Cmin           = 0.001,
     Cmax           = 0.01,
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
-    ka             = 0.0,
-    Tlag           = 0
+    ka             = 0.016666666666666666,
+    Tlag           = 600
   );
 
   annotation(Documentation(

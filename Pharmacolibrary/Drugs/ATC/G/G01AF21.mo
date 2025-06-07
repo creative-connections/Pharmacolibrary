@@ -4,9 +4,9 @@ model G01AF21
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 1,
-    Cl             = 0.058333333333333334,
+    Cl             = 3.5 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 2.0,
+    adminMass      = 2000 / 1000000,
     adminCount     = 1,
     Vd             = 0.05,
     Cmin           = 0.001,
@@ -14,7 +14,7 @@ model G01AF21
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
     ka             = 0.0003,
-    Tlag           = 0
+    Tlag           = 600
   );
 
   annotation(Documentation(

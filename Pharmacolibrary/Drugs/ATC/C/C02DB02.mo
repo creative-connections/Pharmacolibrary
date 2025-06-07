@@ -4,9 +4,9 @@ model C02DB02
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.35,
-    Cl             = 0.15833333333333333,
+    Cl             = 9.5 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.05,
+    adminMass      = 50 / 1000000,
     adminCount     = 1,
     Vd             = 0.0028,
     Cmin           = 0.001,

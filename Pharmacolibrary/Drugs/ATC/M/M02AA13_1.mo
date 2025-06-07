@@ -4,17 +4,17 @@ model M02AA13_1
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 1.0,
-    Cl             = 0.0015666666666666667,
+    Cl             = 0.094 / 1000 / 60,
     adminDuration  = 600,
-    adminMass      = 0.4,
+    adminMass      = 400 / 1000000,
     adminCount     = 1,
     Vd             = 0.009720000000000001,
     Cmin           = 0.001,
     Cmax           = 0.01,
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
-    ka             = 0.0,
-    Tlag           = 0
+    ka             = 0.016666666666666666,
+    Tlag           = 600
   );
 
   annotation(Documentation(
