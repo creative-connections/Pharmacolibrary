@@ -2,7 +2,7 @@ package Pharmacolibrary "Modelica library for Pharmacokinetics and Pharmacodynam
   extends Modelica.Icons.Package;
 
   annotation(
-    uses(Modelica(version = "4.0.0"))),
+    uses(Modelica(version = "4.0.0")),
     Documentation(info = "<html><head></head><body><h1>Pharmacolibrary library</h1><div>is a libary for modelling of pharmako-kinetics and pharmako-dynamics.
     </div><h2>Connectors</h2><div>There are two types of connectors used:&nbsp;</div><h3>FlowPort</h3><div><br></div><div>
 <img src=\"modelica://Pharmacolibrary/Resources/Images/FlowPorts.png\">
