@@ -28,7 +28,7 @@ model PK_2C_enteral
   parameter Pharmacolibrary.Types.MassConcentration Ctox_trough = 0.006 "toxicity through   level";
   parameter Pharmacolibrary.Types.TransferRate ka = 1 "first order absorption rate";
   parameter Modelica.Units.SI.Time Tlag(displayUnit="min") = 600 "delay between oral administration and absorption (default 10min)";  
-  parameter Modelica.Units.SI.Time adminDuration "admin duration";
+  parameter Modelica.Units.SI.Time adminDuration = 60 "admin duration";
   Sources.PeriodicDose_Enteral periodicDose(adminDuration=adminDuration, adminPeriod = adminPeriod, adminMass = adminMass, doseCount = adminCount, F = F, firstAdminTime = adminTime,ka=ka,Tlag=Tlag)  annotation(
     Placement(transformation(origin = {-12, 22}, extent = {{-10, -10}, {10, 10}})));
   Types.ConcentrationOutput c_out annotation(
