@@ -25,8 +25,11 @@ model PK_2C_enteral
   parameter Pharmacolibrary.Types.MassConcentration Cmin = 0.004 "minimal therapeutic range";
   parameter Pharmacolibrary.Types.MassConcentration Cmax = 0.008 "minimal therapeutic range";
   parameter Pharmacolibrary.Types.MassConcentration Ctox_peak = 0.012 "toxicity peak level";
-  parameter Pharmacolibrary.Types.MassConcentration Ctox_trough = 0.006 "toxicity through level";
-  Sources.PeriodicDose_Enteral periodicDose(adminPeriod = adminPeriod, adminMass = adminMass, doseCount = adminCount, F = F, firstAdminTime = adminTime)  annotation(
+  parameter Pharmacolibrary.Types.MassConcentration Ctox_trough = 0.006 "toxicity through   level";
+  parameter Pharmacolibrary.Types.TransferRate ka = 1 "first order absorption rate";
+  parameter Modelica.Units.SI.Time Tlag(displayUnit="min") = 600 "delay between oral administration and absorption (default 10min)";  
+  parameter Modelica.Units.SI.Time adminDuration "admin duration";
+  Sources.PeriodicDose_Enteral periodicDose(adminDuration=adminDuration, adminPeriod = adminPeriod, adminMass = adminMass, doseCount = adminCount, F = F, firstAdminTime = adminTime,ka=ka,Tlag=Tlag)  annotation(
     Placement(transformation(origin = {-12, 22}, extent = {{-10, -10}, {10, 10}})));
   Types.ConcentrationOutput c_out annotation(
     Placement(transformation(origin = {-92, 92}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-106, 80}, extent = {{-18, -18}, {18, 18}}, rotation = 180)));
