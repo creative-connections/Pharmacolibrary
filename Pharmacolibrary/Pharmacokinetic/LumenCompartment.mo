@@ -1,6 +1,6 @@
 within Pharmacolibrary.Pharmacokinetic;
 model LumenCompartment "simplified compartment (lumen) where volume is not considered"
-  extends Pharmacolibrary.Pharmacokinetic.NoPerfusedTissueCompartment(final V(displayUnit="m3/s") = 1, final C0 = 0);
+  extends Pharmacolibrary.Pharmacokinetic.NoPerfusedTissueCompartment(V(displayUnit="m3/s") = 0.001, final C0 = 0);
 equation
 
   annotation(
