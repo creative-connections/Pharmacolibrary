@@ -14,8 +14,8 @@ model N02AB52
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,            
     Vdp             = 0.0035,
-    k12             = 450,
-    k21             = 450
+    k12             = 7.5e-06,
+    k21             = 7.5e-06
     
   );
 

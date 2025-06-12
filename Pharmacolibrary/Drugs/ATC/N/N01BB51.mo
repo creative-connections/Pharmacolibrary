@@ -14,8 +14,8 @@ model N01BB51
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,            
     Vdp             = 0.088,
-    k12             = 36,
-    k21             = 36
+    k12             = 1e-05,
+    k21             = 1e-05
     
   );
 

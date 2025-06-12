@@ -14,8 +14,8 @@ model S01JA51
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,            
     Vdp             = 0.0002,
-    k12             = 0.06,
-    k21             = 0.06
+    k12             = 1e-06,
+    k21             = 1e-06
     
   );
 

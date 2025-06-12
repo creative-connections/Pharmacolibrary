@@ -14,8 +14,8 @@ model R03AC02_1
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,            
     Vdp             = 0.195,
-    k12             = 432,
-    k21             = 432
+    k12             = 7.2e-06,
+    k21             = 7.2e-06
     
   );
 

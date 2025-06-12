@@ -14,8 +14,8 @@ model S01AD09
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,            
     Vdp             = 0.0005,
-    k12             = 2.1,
-    k21             = 2.1
+    k12             = 2.45e-06,
+    k21             = 2.45e-06
     
   );
 

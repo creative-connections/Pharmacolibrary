@@ -14,8 +14,8 @@ model N05CA01
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,            
     Vdp             = 0.0005,
-    k12             = 1.2,
-    k21             = 1.2
+    k12             = 1.4e-06,
+    k21             = 1.4e-06
     
   );
 

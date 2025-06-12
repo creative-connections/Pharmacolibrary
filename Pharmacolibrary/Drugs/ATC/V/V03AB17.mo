@@ -14,8 +14,8 @@ model V03AB17
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,            
     Vdp             = 0.0046,
-    k12             = 4.2,
-    k21             = 4.2
+    k12             = 4.9e-06,
+    k21             = 4.9e-06
     
   );
 

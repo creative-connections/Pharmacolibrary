@@ -14,8 +14,8 @@ model A10AB05
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,            
     Vdp             = 0.00038,
-    k12             = 2.7,
-    k21             = 2.7
+    k12             = 7.5e-07,
+    k21             = 7.5e-07
     
   );
 

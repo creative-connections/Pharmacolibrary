@@ -14,8 +14,8 @@ model C04AX32
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,            
     Vdp             = 0.027,
-    k12             = 18,
-    k21             = 18
+    k12             = 5e-06,
+    k21             = 5e-06
     
   );
 

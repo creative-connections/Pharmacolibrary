@@ -14,8 +14,8 @@ model J01CA09
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,            
     Vdp             = 0.0081,
-    k12             = 6.3,
-    k21             = 6.3
+    k12             = 1.75e-06,
+    k21             = 1.75e-06
     
   );
 

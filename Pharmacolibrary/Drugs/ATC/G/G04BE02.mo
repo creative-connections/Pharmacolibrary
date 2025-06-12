@@ -14,8 +14,8 @@ model G04BE02
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,            
     Vdp             = 0.0018,
-    k12             = 3.6,
-    k21             = 3.6
+    k12             = 4.2e-06,
+    k21             = 4.2e-06
     
   );
 

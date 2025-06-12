@@ -14,8 +14,8 @@ model J05AB03
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,            
     Vdp             = 0.0004,
-    k12             = 36,
-    k21             = 36
+    k12             = 6e-07,
+    k21             = 6e-07
     
   );
 

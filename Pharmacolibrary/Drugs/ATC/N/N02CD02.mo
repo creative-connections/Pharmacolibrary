@@ -14,8 +14,8 @@ model N02CD02
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,            
     Vdp             = 0.0031,
-    k12             = 0.018,
-    k21             = 0.018
+    k12             = 5e-09,
+    k21             = 5e-09
     
   );
 

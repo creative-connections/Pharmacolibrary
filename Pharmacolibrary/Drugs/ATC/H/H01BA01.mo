@@ -14,8 +14,8 @@ model H01BA01
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,            
     Vdp             = 0.0001,
-    k12             = 9,
-    k21             = 9
+    k12             = 1.05e-05,
+    k21             = 1.05e-05
     
   );
 

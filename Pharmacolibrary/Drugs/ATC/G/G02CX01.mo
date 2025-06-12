@@ -14,8 +14,8 @@ model G02CX01
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,            
     Vdp             = 0.0152,
-    k12             = 64.8,
-    k21             = 64.8
+    k12             = 1.8e-05,
+    k21             = 1.8e-05
     
   );
 

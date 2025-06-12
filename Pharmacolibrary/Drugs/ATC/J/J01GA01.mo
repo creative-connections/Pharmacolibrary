@@ -14,8 +14,8 @@ model J01GA01
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,            
     Vdp             = 0.00011,
-    k12             = 120,
-    k21             = 120
+    k12             = 2e-06,
+    k21             = 2e-06
     
   );
 

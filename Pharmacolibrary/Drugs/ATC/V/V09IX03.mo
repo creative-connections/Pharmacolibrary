@@ -14,8 +14,8 @@ model V09IX03
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,            
     Vdp             = 0.0028,
-    k12             = 0.18,
-    k21             = 0.18
+    k12             = 5e-08,
+    k21             = 5e-08
     
   );
 

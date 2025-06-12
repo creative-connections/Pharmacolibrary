@@ -14,8 +14,8 @@ model L01XH04
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,            
     Vdp             = 0.0086,
-    k12             = 8.1,
-    k21             = 8.1
+    k12             = 2.25e-06,
+    k21             = 2.25e-06
     
   );
 

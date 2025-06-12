@@ -14,8 +14,8 @@ model V08AB03
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,            
     Vdp             = 8e-05,
-    k12             = 0.12,
-    k21             = 0.12
+    k12             = 2e-06,
+    k21             = 2e-06
     
   );
 
