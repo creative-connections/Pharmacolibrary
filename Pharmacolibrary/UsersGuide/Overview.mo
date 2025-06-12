@@ -44,7 +44,7 @@ class Overview
 <td valign=\"middle\"><p><a href=\"modelica://Pharmacolibrary.Pharmacogenomic\">Pharmacogenomic</a></p><p>Pharmacogenomic (PGx) can model dynamic influence of Genotype/Phenotype by altering parameters of PK/PD absorption, clearance, metabolism and effect.</p></td>
 </tr>
 <tr>
-<td valign=\"top\"><p>Drugs</p></td>
+<td valign=\"top\"><p><img src=\"modelica://Pharmacolibrary/Resources/Icons/drugs.png\" width=\"90%\"></p></td>
 <td valign=\"middle\"><p><a href=\"modelica://Pharmacolibrary.Drugs\">Drugs</a></p><p>Drugs library contains selected PK, PD, PG models organized by ATC index using 1'st level fourteen main anatomical/pharmacological groups and 2nd level pharmacological or therapeutic groups. Subsequent groups are not used and direct ATC code with drug name as package contains various basic or advanced models.</p></td>
 </tr>
 
