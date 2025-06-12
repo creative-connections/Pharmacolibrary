@@ -1,4 +1,4 @@
-within Pharmacolibrary.Drugs.Z_Unclassified.J07B_ProbableViralVaccines.DFIZ10c;
+within Pharmacolibrary.Drugs.Z_Unclassified.J06B_ProbableImmunoglobulins.DFIZ10c;
 
 model DFIZ10c_1C
   extends Pharmacolibrary.Pharmacokinetic.Models.PK_1C_enteral(VdPerKg = 0.001, Cl = 7.777777777777778e-8, adminPeriod = 30*24*60*60, adminMass = 0.043, adminCount = 3, Tlag = 120, ka = 1.6666666666666666e-4);

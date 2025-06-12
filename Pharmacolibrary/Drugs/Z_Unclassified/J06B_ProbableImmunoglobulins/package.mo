@@ -1,5 +1,5 @@
 within Pharmacolibrary.Drugs.Z_Unclassified;
 
-package J07B_ProbableViralVaccines
+package J06B_ProbableImmunoglobulins
   extends Pharmacolibrary.Icons.Package;
-end J07B_ProbableViralVaccines;
+end J06B_ProbableImmunoglobulins;
