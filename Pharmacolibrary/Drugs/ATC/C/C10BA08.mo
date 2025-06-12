@@ -4,7 +4,7 @@ model C10BA08
   extends Pharmacokinetic.Models.PK_2C_enteral(
     weight         = 70,
     F              = 0.14,
-    Cl             = 0.0001736111111111111,
+    Cl             = 1.0416666666666666e-05,
     adminDuration  = 600,
     adminMass      = 20 / 1000000,
     adminCount     = 1,
@@ -22,7 +22,7 @@ model C10BA08
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>C10BA08</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Atorvastatin and omega-3 fatty acids (ATC code C10BA08) is a combination medication used to treat dyslipidemia and reduce cardiovascular risk. Atorvastatin is a statin that lowers cholesterol by inhibiting HMG-CoA reductase, while omega-3 fatty acids (primarily EPA and DHA) help reduce triglyceride levels. The combination is used for lipid management and is approved in some countries for this purpose.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic models are available specifically for the fixed-dose combination of atorvastatin and omega-3 fatty acids. The following estimates are based on typical pharmacokinetic values for orally administered atorvastatin and omega-3 fatty acids in healthy adults.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>AtorvastatinAndOmega3FattyAcids</td></tr><tr><td>ATC code:</td><td>C10BA08</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Atorvastatin and omega-3 fatty acids (ATC code C10BA08) is a combination medication used to treat dyslipidemia and reduce cardiovascular risk. Atorvastatin is a statin that lowers cholesterol by inhibiting HMG-CoA reductase, while omega-3 fatty acids (primarily EPA and DHA) help reduce triglyceride levels. The combination is used for lipid management and is approved in some countries for this purpose.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic models are available specifically for the fixed-dose combination of atorvastatin and omega-3 fatty acids. The following estimates are based on typical pharmacokinetic values for orally administered atorvastatin and omega-3 fatty acids in healthy adults.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end C10BA08;

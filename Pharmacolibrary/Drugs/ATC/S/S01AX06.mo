@@ -4,7 +4,7 @@ model S01AX06
   extends Pharmacokinetic.Models.PK_1C(
     weight         = 70,
     F              = 1,
-    Cl             = 1.6666666666666665e-07,
+    Cl             = 1.1666666666666666e-05,
     adminDuration  = 600,
     adminMass      = 1 / 1000000,
     adminCount     = 1,
@@ -16,7 +16,7 @@ model S01AX06
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>S01AX06</td></tr><td>route:</td><td>ophthalmic</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Resorcinol is a dihydroxybenzene derivative used topically in dermatology for its antiseptic, disinfectant, and keratolytic properties, commonly found in acne and eczema preparations. It is rarely used systemically and is not approved for systemic administration; its use is mainly restricted to topical formulations and some ophthalmic solutions.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters for resorcinol are not directly reported in available publications for its ophthalmic or topical use in humans; estimates are based on physicochemical properties and analogous phenolic compounds.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Resorcinol</td></tr><tr><td>ATC code:</td><td>S01AX06</td></tr><td>route:</td><td>ophthalmic</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Resorcinol is a dihydroxybenzene derivative used topically in dermatology for its antiseptic, disinfectant, and keratolytic properties, commonly found in acne and eczema preparations. It is rarely used systemically and is not approved for systemic administration; its use is mainly restricted to topical formulations and some ophthalmic solutions.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters for resorcinol are not directly reported in available publications for its ophthalmic or topical use in humans; estimates are based on physicochemical properties and analogous phenolic compounds.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end S01AX06;

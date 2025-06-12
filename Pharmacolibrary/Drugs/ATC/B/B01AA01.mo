@@ -4,7 +4,7 @@ model B01AA01
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.85,
-    Cl             = 3.0555555555555556e-08,
+    Cl             = 2.138888888888889e-06,
     adminDuration  = 600,
     adminMass      = 100 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model B01AA01
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>B01AA01</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Dicoumarol is an oral anticoagulant of the coumarin type, historically used for the prevention and treatment of thromboembolic disorders. It acts as a vitamin K antagonist, inhibiting the synthesis of vitamin K-dependent clotting factors. Dicoumarol has largely been replaced by warfarin and is rarely used in modern medical practice.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters reported in healthy adult volunteers following single oral dose administration.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Dicoumarol</td></tr><tr><td>ATC code:</td><td>B01AA01</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Dicoumarol is an oral anticoagulant of the coumarin type, historically used for the prevention and treatment of thromboembolic disorders. It acts as a vitamin K antagonist, inhibiting the synthesis of vitamin K-dependent clotting factors. Dicoumarol has largely been replaced by warfarin and is rarely used in modern medical practice.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters reported in healthy adult volunteers following single oral dose administration.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end B01AA01;

@@ -4,7 +4,7 @@ model H02AB05
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.8,
-    Cl             = 5.555555555555556e-05,
+    Cl             = 3.888888888888889e-06,
     adminDuration  = 600,
     adminMass      = 4 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model H02AB05
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>H02AB05</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Paramethasone is a synthetic glucocorticoid corticosteroid with anti-inflammatory and immunosuppressant properties. It was historically used for a range of conditions requiring corticosteroid therapy, such as allergies, skin disorders, rheumatoid arthritis, and systemic inflammation. However, it is generally not used in clinical practice today and has largely been replaced by other glucocorticoids.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic studies describing the ADME (absorption, distribution, metabolism, excretion) parameters of paramethasone in human subjects have been identified. Therefore, all pharmacokinetic parameters are estimated based on typical properties of oral corticosteroids.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Paramethasone</td></tr><tr><td>ATC code:</td><td>H02AB05</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Paramethasone is a synthetic glucocorticoid corticosteroid with anti-inflammatory and immunosuppressant properties. It was historically used for a range of conditions requiring corticosteroid therapy, such as allergies, skin disorders, rheumatoid arthritis, and systemic inflammation. However, it is generally not used in clinical practice today and has largely been replaced by other glucocorticoids.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic studies describing the ADME (absorption, distribution, metabolism, excretion) parameters of paramethasone in human subjects have been identified. Therefore, all pharmacokinetic parameters are estimated based on typical properties of oral corticosteroids.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end H02AB05;

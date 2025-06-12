@@ -4,7 +4,7 @@ model G01AA07_1
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.6,
-    Cl             = 8.333333333333334e-09,
+    Cl             = 5.833333333333334e-07,
     adminDuration  = 600,
     adminMass      = 500 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model G01AA07_1
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>G01AA07_1</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Oxytetracycline is a broad-spectrum tetracycline antibiotic primarily used for bacterial infections; although still approved, it is less commonly used in clinical practice today.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for oral administration in healthy adults; published literature lacks direct model parameter values, estimation based on clinical review articles.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Oxytetracycline_1</td></tr><tr><td>ATC code:</td><td>G01AA07_1</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Oxytetracycline is a broad-spectrum tetracycline antibiotic primarily used for bacterial infections; although still approved, it is less commonly used in clinical practice today.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for oral administration in healthy adults; published literature lacks direct model parameter values, estimation based on clinical review articles.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end G01AA07_1;

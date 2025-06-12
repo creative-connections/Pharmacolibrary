@@ -4,7 +4,7 @@ model R06AE53
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.7,
-    Cl             = 2.5e-05,
+    Cl             = 1.4999999999999998e-06,
     adminDuration  = 600,
     adminMass      = 50 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model R06AE53
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>R06AE53</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Cyclizine is a first-generation antihistamine belonging to the piperazine class, used primarily for the prevention and treatment of nausea, vomiting, and dizziness associated with motion sickness or vertigo. In combination products (such as cyclizine with caffeine), it has been used for similar indications. Cyclizine remains approved in several countries but is less commonly used today due to the availability of newer agents.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for healthy adults; no specific clinical publication found for pharmacokinetics of cyclizine in combinations listed under R06AE53.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>CyclizineCombinations</td></tr><tr><td>ATC code:</td><td>R06AE53</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Cyclizine is a first-generation antihistamine belonging to the piperazine class, used primarily for the prevention and treatment of nausea, vomiting, and dizziness associated with motion sickness or vertigo. In combination products (such as cyclizine with caffeine), it has been used for similar indications. Cyclizine remains approved in several countries but is less commonly used today due to the availability of newer agents.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for healthy adults; no specific clinical publication found for pharmacokinetics of cyclizine in combinations listed under R06AE53.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end R06AE53;

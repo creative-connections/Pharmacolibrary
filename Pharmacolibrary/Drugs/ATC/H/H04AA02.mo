@@ -4,7 +4,7 @@ model H04AA02
   extends Pharmacokinetic.Models.PK_1C(
     weight         = 70,
     F              = 1,
-    Cl             = 2.0555555555555553e-07,
+    Cl             = 1.438888888888889e-05,
     adminDuration  = 600,
     adminMass      = 0.6 / 1000000,
     adminCount     = 1,
@@ -16,7 +16,7 @@ model H04AA02
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>H04AA02</td></tr><td>route:</td><td>subcutaneous</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Dasiglucagon is a glucagon analog used for the treatment of severe hypoglycemia in patients with diabetes mellitus. It is a stable formulation of glucagon, suitable for subcutaneous administration, and is approved for use in both adults and children aged 6 and above for emergency treatment of severe hypoglycemic episodes.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters reported in healthy adult subjects following a single subcutaneous administration.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Dasiglucagon</td></tr><tr><td>ATC code:</td><td>H04AA02</td></tr><td>route:</td><td>subcutaneous</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Dasiglucagon is a glucagon analog used for the treatment of severe hypoglycemia in patients with diabetes mellitus. It is a stable formulation of glucagon, suitable for subcutaneous administration, and is approved for use in both adults and children aged 6 and above for emergency treatment of severe hypoglycemic episodes.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters reported in healthy adult subjects following a single subcutaneous administration.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end H04AA02;

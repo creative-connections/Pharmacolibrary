@@ -4,7 +4,7 @@ model J01XD02
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.958,
-    Cl             = 1e-06,
+    Cl             = 1.0000000000000002e-06,
     adminDuration  = 600,
     adminMass      = 2000 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model J01XD02
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>J01XD02</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Tinidazole is a synthetic antiprotozoal and antimicrobial agent from the nitroimidazole class. It is effective against protozoa such as Giardia lamblia, Entamoeba histolytica, and Trichomonas vaginalis, and also used for the treatment of anaerobic bacterial infections. Tinidazole is approved and is in clinical use today for infections caused by susceptible anaerobic organisms and protozoa.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetics in healthy adult volunteers after a single 2g oral dose.</p><h4>References</h4><ol><li><p>Chang, XY, et al., &amp; Xia, DY (2009). Pharmacokinetics of Tinidazole in Chinese subjects: comparison of Mongolian, Korean, Hui, Uighur and Han nationalities. <i>Journal of pharmacy &amp; pharmaceutical sciences : a publication of the Canadian Society for Pharmaceutical Sciences, Societe canadienne des sciences pharmaceutiques</i> 12(2) 175–180. DOI:<a href=\"https://doi.org/10.18433/j3kk50\">10.18433/j3kk50</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/19732495/\">https://pubmed.ncbi.nlm.nih.gov/19732495</a></p></li></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Tinidazole</td></tr><tr><td>ATC code:</td><td>J01XD02</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Tinidazole is a synthetic antiprotozoal and antimicrobial agent from the nitroimidazole class. It is effective against protozoa such as Giardia lamblia, Entamoeba histolytica, and Trichomonas vaginalis, and also used for the treatment of anaerobic bacterial infections. Tinidazole is approved and is in clinical use today for infections caused by susceptible anaerobic organisms and protozoa.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetics in healthy adult volunteers after a single 2g oral dose.</p><h4>References</h4><ol><li><p>Chang, XY, et al., &amp; Xia, DY (2009). Pharmacokinetics of Tinidazole in Chinese subjects: comparison of Mongolian, Korean, Hui, Uighur and Han nationalities. <i>Journal of pharmacy &amp; pharmaceutical sciences : a publication of the Canadian Society for Pharmaceutical Sciences, Societe canadienne des sciences pharmaceutiques</i> 12(2) 175–180. DOI:<a href=\"https://doi.org/10.18433/j3kk50\">10.18433/j3kk50</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/19732495/\">https://pubmed.ncbi.nlm.nih.gov/19732495</a></p></li></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end J01XD02;

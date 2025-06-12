@@ -24,7 +24,7 @@ model PK_1C
   parameter Pharmacolibrary.Types.MassConcentration Ctox_trough = 0.006 "toxicity trough level";
   replaceable Sources.PeriodicDose periodicDose(adminPeriod = adminPeriod, adminMass = adminMass, doseCount = adminCount, adminDuration = adminDuration, F = F, firstAdminTime = adminTime) annotation(
     Placement(transformation(origin = {-12, 24}, extent = {{-10, -10}, {10, 10}})));
-  Types.ConcentrationOutput c_out annotation(
+  Types.ConcentrationOutput C_central annotation(
     Placement(transformation(origin = {-92, 92}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-106, 80}, extent = {{-18, -18}, {18, 18}}, rotation = 180)));
   Modelica.Units.SI.Time t1_2 "elimination half-life";
   Interfaces.ConcentrationPort_b centralCPort annotation(
@@ -35,7 +35,7 @@ equation
     Line(points = {{-12, 2}, {18, 2}}, color = {114, 159, 207}));
   connect(periodicDose.cport, central.cport) annotation(
     Line(points = {{-12, 14}, {-12, 2}}, color = {114, 159, 207}));
-  c_out = central.cport.c;
+  C_central = central.cport.c;
   connect(central.cport, centralCPort) annotation(
     Line(points = {{-12, 2}, {-53, 2}, {-53, 0}, {-100, 0}}, color = {114, 159, 207}));
   annotation(

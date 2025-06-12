@@ -4,7 +4,7 @@ model S01FA06
   extends Pharmacokinetic.Models.PK_1C(
     weight         = 70,
     F              = 1,
-    Cl             = 1.6666666666666665e-07,
+    Cl             = 1.1666666666666666e-05,
     adminDuration  = 600,
     adminMass      = 0.5 / 1000000,
     adminCount     = 1,
@@ -16,7 +16,7 @@ model S01FA06
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>S01FA06</td></tr><td>route:</td><td>ocular</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Tropicamide is an antimuscarinic (anticholinergic) agent primarily used in ophthalmology to induce mydriasis (pupil dilation) and cycloplegia (paralysis of the ciliary muscle) for diagnostic procedures. It is administered topically in the eye and is widely approved and used currently for these purposes.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters based on limited available human data; no detailed published pharmacokinetic compartmental models found in literature.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Tropicamide</td></tr><tr><td>ATC code:</td><td>S01FA06</td></tr><td>route:</td><td>ocular</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Tropicamide is an antimuscarinic (anticholinergic) agent primarily used in ophthalmology to induce mydriasis (pupil dilation) and cycloplegia (paralysis of the ciliary muscle) for diagnostic procedures. It is administered topically in the eye and is widely approved and used currently for these purposes.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters based on limited available human data; no detailed published pharmacokinetic compartmental models found in literature.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end S01FA06;

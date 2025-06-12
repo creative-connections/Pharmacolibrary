@@ -4,7 +4,7 @@ model G02CX03
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.2,
-    Cl             = 2.777777777777778e-07,
+    Cl             = 2.7777777777777776e-07,
     adminDuration  = 600,
     adminMass      = 40 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model G02CX03
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>G02CX03</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Agni casti fructus, commonly known as Vitex agnus-castus fruit or chasteberry, is a traditional herbal medicine used primarily for the treatment of premenstrual syndrome (PMS), menstrual disorders, and menopausal symptoms. It is not an approved pharmaceutical drug but is commonly used as an over-the-counter herbal supplement in many countries.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic models or quantitative PK parameters for Agni casti fructus (Vitex agnus-castus) are available for adults, children, or special populations. The following are estimated parameters based on typical properties of orally administered plant extracts with similar constituents.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>AgniCastiFructus</td></tr><tr><td>ATC code:</td><td>G02CX03</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Agni casti fructus, commonly known as Vitex agnus-castus fruit or chasteberry, is a traditional herbal medicine used primarily for the treatment of premenstrual syndrome (PMS), menstrual disorders, and menopausal symptoms. It is not an approved pharmaceutical drug but is commonly used as an over-the-counter herbal supplement in many countries.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic models or quantitative PK parameters for Agni casti fructus (Vitex agnus-castus) are available for adults, children, or special populations. The following are estimated parameters based on typical properties of orally administered plant extracts with similar constituents.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end G02CX03;

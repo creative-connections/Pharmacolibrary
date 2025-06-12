@@ -4,7 +4,7 @@ model J01DB03
   extends Pharmacokinetic.Models.PK_2C(
     weight         = 70,
     F              = 1,
-    Cl             = 1.861111111111111e-06,
+    Cl             = 1.8611111111111113e-06,
     adminDuration  = 600,
     adminMass      = 1000 / 1000000,
     adminCount     = 1,
@@ -20,7 +20,7 @@ model J01DB03
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>J01DB03</td></tr><td>route:</td><td>intravenous</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Cefalotin (also known as cephalothin) is a first-generation cephalosporin antibiotic, used primarily for the treatment of infections caused by susceptible Gram-positive bacteria. It was among the earliest cephalosporins used in clinical practice. Although it is not commonly used today, with newer cephalosporins being favored, it played an important role in the history of antibiotic therapy.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters in adult healthy volunteers following single-dose intravenous bolus administration.</p><h4>References</h4><ol><li><p>Firsov, AA, et al., &amp; Geodakian, SV (1987). [Data averaging in pharmacokinetic analysis: the population pharmacokinetics of cephalothin and cefazolin]. <i>Antibiotiki i meditsinskaia biotekhnologiia = Antibiotics and medical biotechnology</i> 32(7) 502–508. PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/3118794/\">https://pubmed.ncbi.nlm.nih.gov/3118794</a></p></li></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Cefalotin</td></tr><tr><td>ATC code:</td><td>J01DB03</td></tr><td>route:</td><td>intravenous</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Cefalotin (also known as cephalothin) is a first-generation cephalosporin antibiotic, used primarily for the treatment of infections caused by susceptible Gram-positive bacteria. It was among the earliest cephalosporins used in clinical practice. Although it is not commonly used today, with newer cephalosporins being favored, it played an important role in the history of antibiotic therapy.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters in adult healthy volunteers following single-dose intravenous bolus administration.</p><h4>References</h4><ol><li><p>Firsov, AA, et al., &amp; Geodakian, SV (1987). [Data averaging in pharmacokinetic analysis: the population pharmacokinetics of cephalothin and cefazolin]. <i>Antibiotiki i meditsinskaia biotekhnologiia = Antibiotics and medical biotechnology</i> 32(7) 502–508. PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/3118794/\">https://pubmed.ncbi.nlm.nih.gov/3118794</a></p></li></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end J01DB03;

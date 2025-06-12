@@ -4,7 +4,7 @@ model D06BB07
   extends Pharmacokinetic.Models.PK_1C(
     weight         = 70,
     F              = 1,
-    Cl             = 5.555555555555556e-07,
+    Cl             = 2.3333333333333336e-06,
     adminDuration  = 600,
     adminMass      = 100 / 1000000,
     adminCount     = 1,
@@ -16,7 +16,7 @@ model D06BB07
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>D06BB07</td></tr><td>route:</td><td>intravenous</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Lysozyme is an enzyme with antibacterial properties, primarily used as a topical agent in the treatment of infectious skin diseases. It is classified in the ATC system as D06BB07. Historically, it has been used in various forms for wound healing and skin infection management, but it is not widely approved as a systemically administered drug in modern medicine.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic models with specific parameters available for topical or systemic lysozyme in humans. The following are estimated parameters based on general peptide/protein pharmacokinetics and the molecular properties of lysozyme.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Lysozyme</td></tr><tr><td>ATC code:</td><td>D06BB07</td></tr><td>route:</td><td>intravenous</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Lysozyme is an enzyme with antibacterial properties, primarily used as a topical agent in the treatment of infectious skin diseases. It is classified in the ATC system as D06BB07. Historically, it has been used in various forms for wound healing and skin infection management, but it is not widely approved as a systemically administered drug in modern medicine.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic models with specific parameters available for topical or systemic lysozyme in humans. The following are estimated parameters based on general peptide/protein pharmacokinetics and the molecular properties of lysozyme.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end D06BB07;

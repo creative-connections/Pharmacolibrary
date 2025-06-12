@@ -4,7 +4,7 @@ model N02BA65
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.7,
-    Cl             = 9.722222222222222e-05,
+    Cl             = 5.833333333333333e-06,
     adminDuration  = 600,
     adminMass      = 500 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model N02BA65
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>N02BA65</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Carbasalate calcium is a combination of calcium acetylsalicylate and urea, serving as a salt form of aspirin (acetylsalicylic acid) used for its analgesic, antipyretic, and anti-inflammatory effects. It is mainly used for the treatment of mild to moderate pain, fever, and inflammatory conditions; it is approved in some countries, primarily in Europe, and can be found in fixed dose combinations excluding psycholeptics.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic models or studies specific for carbasalate calcium combination (N02BA65) could be identified. Typical PK parameters are estimated based on acetylsalicylic acid (aspirin) as released from carbasalate calcium administered orally to healthy adult volunteers.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>CarbasalateCalciumCombinationsExclPsycholeptics</td></tr><tr><td>ATC code:</td><td>N02BA65</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Carbasalate calcium is a combination of calcium acetylsalicylate and urea, serving as a salt form of aspirin (acetylsalicylic acid) used for its analgesic, antipyretic, and anti-inflammatory effects. It is mainly used for the treatment of mild to moderate pain, fever, and inflammatory conditions; it is approved in some countries, primarily in Europe, and can be found in fixed dose combinations excluding psycholeptics.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic models or studies specific for carbasalate calcium combination (N02BA65) could be identified. Typical PK parameters are estimated based on acetylsalicylic acid (aspirin) as released from carbasalate calcium administered orally to healthy adult volunteers.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end N02BA65;

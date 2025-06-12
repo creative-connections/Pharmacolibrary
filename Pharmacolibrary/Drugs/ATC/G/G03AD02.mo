@@ -22,7 +22,7 @@ model G03AD02
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>G03AD02</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Ulipristal acetate is a selective progesterone receptor modulator used primarily as an emergency contraceptive and in some countries for management of uterine fibroids. It is approved for short-term use for these indications.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters described for healthy adult female volunteers after a single oral administration of ulipristal acetate 30 mg for emergency contraception.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Ulipristal</td></tr><tr><td>ATC code:</td><td>G03AD02</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Ulipristal acetate is a selective progesterone receptor modulator used primarily as an emergency contraceptive and in some countries for management of uterine fibroids. It is approved for short-term use for these indications.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters described for healthy adult female volunteers after a single oral administration of ulipristal acetate 30 mg for emergency contraception.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end G03AD02;

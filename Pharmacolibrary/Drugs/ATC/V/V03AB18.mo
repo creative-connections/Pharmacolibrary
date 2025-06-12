@@ -4,7 +4,7 @@ model V03AB18
   extends Pharmacokinetic.Models.PK_1C(
     weight         = 70,
     F              = 1,
-    Cl             = 0.0,
+    Cl             = 0,
     adminDuration  = 600,
     adminMass      = 0.01 / 1000000,
     adminCount     = 1,
@@ -16,7 +16,7 @@ model V03AB18
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>V03AB18</td></tr><td>route:</td><td>topical</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Potassium permanganate is a strong oxidizing agent historically used as an antiseptic and disinfectant for wounds and dermatological conditions (such as dermatitis, eczema, and fungal infections). It is currently used in diluted solutions for topical use only. It is not systemically administered in modern medical practice due to toxicity.</p><h4>Pharmacokinetics</h4><p>No peer-reviewed publications providing pharmacokinetic (PK) parameters in humans for potassium permanganate as a drug were identified. Systemic administration is not a recognized clinical use as it is only approved for topical/local external administration.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>PotassiumPermanganate</td></tr><tr><td>ATC code:</td><td>V03AB18</td></tr><td>route:</td><td>topical</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Potassium permanganate is a strong oxidizing agent historically used as an antiseptic and disinfectant for wounds and dermatological conditions (such as dermatitis, eczema, and fungal infections). It is currently used in diluted solutions for topical use only. It is not systemically administered in modern medical practice due to toxicity.</p><h4>Pharmacokinetics</h4><p>No peer-reviewed publications providing pharmacokinetic (PK) parameters in humans for potassium permanganate as a drug were identified. Systemic administration is not a recognized clinical use as it is only approved for topical/local external administration.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end V03AB18;

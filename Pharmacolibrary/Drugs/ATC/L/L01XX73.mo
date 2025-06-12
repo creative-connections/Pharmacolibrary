@@ -4,7 +4,7 @@ model L01XX73
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.37,
-    Cl             = 7.277777777777777e-06,
+    Cl             = 7.277777777777778e-06,
     adminDuration  = 600,
     adminMass      = 960 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model L01XX73
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>L01XX73</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Sotorasib is an orally administered, small-molecule irreversible inhibitor of KRAS G12C, used for the treatment of non-small cell lung cancer (NSCLC) in patients with KRAS G12C mutation. It was approved by the FDA in 2021 and is actively in use for its labeled indication.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters as reported in adult patients with advanced solid tumors, primarily non-small cell lung cancer, after oral administration.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Sotorasib</td></tr><tr><td>ATC code:</td><td>L01XX73</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Sotorasib is an orally administered, small-molecule irreversible inhibitor of KRAS G12C, used for the treatment of non-small cell lung cancer (NSCLC) in patients with KRAS G12C mutation. It was approved by the FDA in 2021 and is actively in use for its labeled indication.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters as reported in adult patients with advanced solid tumors, primarily non-small cell lung cancer, after oral administration.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end L01XX73;

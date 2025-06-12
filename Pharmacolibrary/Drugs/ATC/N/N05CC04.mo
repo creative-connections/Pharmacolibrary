@@ -4,7 +4,7 @@ model N05CC04
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.8,
-    Cl             = 5.555555555555556e-07,
+    Cl             = 5.555555555555555e-07,
     adminDuration  = 600,
     adminMass      = 100 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model N05CC04
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>N05CC04</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Dichloralphenazone is a sedative-hypnotic compound composed of a 1:2 molar mixture of chloral hydrate and phenazone (antipyrine). It has been used primarily as an ingredient in combination medications for the short-term treatment of tension and vascular headaches (e.g., migraine). It is not widely used as a monotherapy and is rarely used today due to the availability of safer alternatives; its clinical use has declined in many countries.</p><h4>Pharmacokinetics</h4><p>No pharmacokinetic studies found in the literature for dichloralphenazone as a single entity. Estimates below are based on assumptions from its known components, typical clinical dosage, and standard oral absorption parameters in adults.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Dichloralphenazone</td></tr><tr><td>ATC code:</td><td>N05CC04</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Dichloralphenazone is a sedative-hypnotic compound composed of a 1:2 molar mixture of chloral hydrate and phenazone (antipyrine). It has been used primarily as an ingredient in combination medications for the short-term treatment of tension and vascular headaches (e.g., migraine). It is not widely used as a monotherapy and is rarely used today due to the availability of safer alternatives; its clinical use has declined in many countries.</p><h4>Pharmacokinetics</h4><p>No pharmacokinetic studies found in the literature for dichloralphenazone as a single entity. Estimates below are based on assumptions from its known components, typical clinical dosage, and standard oral absorption parameters in adults.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end N05CC04;

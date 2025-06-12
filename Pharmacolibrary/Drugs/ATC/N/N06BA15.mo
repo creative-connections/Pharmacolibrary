@@ -4,7 +4,7 @@ model N06BA15
   extends Pharmacokinetic.Models.PK_2C_enteral(
     weight         = 70,
     F              = 0.22,
-    Cl             = 1.1111111111111111e-07,
+    Cl             = 7.77777777777778e-06,
     adminDuration  = 600,
     adminMass      = 39.2 / 1000000,
     adminCount     = 1,
@@ -22,7 +22,7 @@ model N06BA15
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>N06BA15</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Dexmethylphenidate is the d-threo-enantiomer of methylphenidate, a central nervous system stimulant indicated for the treatment of attention-deficit hyperactivity disorder (ADHD) in children and adults. Serdexmethylphenidate is a prodrug of dexmethylphenidate designed for extended-release formulations. The combination is approved and marketed for the treatment of ADHD.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters estimated for healthy adults based on known pharmacokinetics of dexmethylphenidate and serdexmethylphenidate (CNS stimulant, oral administration). No published non-compartmental or compartmental population PK modeling reports currently available; estimates extrapolated from clinical pharmacology data.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>DexmethylphenidateAndSerdexmethylphenidate</td></tr><tr><td>ATC code:</td><td>N06BA15</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Dexmethylphenidate is the d-threo-enantiomer of methylphenidate, a central nervous system stimulant indicated for the treatment of attention-deficit hyperactivity disorder (ADHD) in children and adults. Serdexmethylphenidate is a prodrug of dexmethylphenidate designed for extended-release formulations. The combination is approved and marketed for the treatment of ADHD.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters estimated for healthy adults based on known pharmacokinetics of dexmethylphenidate and serdexmethylphenidate (CNS stimulant, oral administration). No published non-compartmental or compartmental population PK modeling reports currently available; estimates extrapolated from clinical pharmacology data.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end N06BA15;

@@ -4,7 +4,7 @@ model M01AE04
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.85,
-    Cl             = 2.1388888888888886e-08,
+    Cl             = 1.4972222222222222e-06,
     adminDuration  = 600,
     adminMass      = 600 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model M01AE04
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>M01AE04</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Fenoprofen is a nonsteroidal anti-inflammatory drug (NSAID) of the propionic acid class, primarily used for the treatment of pain, inflammation, and arthritis (such as rheumatoid arthritis and osteoarthritis). It acts as an inhibitor of cyclooxygenase (COX) enzymes. Fenoprofen is approved for medical use, but its use has declined due to the introduction of newer NSAIDs with improved safety profiles.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters reported for healthy adult volunteers (both male and female), single oral dose administration.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Fenoprofen</td></tr><tr><td>ATC code:</td><td>M01AE04</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Fenoprofen is a nonsteroidal anti-inflammatory drug (NSAID) of the propionic acid class, primarily used for the treatment of pain, inflammation, and arthritis (such as rheumatoid arthritis and osteoarthritis). It acts as an inhibitor of cyclooxygenase (COX) enzymes. Fenoprofen is approved for medical use, but its use has declined due to the introduction of newer NSAIDs with improved safety profiles.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters reported for healthy adult volunteers (both male and female), single oral dose administration.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end M01AE04;

@@ -18,7 +18,7 @@ model G03BA02
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>G03BA02</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Methyltestosterone is a synthetic androgenic-anabolic steroid used to treat testosterone deficiency in males and certain breast cancers in females. It was previously approved for several androgen deficiency conditions but is now rarely used due to the risk of liver toxicity and availability of safer alternatives.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters estimated for healthy adult males following a single oral administration.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Methyltestosterone</td></tr><tr><td>ATC code:</td><td>G03BA02</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Methyltestosterone is a synthetic androgenic-anabolic steroid used to treat testosterone deficiency in males and certain breast cancers in females. It was previously approved for several androgen deficiency conditions but is now rarely used due to the risk of liver toxicity and availability of safer alternatives.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters estimated for healthy adult males following a single oral administration.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end G03BA02;

@@ -4,7 +4,7 @@ model J01AA09
   extends Pharmacokinetic.Models.PK_1C(
     weight         = 70,
     F              = 1,
-    Cl             = 8.333333333333334e-06,
+    Cl             = 5e-07,
     adminDuration  = 600,
     adminMass      = 500 / 1000000,
     adminCount     = 1,
@@ -16,7 +16,7 @@ model J01AA09
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>J01AA09</td></tr><td>route:</td><td>intravenous</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Rolitetracycline is a semi-synthetic tetracycline antibiotic formerly used for the treatment of bacterial infections. It was typically administered via injection. Rolitetracycline is no longer widely used or approved in most countries due to the availability of newer antibiotics and concerns about resistance and adverse reactions.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters in healthy adult population, as explicit published parameters for rolitetracycline could not be found. Values are based on range of tetracycline antibiotics and sparse clinical data available.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Rolitetracycline</td></tr><tr><td>ATC code:</td><td>J01AA09</td></tr><td>route:</td><td>intravenous</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Rolitetracycline is a semi-synthetic tetracycline antibiotic formerly used for the treatment of bacterial infections. It was typically administered via injection. Rolitetracycline is no longer widely used or approved in most countries due to the availability of newer antibiotics and concerns about resistance and adverse reactions.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters in healthy adult population, as explicit published parameters for rolitetracycline could not be found. Values are based on range of tetracycline antibiotics and sparse clinical data available.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end J01AA09;

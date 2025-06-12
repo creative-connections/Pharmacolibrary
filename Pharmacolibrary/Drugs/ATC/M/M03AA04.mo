@@ -4,7 +4,7 @@ model M03AA04
   extends Pharmacokinetic.Models.PK_2C(
     weight         = 70,
     F              = 1,
-    Cl             = 3.333333333333333e-07,
+    Cl             = 1.4e-06,
     adminDuration  = 600,
     adminMass      = 10 / 1000000,
     adminCount     = 1,
@@ -20,7 +20,7 @@ model M03AA04
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>M03AA04</td></tr><td>route:</td><td>intravenous</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Dimethyltubocurarine is a neuromuscular blocking agent of the isoquinoline class, historically used as a muscle relaxant during surgical anesthesia and mechanical ventilation. It acts as a non-depolarizing blocker at nicotinic acetylcholine receptors at the neuromuscular junction. Its use has been largely replaced by newer agents with a better safety profile and it is not commonly approved for modern clinical use.</p><h4>Pharmacokinetics</h4><p>Parameters estimated for typical adult, intravenous administration. No recent or detailed human pharmacokinetic studies published with explicit numerical PK parameters; estimates based on pharmacology texts and related historical sources.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Dimethyltubocurarine</td></tr><tr><td>ATC code:</td><td>M03AA04</td></tr><td>route:</td><td>intravenous</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Dimethyltubocurarine is a neuromuscular blocking agent of the isoquinoline class, historically used as a muscle relaxant during surgical anesthesia and mechanical ventilation. It acts as a non-depolarizing blocker at nicotinic acetylcholine receptors at the neuromuscular junction. Its use has been largely replaced by newer agents with a better safety profile and it is not commonly approved for modern clinical use.</p><h4>Pharmacokinetics</h4><p>Parameters estimated for typical adult, intravenous administration. No recent or detailed human pharmacokinetic studies published with explicit numerical PK parameters; estimates based on pharmacology texts and related historical sources.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end M03AA04;

@@ -4,7 +4,7 @@ model N02CX06
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.3,
-    Cl             = 0.00016666666666666666,
+    Cl             = 9.999999999999999e-06,
     adminDuration  = 600,
     adminMass      = 60 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model N02CX06
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>N02CX06</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Oxetorone is a serotonin antagonist with antihistaminic and antiserotonergic properties, previously used for the prophylactic treatment of migraine. The drug is not approved in many countries today due to its adverse effect profile and lack of modern clinical data.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for oral administration in healthy adults. No published dedicated pharmacokinetic studies or peer-reviewed sources were found for oxetorone.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Oxetorone</td></tr><tr><td>ATC code:</td><td>N02CX06</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Oxetorone is a serotonin antagonist with antihistaminic and antiserotonergic properties, previously used for the prophylactic treatment of migraine. The drug is not approved in many countries today due to its adverse effect profile and lack of modern clinical data.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for oral administration in healthy adults. No published dedicated pharmacokinetic studies or peer-reviewed sources were found for oxetorone.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end N02CX06;

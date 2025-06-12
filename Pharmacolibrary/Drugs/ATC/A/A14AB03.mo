@@ -4,7 +4,7 @@ model A14AB03
   extends Pharmacokinetic.Models.PK_1C(
     weight         = 70,
     F              = 1,
-    Cl             = 1.388888888888889e-07,
+    Cl             = 1.3888888888888888e-07,
     adminDuration  = 600,
     adminMass      = 50 / 1000000,
     adminCount     = 1,
@@ -16,7 +16,7 @@ model A14AB03
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>A14AB03</td></tr><td>route:</td><td>intramuscular</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Oxabolone cipionate is an anabolic-androgenic steroid (AAS) ester developed in the 1960s as an injectable form of oxabolone. It is a synthetic derivative of nandrolone used for its anabolic properties, such as promoting muscle growth and weight gain. The drug is not approved for current medical use and has primarily historical relevance.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters have not been reported in the scientific literature for oxabolone cipionate in humans. Below are estimated parameters based on pharmacokinetic profiles of similar injectable nandrolone esters in healthy adult males.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>OxaboloneCipionate</td></tr><tr><td>ATC code:</td><td>A14AB03</td></tr><td>route:</td><td>intramuscular</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Oxabolone cipionate is an anabolic-androgenic steroid (AAS) ester developed in the 1960s as an injectable form of oxabolone. It is a synthetic derivative of nandrolone used for its anabolic properties, such as promoting muscle growth and weight gain. The drug is not approved for current medical use and has primarily historical relevance.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters have not been reported in the scientific literature for oxabolone cipionate in humans. Below are estimated parameters based on pharmacokinetic profiles of similar injectable nandrolone esters in healthy adult males.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end A14AB03;

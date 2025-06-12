@@ -16,7 +16,7 @@ model D05AX07
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>D05AX07</td></tr><td>route:</td><td>topical</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Tapinarof is an aryl hydrocarbon receptor (AhR) agonist indicated for the topical treatment of plaque psoriasis in adults. It is a non-steroidal, small-molecule therapeutic, and is currently approved for use as a topical cream.</p><h4>Pharmacokinetics</h4><p>Reported in healthy adult subjects after topical administration.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Tapinarof</td></tr><tr><td>ATC code:</td><td>D05AX07</td></tr><td>route:</td><td>topical</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Tapinarof is an aryl hydrocarbon receptor (AhR) agonist indicated for the topical treatment of plaque psoriasis in adults. It is a non-steroidal, small-molecule therapeutic, and is currently approved for use as a topical cream.</p><h4>Pharmacokinetics</h4><p>Reported in healthy adult subjects after topical administration.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end D05AX07;

@@ -4,7 +4,7 @@ model V04CC03
   extends Pharmacokinetic.Models.PK_1C(
     weight         = 70,
     F              = 1,
-    Cl             = 0.0,
+    Cl             = 0,
     adminDuration  = 600,
     adminMass      = 0.02 / 1000000,
     adminCount     = 1,
@@ -16,7 +16,7 @@ model V04CC03
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>V04CC03</td></tr><td>route:</td><td>intravenous</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Sincalide is a synthetic octapeptide analogue of cholecystokinin used as a diagnostic agent to stimulate gallbladder contraction and pancreatic secretion during diagnostic tests such as cholecystography and cholangiography. It is not typically used as a therapeutic agent and is mainly employed in diagnostic procedures. Sincalide is approved for use in some countries for these indications.</p><h4>Pharmacokinetics</h4><p>No published studies reporting the detailed pharmacokinetic parameters (such as volume of distribution or clearance) of sincalide in humans were found. Therefore, the following parameters are estimated based on the fact that sincalide is a peptide administered intravenously for diagnostic purposes, likely exhibiting rapid distribution and elimination as with other peptide analogues.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Sincalide</td></tr><tr><td>ATC code:</td><td>V04CC03</td></tr><td>route:</td><td>intravenous</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Sincalide is a synthetic octapeptide analogue of cholecystokinin used as a diagnostic agent to stimulate gallbladder contraction and pancreatic secretion during diagnostic tests such as cholecystography and cholangiography. It is not typically used as a therapeutic agent and is mainly employed in diagnostic procedures. Sincalide is approved for use in some countries for these indications.</p><h4>Pharmacokinetics</h4><p>No published studies reporting the detailed pharmacokinetic parameters (such as volume of distribution or clearance) of sincalide in humans were found. Therefore, the following parameters are estimated based on the fact that sincalide is a peptide administered intravenously for diagnostic purposes, likely exhibiting rapid distribution and elimination as with other peptide analogues.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end V04CC03;

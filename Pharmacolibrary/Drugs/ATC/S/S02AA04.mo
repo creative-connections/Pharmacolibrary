@@ -4,7 +4,7 @@ model S02AA04
   extends Pharmacokinetic.Models.PK_1C(
     weight         = 70,
     F              = 1,
-    Cl             = 1.9444444444444446e-09,
+    Cl             = 1.1666666666666667e-07,
     adminDuration  = 600,
     adminMass      = 50 / 1000000,
     adminCount     = 1,
@@ -16,7 +16,7 @@ model S02AA04
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>S02AA04</td></tr><td>route:</td><td>topical</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Aluminium acetotartrate is an astringent and antiseptic compound derived from aluminium, acetic acid, and tartaric acid. It has been historically used in topical preparations, especially in otolaryngology (ear, nose, and throat) for the treatment of infections and inflammation, as well as in some dermatological and ophthalmological applications. It is rarely used in contemporary medicine and is not widely approved or in common therapeutic use today.</p><h4>Pharmacokinetics</h4><p>No published clinical pharmacokinetic studies are available for aluminium acetotartrate. Pharmacokinetic parameters are therefore estimated based on known properties of aluminium salts and their use in topical formulations.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>AluminiumAcetotartrate</td></tr><tr><td>ATC code:</td><td>S02AA04</td></tr><td>route:</td><td>topical</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Aluminium acetotartrate is an astringent and antiseptic compound derived from aluminium, acetic acid, and tartaric acid. It has been historically used in topical preparations, especially in otolaryngology (ear, nose, and throat) for the treatment of infections and inflammation, as well as in some dermatological and ophthalmological applications. It is rarely used in contemporary medicine and is not widely approved or in common therapeutic use today.</p><h4>Pharmacokinetics</h4><p>No published clinical pharmacokinetic studies are available for aluminium acetotartrate. Pharmacokinetic parameters are therefore estimated based on known properties of aluminium salts and their use in topical formulations.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end S02AA04;

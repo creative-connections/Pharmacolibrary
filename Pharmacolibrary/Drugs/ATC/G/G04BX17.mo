@@ -4,7 +4,7 @@ model G04BX17
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.8,
-    Cl             = 6.944444444444444e-07,
+    Cl             = 6.944444444444445e-07,
     adminDuration  = 600,
     adminMass      = 1000 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model G04BX17
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>G04BX17</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Sodium salicylate and methenamine is a combination drug formerly used for the treatment of urinary tract infections (UTIs). Methenamine acts as a urinary antiseptic by releasing formaldehyde in acidic urine, while sodium salicylate was used for its analgesic and anti-inflammatory effects. This combination is largely obsolete and is not commonly used or approved for UTI treatment today due to more effective and safer alternatives.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for an adult oral dose in absence of direct published PK models for the combination product.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>SodiumSalicylateAndMethenamine</td></tr><tr><td>ATC code:</td><td>G04BX17</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Sodium salicylate and methenamine is a combination drug formerly used for the treatment of urinary tract infections (UTIs). Methenamine acts as a urinary antiseptic by releasing formaldehyde in acidic urine, while sodium salicylate was used for its analgesic and anti-inflammatory effects. This combination is largely obsolete and is not commonly used or approved for UTI treatment today due to more effective and safer alternatives.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for an adult oral dose in absence of direct published PK models for the combination product.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end G04BX17;

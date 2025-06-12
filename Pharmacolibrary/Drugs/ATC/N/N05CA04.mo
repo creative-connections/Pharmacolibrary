@@ -4,7 +4,7 @@ model N05CA04
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.9,
-    Cl             = 1.9444444444444445e-08,
+    Cl             = 1.3611111111111112e-06,
     adminDuration  = 600,
     adminMass      = 200 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model N05CA04
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>N05CA04</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Barbital is a long-acting barbiturate, historically used as a sedative and hypnotic agent for the treatment of insomnia and to induce sleep before surgery. It was one of the first barbiturates introduced to medical practice, but it is now largely obsolete and not approved for current therapeutic use due to safety concerns and the availability of safer alternatives.</p><h4>Pharmacokinetics</h4><p>Estimated typical pharmacokinetic parameters for adult humans; no primary literature with full PK models found.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Barbital</td></tr><tr><td>ATC code:</td><td>N05CA04</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Barbital is a long-acting barbiturate, historically used as a sedative and hypnotic agent for the treatment of insomnia and to induce sleep before surgery. It was one of the first barbiturates introduced to medical practice, but it is now largely obsolete and not approved for current therapeutic use due to safety concerns and the availability of safer alternatives.</p><h4>Pharmacokinetics</h4><p>Estimated typical pharmacokinetic parameters for adult humans; no primary literature with full PK models found.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end N05CA04;

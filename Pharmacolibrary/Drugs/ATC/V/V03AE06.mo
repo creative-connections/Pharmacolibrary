@@ -4,7 +4,7 @@ model V03AE06
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 1,
-    Cl             = 0.0,
+    Cl             = 0,
     adminDuration  = 600,
     adminMass      = 3000 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model V03AE06
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>V03AE06</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Colestilan is a non-absorbed, orally administered anion-exchange resin used to bind phosphate in the gastrointestinal tract, reducing serum phosphate levels in patients with chronic kidney disease (CKD) on dialysis. It was developed as a phosphate-binding agent for hyperphosphatemia management, but it is not widely approved or in clinical use in many regions today.</p><h4>Pharmacokinetics</h4><p>No human or animal pharmacokinetic studies provide measurable pharmacokinetic parameters for colestilan, as it is not absorbed systemically from the gastrointestinal tract. The drug acts locally in the gut and is excreted unchanged.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Colestilan</td></tr><tr><td>ATC code:</td><td>V03AE06</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Colestilan is a non-absorbed, orally administered anion-exchange resin used to bind phosphate in the gastrointestinal tract, reducing serum phosphate levels in patients with chronic kidney disease (CKD) on dialysis. It was developed as a phosphate-binding agent for hyperphosphatemia management, but it is not widely approved or in clinical use in many regions today.</p><h4>Pharmacokinetics</h4><p>No human or animal pharmacokinetic studies provide measurable pharmacokinetic parameters for colestilan, as it is not absorbed systemically from the gastrointestinal tract. The drug acts locally in the gut and is excreted unchanged.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end V03AE06;

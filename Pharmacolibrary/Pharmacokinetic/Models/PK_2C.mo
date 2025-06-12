@@ -14,7 +14,10 @@ extends PK_1C;
     Placement(transformation(origin = {-36, -40}, extent = {{-10, -10}, {10, 10}})));
   Interfaces.ConcentrationPort_b peripheralCPort annotation(
     Placement(transformation(origin = {-98, -80}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-100, -60}, extent = {{-20, -20}, {20, 20}})));
+  Pharmacolibrary.Types.ConcentrationOutput C_peripheral1 annotation(
+    Placement(transformation(origin = {-92, 92}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-106, 44}, extent = {{-18, -18}, {18, 18}}, rotation = 180)));
 equation
+  C_peripheral1 = peripheral.C;
   connect(transfer.cport_a, central.cport) annotation(
     Line(points = {{-36, 0}, {-12, 0}, {-12, 2}}, color = {114, 159, 207}));
   connect(transfer.cport_b, peripheral.cport) annotation(

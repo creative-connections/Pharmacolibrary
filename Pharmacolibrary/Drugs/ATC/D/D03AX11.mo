@@ -4,7 +4,7 @@ model D03AX11
   extends Pharmacokinetic.Models.PK_1C(
     weight         = 70,
     F              = 1,
-    Cl             = 2.777777777777778e-09,
+    Cl             = 1.9444444444444445e-07,
     adminDuration  = 600,
     adminMass      = 10 / 1000000,
     adminCount     = 1,
@@ -16,7 +16,7 @@ model D03AX11
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>D03AX11</td></tr><td>route:</td><td>topical</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Sodium chlorite is an inorganic compound often used for its disinfectant and oxidizing properties. It is primarily used as an industrial chemical in water treatment and for bleaching textiles, and has been investigated as a topical agent for wound healing. Sodium chlorite is not approved for therapeutic use as a drug in most countries and is not recommended for internal or systemic administration due to safety concerns.</p><h4>Pharmacokinetics</h4><p>No published human pharmacokinetic studies with quantitative model parameters are available for sodium chlorite. The following values are rough estimations derived from general physicochemical properties of the compound and limited animal toxicity data. No official, peer-reviewed or clinical pharmacokinetic modeling is available.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>SodiumChlorite</td></tr><tr><td>ATC code:</td><td>D03AX11</td></tr><td>route:</td><td>topical</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Sodium chlorite is an inorganic compound often used for its disinfectant and oxidizing properties. It is primarily used as an industrial chemical in water treatment and for bleaching textiles, and has been investigated as a topical agent for wound healing. Sodium chlorite is not approved for therapeutic use as a drug in most countries and is not recommended for internal or systemic administration due to safety concerns.</p><h4>Pharmacokinetics</h4><p>No published human pharmacokinetic studies with quantitative model parameters are available for sodium chlorite. The following values are rough estimations derived from general physicochemical properties of the compound and limited animal toxicity data. No official, peer-reviewed or clinical pharmacokinetic modeling is available.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end D03AX11;

@@ -4,7 +4,7 @@ model J07AX01
   extends Pharmacokinetic.Models.PK_1C(
     weight         = 70,
     F              = 1,
-    Cl             = 0.0,
+    Cl             = 0,
     adminDuration  = 600,
     adminMass      = 0.5 / 1000000,
     adminCount     = 1,
@@ -16,7 +16,7 @@ model J07AX01
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>J07AX01</td></tr><td>route:</td><td>intramuscular</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Leptospira vaccines are inactivated or attenuated bacterial vaccines used to prevent leptospirosis, a zoonotic disease caused by Leptospira species. They are used in humans in endemic areas and also widely in veterinary settings. Currently, no Leptospira vaccines are widely approved or used for humans in most regions, although some preparations are used for emergency or travel situations and animal use.</p><h4>Pharmacokinetics</h4><p>No pharmacokinetic studies specific to Leptospira vaccines (inactivated or attenuated bacterial vaccines) in humans are published in the literature; PK models cannot be directly constructed for vaccines as for classic drugs, due to complex immunogenic mechanism and absence of systemic circulation of the antigen in quantifiable drug-like manner.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>LeptospiraVaccines</td></tr><tr><td>ATC code:</td><td>J07AX01</td></tr><td>route:</td><td>intramuscular</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Leptospira vaccines are inactivated or attenuated bacterial vaccines used to prevent leptospirosis, a zoonotic disease caused by Leptospira species. They are used in humans in endemic areas and also widely in veterinary settings. Currently, no Leptospira vaccines are widely approved or used for humans in most regions, although some preparations are used for emergency or travel situations and animal use.</p><h4>Pharmacokinetics</h4><p>No pharmacokinetic studies specific to Leptospira vaccines (inactivated or attenuated bacterial vaccines) in humans are published in the literature; PK models cannot be directly constructed for vaccines as for classic drugs, due to complex immunogenic mechanism and absence of systemic circulation of the antigen in quantifiable drug-like manner.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end J07AX01;

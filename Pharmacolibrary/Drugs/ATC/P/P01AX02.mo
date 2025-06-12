@@ -4,7 +4,7 @@ model P01AX02
   extends Pharmacokinetic.Models.PK_2C(
     weight         = 70,
     F              = 1,
-    Cl             = 2.5e-07,
+    Cl             = 2.5000000000000004e-07,
     adminDuration  = 600,
     adminMass      = 60 / 1000000,
     adminCount     = 1,
@@ -20,7 +20,7 @@ model P01AX02
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>P01AX02</td></tr><td>route:</td><td>intramuscular</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Emetine is an alkaloid derived from ipecac root, classified as an antiprotozoal agent. It was historically used primarily in the treatment of amoebiasis (especially extraintestinal forms) and, at high doses, as an emetic. Due to significant toxicity (notably cardiotoxicity), its use has become rare and it is not approved in many countries for current clinical use.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic estimates for adult humans after intramuscular administration based on historical data from older literature.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Emetine</td></tr><tr><td>ATC code:</td><td>P01AX02</td></tr><td>route:</td><td>intramuscular</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Emetine is an alkaloid derived from ipecac root, classified as an antiprotozoal agent. It was historically used primarily in the treatment of amoebiasis (especially extraintestinal forms) and, at high doses, as an emetic. Due to significant toxicity (notably cardiotoxicity), its use has become rare and it is not approved in many countries for current clinical use.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic estimates for adult humans after intramuscular administration based on historical data from older literature.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end P01AX02;

@@ -4,7 +4,7 @@ model G02CB03
   extends Pharmacokinetic.Models.PK_2C_enteral(
     weight         = 70,
     F              = 0.63,
-    Cl             = 1e-06,
+    Cl             = 1.0000000000000002e-06,
     adminDuration  = 600,
     adminMass      = 1 / 1000000,
     adminCount     = 1,
@@ -22,7 +22,7 @@ model G02CB03
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>G02CB03</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Cabergoline is a long-acting dopamine D2 receptor agonist used primarily for the treatment of hyperprolactinemia and disorders associated with prolactin excess. It is also sometimes used off-label for Parkinson's disease. Cabergoline is approved and in clinical use today.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters reported in healthy adult volunteers of both sexes after oral administration.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Cabergoline</td></tr><tr><td>ATC code:</td><td>G02CB03</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Cabergoline is a long-acting dopamine D2 receptor agonist used primarily for the treatment of hyperprolactinemia and disorders associated with prolactin excess. It is also sometimes used off-label for Parkinson's disease. Cabergoline is approved and in clinical use today.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters reported in healthy adult volunteers of both sexes after oral administration.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end G02CB03;

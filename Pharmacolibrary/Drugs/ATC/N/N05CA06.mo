@@ -4,7 +4,7 @@ model N05CA06
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.9,
-    Cl             = 6.666666666666666e-07,
+    Cl             = 2.8e-06,
     adminDuration  = 600,
     adminMass      = 100 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model N05CA06
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>N05CA06</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Secobarbital is a short-acting barbiturate formerly used for the treatment of insomnia and as a preoperative sedative. It has also been used as an anticonvulsant in certain circumstances. Due to the significant risk of dependence, overdose, and the availability of safer alternatives, its use has become rare and is discontinued or highly restricted in many countries.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters reported for healthy adult volunteers after oral administration.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Secobarbital</td></tr><tr><td>ATC code:</td><td>N05CA06</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Secobarbital is a short-acting barbiturate formerly used for the treatment of insomnia and as a preoperative sedative. It has also been used as an anticonvulsant in certain circumstances. Due to the significant risk of dependence, overdose, and the availability of safer alternatives, its use has become rare and is discontinued or highly restricted in many countries.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters reported for healthy adult volunteers after oral administration.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end N05CA06;

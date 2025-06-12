@@ -4,7 +4,7 @@ model C01DX10
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.5,
-    Cl             = 2.7777777777777775e-06,
+    Cl             = 2.777777777777778e-06,
     adminDuration  = 600,
     adminMass      = 100 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model C01DX10
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>C01DX10</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Dilazep is a vasodilator and adenosine reuptake inhibitor, structurally related to dipyridamole. It has been used primarily for cardiovascular diseases such as angina pectoris and has antiplatelet properties. It is not widely approved or used in contemporary Western medicine, but it is used in some Asian countries.</p><h4>Pharmacokinetics</h4><p>No primary PK parameters available in the literature for dilazep in humans. The following estimates are based on analogous vasodilator drugs and basic pharmacokinetic knowledge. Model presumes healthy adult volunteers, oral administration.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Dilazep</td></tr><tr><td>ATC code:</td><td>C01DX10</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Dilazep is a vasodilator and adenosine reuptake inhibitor, structurally related to dipyridamole. It has been used primarily for cardiovascular diseases such as angina pectoris and has antiplatelet properties. It is not widely approved or used in contemporary Western medicine, but it is used in some Asian countries.</p><h4>Pharmacokinetics</h4><p>No primary PK parameters available in the literature for dilazep in humans. The following estimates are based on analogous vasodilator drugs and basic pharmacokinetic knowledge. Model presumes healthy adult volunteers, oral administration.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end C01DX10;

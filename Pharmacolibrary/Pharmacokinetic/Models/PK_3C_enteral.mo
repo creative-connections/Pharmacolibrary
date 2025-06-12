@@ -1,7 +1,10 @@
 within Pharmacolibrary.Pharmacokinetic.Models;
 
 model PK_3C_enteral
-  Pharmacokinetic.NoPerfusedTissueCompartment central(V = Vd)  annotation(
+extends PK_3C(redeclare Sources.PeriodicDose_Enteral periodicDose(ka = ka, Tlag = Tlag));
+  parameter Pharmacolibrary.Types.TransferRate ka = 0.016666666666666666 "first order absorption rate";
+  parameter Modelica.Units.SI.Time Tlag(displayUnit="min") = 600 "delay between oral administration and absorption (default 10min)";  
+/*  Pharmacokinetic.NoPerfusedTissueCompartment central(V = Vd)  annotation(
     Placement(transformation(origin = {-12, -8}, extent = {{-10, -10}, {10, 10}})));
   Pharmacokinetic.ClearanceDrivenElimination elim(CL = Cl) 
  annotation(
@@ -75,6 +78,9 @@ equation
   Cl = %Cl [L/h]", horizontalAlignment = TextAlignment.Left), Bitmap(origin = {-1, 71}, extent = {{-27, -29}, {27, 29}}, fileName = "modelica://Pharmacolibrary/Resources/Icons/pills.png"), Text(origin = {-1, 120}, extent = {{-147, 20}, {147, -20}}, textString = "%name"), Text(origin = {179, 79}, extent = {{-145, 19}, {145, -19}}, textString = "duration: %adminDuration
   mass: %adminMassMg", horizontalAlignment = TextAlignment.Left)}),
   Documentation(info = "<html><head></head><body><div>Generic 3-compartment model<span style=\"font-size: 12px; font-family: 'DejaVu Sans Mono';\">&nbsp;with&nbsp;</span><span style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">enteral (oral,sublingual, buccal, rectal)&nbsp;</span><span style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">dosage modelled with additional Tlag (absorption delay) and ka (first order absorption rate).&nbsp;</span></div><div><span style=\"font-size: 12px; font-family: 'DejaVu Sans Mono';\">&nbsp;</span><span style=\"font-size: 12px; font-family: 'DejaVu Sans Mono';\">&nbsp;</span></div><div><div>It has outputs of concentration in central and both peripheral compartments.</div></div><div><br></div></body></html>"));
-
+*/
+  annotation(
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1),
+  Documentation(info = "<html><head></head><body><div>Generic 3-compartment model<span style=\"font-size: 12px; font-family: 'DejaVu Sans Mono';\">&nbsp;with&nbsp;</span><span style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">enteral (oral,sublingual, buccal, rectal)&nbsp;</span><span style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">dosage modelled with additional Tlag (absorption delay) and ka (first order absorption rate).&nbsp;</span></div><div><span style=\"font-size: 12px; font-family: 'DejaVu Sans Mono';\">&nbsp;</span><span style=\"font-size: 12px; font-family: 'DejaVu Sans Mono';\">&nbsp;</span></div><div><div>It has outputs of concentration in central and both peripheral compartments.</div></div><div><br></div></body></html>"));
 
 end PK_3C_enteral;

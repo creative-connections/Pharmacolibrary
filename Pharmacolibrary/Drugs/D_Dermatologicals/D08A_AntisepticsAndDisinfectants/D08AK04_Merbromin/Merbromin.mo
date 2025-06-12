@@ -4,7 +4,7 @@ model Merbromin
   extends Pharmacolibrary.Drugs.ATC.D.D08AK04;
 
   annotation (Documentation(
-info       = "<html><body><table><tr><td>Drug:</td><td>D08AK04</td></tr><td>route:</td><td>topical</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Merbromin is a topical antiseptic compound that contains mercury and bromine. Historically, it was widely used as an antiseptic for minor cuts and scrapes, but due to concerns about mercury toxicity, it is no longer approved for medical use in many countries.</p><h4>Pharmacokinetics</h4><p>No published literature was found reporting pharmacokinetic (PK) parameters for merbromin in humans. The following PK values are left blank as the compound is used topically and is largely not absorbed systemically.</p><h4>References</h4><ol></ol></body></html>",
+info       = "<html><body><table><tr><td>name:</td><td>Merbromin</td></tr><tr><td>ATC code:</td><td>D08AK04</td></tr><td>route:</td><td>topical</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Merbromin is a topical antiseptic compound that contains mercury and bromine. Historically, it was widely used as an antiseptic for minor cuts and scrapes, but due to concerns about mercury toxicity, it is no longer approved for medical use in many countries.</p><h4>Pharmacokinetics</h4><p>No published literature was found reporting pharmacokinetic (PK) parameters for merbromin in humans. The following PK values are left blank as the compound is used topically and is largely not absorbed systemically.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));

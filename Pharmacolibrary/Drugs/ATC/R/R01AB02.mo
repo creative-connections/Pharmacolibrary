@@ -4,7 +4,7 @@ model R01AB02
   extends Pharmacokinetic.Models.PK_1C(
     weight         = 70,
     F              = 1,
-    Cl             = 1.9444444444444445e-07,
+    Cl             = 1.3611111111111111e-05,
     adminDuration  = 600,
     adminMass      = 0.05 / 1000000,
     adminCount     = 1,
@@ -16,7 +16,7 @@ model R01AB02
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>R01AB02</td></tr><td>route:</td><td>topical</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Naphazoline is an imidazoline derivative and a sympathomimetic vasoconstrictor primarily used as a topical decongestant in ophthalmology for eye redness and in nasal preparations for relief of nasal congestion. It acts as an alpha-adrenergic receptor agonist. Naphazoline has been approved and is still used in many over-the-counter ophthalmic and nasal products.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic model parameters for topical ocular or nasal administration in adult humans; no pharmacokinetic studies found quantifying naphazoline PK parameters in the published literature.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Naphazoline</td></tr><tr><td>ATC code:</td><td>R01AB02</td></tr><td>route:</td><td>topical</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Naphazoline is an imidazoline derivative and a sympathomimetic vasoconstrictor primarily used as a topical decongestant in ophthalmology for eye redness and in nasal preparations for relief of nasal congestion. It acts as an alpha-adrenergic receptor agonist. Naphazoline has been approved and is still used in many over-the-counter ophthalmic and nasal products.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic model parameters for topical ocular or nasal administration in adult humans; no pharmacokinetic studies found quantifying naphazoline PK parameters in the published literature.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end R01AB02;

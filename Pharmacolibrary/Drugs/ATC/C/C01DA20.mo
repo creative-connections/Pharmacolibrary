@@ -4,7 +4,7 @@ model C01DA20
   extends Pharmacokinetic.Models.PK_2C_enteral(
     weight         = 70,
     F              = 0.25,
-    Cl             = 5e-05,
+    Cl             = 2.9999999999999997e-06,
     adminDuration  = 600,
     adminMass      = 20 / 1000000,
     adminCount     = 1,
@@ -22,7 +22,7 @@ model C01DA20
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>C01DA20</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Organic nitrates in combination are used as antianginal agents for the treatment and prophylaxis of angina pectoris and sometimes in heart failure as vasodilators. They are often combined with other cardiovascular drugs such as beta-blockers or calcium channel blockers to enhance anti-ischemic effects. Available fixed-dose combinations may include isosorbide dinitrate with hydralazine. Their use today is approved for specific cardiovascular conditions, particularly in patients intolerant to ACE inhibitors.</p><h4>Pharmacokinetics</h4><p>There are no published clinical pharmacokinetic studies reporting parameters for fixed-dose combinations of organic nitrates corresponding to ATC C01DA20. The following are estimated parameters based on the typical pharmacokinetics of oral isosorbide dinitrate and its common combination formulations in adults with stable angina.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>OrganicNitratesInCombination</td></tr><tr><td>ATC code:</td><td>C01DA20</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Organic nitrates in combination are used as antianginal agents for the treatment and prophylaxis of angina pectoris and sometimes in heart failure as vasodilators. They are often combined with other cardiovascular drugs such as beta-blockers or calcium channel blockers to enhance anti-ischemic effects. Available fixed-dose combinations may include isosorbide dinitrate with hydralazine. Their use today is approved for specific cardiovascular conditions, particularly in patients intolerant to ACE inhibitors.</p><h4>Pharmacokinetics</h4><p>There are no published clinical pharmacokinetic studies reporting parameters for fixed-dose combinations of organic nitrates corresponding to ATC C01DA20. The following are estimated parameters based on the typical pharmacokinetics of oral isosorbide dinitrate and its common combination formulations in adults with stable angina.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end C01DA20;

@@ -4,7 +4,7 @@ model N06DX02
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.8,
-    Cl             = 8.333333333333333e-07,
+    Cl             = 5.833333333333333e-05,
     adminDuration  = 600,
     adminMass      = 120 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model N06DX02
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>N06DX02</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Ginkgo folium refers to the dried leaves of the Ginkgo biloba tree and is used primarily as a herbal supplement. It is widely promoted for its potential cognitive-enhancing properties, and has been investigated for improvement of memory decline, dementia, and peripheral vascular diseases. Ginkgo folium is not universally approved as a pharmaceutical drug but is available as an over-the-counter supplement in many countries.</p><h4>Pharmacokinetics</h4><p>No comprehensive population pharmacokinetic studies exist for the whole Ginkgo folium formulation. Most available pharmacokinetic data pertain to constituents of Ginkgo biloba extract (such as ginkgolides and bilobalide) in healthy adult volunteers upon oral administration.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>GinkgoFolium</td></tr><tr><td>ATC code:</td><td>N06DX02</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Ginkgo folium refers to the dried leaves of the Ginkgo biloba tree and is used primarily as a herbal supplement. It is widely promoted for its potential cognitive-enhancing properties, and has been investigated for improvement of memory decline, dementia, and peripheral vascular diseases. Ginkgo folium is not universally approved as a pharmaceutical drug but is available as an over-the-counter supplement in many countries.</p><h4>Pharmacokinetics</h4><p>No comprehensive population pharmacokinetic studies exist for the whole Ginkgo folium formulation. Most available pharmacokinetic data pertain to constituents of Ginkgo biloba extract (such as ginkgolides and bilobalide) in healthy adult volunteers upon oral administration.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end N06DX02;

@@ -4,7 +4,7 @@ model R03DX03
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.9,
-    Cl             = 8.333333333333333e-05,
+    Cl             = 4.9999999999999996e-06,
     adminDuration  = 600,
     adminMass      = 80 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model R03DX03
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>R03DX03</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Fenspiride is an anti-inflammatory and bronchodilator drug that was used primarily for the treatment of respiratory diseases such as asthma, bronchitis, and other airway inflammatory disorders. Due to concerns regarding its cardiac safety (QT prolongation and torsades de pointes), fenspiride has been withdrawn or banned in many countries and is not widely approved or used today.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for healthy adults after oral administration based on summary data from public drug monographs and reviews, as no detailed population PK model publication exists.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Fenspiride</td></tr><tr><td>ATC code:</td><td>R03DX03</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Fenspiride is an anti-inflammatory and bronchodilator drug that was used primarily for the treatment of respiratory diseases such as asthma, bronchitis, and other airway inflammatory disorders. Due to concerns regarding its cardiac safety (QT prolongation and torsades de pointes), fenspiride has been withdrawn or banned in many countries and is not widely approved or used today.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for healthy adults after oral administration based on summary data from public drug monographs and reviews, as no detailed population PK model publication exists.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end R03DX03;

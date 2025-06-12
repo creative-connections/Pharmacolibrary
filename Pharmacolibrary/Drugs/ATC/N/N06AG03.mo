@@ -4,7 +4,7 @@ model N06AG03
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.65,
-    Cl             = 2.222222222222222e-05,
+    Cl             = 1.3333333333333332e-06,
     adminDuration  = 600,
     adminMass      = 200 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model N06AG03
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>N06AG03</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Toloxatone is a reversible inhibitor of monoamine oxidase A (RIMA), formerly used as an antidepressant mainly in France. It was designed as an alternative to irreversible MAO inhibitors to avoid dietary tyramine interactions. Toloxatone is not widely approved or currently marketed for depression treatment today.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters are estimated for healthy adult volunteers, due to lack of recent or detailed published models; no direct source was found.</p><h4>References</h4><ol><li><p>Schoerlin, MP, &amp; Guentert, TW (1989). [Pharmacokinetics and metabolism of reversible MAO-A inhibitors in the human]. <i>Psychiatrische Praxis</i> 16 Suppl 1 11–17. PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/2685852/\">https://pubmed.ncbi.nlm.nih.gov/2685852</a></p></li></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Toloxatone</td></tr><tr><td>ATC code:</td><td>N06AG03</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Toloxatone is a reversible inhibitor of monoamine oxidase A (RIMA), formerly used as an antidepressant mainly in France. It was designed as an alternative to irreversible MAO inhibitors to avoid dietary tyramine interactions. Toloxatone is not widely approved or currently marketed for depression treatment today.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters are estimated for healthy adult volunteers, due to lack of recent or detailed published models; no direct source was found.</p><h4>References</h4><ol><li><p>Schoerlin, MP, &amp; Guentert, TW (1989). [Pharmacokinetics and metabolism of reversible MAO-A inhibitors in the human]. <i>Psychiatrische Praxis</i> 16 Suppl 1 11–17. PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/2685852/\">https://pubmed.ncbi.nlm.nih.gov/2685852</a></p></li></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end N06AG03;

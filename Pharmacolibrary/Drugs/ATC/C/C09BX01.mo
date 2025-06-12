@@ -4,7 +4,7 @@ model C09BX01
   extends Pharmacokinetic.Models.PK_2C_enteral(
     weight         = 70,
     F              = 0.65,
-    Cl             = 2.222222222222222e-05,
+    Cl             = 2.2222222222222223e-05,
     adminDuration  = 600,
     adminMass      = 1 / 1000000,
     adminCount     = 1,
@@ -22,7 +22,7 @@ model C09BX01
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>C09BX01</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Perindopril, amlodipine, and indapamide is a fixed-dose combination medication used for the treatment of essential hypertension. Perindopril is an angiotensin-converting enzyme (ACE) inhibitor, amlodipine is a calcium channel blocker, and indapamide is a thiazide-like diuretic. This combination provides synergistic antihypertensive effects and is approved in several countries for blood pressure control.</p><h4>Pharmacokinetics</h4><p>Estimated typical pharmacokinetic parameters for the combination in healthy adults based on published data for individual components. No specific published PK data found for the fixed-dose combination C09BX01.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>PerindoprilAmlodipineAndIndapamide</td></tr><tr><td>ATC code:</td><td>C09BX01</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Perindopril, amlodipine, and indapamide is a fixed-dose combination medication used for the treatment of essential hypertension. Perindopril is an angiotensin-converting enzyme (ACE) inhibitor, amlodipine is a calcium channel blocker, and indapamide is a thiazide-like diuretic. This combination provides synergistic antihypertensive effects and is approved in several countries for blood pressure control.</p><h4>Pharmacokinetics</h4><p>Estimated typical pharmacokinetic parameters for the combination in healthy adults based on published data for individual components. No specific published PK data found for the fixed-dose combination C09BX01.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end C09BX01;

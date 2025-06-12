@@ -4,7 +4,7 @@ model V08AD03
   extends Pharmacokinetic.Models.PK_1C(
     weight         = 70,
     F              = 1,
-    Cl             = 2.777777777777778e-07,
+    Cl             = 2.7777777777777776e-07,
     adminDuration  = 600,
     adminMass      = 500 / 1000000,
     adminCount     = 1,
@@ -16,7 +16,7 @@ model V08AD03
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>V08AD03</td></tr><td>route:</td><td>inhalation</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Propyliodone is an iodinated contrast medium previously used for bronchography and imaging of the respiratory tract. Its clinical use has largely been discontinued and it is not an approved drug in most countries today due to advances in imaging technology and safety concerns with older contrast agents.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic models or primary human PK studies specific to propyliodone could be found in publicly available literature. The following PK parameters are estimated based on typical iodinated contrast agent properties and general principles.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Propyliodone</td></tr><tr><td>ATC code:</td><td>V08AD03</td></tr><td>route:</td><td>inhalation</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Propyliodone is an iodinated contrast medium previously used for bronchography and imaging of the respiratory tract. Its clinical use has largely been discontinued and it is not an approved drug in most countries today due to advances in imaging technology and safety concerns with older contrast agents.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic models or primary human PK studies specific to propyliodone could be found in publicly available literature. The following PK parameters are estimated based on typical iodinated contrast agent properties and general principles.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end V08AD03;

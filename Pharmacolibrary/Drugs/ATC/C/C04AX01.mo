@@ -4,7 +4,7 @@ model C04AX01
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.25,
-    Cl             = 2e-06,
+    Cl             = 0.00014000000000000001,
     adminDuration  = 600,
     adminMass      = 400 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model C04AX01
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>C04AX01</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Cyclandelate is a vasodilator that was used in the treatment of peripheral vascular diseases, such as intermittent claudication and cerebrovascular insufficiency. It acts by relaxing vascular smooth muscle but is no longer widely approved or used due to limited evidence of clinical benefit and the availability of more effective therapies.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic model parameters for an average healthy adult after oral administration. No recent or high-quality published PK studies available.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Cyclandelate</td></tr><tr><td>ATC code:</td><td>C04AX01</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Cyclandelate is a vasodilator that was used in the treatment of peripheral vascular diseases, such as intermittent claudication and cerebrovascular insufficiency. It acts by relaxing vascular smooth muscle but is no longer widely approved or used due to limited evidence of clinical benefit and the availability of more effective therapies.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic model parameters for an average healthy adult after oral administration. No recent or high-quality published PK studies available.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end C04AX01;

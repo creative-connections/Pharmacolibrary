@@ -4,7 +4,7 @@ model N03AB54
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.85,
-    Cl             = 5.555555555555556e-07,
+    Cl             = 5.555555555555555e-07,
     adminDuration  = 600,
     adminMass      = 300 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model N03AB54
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>N03AB54</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Mephenytoin is an anticonvulsant drug from the hydantoin class, formerly used to treat epilepsy, but it is rarely prescribed today due to safety concerns such as blood dyscrasias including agranulocytosis. The drug has primarily historical use and now is mainly of interest in pharmacogenetic studies.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters estimated for adults with epilepsy, based on extrapolation from literature for mephenytoin as monotherapy; no published PK data specifically found for ATC code N03AB54 (mephenytoin, combinations).</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>MephenytoinCombinations</td></tr><tr><td>ATC code:</td><td>N03AB54</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Mephenytoin is an anticonvulsant drug from the hydantoin class, formerly used to treat epilepsy, but it is rarely prescribed today due to safety concerns such as blood dyscrasias including agranulocytosis. The drug has primarily historical use and now is mainly of interest in pharmacogenetic studies.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters estimated for adults with epilepsy, based on extrapolation from literature for mephenytoin as monotherapy; no published PK data specifically found for ATC code N03AB54 (mephenytoin, combinations).</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end N03AB54;

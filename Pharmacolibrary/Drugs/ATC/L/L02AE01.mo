@@ -4,7 +4,7 @@ model L02AE01
   extends Pharmacokinetic.Models.PK_2C(
     weight         = 70,
     F              = 1,
-    Cl             = 3.027777777777778e-07,
+    Cl             = 1.8166666666666667e-05,
     adminDuration  = 600,
     adminMass      = 0.5 / 1000000,
     adminCount     = 1,
@@ -20,7 +20,7 @@ model L02AE01
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>L02AE01</td></tr><td>route:</td><td>subcutaneous</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Buserelin is a synthetic analogue of the gonadotropin-releasing hormone (GnRH) used primarily in the treatment of hormone-sensitive cancers such as prostate cancer, endometriosis, and occasionally in assisted reproduction. It acts as a GnRH agonist, causing downregulation of pituitary secretion of gonadotropins and subsequent reduction in sex steroid production. The drug is approved and in current clinical use.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters in healthy male volunteers after single subcutaneous administration.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Buserelin</td></tr><tr><td>ATC code:</td><td>L02AE01</td></tr><td>route:</td><td>subcutaneous</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Buserelin is a synthetic analogue of the gonadotropin-releasing hormone (GnRH) used primarily in the treatment of hormone-sensitive cancers such as prostate cancer, endometriosis, and occasionally in assisted reproduction. It acts as a GnRH agonist, causing downregulation of pituitary secretion of gonadotropins and subsequent reduction in sex steroid production. The drug is approved and in current clinical use.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters in healthy male volunteers after single subcutaneous administration.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end L02AE01;

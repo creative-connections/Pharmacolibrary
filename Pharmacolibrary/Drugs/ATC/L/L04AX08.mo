@@ -4,7 +4,7 @@ model L04AX08
   extends Pharmacokinetic.Models.PK_1C(
     weight         = 70,
     F              = 1,
-    Cl             = 0.0,
+    Cl             = 0,
     adminDuration  = 600,
     adminMass      = 120 / 1000000,
     adminCount     = 1,
@@ -16,7 +16,7 @@ model L04AX08
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>L04AX08</td></tr><td>route:</td><td>local</td></tr><tr><td>n-compartments</td><td>0</td></tr></table><p>Darvadstrocel is an advanced therapy medicinal product consisting of expanded allogeneic adipose-derived mesenchymal stem cells (eASC). It is indicated for the treatment of complex perianal fistulas in adult patients with non-active or mildly active luminal Crohn’s disease, when fistulas have shown an inadequate response to at least one conventional or biologic therapy. It was approved in the European Union in 2018 under the brand name Alofisel. The product is administered locally to the site of fistulas.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic parameters (such as volume of distribution, clearance, or plasma concentrations) exist for darvadstrocel, as it is a cellular therapy with local action and expected lack of systemic distribution. Clinical studies and regulatory documents do not report standard PK data. The PK parameters below are thus not established.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Darvadstrocel</td></tr><tr><td>ATC code:</td><td>L04AX08</td></tr><td>route:</td><td>local</td></tr><tr><td>n-compartments</td><td>0</td></tr></table><p>Darvadstrocel is an advanced therapy medicinal product consisting of expanded allogeneic adipose-derived mesenchymal stem cells (eASC). It is indicated for the treatment of complex perianal fistulas in adult patients with non-active or mildly active luminal Crohn’s disease, when fistulas have shown an inadequate response to at least one conventional or biologic therapy. It was approved in the European Union in 2018 under the brand name Alofisel. The product is administered locally to the site of fistulas.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic parameters (such as volume of distribution, clearance, or plasma concentrations) exist for darvadstrocel, as it is a cellular therapy with local action and expected lack of systemic distribution. Clinical studies and regulatory documents do not report standard PK data. The PK parameters below are thus not established.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end L04AX08;

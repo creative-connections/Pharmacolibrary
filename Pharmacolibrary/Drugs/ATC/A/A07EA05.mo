@@ -4,7 +4,7 @@ model A07EA05
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.1,
-    Cl             = 5.555555555555555e-06,
+    Cl             = 5.555555555555556e-06,
     adminDuration  = 600,
     adminMass      = 5 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model A07EA05
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>A07EA05</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Tixocortol is a corticosteroid drug used primarily for its anti-inflammatory properties. It has been utilized in the treatment of local inflammatory conditions of the oral cavity, throat, and gastrointestinal tract, especially in cases where systemic corticosteroid effects should be avoided. Its use today is limited, primarily reserved for specific local applications due to the development of newer corticosteroids.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic data was found for tixocortol in humans. Estimates are provided based on corticosteroid class properties, assuming standard adult with normal renal and hepatic function.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Tixocortol</td></tr><tr><td>ATC code:</td><td>A07EA05</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Tixocortol is a corticosteroid drug used primarily for its anti-inflammatory properties. It has been utilized in the treatment of local inflammatory conditions of the oral cavity, throat, and gastrointestinal tract, especially in cases where systemic corticosteroid effects should be avoided. Its use today is limited, primarily reserved for specific local applications due to the development of newer corticosteroids.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic data was found for tixocortol in humans. Estimates are provided based on corticosteroid class properties, assuming standard adult with normal renal and hepatic function.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end A07EA05;

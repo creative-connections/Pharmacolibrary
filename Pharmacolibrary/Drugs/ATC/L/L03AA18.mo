@@ -4,7 +4,7 @@ model L03AA18
   extends Pharmacokinetic.Models.PK_1C(
     weight         = 70,
     F              = 1,
-    Cl             = 2.222222222222222e-05,
+    Cl             = 1.5555555555555554e-06,
     adminDuration  = 600,
     adminMass      = 13.2 / 1000000,
     adminCount     = 1,
@@ -16,7 +16,7 @@ model L03AA18
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>L03AA18</td></tr><td>route:</td><td>subcutaneous</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Efbemalenograstim alfa is a recombinant human granulocyte colony-stimulating factor (G-CSF) fused to an Fc fragment. It is used to stimulate neutrophil production to reduce the duration of neutropenia in patients receiving cytotoxic chemotherapy. It is approved for use in some regions (including under the names eflapegrastim or Grastofil in the US and South Korea) as an alternative to pegfilgrastim.</p><h4>Pharmacokinetics</h4><p>No published clinical pharmacokinetic data for efbemalenograstim alfa (eflapegrastim) were found in the literature as of June 2024. Estimates are based on class similarity to pegfilgrastim in adult oncology patients after subcutaneous administration.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>EfbemalenograstimAlfa</td></tr><tr><td>ATC code:</td><td>L03AA18</td></tr><td>route:</td><td>subcutaneous</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Efbemalenograstim alfa is a recombinant human granulocyte colony-stimulating factor (G-CSF) fused to an Fc fragment. It is used to stimulate neutrophil production to reduce the duration of neutropenia in patients receiving cytotoxic chemotherapy. It is approved for use in some regions (including under the names eflapegrastim or Grastofil in the US and South Korea) as an alternative to pegfilgrastim.</p><h4>Pharmacokinetics</h4><p>No published clinical pharmacokinetic data for efbemalenograstim alfa (eflapegrastim) were found in the literature as of June 2024. Estimates are based on class similarity to pegfilgrastim in adult oncology patients after subcutaneous administration.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end L03AA18;

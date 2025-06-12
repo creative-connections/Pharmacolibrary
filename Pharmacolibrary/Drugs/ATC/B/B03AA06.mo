@@ -4,7 +4,7 @@ model B03AA06
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.1,
-    Cl             = 1.3888888888888889e-08,
+    Cl             = 9.722222222222224e-07,
     adminDuration  = 600,
     adminMass      = 100 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model B03AA06
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>B03AA06</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Ferrous succinate is an iron supplement used for the treatment and prevention of iron deficiency anemia. It provides iron in the ferrous (Fe2+) form, which is absorbed in the small intestine. It has been used in oral iron therapy, though other iron salts may be more commonly used in clinical practice today.</p><h4>Pharmacokinetics</h4><p>No pharmacokinetic parameters for ferrous succinate have been published in the scientific literature for either healthy individuals or specific patient populations. The following parameters are estimated based on data for oral iron(II) salts and general pharmacokinetic principles for oral iron supplementation.</p><h4>References</h4><ol><li><p>Cao, GY, et al., &amp; Hu, X (2011). Comparative bioavailability of ferrous succinate tablet formulations without correction for baseline circadian changes in iron concentration in healthy Chinese male subjects: a single-dose, randomized, 2-period crossover study. <i>Clinical therapeutics</i> 33(12) 2054–2059. DOI:<a href=\"https://doi.org/10.1016/j.clinthera.2011.10.028\">10.1016/j.clinthera.2011.10.028</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/22129567/\">https://pubmed.ncbi.nlm.nih.gov/22129567</a></p></li></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>FerrousSuccinate</td></tr><tr><td>ATC code:</td><td>B03AA06</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Ferrous succinate is an iron supplement used for the treatment and prevention of iron deficiency anemia. It provides iron in the ferrous (Fe2+) form, which is absorbed in the small intestine. It has been used in oral iron therapy, though other iron salts may be more commonly used in clinical practice today.</p><h4>Pharmacokinetics</h4><p>No pharmacokinetic parameters for ferrous succinate have been published in the scientific literature for either healthy individuals or specific patient populations. The following parameters are estimated based on data for oral iron(II) salts and general pharmacokinetic principles for oral iron supplementation.</p><h4>References</h4><ol><li><p>Cao, GY, et al., &amp; Hu, X (2011). Comparative bioavailability of ferrous succinate tablet formulations without correction for baseline circadian changes in iron concentration in healthy Chinese male subjects: a single-dose, randomized, 2-period crossover study. <i>Clinical therapeutics</i> 33(12) 2054–2059. DOI:<a href=\"https://doi.org/10.1016/j.clinthera.2011.10.028\">10.1016/j.clinthera.2011.10.028</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/22129567/\">https://pubmed.ncbi.nlm.nih.gov/22129567</a></p></li></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end B03AA06;

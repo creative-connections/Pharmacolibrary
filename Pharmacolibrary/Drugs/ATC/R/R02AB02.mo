@@ -4,7 +4,7 @@ model R02AB02
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 1,
-    Cl             = 0.0,
+    Cl             = 0,
     adminDuration  = 600,
     adminMass      = 5 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model R02AB02
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>R02AB02</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Tyrothricin is a mixture of cyclic and linear polypeptide antibiotics (mainly gramicidins and tyrocidins) produced by Bacillus brevis. It is used chiefly for topical therapy and in lozenges for the treatment of mouth and throat infections due to susceptible Gram-positive bacteria. It is not used systemically due to poor absorption and potential toxicity.</p><h4>Pharmacokinetics</h4><p>No human systemic pharmacokinetic (PK) data are available in the literature, as tyrothricin is only approved and used for topical/local administration (e.g., oral/throat lozenges), and is poorly absorbed from the gastrointestinal tract.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Tyrothricin</td></tr><tr><td>ATC code:</td><td>R02AB02</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Tyrothricin is a mixture of cyclic and linear polypeptide antibiotics (mainly gramicidins and tyrocidins) produced by Bacillus brevis. It is used chiefly for topical therapy and in lozenges for the treatment of mouth and throat infections due to susceptible Gram-positive bacteria. It is not used systemically due to poor absorption and potential toxicity.</p><h4>Pharmacokinetics</h4><p>No human systemic pharmacokinetic (PK) data are available in the literature, as tyrothricin is only approved and used for topical/local administration (e.g., oral/throat lozenges), and is poorly absorbed from the gastrointestinal tract.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end R02AB02;

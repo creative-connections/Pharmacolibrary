@@ -4,7 +4,7 @@ model P02BX02
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.5,
-    Cl             = 2.777777777777778e-07,
+    Cl             = 2.7777777777777776e-07,
     adminDuration  = 600,
     adminMass      = 500 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model P02BX02
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>P02BX02</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Niridazole is an antiparasitic medication belonging to the nitrothiazole class, previously used primarily for the treatment of schistosomiasis (bilharziasis). Its use has largely been discontinued due to toxicity concerns and the availability of safer alternatives. It is not a currently approved treatment in most countries.</p><h4>Pharmacokinetics</h4><p>No recent or primary sources report pharmacokinetic parameters in humans; parameter estimates provided here are based on limited information from older literature summaries and general pharmacokinetic principles. Estimates provided are for adults following oral administration.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Niridazole</td></tr><tr><td>ATC code:</td><td>P02BX02</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Niridazole is an antiparasitic medication belonging to the nitrothiazole class, previously used primarily for the treatment of schistosomiasis (bilharziasis). Its use has largely been discontinued due to toxicity concerns and the availability of safer alternatives. It is not a currently approved treatment in most countries.</p><h4>Pharmacokinetics</h4><p>No recent or primary sources report pharmacokinetic parameters in humans; parameter estimates provided here are based on limited information from older literature summaries and general pharmacokinetic principles. Estimates provided are for adults following oral administration.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end P02BX02;

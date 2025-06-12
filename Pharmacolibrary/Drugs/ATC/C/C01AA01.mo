@@ -4,7 +4,7 @@ model C01AA01
   extends Pharmacokinetic.Models.PK_2C_enteral(
     weight         = 70,
     F              = 0.93,
-    Cl             = 5.555555555555556e-07,
+    Cl             = 5.555555555555555e-07,
     adminDuration  = 600,
     adminMass      = 0.2 / 1000000,
     adminCount     = 1,
@@ -22,7 +22,7 @@ model C01AA01
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>C01AA01</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Acetyldigitoxin is a cardiac glycoside that was historically used for the treatment of heart failure and certain types of cardiac arrhythmias. It is structurally related to digitoxin and digoxin. Due to its narrow therapeutic index and risk of toxicity, acetyldigitoxin is not commonly used in modern medical practice and has been largely replaced by safer alternatives.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters estimated for adult patients based on class properties and old clinical data; no direct recent publication with original PK values identified.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Acetyldigitoxin</td></tr><tr><td>ATC code:</td><td>C01AA01</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Acetyldigitoxin is a cardiac glycoside that was historically used for the treatment of heart failure and certain types of cardiac arrhythmias. It is structurally related to digitoxin and digoxin. Due to its narrow therapeutic index and risk of toxicity, acetyldigitoxin is not commonly used in modern medical practice and has been largely replaced by safer alternatives.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters estimated for adult patients based on class properties and old clinical data; no direct recent publication with original PK values identified.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end C01AA01;

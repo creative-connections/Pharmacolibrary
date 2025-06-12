@@ -4,7 +4,7 @@ model J02AA02
   extends Pharmacokinetic.Models.PK_1C(
     weight         = 70,
     F              = 1,
-    Cl             = 0.0,
+    Cl             = 0,
     adminDuration  = 600,
     adminMass      = 50000 / 1000000,
     adminCount     = 1,
@@ -16,7 +16,7 @@ model J02AA02
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>J02AA02</td></tr><td>route:</td><td>topical</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Hachimycin is a polyene macrolide antibiotic isolated from Streptomyces species. Historically, it has been researched and used for its antifungal properties, especially for topical treatment of skin and mucosal fungal infections. Its use today is extremely rare and not approved in most countries.</p><h4>Pharmacokinetics</h4><p>No pharmacokinetic parameters for hachimycin in humans are reported in the literature; thus, values below are estimated based on the polyene class (e.g. nystatin) and its typical usage (topical). Assumptions are for healthy adults.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Hachimycin</td></tr><tr><td>ATC code:</td><td>J02AA02</td></tr><td>route:</td><td>topical</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Hachimycin is a polyene macrolide antibiotic isolated from Streptomyces species. Historically, it has been researched and used for its antifungal properties, especially for topical treatment of skin and mucosal fungal infections. Its use today is extremely rare and not approved in most countries.</p><h4>Pharmacokinetics</h4><p>No pharmacokinetic parameters for hachimycin in humans are reported in the literature; thus, values below are estimated based on the polyene class (e.g. nystatin) and its typical usage (topical). Assumptions are for healthy adults.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end J02AA02;

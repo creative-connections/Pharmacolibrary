@@ -18,7 +18,7 @@ model A10BC01
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>A10BC01</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Glymidine is an oral hypoglycemic agent belonging to the sulfonylurea class used historically for the management of type 2 diabetes mellitus. It is no longer widely used or approved in modern therapy due to the availability of safer and more effective alternatives.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for an average adult patient after oral administration of glymidine, as no direct published PK studies are available.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Glymidine</td></tr><tr><td>ATC code:</td><td>A10BC01</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Glymidine is an oral hypoglycemic agent belonging to the sulfonylurea class used historically for the management of type 2 diabetes mellitus. It is no longer widely used or approved in modern therapy due to the availability of safer and more effective alternatives.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for an average adult patient after oral administration of glymidine, as no direct published PK studies are available.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end A10BC01;

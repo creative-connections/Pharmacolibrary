@@ -4,7 +4,7 @@ model L03AA19
   extends Pharmacokinetic.Models.PK_2C(
     weight         = 70,
     F              = 1,
-    Cl             = 7.555555555555555e-09,
+    Cl             = 5.288888888888889e-07,
     adminDuration  = 600,
     adminMass      = 13.2 / 1000000,
     adminCount     = 1,
@@ -20,7 +20,7 @@ model L03AA19
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>L03AA19</td></tr><td>route:</td><td>subcutaneous</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Eflapegrastim is a long-acting, recombinant human granulocyte colony-stimulating factor (G-CSF) analog, conjugated to a human IgG4 Fc fragment via a polyethylene glycol linker. It is used for the reduction in the duration of severe neutropenia in adult patients with non-myeloid malignancies receiving myelosuppressive anti-cancer drugs. It is approved for use in the United States.</p><h4>Pharmacokinetics</h4><p>Population pharmacokinetics in adult cancer patients; healthy volunteers and patients with breast cancer following subcutaneous administration.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Eflapegrastim</td></tr><tr><td>ATC code:</td><td>L03AA19</td></tr><td>route:</td><td>subcutaneous</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Eflapegrastim is a long-acting, recombinant human granulocyte colony-stimulating factor (G-CSF) analog, conjugated to a human IgG4 Fc fragment via a polyethylene glycol linker. It is used for the reduction in the duration of severe neutropenia in adult patients with non-myeloid malignancies receiving myelosuppressive anti-cancer drugs. It is approved for use in the United States.</p><h4>Pharmacokinetics</h4><p>Population pharmacokinetics in adult cancer patients; healthy volunteers and patients with breast cancer following subcutaneous administration.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end L03AA19;

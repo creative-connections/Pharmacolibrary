@@ -4,7 +4,7 @@ model A02BX01
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.2,
-    Cl             = 1.388888888888889e-07,
+    Cl             = 1.3888888888888888e-07,
     adminDuration  = 600,
     adminMass      = 100 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model A02BX01
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>A02BX01</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Carbenoxolone is a synthetic derivative of glycyrrhetinic acid, originally derived from licorice root, and used as an anti-ulcer agent to treat peptic, esophageal, and oral ulcers. It has also been investigated for its anti-inflammatory properties, neuroprotective activity, and role as a gap junction inhibitor in research settings. Carbenoxolone is not broadly approved and has limited use in current clinical practice due to significant side effects, including electrolyte disturbances.</p><h4>Pharmacokinetics</h4><p>Estimated PK parameters for adults receiving oral carbenoxolone. Published PK data are extremely limited or not available in indexed literature. Parameters are based on mean ranges cited in secondary literature, historical clinical use data, and pharmacological textbooks.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Carbenoxolone</td></tr><tr><td>ATC code:</td><td>A02BX01</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Carbenoxolone is a synthetic derivative of glycyrrhetinic acid, originally derived from licorice root, and used as an anti-ulcer agent to treat peptic, esophageal, and oral ulcers. It has also been investigated for its anti-inflammatory properties, neuroprotective activity, and role as a gap junction inhibitor in research settings. Carbenoxolone is not broadly approved and has limited use in current clinical practice due to significant side effects, including electrolyte disturbances.</p><h4>Pharmacokinetics</h4><p>Estimated PK parameters for adults receiving oral carbenoxolone. Published PK data are extremely limited or not available in indexed literature. Parameters are based on mean ranges cited in secondary literature, historical clinical use data, and pharmacological textbooks.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end A02BX01;

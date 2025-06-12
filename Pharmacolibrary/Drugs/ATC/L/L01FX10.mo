@@ -4,7 +4,7 @@ model L01FX10
   extends Pharmacokinetic.Models.PK_2C(
     weight         = 70,
     F              = 1,
-    Cl             = 1.5555555555555556e-07,
+    Cl             = 6.481481481481482e-09,
     adminDuration  = 600,
     adminMass      = 15 / 1000000,
     adminCount     = 1,
@@ -20,7 +20,7 @@ model L01FX10
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>L01FX10</td></tr><td>route:</td><td>intravenous</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Olaratumab is a recombinant human IgG1 monoclonal antibody that targets platelet-derived growth factor receptor alpha (PDGFRα). It was developed for the treatment of advanced soft tissue sarcoma in combination with doxorubicin. The drug was granted accelerated approval by the FDA in 2016, but this approval was subsequently withdrawn after confirmatory trials failed to demonstrate a clinical benefit.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters as reported in adult patients with advanced solid tumors (including soft tissue sarcoma) after intravenous administration.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Olaratumab</td></tr><tr><td>ATC code:</td><td>L01FX10</td></tr><td>route:</td><td>intravenous</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Olaratumab is a recombinant human IgG1 monoclonal antibody that targets platelet-derived growth factor receptor alpha (PDGFRα). It was developed for the treatment of advanced soft tissue sarcoma in combination with doxorubicin. The drug was granted accelerated approval by the FDA in 2016, but this approval was subsequently withdrawn after confirmatory trials failed to demonstrate a clinical benefit.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters as reported in adult patients with advanced solid tumors (including soft tissue sarcoma) after intravenous administration.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end L01FX10;

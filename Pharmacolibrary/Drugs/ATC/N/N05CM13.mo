@@ -18,7 +18,7 @@ model N05CM13
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>N05CM13</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Valnoctamide is a derivative of valproic acid, classified as a central nervous system depressant and an anticonvulsant. It has been studied for use in epilepsy, bipolar disorder, and as a sedative-hypnotic, but is not widely approved or marketed currently.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters compiled from structural similarity to valproic acid and sparse available literature. No comprehensive human population PK studies found.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Valnoctamide</td></tr><tr><td>ATC code:</td><td>N05CM13</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Valnoctamide is a derivative of valproic acid, classified as a central nervous system depressant and an anticonvulsant. It has been studied for use in epilepsy, bipolar disorder, and as a sedative-hypnotic, but is not widely approved or marketed currently.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters compiled from structural similarity to valproic acid and sparse available literature. No comprehensive human population PK studies found.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end N05CM13;

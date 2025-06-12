@@ -4,7 +4,7 @@ model H03BB02
   extends Pharmacokinetic.Models.PK_1C_enteral(
     weight         = 70,
     F              = 0.93,
-    Cl             = 1.3611111111111113e-08,
+    Cl             = 9.527777777777779e-07,
     adminDuration  = 600,
     adminMass      = 20 / 1000000,
     adminCount     = 1,
@@ -18,7 +18,7 @@ model H03BB02
   );
 
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>ATC code:</td><td>H03BB02</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Thiamazole (also known as methimazole) is an antithyroid medication primarily used in the treatment of hyperthyroidism, including Graves' disease. It works by inhibiting the synthesis of thyroid hormones. Methimazole is approved and commonly used in current clinical practice.</p><h4>Pharmacokinetics</h4><p>Reported pharmacokinetic parameters in healthy adult volunteers after a single oral dose.</p><h4>References</h4><ol></ol></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Thiamazole</td></tr><tr><td>ATC code:</td><td>H03BB02</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Thiamazole (also known as methimazole) is an antithyroid medication primarily used in the treatment of hyperthyroidism, including Graves' disease. It works by inhibiting the synthesis of thyroid hormones. Methimazole is approved and commonly used in current clinical practice.</p><h4>Pharmacokinetics</h4><p>Reported pharmacokinetic parameters in healthy adult volunteers after a single oral dose.</p><h4>References</h4><ol></ol></body></html>",
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
   ));
 end H03BB02;
