@@ -1,5 +1,4 @@
 within Pharmacolibrary.Drugs;
-
 package Z_Unclassified
-  extends Pharmacolibrary.Icons.Package;
+  extends Icons.Package;
 end Z_Unclassified;
