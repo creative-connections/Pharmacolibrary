@@ -24,3 +24,8 @@ PharmaBus
 PartialOneConcPort_obsolete
 PartialBloodTissueCompartment
 PartialBTCompartment
+FlowPort_la
+FlowPort_lb
+PartialLymphTwoPort
+PartialLymphConcThrough
+PartialLymphFlowThrough

@@ -17,3 +17,6 @@ ClearanceDrivenElimination
 ClearanceDrivenZeroOrderElimination
 MichaelisMentenDrivenElimination
 UnidirectionalTransport
+TissueLymphCompartment
+LymphFlow
+LymphNode
