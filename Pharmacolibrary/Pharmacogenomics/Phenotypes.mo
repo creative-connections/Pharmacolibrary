@@ -31,10 +31,10 @@ package Phenotypes
   end MATE1_Phenotype;
 
   record CYP2C19_Phenotype
-    extends Pharmacolibrary.Pharmacogenomics.PGx.Phenotype(
-      poor         = {"*2"},
-      rapid        = {"*17"},    
-      CLscale      = {1.0, 0.5, 0.75, 1.0, 1.2, 1.4},
-      Fscale       = {1,1,1,1,1,1});
+    extends PGx.Phenotype(
+      poor    = {"*2"},
+      rapid   = {"*17"},    
+      CLscale = {1.0, 0.5, 0.75, 1.0, 1.2, 1.4},
+      Fscale  = {1,1,1,1,1,1});
   end CYP2C19_Phenotype;
 end Phenotypes;
