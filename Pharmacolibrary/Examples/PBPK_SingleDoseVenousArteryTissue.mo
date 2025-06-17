@@ -9,7 +9,7 @@ model PBPK_SingleDoseVenousArteryTissue
     Placement(visible = true, transformation(origin = {-66, 34}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Pharmacolibrary.Pharmacokinetic.FixedFlow fixedFlow(Q = 8.333333333333332e-5) annotation(
     Placement(transformation(origin = {-30, 8}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Sources.SingleDose singleDose(adminMass = 0.0001, duration = 1800, adminTime (displayUnit = "s")= 60) annotation(
+  Pharmacolibrary.Sources.SingleDose singleDose(adminMass = 0.0001, adminDuration = 1800, firstAdminTime (displayUnit = "s")= 60) annotation(
     Placement(transformation(origin = {-66, 62}, extent = {{-10, -10}, {10, 10}})));
   Pharmacolibrary.Pharmacokinetic.FlowGround fground annotation(
     Placement(transformation(origin = {-66, 16}, extent = {{-10, -10}, {10, 10}})));

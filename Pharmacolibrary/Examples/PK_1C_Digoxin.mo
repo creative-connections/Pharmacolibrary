@@ -1,7 +1,7 @@
 within Pharmacolibrary.Examples;
 
 model PK_1C_Digoxin
-  extends Pharmacolibrary.Examples.PKOneCompartmentModel(central(V = 0.643), elim(CL = 2.1416666666666668e-6), singleDose(adminTime = 3600, adminMass = 2.4e-7, duration = 3600, F = 0.60));
+  extends Pharmacolibrary.Examples.PKOneCompartmentModel(central(V = 0.643), elim(CL = 2.1416666666666668e-6), singleDose(firstAdminTime = 3600, adminMass = 2.4e-7, adminDuration = 3600, F = 0.60));
 equation
 
 annotation(

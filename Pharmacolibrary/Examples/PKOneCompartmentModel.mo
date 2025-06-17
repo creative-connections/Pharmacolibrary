@@ -2,7 +2,7 @@ within Pharmacolibrary.Examples;
 
 model PKOneCompartmentModel
   extends Modelica.Icons.Example;
-  Sources.SingleDose singleDose(adminTime (displayUnit = "s")= 60, adminMass = 4e-4, duration(displayUnit = "s") = 90, F = 1)  annotation(
+  Sources.SingleDose singleDose(firstAdminTime (displayUnit = "s")= 60, adminMass = 4e-4, adminDuration(displayUnit = "s") = 90, F = 1)  annotation(
     Placement(transformation(origin = {-12, 22}, extent = {{-10, -10}, {10, 10}})));
   Pharmacokinetic.NoPerfusedTissueCompartment central(V = 0.0175)  annotation(
     Placement(transformation(origin = {-12, -8}, extent = {{-10, -10}, {10, 10}})));

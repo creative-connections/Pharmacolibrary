@@ -1,6 +1,6 @@
 within Pharmacolibrary.Sources;
 model SingleDose "single dose model"
-  extends PeriodicDose(final doseCount=1,final adminPeriod=0);
+  extends PeriodicDose(final doseCount=1,final adminPeriod=adminDuration);
 /*  extends Pharmacolibrary.Interfaces.PartialDrugSource;
   parameter Modelica.Units.SI.Time adminTime(displayUnit = "h") = 0 "time of dose administration";
   //tAdmin
