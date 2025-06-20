@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10A_LipidModifyingAgentsPlain;
+package C10AX06_Omega3TriglyceridesInclOtherEste
+  extends Icons.Package;
+end C10AX06_Omega3TriglyceridesInclOtherEste;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection;
+package V09IB03_Indium111inAntiovariumcarcinomaA
+  extends Icons.Package;
+end V09IB03_Indium111inAntiovariumcarcinomaA;

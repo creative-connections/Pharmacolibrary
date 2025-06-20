@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03A_ThyroidPreparations;
+package H03AA03_CombinationsOfLevothyroxineAndLi
+  extends Icons.Package;
+end H03AA03_CombinationsOfLevothyroxineAndLi;

@@ -17,6 +17,7 @@ N05CA20_Etallobarbital
 N05CA21_Allobarbital
 N05CA22_Proxibarbal
 N05CB01_CombinationsOfBarbiturates
+N05CB02_BarbituratesInCombinationWithOth
 N05CB02_BarbituratesInCombinationWithOtherDrugs
 N05CC01_ChloralHydrate
 N05CC02_Chloralodol
@@ -72,4 +73,5 @@ N05CX02_MethaqualoneCombinations
 N05CX03_MethylpentynolCombinations
 N05CX04_ClomethiazoleCombinations
 N05CX05_EmeproniumCombinations
+N05CX06_DipiperonylaminoethanolCombinati
 N05CX06_DipiperonylaminoethanolCombinations

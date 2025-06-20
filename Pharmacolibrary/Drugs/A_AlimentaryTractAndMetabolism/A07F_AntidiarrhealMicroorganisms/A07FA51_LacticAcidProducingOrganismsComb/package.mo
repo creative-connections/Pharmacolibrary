@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07F_AntidiarrhealMicroorganisms;
+package A07FA51_LacticAcidProducingOrganismsComb
+  extends Icons.Package;
+end A07FA51_LacticAcidProducingOrganismsComb;

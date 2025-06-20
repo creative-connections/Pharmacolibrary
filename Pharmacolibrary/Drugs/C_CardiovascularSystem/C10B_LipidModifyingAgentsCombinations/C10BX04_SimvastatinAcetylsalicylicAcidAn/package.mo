@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations;
+package C10BX04_SimvastatinAcetylsalicylicAcidAn
+  extends Icons.Package;
+end C10BX04_SimvastatinAcetylsalicylicAcidAn;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02A_Antacids;
+package A02AA10_CimetidineAndAntacidsCombination
+  extends Icons.Package;
+end A02AA10_CimetidineAndAntacidsCombination;

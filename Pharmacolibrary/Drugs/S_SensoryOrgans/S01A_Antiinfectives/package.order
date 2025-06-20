@@ -15,6 +15,7 @@ S01AA16_Rifamycin
 S01AA17_Erythromycin
 S01AA18_PolymyxinB
 S01AA19_Ampicillin
+S01AA20_AntibioticsInCombinationWithOthe
 S01AA20_AntibioticsInCombinationWithOtherDrugs
 S01AA21_Amikacin
 S01AA22_Micronomicin
@@ -25,6 +26,7 @@ S01AA26_Azithromycin
 S01AA27_Cefuroxime
 S01AA28_Vancomycin
 S01AA29_Dibekacin
+S01AA30_CombinationsOfDifferentAntibioti
 S01AA30_CombinationsOfDifferentAntibioticsFramycetinGramicidinDexamethasone
 S01AA31_Cefmenoxime
 S01AA32_Bacitracin

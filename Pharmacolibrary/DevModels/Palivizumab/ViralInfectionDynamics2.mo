@@ -1,31 +1,31 @@
 within Pharmacolibrary.DevModels.Palivizumab;
 
 model ViralInfectionDynamics2
-  Bodylight.Population.Components.Population SusceptibleCells(population_start = 1e9) annotation(
+  Bodylight.Population.UniformPopulation.Components.Population SusceptibleCells(population_start = 1e9) annotation(
     Placement(transformation(origin = {-66, 34}, extent = {{-10, -10}, {10, 10}})));
-  Bodylight.Population.Components.Population InfectedCells annotation(
+  Bodylight.Population.UniformPopulation.Components.Population InfectedCells annotation(
     Placement(transformation(origin = {4, 34}, extent = {{-10, -10}, {10, 10}})));
-  Bodylight.Population.Components.Population ViralParticles(population_start = 100, state(fixed = true)) annotation(
+  Bodylight.Population.UniformPopulation.Components.Population ViralParticles(population_start = 100, state(fixed = true)) annotation(
     Placement(transformation(origin = {-24, 84}, extent = {{-10, -10}, {10, 10}})));
-  Bodylight.Population.Components.Stream infection(useChangePerMemberInput = true) annotation(
+  Bodylight.Population.UniformPopulation.Components.Stream infection(useChangePerMemberInput = true) annotation(
     Placement(transformation(origin = {-26, 34}, extent = {{-10, -10}, {10, 10}})));
-  Bodylight.Population.Components.Population RecoveredCells annotation(
+  Bodylight.Population.UniformPopulation.Components.Population RecoveredCells annotation(
     Placement(transformation(origin = {66, 46}, extent = {{-10, -10}, {10, 10}})));
-  Bodylight.Population.Components.Population DeadCells annotation(
+  Bodylight.Population.UniformPopulation.Components.Population DeadCells annotation(
     Placement(transformation(origin = {66, 2}, extent = {{-10, -10}, {10, 10}})));
-  Bodylight.Population.Components.StreamWithDivider recovery_dead(ratios(each displayUnit = "1") = {0.2}, LifeTime = 6000) annotation(
+  Bodylight.Population.UniformPopulation.Components.StreamWithDivider recovery_dead(ratios(each displayUnit = "1") = {0.2}, LifeTime = 6000) annotation(
     Placement(transformation(origin = {38, 32}, extent = {{-10, -10}, {10, 10}})));
-  Bodylight.Population.Components.Stream viralProduction(LifeTime(displayUnit = "s") = 0.19) annotation(
+  Bodylight.Population.UniformPopulation.Components.Stream viralProduction(LifeTime(displayUnit = "s") = 0.19) annotation(
     Placement(transformation(origin = {4, 68}, extent = {{-10, -10}, {10, 10}}, rotation = 90)));
-  Bodylight.Population.Components.Mortality viralMortality(LifeTime(displayUnit = "Ms") = 1e8) annotation(
+  Bodylight.Population.UniformPopulation.Components.Mortality viralMortality(LifeTime(displayUnit = "Ms") = 1e8) annotation(
     Placement(transformation(origin = {-60, 84}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-  Bodylight.Population.Components.Mortality susceptibleMortality(LifeTime(displayUnit = "Ms") = 1e8) annotation(
+  Bodylight.Population.UniformPopulation.Components.Mortality susceptibleMortality(LifeTime(displayUnit = "Ms") = 1e8) annotation(
     Placement(transformation(origin = {-56, 4}, extent = {{-10, -10}, {10, 10}})));
-  Bodylight.Population.Components.Mortality infectedMortality(LifeTime(displayUnit = "Ms") = 1e8) annotation(
+  Bodylight.Population.UniformPopulation.Components.Mortality infectedMortality(LifeTime(displayUnit = "Ms") = 1e8) annotation(
     Placement(transformation(origin = {14, 6}, extent = {{-10, -10}, {10, 10}})));
   Modelica.Blocks.Math.Gain gain(k = beta) annotation(
     Placement(transformation(origin = {44, 66}, extent = {{0, 60}, {-20, 80}}, rotation = 90)));
-  Bodylight.Population.Components.Mortality recoveredMortality(LifeTime(displayUnit = "Ms") = 1e8) annotation(
+  Bodylight.Population.UniformPopulation.Components.Mortality recoveredMortality(LifeTime(displayUnit = "Ms") = 1e8) annotation(
     Placement(transformation(origin = {76, 80}, extent = {{-10, -10}, {10, 10}})));
   parameter Real beta = 0.00007;
   parameter Real k = 0.19;
@@ -57,5 +57,5 @@ equation
   connect(recoveredMortality.port_a, RecoveredCells.port) annotation(
     Line(points = {{66, 80}, {66, 46}}, color = {0, 127, 127}));
   annotation(
-    experiment(StartTime = 0, StopTime = 1, Tolerance = 1e-06, Interval = 0.002));
+    experiment(StartTime = 0, StopTime = 5, Tolerance = 1e-12, Interval = 0.005));
 end ViralInfectionDynamics2;

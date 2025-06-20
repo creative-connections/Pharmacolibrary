@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations;
+package C10BA12_PravastatinEzetimibeAndFenofibra
+  extends Icons.Package;
+end C10BA12_PravastatinEzetimibeAndFenofibra;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse;
+package G03AB03_LevonorgestrelAndEthinylestradio
+  extends Icons.Package;
+end G03AB03_LevonorgestrelAndEthinylestradio;
