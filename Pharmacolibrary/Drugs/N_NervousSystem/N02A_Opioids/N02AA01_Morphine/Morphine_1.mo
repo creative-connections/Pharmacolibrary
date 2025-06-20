@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids.N02AA01_Morphine;
 
-model Morphine
+model Morphine_1
   extends Pharmacolibrary.Drugs.ATC.N.N02AA01_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Morphine_1</td></tr><tr><
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Morphine;
+end Morphine_1;

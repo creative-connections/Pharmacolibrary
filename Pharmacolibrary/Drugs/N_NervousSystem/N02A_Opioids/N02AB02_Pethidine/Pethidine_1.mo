@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids.N02AB02_Pethidine;
 
-model Pethidine
+model Pethidine_1
   extends Pharmacolibrary.Drugs.ATC.N.N02AB02_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Pethidine_1</td></tr><tr>
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Pethidine;
+end Pethidine_1;

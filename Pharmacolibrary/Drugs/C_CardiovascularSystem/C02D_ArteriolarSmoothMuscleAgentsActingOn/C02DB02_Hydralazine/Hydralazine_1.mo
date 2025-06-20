@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02D_ArteriolarSmoothMuscleAgentsActingOn.C02DB02_Hydralazine;
 
-model Hydralazine
+model Hydralazine_1
   extends Pharmacolibrary.Drugs.ATC.C.C02DB02_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Hydralazine_1</td></tr><t
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Hydralazine;
+end Hydralazine_1;

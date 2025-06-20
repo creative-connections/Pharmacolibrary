@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03B_VitaminB12AndFolicAcid.B03BA01_Cyanocobalamin;
 
-model Cyanocobalamin
+model Cyanocobalamin_1
   extends Pharmacolibrary.Drugs.ATC.B.B03BA01_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Cyanocobalamin_1</td></tr
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Cyanocobalamin;
+end Cyanocobalamin_1;

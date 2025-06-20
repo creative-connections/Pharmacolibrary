@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AE01_Saquinavir;
 
-model Saquinavir
+model Saquinavir_1
   extends Pharmacolibrary.Drugs.ATC.J.J05AE01_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Saquinavir_1</td></tr><tr
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Saquinavir;
+end Saquinavir_1;

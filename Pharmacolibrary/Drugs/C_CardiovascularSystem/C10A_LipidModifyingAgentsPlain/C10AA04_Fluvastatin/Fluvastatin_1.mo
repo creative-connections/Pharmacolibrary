@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10A_LipidModifyingAgentsPlain.C10AA04_Fluvastatin;
 
-model Fluvastatin
+model Fluvastatin_1
   extends Pharmacolibrary.Drugs.ATC.C.C10AA04_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Fluvastatin_1</td></tr><t
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Fluvastatin;
+end Fluvastatin_1;

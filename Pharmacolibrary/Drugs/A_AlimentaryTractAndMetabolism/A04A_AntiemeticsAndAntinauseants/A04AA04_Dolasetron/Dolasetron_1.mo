@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A04A_AntiemeticsAndAntinauseants.A04AA04_Dolasetron;
 
-model Dolasetron
+model Dolasetron_1
   extends Pharmacolibrary.Drugs.ATC.A.A04AA04_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Dolasetron_1</td></tr><tr
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Dolasetron;
+end Dolasetron_1;

@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis.J04AB05_Rifapentine;
 
-model Rifapentine
+model Rifapentine_1
   extends Pharmacolibrary.Drugs.ATC.J.J04AB05_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Rifapentine_1</td></tr><t
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Rifapentine;
+end Rifapentine_1;

@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts.V03AB23_Acetylcysteine;
 
-model Acetylcysteine
+model Acetylcysteine_1
   extends Pharmacolibrary.Drugs.ATC.V.V03AB23_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Acetylcysteine_1</td></tr
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Acetylcysteine;
+end Acetylcysteine_1;

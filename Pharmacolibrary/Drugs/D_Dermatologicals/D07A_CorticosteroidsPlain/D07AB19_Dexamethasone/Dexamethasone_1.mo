@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D07A_CorticosteroidsPlain.D07AB19_Dexamethasone;
 
-model Dexamethasone
+model Dexamethasone_1
   extends Pharmacolibrary.Drugs.ATC.D.D07AB19_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Dexamethasone_1</td></tr>
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Dexamethasone;
+end Dexamethasone_1;

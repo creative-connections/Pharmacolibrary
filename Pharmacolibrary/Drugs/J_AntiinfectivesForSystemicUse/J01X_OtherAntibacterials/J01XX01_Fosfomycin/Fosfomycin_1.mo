@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01X_OtherAntibacterials.J01XX01_Fosfomycin;
 
-model Fosfomycin
+model Fosfomycin_1
   extends Pharmacolibrary.Drugs.ATC.J.J01XX01_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Fosfomycin_1</td></tr><tr
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Fosfomycin;
+end Fosfomycin_1;

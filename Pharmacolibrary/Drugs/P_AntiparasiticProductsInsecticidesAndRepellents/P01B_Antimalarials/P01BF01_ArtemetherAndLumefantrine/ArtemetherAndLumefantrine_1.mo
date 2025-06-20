@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials.P01BF01_ArtemetherAndLumefantrine;
 
-model ArtemetherAndLumefantrine
+model ArtemetherAndLumefantrine_1
   extends Pharmacolibrary.Drugs.ATC.P.P01BF01_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>ArtemetherAndLumefantrine
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end ArtemetherAndLumefantrine;
+end ArtemetherAndLumefantrine_1;

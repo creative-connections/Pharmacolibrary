@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics.N02BG06_Nefopam;
 
-model Nefopam
+model Nefopam_1
   extends Pharmacolibrary.Drugs.ATC.N.N02BG06_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Nefopam_1</td></tr><tr><t
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Nefopam;
+end Nefopam_1;

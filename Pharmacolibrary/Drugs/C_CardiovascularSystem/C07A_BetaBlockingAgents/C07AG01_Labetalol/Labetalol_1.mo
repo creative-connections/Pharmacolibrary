@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07A_BetaBlockingAgents.C07AG01_Labetalol;
 
-model Labetalol
+model Labetalol_1
   extends Pharmacolibrary.Drugs.ATC.C.C07AG01_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Labetalol_1</td></tr><tr>
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Labetalol;
+end Labetalol_1;

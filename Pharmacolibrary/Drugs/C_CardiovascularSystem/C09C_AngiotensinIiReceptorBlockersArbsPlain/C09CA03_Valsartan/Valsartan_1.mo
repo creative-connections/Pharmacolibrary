@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09C_AngiotensinIiReceptorBlockersArbsPlain.C09CA03_Valsartan;
 
-model Valsartan
+model Valsartan_1
   extends Pharmacolibrary.Drugs.ATC.C.C09CA03_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Valsartan_1</td></tr><tr>
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Valsartan;
+end Valsartan_1;

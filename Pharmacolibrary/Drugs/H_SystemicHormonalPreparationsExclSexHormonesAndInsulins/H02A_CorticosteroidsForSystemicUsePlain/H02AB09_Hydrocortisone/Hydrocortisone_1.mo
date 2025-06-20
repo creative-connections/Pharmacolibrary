@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02A_CorticosteroidsForSystemicUsePlain.H02AB09_Hydrocortisone;
 
-model Hydrocortisone
+model Hydrocortisone_1
   extends Pharmacolibrary.Drugs.ATC.H.H02AB09_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Hydrocortisone_1</td></tr
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Hydrocortisone;
+end Hydrocortisone_1;

@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DC02_Cefuroxime;
 
-model Cefuroxime
+model Cefuroxime_1
   extends Pharmacolibrary.Drugs.ATC.J.J01DC02_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Cefuroxime_1</td></tr><tr
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Cefuroxime;
+end Cefuroxime_1;

@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AH03_CromoglicicAcid;
 
-model CromoglicicAcid
+model CromoglicicAcid_1
   extends Pharmacolibrary.Drugs.ATC.D.D11AH03_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>CromoglicicAcid_1</td></t
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end CromoglicicAcid;
+end CromoglicicAcid_1;

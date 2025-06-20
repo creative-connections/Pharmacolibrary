@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents.L01AB01_Busulfan;
 
-model Busulfan
+model Busulfan_1
   extends Pharmacolibrary.Drugs.ATC.L.L01AB01_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Busulfan_1</td></tr><tr><
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Busulfan;
+end Busulfan_1;

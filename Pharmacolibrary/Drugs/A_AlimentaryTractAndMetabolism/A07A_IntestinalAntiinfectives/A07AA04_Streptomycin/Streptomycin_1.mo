@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07A_IntestinalAntiinfectives.A07AA04_Streptomycin;
 
-model Streptomycin
+model Streptomycin_1
   extends Pharmacolibrary.Drugs.ATC.A.A07AA04_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Streptomycin_1</td></tr><
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Streptomycin;
+end Streptomycin_1;

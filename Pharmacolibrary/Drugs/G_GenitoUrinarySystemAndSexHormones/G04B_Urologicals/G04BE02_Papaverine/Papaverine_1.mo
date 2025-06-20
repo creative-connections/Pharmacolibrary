@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04B_Urologicals.G04BE02_Papaverine;
 
-model Papaverine
+model Papaverine_1
   extends Pharmacolibrary.Drugs.ATC.G.G04BE02_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Papaverine_1</td></tr><tr
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Papaverine;
+end Papaverine_1;

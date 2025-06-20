@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01A_CardiacGlycosides.C01AA05_Digoxin;
 
-model Digoxin
+model Digoxin_1
   extends Pharmacolibrary.Drugs.ATC.C.C01AA05_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Digoxin_1</td></tr><tr><t
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Digoxin;
+end Digoxin_1;
