@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection.V09IB03_Indium111inAntiovariumcarcinomaA;
 
-model Indium111inAntiovariumcarcinomaAntibody
+model Indium111inAntiovariumcarcinomaA
   extends Pharmacolibrary.Drugs.ATC.V.V09IB03;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Indium111inAntiovariumcar
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Indium111inAntiovariumcarcinomaAntibody;
+end Indium111inAntiovariumcarcinomaA;

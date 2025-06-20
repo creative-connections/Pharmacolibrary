@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R02A_ThroatPreparations.R02AD03_Cocaine;
 
-model Cocaine_1
+model Cocaine
   extends Pharmacolibrary.Drugs.ATC.R.R02AD03_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Cocaine_1</td></tr><tr><t
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Cocaine_1;
+end Cocaine;

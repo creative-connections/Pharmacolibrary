@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants.R05CA10_OxomemazineAndGuaifenesinCombina;
 
-model OxomemazineAndGuaifenesinCombination
+model OxomemazineAndGuaifenesinCombina
   extends Pharmacolibrary.Drugs.ATC.R.R05CA10;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>OxomemazineAndGuaifenesin
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end OxomemazineAndGuaifenesinCombination;
+end OxomemazineAndGuaifenesinCombina;

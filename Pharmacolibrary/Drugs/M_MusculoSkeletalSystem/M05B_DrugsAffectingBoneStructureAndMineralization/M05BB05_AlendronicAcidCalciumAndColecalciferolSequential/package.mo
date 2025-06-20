@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization;
-package M05BB05_AlendronicAcidCalciumAndColecalciferolSequential
-  extends Icons.Package;
-end M05BB05_AlendronicAcidCalciumAndColecalciferolSequential;

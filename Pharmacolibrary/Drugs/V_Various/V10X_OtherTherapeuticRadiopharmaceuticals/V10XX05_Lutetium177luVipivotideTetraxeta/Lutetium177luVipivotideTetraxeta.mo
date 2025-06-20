@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.V_Various.V10X_OtherTherapeuticRadiopharmaceuticals.V10XX05_Lutetium177luVipivotideTetraxeta;
 
-model Lutetium177luVipivotideTetraxetan
+model Lutetium177luVipivotideTetraxeta
   extends Pharmacolibrary.Drugs.ATC.V.V10XX05;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Lutetium177luVipivotideTe
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Lutetium177luVipivotideTetraxetan;
+end Lutetium177luVipivotideTetraxeta;

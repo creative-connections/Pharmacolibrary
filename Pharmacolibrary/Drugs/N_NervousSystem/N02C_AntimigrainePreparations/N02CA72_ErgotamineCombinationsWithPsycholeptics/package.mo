@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N02C_AntimigrainePreparations;
-package N02CA72_ErgotamineCombinationsWithPsycholeptics
-  extends Icons.Package;
-end N02CA72_ErgotamineCombinationsWithPsycholeptics;

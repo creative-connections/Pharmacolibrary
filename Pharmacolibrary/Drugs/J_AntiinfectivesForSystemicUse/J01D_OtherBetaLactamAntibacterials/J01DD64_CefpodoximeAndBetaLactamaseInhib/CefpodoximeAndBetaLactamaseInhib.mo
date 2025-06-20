@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DD64_CefpodoximeAndBetaLactamaseInhib;
 
-model CefpodoximeAndBetaLactamaseInhibitor
+model CefpodoximeAndBetaLactamaseInhib
   extends Pharmacolibrary.Drugs.ATC.J.J01DD64;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>CefpodoximeAndBetaLactama
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end CefpodoximeAndBetaLactamaseInhibitor;
+end CefpodoximeAndBetaLactamaseInhib;

@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives.B05XA06_PotassiumPhosphateInclCombinatio;
 
-model PotassiumPhosphateInclCombinationsWithOtherPotassiumSalts
+model PotassiumPhosphateInclCombinatio
   extends Pharmacolibrary.Drugs.ATC.B.B05XA06;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>PotassiumPhosphateInclCom
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end PotassiumPhosphateInclCombinationsWithOtherPotassiumSalts;
+end PotassiumPhosphateInclCombinatio;

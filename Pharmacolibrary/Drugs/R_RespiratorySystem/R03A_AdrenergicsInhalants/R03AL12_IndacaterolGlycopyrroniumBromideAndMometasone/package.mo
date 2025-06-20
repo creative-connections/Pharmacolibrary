@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants;
-package R03AL12_IndacaterolGlycopyrroniumBromideAndMometasone
-  extends Icons.Package;
-end R03AL12_IndacaterolGlycopyrroniumBromideAndMometasone;

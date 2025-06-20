@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07B_IntestinalAdsorbents.A07BC30_PolymyxinBNeomycinAndBacitracinC;
 
-model PolymyxinBNeomycinAndBacitracinCombination
+model PolymyxinBNeomycinAndBacitracinC
   extends Pharmacolibrary.Drugs.ATC.A.A07BC30;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>PolymyxinBNeomycinAndBaci
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end PolymyxinBNeomycinAndBacitracinCombination;
+end PolymyxinBNeomycinAndBacitracinC;

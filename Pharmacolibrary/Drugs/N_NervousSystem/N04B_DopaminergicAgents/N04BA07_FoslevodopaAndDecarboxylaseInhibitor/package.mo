@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N04B_DopaminergicAgents;
-package N04BA07_FoslevodopaAndDecarboxylaseInhibitor
-  extends Icons.Package;
-end N04BA07_FoslevodopaAndDecarboxylaseInhibitor;

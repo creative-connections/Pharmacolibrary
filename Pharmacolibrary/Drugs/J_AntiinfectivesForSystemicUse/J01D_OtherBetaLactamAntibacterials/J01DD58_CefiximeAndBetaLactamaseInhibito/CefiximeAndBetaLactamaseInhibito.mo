@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials.J01DD58_CefiximeAndBetaLactamaseInhibito;
 
-model CefiximeAndBetaLactamaseInhibitor
+model CefiximeAndBetaLactamaseInhibito
   extends Pharmacolibrary.Drugs.ATC.J.J01DD58;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>CefiximeAndBetaLactamaseI
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end CefiximeAndBetaLactamaseInhibitor;
+end CefiximeAndBetaLactamaseInhibito;

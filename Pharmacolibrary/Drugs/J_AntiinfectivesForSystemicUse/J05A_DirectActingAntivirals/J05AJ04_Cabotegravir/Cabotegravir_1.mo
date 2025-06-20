@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AJ04_Cabotegravir;
 
-model Cabotegravir_1
+model Cabotegravir
   extends Pharmacolibrary.Drugs.ATC.J.J05AJ04_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Cabotegravir_1</td></tr><
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Cabotegravir_1;
+end Cabotegravir;

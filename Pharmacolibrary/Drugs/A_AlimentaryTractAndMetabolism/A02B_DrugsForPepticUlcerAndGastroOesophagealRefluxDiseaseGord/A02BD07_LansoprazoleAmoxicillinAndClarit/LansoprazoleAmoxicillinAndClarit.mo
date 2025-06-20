@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord.A02BD07_LansoprazoleAmoxicillinAndClarit;
 
-model LansoprazoleAmoxicillinAndClarithromycin
+model LansoprazoleAmoxicillinAndClarit
   extends Pharmacolibrary.Drugs.ATC.A.A02BD07;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>LansoprazoleAmoxicillinAn
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end LansoprazoleAmoxicillinAndClarithromycin;
+end LansoprazoleAmoxicillinAndClarit;

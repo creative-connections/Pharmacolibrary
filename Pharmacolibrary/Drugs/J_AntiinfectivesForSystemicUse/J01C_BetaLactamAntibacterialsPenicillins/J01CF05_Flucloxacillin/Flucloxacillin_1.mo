@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins.J01CF05_Flucloxacillin;
 
-model Flucloxacillin_1
+model Flucloxacillin
   extends Pharmacolibrary.Drugs.ATC.J.J01CF05_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Flucloxacillin_1</td></tr
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Flucloxacillin_1;
+end Flucloxacillin;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D01A_AntifungalsForTopicalUse;
-package D01AC20_ImidazolesTriazolesInCombinationWithCorticosteroids
-  extends Icons.Package;
-end D01AC20_ImidazolesTriazolesInCombinationWithCorticosteroids;

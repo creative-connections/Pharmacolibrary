@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins.J01CR03_TicarcillinAndBetaLactamaseInhib;
 
-model TicarcillinAndBetaLactamaseInhibitor
+model TicarcillinAndBetaLactamaseInhib
   extends Pharmacolibrary.Drugs.ATC.J.J01CR03;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>TicarcillinAndBetaLactama
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end TicarcillinAndBetaLactamaseInhibitor;
+end TicarcillinAndBetaLactamaseInhib;

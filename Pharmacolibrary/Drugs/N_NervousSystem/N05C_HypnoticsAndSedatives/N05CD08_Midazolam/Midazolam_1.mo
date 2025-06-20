@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N05C_HypnoticsAndSedatives.N05CD08_Midazolam;
 
-model Midazolam_1
+model Midazolam
   extends Pharmacolibrary.Drugs.ATC.N.N05CD08_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Midazolam_1</td></tr><tr>
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Midazolam_1;
+end Midazolam;

@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation.A06AG11_SodiumLaurylSulfoacetateInclComb;
 
-model SodiumLaurylSulfoacetateInclCombinations
+model SodiumLaurylSulfoacetateInclComb
   extends Pharmacolibrary.Drugs.ATC.A.A06AG11;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>SodiumLaurylSulfoacetateI
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end SodiumLaurylSulfoacetateInclCombinations;
+end SodiumLaurylSulfoacetateInclComb;

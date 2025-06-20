@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AA08_MedroxyprogesteroneAndEthinylest;
 
-model MedroxyprogesteroneAndEthinylestradiol
+model MedroxyprogesteroneAndEthinylest
   extends Pharmacolibrary.Drugs.ATC.G.G03AA08;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>MedroxyprogesteroneAndEth
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end MedroxyprogesteroneAndEthinylestradiol;
+end MedroxyprogesteroneAndEthinylest;

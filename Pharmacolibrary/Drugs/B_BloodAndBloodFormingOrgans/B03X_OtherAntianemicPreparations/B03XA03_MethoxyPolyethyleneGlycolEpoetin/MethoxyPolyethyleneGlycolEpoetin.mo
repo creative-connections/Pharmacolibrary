@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03X_OtherAntianemicPreparations.B03XA03_MethoxyPolyethyleneGlycolEpoetin;
 
-model MethoxyPolyethyleneGlycolEpoetinBeta
+model MethoxyPolyethyleneGlycolEpoetin
   extends Pharmacolibrary.Drugs.ATC.B.B03XA03;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>MethoxyPolyethyleneGlycol
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end MethoxyPolyethyleneGlycolEpoetinBeta;
+end MethoxyPolyethyleneGlycolEpoetin;

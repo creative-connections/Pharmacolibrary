@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H04A_GlycogenolyticHormones.H04AA01_Glucagon;
 
-model Glucagon_2
+model Glucagon
   extends Pharmacolibrary.Drugs.ATC.H.H04AA01_2;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Glucagon_2</td></tr><tr><
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Glucagon_2;
+end Glucagon;

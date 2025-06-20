@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids;
-package N02AB72_PethidineCombinationsWithPsycholeptics
-  extends Icons.Package;
-end N02AB72_PethidineCombinationsWithPsycholeptics;

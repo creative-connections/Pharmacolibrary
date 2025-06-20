@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AB05_Diclofenac;
 
-model Diclofenac_1
+model Diclofenac
   extends Pharmacolibrary.Drugs.ATC.M.M01AB05_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Diclofenac_1</td></tr><tr
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Diclofenac_1;
+end Diclofenac;

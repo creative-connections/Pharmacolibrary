@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BM03_PapillomavirusHumanTypes61116183;
 
-model PapillomavirusHumanTypes61116183133455258
+model PapillomavirusHumanTypes61116183
   extends Pharmacolibrary.Drugs.ATC.J.J07BM03;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>PapillomavirusHumanTypes6
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end PapillomavirusHumanTypes61116183133455258;
+end PapillomavirusHumanTypes61116183;

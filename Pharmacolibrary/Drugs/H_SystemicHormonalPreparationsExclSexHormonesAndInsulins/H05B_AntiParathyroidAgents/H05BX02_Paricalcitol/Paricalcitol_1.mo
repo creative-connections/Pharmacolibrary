@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05B_AntiParathyroidAgents.H05BX02_Paricalcitol;
 
-model Paricalcitol_1
+model Paricalcitol
   extends Pharmacolibrary.Drugs.ATC.H.H05BX02_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Paricalcitol_1</td></tr><
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Paricalcitol_1;
+end Paricalcitol;

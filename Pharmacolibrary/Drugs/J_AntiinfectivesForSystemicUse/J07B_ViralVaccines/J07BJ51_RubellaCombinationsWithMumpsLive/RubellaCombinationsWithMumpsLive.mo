@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BJ51_RubellaCombinationsWithMumpsLive;
 
-model RubellaCombinationsWithMumpsLiveAttenuated
+model RubellaCombinationsWithMumpsLive
   extends Pharmacolibrary.Drugs.ATC.J.J07BJ51;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>RubellaCombinationsWithMu
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end RubellaCombinationsWithMumpsLiveAttenuated;
+end RubellaCombinationsWithMumpsLive;

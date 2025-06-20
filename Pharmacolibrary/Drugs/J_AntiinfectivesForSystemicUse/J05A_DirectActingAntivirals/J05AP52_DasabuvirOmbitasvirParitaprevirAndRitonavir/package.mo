@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
-package J05AP52_DasabuvirOmbitasvirParitaprevirAndRitonavir
-  extends Icons.Package;
-end J05AP52_DasabuvirOmbitasvirParitaprevirAndRitonavir;

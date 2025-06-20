@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S01A_Antiinfectives.S01AE05_Levofloxacin;
 
-model Levofloxacin_1
+model Levofloxacin
   extends Pharmacolibrary.Drugs.ATC.S.S01AE05_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Levofloxacin_1</td></tr><
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Levofloxacin_1;
+end Levofloxacin;

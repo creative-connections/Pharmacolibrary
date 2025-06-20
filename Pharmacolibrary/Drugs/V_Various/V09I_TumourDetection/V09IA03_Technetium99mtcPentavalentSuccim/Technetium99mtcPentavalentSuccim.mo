@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection.V09IA03_Technetium99mtcPentavalentSuccim;
 
-model Technetium99mtcPentavalentSuccimer
+model Technetium99mtcPentavalentSuccim
   extends Pharmacolibrary.Drugs.ATC.V.V09IA03;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Technetium99mtcPentavalen
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Technetium99mtcPentavalentSuccimer;
+end Technetium99mtcPentavalentSuccim;

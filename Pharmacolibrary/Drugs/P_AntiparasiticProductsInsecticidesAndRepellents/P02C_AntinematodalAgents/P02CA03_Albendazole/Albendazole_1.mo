@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02C_AntinematodalAgents.P02CA03_Albendazole;
 
-model Albendazole_1
+model Albendazole
   extends Pharmacolibrary.Drugs.ATC.P.P02CA03_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Albendazole_1</td></tr><t
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Albendazole_1;
+end Albendazole;

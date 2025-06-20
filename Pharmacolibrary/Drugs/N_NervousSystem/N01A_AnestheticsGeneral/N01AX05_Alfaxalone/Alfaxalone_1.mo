@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N01A_AnestheticsGeneral.N01AX05_Alfaxalone;
 
-model Alfaxalone_1
+model Alfaxalone
   extends Pharmacolibrary.Drugs.ATC.N.N01AX05_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Alfaxalone_1</td></tr><tr
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Alfaxalone_1;
+end Alfaxalone;

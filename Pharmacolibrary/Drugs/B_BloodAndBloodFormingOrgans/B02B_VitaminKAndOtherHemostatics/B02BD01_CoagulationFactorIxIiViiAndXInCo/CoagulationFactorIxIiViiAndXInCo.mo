@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics.B02BD01_CoagulationFactorIxIiViiAndXInCo;
 
-model CoagulationFactorIxIiViiAndXInCombination
+model CoagulationFactorIxIiViiAndXInCo
   extends Pharmacolibrary.Drugs.ATC.B.B02BD01;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>CoagulationFactorIxIiViiA
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end CoagulationFactorIxIiViiAndXInCombination;
+end CoagulationFactorIxIiViiAndXInCo;

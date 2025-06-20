@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.V_Various.V09C_RenalSystem.V09CA06_Technetium99mtcEthylenedicystein;
 
-model Technetium99mtcEthylenedicysteine
+model Technetium99mtcEthylenedicystein
   extends Pharmacolibrary.Drugs.ATC.V.V09CA06;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Technetium99mtcEthylenedi
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Technetium99mtcEthylenedicysteine;
+end Technetium99mtcEthylenedicystein;

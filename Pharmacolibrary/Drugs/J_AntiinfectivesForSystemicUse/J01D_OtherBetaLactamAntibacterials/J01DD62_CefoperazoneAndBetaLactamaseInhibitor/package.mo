@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials;
-package J01DD62_CefoperazoneAndBetaLactamaseInhibitor
-  extends Icons.Package;
-end J01DD62_CefoperazoneAndBetaLactamaseInhibitor;

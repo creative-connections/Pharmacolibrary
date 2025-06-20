@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.V_Various.V10A_AntiinflammatoryAgents.V10AX02_Samarium153smHydroxyapatiteCollo;
 
-model Samarium153smHydroxyapatiteColloid
+model Samarium153smHydroxyapatiteCollo
   extends Pharmacolibrary.Drugs.ATC.V.V10AX02;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Samarium153smHydroxyapati
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Samarium153smHydroxyapatiteColloid;
+end Samarium153smHydroxyapatiteCollo;

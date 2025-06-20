@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10A_LipidModifyingAgentsPlain;
-package C10AX07_MagnesiumPyridoxal5PhosphateGlutamate
-  extends Icons.Package;
-end C10AX07_MagnesiumPyridoxal5PhosphateGlutamate;

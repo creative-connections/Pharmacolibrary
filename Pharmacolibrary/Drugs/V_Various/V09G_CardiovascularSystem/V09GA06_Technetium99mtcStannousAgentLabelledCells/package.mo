@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V09G_CardiovascularSystem;
-package V09GA06_Technetium99mtcStannousAgentLabelledCells
-  extends Icons.Package;
-end V09GA06_Technetium99mtcStannousAgentLabelledCells;

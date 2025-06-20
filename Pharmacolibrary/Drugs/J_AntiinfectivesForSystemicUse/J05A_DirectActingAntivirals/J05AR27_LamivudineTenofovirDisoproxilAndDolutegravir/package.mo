@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
-package J05AR27_LamivudineTenofovirDisoproxilAndDolutegravir
-  extends Icons.Package;
-end J05AR27_LamivudineTenofovirDisoproxilAndDolutegravir;

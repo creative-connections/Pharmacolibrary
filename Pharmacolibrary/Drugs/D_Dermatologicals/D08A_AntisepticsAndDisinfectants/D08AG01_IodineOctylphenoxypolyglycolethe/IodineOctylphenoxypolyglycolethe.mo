@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants.D08AG01_IodineOctylphenoxypolyglycolethe;
 
-model IodineOctylphenoxypolyglycolether
+model IodineOctylphenoxypolyglycolethe
   extends Pharmacolibrary.Drugs.ATC.D.D08AG01;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>IodineOctylphenoxypolygly
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end IodineOctylphenoxypolyglycolether;
+end IodineOctylphenoxypolyglycolethe;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord;
-package A02BX71_CarbenoxoloneCombinationsWithPsycholeptics
-  extends Icons.Package;
-end A02BX71_CarbenoxoloneCombinationsWithPsycholeptics;

@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.V_Various.V09G_CardiovascularSystem.V09GA06_Technetium99mtcStannousAgentLabe;
 
-model Technetium99mtcStannousAgentLabelledCells
+model Technetium99mtcStannousAgentLabe
   extends Pharmacolibrary.Drugs.ATC.V.V09GA06;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Technetium99mtcStannousAg
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Technetium99mtcStannousAgentLabelledCells;
+end Technetium99mtcStannousAgentLabe;

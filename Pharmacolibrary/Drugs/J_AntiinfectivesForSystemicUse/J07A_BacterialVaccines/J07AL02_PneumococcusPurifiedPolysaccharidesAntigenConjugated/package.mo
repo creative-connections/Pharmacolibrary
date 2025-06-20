@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines;
-package J07AL02_PneumococcusPurifiedPolysaccharidesAntigenConjugated
-  extends Icons.Package;
-end J07AL02_PneumococcusPurifiedPolysaccharidesAntigenConjugated;

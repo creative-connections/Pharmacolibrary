@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N03A_Antiepileptics.N03AG01_ValproicAcid;
 
-model ValproicAcid_1
+model ValproicAcid
   extends Pharmacolibrary.Drugs.ATC.N.N03AG01_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>ValproicAcid_1</td></tr><
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end ValproicAcid_1;
+end ValproicAcid;

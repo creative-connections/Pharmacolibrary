@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines.J07AH06_MeningococcusBOuterMembraneVesic;
 
-model MeningococcusBOuterMembraneVesicleVaccine
+model MeningococcusBOuterMembraneVesic
   extends Pharmacolibrary.Drugs.ATC.J.J07AH06;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>MeningococcusBOuterMembra
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end MeningococcusBOuterMembraneVesicleVaccine;
+end MeningococcusBOuterMembraneVesic;

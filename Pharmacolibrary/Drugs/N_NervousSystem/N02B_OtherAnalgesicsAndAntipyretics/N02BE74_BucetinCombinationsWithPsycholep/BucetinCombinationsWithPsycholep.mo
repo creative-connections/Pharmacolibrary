@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics.N02BE74_BucetinCombinationsWithPsycholep;
 
-model BucetinCombinationsWithPsycholeptics
+model BucetinCombinationsWithPsycholep
   extends Pharmacolibrary.Drugs.ATC.N.N02BE74;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>BucetinCombinationsWithPs
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end BucetinCombinationsWithPsycholeptics;
+end BucetinCombinationsWithPsycholep;

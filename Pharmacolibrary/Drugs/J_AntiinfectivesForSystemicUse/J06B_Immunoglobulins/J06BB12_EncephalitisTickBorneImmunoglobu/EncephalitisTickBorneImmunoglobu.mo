@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J06B_Immunoglobulins.J06BB12_EncephalitisTickBorneImmunoglobu;
 
-model EncephalitisTickBorneImmunoglobulin
+model EncephalitisTickBorneImmunoglobu
   extends Pharmacolibrary.Drugs.ATC.J.J06BB12;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>EncephalitisTickBorneImmu
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end EncephalitisTickBorneImmunoglobulin;
+end EncephalitisTickBorneImmunoglobu;

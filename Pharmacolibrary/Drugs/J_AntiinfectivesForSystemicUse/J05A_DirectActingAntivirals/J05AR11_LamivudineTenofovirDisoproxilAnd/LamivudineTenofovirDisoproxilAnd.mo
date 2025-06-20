@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AR11_LamivudineTenofovirDisoproxilAnd;
 
-model LamivudineTenofovirDisoproxilAndEfavirenz
+model LamivudineTenofovirDisoproxilAnd
   extends Pharmacolibrary.Drugs.ATC.J.J05AR11;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>LamivudineTenofovirDisopr
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end LamivudineTenofovirDisoproxilAndEfavirenz;
+end LamivudineTenofovirDisoproxilAnd;

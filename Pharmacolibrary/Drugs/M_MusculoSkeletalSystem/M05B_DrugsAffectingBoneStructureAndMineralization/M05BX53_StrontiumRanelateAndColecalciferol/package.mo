@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization;
-package M05BX53_StrontiumRanelateAndColecalciferol
-  extends Icons.Package;
-end M05BX53_StrontiumRanelateAndColecalciferol;

@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10A_LipidModifyingAgentsPlain.C10AX07_MagnesiumPyridoxal5PhosphateGlut;
 
-model MagnesiumPyridoxal5PhosphateGlutamate
+model MagnesiumPyridoxal5PhosphateGlut
   extends Pharmacolibrary.Drugs.ATC.C.C10AX07;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>MagnesiumPyridoxal5Phosph
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end MagnesiumPyridoxal5PhosphateGlutamate;
+end MagnesiumPyridoxal5PhosphateGlut;

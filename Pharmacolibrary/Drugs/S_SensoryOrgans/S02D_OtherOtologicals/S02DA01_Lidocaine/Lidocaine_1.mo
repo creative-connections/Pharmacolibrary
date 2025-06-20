@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S02D_OtherOtologicals.S02DA01_Lidocaine;
 
-model Lidocaine_1
+model Lidocaine
   extends Pharmacolibrary.Drugs.ATC.S.S02DA01_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Lidocaine_1</td></tr><tr>
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Lidocaine_1;
+end Lidocaine;

@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02B_ContraceptivesForTopicalUse.G02BB01_VaginalRingWithProgestogenAndEst;
 
-model VaginalRingWithProgestogenAndEstrogen
+model VaginalRingWithProgestogenAndEst
   extends Pharmacolibrary.Drugs.ATC.G.G02BB01;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>VaginalRingWithProgestoge
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end VaginalRingWithProgestogenAndEstrogen;
+end VaginalRingWithProgestogenAndEst;

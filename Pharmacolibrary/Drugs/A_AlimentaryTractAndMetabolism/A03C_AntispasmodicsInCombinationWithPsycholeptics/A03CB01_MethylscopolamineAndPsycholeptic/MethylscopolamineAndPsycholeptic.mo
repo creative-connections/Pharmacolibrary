@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03C_AntispasmodicsInCombinationWithPsycholeptics.A03CB01_MethylscopolamineAndPsycholeptic;
 
-model MethylscopolamineAndPsycholeptics
+model MethylscopolamineAndPsycholeptic
   extends Pharmacolibrary.Drugs.ATC.A.A03CB01;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>MethylscopolamineAndPsych
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end MethylscopolamineAndPsycholeptics;
+end MethylscopolamineAndPsycholeptic;

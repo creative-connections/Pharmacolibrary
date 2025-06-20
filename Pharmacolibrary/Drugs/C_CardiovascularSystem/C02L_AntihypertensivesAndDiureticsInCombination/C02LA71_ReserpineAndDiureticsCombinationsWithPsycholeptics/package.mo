@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination;
-package C02LA71_ReserpineAndDiureticsCombinationsWithPsycholeptics
-  extends Icons.Package;
-end C02LA71_ReserpineAndDiureticsCombinationsWithPsycholeptics;

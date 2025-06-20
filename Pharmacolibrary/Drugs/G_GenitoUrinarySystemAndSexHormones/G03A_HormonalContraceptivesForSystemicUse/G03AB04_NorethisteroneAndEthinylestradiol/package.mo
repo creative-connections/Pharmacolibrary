@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse;
-package G03AB04_NorethisteroneAndEthinylestradiol
-  extends Icons.Package;
-end G03AB04_NorethisteroneAndEthinylestradiol;

@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations.C10BX11_AtorvastatinAmlodipineAndPerindo;
 
-model AtorvastatinAmlodipineAndPerindopril
+model AtorvastatinAmlodipineAndPerindo
   extends Pharmacolibrary.Drugs.ATC.C.C10BX11;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>AtorvastatinAmlodipineAnd
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end AtorvastatinAmlodipineAndPerindopril;
+end AtorvastatinAmlodipineAndPerindo;

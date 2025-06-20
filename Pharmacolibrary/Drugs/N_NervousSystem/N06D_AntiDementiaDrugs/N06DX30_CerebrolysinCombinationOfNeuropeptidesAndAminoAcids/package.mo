@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N06D_AntiDementiaDrugs;
-package N06DX30_CerebrolysinCombinationOfNeuropeptidesAndAminoAcids
-  extends Icons.Package;
-end N06DX30_CerebrolysinCombinationOfNeuropeptidesAndAminoAcids;

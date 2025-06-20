@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination.C02LA51_ReserpineAndDiureticsCombination;
 
-model ReserpineAndDiureticsCombinationsWithOtherDrugs
+model ReserpineAndDiureticsCombination
   extends Pharmacolibrary.Drugs.ATC.C.C02LA51;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>ReserpineAndDiureticsComb
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end ReserpineAndDiureticsCombinationsWithOtherDrugs;
+end ReserpineAndDiureticsCombination;

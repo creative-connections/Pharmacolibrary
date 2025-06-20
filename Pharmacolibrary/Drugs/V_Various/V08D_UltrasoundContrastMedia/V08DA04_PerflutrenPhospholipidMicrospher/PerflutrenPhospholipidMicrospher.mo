@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.V_Various.V08D_UltrasoundContrastMedia.V08DA04_PerflutrenPhospholipidMicrospher;
 
-model PerflutrenPhospholipidMicrospheres
+model PerflutrenPhospholipidMicrospher
   extends Pharmacolibrary.Drugs.ATC.V.V08DA04;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>PerflutrenPhospholipidMic
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end PerflutrenPhospholipidMicrospheres;
+end PerflutrenPhospholipidMicrospher;

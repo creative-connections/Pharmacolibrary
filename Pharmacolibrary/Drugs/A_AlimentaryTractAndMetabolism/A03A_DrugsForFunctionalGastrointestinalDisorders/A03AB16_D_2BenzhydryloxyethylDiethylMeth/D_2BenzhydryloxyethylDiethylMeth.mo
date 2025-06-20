@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders.A03AB16_D_2BenzhydryloxyethylDiethylMeth;
 
-model D_2BenzhydryloxyethylDiethylMethylammoniumIodide
+model D_2BenzhydryloxyethylDiethylMeth
   extends Pharmacolibrary.Drugs.ATC.A.A03AB16;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>D_2BenzhydryloxyethylDiet
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end D_2BenzhydryloxyethylDiethylMethylammoniumIodide;
+end D_2BenzhydryloxyethylDiethylMeth;

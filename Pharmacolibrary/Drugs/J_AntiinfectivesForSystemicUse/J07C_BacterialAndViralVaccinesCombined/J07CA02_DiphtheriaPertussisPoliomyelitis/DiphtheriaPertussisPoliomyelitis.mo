@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07C_BacterialAndViralVaccinesCombined.J07CA02_DiphtheriaPertussisPoliomyelitis;
 
-model DiphtheriaPertussisPoliomyelitisTetanus
+model DiphtheriaPertussisPoliomyelitis
   extends Pharmacolibrary.Drugs.ATC.J.J07CA02;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>DiphtheriaPertussisPoliom
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end DiphtheriaPertussisPoliomyelitisTetanus;
+end DiphtheriaPertussisPoliomyelitis;

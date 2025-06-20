@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids;
-package N02AC54_DextropropoxypheneCombinationsExclPsycholeptics
-  extends Icons.Package;
-end N02AC54_DextropropoxypheneCombinationsExclPsycholeptics;

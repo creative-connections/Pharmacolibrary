@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids.G01AE10_SulfamethizoleAndTrimethoprimCom;
 
-model SulfamethizoleAndTrimethoprimCombination
+model SulfamethizoleAndTrimethoprimCom
   extends Pharmacolibrary.Drugs.ATC.G.G01AE10;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>SulfamethizoleAndTrimetho
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end SulfamethizoleAndTrimethoprimCombination;
+end SulfamethizoleAndTrimethoprimCom;

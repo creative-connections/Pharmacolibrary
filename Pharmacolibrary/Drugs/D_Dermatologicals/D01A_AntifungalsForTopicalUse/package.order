@@ -6,7 +6,6 @@ D01AA06_Mepartricin
 D01AA07_Pyrrolnitrin
 D01AA08_Griseofulvin
 D01AA20_GriseofulvinAndSalicylicAcidComb
-D01AA20_GriseofulvinAndSalicylicAcidCombination
 D01AC01_Clotrimazole
 D01AC02_Miconazole
 D01AC03_Econazole
@@ -27,7 +26,6 @@ D01AC17_Eberconazole
 D01AC18_Luliconazole
 D01AC19_Efinaconazole
 D01AC20_ImidazolesTriazolesInCombination
-D01AC20_ImidazolesTriazolesInCombinationWithCorticosteroids
 D01AC21_Neticonazole
 D01AC22_Lanoconazole
 D01AC52_MiconazoleCombinations
@@ -52,7 +50,6 @@ D01AE17_Dimazole
 D01AE18_Tolnaftate
 D01AE19_Tolciclate
 D01AE20_CiclopiroxAndZincPyrithioneCombi
-D01AE20_CiclopiroxAndZincPyrithioneCombination
 D01AE21_Flucytosine
 D01AE22_Naftifine
 D01AE23_Butenafine

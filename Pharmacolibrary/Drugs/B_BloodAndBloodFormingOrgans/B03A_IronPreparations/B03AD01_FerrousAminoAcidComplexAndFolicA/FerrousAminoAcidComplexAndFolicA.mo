@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations.B03AD01_FerrousAminoAcidComplexAndFolicA;
 
-model FerrousAminoAcidComplexAndFolicAcid
+model FerrousAminoAcidComplexAndFolicA
   extends Pharmacolibrary.Drugs.ATC.B.B03AD01;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>FerrousAminoAcidComplexAn
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end FerrousAminoAcidComplexAndFolicAcid;
+end FerrousAminoAcidComplexAndFolicA;

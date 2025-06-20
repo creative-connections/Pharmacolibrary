@@ -22,7 +22,6 @@ G01AD02_AceticAcid
 G01AD03_AscorbicAcid
 G01AE01_Sulfatolamide
 G01AE10_SulfamethizoleAndTrimethoprimCom
-G01AE10_SulfamethizoleAndTrimethoprimCombination
 G01AF01_Metronidazole
 G01AF02_Clotrimazole
 G01AF04_Miconazole
@@ -40,7 +39,6 @@ G01AF17_Oxiconazole
 G01AF18_Flutrimazole
 G01AF19_Sertaconazole
 G01AF20_CombinationsOfImidazoleDerivativ
-G01AF20_CombinationsOfImidazoleDerivatives
 G01AF21_Tinidazole
 G01AF55_EconazoleCombinations
 G01AG02_Terconazole

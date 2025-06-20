@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R05F_CoughSuppressantsAndExpectorantsCombinations.R05FB02_BromhexineCoughSuppressantsAndEx;
 
-model BromhexineCoughSuppressantsAndExpectorants
+model BromhexineCoughSuppressantsAndEx
   extends Pharmacolibrary.Drugs.ATC.R.R05FB02;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>BromhexineCoughSuppressan
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end BromhexineCoughSuppressantsAndExpectorants;
+end BromhexineCoughSuppressantsAndEx;

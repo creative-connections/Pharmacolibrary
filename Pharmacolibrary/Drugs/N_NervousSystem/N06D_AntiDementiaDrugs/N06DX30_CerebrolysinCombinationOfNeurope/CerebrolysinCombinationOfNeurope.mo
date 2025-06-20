@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N06D_AntiDementiaDrugs.N06DX30_CerebrolysinCombinationOfNeurope;
 
-model CerebrolysinCombinationOfNeuropeptidesAndAminoAcids
+model CerebrolysinCombinationOfNeurope
   extends Pharmacolibrary.Drugs.ATC.N.N06DX30;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>CerebrolysinCombinationOf
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end CerebrolysinCombinationOfNeuropeptidesAndAminoAcids;
+end CerebrolysinCombinationOfNeurope;

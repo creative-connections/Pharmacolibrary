@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis.J04AM06_RifampicinPyrazinamideEthambutol;
 
-model RifampicinPyrazinamideEthambutolAndIsoniazid
+model RifampicinPyrazinamideEthambutol
   extends Pharmacolibrary.Drugs.ATC.J.J04AM06;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>RifampicinPyrazinamideEth
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end RifampicinPyrazinamideEthambutolAndIsoniazid;
+end RifampicinPyrazinamideEthambutol;

@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants.R03AL08_VilanterolUmeclidiniumBromideAnd;
 
-model VilanterolUmeclidiniumBromideAndFluticasoneFuroate
+model VilanterolUmeclidiniumBromideAnd
   extends Pharmacolibrary.Drugs.ATC.R.R03AL08;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>VilanterolUmeclidiniumBro
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end VilanterolUmeclidiniumBromideAndFluticasoneFuroate;
+end VilanterolUmeclidiniumBromideAnd;

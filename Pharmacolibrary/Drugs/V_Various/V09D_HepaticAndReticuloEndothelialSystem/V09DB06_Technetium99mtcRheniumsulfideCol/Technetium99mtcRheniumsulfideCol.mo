@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.V_Various.V09D_HepaticAndReticuloEndothelialSystem.V09DB06_Technetium99mtcRheniumsulfideCol;
 
-model Technetium99mtcRheniumsulfideColloid
+model Technetium99mtcRheniumsulfideCol
   extends Pharmacolibrary.Drugs.ATC.V.V09DB06;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Technetium99mtcRheniumsul
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Technetium99mtcRheniumsulfideColloid;
+end Technetium99mtcRheniumsulfideCol;

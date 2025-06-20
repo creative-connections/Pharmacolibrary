@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.V_Various.V09H_InflammationAndInfectionDetection.V09HA01_Technetium99mtcHumanImmunoglobul;
 
-model Technetium99mtcHumanImmunoglobulin
+model Technetium99mtcHumanImmunoglobul
   extends Pharmacolibrary.Drugs.ATC.V.V09HA01;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Technetium99mtcHumanImmun
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Technetium99mtcHumanImmunoglobulin;
+end Technetium99mtcHumanImmunoglobul;

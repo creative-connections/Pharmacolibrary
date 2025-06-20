@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines;
-package J07AH04_MeningococcusACYW135TetravalentPurifiedPolysaccharidesAntigen
-  extends Icons.Package;
-end J07AH04_MeningococcusACYW135TetravalentPurifiedPolysaccharidesAntigen;

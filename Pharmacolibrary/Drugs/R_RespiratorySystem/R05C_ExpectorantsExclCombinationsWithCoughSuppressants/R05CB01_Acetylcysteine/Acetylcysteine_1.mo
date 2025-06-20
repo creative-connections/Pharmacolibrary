@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants.R05CB01_Acetylcysteine;
 
-model Acetylcysteine_1
+model Acetylcysteine
   extends Pharmacolibrary.Drugs.ATC.R.R05CB01_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Acetylcysteine_1</td></tr
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Acetylcysteine_1;
+end Acetylcysteine;

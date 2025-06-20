@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03D_Progestogens.G03DA02_Medroxyprogesterone;
 
-model Medroxyprogesterone_1
+model Medroxyprogesterone
   extends Pharmacolibrary.Drugs.ATC.G.G03DA02_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Medroxyprogesterone_1</td
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Medroxyprogesterone_1;
+end Medroxyprogesterone;

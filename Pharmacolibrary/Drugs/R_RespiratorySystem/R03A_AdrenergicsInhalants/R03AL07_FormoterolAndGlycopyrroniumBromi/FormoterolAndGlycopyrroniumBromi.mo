@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants.R03AL07_FormoterolAndGlycopyrroniumBromi;
 
-model FormoterolAndGlycopyrroniumBromide
+model FormoterolAndGlycopyrroniumBromi
   extends Pharmacolibrary.Drugs.ATC.R.R03AL07;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>FormoterolAndGlycopyrroni
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end FormoterolAndGlycopyrroniumBromide;
+end FormoterolAndGlycopyrroniumBromi;

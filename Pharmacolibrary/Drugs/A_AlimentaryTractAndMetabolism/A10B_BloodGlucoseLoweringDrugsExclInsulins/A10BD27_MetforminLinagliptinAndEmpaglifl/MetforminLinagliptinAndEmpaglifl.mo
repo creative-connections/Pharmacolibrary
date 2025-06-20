@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins.A10BD27_MetforminLinagliptinAndEmpaglifl;
 
-model MetforminLinagliptinAndEmpagliflozin
+model MetforminLinagliptinAndEmpaglifl
   extends Pharmacolibrary.Drugs.ATC.A.A10BD27;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>MetforminLinagliptinAndEm
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end MetforminLinagliptinAndEmpagliflozin;
+end MetforminLinagliptinAndEmpaglifl;

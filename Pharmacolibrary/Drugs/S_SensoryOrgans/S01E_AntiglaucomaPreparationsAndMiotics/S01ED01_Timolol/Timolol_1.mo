@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics.S01ED01_Timolol;
 
-model Timolol_1
+model Timolol
   extends Pharmacolibrary.Drugs.ATC.S.S01ED01_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Timolol_1</td></tr><tr><t
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Timolol_1;
+end Timolol;

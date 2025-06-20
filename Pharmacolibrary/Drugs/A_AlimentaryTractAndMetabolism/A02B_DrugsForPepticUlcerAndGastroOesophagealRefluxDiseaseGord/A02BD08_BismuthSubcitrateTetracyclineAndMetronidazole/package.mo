@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord;
-package A02BD08_BismuthSubcitrateTetracyclineAndMetronidazole
-  extends Icons.Package;
-end A02BD08_BismuthSubcitrateTetracyclineAndMetronidazole;

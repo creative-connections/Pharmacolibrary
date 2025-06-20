@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids.M01AC02_Tenoxicam;
 
-model Tenoxicam_1
+model Tenoxicam
   extends Pharmacolibrary.Drugs.ATC.M.M01AC02_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Tenoxicam_1</td></tr><tr>
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Tenoxicam_1;
+end Tenoxicam;

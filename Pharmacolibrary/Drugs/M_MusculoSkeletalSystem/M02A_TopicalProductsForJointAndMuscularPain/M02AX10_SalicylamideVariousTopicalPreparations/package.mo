@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain;
-package M02AX10_SalicylamideVariousTopicalPreparations
-  extends Icons.Package;
-end M02AX10_SalicylamideVariousTopicalPreparations;

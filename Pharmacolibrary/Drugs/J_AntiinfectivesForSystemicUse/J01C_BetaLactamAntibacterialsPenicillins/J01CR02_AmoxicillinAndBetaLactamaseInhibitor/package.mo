@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins;
-package J01CR02_AmoxicillinAndBetaLactamaseInhibitor
-  extends Icons.Package;
-end J01CR02_AmoxicillinAndBetaLactamaseInhibitor;

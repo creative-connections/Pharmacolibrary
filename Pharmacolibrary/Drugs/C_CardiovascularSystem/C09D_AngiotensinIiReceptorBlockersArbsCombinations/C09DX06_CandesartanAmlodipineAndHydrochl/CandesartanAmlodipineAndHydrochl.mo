@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations.C09DX06_CandesartanAmlodipineAndHydrochl;
 
-model CandesartanAmlodipineAndHydrochlorothiazide
+model CandesartanAmlodipineAndHydrochl
   extends Pharmacolibrary.Drugs.ATC.C.C09DX06;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>CandesartanAmlodipineAndH
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end CandesartanAmlodipineAndHydrochlorothiazide;
+end CandesartanAmlodipineAndHydrochl;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03E_DiureticsAndPotassiumSparingAgentsInCombination;
-package C03EA13_BendroflumethiazideAndPotassiumSparingAgents
-  extends Icons.Package;
-end C03EA13_BendroflumethiazideAndPotassiumSparingAgents;

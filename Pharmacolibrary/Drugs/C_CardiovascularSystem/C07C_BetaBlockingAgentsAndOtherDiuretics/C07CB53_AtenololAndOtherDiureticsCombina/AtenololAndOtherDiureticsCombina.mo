@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07C_BetaBlockingAgentsAndOtherDiuretics.C07CB53_AtenololAndOtherDiureticsCombina;
 
-model AtenololAndOtherDiureticsCombinations
+model AtenololAndOtherDiureticsCombina
   extends Pharmacolibrary.Drugs.ATC.C.C07CB53;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>AtenololAndOtherDiuretics
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end AtenololAndOtherDiureticsCombinations;
+end AtenololAndOtherDiureticsCombina;

@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02A_Antifibrinolytics.B02AA02_TranexamicAcid;
 
-model TranexamicAcid_1
+model TranexamicAcid
   extends Pharmacolibrary.Drugs.ATC.B.B02AA02_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>TranexamicAcid_1</td></tr
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end TranexamicAcid_1;
+end TranexamicAcid;

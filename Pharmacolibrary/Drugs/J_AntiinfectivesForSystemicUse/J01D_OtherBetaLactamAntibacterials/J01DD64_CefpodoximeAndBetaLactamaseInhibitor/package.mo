@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials;
-package J01DD64_CefpodoximeAndBetaLactamaseInhibitor
-  extends Icons.Package;
-end J01DD64_CefpodoximeAndBetaLactamaseInhibitor;

@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03C_Estrogens.G03CC07_ConjugatedEstrogensAndBazedoxife;
 
-model ConjugatedEstrogensAndBazedoxifene
+model ConjugatedEstrogensAndBazedoxife
   extends Pharmacolibrary.Drugs.ATC.G.G03CC07;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>ConjugatedEstrogensAndBaz
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end ConjugatedEstrogensAndBazedoxifene;
+end ConjugatedEstrogensAndBazedoxife;

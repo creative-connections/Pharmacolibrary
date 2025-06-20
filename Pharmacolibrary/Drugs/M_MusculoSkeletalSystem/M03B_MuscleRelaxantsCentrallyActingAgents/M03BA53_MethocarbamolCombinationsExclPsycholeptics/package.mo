@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents;
-package M03BA53_MethocarbamolCombinationsExclPsycholeptics
-  extends Icons.Package;
-end M03BA53_MethocarbamolCombinationsExclPsycholeptics;

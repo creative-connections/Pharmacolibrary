@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D03A_Cicatrizants.D03AX14_CentellaAsiaticaHerbaInclCombina;
 
-model CentellaAsiaticaHerbaInclCombinations
+model CentellaAsiaticaHerbaInclCombina
   extends Pharmacolibrary.Drugs.ATC.D.D03AX14;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>CentellaAsiaticaHerbaIncl
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end CentellaAsiaticaHerbaInclCombinations;
+end CentellaAsiaticaHerbaInclCombina;

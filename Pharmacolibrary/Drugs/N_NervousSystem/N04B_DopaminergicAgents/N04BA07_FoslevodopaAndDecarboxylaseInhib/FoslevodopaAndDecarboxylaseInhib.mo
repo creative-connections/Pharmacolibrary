@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N04B_DopaminergicAgents.N04BA07_FoslevodopaAndDecarboxylaseInhib;
 
-model FoslevodopaAndDecarboxylaseInhibitor
+model FoslevodopaAndDecarboxylaseInhib
   extends Pharmacolibrary.Drugs.ATC.N.N04BA07;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>FoslevodopaAndDecarboxyla
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end FoslevodopaAndDecarboxylaseInhibitor;
+end FoslevodopaAndDecarboxylaseInhib;

@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11G_AscorbicAcidVitaminCInclCombinations.A11GA01_AscorbicAcidVitC;
 
-model AscorbicAcidVitC_1
+model AscorbicAcidVitC
   extends Pharmacolibrary.Drugs.ATC.A.A11GA01_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>AscorbicAcidVitC_1</td></
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end AscorbicAcidVitC_1;
+end AscorbicAcidVitC;

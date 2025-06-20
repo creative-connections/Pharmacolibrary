@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain.M02AX10_SalicylamideVariousTopicalPrepar;
 
-model SalicylamideVariousTopicalPreparations
+model SalicylamideVariousTopicalPrepar
   extends Pharmacolibrary.Drugs.ATC.M.M02AX10;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>SalicylamideVariousTopica
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end SalicylamideVariousTopicalPreparations;
+end SalicylamideVariousTopicalPrepar;

@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R07A_OtherRespiratorySystemProducts.R07AX32_IvacaftorTezacaftorAndElexacafto;
 
-model IvacaftorTezacaftorAndElexacaftor
+model IvacaftorTezacaftorAndElexacafto
   extends Pharmacolibrary.Drugs.ATC.R.R07AX32;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>IvacaftorTezacaftorAndEle
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end IvacaftorTezacaftorAndElexacaftor;
+end IvacaftorTezacaftorAndElexacafto;

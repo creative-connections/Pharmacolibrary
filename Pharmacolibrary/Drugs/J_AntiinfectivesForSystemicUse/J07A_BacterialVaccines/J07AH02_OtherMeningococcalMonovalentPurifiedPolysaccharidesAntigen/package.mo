@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines;
-package J07AH02_OtherMeningococcalMonovalentPurifiedPolysaccharidesAntigen
-  extends Icons.Package;
-end J07AH02_OtherMeningococcalMonovalentPurifiedPolysaccharidesAntigen;

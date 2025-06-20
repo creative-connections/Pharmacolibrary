@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03E_DiureticsAndPotassiumSparingAgentsInCombination.C03EA07_CyclopenthiazideAndPotassiumSpar;
 
-model CyclopenthiazideAndPotassiumSparingAgents
+model CyclopenthiazideAndPotassiumSpar
   extends Pharmacolibrary.Drugs.ATC.C.C03EA07;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>CyclopenthiazideAndPotass
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end CyclopenthiazideAndPotassiumSparingAgents;
+end CyclopenthiazideAndPotassiumSpar;

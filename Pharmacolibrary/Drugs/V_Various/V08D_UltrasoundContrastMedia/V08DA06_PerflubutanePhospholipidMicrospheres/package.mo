@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V08D_UltrasoundContrastMedia;
-package V08DA06_PerflubutanePhospholipidMicrospheres
-  extends Icons.Package;
-end V08DA06_PerflubutanePhospholipidMicrospheres;

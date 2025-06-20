@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis;
-package J04AM05_RifampicinPyrazinamideAndIsoniazid
-  extends Icons.Package;
-end J04AM05_RifampicinPyrazinamideAndIsoniazid;

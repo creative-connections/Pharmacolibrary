@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
-package J05AR22_EmtricitabineTenofovirAlafenamideDarunavirAndCobicistat
-  extends Icons.Package;
-end J05AR22_EmtricitabineTenofovirAlafenamideDarunavirAndCobicistat;

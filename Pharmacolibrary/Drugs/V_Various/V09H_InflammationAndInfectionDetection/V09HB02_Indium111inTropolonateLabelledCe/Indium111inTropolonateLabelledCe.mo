@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.V_Various.V09H_InflammationAndInfectionDetection.V09HB02_Indium111inTropolonateLabelledCe;
 
-model Indium111inTropolonateLabelledCells
+model Indium111inTropolonateLabelledCe
   extends Pharmacolibrary.Drugs.ATC.V.V09HB02;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Indium111inTropolonateLab
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Indium111inTropolonateLabelledCells;
+end Indium111inTropolonateLabelledCe;

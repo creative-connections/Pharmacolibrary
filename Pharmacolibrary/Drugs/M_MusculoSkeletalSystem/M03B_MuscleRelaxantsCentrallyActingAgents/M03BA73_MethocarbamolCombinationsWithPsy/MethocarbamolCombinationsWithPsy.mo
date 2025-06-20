@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents.M03BA73_MethocarbamolCombinationsWithPsy;
 
-model MethocarbamolCombinationsWithPsycholeptics
+model MethocarbamolCombinationsWithPsy
   extends Pharmacolibrary.Drugs.ATC.M.M03BA73;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>MethocarbamolCombinations
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end MethocarbamolCombinationsWithPsycholeptics;
+end MethocarbamolCombinationsWithPsy;

@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts.V03AF01_Mesna;
 
-model Mesna_1
+model Mesna
   extends Pharmacolibrary.Drugs.ATC.V.V03AF01_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Mesna_1</td></tr><tr><td>
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Mesna_1;
+end Mesna;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials;
-package J01DD58_CefiximeAndBetaLactamaseInhibitor
-  extends Icons.Package;
-end J01DD58_CefiximeAndBetaLactamaseInhibitor;

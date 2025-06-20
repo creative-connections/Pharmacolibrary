@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BA01_EncephalitisTickBorneInactivated;
 
-model EncephalitisTickBorneInactivatedWholeVirus
+model EncephalitisTickBorneInactivated
   extends Pharmacolibrary.Drugs.ATC.J.J07BA01;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>EncephalitisTickBorneInac
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end EncephalitisTickBorneInactivatedWholeVirus;
+end EncephalitisTickBorneInactivated;

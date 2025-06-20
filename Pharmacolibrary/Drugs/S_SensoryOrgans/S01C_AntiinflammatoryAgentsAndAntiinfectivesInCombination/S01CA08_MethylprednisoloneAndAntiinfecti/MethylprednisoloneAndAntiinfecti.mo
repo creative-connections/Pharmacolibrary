@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S01C_AntiinflammatoryAgentsAndAntiinfectivesInCombination.S01CA08_MethylprednisoloneAndAntiinfecti;
 
-model MethylprednisoloneAndAntiinfectives
+model MethylprednisoloneAndAntiinfecti
   extends Pharmacolibrary.Drugs.ATC.S.S01CA08;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>MethylprednisoloneAndAnti
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end MethylprednisoloneAndAntiinfectives;
+end MethylprednisoloneAndAntiinfecti;

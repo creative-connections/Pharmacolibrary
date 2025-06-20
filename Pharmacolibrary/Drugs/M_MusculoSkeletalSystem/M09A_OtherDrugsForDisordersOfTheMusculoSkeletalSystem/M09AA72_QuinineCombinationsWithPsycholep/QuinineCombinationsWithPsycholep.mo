@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem.M09AA72_QuinineCombinationsWithPsycholep;
 
-model QuinineCombinationsWithPsycholeptics
+model QuinineCombinationsWithPsycholep
   extends Pharmacolibrary.Drugs.ATC.M.M09AA72;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>QuinineCombinationsWithPs
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end QuinineCombinationsWithPsycholeptics;
+end QuinineCombinationsWithPsycholep;

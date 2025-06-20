@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives;
-package B05XA06_PotassiumPhosphateInclCombinationsWithOtherPotassiumSalts
-  extends Icons.Package;
-end B05XA06_PotassiumPhosphateInclCombinationsWithOtherPotassiumSalts;

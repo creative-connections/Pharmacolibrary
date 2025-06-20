@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07D_BetaBlockingAgentsThiazidesAndOtherDiuretics;
-package C07DB01_AtenololThiazidesAndOtherDiuretics
-  extends Icons.Package;
-end C07DB01_AtenololThiazidesAndOtherDiuretics;

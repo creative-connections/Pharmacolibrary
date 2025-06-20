@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse.G03AA13_NorelgestrominAndEthinylestradio;
 
-model NorelgestrominAndEthinylestradiol
+model NorelgestrominAndEthinylestradio
   extends Pharmacolibrary.Drugs.ATC.G.G03AA13;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>NorelgestrominAndEthinyle
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end NorelgestrominAndEthinylestradiol;
+end NorelgestrominAndEthinylestradio;

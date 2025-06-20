@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AP53_OmbitasvirParitaprevirAndRitonav;
 
-model OmbitasvirParitaprevirAndRitonavir
+model OmbitasvirParitaprevirAndRitonav
   extends Pharmacolibrary.Drugs.ATC.J.J05AP53;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>OmbitasvirParitaprevirAnd
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end OmbitasvirParitaprevirAndRitonavir;
+end OmbitasvirParitaprevirAndRitonav;

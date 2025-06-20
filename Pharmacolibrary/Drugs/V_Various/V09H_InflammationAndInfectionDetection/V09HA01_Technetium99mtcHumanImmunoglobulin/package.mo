@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V09H_InflammationAndInfectionDetection;
-package V09HA01_Technetium99mtcHumanImmunoglobulin
-  extends Icons.Package;
-end V09HA01_Technetium99mtcHumanImmunoglobulin;

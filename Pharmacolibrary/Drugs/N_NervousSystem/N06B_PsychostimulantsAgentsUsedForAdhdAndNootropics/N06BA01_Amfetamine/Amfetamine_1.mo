@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics.N06BA01_Amfetamine;
 
-model Amfetamine_1
+model Amfetamine
   extends Pharmacolibrary.Drugs.ATC.N.N06BA01_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Amfetamine_1</td></tr><tr
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Amfetamine_1;
+end Amfetamine;

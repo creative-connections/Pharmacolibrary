@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.V_Various.V08B_XRayContrastMediaNonIodinated.V08BA01_BariumSulfateWithSuspendingAgent;
 
-model BariumSulfateWithSuspendingAgents
+model BariumSulfateWithSuspendingAgent
   extends Pharmacolibrary.Drugs.ATC.V.V08BA01;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>BariumSulfateWithSuspendi
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end BariumSulfateWithSuspendingAgents;
+end BariumSulfateWithSuspendingAgent;

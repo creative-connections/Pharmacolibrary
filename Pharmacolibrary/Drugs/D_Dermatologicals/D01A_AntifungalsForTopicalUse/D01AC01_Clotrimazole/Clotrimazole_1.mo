@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D01A_AntifungalsForTopicalUse.D01AC01_Clotrimazole;
 
-model Clotrimazole_1
+model Clotrimazole
   extends Pharmacolibrary.Drugs.ATC.D.D01AC01_1;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>Clotrimazole_1</td></tr><
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end Clotrimazole_1;
+end Clotrimazole;

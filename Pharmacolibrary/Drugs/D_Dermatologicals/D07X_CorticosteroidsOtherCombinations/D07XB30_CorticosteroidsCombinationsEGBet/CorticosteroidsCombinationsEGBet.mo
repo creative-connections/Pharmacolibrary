@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D07X_CorticosteroidsOtherCombinations.D07XB30_CorticosteroidsCombinationsEGBet;
 
-model CorticosteroidsCombinationsEGBetamethasoneAndGentamicinTopical
+model CorticosteroidsCombinationsEGBet
   extends Pharmacolibrary.Drugs.ATC.D.D07XB30;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>CorticosteroidsCombinatio
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end CorticosteroidsCombinationsEGBetamethasoneAndGentamicinTopical;
+end CorticosteroidsCombinationsEGBet;

@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D01A_AntifungalsForTopicalUse.D01AE20_CiclopiroxAndZincPyrithioneCombi;
 
-model CiclopiroxAndZincPyrithioneCombination
+model CiclopiroxAndZincPyrithioneCombi
   extends Pharmacolibrary.Drugs.ATC.D.D01AE20;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>CiclopiroxAndZincPyrithio
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end CiclopiroxAndZincPyrithioneCombination;
+end CiclopiroxAndZincPyrithioneCombi;

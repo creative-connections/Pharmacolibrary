@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02A_Antacids;
-package A02AF02_OrdinarySaltCombinationsAndAntiflatulents
-  extends Icons.Package;
-end A02AF02_OrdinarySaltCombinationsAndAntiflatulents;

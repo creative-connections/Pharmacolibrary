@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations.C10BX07_RosuvastatinAmlodipineAndLisinop;
 
-model RosuvastatinAmlodipineAndLisinopril
+model RosuvastatinAmlodipineAndLisinop
   extends Pharmacolibrary.Drugs.ATC.C.C10BX07;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>RosuvastatinAmlodipineAnd
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end RosuvastatinAmlodipineAndLisinopril;
+end RosuvastatinAmlodipineAndLisinop;

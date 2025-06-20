@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12B_Potassium.A12BA30_PotassiumDifferentSaltsInCombina;
 
-model PotassiumDifferentSaltsInCombination
+model PotassiumDifferentSaltsInCombina
   extends Pharmacolibrary.Drugs.ATC.A.A12BA30;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>PotassiumDifferentSaltsIn
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end PotassiumDifferentSaltsInCombination;
+end PotassiumDifferentSaltsInCombina;

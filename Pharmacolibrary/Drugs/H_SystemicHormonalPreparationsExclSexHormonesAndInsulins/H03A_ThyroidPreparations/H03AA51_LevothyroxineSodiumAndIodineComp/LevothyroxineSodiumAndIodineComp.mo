@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03A_ThyroidPreparations.H03AA51_LevothyroxineSodiumAndIodineComp;
 
-model LevothyroxineSodiumAndIodineCompounds
+model LevothyroxineSodiumAndIodineComp
   extends Pharmacolibrary.Drugs.ATC.H.H03AA51;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>LevothyroxineSodiumAndIod
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end LevothyroxineSodiumAndIodineCompounds;
+end LevothyroxineSodiumAndIodineComp;

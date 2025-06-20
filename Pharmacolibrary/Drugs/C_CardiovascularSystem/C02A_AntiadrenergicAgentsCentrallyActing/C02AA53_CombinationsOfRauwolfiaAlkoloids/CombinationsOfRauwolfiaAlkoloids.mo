@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02A_AntiadrenergicAgentsCentrallyActing.C02AA53_CombinationsOfRauwolfiaAlkoloids;
 
-model CombinationsOfRauwolfiaAlkoloidsCombinations
+model CombinationsOfRauwolfiaAlkoloids
   extends Pharmacolibrary.Drugs.ATC.C.C02AA53;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>CombinationsOfRauwolfiaAl
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end CombinationsOfRauwolfiaAlkoloidsCombinations;
+end CombinationsOfRauwolfiaAlkoloids;

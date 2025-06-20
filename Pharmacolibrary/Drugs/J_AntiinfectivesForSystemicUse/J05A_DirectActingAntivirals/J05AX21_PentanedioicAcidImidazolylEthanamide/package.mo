@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
-package J05AX21_PentanedioicAcidImidazolylEthanamide
-  extends Icons.Package;
-end J05AX21_PentanedioicAcidImidazolylEthanamide;

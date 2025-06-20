@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination.C02LG73_PicodralazineAndDiureticsCombina;
 
-model PicodralazineAndDiureticsCombinationsWithPsycholeptics
+model PicodralazineAndDiureticsCombina
   extends Pharmacolibrary.Drugs.ATC.C.C02LG73;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>PicodralazineAndDiuretics
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end PicodralazineAndDiureticsCombinationsWithPsycholeptics;
+end PicodralazineAndDiureticsCombina;

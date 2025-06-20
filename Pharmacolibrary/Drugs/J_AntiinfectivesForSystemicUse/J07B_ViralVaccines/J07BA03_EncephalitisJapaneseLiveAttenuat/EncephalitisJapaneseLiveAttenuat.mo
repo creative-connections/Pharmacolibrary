@@ -1,6 +1,6 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines.J07BA03_EncephalitisJapaneseLiveAttenuat;
 
-model EncephalitisJapaneseLiveAttenuated
+model EncephalitisJapaneseLiveAttenuat
   extends Pharmacolibrary.Drugs.ATC.J.J07BA03;
 
   annotation (Documentation(
@@ -8,4 +8,4 @@ info       = "<html><body><table><tr><td>name:</td><td>EncephalitisJapaneseLiveA
     revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
-end EncephalitisJapaneseLiveAttenuated;
+end EncephalitisJapaneseLiveAttenuat;

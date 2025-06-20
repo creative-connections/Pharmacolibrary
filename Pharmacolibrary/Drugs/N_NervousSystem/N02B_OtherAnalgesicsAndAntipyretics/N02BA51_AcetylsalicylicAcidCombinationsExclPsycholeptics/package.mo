@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics;
-package N02BA51_AcetylsalicylicAcidCombinationsExclPsycholeptics
-  extends Icons.Package;
-end N02BA51_AcetylsalicylicAcidCombinationsExclPsycholeptics;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids;
-package N02AA59_CodeineCombinationsExclPsycholeptics
-  extends Icons.Package;
-end N02AA59_CodeineCombinationsExclPsycholeptics;

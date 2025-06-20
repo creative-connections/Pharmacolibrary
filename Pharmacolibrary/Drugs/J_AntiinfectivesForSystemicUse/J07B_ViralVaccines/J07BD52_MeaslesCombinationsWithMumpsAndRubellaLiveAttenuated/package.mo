@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines;
-package J07BD52_MeaslesCombinationsWithMumpsAndRubellaLiveAttenuated
-  extends Icons.Package;
-end J07BD52_MeaslesCombinationsWithMumpsAndRubellaLiveAttenuated;

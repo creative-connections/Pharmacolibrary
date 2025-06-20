@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins;
-package J01CE30_PhenoxymethylpenicillinAndSulfonamidesCombinations
-  extends Icons.Package;
-end J01CE30_PhenoxymethylpenicillinAndSulfonamidesCombinations;

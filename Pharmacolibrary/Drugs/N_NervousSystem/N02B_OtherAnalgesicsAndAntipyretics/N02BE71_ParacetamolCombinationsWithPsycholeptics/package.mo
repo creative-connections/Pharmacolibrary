@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics;
-package N02BE71_ParacetamolCombinationsWithPsycholeptics
-  extends Icons.Package;
-end N02BE71_ParacetamolCombinationsWithPsycholeptics;
