@@ -17,6 +17,8 @@ model PBPK_whole_body
     Dialog(group = "Tissue Volumes"));
   parameter Real FVki = 0.0044 "kidney fractional tissue volume" annotation(
     Dialog(group = "Tissue Volumes"));
+  parameter Real FVna = 0.01 "nasal mucosa fractional tissue volume" annotation(
+    Dialog(group = "Tissue Volumes"));  
   parameter Real FVli = 0.021 "liver fractional tissue volume" annotation(
     Dialog(group = "Tissue Volumes"));
   parameter Real FVlu = 0.0076 "lung fractional tissue volume" annotation(
@@ -50,6 +52,8 @@ model PBPK_whole_body
   parameter Real FQhe = 0.04 "heart fractional blood flow" annotation(
     Dialog(group = "Tissue Blood Flows"));
   parameter Real FQki = 0.19 "kidney fractional blood flow" annotation(
+    Dialog(group = "Tissue Blood Flows"));
+  parameter Real FQna = 0.01 "nasal mucosa fractional blood flow" annotation(
     Dialog(group = "Tissue Blood Flows"));
   parameter Real FQh = 0.215385 "hepatic (venous side) fractional blood flow" annotation(
     Dialog(group = "Tissue Blood Flows"));
@@ -87,6 +91,8 @@ model PBPK_whole_body
     Dialog(group = "Concentration Ratios"));
   parameter Real kTBki = 1.35 "kidney tissue to blood concentration ratio" annotation(
     Dialog(group = "Concentration Ratios"));
+  parameter Real kTBna = 0.7 "nasal mucosa tissue to blood concentration ratio" annotation(
+    Dialog(group = "Concentration Ratios"));  
   parameter Real kTBte = 0.7 "testes tissue to blood concentration ratio" annotation(
     Dialog(group = "Concentration Ratios"));
   parameter Real kTBre = 0.8 "rest of body tissue to blood concentration ratio" annotation(
@@ -153,7 +159,7 @@ model PBPK_whole_body
     Placement(transformation(origin = {0, 100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {32, 100}, extent = {{-10, -10}, {10, 10}})));
   Interfaces.ConcentrationPort_a inhalationDose annotation(
     Placement(transformation(origin = {-44, 100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-44, 100}, extent = {{-10, -10}, {10, 10}})));
-  TissueCompartment testes(V = BW/ro*FVte, kTB = kTBte) annotation(
+  TissueCompartment gonads(V = BW/ro*FVte, kTB = kTBte) annotation(
     Placement(transformation(origin = {-20, -122}, extent = {{-10, -10}, {10, 10}})));
   FixedFlow testesFlow(Q = CO*FQte) annotation(
     Placement(transformation(origin = {16, -124}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
@@ -165,6 +171,20 @@ model PBPK_whole_body
     Placement(transformation(origin = {50, -30}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
   LumenCompartment lumenCompartment annotation(
     Placement(transformation(origin = {50, 38}, extent = {{-10, -10}, {10, 10}})));
+  Sources.PeriodicDose_Enteral periodicOralDose(adminMass = 0, doseCount = 1, ka = 0.0016666666666666668)  annotation(
+    Placement(transformation(origin = {92, -44}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacolibrary.Sources.PeriodicDose_Enteral periodicIMDose(adminMass = 0, doseCount = 1)  annotation(
+    Placement(transformation(origin = {46, 2}, extent = {{-10, -10}, {10, 10}})));
+  Sources.PeriodicDose periodicIVDose(adminMass = 0, doseCount = 1)  annotation(
+    Placement(transformation(origin = {-106, 60}, extent = {{-10, -10}, {10, 10}})));
+  Sources.PeriodicDose periodicIADose(adminMass = 0, doseCount = 1)  annotation(
+    Placement(transformation(origin = {78, 50}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacolibrary.Pharmacokinetic.TissueCompartment nasal_mucosa(V = BW/ro*FVna, kTB = kTBna) annotation(
+    Placement(transformation(origin = {34, 76}, extent = {{-10, -10}, {10, 10}})));
+  Pharmacolibrary.Pharmacokinetic.FixedFlow adiposeFlow1(Q = CO*FQna) annotation(
+    Placement(transformation(origin = {62, 76}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  Pharmacolibrary.Sources.PeriodicDose_Enteral periodicNasalDose(adminMass = 0, doseCount = 1, ka=0.0016666666666666668) annotation(
+    Placement(transformation(origin = {66, 104}, extent = {{-10, -10}, {10, 10}})));
 equation
   connect(flowGround.port_a, venous.port_a) annotation(
     Line(points = {{-80, 0}, {-80, 26}}, color = {204, 0, 0}));
@@ -242,11 +262,11 @@ equation
     Line(points = {{100, 0}, {98, 0}, {98, 32}, {78, 32}}));
   connect(inhalationDose, lungs.cport) annotation(
     Line(points = {{-44, 100}, {-20, 100}, {-20, 98}}));
-  connect(testesFlow.port_b, testes.port_b) annotation(
+  connect(testesFlow.port_b, gonads.port_b) annotation(
     Line(points = {{6, -124}, {-10, -124}, {-10, -122}}, color = {204, 0, 0}));
   connect(testesFlow.port_a, arterial.port_a) annotation(
     Line(points = {{26, -124}, {68, -124}, {68, 22}}, color = {204, 0, 0}));
-  connect(testes.port_a, venous.port_b) annotation(
+  connect(gonads.port_a, venous.port_b) annotation(
     Line(points = {{-30, -122}, {-80, -122}, {-80, -22}, {-50, -22}, {-50, 26}, {-60, 26}}, color = {204, 0, 0}));
   connect(restFlow.port_b, rest.port_b) annotation(
     Line(points = {{4, -144}, {-10, -144}}, color = {204, 0, 0}));
@@ -260,7 +280,24 @@ equation
     Line(points = {{0, 100}, {50, 100}, {50, 48}}));
   connect(unidirectionalTransport.cport_b, lumenCompartment.cport) annotation(
     Line(points = {{50, -20}, {50, 48}}, color = {114, 159, 207}));
+  connect(periodicOralDose.cport, gut.cport) annotation(
+    Line(points = {{92, -54}, {10, -54}, {10, -56}}, color = {114, 159, 207}));
+  connect(periodicIMDose.cport, muscle.cport) annotation(
+    Line(points = {{46, -8}, {-20, -8}, {-20, -20}}, color = {114, 159, 207}));
+  connect(periodicIADose.cport, arterial.cport) annotation(
+    Line(points = {{78, 40}, {78, 32}}, color = {114, 159, 207}));
+  connect(periodicIVDose.cport, venous.cport) annotation(
+    Line(points = {{-106, 50}, {-70, 50}, {-70, 36}}, color = {114, 159, 207}));
+  connect(arterial.port_a, adiposeFlow1.port_a) annotation(
+    Line(points = {{68, 22}, {68, 76}, {72, 76}}, color = {204, 0, 0}));
+  connect(adiposeFlow1.port_b, nasal_mucosa.port_b) annotation(
+    Line(points = {{52, 76}, {44, 76}}, color = {204, 0, 0}));
+  connect(nasal_mucosa.port_a, venous.port_b) annotation(
+    Line(points = {{24, 76}, {-50, 76}, {-50, 26}, {-60, 26}}, color = {204, 0, 0}));
+  connect(nasal_mucosa.cport, periodicNasalDose.cport) annotation(
+    Line(points = {{34, 86}, {34, 94}, {66, 94}}, color = {114, 159, 207}));
   annotation(
     Icon(graphics = {Line(origin = {86.52, -0.98}, points = {{-50, 0}, {8, 0}}, color = {237, 51, 59}, thickness = 4), Line(origin = {21.7814, 86.6624}, points = {{8, 7}, {8, -7}, {-8, -7}, {-20, -7}}, color = {255, 163, 72}, thickness = 4, smooth = Smooth.Bezier), Line(origin = {-31.926, 84.8971}, points = {{-11, 9}, {-11, -1}, {29, -1}}, color = {153, 193, 241}, thickness = 4, smooth = Smooth.Bezier), Line(origin = {-41.49, -0.68}, points = {{-50, 0}, {8, 0}}, color = {53, 132, 228}, thickness = 4)}, coordinateSystem(extent = {{-100, -160}, {100, 100}})),
-  Diagram(coordinateSystem(extent = {{-100, -160}, {100, 100}})));
+  Diagram(coordinateSystem(extent = {{-100, -160}, {100, 100}})),
+  experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 173.146));
 end PBPK_whole_body;
