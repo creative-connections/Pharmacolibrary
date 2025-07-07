@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonStero;
+package M01AH02_Rofecoxib
+  extends Icons.PackageDrugs;
+end M01AH02_Rofecoxib;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines;
+package J07BH02_RotaVirusPentavalentLive
+  extends Icons.PackageDrugs;
+end J07BH02_RotaVirusPentavalentLive;

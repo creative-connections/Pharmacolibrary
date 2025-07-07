@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases;
+package P01AB51_MetronidazoleAndFurazoli
+  extends Icons.PackageDrugs;
+end P01AB51_MetronidazoleAndFurazoli;

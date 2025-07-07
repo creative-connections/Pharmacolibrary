@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03F_ProgestogensAndEstrogensInCombination;
+package G03FA02_HydroxyprogesteroneAndEs
+  extends Icons.PackageDrugs;
+end G03FA02_HydroxyprogesteroneAndEs;

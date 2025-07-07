@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem;
+package C03D_AldosteroneAntagonistsAndOtherPotassiumSparingAg
+  extends Icons.PackageDrugs;
+end C03D_AldosteroneAntagonistsAndOtherPotassiumSparingAg;

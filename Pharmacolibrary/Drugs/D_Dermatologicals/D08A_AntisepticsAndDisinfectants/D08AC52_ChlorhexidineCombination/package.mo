@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants;
+package D08AC52_ChlorhexidineCombination
+  extends Icons.PackageDrugs;
+end D08AC52_ChlorhexidineCombination;

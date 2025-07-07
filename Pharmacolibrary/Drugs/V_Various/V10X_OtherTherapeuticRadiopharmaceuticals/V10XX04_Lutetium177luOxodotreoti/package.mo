@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V10X_OtherTherapeuticRadiopharmaceuticals;
+package V10XX04_Lutetium177luOxodotreoti
+  extends Icons.PackageDrugs;
+end V10XX04_Lutetium177luOxodotreoti;

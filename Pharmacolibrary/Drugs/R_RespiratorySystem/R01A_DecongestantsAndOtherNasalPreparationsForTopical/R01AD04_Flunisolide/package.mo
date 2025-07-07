@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopical;
+package R01AD04_Flunisolide
+  extends Icons.PackageDrugs;
+end R01AD04_Flunisolide;

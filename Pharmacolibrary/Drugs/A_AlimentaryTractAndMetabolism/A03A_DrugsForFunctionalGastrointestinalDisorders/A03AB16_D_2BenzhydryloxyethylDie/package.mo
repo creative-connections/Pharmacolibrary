@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders;
+package A03AB16_D_2BenzhydryloxyethylDie
+  extends Icons.PackageDrugs;
+end A03AB16_D_2BenzhydryloxyethylDie;

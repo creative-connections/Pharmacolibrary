@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines;
+package J07AK01_PlagueInactivatedWholeCe
+  extends Icons.PackageDrugs;
+end J07AK01_PlagueInactivatedWholeCe;

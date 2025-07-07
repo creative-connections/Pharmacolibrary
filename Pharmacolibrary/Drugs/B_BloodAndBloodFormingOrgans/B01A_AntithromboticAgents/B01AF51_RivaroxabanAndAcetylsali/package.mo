@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents;
+package B01AF51_RivaroxabanAndAcetylsali
+  extends Icons.PackageDrugs;
+end B01AF51_RivaroxabanAndAcetylsali;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics;
+package N02BA75_SalicylamideCombinations
+  extends Icons.PackageDrugs;
+end N02BA75_SalicylamideCombinations;

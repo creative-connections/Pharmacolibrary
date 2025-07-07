@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07C_CorticosteroidsCombinationsWithAntibiotics;
+package D07CA03_PrednisoloneAndAntibioti
+  extends Icons.PackageDrugs;
+end D07CA03_PrednisoloneAndAntibioti;

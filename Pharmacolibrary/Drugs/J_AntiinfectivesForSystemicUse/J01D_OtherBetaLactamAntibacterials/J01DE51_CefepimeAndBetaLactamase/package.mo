@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials;
+package J01DE51_CefepimeAndBetaLactamase
+  extends Icons.PackageDrugs;
+end J01DE51_CefepimeAndBetaLactamase;

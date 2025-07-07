@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse;
+package R06AD55_Hydroxyethylpromethazine
+  extends Icons.PackageDrugs;
+end R06AD55_Hydroxyethylpromethazine;

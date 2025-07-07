@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07C_BetaBlockingAgentsAndOtherDiuretics;
+package C07CA23_PenbutololAndOtherDiuret
+  extends Icons.PackageDrugs;
+end C07CA23_PenbutololAndOtherDiuret;

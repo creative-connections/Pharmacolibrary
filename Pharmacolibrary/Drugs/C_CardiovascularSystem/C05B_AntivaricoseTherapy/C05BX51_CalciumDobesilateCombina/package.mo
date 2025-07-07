@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05B_AntivaricoseTherapy;
+package C05BX51_CalciumDobesilateCombina
+  extends Icons.PackageDrugs;
+end C05BX51_CalciumDobesilateCombina;

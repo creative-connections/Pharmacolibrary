@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R07A_OtherRespiratorySystemProducts;
+package R07AA30_CarbonDioxideAndOxygenCo
+  extends Icons.PackageDrugs;
+end R07AA30_CarbonDioxideAndOxygenCo;

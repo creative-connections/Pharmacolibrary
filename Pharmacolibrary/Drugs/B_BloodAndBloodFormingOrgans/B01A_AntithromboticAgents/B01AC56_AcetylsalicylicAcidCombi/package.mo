@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents;
+package B01AC56_AcetylsalicylicAcidCombi
+  extends Icons.PackageDrugs;
+end B01AC56_AcetylsalicylicAcidCombi;

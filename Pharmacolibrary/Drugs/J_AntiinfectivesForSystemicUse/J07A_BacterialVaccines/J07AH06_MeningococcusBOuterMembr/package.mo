@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines;
+package J07AH06_MeningococcusBOuterMembr
+  extends Icons.PackageDrugs;
+end J07AH06_MeningococcusBOuterMembr;

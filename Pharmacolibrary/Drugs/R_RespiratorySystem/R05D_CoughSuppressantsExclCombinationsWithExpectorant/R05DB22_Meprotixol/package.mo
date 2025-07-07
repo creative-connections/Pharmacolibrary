@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorant;
+package R05DB22_Meprotixol
+  extends Icons.PackageDrugs;
+end R05DB22_Meprotixol;

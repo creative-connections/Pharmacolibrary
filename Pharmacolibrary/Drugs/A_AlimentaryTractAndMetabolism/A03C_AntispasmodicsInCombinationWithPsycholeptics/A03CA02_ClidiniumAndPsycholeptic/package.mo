@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03C_AntispasmodicsInCombinationWithPsycholeptics;
+package A03CA02_ClidiniumAndPsycholeptic
+  extends Icons.PackageDrugs;
+end A03CA02_ClidiniumAndPsycholeptic;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDis;
+package A02BC51_OmeprazoleCombinations
+  extends Icons.PackageDrugs;
+end A02BC51_OmeprazoleCombinations;

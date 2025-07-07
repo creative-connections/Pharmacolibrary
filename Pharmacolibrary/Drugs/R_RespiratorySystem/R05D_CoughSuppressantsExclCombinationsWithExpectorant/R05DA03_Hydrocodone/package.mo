@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorant;
+package R05DA03_Hydrocodone
+  extends Icons.PackageDrugs;
+end R05DA03_Hydrocodone;

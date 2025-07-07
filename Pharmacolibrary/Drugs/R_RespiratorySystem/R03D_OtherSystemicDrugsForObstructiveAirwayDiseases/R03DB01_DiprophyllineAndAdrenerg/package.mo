@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases;
+package R03DB01_DiprophyllineAndAdrenerg
+  extends Icons.PackageDrugs;
+end R03DB01_DiprophyllineAndAdrenerg;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08C_SelectiveCalciumChannelBlockersWithMainlyVascula;
+package C08CA06_Nimodipine
+  extends Icons.PackageDrugs;
+end C08CA06_Nimodipine;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations;
+package C10BA08_AtorvastatinAndOmega3Fat
+  extends Icons.PackageDrugs;
+end C10BA08_AtorvastatinAndOmega3Fat;

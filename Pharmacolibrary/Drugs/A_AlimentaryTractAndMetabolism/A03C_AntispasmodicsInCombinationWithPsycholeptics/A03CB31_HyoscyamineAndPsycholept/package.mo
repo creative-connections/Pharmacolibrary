@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03C_AntispasmodicsInCombinationWithPsycholeptics;
+package A03CB31_HyoscyamineAndPsycholept
+  extends Icons.PackageDrugs;
+end A03CB31_HyoscyamineAndPsycholept;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorant;
+package R05DA07_Noscapine
+  extends Icons.PackageDrugs;
+end R05DA07_Noscapine;

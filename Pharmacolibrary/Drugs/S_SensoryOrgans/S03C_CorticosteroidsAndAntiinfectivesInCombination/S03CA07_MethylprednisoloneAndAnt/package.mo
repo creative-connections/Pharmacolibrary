@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S03C_CorticosteroidsAndAntiinfectivesInCombination;
+package S03CA07_MethylprednisoloneAndAnt
+  extends Icons.PackageDrugs;
+end S03CA07_MethylprednisoloneAndAnt;

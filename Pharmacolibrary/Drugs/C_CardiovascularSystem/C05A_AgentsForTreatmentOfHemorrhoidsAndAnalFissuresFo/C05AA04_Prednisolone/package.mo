@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresFo;
+package C05AA04_Prednisolone
+  extends Icons.PackageDrugs;
+end C05AA04_Prednisolone;

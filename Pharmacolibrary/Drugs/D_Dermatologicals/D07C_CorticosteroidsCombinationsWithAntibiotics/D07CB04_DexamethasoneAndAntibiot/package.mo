@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07C_CorticosteroidsCombinationsWithAntibiotics;
+package D07CB04_DexamethasoneAndAntibiot
+  extends Icons.PackageDrugs;
+end D07CB04_DexamethasoneAndAntibiot;

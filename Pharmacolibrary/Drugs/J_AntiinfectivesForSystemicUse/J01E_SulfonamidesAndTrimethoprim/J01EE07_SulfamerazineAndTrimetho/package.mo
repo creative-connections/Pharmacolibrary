@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim;
+package J01EE07_SulfamerazineAndTrimetho
+  extends Icons.PackageDrugs;
+end J01EE07_SulfamerazineAndTrimetho;

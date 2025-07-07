@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressant;
+package R05CB06_Ambroxol
+  extends Icons.PackageDrugs;
+end R05CB06_Ambroxol;

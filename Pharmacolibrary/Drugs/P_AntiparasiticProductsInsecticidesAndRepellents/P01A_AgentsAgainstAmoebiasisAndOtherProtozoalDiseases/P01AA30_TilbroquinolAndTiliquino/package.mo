@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases;
+package P01AA30_TilbroquinolAndTiliquino
+  extends Icons.PackageDrugs;
+end P01AA30_TilbroquinolAndTiliquino;

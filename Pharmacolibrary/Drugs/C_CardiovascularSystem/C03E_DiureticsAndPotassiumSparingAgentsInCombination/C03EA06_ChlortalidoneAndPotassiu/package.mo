@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03E_DiureticsAndPotassiumSparingAgentsInCombination;
+package C03EA06_ChlortalidoneAndPotassiu
+  extends Icons.PackageDrugs;
+end C03EA06_ChlortalidoneAndPotassiu;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12B_Potassium;
+package A12BA51_PotassiumChlorideCombina
+  extends Icons.PackageDrugs;
+end A12BA51_PotassiumChlorideCombina;

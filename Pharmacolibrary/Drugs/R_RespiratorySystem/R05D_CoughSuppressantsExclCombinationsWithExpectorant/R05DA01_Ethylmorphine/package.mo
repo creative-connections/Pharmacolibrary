@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorant;
+package R05DA01_Ethylmorphine
+  extends Icons.PackageDrugs;
+end R05DA01_Ethylmorphine;

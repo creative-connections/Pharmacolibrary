@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonStero;
+package M01AX18_Feprazone
+  extends Icons.PackageDrugs;
+end M01AX18_Feprazone;

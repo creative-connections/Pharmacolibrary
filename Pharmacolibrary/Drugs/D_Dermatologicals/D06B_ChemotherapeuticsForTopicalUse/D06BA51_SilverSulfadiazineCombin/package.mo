@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D06B_ChemotherapeuticsForTopicalUse;
+package D06BA51_SilverSulfadiazineCombin
+  extends Icons.PackageDrugs;
+end D06BA51_SilverSulfadiazineCombin;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11D_VitaminB1PlainAndInCombinationWithVitaminB6AndB1;
+package A11DA03_Benfotiamine
+  extends Icons.PackageDrugs;
+end A11DA03_Benfotiamine;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWith;
+package G01AA05_Chloramphenicol
+  extends Icons.PackageDrugs;
+end G01AA05_Chloramphenicol;

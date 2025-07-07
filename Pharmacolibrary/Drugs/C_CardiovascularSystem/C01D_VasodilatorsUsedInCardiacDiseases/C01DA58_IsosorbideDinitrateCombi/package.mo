@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases;
+package C01DA58_IsosorbideDinitrateCombi
+  extends Icons.PackageDrugs;
+end C01DA58_IsosorbideDinitrateCombi;

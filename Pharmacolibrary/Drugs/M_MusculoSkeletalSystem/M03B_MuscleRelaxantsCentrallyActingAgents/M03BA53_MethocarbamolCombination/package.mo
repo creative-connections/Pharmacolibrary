@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents;
+package M03BA53_MethocarbamolCombination
+  extends Icons.PackageDrugs;
+end M03BA53_MethocarbamolCombination;

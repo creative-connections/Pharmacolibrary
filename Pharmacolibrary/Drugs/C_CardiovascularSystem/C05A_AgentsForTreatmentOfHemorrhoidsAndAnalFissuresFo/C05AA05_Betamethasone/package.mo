@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresFo;
+package C05AA05_Betamethasone
+  extends Icons.PackageDrugs;
+end C05AA05_Betamethasone;

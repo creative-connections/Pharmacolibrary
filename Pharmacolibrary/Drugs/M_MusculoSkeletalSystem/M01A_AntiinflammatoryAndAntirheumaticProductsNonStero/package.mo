@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem;
+package M01A_AntiinflammatoryAndAntirheumaticProductsNonStero
+  extends Icons.PackageDrugs;
+end M01A_AntiinflammatoryAndAntirheumaticProductsNonStero;

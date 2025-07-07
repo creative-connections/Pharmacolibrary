@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02A_Antacids;
+package A02AB04_DihydroxialuminiSodiumCa
+  extends Icons.PackageDrugs;
+end A02AB04_DihydroxialuminiSodiumCa;

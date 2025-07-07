@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations;
+package C09BB02_EnalaprilAndLercanidipin
+  extends Icons.PackageDrugs;
+end C09BB02_EnalaprilAndLercanidipin;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopical;
+package R01AX06_Mupirocin
+  extends Icons.PackageDrugs;
+end R01AX06_Mupirocin;

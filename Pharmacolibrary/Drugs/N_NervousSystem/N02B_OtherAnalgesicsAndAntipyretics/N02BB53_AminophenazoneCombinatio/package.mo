@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics;
+package N02BB53_AminophenazoneCombinatio
+  extends Icons.PackageDrugs;
+end N02BB53_AminophenazoneCombinatio;

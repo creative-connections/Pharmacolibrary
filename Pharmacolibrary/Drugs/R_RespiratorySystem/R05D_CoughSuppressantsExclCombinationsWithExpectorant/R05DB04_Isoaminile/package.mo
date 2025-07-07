@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorant;
+package R05DB04_Isoaminile
+  extends Icons.PackageDrugs;
+end R05DB04_Isoaminile;

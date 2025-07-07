@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J06B_Immunoglobulins;
+package J06BA01_ImmunoglobulinsNormalHum
+  extends Icons.PackageDrugs;
+end J06BA01_ImmunoglobulinsNormalHum;

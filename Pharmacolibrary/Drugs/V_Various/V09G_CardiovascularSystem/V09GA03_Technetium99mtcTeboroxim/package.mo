@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V09G_CardiovascularSystem;
+package V09GA03_Technetium99mtcTeboroxim
+  extends Icons.PackageDrugs;
+end V09GA03_Technetium99mtcTeboroxim;

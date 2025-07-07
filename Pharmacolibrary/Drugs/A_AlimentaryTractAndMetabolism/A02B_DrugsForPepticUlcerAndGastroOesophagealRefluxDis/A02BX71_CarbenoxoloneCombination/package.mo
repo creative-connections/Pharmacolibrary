@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDis;
+package A02BX71_CarbenoxoloneCombination
+  extends Icons.PackageDrugs;
+end A02BX71_CarbenoxoloneCombination;

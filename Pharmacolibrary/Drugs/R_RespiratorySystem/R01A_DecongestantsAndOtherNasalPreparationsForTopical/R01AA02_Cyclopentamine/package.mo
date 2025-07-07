@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopical;
+package R01AA02_Cyclopentamine
+  extends Icons.PackageDrugs;
+end R01AA02_Cyclopentamine;

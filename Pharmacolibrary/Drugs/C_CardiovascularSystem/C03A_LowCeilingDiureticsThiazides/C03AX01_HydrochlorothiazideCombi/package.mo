@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03A_LowCeilingDiureticsThiazides;
+package C03AX01_HydrochlorothiazideCombi
+  extends Icons.PackageDrugs;
+end C03AX01_HydrochlorothiazideCombi;

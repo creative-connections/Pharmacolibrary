@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V09G_CardiovascularSystem;
+package V09GA02_Technetium99mtcTetrofosm
+  extends Icons.PackageDrugs;
+end V09GA02_Technetium99mtcTetrofosm;

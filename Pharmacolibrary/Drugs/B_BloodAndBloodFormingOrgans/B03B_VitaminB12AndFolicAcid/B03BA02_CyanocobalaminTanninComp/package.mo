@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03B_VitaminB12AndFolicAcid;
+package B03BA02_CyanocobalaminTanninComp
+  extends Icons.PackageDrugs;
+end B03BA02_CyanocobalaminTanninComp;

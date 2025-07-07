@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D04A_AntipruriticsInclAntihistaminesAnestheticsEtc;
+package D04AA33_DiphenhydramineMethylbro
+  extends Icons.PackageDrugs;
+end D04AA33_DiphenhydramineMethylbro;

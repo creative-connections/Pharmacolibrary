@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWith;
+package G01AA10_Clindamycin
+  extends Icons.PackageDrugs;
+end G01AA10_Clindamycin;

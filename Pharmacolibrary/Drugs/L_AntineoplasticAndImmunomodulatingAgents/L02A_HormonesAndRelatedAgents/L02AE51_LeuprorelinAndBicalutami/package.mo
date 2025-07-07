@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02A_HormonesAndRelatedAgents;
+package L02AE51_LeuprorelinAndBicalutami
+  extends Icons.PackageDrugs;
+end L02AE51_LeuprorelinAndBicalutami;

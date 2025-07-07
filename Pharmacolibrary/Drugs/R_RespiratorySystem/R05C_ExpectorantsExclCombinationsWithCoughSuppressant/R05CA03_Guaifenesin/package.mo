@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressant;
+package R05CA03_Guaifenesin
+  extends Icons.PackageDrugs;
+end R05CA03_Guaifenesin;

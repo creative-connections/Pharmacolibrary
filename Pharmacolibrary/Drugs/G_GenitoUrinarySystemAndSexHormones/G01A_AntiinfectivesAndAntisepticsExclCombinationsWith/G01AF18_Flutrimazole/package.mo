@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWith;
+package G01AF18_Flutrimazole
+  extends Icons.PackageDrugs;
+end G01AF18_Flutrimazole;

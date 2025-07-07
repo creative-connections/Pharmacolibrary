@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresFo;
+package C05AE03_Diltiazem
+  extends Icons.PackageDrugs;
+end C05AE03_Diltiazem;

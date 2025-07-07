@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01B_AntiinflammatoryAntirheumaticAgentsInCombination;
+package M01BA01_PhenylbutazoneAndCortico
+  extends Icons.PackageDrugs;
+end M01BA01_PhenylbutazoneAndCortico;

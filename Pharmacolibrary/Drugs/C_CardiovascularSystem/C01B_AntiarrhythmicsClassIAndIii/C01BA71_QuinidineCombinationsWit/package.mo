@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01B_AntiarrhythmicsClassIAndIii;
+package C01BA71_QuinidineCombinationsWit
+  extends Icons.PackageDrugs;
+end C01BA71_QuinidineCombinationsWit;

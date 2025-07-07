@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopical;
+package R01AC08_Olopatadine
+  extends Icons.PackageDrugs;
+end R01AC08_Olopatadine;

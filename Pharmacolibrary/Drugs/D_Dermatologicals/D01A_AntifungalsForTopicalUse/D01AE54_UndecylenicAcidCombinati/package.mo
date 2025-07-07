@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D01A_AntifungalsForTopicalUse;
+package D01AE54_UndecylenicAcidCombinati
+  extends Icons.PackageDrugs;
+end D01AE54_UndecylenicAcidCombinati;

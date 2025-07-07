@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials;
+package P01BF01_ArtemetherAndLumefantrin
+  extends Icons.PackageDrugs;
+end P01BF01_ArtemetherAndLumefantrin;

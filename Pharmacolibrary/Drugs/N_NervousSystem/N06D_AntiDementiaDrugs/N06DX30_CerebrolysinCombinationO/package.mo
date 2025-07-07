@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06D_AntiDementiaDrugs;
+package N06DX30_CerebrolysinCombinationO
+  extends Icons.PackageDrugs;
+end N06DX30_CerebrolysinCombinationO;

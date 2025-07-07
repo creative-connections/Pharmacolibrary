@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWith;
+package G01AD03_AscorbicAcid
+  extends Icons.PackageDrugs;
+end G01AD03_AscorbicAcid;

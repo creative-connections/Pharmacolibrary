@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01B_NasalDecongestantsForSystemicUse;
+package R01BA52_PseudoephedrineCombinati
+  extends Icons.PackageDrugs;
+end R01BA52_PseudoephedrineCombinati;

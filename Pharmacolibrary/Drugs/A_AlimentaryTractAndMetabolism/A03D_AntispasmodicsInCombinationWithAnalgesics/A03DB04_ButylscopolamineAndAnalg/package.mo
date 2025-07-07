@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03D_AntispasmodicsInCombinationWithAnalgesics;
+package A03DB04_ButylscopolamineAndAnalg
+  extends Icons.PackageDrugs;
+end A03DB04_ButylscopolamineAndAnalg;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations;
+package B03AE02_IronMultivitaminsAndFoli
+  extends Icons.PackageDrugs;
+end B03AE02_IronMultivitaminsAndFoli;

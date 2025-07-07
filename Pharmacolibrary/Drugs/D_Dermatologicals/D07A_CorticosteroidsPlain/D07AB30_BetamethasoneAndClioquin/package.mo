@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.D_Dermatologicals.D07A_CorticosteroidsPlain;
+package D07AB30_BetamethasoneAndClioquin
+  extends Icons.PackageDrugs;
+end D07AB30_BetamethasoneAndClioquin;

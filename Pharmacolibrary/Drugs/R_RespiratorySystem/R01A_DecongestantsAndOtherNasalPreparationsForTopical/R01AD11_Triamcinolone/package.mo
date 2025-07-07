@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopical;
+package R01AD11_Triamcinolone
+  extends Icons.PackageDrugs;
+end R01AD11_Triamcinolone;

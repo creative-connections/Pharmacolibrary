@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines;
+package J07AJ01_PertussisInactivatedWhol
+  extends Icons.PackageDrugs;
+end J07AJ01_PertussisInactivatedWhol;

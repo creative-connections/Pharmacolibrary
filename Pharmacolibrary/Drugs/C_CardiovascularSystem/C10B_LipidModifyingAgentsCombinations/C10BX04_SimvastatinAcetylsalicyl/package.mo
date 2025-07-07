@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations;
+package C10BX04_SimvastatinAcetylsalicyl
+  extends Icons.PackageDrugs;
+end C10BX04_SimvastatinAcetylsalicyl;

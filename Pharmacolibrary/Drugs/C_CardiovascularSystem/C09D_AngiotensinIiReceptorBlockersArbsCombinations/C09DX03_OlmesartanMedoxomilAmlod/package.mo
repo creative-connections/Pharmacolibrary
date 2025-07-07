@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations;
+package C09DX03_OlmesartanMedoxomilAmlod
+  extends Icons.PackageDrugs;
+end C09DX03_OlmesartanMedoxomilAmlod;

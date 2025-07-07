@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05B_IVSolutions;
+package B05BB02_ElectrolytesWithCarbohyd
+  extends Icons.PackageDrugs;
+end B05BB02_ElectrolytesWithCarbohyd;

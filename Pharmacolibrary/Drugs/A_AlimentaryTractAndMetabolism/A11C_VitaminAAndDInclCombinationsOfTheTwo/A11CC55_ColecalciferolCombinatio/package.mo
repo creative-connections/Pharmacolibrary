@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11C_VitaminAAndDInclCombinationsOfTheTwo;
+package A11CC55_ColecalciferolCombinatio
+  extends Icons.PackageDrugs;
+end A11CC55_ColecalciferolCombinatio;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07C_BetaBlockingAgentsAndOtherDiuretics;
+package C07CG01_LabetalolAndOtherDiureti
+  extends Icons.PackageDrugs;
+end C07CG01_LabetalolAndOtherDiureti;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines;
+package J07AM51_TetanusToxoidCombination
+  extends Icons.PackageDrugs;
+end J07AM51_TetanusToxoidCombination;

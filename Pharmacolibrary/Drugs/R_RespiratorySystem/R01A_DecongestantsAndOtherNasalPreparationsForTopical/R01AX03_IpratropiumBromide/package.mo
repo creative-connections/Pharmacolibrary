@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopical;
+package R01AX03_IpratropiumBromide
+  extends Icons.PackageDrugs;
+end R01AX03_IpratropiumBromide;

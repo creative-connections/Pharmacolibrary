@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations;
+package B03AE01_IronVitaminB12AndFolicAc
+  extends Icons.PackageDrugs;
+end B03AE01_IronVitaminB12AndFolicAc;

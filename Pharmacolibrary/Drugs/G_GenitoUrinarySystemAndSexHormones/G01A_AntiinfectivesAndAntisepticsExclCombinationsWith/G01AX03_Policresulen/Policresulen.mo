@@ -1,0 +1,11 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWith.G01AX03_Policresulen;
+
+model Policresulen
+  extends Pharmacolibrary.Drugs.ATC.G.G01AX03;
+
+  annotation (Documentation(
+info       = "<html><body><table><tr><td>name:</td><td>Policresulen</td></tr><tr><td>ATC code:</td><td>G01AX03</td></tr><td>route:</td><td>topical</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Policresulen is an organic acid with antiseptic and hemostatic properties, primarily used topically in gynecology (e.g. for treatment of cervicitis or vaginitis) and proctology for conditions involving mucous membrane lesions. It is not absorbed systemically in clinically relevant amounts and is not approved for use in the United States and many countries but is used in several European, Asian, and Latin American countries. It is used as a local agent for the treatment of infected mucous membranes and wounds.</p><h4>Pharmacokinetics</h4><p>No published clinical pharmacokinetic studies or parameter data for policresulen in humans; it is generally considered to act locally with negligible systemic absorption.</p><h4>References</h4><ol></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
+    experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
+  ));
+end Policresulen;

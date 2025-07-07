@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresFo;
+package C05AA06_Fluorometholone
+  extends Icons.PackageDrugs;
+end C05AA06_Fluorometholone;

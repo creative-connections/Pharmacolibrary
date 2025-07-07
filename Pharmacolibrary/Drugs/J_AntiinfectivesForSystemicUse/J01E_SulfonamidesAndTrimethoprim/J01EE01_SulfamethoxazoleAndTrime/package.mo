@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim;
+package J01EE01_SulfamethoxazoleAndTrime
+  extends Icons.PackageDrugs;
+end J01EE01_SulfamethoxazoleAndTrime;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01C_AntiinflammatoryAgentsAndAntiinfectivesInCombina;
+package S01CA04_FluocortoloneAndAntiinfe
+  extends Icons.PackageDrugs;
+end S01CA04_FluocortoloneAndAntiinfe;

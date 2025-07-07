@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases;
+package R03DB04_TheophyllineAndAdrenergi
+  extends Icons.PackageDrugs;
+end R03DB04_TheophyllineAndAdrenergi;

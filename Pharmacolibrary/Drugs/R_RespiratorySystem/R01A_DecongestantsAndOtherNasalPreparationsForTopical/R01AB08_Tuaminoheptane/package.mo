@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopical;
+package R01AB08_Tuaminoheptane
+  extends Icons.PackageDrugs;
+end R01AB08_Tuaminoheptane;

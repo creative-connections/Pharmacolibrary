@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts;
+package V03AE10_SodiumZirconiumCyclosili
+  extends Icons.PackageDrugs;
+end V03AE10_SodiumZirconiumCyclosili;

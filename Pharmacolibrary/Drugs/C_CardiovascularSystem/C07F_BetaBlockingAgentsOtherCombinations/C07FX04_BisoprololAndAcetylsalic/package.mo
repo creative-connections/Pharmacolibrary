@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07F_BetaBlockingAgentsOtherCombinations;
+package C07FX04_BisoprololAndAcetylsalic
+  extends Icons.PackageDrugs;
+end C07FX04_BisoprololAndAcetylsalic;

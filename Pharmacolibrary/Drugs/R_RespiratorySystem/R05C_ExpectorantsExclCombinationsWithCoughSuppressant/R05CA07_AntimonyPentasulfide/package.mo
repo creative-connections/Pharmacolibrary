@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressant;
+package R05CA07_AntimonyPentasulfide
+  extends Icons.PackageDrugs;
+end R05CA07_AntimonyPentasulfide;

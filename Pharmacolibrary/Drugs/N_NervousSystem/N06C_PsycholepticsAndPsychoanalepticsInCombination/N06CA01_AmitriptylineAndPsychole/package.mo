@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.N_NervousSystem.N06C_PsycholepticsAndPsychoanalepticsInCombination;
+package N06CA01_AmitriptylineAndPsychole
+  extends Icons.PackageDrugs;
+end N06CA01_AmitriptylineAndPsychole;

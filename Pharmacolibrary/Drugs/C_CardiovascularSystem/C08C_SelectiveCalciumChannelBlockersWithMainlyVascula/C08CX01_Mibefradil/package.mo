@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08C_SelectiveCalciumChannelBlockersWithMainlyVascula;
+package C08CX01_Mibefradil
+  extends Icons.PackageDrugs;
+end C08CX01_Mibefradil;

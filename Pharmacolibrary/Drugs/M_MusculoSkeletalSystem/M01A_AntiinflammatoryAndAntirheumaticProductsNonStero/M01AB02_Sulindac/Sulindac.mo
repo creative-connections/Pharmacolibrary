@@ -1,0 +1,11 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonStero.M01AB02_Sulindac;
+
+model Sulindac
+  extends Pharmacolibrary.Drugs.ATC.M.M01AB02;
+
+  annotation (Documentation(
+info       = "<html><body><table><tr><td>name:</td><td>Sulindac</td></tr><tr><td>ATC code:</td><td>M01AB02</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Sulindac is a non-steroidal anti-inflammatory drug (NSAID) used to treat pain and inflammation associated with conditions such as osteoarthritis, rheumatoid arthritis, ankylosing spondylitis, and acute gouty arthritis. It is approved for use in several countries and remains in clinical use.</p><h4>Pharmacokinetics</h4><p>Healthy adult volunteers, following single oral dose administration.</p><h4>References</h4><ol><li><p>Sung, JW, et al., &amp; Gwak, HS (2020). Population Pharmacokinetics of Sulindac and Genetic Polymorphisms of FMO3 and AOX1 in Women with Preterm Labor. <i>Pharmaceutical research</i> 37(3) 44–None. DOI:<a href=\"https://doi.org/10.1007/s11095-020-2765-6\">10.1007/s11095-020-2765-6</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/31993760/\">https://pubmed.ncbi.nlm.nih.gov/31993760</a></p></li><li><p>Ritland, SR, et al., &amp; Gendler, SJ (1999). Evaluation of 5-aminosalicylic acid (5-ASA) for cancer chemoprevention: lack of efficacy against nascent adenomatous polyps in the Apc(Min) mouse. <i>Clinical cancer research : an official journal of the American Association for Cancer Research</i> 5(4) 855–863. PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/10213222/\">https://pubmed.ncbi.nlm.nih.gov/10213222</a></p></li></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
+    experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
+  ));
+end Sulindac;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization;
+package M05BB01_EtidronicAcidAndCalciumS
+  extends Icons.PackageDrugs;
+end M05BB01_EtidronicAcidAndCalciumS;

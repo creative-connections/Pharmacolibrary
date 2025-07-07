@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V09D_HepaticAndReticuloEndothelialSystem;
+package V09DB04_Technetium99mtcTinColloi
+  extends Icons.PackageDrugs;
+end V09DB04_Technetium99mtcTinColloi;

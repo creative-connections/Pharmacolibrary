@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines;
+package J07BL01_YellowFeverLiveAttenuate
+  extends Icons.PackageDrugs;
+end J07BL01_YellowFeverLiveAttenuate;

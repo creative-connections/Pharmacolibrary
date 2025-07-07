@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem;
+package R01A_DecongestantsAndOtherNasalPreparationsForTopical
+  extends Icons.PackageDrugs;
+end R01A_DecongestantsAndOtherNasalPreparationsForTopical;

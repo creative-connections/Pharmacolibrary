@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines;
+package J07BN02_Covid19ViralVectorNonRep
+  extends Icons.PackageDrugs;
+end J07BN02_Covid19ViralVectorNonRep;

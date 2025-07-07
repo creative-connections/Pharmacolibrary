@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents;
+package M03BB53_ChlorzoxazoneCombination
+  extends Icons.PackageDrugs;
+end M03BB53_ChlorzoxazoneCombination;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01X_OtherOphthalmologicals;
+package S01XA20_ArtificialTearsAndOtherI
+  extends Icons.PackageDrugs;
+end S01XA20_ArtificialTearsAndOtherI;

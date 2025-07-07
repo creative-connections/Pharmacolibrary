@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDis;
+package A02BX05_BismuthSubcitrate
+  extends Icons.PackageDrugs;
+end A02BX05_BismuthSubcitrate;

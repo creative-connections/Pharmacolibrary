@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01B_AntiinflammatoryAgents;
+package S01BB02_PrednisoloneAndMydriatic
+  extends Icons.PackageDrugs;
+end S01BB02_PrednisoloneAndMydriatic;

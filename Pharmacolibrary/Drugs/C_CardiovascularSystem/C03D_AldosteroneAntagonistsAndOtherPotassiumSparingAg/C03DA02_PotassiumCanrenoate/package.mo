@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03D_AldosteroneAntagonistsAndOtherPotassiumSparingAg;
+package C03DA02_PotassiumCanrenoate
+  extends Icons.PackageDrugs;
+end C03DA02_PotassiumCanrenoate;

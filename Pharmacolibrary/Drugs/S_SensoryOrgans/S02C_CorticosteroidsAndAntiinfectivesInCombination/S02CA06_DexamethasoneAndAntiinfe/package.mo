@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S02C_CorticosteroidsAndAntiinfectivesInCombination;
+package S02CA06_DexamethasoneAndAntiinfe
+  extends Icons.PackageDrugs;
+end S02CA06_DexamethasoneAndAntiinfe;

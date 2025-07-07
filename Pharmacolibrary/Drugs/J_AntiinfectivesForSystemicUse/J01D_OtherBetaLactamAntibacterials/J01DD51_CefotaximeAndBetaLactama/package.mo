@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials;
+package J01DD51_CefotaximeAndBetaLactama
+  extends Icons.PackageDrugs;
+end J01DD51_CefotaximeAndBetaLactama;

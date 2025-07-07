@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse;
+package R06AC52_HistapyrrodineCombinatio
+  extends Icons.PackageDrugs;
+end R06AC52_HistapyrrodineCombinatio;

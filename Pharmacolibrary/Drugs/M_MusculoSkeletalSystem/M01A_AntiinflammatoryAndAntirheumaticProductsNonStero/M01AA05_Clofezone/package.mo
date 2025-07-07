@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonStero;
+package M01AA05_Clofezone
+  extends Icons.PackageDrugs;
+end M01AA05_Clofezone;

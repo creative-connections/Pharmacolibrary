@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressant;
+package R05CA06_Senega
+  extends Icons.PackageDrugs;
+end R05CA06_Senega;

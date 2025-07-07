@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07B_BetaBlockingAgentsAndThiazides;
+package C07BA68_MetipranololAndThiazides
+  extends Icons.PackageDrugs;
+end C07BA68_MetipranololAndThiazides;

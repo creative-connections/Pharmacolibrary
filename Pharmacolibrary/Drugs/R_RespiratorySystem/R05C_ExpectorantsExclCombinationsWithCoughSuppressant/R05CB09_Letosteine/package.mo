@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressant;
+package R05CB09_Letosteine
+  extends Icons.PackageDrugs;
+end R05CB09_Letosteine;

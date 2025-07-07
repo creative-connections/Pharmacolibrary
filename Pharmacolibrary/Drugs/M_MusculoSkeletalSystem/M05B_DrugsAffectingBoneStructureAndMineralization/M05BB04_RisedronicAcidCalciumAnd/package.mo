@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization;
+package M05BB04_RisedronicAcidCalciumAnd
+  extends Icons.PackageDrugs;
+end M05BB04_RisedronicAcidCalciumAnd;

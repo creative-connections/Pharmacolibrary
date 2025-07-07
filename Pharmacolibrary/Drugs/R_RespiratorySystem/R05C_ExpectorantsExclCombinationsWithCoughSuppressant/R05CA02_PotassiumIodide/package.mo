@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressant;
+package R05CA02_PotassiumIodide
+  extends Icons.PackageDrugs;
+end R05CA02_PotassiumIodide;

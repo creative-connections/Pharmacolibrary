@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopical;
+package R01AC03_Azelastine
+  extends Icons.PackageDrugs;
+end R01AC03_Azelastine;

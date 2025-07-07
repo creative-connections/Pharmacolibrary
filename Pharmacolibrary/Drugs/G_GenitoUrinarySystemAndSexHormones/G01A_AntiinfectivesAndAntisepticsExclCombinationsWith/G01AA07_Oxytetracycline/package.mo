@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWith;
+package G01AA07_Oxytetracycline
+  extends Icons.PackageDrugs;
+end G01AA07_Oxytetracycline;

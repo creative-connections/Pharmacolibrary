@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases;
+package C01DA70_OrganicNitratesInCombina
+  extends Icons.PackageDrugs;
+end C01DA70_OrganicNitratesInCombina;

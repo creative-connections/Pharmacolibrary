@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01F_MydriaticsAndCycloplegics;
+package S01FB51_PhenylephrineAndKetorola
+  extends Icons.PackageDrugs;
+end S01FB51_PhenylephrineAndKetorola;

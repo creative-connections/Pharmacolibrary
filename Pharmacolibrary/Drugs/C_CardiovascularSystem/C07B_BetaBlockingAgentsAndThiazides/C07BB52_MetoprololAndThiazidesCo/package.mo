@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07B_BetaBlockingAgentsAndThiazides;
+package C07BB52_MetoprololAndThiazidesCo
+  extends Icons.PackageDrugs;
+end C07BB52_MetoprololAndThiazidesCo;

@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.S_SensoryOrgans.S01F_MydriaticsAndCycloplegics;
+package S01FA54_CyclopentolateCombinatio
+  extends Icons.PackageDrugs;
+end S01FA54_CyclopentolateCombinatio;

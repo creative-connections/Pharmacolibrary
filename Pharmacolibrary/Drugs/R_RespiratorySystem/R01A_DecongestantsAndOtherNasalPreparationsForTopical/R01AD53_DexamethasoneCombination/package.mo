@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopical;
+package R01AD53_DexamethasoneCombination
+  extends Icons.PackageDrugs;
+end R01AD53_DexamethasoneCombination;

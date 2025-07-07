@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.V_Various.V10A_AntiinflammatoryAgents;
+package V10AX05_Rhenium186reSulfideCollo
+  extends Icons.PackageDrugs;
+end V10AX05_Rhenium186reSulfideCollo;
