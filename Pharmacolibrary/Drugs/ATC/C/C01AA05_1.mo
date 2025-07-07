@@ -4,18 +4,18 @@ model C01AA05_1
   extends Pharmacokinetic.Models.PK_2C(
     weight         = 70,
     F              = 1,
-    Cl             = 2.3333333333333336e-06,
+    Cl             = 4.07 * 1e-6 * 70 / 60,
     adminDuration  = 600,
-    adminMass      = 0.5 / 1000000,
+    adminMass      = 1 / 1000000,
     adminCount     = 1,
-    Vd             = 0.0048,
+    Vd             = 0.581,
     Cmin           = 0.001,
     Cmax           = 0.01,
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,            
-    Vdp             = 0.0050999999999999995,
-    k12             = 8.750000000000001e-06,
-    k21             = 8.750000000000001e-06
+    Vdp             = 0.581,
+    k12             = 1.750000000000001e-04,
+    k21             = 1.750000000000001e-04
     
   );
 

@@ -4,18 +4,18 @@ model C01AA05
   extends Pharmacokinetic.Models.PK_2C_enteral(
     weight         = 70,
     F              = 0.7,
-    Cl             = 2.5277777777777778e-06,
+    Cl             = 2.07 * 1e-6 * 70 / 60,
     adminDuration  = 600,
     adminMass      = 0.5 / 1000000,
     adminCount     = 1,
-    Vd             = 0.0050999999999999995,
+    Vd             = 0.581,
     Cmin           = 0.001,
     Cmax           = 0.01,
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01,
     ka             = 0.017333333333333333,
     Tlag           = 0,            
-    Vdp             = 0.006,
+    Vdp             = 0.581,
     k12             = 9.722222222222221e-06,
     k21             = 9.722222222222221e-06
     
