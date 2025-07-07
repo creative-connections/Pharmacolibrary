@@ -1,4 +1,4 @@
 within Pharmacolibrary;
 package Drugs
-  extends Icons.PackageDrugs;
+  extends Pharmacolibrary.Icons.PackageDrugs;
 end Drugs;
