@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03A_EctoparasiticidesInclScabicides;
 package P03AX05_Dimeticone
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end P03AX05_Dimeticone;

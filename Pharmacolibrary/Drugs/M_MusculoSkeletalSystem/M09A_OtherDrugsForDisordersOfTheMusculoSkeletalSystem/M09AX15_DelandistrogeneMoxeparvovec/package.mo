@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem;
-package M09AX15_DelandistrogeneMoxeparvovec
-  extends Icons.Package;
-end M09AX15_DelandistrogeneMoxeparvovec;

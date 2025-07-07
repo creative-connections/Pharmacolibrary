@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11C_VitaminAAndDInclCombinationsOfTheTwo;
 package A11CC01_Ergocalciferol
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A11CC01_Ergocalciferol;

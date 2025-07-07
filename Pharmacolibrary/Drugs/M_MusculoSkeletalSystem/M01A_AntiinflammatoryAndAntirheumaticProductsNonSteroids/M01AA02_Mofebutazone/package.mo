@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids;
-package M01AA02_Mofebutazone
-  extends Icons.Package;
-end M01AA02_Mofebutazone;

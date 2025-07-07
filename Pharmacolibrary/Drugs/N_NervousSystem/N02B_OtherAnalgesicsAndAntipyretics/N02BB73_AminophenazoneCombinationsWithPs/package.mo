@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics;
 package N02BB73_AminophenazoneCombinationsWithPs
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end N02BB73_AminophenazoneCombinationsWithPs;

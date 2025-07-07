@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse;
 package J01C_BetaLactamAntibacterialsPenicillins
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J01C_BetaLactamAntibacterialsPenicillins;

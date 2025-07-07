@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation;
 package A06AB52_BisacodylCombinations
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A06AB52_BisacodylCombinations;

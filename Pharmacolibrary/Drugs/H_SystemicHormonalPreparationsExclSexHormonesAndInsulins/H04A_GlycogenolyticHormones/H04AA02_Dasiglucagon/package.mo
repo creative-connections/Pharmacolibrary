@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H04A_GlycogenolyticHormones;
 package H04AA02_Dasiglucagon
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end H04AA02_Dasiglucagon;

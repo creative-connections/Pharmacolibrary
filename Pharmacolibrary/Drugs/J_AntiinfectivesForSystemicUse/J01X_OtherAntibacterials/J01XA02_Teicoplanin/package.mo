@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01X_OtherAntibacterials;
 package J01XA02_Teicoplanin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J01XA02_Teicoplanin;

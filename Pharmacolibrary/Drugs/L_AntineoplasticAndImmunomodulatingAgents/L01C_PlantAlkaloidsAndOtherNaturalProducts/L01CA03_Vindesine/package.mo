@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts;
 package L01CA03_Vindesine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01CA03_Vindesine;

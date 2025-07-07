@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals;
 package D04A_AntipruriticsInclAntihistaminesAnestheticsEtc
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end D04A_AntipruriticsInclAntihistaminesAnestheticsEtc;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics;
 package S01EA01_Epinephrine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end S01EA01_Epinephrine;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents;
 package L01AA10_MelphalanFlufenamide
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01AA10_MelphalanFlufenamide;

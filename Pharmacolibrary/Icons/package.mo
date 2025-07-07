@@ -1,7 +1,5 @@
 within Pharmacolibrary;
 package Icons
-  extends Modelica.Icons.IconsPackage;
-
-equation
+  extends Modelica.Icons.PackageDrugs;
 
 end Icons;

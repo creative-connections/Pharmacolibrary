@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03X_OtherAntianemicPreparations;
 package B03XA01_Erythropoietin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end B03XA01_Erythropoietin;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins;
 package A10BH02_Vildagliptin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A10BH02_Vildagliptin;

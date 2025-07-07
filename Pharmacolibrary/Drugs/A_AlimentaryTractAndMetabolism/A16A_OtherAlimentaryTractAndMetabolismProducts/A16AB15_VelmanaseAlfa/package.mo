@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts;
 package A16AB15_VelmanaseAlfa
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A16AB15_VelmanaseAlfa;

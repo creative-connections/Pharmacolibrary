@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids;
-package M01AC04_Droxicam
-  extends Icons.Package;
-end M01AC04_Droxicam;

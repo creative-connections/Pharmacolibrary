@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants;
 package L03AA03_Molgramostim
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L03AA03_Molgramostim;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants;
-package R05CA08_Creosote
-  extends Icons.Package;
-end R05CA08_Creosote;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids;
-package M01AB51_IndometacinCombinations
-  extends Icons.Package;
-end M01AB51_IndometacinCombinations;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.V_Various;
 package V09F_Thyroid
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end V09F_Thyroid;

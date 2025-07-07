@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03A_MuscleRelaxantsPeripherallyActingAgents;
 package M03AC09_RocuroniumBromide
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end M03AC09_RocuroniumBromide;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03E_DiureticsAndPotassiumSparingAgentsInCombination;
 package C03EB01_FurosemideAndPotassiumSparingAge
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C03EB01_FurosemideAndPotassiumSparingAge;

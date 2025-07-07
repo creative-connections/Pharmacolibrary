@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.ATC;
 package C
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C;

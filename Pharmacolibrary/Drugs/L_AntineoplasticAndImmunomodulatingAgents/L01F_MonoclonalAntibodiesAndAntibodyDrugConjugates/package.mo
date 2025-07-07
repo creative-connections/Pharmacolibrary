@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents;
 package L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates;

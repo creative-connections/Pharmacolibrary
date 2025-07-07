@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04B_DrugsForTreatmentOfLepra;
 package J04BA01_Clofazimine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J04BA01_Clofazimine;

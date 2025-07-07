@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A04A_AntiemeticsAndAntinauseants;
 package A04AD10_Dronabinol
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A04AD10_Dronabinol;

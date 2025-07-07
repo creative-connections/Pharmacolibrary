@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents;
 package L01A_AlkylatingAgents
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01A_AlkylatingAgents;

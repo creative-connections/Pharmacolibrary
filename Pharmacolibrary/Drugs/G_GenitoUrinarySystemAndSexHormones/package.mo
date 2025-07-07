@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs;
 package G_GenitoUrinarySystemAndSexHormones
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end G_GenitoUrinarySystemAndSexHormones;

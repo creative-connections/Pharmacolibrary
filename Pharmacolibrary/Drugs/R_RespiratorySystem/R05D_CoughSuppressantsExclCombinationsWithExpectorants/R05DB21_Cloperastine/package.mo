@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants;
-package R05DB21_Cloperastine
-  extends Icons.Package;
-end R05DB21_Cloperastine;

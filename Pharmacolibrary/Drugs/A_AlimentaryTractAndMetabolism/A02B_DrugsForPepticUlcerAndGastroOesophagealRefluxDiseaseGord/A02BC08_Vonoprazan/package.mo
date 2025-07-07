@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord;
-package A02BC08_Vonoprazan
-  extends Icons.Package;
-end A02BC08_Vonoprazan;

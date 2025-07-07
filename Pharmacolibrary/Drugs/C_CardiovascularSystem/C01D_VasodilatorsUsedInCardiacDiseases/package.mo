@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem;
 package C01D_VasodilatorsUsedInCardiacDiseases
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C01D_VasodilatorsUsedInCardiacDiseases;

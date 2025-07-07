@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents;
 package L01D_CytotoxicAntibioticsAndRelatedSubstances
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01D_CytotoxicAntibioticsAndRelatedSubstances;

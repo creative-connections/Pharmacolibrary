@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09X_OtherAgentsActingOnTheReninAngiotensinSystem;
-package C09XA52_AliskirenAndHydrochlorothiazide
-  extends Icons.Package;
-end C09XA52_AliskirenAndHydrochlorothiazide;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals;
 package D02A_EmollientsAndProtectives
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end D02A_EmollientsAndProtectives;

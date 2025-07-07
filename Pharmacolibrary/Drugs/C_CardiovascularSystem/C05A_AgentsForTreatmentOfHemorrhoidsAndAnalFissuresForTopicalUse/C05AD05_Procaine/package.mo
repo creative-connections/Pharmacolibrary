@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse;
-package C05AD05_Procaine
-  extends Icons.Package;
-end C05AD05_Procaine;

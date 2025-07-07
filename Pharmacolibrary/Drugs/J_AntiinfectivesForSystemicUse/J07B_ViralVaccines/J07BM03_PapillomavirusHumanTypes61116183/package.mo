@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines;
 package J07BM03_PapillomavirusHumanTypes61116183
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J07BM03_PapillomavirusHumanTypes61116183;

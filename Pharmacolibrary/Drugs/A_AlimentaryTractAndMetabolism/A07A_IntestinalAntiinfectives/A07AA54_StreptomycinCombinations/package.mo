@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07A_IntestinalAntiinfectives;
 package A07AA54_StreptomycinCombinations
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A07AA54_StreptomycinCombinations;

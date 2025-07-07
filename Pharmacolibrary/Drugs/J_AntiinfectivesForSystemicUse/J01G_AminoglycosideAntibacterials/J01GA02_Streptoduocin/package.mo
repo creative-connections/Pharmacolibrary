@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01G_AminoglycosideAntibacterials;
 package J01GA02_Streptoduocin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J01GA02_Streptoduocin;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.V_Various.V08D_UltrasoundContrastMedia;
 package V08DA05_SulfurHexafluoridePhospholipidMi
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end V08DA05_SulfurHexafluoridePhospholipidMi;

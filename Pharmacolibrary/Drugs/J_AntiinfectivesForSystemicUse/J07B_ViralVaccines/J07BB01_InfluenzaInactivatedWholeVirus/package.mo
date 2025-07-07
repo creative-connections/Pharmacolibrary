@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines;
-package J07BB01_InfluenzaInactivatedWholeVirus
-  extends Icons.Package;
-end J07BB01_InfluenzaInactivatedWholeVirus;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03B_LowCeilingDiureticsExclThiazides;
 package C03BX03_Cicletanine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C03BX03_Cicletanine;

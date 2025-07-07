@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03X_OtherSexHormonesAndModulatorsOfTheGenitalSystem;
 package G03XA02_Gestrinone
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end G03XA02_Gestrinone;

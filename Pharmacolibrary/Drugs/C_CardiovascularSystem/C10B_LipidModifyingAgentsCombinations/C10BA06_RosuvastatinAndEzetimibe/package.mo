@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations;
 package C10BA06_RosuvastatinAndEzetimibe
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C10BA06_RosuvastatinAndEzetimibe;

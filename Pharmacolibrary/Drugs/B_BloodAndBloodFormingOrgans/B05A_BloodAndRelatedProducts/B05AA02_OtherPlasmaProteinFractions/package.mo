@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05A_BloodAndRelatedProducts;
-package B05AA02_OtherPlasmaProteinFractions
-  extends Icons.Package;
-end B05AA02_OtherPlasmaProteinFractions;

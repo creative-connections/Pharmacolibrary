@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants;
 package L03AB05_InterferonAlfa2b
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L03AB05_InterferonAlfa2b;

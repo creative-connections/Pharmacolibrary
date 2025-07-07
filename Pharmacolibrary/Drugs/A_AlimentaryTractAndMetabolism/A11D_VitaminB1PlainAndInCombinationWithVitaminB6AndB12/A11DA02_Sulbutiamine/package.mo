@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11D_VitaminB1PlainAndInCombinationWithVitaminB6AndB12;
-package A11DA02_Sulbutiamine
-  extends Icons.Package;
-end A11DA02_Sulbutiamine;

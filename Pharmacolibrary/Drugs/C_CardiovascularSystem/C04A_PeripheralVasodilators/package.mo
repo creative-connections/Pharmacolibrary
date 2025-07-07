@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem;
 package C04A_PeripheralVasodilators
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C04A_PeripheralVasodilators;

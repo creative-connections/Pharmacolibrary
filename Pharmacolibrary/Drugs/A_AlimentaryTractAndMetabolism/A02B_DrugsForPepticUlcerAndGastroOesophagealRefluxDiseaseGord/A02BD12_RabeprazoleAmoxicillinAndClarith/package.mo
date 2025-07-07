@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord;
-package A02BD12_RabeprazoleAmoxicillinAndClarith
-  extends Icons.Package;
-end A02BD12_RabeprazoleAmoxicillinAndClarith;

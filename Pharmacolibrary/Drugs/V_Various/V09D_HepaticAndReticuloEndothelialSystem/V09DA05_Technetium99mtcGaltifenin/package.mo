@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V09D_HepaticAndReticuloEndothelialSystem;
-package V09DA05_Technetium99mtcGaltifenin
-  extends Icons.Package;
-end V09DA05_Technetium99mtcGaltifenin;

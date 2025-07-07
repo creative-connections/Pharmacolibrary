@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem;
 package C01A_CardiacGlycosides
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C01A_CardiacGlycosides;

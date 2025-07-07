@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse;
 package J07C_BacterialAndViralVaccinesCombined
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J07C_BacterialAndViralVaccinesCombined;

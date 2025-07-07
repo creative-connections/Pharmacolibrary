@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
 package A04A_AntiemeticsAndAntinauseants
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A04A_AntiemeticsAndAntinauseants;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones;
 package G02B_ContraceptivesForTopicalUse
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end G02B_ContraceptivesForTopicalUse;

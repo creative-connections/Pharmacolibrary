@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02C_AntinematodalAgents;
 package P02CA04_Ciclobendazole
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end P02CA04_Ciclobendazole;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
 package A06A_DrugsForConstipation
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A06A_DrugsForConstipation;

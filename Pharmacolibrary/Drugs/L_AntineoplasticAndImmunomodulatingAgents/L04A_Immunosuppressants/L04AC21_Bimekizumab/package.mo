@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
 package L04AC21_Bimekizumab
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L04AC21_Bimekizumab;

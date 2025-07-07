@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
 package L01EX04_Vandetanib
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01EX04_Vandetanib;

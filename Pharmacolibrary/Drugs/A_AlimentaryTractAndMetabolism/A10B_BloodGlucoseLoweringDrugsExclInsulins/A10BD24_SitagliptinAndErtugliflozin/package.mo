@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins;
-package A10BD24_SitagliptinAndErtugliflozin
-  extends Icons.Package;
-end A10BD24_SitagliptinAndErtugliflozin;

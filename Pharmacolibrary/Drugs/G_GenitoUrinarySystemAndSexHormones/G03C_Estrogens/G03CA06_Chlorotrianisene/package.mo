@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03C_Estrogens;
 package G03CA06_Chlorotrianisene
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end G03CA06_Chlorotrianisene;

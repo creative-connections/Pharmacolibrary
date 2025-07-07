@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
 package A05B_LiverTherapyLipotropics
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A05B_LiverTherapyLipotropics;

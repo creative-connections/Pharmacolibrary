@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis;
 package J04AA03_CalciumAminosalicylate
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J04AA03_CalciumAminosalicylate;

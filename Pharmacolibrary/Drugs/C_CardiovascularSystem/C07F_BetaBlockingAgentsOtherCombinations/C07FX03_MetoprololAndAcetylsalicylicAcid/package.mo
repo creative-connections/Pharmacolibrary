@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07F_BetaBlockingAgentsOtherCombinations;
-package C07FX03_MetoprololAndAcetylsalicylicAcid
-  extends Icons.Package;
-end C07FX03_MetoprololAndAcetylsalicylicAcid;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
 package A12C_OtherMineralSupplements
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A12C_OtherMineralSupplements;

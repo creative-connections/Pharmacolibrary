@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N03A_Antiepileptics;
 package N03AB54_MephenytoinCombinations
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end N03AB54_MephenytoinCombinations;

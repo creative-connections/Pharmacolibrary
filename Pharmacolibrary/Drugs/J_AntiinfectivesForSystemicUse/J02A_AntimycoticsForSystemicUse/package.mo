@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse;
 package J02A_AntimycoticsForSystemicUse
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J02A_AntimycoticsForSystemicUse;

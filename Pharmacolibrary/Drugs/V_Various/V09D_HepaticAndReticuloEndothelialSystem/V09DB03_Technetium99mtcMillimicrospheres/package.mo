@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V09D_HepaticAndReticuloEndothelialSystem;
-package V09DB03_Technetium99mtcMillimicrospheres
-  extends Icons.Package;
-end V09DB03_Technetium99mtcMillimicrospheres;

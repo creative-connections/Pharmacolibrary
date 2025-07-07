@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10A_InsulinsAndAnalogues;
 package A10AE04_InsulinGlargine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A10AE04_InsulinGlargine;

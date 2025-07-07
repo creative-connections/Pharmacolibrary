@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem;
 package C07F_BetaBlockingAgentsOtherCombinations
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C07F_BetaBlockingAgentsOtherCombinations;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R07A_OtherRespiratorySystemProducts;
 package R07AA02_NaturalPhospholipids
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end R07AA02_NaturalPhospholipids;

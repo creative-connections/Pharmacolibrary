@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse;
-package C05AX05_Tribenoside
-  extends Icons.Package;
-end C05AX05_Tribenoside;

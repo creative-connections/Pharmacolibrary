@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem;
 package C02C_AntiadrenergicAgentsPeripherallyActing
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C02C_AntiadrenergicAgentsPeripherallyActing;

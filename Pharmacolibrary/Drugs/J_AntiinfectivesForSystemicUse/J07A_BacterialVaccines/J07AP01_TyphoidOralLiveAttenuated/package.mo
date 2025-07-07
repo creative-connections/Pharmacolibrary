@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines;
-package J07AP01_TyphoidOralLiveAttenuated
-  extends Icons.Package;
-end J07AP01_TyphoidOralLiveAttenuated;

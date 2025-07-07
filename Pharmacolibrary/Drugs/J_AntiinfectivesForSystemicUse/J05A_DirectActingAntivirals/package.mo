@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse;
 package J05A_DirectActingAntivirals
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J05A_DirectActingAntivirals;

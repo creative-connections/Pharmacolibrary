@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents;
 package L01AX04_Dacarbazine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01AX04_Dacarbazine;

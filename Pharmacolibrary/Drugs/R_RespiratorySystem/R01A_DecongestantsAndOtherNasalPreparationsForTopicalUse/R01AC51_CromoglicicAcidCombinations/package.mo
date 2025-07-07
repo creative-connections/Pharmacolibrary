@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse;
-package R01AC51_CromoglicicAcidCombinations
-  extends Icons.Package;
-end R01AC51_CromoglicicAcidCombinations;

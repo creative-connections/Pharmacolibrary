@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03G_GonadotropinsAndOtherOvulationStimulants;
-package G03GA02_HumanMenopausalGonadotrophin
-  extends Icons.Package;
-end G03GA02_HumanMenopausalGonadotrophin;

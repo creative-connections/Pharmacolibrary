@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.N_NervousSystem;
 package N06D_AntiDementiaDrugs
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end N06D_AntiDementiaDrugs;

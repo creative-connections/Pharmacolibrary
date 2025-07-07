@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans;
 package S02A_Antiinfectives
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end S02A_Antiinfectives;

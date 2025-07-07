@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R03B_OtherDrugsForObstructiveAirwayDiseasesInhalants;
 package R03BB05_AclidiniumBromide
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end R03BB05_AclidiniumBromide;

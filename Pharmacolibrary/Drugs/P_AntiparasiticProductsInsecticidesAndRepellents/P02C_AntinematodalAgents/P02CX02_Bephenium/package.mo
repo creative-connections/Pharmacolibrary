@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02C_AntinematodalAgents;
 package P02CX02_Bephenium
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end P02CX02_Bephenium;

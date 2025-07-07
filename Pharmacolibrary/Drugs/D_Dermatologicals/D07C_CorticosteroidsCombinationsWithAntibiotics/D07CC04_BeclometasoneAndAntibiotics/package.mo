@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D07C_CorticosteroidsCombinationsWithAntibiotics;
-package D07CC04_BeclometasoneAndAntibiotics
-  extends Icons.Package;
-end D07CC04_BeclometasoneAndAntibiotics;

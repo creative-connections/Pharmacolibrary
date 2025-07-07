@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D07A_CorticosteroidsPlain;
 package D07AC13_Mometasone
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end D07AC13_Mometasone;

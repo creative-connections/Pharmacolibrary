@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.N_NervousSystem;
 package N02B_OtherAnalgesicsAndAntipyretics
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end N02B_OtherAnalgesicsAndAntipyretics;

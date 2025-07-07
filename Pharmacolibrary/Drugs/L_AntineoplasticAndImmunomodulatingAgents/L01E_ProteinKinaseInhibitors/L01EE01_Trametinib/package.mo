@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
 package L01EE01_Trametinib
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01EE01_Trametinib;

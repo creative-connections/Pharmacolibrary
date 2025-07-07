@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans;
 package B03A_IronPreparations
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end B03A_IronPreparations;

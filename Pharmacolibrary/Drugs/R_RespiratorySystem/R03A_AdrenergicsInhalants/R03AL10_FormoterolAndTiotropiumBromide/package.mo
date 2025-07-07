@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants;
-package R03AL10_FormoterolAndTiotropiumBromide
-  extends Icons.Package;
-end R03AL10_FormoterolAndTiotropiumBromide;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01B_AntiinflammatoryAntirheumaticAgentsInCombination;
-package M01BA01_PhenylbutazoneAndCorticosteroids
-  extends Icons.Package;
-end M01BA01_PhenylbutazoneAndCorticosteroids;

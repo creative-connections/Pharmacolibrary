@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03B_LowCeilingDiureticsExclThiazides;
-package C03BB04_ChlortalidoneAndPotassium
-  extends Icons.Package;
-end C03BB04_ChlortalidoneAndPotassium;

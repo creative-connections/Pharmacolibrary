@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord;
-package A02BC07_Dexrabeprazole
-  extends Icons.Package;
-end A02BC07_Dexrabeprazole;

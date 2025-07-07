@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants;
 package D08AG01_IodineOctylphenoxypolyglycolethe
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end D08AG01_IodineOctylphenoxypolyglycolethe;

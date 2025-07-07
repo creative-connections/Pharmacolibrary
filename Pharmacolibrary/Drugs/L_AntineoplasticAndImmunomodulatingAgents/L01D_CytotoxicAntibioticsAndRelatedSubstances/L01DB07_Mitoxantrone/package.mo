@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01D_CytotoxicAntibioticsAndRelatedSubstances;
 package L01DB07_Mitoxantrone
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01DB07_Mitoxantrone;

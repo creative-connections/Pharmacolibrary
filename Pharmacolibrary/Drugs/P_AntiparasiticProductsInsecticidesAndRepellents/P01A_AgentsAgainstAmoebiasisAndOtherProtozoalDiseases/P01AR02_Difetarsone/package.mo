@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases;
 package P01AR02_Difetarsone
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end P01AR02_Difetarsone;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07F_AntidiarrhealMicroorganisms;
 package A07FA02_SaccharomycesBoulardii
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A07FA02_SaccharomycesBoulardii;

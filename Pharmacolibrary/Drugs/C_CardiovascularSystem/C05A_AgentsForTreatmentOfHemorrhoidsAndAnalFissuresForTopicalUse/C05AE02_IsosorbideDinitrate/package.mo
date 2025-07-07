@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresForTopicalUse;
-package C05AE02_IsosorbideDinitrate
-  extends Icons.Package;
-end C05AE02_IsosorbideDinitrate;

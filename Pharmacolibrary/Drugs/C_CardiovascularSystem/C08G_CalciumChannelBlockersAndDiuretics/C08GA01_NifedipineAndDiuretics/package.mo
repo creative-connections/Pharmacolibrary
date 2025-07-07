@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08G_CalciumChannelBlockersAndDiuretics;
 package C08GA01_NifedipineAndDiuretics
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C08GA01_NifedipineAndDiuretics;

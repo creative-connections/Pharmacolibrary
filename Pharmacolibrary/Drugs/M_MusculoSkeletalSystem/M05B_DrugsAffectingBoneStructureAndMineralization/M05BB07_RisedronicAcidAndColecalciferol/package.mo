@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization;
-package M05BB07_RisedronicAcidAndColecalciferol
-  extends Icons.Package;
-end M05BB07_RisedronicAcidAndColecalciferol;

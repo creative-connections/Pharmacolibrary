@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse;
 package D10AD05_Motretinide
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end D10AD05_Motretinide;

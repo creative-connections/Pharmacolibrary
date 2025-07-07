@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids;
-package G01AX05_Nifuratel
-  extends Icons.Package;
-end G01AX05_Nifuratel;

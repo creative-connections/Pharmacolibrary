@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03B_BelladonnaAndDerivativesPlain;
 package A03BB04_Fentonium
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A03BB04_Fentonium;

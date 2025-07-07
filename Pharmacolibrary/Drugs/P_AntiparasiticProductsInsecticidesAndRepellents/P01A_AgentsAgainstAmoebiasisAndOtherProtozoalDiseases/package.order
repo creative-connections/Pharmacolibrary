@@ -2,7 +2,7 @@ P01AA01_Broxyquinoline
 P01AA02_Clioquinol
 P01AA04_Chlorquinaldol
 P01AA05_Tilbroquinol
-P01AA30_TilbroquinolAndTiliquinol
+P01AA30_TilbroquinolAndTiliquino
 P01AA52_ClioquinolCombinations
 P01AB01_Metronidazole
 P01AB02_Tinidazole
@@ -11,8 +11,8 @@ P01AB04_Azanidazole
 P01AB05_Propenidazole
 P01AB06_Nimorazole
 P01AB07_Secnidazole
-P01AB51_MetronidazoleAndFurazolidone
-P01AB52_MetronidazoleAndDiloxanide
+P01AB51_MetronidazoleAndFurazoli
+P01AB52_MetronidazoleAndDiloxani
 P01AC01_Diloxanide
 P01AC02_Clefamide
 P01AC03_Etofamide

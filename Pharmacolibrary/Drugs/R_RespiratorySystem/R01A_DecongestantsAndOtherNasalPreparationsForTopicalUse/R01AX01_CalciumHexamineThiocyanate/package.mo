@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse;
-package R01AX01_CalciumHexamineThiocyanate
-  extends Icons.Package;
-end R01AX01_CalciumHexamineThiocyanate;

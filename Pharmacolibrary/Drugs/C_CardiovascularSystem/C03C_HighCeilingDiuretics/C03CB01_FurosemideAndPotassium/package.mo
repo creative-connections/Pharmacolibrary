@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03C_HighCeilingDiuretics;
 package C03CB01_FurosemideAndPotassium
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C03CB01_FurosemideAndPotassium;

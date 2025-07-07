@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals;
 package D05B_AntipsoriaticsForSystemicUse
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end D05B_AntipsoriaticsForSystemicUse;

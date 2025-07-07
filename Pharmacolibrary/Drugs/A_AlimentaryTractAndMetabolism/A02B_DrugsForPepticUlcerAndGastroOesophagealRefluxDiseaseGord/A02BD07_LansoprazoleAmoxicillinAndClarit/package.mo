@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord;
-package A02BD07_LansoprazoleAmoxicillinAndClarit
-  extends Icons.Package;
-end A02BD07_LansoprazoleAmoxicillinAndClarit;

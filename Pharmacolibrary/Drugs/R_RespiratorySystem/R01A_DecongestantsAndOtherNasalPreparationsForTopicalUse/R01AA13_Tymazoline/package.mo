@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse;
-package R01AA13_Tymazoline
-  extends Icons.Package;
-end R01AA13_Tymazoline;

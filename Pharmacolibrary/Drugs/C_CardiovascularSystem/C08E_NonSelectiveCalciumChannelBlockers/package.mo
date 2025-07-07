@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem;
 package C08E_NonSelectiveCalciumChannelBlockers
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C08E_NonSelectiveCalciumChannelBlockers;

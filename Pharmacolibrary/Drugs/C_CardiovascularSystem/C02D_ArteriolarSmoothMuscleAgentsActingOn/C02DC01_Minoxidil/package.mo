@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02D_ArteriolarSmoothMuscleAgentsActingOn;
 package C02DC01_Minoxidil
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C02DC01_Minoxidil;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
 package L01XX73_Sotorasib
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01XX73_Sotorasib;

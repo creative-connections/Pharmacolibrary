@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.V_Various;
 package V09E_RespiratorySystem
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end V09E_RespiratorySystem;

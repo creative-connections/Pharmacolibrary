@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
 package L04AG04_Belimumab
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L04AG04_Belimumab;

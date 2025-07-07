@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.N_NervousSystem;
 package N06A_Antidepressants
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end N06A_Antidepressants;

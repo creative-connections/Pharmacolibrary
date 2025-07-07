@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones;
-package G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids
-  extends Icons.Package;
-end G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids;

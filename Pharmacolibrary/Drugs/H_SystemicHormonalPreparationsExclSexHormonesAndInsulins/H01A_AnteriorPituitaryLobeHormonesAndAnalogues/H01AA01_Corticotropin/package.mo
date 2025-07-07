@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01A_AnteriorPituitaryLobeHormonesAndAnalogues;
 package H01AA01_Corticotropin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end H01AA01_Corticotropin;

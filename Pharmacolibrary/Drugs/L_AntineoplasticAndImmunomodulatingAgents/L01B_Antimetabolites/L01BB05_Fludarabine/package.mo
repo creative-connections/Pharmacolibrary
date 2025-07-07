@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01B_Antimetabolites;
 package L01BB05_Fludarabine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01BB05_Fludarabine;

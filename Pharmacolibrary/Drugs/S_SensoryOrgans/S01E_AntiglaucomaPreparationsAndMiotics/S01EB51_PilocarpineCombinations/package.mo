@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics;
 package S01EB51_PilocarpineCombinations
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end S01EB51_PilocarpineCombinations;

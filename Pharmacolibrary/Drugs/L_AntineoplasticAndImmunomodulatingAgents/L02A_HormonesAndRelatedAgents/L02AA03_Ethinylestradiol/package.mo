@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02A_HormonesAndRelatedAgents;
 package L02AA03_Ethinylestradiol
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L02AA03_Ethinylestradiol;

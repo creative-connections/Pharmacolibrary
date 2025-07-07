@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05B_AntiParathyroidAgents;
 package H05BX01_Cinacalcet
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end H05BX01_Cinacalcet;

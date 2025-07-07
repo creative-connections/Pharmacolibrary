@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08C_SelectiveCalciumChannelBlockersWithMainlyVascularEffects;
-package C08CA16_Clevidipine
-  extends Icons.Package;
-end C08CA16_Clevidipine;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N07B_DrugsUsedInAddictiveDisorders;
-package N07BC51_BuprenorphineCombinations
-  extends Icons.Package;
-end N07BC51_BuprenorphineCombinations;

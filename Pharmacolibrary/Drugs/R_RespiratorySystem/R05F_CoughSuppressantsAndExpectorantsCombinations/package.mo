@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem;
 package R05F_CoughSuppressantsAndExpectorantsCombinations
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end R05F_CoughSuppressantsAndExpectorantsCombinations;

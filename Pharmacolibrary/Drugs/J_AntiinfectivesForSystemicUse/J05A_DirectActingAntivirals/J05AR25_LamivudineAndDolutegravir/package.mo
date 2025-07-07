@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
-package J05AR25_LamivudineAndDolutegravir
-  extends Icons.Package;
-end J05AR25_LamivudineAndDolutegravir;

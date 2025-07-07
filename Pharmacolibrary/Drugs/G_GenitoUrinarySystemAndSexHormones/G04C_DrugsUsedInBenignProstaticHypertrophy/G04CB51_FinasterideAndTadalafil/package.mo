@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04C_DrugsUsedInBenignProstaticHypertrophy;
 package G04CB51_FinasterideAndTadalafil
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end G04CB51_FinasterideAndTadalafil;

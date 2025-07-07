@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02D_ArteriolarSmoothMuscleAgentsActingOn;
 package C02DD01_Nitroprusside
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C02DD01_Nitroprusside;

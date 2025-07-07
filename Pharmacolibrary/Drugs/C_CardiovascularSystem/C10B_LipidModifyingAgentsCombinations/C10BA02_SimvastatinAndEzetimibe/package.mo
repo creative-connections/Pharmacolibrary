@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations;
 package C10BA02_SimvastatinAndEzetimibe
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C10BA02_SimvastatinAndEzetimibe;

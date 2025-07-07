@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N03A_Antiepileptics;
 package N03AX23_Brivaracetam
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end N03AX23_Brivaracetam;

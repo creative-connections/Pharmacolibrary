@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
 package L01EM05_Parsaclisib
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01EM05_Parsaclisib;

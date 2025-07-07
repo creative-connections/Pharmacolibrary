@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D07C_CorticosteroidsCombinationsWithAntibiotics;
-package D07CB05_FlumetasoneAndAntibiotics
-  extends Icons.Package;
-end D07CB05_FlumetasoneAndAntibiotics;

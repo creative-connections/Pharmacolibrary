@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs;
 package H_SystemicHormonalPreparationsExclSexHormonesAndInsulins
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end H_SystemicHormonalPreparationsExclSexHormonesAndInsulins;

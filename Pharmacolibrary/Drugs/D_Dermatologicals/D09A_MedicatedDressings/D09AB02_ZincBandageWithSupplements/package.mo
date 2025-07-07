@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D09A_MedicatedDressings;
-package D09AB02_ZincBandageWithSupplements
-  extends Icons.Package;
-end D09AB02_ZincBandageWithSupplements;

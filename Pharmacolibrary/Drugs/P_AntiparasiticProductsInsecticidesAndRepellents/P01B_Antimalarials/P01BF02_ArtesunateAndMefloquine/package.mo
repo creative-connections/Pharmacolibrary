@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials;
 package P01BF02_ArtesunateAndMefloquine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end P01BF02_ArtesunateAndMefloquine;

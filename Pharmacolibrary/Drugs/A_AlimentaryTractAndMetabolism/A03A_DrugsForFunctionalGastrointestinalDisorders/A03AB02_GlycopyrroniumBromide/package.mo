@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders;
 package A03AB02_GlycopyrroniumBromide
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A03AB02_GlycopyrroniumBromide;

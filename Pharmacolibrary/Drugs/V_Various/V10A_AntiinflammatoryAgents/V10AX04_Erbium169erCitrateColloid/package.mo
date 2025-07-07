@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V10A_AntiinflammatoryAgents;
-package V10AX04_Erbium169erCitrateColloid
-  extends Icons.Package;
-end V10AX04_Erbium169erCitrateColloid;

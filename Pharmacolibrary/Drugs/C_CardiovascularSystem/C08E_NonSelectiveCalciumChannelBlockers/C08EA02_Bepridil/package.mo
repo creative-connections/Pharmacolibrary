@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08E_NonSelectiveCalciumChannelBlockers;
 package C08EA02_Bepridil
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C08EA02_Bepridil;

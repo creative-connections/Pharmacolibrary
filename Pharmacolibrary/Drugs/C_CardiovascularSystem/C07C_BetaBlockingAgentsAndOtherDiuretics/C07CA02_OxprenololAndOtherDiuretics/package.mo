@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07C_BetaBlockingAgentsAndOtherDiuretics;
-package C07CA02_OxprenololAndOtherDiuretics
-  extends Icons.Package;
-end C07CA02_OxprenololAndOtherDiuretics;

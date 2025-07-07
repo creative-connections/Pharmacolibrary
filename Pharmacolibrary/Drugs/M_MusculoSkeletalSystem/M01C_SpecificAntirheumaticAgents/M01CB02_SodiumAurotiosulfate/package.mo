@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01C_SpecificAntirheumaticAgents;
 package M01CB02_SodiumAurotiosulfate
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end M01CB02_SodiumAurotiosulfate;

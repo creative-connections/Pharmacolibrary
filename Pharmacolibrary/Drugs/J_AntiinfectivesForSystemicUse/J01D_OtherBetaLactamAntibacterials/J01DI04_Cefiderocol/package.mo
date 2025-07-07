@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials;
 package J01DI04_Cefiderocol
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J01DI04_Cefiderocol;

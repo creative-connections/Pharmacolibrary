@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants;
-package R05DB03_Clobutinol
-  extends Icons.Package;
-end R05DB03_Clobutinol;

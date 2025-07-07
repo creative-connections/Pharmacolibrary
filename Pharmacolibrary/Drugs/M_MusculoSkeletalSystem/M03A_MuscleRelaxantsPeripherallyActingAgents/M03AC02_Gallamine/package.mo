@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03A_MuscleRelaxantsPeripherallyActingAgents;
 package M03AC02_Gallamine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end M03AC02_Gallamine;

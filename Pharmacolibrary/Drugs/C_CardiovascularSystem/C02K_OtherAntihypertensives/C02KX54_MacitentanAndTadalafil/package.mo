@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02K_OtherAntihypertensives;
 package C02KX54_MacitentanAndTadalafil
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C02KX54_MacitentanAndTadalafil;

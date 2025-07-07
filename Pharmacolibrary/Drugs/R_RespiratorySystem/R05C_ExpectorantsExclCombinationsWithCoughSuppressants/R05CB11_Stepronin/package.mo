@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants;
-package R05CB11_Stepronin
-  extends Icons.Package;
-end R05CB11_Stepronin;

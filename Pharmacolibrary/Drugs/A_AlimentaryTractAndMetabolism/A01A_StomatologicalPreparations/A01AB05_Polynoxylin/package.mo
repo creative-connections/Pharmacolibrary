@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations;
 package A01AB05_Polynoxylin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A01AB05_Polynoxylin;

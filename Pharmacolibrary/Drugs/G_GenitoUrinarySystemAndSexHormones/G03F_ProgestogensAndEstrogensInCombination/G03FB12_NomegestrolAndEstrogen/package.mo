@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03F_ProgestogensAndEstrogensInCombination;
 package G03FB12_NomegestrolAndEstrogen
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end G03FB12_NomegestrolAndEstrogen;

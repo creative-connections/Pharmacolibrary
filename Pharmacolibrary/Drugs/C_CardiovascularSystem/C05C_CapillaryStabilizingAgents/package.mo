@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem;
 package C05C_CapillaryStabilizingAgents
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C05C_CapillaryStabilizingAgents;

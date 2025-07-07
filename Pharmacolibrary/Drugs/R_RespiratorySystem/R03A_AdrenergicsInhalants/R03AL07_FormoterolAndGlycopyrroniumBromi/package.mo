@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants;
 package R03AL07_FormoterolAndGlycopyrroniumBromi
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end R03AL07_FormoterolAndGlycopyrroniumBromi;

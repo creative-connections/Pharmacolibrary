@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations;
 package C09BA06_QuinaprilAndDiuretics
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C09BA06_QuinaprilAndDiuretics;

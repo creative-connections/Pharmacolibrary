@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10A_InsulinsAndAnalogues;
 package A10AE01_InsulinHuman
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A10AE01_InsulinHuman;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01C_AgentsAgainstLeishmaniasisAndTrypanosomiasis;
 package P01CX03_Eflornithine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end P01CX03_Eflornithine;

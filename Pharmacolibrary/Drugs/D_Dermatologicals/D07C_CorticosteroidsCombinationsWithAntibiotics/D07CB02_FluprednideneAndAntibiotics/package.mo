@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D07C_CorticosteroidsCombinationsWithAntibiotics;
-package D07CB02_FluprednideneAndAntibiotics
-  extends Icons.Package;
-end D07CB02_FluprednideneAndAntibiotics;

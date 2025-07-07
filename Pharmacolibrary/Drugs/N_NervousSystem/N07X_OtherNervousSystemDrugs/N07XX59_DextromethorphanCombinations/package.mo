@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N07X_OtherNervousSystemDrugs;
-package N07XX59_DextromethorphanCombinations
-  extends Icons.Package;
-end N07XX59_DextromethorphanCombinations;

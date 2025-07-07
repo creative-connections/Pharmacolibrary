@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants;
 package L03AA16_Empegfilgrastim
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L03AA16_Empegfilgrastim;

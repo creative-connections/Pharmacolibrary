@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs;
 package J_AntiinfectivesForSystemicUse
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J_AntiinfectivesForSystemicUse;

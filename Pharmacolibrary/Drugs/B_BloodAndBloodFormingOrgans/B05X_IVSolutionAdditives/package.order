@@ -3,6 +3,7 @@ B05XA02_SodiumBicarbonate
 B05XA03_SodiumChloride
 B05XA04_AmmoniumChloride
 B05XA05_MagnesiumSulfate
+B05XA06_PotassiumPhosphateInclCo
 B05XA06_PotassiumPhosphateInclCombinatio
 B05XA07_CalciumChloride
 B05XA08_SodiumAcetate
@@ -18,7 +19,8 @@ B05XA17_PotassiumAcetate
 B05XA18_ZincSulfate
 B05XA19_CalciumGluconate
 B05XA20_SodiumSelenite
-B05XA30_CombinationsOfElectrolytes
+B05XA30_CombinationsOfElectrolyt
+B05XA31_ElectrolytesInCombinatio
 B05XA31_ElectrolytesInCombinationWithOth
 B05XB01_ArginineHydrochloride
 B05XB02_AlanylGlutamine

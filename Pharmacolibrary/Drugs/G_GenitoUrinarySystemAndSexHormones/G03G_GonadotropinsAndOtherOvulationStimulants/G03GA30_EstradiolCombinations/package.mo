@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03G_GonadotropinsAndOtherOvulationStimulants;
 package G03GA30_EstradiolCombinations
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end G03GA30_EstradiolCombinations;

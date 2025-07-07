@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse;
-package R06AC53_ChloropyramineCombinations
-  extends Icons.Package;
-end R06AC53_ChloropyramineCombinations;

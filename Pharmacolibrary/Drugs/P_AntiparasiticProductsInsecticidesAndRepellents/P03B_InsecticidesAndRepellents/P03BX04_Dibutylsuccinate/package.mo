@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03B_InsecticidesAndRepellents;
 package P03BX04_Dibutylsuccinate
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end P03BX04_Dibutylsuccinate;

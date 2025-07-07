@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids;
-package G01AC03_Chlorquinaldol
-  extends Icons.Package;
-end G01AC03_Chlorquinaldol;

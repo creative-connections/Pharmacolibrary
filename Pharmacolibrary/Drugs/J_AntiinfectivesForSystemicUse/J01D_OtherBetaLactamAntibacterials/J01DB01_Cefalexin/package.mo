@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials;
 package J01DB01_Cefalexin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J01DB01_Cefalexin;

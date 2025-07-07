@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations;
 package A01AA01_SodiumFluoride
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A01AA01_SodiumFluoride;

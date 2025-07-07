@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
 package J05AG04_Etravirine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J05AG04_Etravirine;

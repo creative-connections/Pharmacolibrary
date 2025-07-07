@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders;
 package A03AE01_Alosetron
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A03AE01_Alosetron;

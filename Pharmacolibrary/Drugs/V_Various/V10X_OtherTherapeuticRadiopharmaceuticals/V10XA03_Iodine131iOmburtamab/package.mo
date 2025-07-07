@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.V_Various.V10X_OtherTherapeuticRadiopharmaceuticals;
 package V10XA03_Iodine131iOmburtamab
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end V10XA03_Iodine131iOmburtamab;

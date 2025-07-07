@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07B_BetaBlockingAgentsAndThiazides;
 package C07BA05_PropranololAndThiazides
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C07BA05_PropranololAndThiazides;

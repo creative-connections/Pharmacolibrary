@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations;
 package B03AB01_FerricSodiumCitrate
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end B03AB01_FerricSodiumCitrate;

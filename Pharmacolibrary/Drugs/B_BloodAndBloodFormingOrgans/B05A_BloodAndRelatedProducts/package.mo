@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans;
 package B05A_BloodAndRelatedProducts
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end B05A_BloodAndRelatedProducts;

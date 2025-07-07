@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07B_BetaBlockingAgentsAndThiazides;
 package C07BA06_TimololAndThiazides
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C07BA06_TimololAndThiazides;

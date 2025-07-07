@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02A_AntiadrenergicAgentsCentrallyActing;
-package C02AA03_CombinationsOfRauwolfiaAlkaloids
-  extends Icons.Package;
-end C02AA03_CombinationsOfRauwolfiaAlkaloids;

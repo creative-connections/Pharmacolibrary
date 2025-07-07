@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics;
 package N06BA03_Metamfetamine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end N06BA03_Metamfetamine;

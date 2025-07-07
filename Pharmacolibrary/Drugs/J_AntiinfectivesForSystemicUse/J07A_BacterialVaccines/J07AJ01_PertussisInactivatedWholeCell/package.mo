@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines;
-package J07AJ01_PertussisInactivatedWholeCell
-  extends Icons.Package;
-end J07AJ01_PertussisInactivatedWholeCell;

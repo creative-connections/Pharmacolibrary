@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03D_AntispasmodicsInCombinationWithAnalgesics;
 package A03DA02_PitofenoneAndAnalgesics
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A03DA02_PitofenoneAndAnalgesics;

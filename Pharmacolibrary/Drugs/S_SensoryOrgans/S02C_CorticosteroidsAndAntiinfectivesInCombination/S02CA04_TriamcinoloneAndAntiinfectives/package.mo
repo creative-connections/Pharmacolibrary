@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.S_SensoryOrgans.S02C_CorticosteroidsAndAntiinfectivesInCombination;
-package S02CA04_TriamcinoloneAndAntiinfectives
-  extends Icons.Package;
-end S02CA04_TriamcinoloneAndAntiinfectives;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V10X_OtherTherapeuticRadiopharmaceuticals;
-package V10XX04_Lutetium177luOxodotreotide
-  extends Icons.Package;
-end V10XX04_Lutetium177luOxodotreotide;

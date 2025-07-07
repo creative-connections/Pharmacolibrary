@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07F_BetaBlockingAgentsOtherCombinations;
-package C07FX02_SotalolAndAcetylsalicylicAcid
-  extends Icons.Package;
-end C07FX02_SotalolAndAcetylsalicylicAcid;

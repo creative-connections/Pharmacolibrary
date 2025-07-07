@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D05B_AntipsoriaticsForSystemicUse;
 package D05BX51_FumaricAcidDerivativesCombinatio
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end D05BX51_FumaricAcidDerivativesCombinatio;

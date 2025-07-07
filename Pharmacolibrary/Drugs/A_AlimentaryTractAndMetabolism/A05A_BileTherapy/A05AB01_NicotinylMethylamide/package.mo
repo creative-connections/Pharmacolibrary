@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A05A_BileTherapy;
 package A05AB01_NicotinylMethylamide
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A05AB01_NicotinylMethylamide;

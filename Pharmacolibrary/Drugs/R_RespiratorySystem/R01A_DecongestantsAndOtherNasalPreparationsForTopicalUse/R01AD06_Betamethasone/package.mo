@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse;
-package R01AD06_Betamethasone
-  extends Icons.Package;
-end R01AD06_Betamethasone;

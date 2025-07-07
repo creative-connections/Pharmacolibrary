@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse;
-package R01AD58_FluticasoneCombinations
-  extends Icons.Package;
-end R01AD58_FluticasoneCombinations;

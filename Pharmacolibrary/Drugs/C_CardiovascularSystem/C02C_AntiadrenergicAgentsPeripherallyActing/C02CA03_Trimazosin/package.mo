@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02C_AntiadrenergicAgentsPeripherallyActing;
 package C02CA03_Trimazosin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C02CA03_Trimazosin;

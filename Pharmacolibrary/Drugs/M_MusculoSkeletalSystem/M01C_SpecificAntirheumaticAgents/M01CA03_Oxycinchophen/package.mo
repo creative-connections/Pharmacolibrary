@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01C_SpecificAntirheumaticAgents;
 package M01CA03_Oxycinchophen
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end M01CA03_Oxycinchophen;

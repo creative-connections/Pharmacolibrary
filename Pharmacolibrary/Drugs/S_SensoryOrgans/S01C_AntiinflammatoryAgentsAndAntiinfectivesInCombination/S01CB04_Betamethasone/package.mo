@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.S_SensoryOrgans.S01C_AntiinflammatoryAgentsAndAntiinfectivesInCombination;
-package S01CB04_Betamethasone
-  extends Icons.Package;
-end S01CB04_Betamethasone;

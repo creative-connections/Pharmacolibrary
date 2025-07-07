@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse;
-package G03AB07_ChlormadinoneAndEthinylestradiol
-  extends Icons.Package;
-end G03AB07_ChlormadinoneAndEthinylestradiol;

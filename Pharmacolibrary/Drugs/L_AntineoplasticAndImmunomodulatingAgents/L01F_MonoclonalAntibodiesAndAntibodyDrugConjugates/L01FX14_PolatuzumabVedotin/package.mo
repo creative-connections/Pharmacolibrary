@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates;
 package L01FX14_PolatuzumabVedotin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01FX14_PolatuzumabVedotin;

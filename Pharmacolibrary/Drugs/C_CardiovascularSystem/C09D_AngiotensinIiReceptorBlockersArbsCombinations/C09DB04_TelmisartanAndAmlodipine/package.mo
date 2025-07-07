@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations;
 package C09DB04_TelmisartanAndAmlodipine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C09DB04_TelmisartanAndAmlodipine;

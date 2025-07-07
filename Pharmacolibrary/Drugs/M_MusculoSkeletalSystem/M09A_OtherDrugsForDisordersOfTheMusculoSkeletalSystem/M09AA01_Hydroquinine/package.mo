@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem;
 package M09AA01_Hydroquinine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end M09AA01_Hydroquinine;

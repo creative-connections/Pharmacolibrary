@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim;
 package J01EB05_Sulfafurazole
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J01EB05_Sulfafurazole;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D05A_AntipsoriaticsForTopicalUse;
 package D05AX52_CalcipotriolCombinations
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end D05AX52_CalcipotriolCombinations;

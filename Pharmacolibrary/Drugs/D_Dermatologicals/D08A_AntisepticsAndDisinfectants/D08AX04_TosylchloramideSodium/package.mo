@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants;
 package D08AX04_TosylchloramideSodium
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end D08AX04_TosylchloramideSodium;

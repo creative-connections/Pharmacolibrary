@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
 package A11C_VitaminAAndDInclCombinationsOfTheTwo
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A11C_VitaminAAndDInclCombinationsOfTheTwo;

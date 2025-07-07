@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01B_AntiarrhythmicsClassIAndIii;
 package C01BA13_Hydroquinidine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C01BA13_Hydroquinidine;

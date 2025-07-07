@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents;
 package L04A_Immunosuppressants
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L04A_Immunosuppressants;

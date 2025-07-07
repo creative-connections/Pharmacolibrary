@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins;
 package A10BH07_Evogliptin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A10BH07_Evogliptin;

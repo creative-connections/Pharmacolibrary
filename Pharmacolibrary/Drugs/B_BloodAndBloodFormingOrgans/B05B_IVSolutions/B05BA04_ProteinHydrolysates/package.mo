@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05B_IVSolutions;
 package B05BA04_ProteinHydrolysates
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end B05BA04_ProteinHydrolysates;

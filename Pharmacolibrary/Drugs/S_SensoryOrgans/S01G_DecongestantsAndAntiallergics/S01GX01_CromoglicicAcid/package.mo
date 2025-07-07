@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S01G_DecongestantsAndAntiallergics;
 package S01GX01_CromoglicicAcid
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end S01GX01_CromoglicicAcid;

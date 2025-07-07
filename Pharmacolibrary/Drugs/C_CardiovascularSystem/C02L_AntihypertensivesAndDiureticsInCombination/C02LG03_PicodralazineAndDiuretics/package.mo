@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination;
-package C02LG03_PicodralazineAndDiuretics
-  extends Icons.Package;
-end C02LG03_PicodralazineAndDiuretics;

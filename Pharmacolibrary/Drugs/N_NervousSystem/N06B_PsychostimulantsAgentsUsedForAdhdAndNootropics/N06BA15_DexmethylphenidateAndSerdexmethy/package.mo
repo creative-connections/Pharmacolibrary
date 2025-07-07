@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics;
 package N06BA15_DexmethylphenidateAndSerdexmethy
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end N06BA15_DexmethylphenidateAndSerdexmethy;

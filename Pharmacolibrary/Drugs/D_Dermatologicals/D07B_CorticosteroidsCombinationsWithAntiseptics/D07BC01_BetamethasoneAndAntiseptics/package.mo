@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D07B_CorticosteroidsCombinationsWithAntiseptics;
-package D07BC01_BetamethasoneAndAntiseptics
-  extends Icons.Package;
-end D07BC01_BetamethasoneAndAntiseptics;

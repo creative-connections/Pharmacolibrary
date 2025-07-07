@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08D_SelectiveCalciumChannelBlockersWithDirectCardiacEffects;
-package C08DA02_Gallopamil
-  extends Icons.Package;
-end C08DA02_Gallopamil;

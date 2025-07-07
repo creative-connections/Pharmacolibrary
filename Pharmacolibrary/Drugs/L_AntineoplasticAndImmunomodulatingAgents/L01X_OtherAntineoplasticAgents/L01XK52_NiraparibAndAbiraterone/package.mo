@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
 package L01XK52_NiraparibAndAbiraterone
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01XK52_NiraparibAndAbiraterone;

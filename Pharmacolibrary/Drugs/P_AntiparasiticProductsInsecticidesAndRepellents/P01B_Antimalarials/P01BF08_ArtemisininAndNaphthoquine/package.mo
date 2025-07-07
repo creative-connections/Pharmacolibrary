@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials;
-package P01BF08_ArtemisininAndNaphthoquine
-  extends Icons.Package;
-end P01BF08_ArtemisininAndNaphthoquine;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02B_Antitrematodals;
 package P02BX03_Stibophen
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end P02BX03_Stibophen;

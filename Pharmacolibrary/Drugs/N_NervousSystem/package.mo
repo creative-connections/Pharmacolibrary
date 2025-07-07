@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs;
 package N_NervousSystem
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end N_NervousSystem;

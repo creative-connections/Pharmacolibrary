@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01B_AntiarrhythmicsClassIAndIii;
 package C01BA03_Disopyramide
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C01BA03_Disopyramide;

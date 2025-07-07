@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02A_HormonesAndRelatedAgents;
 package L02AE02_Leuprorelin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L02AE02_Leuprorelin;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics;
 package B02BD06_VonWillebrandFactorAndCoagulatio
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end B02BD06_VonWillebrandFactorAndCoagulatio;

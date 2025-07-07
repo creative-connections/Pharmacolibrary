@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse;
 package G03AD01_Levonorgestrel
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end G03AD01_Levonorgestrel;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03F_ProgestogensAndEstrogensInCombination;
-package G03FA12_MedroxyprogesteroneAndEstrogen
-  extends Icons.Package;
-end G03FA12_MedroxyprogesteroneAndEstrogen;

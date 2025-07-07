@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N04B_DopaminergicAgents;
 package N04BC01_Bromocriptine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end N04BC01_Bromocriptine;

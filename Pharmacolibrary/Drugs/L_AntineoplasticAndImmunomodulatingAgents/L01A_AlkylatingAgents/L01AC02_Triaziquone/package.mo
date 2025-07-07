@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents;
 package L01AC02_Triaziquone
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01AC02_Triaziquone;

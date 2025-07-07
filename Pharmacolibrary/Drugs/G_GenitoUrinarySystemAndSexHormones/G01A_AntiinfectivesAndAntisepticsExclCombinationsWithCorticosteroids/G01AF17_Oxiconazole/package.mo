@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWithCorticosteroids;
-package G01AF17_Oxiconazole
-  extends Icons.Package;
-end G01AF17_Oxiconazole;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03A_EctoparasiticidesInclScabicides;
 package P03AB02_Lindane
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end P03AB02_Lindane;

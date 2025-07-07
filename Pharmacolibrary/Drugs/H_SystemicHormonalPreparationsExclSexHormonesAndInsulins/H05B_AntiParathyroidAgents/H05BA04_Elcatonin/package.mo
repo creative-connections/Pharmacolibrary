@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05B_AntiParathyroidAgents;
 package H05BA04_Elcatonin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end H05BA04_Elcatonin;

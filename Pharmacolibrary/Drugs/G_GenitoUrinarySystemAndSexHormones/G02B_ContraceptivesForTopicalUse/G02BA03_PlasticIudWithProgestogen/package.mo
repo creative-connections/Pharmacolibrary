@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02B_ContraceptivesForTopicalUse;
-package G02BA03_PlasticIudWithProgestogen
-  extends Icons.Package;
-end G02BA03_PlasticIudWithProgestogen;

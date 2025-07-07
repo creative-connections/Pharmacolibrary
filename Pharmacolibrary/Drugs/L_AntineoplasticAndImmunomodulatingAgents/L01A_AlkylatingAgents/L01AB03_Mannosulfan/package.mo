@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents;
 package L01AB03_Mannosulfan
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01AB03_Mannosulfan;

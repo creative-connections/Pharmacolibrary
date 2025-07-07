@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem;
 package C02B_AntiadrenergicAgentsGanglionBlocking
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C02B_AntiadrenergicAgentsGanglionBlocking;

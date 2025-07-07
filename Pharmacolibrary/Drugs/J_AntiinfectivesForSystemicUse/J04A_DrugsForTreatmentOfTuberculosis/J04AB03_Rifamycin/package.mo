@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis;
 package J04AB03_Rifamycin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J04AB03_Rifamycin;

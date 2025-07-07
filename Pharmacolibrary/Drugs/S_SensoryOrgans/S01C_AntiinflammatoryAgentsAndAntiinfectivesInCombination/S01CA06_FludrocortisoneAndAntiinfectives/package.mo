@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.S_SensoryOrgans.S01C_AntiinflammatoryAgentsAndAntiinfectivesInCombination;
-package S01CA06_FludrocortisoneAndAntiinfectives
-  extends Icons.Package;
-end S01CA06_FludrocortisoneAndAntiinfectives;

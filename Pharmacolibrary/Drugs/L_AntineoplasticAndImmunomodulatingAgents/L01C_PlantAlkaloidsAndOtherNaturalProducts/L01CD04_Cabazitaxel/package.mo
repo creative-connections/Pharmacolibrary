@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts;
 package L01CD04_Cabazitaxel
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01CD04_Cabazitaxel;

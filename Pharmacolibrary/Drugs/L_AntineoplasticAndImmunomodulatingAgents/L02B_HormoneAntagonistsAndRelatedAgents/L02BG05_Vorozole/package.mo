@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02B_HormoneAntagonistsAndRelatedAgents;
 package L02BG05_Vorozole
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L02BG05_Vorozole;

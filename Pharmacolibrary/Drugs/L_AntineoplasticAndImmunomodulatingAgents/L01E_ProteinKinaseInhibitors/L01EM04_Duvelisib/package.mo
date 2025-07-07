@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
 package L01EM04_Duvelisib
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01EM04_Duvelisib;

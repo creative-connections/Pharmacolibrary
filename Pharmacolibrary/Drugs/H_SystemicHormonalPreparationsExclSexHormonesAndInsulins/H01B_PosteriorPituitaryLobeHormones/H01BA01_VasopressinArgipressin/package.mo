@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01B_PosteriorPituitaryLobeHormones;
 package H01BA01_VasopressinArgipressin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end H01BA01_VasopressinArgipressin;

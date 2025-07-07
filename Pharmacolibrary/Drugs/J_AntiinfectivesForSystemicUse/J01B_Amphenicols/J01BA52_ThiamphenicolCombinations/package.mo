@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01B_Amphenicols;
-package J01BA52_ThiamphenicolCombinations
-  extends Icons.Package;
-end J01BA52_ThiamphenicolCombinations;

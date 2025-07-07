@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N05C_HypnoticsAndSedatives;
-package N05CB01_CombinationsOfBarbiturates
-  extends Icons.Package;
-end N05CB01_CombinationsOfBarbiturates;

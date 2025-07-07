@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03B_Androgens;
 package G03BB02_Androstanolone
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end G03BB02_Androstanolone;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection;
-package V09IA07_Technetium99mtcHynicOctreotide
-  extends Icons.Package;
-end V09IA07_Technetium99mtcHynicOctreotide;

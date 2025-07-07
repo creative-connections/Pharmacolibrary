@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines;
 package J07AP03_TyphoidPurifiedPolysaccharideAnt
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J07AP03_TyphoidPurifiedPolysaccharideAnt;

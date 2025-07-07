@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorants;
-package R05DB26_Nepinalone
-  extends Icons.Package;
-end R05DB26_Nepinalone;

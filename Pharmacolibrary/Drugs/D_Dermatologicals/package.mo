@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs;
 package D_Dermatologicals
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end D_Dermatologicals;

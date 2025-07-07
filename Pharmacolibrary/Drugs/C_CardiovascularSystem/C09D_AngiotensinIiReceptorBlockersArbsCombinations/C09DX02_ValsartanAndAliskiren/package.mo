@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations;
 package C09DX02_ValsartanAndAliskiren
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C09DX02_ValsartanAndAliskiren;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12C_OtherMineralSupplements;
 package A12CD51_FluorideCombinations
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A12CD51_FluorideCombinations;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.V_Various.V09G_CardiovascularSystem;
 package V09GX03_Chromium51crChromateLabelledCell
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end V09GX03_Chromium51crChromateLabelledCell;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse;
-package R01AB07_Oxymetazoline
-  extends Icons.Package;
-end R01AB07_Oxymetazoline;

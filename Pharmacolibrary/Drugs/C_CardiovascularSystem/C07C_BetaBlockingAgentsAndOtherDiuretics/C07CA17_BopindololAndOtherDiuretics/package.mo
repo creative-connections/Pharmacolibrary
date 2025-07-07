@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07C_BetaBlockingAgentsAndOtherDiuretics;
-package C07CA17_BopindololAndOtherDiuretics
-  extends Icons.Package;
-end C07CA17_BopindololAndOtherDiuretics;

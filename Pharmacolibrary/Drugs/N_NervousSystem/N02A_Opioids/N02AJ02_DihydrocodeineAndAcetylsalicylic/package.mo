@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids;
 package N02AJ02_DihydrocodeineAndAcetylsalicylic
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end N02AJ02_DihydrocodeineAndAcetylsalicylic;

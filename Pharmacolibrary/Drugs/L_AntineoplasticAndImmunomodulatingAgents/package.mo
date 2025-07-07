@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs;
 package L_AntineoplasticAndImmunomodulatingAgents
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L_AntineoplasticAndImmunomodulatingAgents;

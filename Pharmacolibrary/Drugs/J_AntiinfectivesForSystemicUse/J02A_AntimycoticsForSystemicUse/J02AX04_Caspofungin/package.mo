@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse;
 package J02AX04_Caspofungin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J02AX04_Caspofungin;

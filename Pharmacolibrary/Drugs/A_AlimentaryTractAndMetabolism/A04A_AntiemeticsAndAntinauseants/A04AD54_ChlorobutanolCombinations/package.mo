@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A04A_AntiemeticsAndAntinauseants;
-package A04AD54_ChlorobutanolCombinations
-  extends Icons.Package;
-end A04AD54_ChlorobutanolCombinations;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates;
 package L01FF09_Tislelizumab
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01FF09_Tislelizumab;

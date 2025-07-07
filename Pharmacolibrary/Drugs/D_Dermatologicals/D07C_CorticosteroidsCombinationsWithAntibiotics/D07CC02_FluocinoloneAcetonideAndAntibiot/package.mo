@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D07C_CorticosteroidsCombinationsWithAntibiotics;
 package D07CC02_FluocinoloneAcetonideAndAntibiot
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end D07CC02_FluocinoloneAcetonideAndAntibiot;

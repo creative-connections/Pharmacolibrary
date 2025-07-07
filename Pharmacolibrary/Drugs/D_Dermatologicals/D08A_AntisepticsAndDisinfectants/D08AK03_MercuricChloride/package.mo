@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants;
 package D08AK03_MercuricChloride
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end D08AK03_MercuricChloride;

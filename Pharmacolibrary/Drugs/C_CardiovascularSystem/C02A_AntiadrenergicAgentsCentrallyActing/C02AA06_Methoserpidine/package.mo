@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02A_AntiadrenergicAgentsCentrallyActing;
 package C02AA06_Methoserpidine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C02AA06_Methoserpidine;

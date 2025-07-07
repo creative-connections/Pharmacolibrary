@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals;
 package D07B_CorticosteroidsCombinationsWithAntiseptics
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end D07B_CorticosteroidsCombinationsWithAntiseptics;

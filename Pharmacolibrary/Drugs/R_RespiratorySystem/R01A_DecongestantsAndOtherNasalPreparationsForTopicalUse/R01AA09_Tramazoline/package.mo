@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopicalUse;
-package R01AA09_Tramazoline
-  extends Icons.Package;
-end R01AA09_Tramazoline;

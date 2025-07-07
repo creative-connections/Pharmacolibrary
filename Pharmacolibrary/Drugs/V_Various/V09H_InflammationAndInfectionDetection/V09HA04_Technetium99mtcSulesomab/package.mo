@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.V_Various.V09H_InflammationAndInfectionDetection;
 package V09HA04_Technetium99mtcSulesomab
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end V09HA04_Technetium99mtcSulesomab;

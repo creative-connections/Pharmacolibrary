@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins;
 package J01CA17_Temocillin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J01CA17_Temocillin;

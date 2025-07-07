@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R03B_OtherDrugsForObstructiveAirwayDiseasesInhalants;
-package R03BB54_TiotropiumBromideCombinations
-  extends Icons.Package;
-end R03BB54_TiotropiumBromideCombinations;

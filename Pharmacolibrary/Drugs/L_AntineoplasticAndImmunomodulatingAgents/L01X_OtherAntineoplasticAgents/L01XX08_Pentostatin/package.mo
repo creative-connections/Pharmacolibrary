@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
 package L01XX08_Pentostatin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01XX08_Pentostatin;

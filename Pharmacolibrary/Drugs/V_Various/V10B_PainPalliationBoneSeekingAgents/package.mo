@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.V_Various;
 package V10B_PainPalliationBoneSeekingAgents
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end V10B_PainPalliationBoneSeekingAgents;

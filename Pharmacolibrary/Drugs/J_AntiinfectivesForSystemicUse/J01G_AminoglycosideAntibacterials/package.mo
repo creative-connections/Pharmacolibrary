@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse;
 package J01G_AminoglycosideAntibacterials
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J01G_AminoglycosideAntibacterials;

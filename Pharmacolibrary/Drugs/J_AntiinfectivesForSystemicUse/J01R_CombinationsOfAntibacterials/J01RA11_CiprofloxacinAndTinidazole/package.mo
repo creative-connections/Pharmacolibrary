@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01R_CombinationsOfAntibacterials;
-package J01RA11_CiprofloxacinAndTinidazole
-  extends Icons.Package;
-end J01RA11_CiprofloxacinAndTinidazole;

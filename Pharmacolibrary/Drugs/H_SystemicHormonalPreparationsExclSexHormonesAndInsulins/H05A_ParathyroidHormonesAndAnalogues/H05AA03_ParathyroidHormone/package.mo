@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05A_ParathyroidHormonesAndAnalogues;
 package H05AA03_ParathyroidHormone
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end H05AA03_ParathyroidHormone;

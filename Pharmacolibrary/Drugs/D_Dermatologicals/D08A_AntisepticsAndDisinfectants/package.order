@@ -6,7 +6,7 @@ D08AC02_Chlorhexidine
 D08AC03_Propamidine
 D08AC04_Hexamidine
 D08AC05_Polihexanide
-D08AC52_ChlorhexidineCombinations
+D08AC52_ChlorhexidineCombination
 D08AE01_Hexachlorophene
 D08AE02_Policresulen
 D08AE03_Phenol
@@ -14,6 +14,7 @@ D08AE04_Triclosan
 D08AE05_Chloroxylenol
 D08AE06_Biphenylol
 D08AF01_Nitrofural
+D08AG01_IodineOctylphenoxypolygl
 D08AG01_IodineOctylphenoxypolyglycolethe
 D08AG02_PovidoneIodine
 D08AG03_Iodine
@@ -27,12 +28,12 @@ D08AJ02_Cetrimonium
 D08AJ03_Cetylpyridinium
 D08AJ04_Cetrimide
 D08AJ05_BenzoxoniumChloride
-D08AJ06_DidecyldimethylammoniumChloride
+D08AJ06_DidecyldimethylammoniumC
 D08AJ08_BenzethoniumChloride
 D08AJ10_Decamethoxine
 D08AJ57_OctenidineCombinations
-D08AJ58_BenzethoniumChlorideCombinations
-D08AJ59_DodecloniumBromideCombinations
+D08AJ58_BenzethoniumChlorideComb
+D08AJ59_DodecloniumBromideCombin
 D08AK01_MercuricAmidochloride
 D08AK02_PhenylmercuricBorate
 D08AK03_MercuricChloride

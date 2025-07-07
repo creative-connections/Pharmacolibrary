@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
 package L01ED03_Alectinib
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01ED03_Alectinib;

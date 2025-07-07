@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations;
 package C09BA13_MoexiprilAndDiuretics
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C09BA13_MoexiprilAndDiuretics;

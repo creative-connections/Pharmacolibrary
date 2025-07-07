@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse;
 package D10AF03_Chloramphenicol
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end D10AF03_Chloramphenicol;

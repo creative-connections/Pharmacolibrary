@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations;
 package D11AH04_Alitretinoin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end D11AH04_Alitretinoin;

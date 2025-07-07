@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V03A_AllOtherTherapeuticProducts;
-package V03AB05_PrednisoloneAndPromethazine
-  extends Icons.Package;
-end V03AB05_PrednisoloneAndPromethazine;

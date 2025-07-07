@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides;
 package C01CE02_Milrinone
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C01CE02_Milrinone;

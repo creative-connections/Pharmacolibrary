@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01R_CombinationsOfAntibacterials;
 package J01RA15_CefiximeAndOrnidazole
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J01RA15_CefiximeAndOrnidazole;

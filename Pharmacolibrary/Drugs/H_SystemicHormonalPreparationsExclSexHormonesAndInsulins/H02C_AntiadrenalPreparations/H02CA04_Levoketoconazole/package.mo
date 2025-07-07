@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02C_AntiadrenalPreparations;
 package H02CA04_Levoketoconazole
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end H02CA04_Levoketoconazole;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N01A_AnestheticsGeneral;
 package N01AF01_Methohexital
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end N01AF01_Methohexital;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations;
-package C10BA07_RosuvastatinAndOmega3FattyAcids
-  extends Icons.Package;
-end C10BA07_RosuvastatinAndOmega3FattyAcids;

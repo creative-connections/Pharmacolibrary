@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
 package J05AE08_Atazanavir
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J05AE08_Atazanavir;

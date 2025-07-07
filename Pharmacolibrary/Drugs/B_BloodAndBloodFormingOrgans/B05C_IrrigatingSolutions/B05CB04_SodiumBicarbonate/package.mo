@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05C_IrrigatingSolutions;
 package B05CB04_SodiumBicarbonate
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end B05CB04_SodiumBicarbonate;

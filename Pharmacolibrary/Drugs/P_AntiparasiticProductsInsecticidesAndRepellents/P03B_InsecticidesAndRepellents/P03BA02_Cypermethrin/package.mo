@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03B_InsecticidesAndRepellents;
 package P03BA02_Cypermethrin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end P03BA02_Cypermethrin;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides;
 package C01CA21_Cafedrine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C01CA21_Cafedrine;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02A_HormonesAndRelatedAgents;
 package L02AB03_Gestonorone
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L02AB03_Gestonorone;

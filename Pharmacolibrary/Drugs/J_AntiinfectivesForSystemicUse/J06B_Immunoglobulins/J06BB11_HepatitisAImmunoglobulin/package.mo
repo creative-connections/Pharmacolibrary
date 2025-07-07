@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J06B_Immunoglobulins;
 package J06BB11_HepatitisAImmunoglobulin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J06BB11_HepatitisAImmunoglobulin;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05B_AntivaricoseTherapy;
 package C05BB01_MonoethanolamineOleate
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C05BB01_MonoethanolamineOleate;

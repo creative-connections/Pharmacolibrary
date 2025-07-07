@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem;
 package R01B_NasalDecongestantsForSystemicUse
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end R01B_NasalDecongestantsForSystemicUse;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs;
 package M_MusculoSkeletalSystem
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end M_MusculoSkeletalSystem;

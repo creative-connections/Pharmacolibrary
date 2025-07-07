@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressants;
-package R05CB10_OxomemazineAndGuaifenesinCombina
-  extends Icons.Package;
-end R05CB10_OxomemazineAndGuaifenesinCombina;

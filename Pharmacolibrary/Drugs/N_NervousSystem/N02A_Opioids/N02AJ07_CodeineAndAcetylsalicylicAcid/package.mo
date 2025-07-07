@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids;
-package N02AJ07_CodeineAndAcetylsalicylicAcid
-  extends Icons.Package;
-end N02AJ07_CodeineAndAcetylsalicylicAcid;

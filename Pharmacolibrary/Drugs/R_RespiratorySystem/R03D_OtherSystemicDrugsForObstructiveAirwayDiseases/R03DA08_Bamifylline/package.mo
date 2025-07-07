@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases;
 package R03DA08_Bamifylline
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end R03DA08_Bamifylline;

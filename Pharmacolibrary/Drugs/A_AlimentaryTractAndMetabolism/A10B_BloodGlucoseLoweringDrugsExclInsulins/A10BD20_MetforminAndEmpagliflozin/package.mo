@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins;
-package A10BD20_MetforminAndEmpagliflozin
-  extends Icons.Package;
-end A10BD20_MetforminAndEmpagliflozin;

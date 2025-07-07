@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents;
 package P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases;

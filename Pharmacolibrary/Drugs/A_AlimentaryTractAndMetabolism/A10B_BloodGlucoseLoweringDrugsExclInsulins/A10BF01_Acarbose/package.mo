@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins;
 package A10BF01_Acarbose
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A10BF01_Acarbose;

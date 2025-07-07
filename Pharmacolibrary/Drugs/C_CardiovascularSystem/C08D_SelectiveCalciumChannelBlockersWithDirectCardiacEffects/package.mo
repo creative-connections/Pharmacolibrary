@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem;
-package C08D_SelectiveCalciumChannelBlockersWithDirectCardiacEffects
-  extends Icons.Package;
-end C08D_SelectiveCalciumChannelBlockersWithDirectCardiacEffects;

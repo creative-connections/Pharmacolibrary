@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations;
 package C09BX01_PerindoprilAmlodipineAndIndapami
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C09BX01_PerindoprilAmlodipineAndIndapami;

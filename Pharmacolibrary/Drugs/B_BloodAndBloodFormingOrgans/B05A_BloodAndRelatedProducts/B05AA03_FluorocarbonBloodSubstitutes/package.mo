@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05A_BloodAndRelatedProducts;
-package B05AA03_FluorocarbonBloodSubstitutes
-  extends Icons.Package;
-end B05AA03_FluorocarbonBloodSubstitutes;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem;
 package C01B_AntiarrhythmicsClassIAndIii
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C01B_AntiarrhythmicsClassIAndIii;

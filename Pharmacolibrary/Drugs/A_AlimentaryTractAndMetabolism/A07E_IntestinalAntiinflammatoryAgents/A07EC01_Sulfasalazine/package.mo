@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07E_IntestinalAntiinflammatoryAgents;
 package A07EC01_Sulfasalazine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A07EC01_Sulfasalazine;

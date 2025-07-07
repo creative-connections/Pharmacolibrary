@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDiseaseGord;
-package A02BC53_LansoprazoleCombinations
-  extends Icons.Package;
-end A02BC53_LansoprazoleCombinations;

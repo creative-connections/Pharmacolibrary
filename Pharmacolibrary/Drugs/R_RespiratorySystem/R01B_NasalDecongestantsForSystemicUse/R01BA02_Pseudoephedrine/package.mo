@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R01B_NasalDecongestantsForSystemicUse;
 package R01BA02_Pseudoephedrine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end R01BA02_Pseudoephedrine;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem;
 package M09AB02_CollagenaseClostridiumHistolytic
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end M09AB02_CollagenaseClostridiumHistolytic;

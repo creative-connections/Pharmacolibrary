@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations;
-package C10BX09_RosuvastatinAndAmlodipine
-  extends Icons.Package;
-end C10BX09_RosuvastatinAndAmlodipine;

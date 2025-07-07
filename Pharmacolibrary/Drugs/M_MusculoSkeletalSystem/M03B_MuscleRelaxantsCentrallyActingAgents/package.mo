@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem;
 package M03B_MuscleRelaxantsCentrallyActingAgents
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end M03B_MuscleRelaxantsCentrallyActingAgents;

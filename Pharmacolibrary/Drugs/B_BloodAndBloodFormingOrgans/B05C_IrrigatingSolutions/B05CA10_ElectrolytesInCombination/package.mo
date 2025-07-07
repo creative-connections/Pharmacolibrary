@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05C_IrrigatingSolutions;
-package B05CA10_ElectrolytesInCombination
-  extends Icons.Package;
-end B05CA10_ElectrolytesInCombination;

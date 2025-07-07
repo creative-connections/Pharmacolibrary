@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01C_HypothalamicHormones;
 package H01CB03_Lanreotide
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end H01CB03_Lanreotide;

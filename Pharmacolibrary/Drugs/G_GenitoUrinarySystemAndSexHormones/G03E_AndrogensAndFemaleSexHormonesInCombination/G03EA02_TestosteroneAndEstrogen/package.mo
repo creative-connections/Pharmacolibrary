@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03E_AndrogensAndFemaleSexHormonesInCombination;
 package G03EA02_TestosteroneAndEstrogen
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end G03EA02_TestosteroneAndEstrogen;

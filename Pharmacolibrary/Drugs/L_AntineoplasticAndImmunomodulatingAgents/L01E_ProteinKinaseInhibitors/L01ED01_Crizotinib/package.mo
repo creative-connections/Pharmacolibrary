@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
 package L01ED01_Crizotinib
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01ED01_Crizotinib;

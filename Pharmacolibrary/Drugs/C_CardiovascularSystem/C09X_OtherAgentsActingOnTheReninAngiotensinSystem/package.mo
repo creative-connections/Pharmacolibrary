@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem;
 package C09X_OtherAgentsActingOnTheReninAngiotensinSystem
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C09X_OtherAgentsActingOnTheReninAngiotensinSystem;

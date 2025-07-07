@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem;
 package M05B_DrugsAffectingBoneStructureAndMineralization
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end M05B_DrugsAffectingBoneStructureAndMineralization;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
 package A03A_DrugsForFunctionalGastrointestinalDisorders
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A03A_DrugsForFunctionalGastrointestinalDisorders;

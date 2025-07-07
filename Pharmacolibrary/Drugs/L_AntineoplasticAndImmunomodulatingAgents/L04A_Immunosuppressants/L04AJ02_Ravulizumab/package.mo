@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
 package L04AJ02_Ravulizumab
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L04AJ02_Ravulizumab;

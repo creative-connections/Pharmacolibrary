@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.V_Various;
 package V09X_OtherDiagnosticRadiopharmaceuticals
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end V09X_OtherDiagnosticRadiopharmaceuticals;

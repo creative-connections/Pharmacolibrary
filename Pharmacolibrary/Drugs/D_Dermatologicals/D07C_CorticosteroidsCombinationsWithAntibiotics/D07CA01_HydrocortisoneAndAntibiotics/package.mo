@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D07C_CorticosteroidsCombinationsWithAntibiotics;
-package D07CA01_HydrocortisoneAndAntibiotics
-  extends Icons.Package;
-end D07CA01_HydrocortisoneAndAntibiotics;

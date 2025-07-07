@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02B_HormoneAntagonistsAndRelatedAgents;
 package L02BX03_Abiraterone
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L02BX03_Abiraterone;

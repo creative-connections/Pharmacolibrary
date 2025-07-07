@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins;
 package J01CF06_Nafcillin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J01CF06_Nafcillin;

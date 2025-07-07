@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
-package A11D_VitaminB1PlainAndInCombinationWithVitaminB6AndB12
-  extends Icons.Package;
-end A11D_VitaminB1PlainAndInCombinationWithVitaminB6AndB12;

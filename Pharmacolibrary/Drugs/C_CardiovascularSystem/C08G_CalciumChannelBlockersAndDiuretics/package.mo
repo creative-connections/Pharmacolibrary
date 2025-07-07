@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem;
 package C08G_CalciumChannelBlockersAndDiuretics
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C08G_CalciumChannelBlockersAndDiuretics;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations;
-package C10BA03_PravastatinAndFenofibrate
-  extends Icons.Package;
-end C10BA03_PravastatinAndFenofibrate;

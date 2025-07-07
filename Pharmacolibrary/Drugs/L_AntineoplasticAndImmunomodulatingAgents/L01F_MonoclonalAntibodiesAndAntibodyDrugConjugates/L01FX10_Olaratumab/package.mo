@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates;
 package L01FX10_Olaratumab
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01FX10_Olaratumab;

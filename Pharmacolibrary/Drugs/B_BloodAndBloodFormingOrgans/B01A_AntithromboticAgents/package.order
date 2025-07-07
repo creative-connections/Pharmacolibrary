@@ -45,7 +45,9 @@ B01AC25_Cangrelor
 B01AC26_Vorapaxar
 B01AC27_Selexipag
 B01AC28_Limaprost
+B01AC30_AcetylsalicylicAcidAndDi
 B01AC30_AcetylsalicylicAcidAndDipyridamo
+B01AC56_AcetylsalicylicAcidCombi
 B01AC56_AcetylsalicylicAcidCombinationsW
 B01AD01_Streptokinase
 B01AD02_Alteplase
@@ -59,6 +61,7 @@ B01AD09_Ancrod
 B01AD10_DrotrecoginAlfaActivated
 B01AD11_Tenecteplase
 B01AD12_ProteinC
+B01AD13_ApadamtaseAlfaAndCinaxad
 B01AD13_ApadamtaseAlfaAndCinaxadamtaseAl
 B01AE01_Desirudin
 B01AE02_Lepirudin
@@ -71,6 +74,7 @@ B01AF01_Rivaroxaban
 B01AF02_Apixaban
 B01AF03_Edoxaban
 B01AF04_Betrixaban
+B01AF51_RivaroxabanAndAcetylsali
 B01AF51_RivaroxabanAndAcetylsalicylicAci
 B01AX01_Defibrotide
 B01AX04_DermatanSulfate

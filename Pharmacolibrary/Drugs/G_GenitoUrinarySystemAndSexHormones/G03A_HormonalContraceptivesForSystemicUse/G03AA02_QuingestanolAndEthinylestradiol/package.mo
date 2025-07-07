@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse;
-package G03AA02_QuingestanolAndEthinylestradiol
-  extends Icons.Package;
-end G03AA02_QuingestanolAndEthinylestradiol;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03X_OtherSexHormonesAndModulatorsOfTheGenitalSystem;
 package G03XC04_Ormeloxifene
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end G03XC04_Ormeloxifene;

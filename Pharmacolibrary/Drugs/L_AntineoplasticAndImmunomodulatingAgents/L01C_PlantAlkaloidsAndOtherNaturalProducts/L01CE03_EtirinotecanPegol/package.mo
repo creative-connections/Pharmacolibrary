@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts;
 package L01CE03_EtirinotecanPegol
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01CE03_EtirinotecanPegol;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S01H_LocalAnesthetics;
 package S01HA30_CombinationsOphthalmologicalsOth
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end S01HA30_CombinationsOphthalmologicalsOth;

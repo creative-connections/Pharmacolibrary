@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids;
-package M01AG04_MeclofenamicAcid
-  extends Icons.Package;
-end M01AG04_MeclofenamicAcid;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
 package A08A_AntiobesityPreparationsExclDietProducts
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A08A_AntiobesityPreparationsExclDietProducts;

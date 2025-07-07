@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim;
 package J01ED01_Sulfadimethoxine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J01ED01_Sulfadimethoxine;

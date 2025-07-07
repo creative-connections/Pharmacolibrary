@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03F_ProgestogensAndEstrogensInCombination;
-package G03FB09_LevonorgestrelAndEstrogen
-  extends Icons.Package;
-end G03FB09_LevonorgestrelAndEstrogen;

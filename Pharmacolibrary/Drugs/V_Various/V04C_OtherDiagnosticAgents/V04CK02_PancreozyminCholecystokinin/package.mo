@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V04C_OtherDiagnosticAgents;
-package V04CK02_PancreozyminCholecystokinin
-  extends Icons.Package;
-end V04CK02_PancreozyminCholecystokinin;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids;
-package M01AE06_Benoxaprofen
-  extends Icons.Package;
-end M01AE06_Benoxaprofen;

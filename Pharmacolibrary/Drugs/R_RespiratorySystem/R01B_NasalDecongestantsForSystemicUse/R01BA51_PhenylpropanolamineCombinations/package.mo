@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R01B_NasalDecongestantsForSystemicUse;
-package R01BA51_PhenylpropanolamineCombinations
-  extends Icons.Package;
-end R01BA51_PhenylpropanolamineCombinations;

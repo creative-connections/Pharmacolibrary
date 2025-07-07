@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines;
 package J07BX05_RespiratorySyncytialVirusVaccine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J07BX05_RespiratorySyncytialVirusVaccine;

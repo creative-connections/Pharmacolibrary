@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
 package J05AP08_Sofosbuvir
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J05AP08_Sofosbuvir;

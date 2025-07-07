@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D07C_CorticosteroidsCombinationsWithAntibiotics;
-package D07CC06_FluocortoloneAndAntibiotics
-  extends Icons.Package;
-end D07CC06_FluocortoloneAndAntibiotics;

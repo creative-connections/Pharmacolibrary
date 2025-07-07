@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.S_SensoryOrgans.S01B_AntiinflammatoryAgents;
-package S01BB04_BetamethasoneAndMydriatics
-  extends Icons.Package;
-end S01BB04_BetamethasoneAndMydriatics;

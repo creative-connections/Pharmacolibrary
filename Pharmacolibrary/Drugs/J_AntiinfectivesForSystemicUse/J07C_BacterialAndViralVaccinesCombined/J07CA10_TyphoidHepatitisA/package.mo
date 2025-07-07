@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07C_BacterialAndViralVaccinesCombined;
 package J07CA10_TyphoidHepatitisA
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J07CA10_TyphoidHepatitisA;

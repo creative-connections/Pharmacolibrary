@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins;
 package J01FA15_Telithromycin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J01FA15_Telithromycin;

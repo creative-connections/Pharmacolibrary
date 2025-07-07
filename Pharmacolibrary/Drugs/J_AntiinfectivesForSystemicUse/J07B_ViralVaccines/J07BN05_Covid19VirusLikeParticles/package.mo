@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines;
-package J07BN05_Covid19VirusLikeParticles
-  extends Icons.Package;
-end J07BN05_Covid19VirusLikeParticles;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations;
 package A01AD06_Adrenalone
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A01AD06_Adrenalone;

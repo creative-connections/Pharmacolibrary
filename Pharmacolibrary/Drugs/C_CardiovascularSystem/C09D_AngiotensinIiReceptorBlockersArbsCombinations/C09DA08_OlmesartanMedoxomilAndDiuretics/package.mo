@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations;
-package C09DA08_OlmesartanMedoxomilAndDiuretics
-  extends Icons.Package;
-end C09DA08_OlmesartanMedoxomilAndDiuretics;

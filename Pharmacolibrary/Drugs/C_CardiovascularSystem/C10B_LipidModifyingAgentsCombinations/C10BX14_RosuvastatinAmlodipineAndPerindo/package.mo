@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations;
 package C10BX14_RosuvastatinAmlodipineAndPerindo
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C10BX14_RosuvastatinAmlodipineAndPerindo;

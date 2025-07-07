@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans;
 package B03X_OtherAntianemicPreparations
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end B03X_OtherAntianemicPreparations;

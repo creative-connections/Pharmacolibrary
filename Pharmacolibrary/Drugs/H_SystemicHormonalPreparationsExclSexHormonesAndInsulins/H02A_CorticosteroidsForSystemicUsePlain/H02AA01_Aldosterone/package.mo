@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02A_CorticosteroidsForSystemicUsePlain;
 package H02AA01_Aldosterone
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end H02AA01_Aldosterone;

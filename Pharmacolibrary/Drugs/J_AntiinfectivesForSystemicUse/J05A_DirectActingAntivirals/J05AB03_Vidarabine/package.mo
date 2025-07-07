@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
 package J05AB03_Vidarabine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end J05AB03_Vidarabine;

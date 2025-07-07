@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations;
 package C09BB05_RamiprilAndFelodipine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C09BB05_RamiprilAndFelodipine;

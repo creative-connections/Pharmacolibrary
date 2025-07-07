@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans;
 package S01J_DiagnosticAgents
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end S01J_DiagnosticAgents;

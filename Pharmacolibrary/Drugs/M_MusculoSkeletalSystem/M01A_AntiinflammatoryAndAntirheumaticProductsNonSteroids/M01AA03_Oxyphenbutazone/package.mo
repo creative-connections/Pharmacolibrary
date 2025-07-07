@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids;
-package M01AA03_Oxyphenbutazone
-  extends Icons.Package;
-end M01AA03_Oxyphenbutazone;

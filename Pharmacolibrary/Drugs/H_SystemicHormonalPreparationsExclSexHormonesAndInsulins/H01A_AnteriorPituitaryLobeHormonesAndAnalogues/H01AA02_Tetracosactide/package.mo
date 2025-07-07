@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01A_AnteriorPituitaryLobeHormonesAndAnalogues;
 package H01AA02_Tetracosactide
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end H01AA02_Tetracosactide;

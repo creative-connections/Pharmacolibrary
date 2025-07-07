@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02B_Antitrematodals;
 package P02BX02_Niridazole
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end P02BX02_Niridazole;

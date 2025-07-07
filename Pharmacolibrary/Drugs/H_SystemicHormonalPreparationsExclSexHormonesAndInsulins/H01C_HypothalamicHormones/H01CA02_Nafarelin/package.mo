@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01C_HypothalamicHormones;
 package H01CA02_Nafarelin
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end H01CA02_Nafarelin;

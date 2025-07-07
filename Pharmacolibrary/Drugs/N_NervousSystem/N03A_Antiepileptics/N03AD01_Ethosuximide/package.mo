@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N03A_Antiepileptics;
 package N03AD01_Ethosuximide
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end N03AD01_Ethosuximide;

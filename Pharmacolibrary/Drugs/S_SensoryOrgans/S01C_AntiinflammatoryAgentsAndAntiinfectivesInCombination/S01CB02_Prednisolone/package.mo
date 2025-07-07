@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.S_SensoryOrgans.S01C_AntiinflammatoryAgentsAndAntiinfectivesInCombination;
-package S01CB02_Prednisolone
-  extends Icons.Package;
-end S01CB02_Prednisolone;

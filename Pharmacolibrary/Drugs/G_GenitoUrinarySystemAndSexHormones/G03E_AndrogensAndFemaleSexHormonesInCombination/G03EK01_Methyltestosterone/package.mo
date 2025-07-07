@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03E_AndrogensAndFemaleSexHormonesInCombination;
 package G03EK01_Methyltestosterone
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end G03EK01_Methyltestosterone;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonSteroids;
-package M01AE10_Indoprofen
-  extends Icons.Package;
-end M01AE10_Indoprofen;

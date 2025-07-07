@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09X_OtherAgentsActingOnTheReninAngiotensinSystem;
 package C09XA53_AliskirenAndAmlodipine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C09XA53_AliskirenAndAmlodipine;

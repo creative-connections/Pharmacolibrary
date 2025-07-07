@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07B_IntestinalAdsorbents;
-package A07BA51_MedicinalCharcoalCombinations
-  extends Icons.Package;
-end A07BA51_MedicinalCharcoalCombinations;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection;
-package V09IA06_Technetium99mtcArcitumomab
-  extends Icons.Package;
-end V09IA06_Technetium99mtcArcitumomab;

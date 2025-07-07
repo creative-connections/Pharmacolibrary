@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02C_OtherGynecologicals;
 package G02CX05_Bremelanotide
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end G02CX05_Bremelanotide;

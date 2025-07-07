@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
 package L01XX18_Tiazofurine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01XX18_Tiazofurine;

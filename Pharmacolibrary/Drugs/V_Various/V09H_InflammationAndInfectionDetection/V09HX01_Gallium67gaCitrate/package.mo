@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.V_Various.V09H_InflammationAndInfectionDetection;
 package V09HX01_Gallium67gaCitrate
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end V09HX01_Gallium67gaCitrate;

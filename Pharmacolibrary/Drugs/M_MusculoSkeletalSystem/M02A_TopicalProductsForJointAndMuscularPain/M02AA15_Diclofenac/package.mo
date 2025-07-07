@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain;
 package M02AA15_Diclofenac
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end M02AA15_Diclofenac;

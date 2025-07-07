@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D07C_CorticosteroidsCombinationsWithAntibiotics;
-package D07CC03_FludroxycortideAndAntibiotics
-  extends Icons.Package;
-end D07CC03_FludroxycortideAndAntibiotics;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization;
 package M05BX04_Denosumab
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end M05BX04_Denosumab;

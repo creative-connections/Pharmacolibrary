@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V09X_OtherDiagnosticRadiopharmaceuticals;
-package V09XX01_Cobalt57coCyanocobalamine
-  extends Icons.Package;
-end V09XX01_Cobalt57coCyanocobalamine;

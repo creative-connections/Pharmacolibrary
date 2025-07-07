@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A08A_AntiobesityPreparationsExclDietProducts;
 package A08AA09_Mefenorex
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A08AA09_Mefenorex;

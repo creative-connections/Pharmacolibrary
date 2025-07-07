@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R05F_CoughSuppressantsAndExpectorantsCombinations;
-package R05FA01_OpiumDerivativesAndMucolytics
-  extends Icons.Package;
-end R05FA01_OpiumDerivativesAndMucolytics;

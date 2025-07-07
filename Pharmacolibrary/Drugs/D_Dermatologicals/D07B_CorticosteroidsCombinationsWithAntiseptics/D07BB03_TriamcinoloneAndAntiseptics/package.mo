@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D07B_CorticosteroidsCombinationsWithAntiseptics;
-package D07BB03_TriamcinoloneAndAntiseptics
-  extends Icons.Package;
-end D07BB03_TriamcinoloneAndAntiseptics;

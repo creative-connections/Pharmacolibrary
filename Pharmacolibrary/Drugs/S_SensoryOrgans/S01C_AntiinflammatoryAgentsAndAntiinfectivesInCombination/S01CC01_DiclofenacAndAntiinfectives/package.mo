@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.S_SensoryOrgans.S01C_AntiinflammatoryAgentsAndAntiinfectivesInCombination;
-package S01CC01_DiclofenacAndAntiinfectives
-  extends Icons.Package;
-end S01CC01_DiclofenacAndAntiinfectives;

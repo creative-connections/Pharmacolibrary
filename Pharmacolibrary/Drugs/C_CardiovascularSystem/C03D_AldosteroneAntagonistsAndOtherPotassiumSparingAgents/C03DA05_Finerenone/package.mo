@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03D_AldosteroneAntagonistsAndOtherPotassiumSparingAgents;
-package C03DA05_Finerenone
-  extends Icons.Package;
-end C03DA05_Finerenone;

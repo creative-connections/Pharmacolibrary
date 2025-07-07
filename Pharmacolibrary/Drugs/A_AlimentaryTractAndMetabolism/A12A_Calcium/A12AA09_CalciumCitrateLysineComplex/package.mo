@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12A_Calcium;
-package A12AA09_CalciumCitrateLysineComplex
-  extends Icons.Package;
-end A12AA09_CalciumCitrateLysineComplex;

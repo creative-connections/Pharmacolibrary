@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.R_RespiratorySystem.R05F_CoughSuppressantsAndExpectorantsCombinations;
 package R05FB02_BromhexineCoughSuppressantsAndEx
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end R05FB02_BromhexineCoughSuppressantsAndEx;

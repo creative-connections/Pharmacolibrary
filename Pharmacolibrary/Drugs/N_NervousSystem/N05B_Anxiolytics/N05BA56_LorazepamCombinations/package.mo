@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.N_NervousSystem.N05B_Anxiolytics;
 package N05BA56_LorazepamCombinations
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end N05BA56_LorazepamCombinations;

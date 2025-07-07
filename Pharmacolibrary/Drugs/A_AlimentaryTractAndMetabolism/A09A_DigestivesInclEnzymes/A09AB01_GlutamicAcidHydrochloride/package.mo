@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A09A_DigestivesInclEnzymes;
-package A09AB01_GlutamicAcidHydrochloride
-  extends Icons.Package;
-end A09AB01_GlutamicAcidHydrochloride;

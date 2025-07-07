@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials;
 package P01BB52_ChloroquineAndProguanil
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end P01BB52_ChloroquineAndProguanil;

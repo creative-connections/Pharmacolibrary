@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04C_DrugsUsedInBenignProstaticHypertrophy;
 package G04CX04_Fexapotide
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end G04CX04_Fexapotide;

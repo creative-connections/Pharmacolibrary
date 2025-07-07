@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
 package A07E_IntestinalAntiinflammatoryAgents
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A07E_IntestinalAntiinflammatoryAgents;

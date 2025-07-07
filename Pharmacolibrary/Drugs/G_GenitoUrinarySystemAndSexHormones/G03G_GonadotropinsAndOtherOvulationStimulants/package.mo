@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones;
 package G03G_GonadotropinsAndOtherOvulationStimulants
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end G03G_GonadotropinsAndOtherOvulationStimulants;

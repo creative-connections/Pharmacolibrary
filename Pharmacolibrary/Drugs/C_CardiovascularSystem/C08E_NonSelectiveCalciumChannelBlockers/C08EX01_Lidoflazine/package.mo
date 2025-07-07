@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08E_NonSelectiveCalciumChannelBlockers;
 package C08EX01_Lidoflazine
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end C08EX01_Lidoflazine;

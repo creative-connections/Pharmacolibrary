@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem;
 package M01C_SpecificAntirheumaticAgents
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end M01C_SpecificAntirheumaticAgents;

@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A05A_BileTherapy;
 package A05AA04_ObeticholicAcid
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end A05AA04_ObeticholicAcid;

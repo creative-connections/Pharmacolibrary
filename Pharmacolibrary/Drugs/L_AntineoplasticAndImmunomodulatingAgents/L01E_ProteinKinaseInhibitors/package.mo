@@ -1,4 +1,4 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents;
 package L01E_ProteinKinaseInhibitors
-  extends Icons.Package;
+  extends Icons.PackageDrugs;
 end L01E_ProteinKinaseInhibitors;
