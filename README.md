@@ -4,13 +4,18 @@ working version of library to support modeling pharmacology in Modelica.
 
 ## Instruction
 
-  * open Modelica tool, e.g. OpenModelica[1] or Dymola[2] 
-    * inside the tool, File -> Open Model/Library File
-    * select Pharmacolibrary/package.mo
-
-except standard Modelica library, no other dependencies are needed
+  * download Pharmacolibrary, e.g. last version
+```bash
+git clone git@github.com:creative-connections/Pharmacolibrary.git
+```
+  * use Modelica tool, e.g. OpenModelica[1] or Dymola[2] 
+    * inside the tool, `File -> Open Model/Library File`
+    * select `Pharmacolibrary/package.mo`
   * Open Examples 
     * each model in Examples package shows some feature on concrete model of drug pharmacokinetic, pharmacodynamic and pharmacogenomic. Sample model with complex physiologically based model is also shown.
+
+[1] OpenModelica: https://www.openmodelica.org<br/>
+[2] Dymola:https://www.3ds.com/products/catia/dymola
 
 ## Modeling
 <div><div><b>Pharmacolibrary</b> is a reusable Modelica library unifying Pharmacokinetic, pharmacodynamic, toxicokinetic, toxicodynamic, and pharmacogenomic constructs with standardized pharmacological terminology, units, and acausal connectors.</div></div><div>The following acausal connectors are available and reused in library:</div>
