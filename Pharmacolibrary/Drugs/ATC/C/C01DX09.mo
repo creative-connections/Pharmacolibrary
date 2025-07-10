@@ -16,9 +16,16 @@ model C01DX09
     ka             = 0.0008333333333333334,
     Tlag           = 600
   );
-
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>name:</td><td>Imolamine</td></tr><tr><td>ATC code:</td><td>C01DX09</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Imolamine is a synthetic drug that was developed and used historically as an antidepressant. It is a tricyclic compound related to imipramine and clomipramine, but it is not widely used or approved in current clinical practice. Its use has largely been discontinued and it does not have recent regulatory approval.</p><h4>Pharmacokinetics</h4><p>No peer-reviewed publications could be identified reporting human pharmacokinetic parameters for imolamine. Therefore, the following pharmacokinetic data are not directly sourced from experimental research and must be considered as estimated assumptions for oral administration in adults.</p><h4>References</h4><ol></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
+    info       = "<html><body><table><tr><td>name:</td><td>Imolamine</td></tr><tr><td>ATC code:</td><td>C01DX09</td></tr><td>route:</td><td>oral</td></tr>
+    <tr><td>compartments:</td><td>1</td></tr>
+    <tr><td>dosage:</td><td>100</td><td>mg</td></tr>
+    <tr><td>volume of distribution:</td><td>15</td><td>L</td></tr>
+    <tr><td>clearance:</td><td>1200</td><td>mL/min</td></tr>
+    <tr><td colspan='3'>other parameters in model implementation</td></tr>
+    </table><p>Imolamine is a synthetic drug that was developed and used historically as an antidepressant. It is a tricyclic compound related to imipramine and clomipramine, but it is not widely used or approved in current clinical practice. Its use has largely been discontinued and it does not have recent regulatory approval.</p><h4>Pharmacokinetics</h4><p>No peer-reviewed publications could be identified reporting human pharmacokinetic parameters for imolamine. Therefore, the following pharmacokinetic data are not directly sourced from experimental research and must be considered as estimated assumptions for oral administration in adults.</p><h4>References</h4><ol></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
+    experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
+    
 end C01DX09;

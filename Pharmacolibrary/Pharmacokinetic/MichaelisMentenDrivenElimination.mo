@@ -5,10 +5,10 @@ model MichaelisMentenDrivenElimination
     "Maximum elimination rate (mass/time)";
   parameter Modelica.Units.SI.MassConcentration Km = 1e-3 
     "Michaelis constant (mass/volume)";  
-    Types.MassConcentration c "free concentration of either blood/plasma or tissue at the connector";
+    Types.MassConcentration C "free concentration of either blood/plasma or tissue at the connector";
   Types.Mass MExc(start = 0, fixed = true) "excreted drug mass";
 equation
-  c = cport.c;
+  C = cport.c;
   der(MExc) = cport.qm;  
     // Michaelis–Menten elimination rate
   cport.qm = Vmax * cport.c / (Km + cport.c);

@@ -18,9 +18,16 @@ model V09HX01
     k21             = 4.333333333333334e-07
     
   );
-
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>name:</td><td>Gallium67gaCitrate</td></tr><tr><td>ATC code:</td><td>V09HX01</td></tr><td>route:</td><td>intravenous</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Gallium (67Ga) citrate is a radiopharmaceutical agent used primarily for diagnostic imaging in nuclear medicine, particularly for the localization of inflammatory lesions and certain malignancies such as lymphoma. It is not used for therapeutic purposes and is approved for use as a diagnostic imaging agent.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters are generally based on adult patients undergoing diagnostic imaging investigations. Data references intravenous administration in typical clinical practice.</p><h4>References</h4><ol></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
+    info       = "<html><body><table><tr><td>name:</td><td>Gallium67gaCitrate</td></tr><tr><td>ATC code:</td><td>V09HX01</td></tr><td>route:</td><td>intravenous</td></tr>
+    <tr><td>compartments:</td><td>2</td></tr>
+    <tr><td>dosage:</td><td>185</td><td>mg</td></tr>
+    <tr><td>volume of distribution:</td><td>13.9</td><td>L</td></tr>
+    <tr><td>clearance:</td><td>0.8</td><td>L/h</td></tr>
+    <tr><td colspan='3'>other parameters in model implementation</td></tr>
+    </table><p>Gallium (67Ga) citrate is a radiopharmaceutical agent used primarily for diagnostic imaging in nuclear medicine, particularly for the localization of inflammatory lesions and certain malignancies such as lymphoma. It is not used for therapeutic purposes and is approved for use as a diagnostic imaging agent.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters are generally based on adult patients undergoing diagnostic imaging investigations. Data references intravenous administration in typical clinical practice.</p><h4>References</h4><ol></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
+    experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
+    
 end V09HX01;

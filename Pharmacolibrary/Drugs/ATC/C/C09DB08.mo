@@ -20,9 +20,16 @@ model C09DB08
     k21             = 2.5e-06
     
   );
-
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>name:</td><td>ValsartanAndLercanidipine</td></tr><tr><td>ATC code:</td><td>C09DB08</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Valsartan and lercanidipine is a fixed-dose combination of an angiotensin II receptor blocker (valsartan) and a calcium channel blocker (lercanidipine). This combination is indicated for the treatment of essential hypertension in adult patients whose blood pressure is not adequately controlled on monotherapy, and both drugs are approved for use today.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters estimated for a healthy adult population based on individual PK data for valsartan and lercanidipine, as no existing publication reports PK parameters for the fixed-dose combination. Values are approximated from the individual component monotherapy pharmacokinetic profiles.</p><h4>References</h4><ol></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
+    info       = "<html><body><table><tr><td>name:</td><td>ValsartanAndLercanidipine</td></tr><tr><td>ATC code:</td><td>C09DB08</td></tr><td>route:</td><td>oral</td></tr>
+    <tr><td>compartments:</td><td>2</td></tr>
+    <tr><td>dosage:</td><td>160</td><td>mg</td></tr>
+    <tr><td>volume of distribution:</td><td>17</td><td>L</td></tr>
+    <tr><td>clearance:</td><td>2</td><td>L/h</td></tr>
+    <tr><td colspan='3'>other parameters in model implementation</td></tr>
+    </table><p>Valsartan and lercanidipine is a fixed-dose combination of an angiotensin II receptor blocker (valsartan) and a calcium channel blocker (lercanidipine). This combination is indicated for the treatment of essential hypertension in adult patients whose blood pressure is not adequately controlled on monotherapy, and both drugs are approved for use today.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters estimated for a healthy adult population based on individual PK data for valsartan and lercanidipine, as no existing publication reports PK parameters for the fixed-dose combination. Values are approximated from the individual component monotherapy pharmacokinetic profiles.</p><h4>References</h4><ol></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
+    experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
+    
 end C09DB08;

@@ -16,9 +16,16 @@ model P01AA01
     ka             = 0.0005,
     Tlag           = 600
   );
-
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>name:</td><td>Broxyquinoline</td></tr><tr><td>ATC code:</td><td>P01AA01</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Broxyquinoline is an antiprotozoal agent, chemically classified as an 8-hydroxyquinoline derivative. It was historically used in the treatment of intestinal amoebiasis and other protozoal infections but has been withdrawn from medical use in many countries due to concerns regarding neurotoxicity and safety.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic studies or human clinical data are available for broxyquinoline. The following estimates are based on properties of related 8-hydroxyquinolines and standard oral administration assumptions.</p><h4>References</h4><ol></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
+    info       = "<html><body><table><tr><td>name:</td><td>Broxyquinoline</td></tr><tr><td>ATC code:</td><td>P01AA01</td></tr><td>route:</td><td>oral</td></tr>
+    <tr><td>compartments:</td><td>1</td></tr>
+    <tr><td>dosage:</td><td>250</td><td>mg</td></tr>
+    <tr><td>volume of distribution:</td><td>50</td><td>L</td></tr>
+    <tr><td>clearance:</td><td>2.5</td><td>L/h</td></tr>
+    <tr><td colspan='3'>other parameters in model implementation</td></tr>
+    </table><p>Broxyquinoline is an antiprotozoal agent, chemically classified as an 8-hydroxyquinoline derivative. It was historically used in the treatment of intestinal amoebiasis and other protozoal infections but has been withdrawn from medical use in many countries due to concerns regarding neurotoxicity and safety.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic studies or human clinical data are available for broxyquinoline. The following estimates are based on properties of related 8-hydroxyquinolines and standard oral administration assumptions.</p><h4>References</h4><ol></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
+    experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
+    
 end P01AA01;

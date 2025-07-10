@@ -1,11 +1,34 @@
 within Pharmacolibrary.Drugs.S_SensoryOrgans.S02A_Antiinfectives.S02AA30_AntiinfectivesCombinatio;
 
 model AntiinfectivesCombinatio
-  extends Pharmacolibrary.Drugs.ATC.S.S02AA30;
+  extends Pharmacolibrary.Drugs.ATC.S.S02AA30
+  // parameters inherited from base class, duplicate, uncomment and change if necesarry
+  /*
+  
+    weight         = 70,
+    F              = 1,
+    Cl             = 2.777777777777778e-08,
+    adminDuration  = 600,
+    adminMass      = 3 / 1000000,
+    adminCount     = 1,
+    Vd             = 0.01,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01  
+  */
+  ;
 
   annotation (Documentation(
-info       = "<html><body><table><tr><td>name:</td><td>AntiinfectivesCombinations</td></tr><tr><td>ATC code:</td><td>S02AA30</td></tr><td>route:</td><td>topical</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Antiinfectives, combinations (ATC code S02AA30) refer to ear preparations containing combinations of antibiotics for the treatment of infections of the ear, such as otitis externa or otitis media. These combinations may include antibiotics like neomycin, polymyxin B, or bacitracin, often used together for broader antimicrobial spectrum. Most of these combinations are topical and used primarily for local effect, and are approved for this indication.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for typical topical otic antiinfective combinations in adults, as there are no published systemic PK data due to minimal systemic absorption after otic administration.</p><h4>References</h4><ol><li><p>Aggarwal, R, et al., &amp; Chauhan, MK (2020). Treatment and management strategies of onychomycosis. <i>Journal de mycologie medicale</i> 30(2) 100949–None. DOI:<a href=\"https://doi.org/10.1016/j.mycmed.2020.100949\">10.1016/j.mycmed.2020.100949</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/32234349/\">https://pubmed.ncbi.nlm.nih.gov/32234349</a></p></li><li><p>Gupta, AK, &amp; Studholme, C (2016). Novel investigational therapies for onychomycosis: an update. <i>Expert opinion on investigational drugs</i> 25(3) 297–305. DOI:<a href=\"https://doi.org/10.1517/13543784.2016.1142529\">10.1517/13543784.2016.1142529</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/26765142/\">https://pubmed.ncbi.nlm.nih.gov/26765142</a></p></li><li><p>Pickert, A, &amp; Raimer, S (2009). An evaluation of dapsone gel 5% in the treatment of acne vulgaris. <i>Expert opinion on pharmacotherapy</i> 10(9) 1515–1521. DOI:<a href=\"https://doi.org/10.1517/14656560903002097\">10.1517/14656560903002097</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/19505219/\">https://pubmed.ncbi.nlm.nih.gov/19505219</a></p></li></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>AntiinfectivesCombinations</td></tr><tr><td>ATC code:</td><td>S02AA30</td></tr><td>route:</td><td>topical</td></tr>
+    <tr><td>compartments:</td><td>1</td></tr>
+    <tr><td>dosage:</td><td>3</td><td>mg</td></tr>
+    <tr><td>volume of distribution:</td><td>10</td><td>L</td></tr>
+    <tr><td>clearance:</td><td>0.1</td><td>L/h</td></tr>
+    <tr><td colspan='3'>other parameters in model implementation</td></tr>
+    </table><p>Antiinfectives, combinations (ATC code S02AA30) refer to ear preparations containing combinations of antibiotics for the treatment of infections of the ear, such as otitis externa or otitis media. These combinations may include antibiotics like neomycin, polymyxin B, or bacitracin, often used together for broader antimicrobial spectrum. Most of these combinations are topical and used primarily for local effect, and are approved for this indication.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for typical topical otic antiinfective combinations in adults, as there are no published systemic PK data due to minimal systemic absorption after otic administration.</p><h4>References</h4><ol><li><p>Aggarwal, R, et al., &amp; Chauhan, MK (2020). Treatment and management strategies of onychomycosis. <i>Journal de mycologie medicale</i> 30(2) 100949–None. DOI:<a href=\"https://doi.org/10.1016/j.mycmed.2020.100949\">10.1016/j.mycmed.2020.100949</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/32234349/\">https://pubmed.ncbi.nlm.nih.gov/32234349</a></p></li><li><p>Gupta, AK, &amp; Studholme, C (2016). Novel investigational therapies for onychomycosis: an update. <i>Expert opinion on investigational drugs</i> 25(3) 297–305. DOI:<a href=\"https://doi.org/10.1517/13543784.2016.1142529\">10.1517/13543784.2016.1142529</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/26765142/\">https://pubmed.ncbi.nlm.nih.gov/26765142</a></p></li><li><p>Pickert, A, &amp; Raimer, S (2009). An evaluation of dapsone gel 5% in the treatment of acne vulgaris. <i>Expert opinion on pharmacotherapy</i> 10(9) 1515–1521. DOI:<a href=\"https://doi.org/10.1517/14656560903002097\">10.1517/14656560903002097</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/19505219/\">https://pubmed.ncbi.nlm.nih.gov/19505219</a></p></li></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
+    
 end AntiinfectivesCombinatio;

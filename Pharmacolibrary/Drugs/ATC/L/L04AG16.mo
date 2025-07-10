@@ -18,9 +18,16 @@ model L04AG16
     k21             = 1.1388888888888888e-07
     
   );
-
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>name:</td><td>Rozanolixizumab</td></tr><tr><td>ATC code:</td><td>L04AG16</td></tr><td>route:</td><td>subcutaneous</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Rozanolixizumab is a humanized monoclonal antibody targeting the neonatal Fc receptor (FcRn), used for the treatment of generalized myasthenia gravis (gMG) in adults. It functions by reducing IgG levels and is approved for clinical use in several regions.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters were derived from clinical studies in adult patients with generalized myasthenia gravis following subcutaneous administration.</p><h4>References</h4><ol></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
+    info       = "<html><body><table><tr><td>name:</td><td>Rozanolixizumab</td></tr><tr><td>ATC code:</td><td>L04AG16</td></tr><td>route:</td><td>subcutaneous</td></tr>
+    <tr><td>compartments:</td><td>2</td></tr>
+    <tr><td>dosage:</td><td>420</td><td>mg</td></tr>
+    <tr><td>volume of distribution:</td><td>6.7</td><td>L</td></tr>
+    <tr><td>clearance:</td><td>0.3</td><td>L/h</td></tr>
+    <tr><td colspan='3'>other parameters in model implementation</td></tr>
+    </table><p>Rozanolixizumab is a humanized monoclonal antibody targeting the neonatal Fc receptor (FcRn), used for the treatment of generalized myasthenia gravis (gMG) in adults. It functions by reducing IgG levels and is approved for clinical use in several regions.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters were derived from clinical studies in adult patients with generalized myasthenia gravis following subcutaneous administration.</p><h4>References</h4><ol></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
+    experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
+    
 end L04AG16;

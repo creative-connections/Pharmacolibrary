@@ -16,9 +16,16 @@ model C04AX26
     ka             = 0.0011666666666666668,
     Tlag           = 600
   );
-
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>name:</td><td>Cetiedil</td></tr><tr><td>ATC code:</td><td>C04AX26</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Cetiedil is a vasodilator previously used for the treatment of peripheral and cerebral vascular disorders. It acts as a calcium channel blocker and also possesses anticholinergic properties. Cetiedil is not commonly used or approved in current clinical practice and has largely historical interest.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for adults after oral administration, as no direct PK human studies or data are available in the literature.</p><h4>References</h4><ol></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
+    info       = "<html><body><table><tr><td>name:</td><td>Cetiedil</td></tr><tr><td>ATC code:</td><td>C04AX26</td></tr><td>route:</td><td>oral</td></tr>
+    <tr><td>compartments:</td><td>1</td></tr>
+    <tr><td>dosage:</td><td>200</td><td>mg</td></tr>
+    <tr><td>volume of distribution:</td><td>70</td><td>L</td></tr>
+    <tr><td>clearance:</td><td>45</td><td>L/h</td></tr>
+    <tr><td colspan='3'>other parameters in model implementation</td></tr>
+    </table><p>Cetiedil is a vasodilator previously used for the treatment of peripheral and cerebral vascular disorders. It acts as a calcium channel blocker and also possesses anticholinergic properties. Cetiedil is not commonly used or approved in current clinical practice and has largely historical interest.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for adults after oral administration, as no direct PK human studies or data are available in the literature.</p><h4>References</h4><ol></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
+    experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
+    
 end C04AX26;

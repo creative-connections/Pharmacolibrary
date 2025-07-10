@@ -14,9 +14,16 @@ model S01CA12
     Ctox_peak      = 0.02,
     Ctox_trough    = 0.01
   );
-
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>name:</td><td>LoteprednolAndAntiinfectives</td></tr><tr><td>ATC code:</td><td>S01CA12</td></tr><td>route:</td><td>ophthalmic</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Loteprednol is a corticosteroid used for the treatment of inflammatory conditions of the eye, particularly post-operative inflammation, allergic conjunctivitis, and uveitis. Antiinfectives in this combination are used to prevent or treat infections, commonly bacterial, associated with ocular inflammation. The combination is approved for topical ophthalmic use to both prevent infection and reduce inflammation.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic model parameters for the combination of loteprednol and antiinfectives with ATC code S01CA12 were identified. The estimate provided below is based on typical dosing and pharmacokinetics of topical loteprednol etabonate ophthalmic products in healthy adults.</p><h4>References</h4><ol></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
+    info       = "<html><body><table><tr><td>name:</td><td>LoteprednolAndAntiinfectives</td></tr><tr><td>ATC code:</td><td>S01CA12</td></tr><td>route:</td><td>ophthalmic</td></tr>
+    <tr><td>compartments:</td><td>1</td></tr>
+    <tr><td>dosage:</td><td>1.0</td><td>mg</td></tr>
+    <tr><td>volume of distribution:</td><td>1.5</td><td>L</td></tr>
+    <tr><td>clearance:</td><td>0.12</td><td>L/h</td></tr>
+    <tr><td colspan='3'>other parameters in model implementation</td></tr>
+    </table><p>Loteprednol is a corticosteroid used for the treatment of inflammatory conditions of the eye, particularly post-operative inflammation, allergic conjunctivitis, and uveitis. Antiinfectives in this combination are used to prevent or treat infections, commonly bacterial, associated with ocular inflammation. The combination is approved for topical ophthalmic use to both prevent infection and reduce inflammation.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic model parameters for the combination of loteprednol and antiinfectives with ATC code S01CA12 were identified. The estimate provided below is based on typical dosing and pharmacokinetics of topical loteprednol etabonate ophthalmic products in healthy adults.</p><h4>References</h4><ol></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
+    experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
+    
 end S01CA12;

@@ -16,9 +16,16 @@ model A06AC51
     ka             = 0.016666666666666666,
     Tlag           = 600
   );
-
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>name:</td><td>IspaghulaCombinations</td></tr><tr><td>ATC code:</td><td>A06AC51</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Ispaghula (also known as psyllium) in combination with other substances is a bulk-forming laxative primarily used for the treatment of constipation. It can also assist in the management of irritable bowel syndrome and to improve stool consistency in cases of diarrhea. Ispaghula is approved and widely used today, particularly in over-the-counter preparations for regulating bowel function.</p><h4>Pharmacokinetics</h4><p>No publicly available peer-reviewed pharmacokinetic data have been published regarding the absorption, distribution, metabolism, or excretion of ispaghula or its combinations in humans, as these are typically bulk-forming, non-absorbable agents. The following parameters are estimated based on its physicochemical characteristics as a non-absorbed, orally administered natural polysaccharide.</p><h4>References</h4><ol></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
+    info       = "<html><body><table><tr><td>name:</td><td>IspaghulaCombinations</td></tr><tr><td>ATC code:</td><td>A06AC51</td></tr><td>route:</td><td>oral</td></tr>
+    <tr><td>compartments:</td><td>1</td></tr>
+    <tr><td>dosage:</td><td>3500</td><td>mg</td></tr>
+    <tr><td>volume of distribution:</td><td>1</td><td>L</td></tr>
+    <tr><td>clearance:</td><td>0</td><td>L/h</td></tr>
+    <tr><td colspan='3'>other parameters in model implementation</td></tr>
+    </table><p>Ispaghula (also known as psyllium) in combination with other substances is a bulk-forming laxative primarily used for the treatment of constipation. It can also assist in the management of irritable bowel syndrome and to improve stool consistency in cases of diarrhea. Ispaghula is approved and widely used today, particularly in over-the-counter preparations for regulating bowel function.</p><h4>Pharmacokinetics</h4><p>No publicly available peer-reviewed pharmacokinetic data have been published regarding the absorption, distribution, metabolism, or excretion of ispaghula or its combinations in humans, as these are typically bulk-forming, non-absorbable agents. The following parameters are estimated based on its physicochemical characteristics as a non-absorbed, orally administered natural polysaccharide.</p><h4>References</h4><ol></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
+    experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
+    
 end A06AC51;

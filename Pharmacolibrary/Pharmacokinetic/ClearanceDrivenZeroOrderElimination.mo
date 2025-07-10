@@ -2,7 +2,7 @@ within Pharmacolibrary.Pharmacokinetic;
 model ClearanceDrivenZeroOrderElimination
   extends Interfaces.InterfaceElimination;
   parameter Types.VolumeFlowRate CL(displayUnit = "l/min") "clearence";
-  Types.MassConcentration c "free concentration of either blood/plasma or tissue at the connector";
+  Types.MassConcentration C "free concentration of either blood/plasma or tissue at the connector";
   Types.Mass MExc(start = 0, fixed = true) "excreted drug mass";
   parameter Boolean useClInput = false "true → take clearance from external signal";
   Modelica.Blocks.Interfaces.RealInput Cl_input(unit = "m3/s") if useClInput annotation(
@@ -11,7 +11,7 @@ protected
   Types.VolumeFlowRate CL_eff;
 equation
   CL_eff = if useClInput then Cl_input else CL;
-  c = cport.c;
+  C = cport.c;
   der(MExc) = cport.qm;
   cport.qm = CL_eff; //zero order elimination
   annotation(

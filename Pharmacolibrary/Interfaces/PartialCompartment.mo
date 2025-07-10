@@ -4,6 +4,8 @@ partial model PartialCompartment
   //parameter Pharmacolibrary.Drugs.Common.DataRecord drug "Drug descriptor";
   parameter Pharmacolibrary.Types.Volume V = 0.001 "total distribution volume";
   parameter Pharmacolibrary.Types.MassConcentration C0 = 0 "drug initial concentration in tissue";
+  parameter Modelica.Units.SI.MolarMass molarWeight = 1 "molar weight of molecule";
+  Modelica.Units.SI.MolarConcentration C_molar "molar concentration";
   Pharmacolibrary.Types.MassConcentration C(start = C0, fixed = true) "drug actual concentration in tissue";
   //parameter Modelica.Units.SI.DimensionlessRatio fu = 1 "fraction unbound";
   //parameter Modelica.Units.SI.DimensionlessRatio kTB = 1 "tissue-blood concentration ratio";
@@ -25,6 +27,7 @@ protected
  discrete Boolean rising;
 equation
   C = M/VNonZero;
+  C_molar = C / molarWeight;
   cport.c = C;
   der(AUC) = C;
 

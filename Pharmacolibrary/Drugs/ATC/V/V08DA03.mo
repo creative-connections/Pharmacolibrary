@@ -18,9 +18,16 @@ model V08DA03
     k21             = 3.5000000000000004e-06
     
   );
-
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>name:</td><td>Perflenapent</td></tr><tr><td>ATC code:</td><td>V08DA03</td></tr><td>route:</td><td>intravenous</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Perflenapent is a second-generation perfluorocarbon-based contrast agent developed for use in diagnostic imaging, such as computed tomography (CT) and magnetic resonance imaging (MRI), particularly for enhancing liver imaging. It functions as a blood pool agent by remaining within the vascular compartment for a prolonged period. As of 2024, perflenapent is not an approved drug in the US or EU and has not been widely used clinically.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic studies with detailed parameters were identified for perflenapent in humans. Values below are given as estimated based on properties of similar perfluorocarbon contrast agents in adult volunteers.</p><h4>References</h4><ol></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
+    info       = "<html><body><table><tr><td>name:</td><td>Perflenapent</td></tr><tr><td>ATC code:</td><td>V08DA03</td></tr><td>route:</td><td>intravenous</td></tr>
+    <tr><td>compartments:</td><td>2</td></tr>
+    <tr><td>dosage:</td><td>200</td><td>mg</td></tr>
+    <tr><td>volume of distribution:</td><td>0.05</td><td>L</td></tr>
+    <tr><td>clearance:</td><td>3</td><td>mL/kg/min</td></tr>
+    <tr><td colspan='3'>other parameters in model implementation</td></tr>
+    </table><p>Perflenapent is a second-generation perfluorocarbon-based contrast agent developed for use in diagnostic imaging, such as computed tomography (CT) and magnetic resonance imaging (MRI), particularly for enhancing liver imaging. It functions as a blood pool agent by remaining within the vascular compartment for a prolonged period. As of 2024, perflenapent is not an approved drug in the US or EU and has not been widely used clinically.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic studies with detailed parameters were identified for perflenapent in humans. Values below are given as estimated based on properties of similar perfluorocarbon contrast agents in adult volunteers.</p><h4>References</h4><ol></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
+    experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
+    
 end V08DA03;

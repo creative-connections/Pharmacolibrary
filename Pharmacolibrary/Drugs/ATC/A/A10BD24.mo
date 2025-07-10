@@ -16,9 +16,16 @@ model A10BD24
     ka             = 0.021666666666666667,
     Tlag           = 600
   );
-
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>name:</td><td>SitagliptinAndErtugliflozin</td></tr><tr><td>ATC code:</td><td>A10BD24</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Sitagliptin and ertugliflozin is a fixed-dose combination oral antidiabetic medication used for the treatment of type 2 diabetes mellitus. Sitagliptin is a DPP-4 inhibitor while ertugliflozin is a sodium-glucose cotransporter 2 (SGLT2) inhibitor. The combination provides glycemic control through complementary mechanisms. The combination is approved and marketed in various countries for adult patients with type 2 diabetes.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for healthy adult subjects following oral administration. No published combined PK model for this exact fixed-dose combination, values are based on individual published PK properties of sitagliptin and ertugliflozin single agents.</p><h4>References</h4><ol></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
+    info       = "<html><body><table><tr><td>name:</td><td>SitagliptinAndErtugliflozin</td></tr><tr><td>ATC code:</td><td>A10BD24</td></tr><td>route:</td><td>oral</td></tr>
+    <tr><td>compartments:</td><td>1</td></tr>
+    <tr><td>dosage:</td><td>100</td><td>mg</td></tr>
+    <tr><td>volume of distribution:</td><td>198</td><td>L</td></tr>
+    <tr><td>clearance:</td><td>350</td><td>ml/min</td></tr>
+    <tr><td colspan='3'>other parameters in model implementation</td></tr>
+    </table><p>Sitagliptin and ertugliflozin is a fixed-dose combination oral antidiabetic medication used for the treatment of type 2 diabetes mellitus. Sitagliptin is a DPP-4 inhibitor while ertugliflozin is a sodium-glucose cotransporter 2 (SGLT2) inhibitor. The combination provides glycemic control through complementary mechanisms. The combination is approved and marketed in various countries for adult patients with type 2 diabetes.</p><h4>Pharmacokinetics</h4><p>Estimated pharmacokinetic parameters for healthy adult subjects following oral administration. No published combined PK model for this exact fixed-dose combination, values are based on individual published PK properties of sitagliptin and ertugliflozin single agents.</p><h4>References</h4><ol></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
+    experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
+    
 end A10BD24;

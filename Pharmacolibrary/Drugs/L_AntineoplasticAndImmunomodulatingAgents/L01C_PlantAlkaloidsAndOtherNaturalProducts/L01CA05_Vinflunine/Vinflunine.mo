@@ -1,11 +1,34 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts.L01CA05_Vinflunine;
 
 model Vinflunine
-  extends Pharmacolibrary.Drugs.ATC.L.L01CA05;
+  extends Pharmacolibrary.Drugs.ATC.L.L01CA05
+  // parameters inherited from base class, duplicate, uncomment and change if necesarry
+  /*
+  
+    weight         = 70,
+    F              = 1,
+    Cl             = 1.1222222222222222e-05,
+    adminDuration  = 600,
+    adminMass      = 320 / 1000000,
+    adminCount     = 1,
+    Vd             = 0.29,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01  
+  */
+  ;
 
   annotation (Documentation(
-info       = "<html><body><table><tr><td>name:</td><td>Vinflunine</td></tr><tr><td>ATC code:</td><td>L01CA05</td></tr><td>route:</td><td>intravenous</td></tr><tr><td>n-compartments</td><td>3</td></tr></table><p>Vinflunine is a synthetic microtubule inhibitor of the vinca alkaloid family used as a chemotherapeutic agent. It is approved for the treatment of advanced or metastatic transitional cell carcinoma of the urothelial tract after failure of platinum-containing therapy, particularly in Europe.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetics reported in adult cancer patients after a single intravenous infusion of vinflunine at 320 mg/m2 over 20 minutes.</p><h4>References</h4><ol><li><p>Frampton, JE, &amp; Moen, MD (2010). Vinflunine. <i>Drugs</i> 70(10) 1283–1293. DOI:<a href=\"https://doi.org/10.2165/11204970-000000000-00000\">10.2165/11204970-000000000-00000</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/20568834/\">https://pubmed.ncbi.nlm.nih.gov/20568834</a></p></li><li><p>Schmitt, A, et al., &amp; Pétain, A (2018). Better characterization of vinflunine pharmacokinetics variability and exposure/toxicity relationship to improve its use: Analyses from 18 trials. <i>British journal of clinical pharmacology</i> 84(5) 900–910. DOI:<a href=\"https://doi.org/10.1111/bcp.13518\">10.1111/bcp.13518</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/29341179/\">https://pubmed.ncbi.nlm.nih.gov/29341179</a></p></li><li><p>Souquet, PJ, et al., &amp; Rosell, R (2010). Phase I/II and pharmacokinetic study of intravenous vinflunine in combination with cisplatin for the treatment of chemonaive patients with advanced non-small-cell lung cancer. <i>Clinical lung cancer</i> 11(2) 105–113. DOI:<a href=\"https://doi.org/10.3816/CLC.2010.n.014\">10.3816/CLC.2010.n.014</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/20199976/\">https://pubmed.ncbi.nlm.nih.gov/20199976</a></p></li></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Vinflunine</td></tr><tr><td>ATC code:</td><td>L01CA05</td></tr><td>route:</td><td>intravenous</td></tr>
+    <tr><td>compartments:</td><td>3</td></tr>
+    <tr><td>dosage:</td><td>320</td><td>mg</td></tr>
+    <tr><td>volume of distribution:</td><td>290</td><td>L</td></tr>
+    <tr><td>clearance:</td><td>40.4</td><td>L/h</td></tr>
+    <tr><td colspan='3'>other parameters in model implementation</td></tr>
+    </table><p>Vinflunine is a synthetic microtubule inhibitor of the vinca alkaloid family used as a chemotherapeutic agent. It is approved for the treatment of advanced or metastatic transitional cell carcinoma of the urothelial tract after failure of platinum-containing therapy, particularly in Europe.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetics reported in adult cancer patients after a single intravenous infusion of vinflunine at 320 mg/m2 over 20 minutes.</p><h4>References</h4><ol><li><p>Frampton, JE, &amp; Moen, MD (2010). Vinflunine. <i>Drugs</i> 70(10) 1283–1293. DOI:<a href=\"https://doi.org/10.2165/11204970-000000000-00000\">10.2165/11204970-000000000-00000</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/20568834/\">https://pubmed.ncbi.nlm.nih.gov/20568834</a></p></li><li><p>Schmitt, A, et al., &amp; Pétain, A (2018). Better characterization of vinflunine pharmacokinetics variability and exposure/toxicity relationship to improve its use: Analyses from 18 trials. <i>British journal of clinical pharmacology</i> 84(5) 900–910. DOI:<a href=\"https://doi.org/10.1111/bcp.13518\">10.1111/bcp.13518</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/29341179/\">https://pubmed.ncbi.nlm.nih.gov/29341179</a></p></li><li><p>Souquet, PJ, et al., &amp; Rosell, R (2010). Phase I/II and pharmacokinetic study of intravenous vinflunine in combination with cisplatin for the treatment of chemonaive patients with advanced non-small-cell lung cancer. <i>Clinical lung cancer</i> 11(2) 105–113. DOI:<a href=\"https://doi.org/10.3816/CLC.2010.n.014\">10.3816/CLC.2010.n.014</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/20199976/\">https://pubmed.ncbi.nlm.nih.gov/20199976</a></p></li></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
+    
 end Vinflunine;

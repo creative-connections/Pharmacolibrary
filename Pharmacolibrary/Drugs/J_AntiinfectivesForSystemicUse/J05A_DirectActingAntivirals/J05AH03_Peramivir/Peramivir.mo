@@ -1,11 +1,38 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AH03_Peramivir;
 
 model Peramivir
-  extends Pharmacolibrary.Drugs.ATC.J.J05AH03;
+  extends Pharmacolibrary.Drugs.ATC.J.J05AH03
+  // parameters inherited from base class, duplicate, uncomment and change if necesarry
+  /*
+  
+    weight         = 70,
+    F              = 1,
+    Cl             = 2.8055555555555555e-06,
+    adminDuration  = 600,
+    adminMass      = 600 / 1000000,
+    adminCount     = 1,
+    Vd             = 0.01256,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,            
+    Vdp             = 0.00813,
+    k12             = 4.611111111111111e-06,
+    k21             = 4.611111111111111e-06
+      
+  */
+  ;
 
   annotation (Documentation(
-info       = "<html><body><table><tr><td>name:</td><td>Peramivir</td></tr><tr><td>ATC code:</td><td>J05AH03</td></tr><td>route:</td><td>intravenous</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Peramivir is a neuraminidase inhibitor antiviral drug used for the treatment of influenza. It is administered primarily as a single-dose intravenous infusion for adults with acute uncomplicated influenza. Peramivir is approved for use in the United States and several other countries.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters reported in healthy adult subjects after a single 600 mg intravenous dose.</p><h4>References</h4><ol><li><p>Matsuo, Y, et al., &amp; Wajima, T (2015). Population pharmacokinetics of peramivir in healthy volunteers and influenza patients. <i>Antimicrobial agents and chemotherapy</i> 59(11) 6755–6762. DOI:<a href=\"https://doi.org/10.1128/AAC.00799-15\">10.1128/AAC.00799-15</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/26282420/\">https://pubmed.ncbi.nlm.nih.gov/26282420</a></p></li><li><p>Zhang, D, et al., &amp; Liu, H (2015). Pharmacokinetics of peramivir after single intravenous doses in healthy Chinese subjects. <i>Xenobiotica; the fate of foreign compounds in biological systems</i> 45(3) 239–243. DOI:<a href=\"https://doi.org/10.3109/00498254.2014.960907\">10.3109/00498254.2014.960907</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/25231091/\">https://pubmed.ncbi.nlm.nih.gov/25231091</a></p></li><li><p>Sugaya, N, et al., &amp; Takahashi, T (2012). Efficacy, safety, and pharmacokinetics of intravenous peramivir in children with 2009 pandemic H1N1 influenza A virus infection. <i>Antimicrobial agents and chemotherapy</i> 56(1) 369–377. DOI:<a href=\"https://doi.org/10.1128/AAC.00132-11\">10.1128/AAC.00132-11</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/22024821/\">https://pubmed.ncbi.nlm.nih.gov/22024821</a></p></li></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Peramivir</td></tr><tr><td>ATC code:</td><td>J05AH03</td></tr><td>route:</td><td>intravenous</td></tr>
+    <tr><td>compartments:</td><td>2</td></tr>
+    <tr><td>dosage:</td><td>600</td><td>mg</td></tr>
+    <tr><td>volume of distribution:</td><td>12.56</td><td>L</td></tr>
+    <tr><td>clearance:</td><td>10.1</td><td>L/h</td></tr>
+    <tr><td colspan='3'>other parameters in model implementation</td></tr>
+    </table><p>Peramivir is a neuraminidase inhibitor antiviral drug used for the treatment of influenza. It is administered primarily as a single-dose intravenous infusion for adults with acute uncomplicated influenza. Peramivir is approved for use in the United States and several other countries.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters reported in healthy adult subjects after a single 600 mg intravenous dose.</p><h4>References</h4><ol><li><p>Matsuo, Y, et al., &amp; Wajima, T (2015). Population pharmacokinetics of peramivir in healthy volunteers and influenza patients. <i>Antimicrobial agents and chemotherapy</i> 59(11) 6755–6762. DOI:<a href=\"https://doi.org/10.1128/AAC.00799-15\">10.1128/AAC.00799-15</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/26282420/\">https://pubmed.ncbi.nlm.nih.gov/26282420</a></p></li><li><p>Zhang, D, et al., &amp; Liu, H (2015). Pharmacokinetics of peramivir after single intravenous doses in healthy Chinese subjects. <i>Xenobiotica; the fate of foreign compounds in biological systems</i> 45(3) 239–243. DOI:<a href=\"https://doi.org/10.3109/00498254.2014.960907\">10.3109/00498254.2014.960907</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/25231091/\">https://pubmed.ncbi.nlm.nih.gov/25231091</a></p></li><li><p>Sugaya, N, et al., &amp; Takahashi, T (2012). Efficacy, safety, and pharmacokinetics of intravenous peramivir in children with 2009 pandemic H1N1 influenza A virus infection. <i>Antimicrobial agents and chemotherapy</i> 56(1) 369–377. DOI:<a href=\"https://doi.org/10.1128/AAC.00132-11\">10.1128/AAC.00132-11</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/22024821/\">https://pubmed.ncbi.nlm.nih.gov/22024821</a></p></li></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
+    
 end Peramivir;

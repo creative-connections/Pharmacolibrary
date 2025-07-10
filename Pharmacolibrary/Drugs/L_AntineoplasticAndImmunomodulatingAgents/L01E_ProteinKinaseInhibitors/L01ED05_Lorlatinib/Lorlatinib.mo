@@ -1,11 +1,40 @@
 within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors.L01ED05_Lorlatinib;
 
 model Lorlatinib
-  extends Pharmacolibrary.Drugs.ATC.L.L01ED05;
+  extends Pharmacolibrary.Drugs.ATC.L.L01ED05
+  // parameters inherited from base class, duplicate, uncomment and change if necesarry
+  /*
+  
+    weight         = 70,
+    F              = 0.81,
+    Cl             = 2.3888888888888887e-06,
+    adminDuration  = 600,
+    adminMass      = 100 / 1000000,
+    adminCount     = 1,
+    Vd             = 0.305,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.004,
+    Tlag           = 10.020000000000001,            
+    Vdp             = 1.77,
+    k12             = 2.25e-05,
+    k21             = 2.25e-05
+      
+  */
+  ;
 
   annotation (Documentation(
-info       = "<html><body><table><tr><td>name:</td><td>Lorlatinib</td></tr><tr><td>ATC code:</td><td>L01ED05</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Lorlatinib is a third-generation, reversible, macrocyclic tyrosine kinase inhibitor targeting anaplastic lymphoma kinase (ALK) and ROS1, approved for use in non-small cell lung cancer (NSCLC) patients with ALK-positive tumors, particularly after resistance to earlier-generation ALK inhibitors.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters reported in adult patients with ALK-positive advanced NSCLC after oral administration under fasted conditions.</p><h4>References</h4><ol><li><p>Damoiseaux, D, et al., &amp; Dorlo, TPC (2022). Predictiveness of the Human-CYP3A4-Transgenic Mouse Model (Cyp3aXAV) for Human Drug Exposure of CYP3A4-Metabolized Drugs. <i>Pharmaceuticals (Basel, Switzerland)</i> 15(7) –. DOI:<a href=\"https://doi.org/10.3390/ph15070860\">10.3390/ph15070860</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/35890158/\">https://pubmed.ncbi.nlm.nih.gov/35890158</a></p></li></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Lorlatinib</td></tr><tr><td>ATC code:</td><td>L01ED05</td></tr><td>route:</td><td>oral</td></tr>
+    <tr><td>compartments:</td><td>2</td></tr>
+    <tr><td>dosage:</td><td>100</td><td>mg</td></tr>
+    <tr><td>volume of distribution:</td><td>305</td><td>L</td></tr>
+    <tr><td>clearance:</td><td>8.6</td><td>L/h</td></tr>
+    <tr><td colspan='3'>other parameters in model implementation</td></tr>
+    </table><p>Lorlatinib is a third-generation, reversible, macrocyclic tyrosine kinase inhibitor targeting anaplastic lymphoma kinase (ALK) and ROS1, approved for use in non-small cell lung cancer (NSCLC) patients with ALK-positive tumors, particularly after resistance to earlier-generation ALK inhibitors.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters reported in adult patients with ALK-positive advanced NSCLC after oral administration under fasted conditions.</p><h4>References</h4><ol><li><p>Damoiseaux, D, et al., &amp; Dorlo, TPC (2022). Predictiveness of the Human-CYP3A4-Transgenic Mouse Model (Cyp3aXAV) for Human Drug Exposure of CYP3A4-Metabolized Drugs. <i>Pharmaceuticals (Basel, Switzerland)</i> 15(7) –. DOI:<a href=\"https://doi.org/10.3390/ph15070860\">10.3390/ph15070860</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/35890158/\">https://pubmed.ncbi.nlm.nih.gov/35890158</a></p></li></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
+    
 end Lorlatinib;

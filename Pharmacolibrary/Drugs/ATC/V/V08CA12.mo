@@ -18,9 +18,16 @@ model V08CA12
     k21             = 2.7222222222222224e-06
     
   );
-
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>name:</td><td>Gadopiclenol</td></tr><tr><td>ATC code:</td><td>V08CA12</td></tr><td>route:</td><td>intravenous</td></tr><tr><td>n-compartments</td><td>2</td></tr></table><p>Gadopiclenol is a macrocyclic, nonionic gadolinium-based contrast agent (GBCA) used in magnetic resonance imaging (MRI) for the enhancement of images of the central nervous system, body, and associated structures. It is indicated for use in adults and children to detect and visualize regions with disrupted blood–brain barrier or abnormal vascularity.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic model in healthy adult volunteers following single intravenous administration.</p><h4>References</h4><ol><li><p>Bradu, A, et al., &amp; Bourrinet, P (2021). Pharmacokinetics, Dialysability, and Safety of Gadopiclenol, a New Gadolinium-Based Contrast Agent, in Patients With Impaired Renal Function. <i>Investigative radiology</i> 56(8) 486–493. DOI:<a href=\"https://doi.org/10.1097/RLI.0000000000000764\">10.1097/RLI.0000000000000764</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/34197356/\">https://pubmed.ncbi.nlm.nih.gov/34197356</a></p></li></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
+    info       = "<html><body><table><tr><td>name:</td><td>Gadopiclenol</td></tr><tr><td>ATC code:</td><td>V08CA12</td></tr><td>route:</td><td>intravenous</td></tr>
+    <tr><td>compartments:</td><td>2</td></tr>
+    <tr><td>dosage:</td><td>0.1</td><td>mg</td></tr>
+    <tr><td>volume of distribution:</td><td>0.24</td><td>L</td></tr>
+    <tr><td>clearance:</td><td>0.11</td><td>L/h/kg</td></tr>
+    <tr><td colspan='3'>other parameters in model implementation</td></tr>
+    </table><p>Gadopiclenol is a macrocyclic, nonionic gadolinium-based contrast agent (GBCA) used in magnetic resonance imaging (MRI) for the enhancement of images of the central nervous system, body, and associated structures. It is indicated for use in adults and children to detect and visualize regions with disrupted blood–brain barrier or abnormal vascularity.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic model in healthy adult volunteers following single intravenous administration.</p><h4>References</h4><ol><li><p>Bradu, A, et al., &amp; Bourrinet, P (2021). Pharmacokinetics, Dialysability, and Safety of Gadopiclenol, a New Gadolinium-Based Contrast Agent, in Patients With Impaired Renal Function. <i>Investigative radiology</i> 56(8) 486–493. DOI:<a href=\"https://doi.org/10.1097/RLI.0000000000000764\">10.1097/RLI.0000000000000764</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/34197356/\">https://pubmed.ncbi.nlm.nih.gov/34197356</a></p></li></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
+    experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
+    
 end V08CA12;

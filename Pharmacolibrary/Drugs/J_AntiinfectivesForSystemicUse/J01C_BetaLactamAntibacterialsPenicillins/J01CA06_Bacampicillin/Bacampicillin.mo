@@ -1,11 +1,36 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins.J01CA06_Bacampicillin;
 
 model Bacampicillin
-  extends Pharmacolibrary.Drugs.ATC.J.J01CA06;
+  extends Pharmacolibrary.Drugs.ATC.J.J01CA06
+  // parameters inherited from base class, duplicate, uncomment and change if necesarry
+  /*
+  
+    weight         = 70,
+    F              = 0.67,
+    Cl             = 5e-06,
+    adminDuration  = 600,
+    adminMass      = 400 / 1000000,
+    adminCount     = 1,
+    Vd             = 0.023,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01,
+    ka             = 0.018333333333333333,
+    Tlag           = 600  
+  */
+  ;
 
   annotation (Documentation(
-info       = "<html><body><table><tr><td>name:</td><td>Bacampicillin</td></tr><tr><td>ATC code:</td><td>J01CA06</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Bacampicillin is an orally active prodrug of ampicillin, a beta-lactam antibiotic used to treat various infections caused by susceptible bacteria, such as respiratory tract, urinary tract, and gastrointestinal infections. Bacampicillin was developed to improve the oral bioavailability of ampicillin and saw use in several countries, but it has been withdrawn from the market in many regions and is not widely used today.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters in healthy adult volunteers after single oral dose.</p><h4>References</h4><ol><li><p>Heimdahl, A, et al., &amp; Nord, CE (1988). A micromethod for determination of antimicrobial agents in bone. <i>Drugs under experimental and clinical research</i> 14(10) 649–654. PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/3246209/\">https://pubmed.ncbi.nlm.nih.gov/3246209</a></p></li></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Bacampicillin</td></tr><tr><td>ATC code:</td><td>J01CA06</td></tr><td>route:</td><td>oral</td></tr>
+    <tr><td>compartments:</td><td>1</td></tr>
+    <tr><td>dosage:</td><td>400</td><td>mg</td></tr>
+    <tr><td>volume of distribution:</td><td>23</td><td>L</td></tr>
+    <tr><td>clearance:</td><td>18</td><td>L/h</td></tr>
+    <tr><td colspan='3'>other parameters in model implementation</td></tr>
+    </table><p>Bacampicillin is an orally active prodrug of ampicillin, a beta-lactam antibiotic used to treat various infections caused by susceptible bacteria, such as respiratory tract, urinary tract, and gastrointestinal infections. Bacampicillin was developed to improve the oral bioavailability of ampicillin and saw use in several countries, but it has been withdrawn from the market in many regions and is not widely used today.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters in healthy adult volunteers after single oral dose.</p><h4>References</h4><ol><li><p>Heimdahl, A, et al., &amp; Nord, CE (1988). A micromethod for determination of antimicrobial agents in bone. <i>Drugs under experimental and clinical research</i> 14(10) 649–654. PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/3246209/\">https://pubmed.ncbi.nlm.nih.gov/3246209</a></p></li></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
+    
 end Bacampicillin;

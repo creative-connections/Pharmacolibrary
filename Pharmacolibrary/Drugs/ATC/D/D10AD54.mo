@@ -16,9 +16,16 @@ model D10AD54
     ka             = 0.01,
     Tlag           = 600
   );
-
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>name:</td><td>IsotretinoinCombinations</td></tr><tr><td>ATC code:</td><td>D10AD54</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Isotretinoin is a retinoid used primarily for severe recalcitrant nodular acne. The ATC code D10AD54 refers to combinations of isotretinoin with other agents for dermatological use. Isotretinoin is approved in many countries for acne treatment, especially when unresponsive to other therapies. Combination products are less common but may be utilized in certain markets.</p><h4>Pharmacokinetics</h4><p>No published clinical pharmacokinetic studies specific to isotretinoin combination products under ATC D10AD54 are available. Pharmacokinetic parameters provided are estimated based on known single-agent isotretinoin oral dosing in healthy adults.</p><h4>References</h4><ol></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
+    info       = "<html><body><table><tr><td>name:</td><td>IsotretinoinCombinations</td></tr><tr><td>ATC code:</td><td>D10AD54</td></tr><td>route:</td><td>oral</td></tr>
+    <tr><td>compartments:</td><td>1</td></tr>
+    <tr><td>dosage:</td><td>40</td><td>mg</td></tr>
+    <tr><td>volume of distribution:</td><td>0.5</td><td>L</td></tr>
+    <tr><td>clearance:</td><td>20</td><td>L/h</td></tr>
+    <tr><td colspan='3'>other parameters in model implementation</td></tr>
+    </table><p>Isotretinoin is a retinoid used primarily for severe recalcitrant nodular acne. The ATC code D10AD54 refers to combinations of isotretinoin with other agents for dermatological use. Isotretinoin is approved in many countries for acne treatment, especially when unresponsive to other therapies. Combination products are less common but may be utilized in certain markets.</p><h4>Pharmacokinetics</h4><p>No published clinical pharmacokinetic studies specific to isotretinoin combination products under ATC D10AD54 are available. Pharmacokinetic parameters provided are estimated based on known single-agent isotretinoin oral dosing in healthy adults.</p><h4>References</h4><ol></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
+    experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
+    
 end D10AD54;

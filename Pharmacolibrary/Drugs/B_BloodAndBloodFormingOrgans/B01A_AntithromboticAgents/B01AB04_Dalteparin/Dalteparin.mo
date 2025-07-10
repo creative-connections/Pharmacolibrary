@@ -1,11 +1,34 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AB04_Dalteparin;
 
 model Dalteparin
-  extends Pharmacolibrary.Drugs.ATC.B.B01AB04;
+  extends Pharmacolibrary.Drugs.ATC.B.B01AB04
+  // parameters inherited from base class, duplicate, uncomment and change if necesarry
+  /*
+  
+    weight         = 70,
+    F              = 1,
+    Cl             = 1.96e-06,
+    adminDuration  = 600,
+    adminMass      = 5000 / 1000000,
+    adminCount     = 1,
+    Vd             = 7.000000000000001e-05,
+    Cmin           = 0.001,
+    Cmax           = 0.01,
+    Ctox_peak      = 0.02,
+    Ctox_trough    = 0.01  
+  */
+  ;
 
   annotation (Documentation(
-info       = "<html><body><table><tr><td>name:</td><td>Dalteparin</td></tr><tr><td>ATC code:</td><td>B01AB04</td></tr><td>route:</td><td>subcutaneous</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Dalteparin is a low molecular weight heparin (LMWH) used as an anticoagulant for the prevention and treatment of deep vein thrombosis, pulmonary embolism, and for prophylaxis in patients undergoing surgery or at increased risk of thromboembolic events. It is approved and widely used today for these indications.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters in healthy adult volunteers (both male and female) after single subcutaneous injection.</p><h4>References</h4><ol><li><p>Damle, B, et al., &amp; Sweeney, K (2021). Population Pharmacokinetic Analysis of Dalteparin in Pediatric Patients With Venous Thromboembolism. <i>Journal of clinical pharmacology</i> 61(2) 172–180. DOI:<a href=\"https://doi.org/10.1002/jcph.1716\">10.1002/jcph.1716</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/32827160/\">https://pubmed.ncbi.nlm.nih.gov/32827160</a></p></li><li><p>Howard, PA (1997). Dalteparin: a low-molecular-weight heparin. <i>The Annals of pharmacotherapy</i> 31(2) 192–203. DOI:<a href=\"https://doi.org/10.1177/106002809703100212\">10.1177/106002809703100212</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/9034422/\">https://pubmed.ncbi.nlm.nih.gov/9034422</a></p></li><li><p>Yu, L, et al., &amp; Guo, R (2018). Pharmacodynamic properties and bioequivalence of dalteparin sodium subcutaneous injection in healthy Chinese male subjects. <i>Xenobiotica; the fate of foreign compounds in biological systems</i> 48(4) 376–381. DOI:<a href=\"https://doi.org/10.1080/00498254.2017.1316021\">10.1080/00498254.2017.1316021</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/28375032/\">https://pubmed.ncbi.nlm.nih.gov/28375032</a></p></li></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>",
+    info       = "<html><body><table><tr><td>name:</td><td>Dalteparin</td></tr><tr><td>ATC code:</td><td>B01AB04</td></tr><td>route:</td><td>subcutaneous</td></tr>
+    <tr><td>compartments:</td><td>1</td></tr>
+    <tr><td>dosage:</td><td>5000</td><td>mg</td></tr>
+    <tr><td>volume of distribution:</td><td>0.07</td><td>L</td></tr>
+    <tr><td>clearance:</td><td>1.68</td><td>mL/min/kg</td></tr>
+    <tr><td colspan='3'>other parameters in model implementation</td></tr>
+    </table><p>Dalteparin is a low molecular weight heparin (LMWH) used as an anticoagulant for the prevention and treatment of deep vein thrombosis, pulmonary embolism, and for prophylaxis in patients undergoing surgery or at increased risk of thromboembolic events. It is approved and widely used today for these indications.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters in healthy adult volunteers (both male and female) after single subcutaneous injection.</p><h4>References</h4><ol><li><p>Damle, B, et al., &amp; Sweeney, K (2021). Population Pharmacokinetic Analysis of Dalteparin in Pediatric Patients With Venous Thromboembolism. <i>Journal of clinical pharmacology</i> 61(2) 172–180. DOI:<a href=\"https://doi.org/10.1002/jcph.1716\">10.1002/jcph.1716</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/32827160/\">https://pubmed.ncbi.nlm.nih.gov/32827160</a></p></li><li><p>Howard, PA (1997). Dalteparin: a low-molecular-weight heparin. <i>The Annals of pharmacotherapy</i> 31(2) 192–203. DOI:<a href=\"https://doi.org/10.1177/106002809703100212\">10.1177/106002809703100212</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/9034422/\">https://pubmed.ncbi.nlm.nih.gov/9034422</a></p></li><li><p>Yu, L, et al., &amp; Guo, R (2018). Pharmacodynamic properties and bioequivalence of dalteparin sodium subcutaneous injection in healthy Chinese male subjects. <i>Xenobiotica; the fate of foreign compounds in biological systems</i> 48(4) 376–381. DOI:<a href=\"https://doi.org/10.1080/00498254.2017.1316021\">10.1080/00498254.2017.1316021</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/28375032/\">https://pubmed.ncbi.nlm.nih.gov/28375032</a></p></li></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
     experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
+    
 end Dalteparin;

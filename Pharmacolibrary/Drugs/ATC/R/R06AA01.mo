@@ -16,9 +16,16 @@ model R06AA01
     ka             = 0.0005,
     Tlag           = 600
   );
-
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>name:</td><td>Bromazine</td></tr><tr><td>ATC code:</td><td>R06AA01</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Bromazine (also known as bromazina, atc: R06AA01) is a first-generation antihistamine of the ethylenediamine class. It was previously used for the symptomatic relief of allergic conditions such as rhinitis, urticaria, and pruritus. Bromazine is not widely used or marketed currently, and is not approved in most countries today.</p><h4>Pharmacokinetics</h4><p>No published, peer-reviewed pharmacokinetic data or clinical PK studies are available for bromazine in humans. The following values are estimated based on typical ethylenediamine antihistamines (e.g., mepyramine, tripelennamine) administered orally to healthy adults.</p><h4>References</h4><ol></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
+    info       = "<html><body><table><tr><td>name:</td><td>Bromazine</td></tr><tr><td>ATC code:</td><td>R06AA01</td></tr><td>route:</td><td>oral</td></tr>
+    <tr><td>compartments:</td><td>1</td></tr>
+    <tr><td>dosage:</td><td>25</td><td>mg</td></tr>
+    <tr><td>volume of distribution:</td><td>2.5</td><td>L</td></tr>
+    <tr><td>clearance:</td><td>120</td><td>mL/min</td></tr>
+    <tr><td colspan='3'>other parameters in model implementation</td></tr>
+    </table><p>Bromazine (also known as bromazina, atc: R06AA01) is a first-generation antihistamine of the ethylenediamine class. It was previously used for the symptomatic relief of allergic conditions such as rhinitis, urticaria, and pruritus. Bromazine is not widely used or marketed currently, and is not approved in most countries today.</p><h4>Pharmacokinetics</h4><p>No published, peer-reviewed pharmacokinetic data or clinical PK studies are available for bromazine in humans. The following values are estimated based on typical ethylenediamine antihistamines (e.g., mepyramine, tripelennamine) administered orally to healthy adults.</p><h4>References</h4><ol></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
+    experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
+    
 end R06AA01;

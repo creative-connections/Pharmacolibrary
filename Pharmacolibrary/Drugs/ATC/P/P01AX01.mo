@@ -16,9 +16,16 @@ model P01AX01
     ka             = 0.0003333333333333333,
     Tlag           = 600
   );
-
   annotation (Documentation(
-    info       = "<html><body><table><tr><td>name:</td><td>Chiniofon</td></tr><tr><td>ATC code:</td><td>P01AX01</td></tr><td>route:</td><td>oral</td></tr><tr><td>n-compartments</td><td>1</td></tr></table><p>Chiniofon is an 8-quinolinol derivative formerly used as an amoebicide for the treatment of intestinal amoebiasis and related protozoal infections. It has antimicrobial and anti-infective properties, but its use has largely been discontinued and it is not approved for clinical use today.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic studies or parameter estimates for chiniofon in humans are available in the scientific literature.</p><h4>References</h4><ol></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 initial generated model</li></ul></body></html>"
+    info       = "<html><body><table><tr><td>name:</td><td>Chiniofon</td></tr><tr><td>ATC code:</td><td>P01AX01</td></tr><td>route:</td><td>oral</td></tr>
+    <tr><td>compartments:</td><td>1</td></tr>
+    <tr><td>dosage:</td><td>250</td><td>mg</td></tr>
+    <tr><td>volume of distribution:</td><td>50</td><td>L</td></tr>
+    <tr><td>clearance:</td><td>3</td><td>L/h</td></tr>
+    <tr><td colspan='3'>other parameters in model implementation</td></tr>
+    </table><p>Chiniofon is an 8-quinolinol derivative formerly used as an amoebicide for the treatment of intestinal amoebiasis and related protozoal infections. It has antimicrobial and anti-infective properties, but its use has largely been discontinued and it is not approved for clinical use today.</p><h4>Pharmacokinetics</h4><p>No published pharmacokinetic studies or parameter estimates for chiniofon in humans are available in the scientific literature.</p><h4>References</h4><ol></ol></body></html>",
+    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
+    experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
   ));
+    
 end P01AX01;
