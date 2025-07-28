@@ -1,17 +1,20 @@
 within Pharmacolibrary.Pharmacokinetic;
 model ClearanceDrivenElimination
   extends Pharmacolibrary.Interfaces.InterfaceElimination;
-  parameter Pharmacolibrary.Types.VolumeFlowRate CL (displayUnit="l/min") "clearence";
+  parameter Pharmacolibrary.Types.VolumeFlowRate CL( displayUnit="l/min") "clearence";
   Pharmacolibrary.Types.MassConcentration C "free concentration of either blood/plasma or tissue at the connector";
   Pharmacolibrary.Types.Mass MExc(start = 0, fixed = true) "excreted drug mass";
   parameter Boolean useClInput = false "true → take clearance from external signal";
-  Modelica.Blocks.Interfaces.RealInput Cl_input(unit = "m3/s")
+  Modelica.Blocks.Interfaces.RealInput Cl_input(  unit = "m3/s") = CL_eff
       if useClInput
       annotation (Placement(transformation(extent = {{-10, 70}, {10, 90}}), iconTransformation(origin = {80, -96}, extent = {{-10, 70}, {10, 90}}, rotation = 90)));
 protected
   Pharmacolibrary.Types.VolumeFlowRate CL_eff;
 equation
-  CL_eff = if useClInput then Cl_input else CL;  
+  if not useClInput then
+    CL_eff = CL;
+  end if;
+
   C = cport.c;
   der(MExc) = cport.qm;
   cport.qm = CL_eff*C; //first order elimination

@@ -8,8 +8,8 @@ extends Modelica.Icons.Example;
   parameter Pharmacolibrary.Types.VolumeFlowRate Cl_nom = 0.1/(1000*60);
   parameter Boolean usePGx = true "true = apply genotype scaling";
   Pharmacolibrary.Pharmacogenomics.Modifiers.ClearanceModifier clMod(
-    base = Cl_nom, 
-    redeclare type Gtype = Pharmacolibrary.Pharmacogenomics.Genotypes.SLC22A2Genotype, 
+    base = Cl_nom,
+    redeclare record Gtype = Pharmacolibrary.Pharmacogenomics.Genotypes.SLC22A2Genotype,
     redeclare parameter Pharmacolibrary.Pharmacogenomics.Genotypes.SLC22A2Genotype g(
       allele = {"*1", "*1"}/* <- change one entry to "808T" for Intermediate */)
     );

@@ -1,7 +1,7 @@
 within Pharmacolibrary.Examples;
 
 model PKPG_1C_Gentamicin
-  extends Examples.PKOneCompartmentModel(singleDose(firstAdminTime = 1, adminMass = 4e-4, adminDuration = 60, F = 1), central(V = 0.0175, fu), elim(CL = 1.6666666666666667e-6, useClInput = true));
+  extends Examples.PKOneCompartmentModel(singleDose(firstAdminTime = 1, adminMass = 4e-4, adminDuration = 60, F = 1), central(V=0.0175),       elim(CL = 1.6666666666666667e-6, useClInput = true));
   parameter Types.MassConcentration MIC = 0.002 "Minimal inhibitory concentration";
   parameter Types.MassConcentration C_tox_peak = 0.012 "Peak toxicity concentration";
   parameter Types.MassConcentration C_tox_valley = 0.0021 "Peak toxicity concentration";

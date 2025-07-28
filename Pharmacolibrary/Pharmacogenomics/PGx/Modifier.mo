@@ -1,6 +1,6 @@
 within Pharmacolibrary.Pharmacogenomics.PGx;
 partial model Modifier
-  replaceable type Gtype = PGx.Genotype;
+  replaceable record Gtype = PGx.Genotype;
   replaceable Gtype g;
 
   replaceable type T = Real;
