@@ -47,8 +47,8 @@ equation
     experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 1),
   Documentation(info = "<html><head></head><body><div><div><b>Pharmacogenomic (PGx) models</b>&nbsp;seeks to quantify how inherited genetic variation modulates both drug&nbsp;pharmacokinetics and pharmacodynamics.</div></div><div><br></div><div>Example diagram mode of 1-compartment PK model of gentamicine modified by PGx influence on clearance rate. Clearance rate can be influenced by CYP2C19 genotype and SLC22A2 genotype. The</div><div>scale factors in the PGx modification of PK model is just an example estimation of influence on renal clearance. Correct values should be fit to specific published experimental results.</div><div><br></div><div><b>Simulation </b>of PKPGx model of gentamicine with normal SLC22A2 alleles compared to allele</div><div>’808T’ with altered clearance.</div><div><br></div><div>
 <img src=\"modelica://Pharmacolibrary/Resources/Icons/pgx_sim.png\" width=\"90%\"><br></div><div><br></div></body></html>"),
-Icon(graphics = {Text(origin = {0, 119}, extent = {{-198, 19}, {198, -19}}, textString = "%name"), Text(origin = {178, 60}, extent = {{-142, 38}, {142, -38}}, textString = "SLC22A2 = %SLC22A2_1, %SLC22A2_2
-CYP2C19 = %CYP2C19_1, %CYP2C19_2", horizontalAlignment = TextAlignment.Left)}));
+Icon(graphics = {Text(origin = {0, 119}, extent = {{-198, 19}, {198, -19}}, textString = "%name"), Text(origin = {200, 0}, extent = {{-160, 98}, {160, -98}}, textString = "SLC22A2=%SLC22A2_1,%SLC22A2_2
+CYP2C19=%CYP2C19_1,%CYP2C19_2", horizontalAlignment = TextAlignment.Left)}));
 
 
 end Patient_PKPG_1C_Gentamicin;
