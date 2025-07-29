@@ -8,9 +8,8 @@ record DataRecord "common data record about drug information"
   String synonyms[:] "Other known names or brand names";  
 
   // Physicochemical properties
-  Modelica.Units.SI.MolarMass molarMass = 1 "Molecular weight [g/mol]";
-  Real molarMassRaw "raw molar mass reported";
+  Modelica.Units.SI.MolarMass molarW = 1 "Molecular weight [g/mol]";
   Real logP "LogP (octanol-water partition coefficient)";
-  Modelica.Units.SI.Density solubilityWater "Solubility in water [mg/ml]";
-  String referenceURL "Link to drug database entry";  
+  Modelica.Units.SI.Density sW "Solubility in water [mg/ml]";
+  String ref "Link to drug database entry";  
 end DataRecord;
