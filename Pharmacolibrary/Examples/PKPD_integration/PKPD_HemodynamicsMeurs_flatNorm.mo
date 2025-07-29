@@ -1,4 +1,4 @@
-within Pharmacolibrary.Examples;
+within Pharmacolibrary.Examples.PKPD_integration;
 
 model PKPD_HemodynamicsMeurs_flatNorm
   extends Physiolibrary.Icons.CardioVascular;
@@ -86,19 +86,19 @@ model PKPD_HemodynamicsMeurs_flatNorm
     Placement(transformation(origin = {-4, 68}, extent = {{136, -110}, {156, -90}})));
   Physiolibrary.Fluid.Sensors.Sphygmomanometer arterialPressure(MeasurementTime(displayUnit = "s") = 2) annotation(
     Placement(transformation(origin = {-2, 46}, extent = {{198, -66}, {218, -46}})));
-  Pharmacolibrary.Sources.SingleDose singleDose(F = 1, adminDuration(displayUnit = "s") = 60, adminMass = 5e-7, firstAdminTime(displayUnit = "s") = 60) annotation(
+  Sources.SingleDose singleDose(F = 1, adminDuration(displayUnit = "s") = 60, adminMass = 5e-7, firstAdminTime(displayUnit = "s") = 60) annotation(
     Placement(transformation(origin = {277, 191}, extent = {{-14, -14}, {14, 14}})));
-  Pharmacolibrary.Pharmacokinetic.NoPerfusedTissueCompartment central(V = 0.027, molarWeight = 0.7809) annotation(
+  Pharmacokinetic.NoPerfusedTissueCompartment central(V = 0.027, molarWeight = 0.7809) annotation(
     Placement(transformation(origin = {249, 127}, extent = {{-18, -18}, {18, 18}})));
-  Pharmacolibrary.Pharmacokinetic.ClearanceDrivenElimination elim(CL = 2.7216666666666667e-6) annotation(
+  Pharmacokinetic.ClearanceDrivenElimination elim(CL = 2.7216666666666667e-6) annotation(
     Placement(transformation(origin = {304, 128}, extent = {{-17, -17}, {17, 17}})));
   Pharmacodynamic.SigmoidEmaxEffect PD_Digoxin_Compliance(E0 = 1/5.332e+8, Emax = -0.4/5.332e+8, h = 1, c50 = 1e-6) annotation(
     Placement(transformation(origin = {169, 155}, extent = {{27, -27}, {-27, 27}})));
-  Pharmacolibrary.Pharmacokinetic.NoPerfusedTissueCompartment peripheral(V = 0.444, molarWeight = 0.7809) annotation(
+  Pharmacokinetic.NoPerfusedTissueCompartment peripheral(V = 0.444, molarWeight = 0.7809) annotation(
     Placement(transformation(origin = {279, 45}, extent = {{-18, -18}, {18, 18}})));
-  Pharmacokinetic.TransferFirstOrderNonSym c_p(CLa = 1.9943333333333336e-5, CLb = 1.9943333333333336e-5)  annotation(
+  Pharmacokinetic.TransferFirstOrderNonSym c_p(CLa = 1.9943333333333336e-5, CLb = 1.9943333333333336e-5) annotation(
     Placement(transformation(origin = {278, 98}, extent = {{-16, -16}, {16, 16}})));
-  Pharmacolibrary.Pharmacodynamic.SigmoidEmaxEffect PD_Digoxin_HR(E0 = 1.2, Emax = -0.11, c50 = 1e-6, h = 1) annotation(
+  Pharmacodynamic.SigmoidEmaxEffect PD_Digoxin_HR(E0 = 1.2, Emax = -0.11, c50 = 1e-6, h = 1) annotation(
     Placement(transformation(origin = {-10, 158}, extent = {{24, -24}, {-24, 24}})));
 equation
   connect(Retha.q_out, inertia.q_out) annotation(
