@@ -3,7 +3,7 @@ within Pharmacolibrary.UsersGuide;
 class Overview
   extends Modelica.Icons.Information;
   annotation(
-    Documentation(info = "<html><head></head><body><b>Basic Information</b><div><b><br></b></div><div><div><b>Pharmacolibrary</b> is a reusable Modelica library unifying Pharmacokinetic, pharmacodynamic, toxicokinetic, toxicodynamic, and pharmacogenomic constructs with standardized pharmacological terminology, units, and acausal connectors.</div></div><div>The following acausal connectors are available and reused in library:</div>
+    Documentation(info = "<html><head></head><body><b>Basic Information</b><div><b><br></b></div><div><div><b>Pharmacolibrary</b> is a reusable Modelica library unifying pharmacokinetic (PK), pharmacodynamic (PD), toxicokinetic (TK), toxicodynamic (TD), and pharmacogenomic (PGx) constructs with standardized pharmacological terminology, units, and acausal connectors.</div></div><div>The following acausal connectors are available and reused in library:</div>
 <div>
 <table border=\"1\" cellspacing=\"0\" cellpadding=\"1\" style=\"font-family: 'DejaVu Sans Mono';\">
 <tbody><tr><td><strong>domain</strong></td>
@@ -15,14 +15,14 @@ class Overview
 <tr><td><strong>chemical<br>concentration</strong></td>
 <td>mass concentration</td><td>mass flow rate</td>
 <td></td>
-<td><a href=\"modelica:///Pharmacolibrary.Interfaces\">Pharmacolibrary.Interfaces</a>&nbsp;<br>ConcentrationPort, ConcentrationPort_a, ConcentrationPort_b</td>
+<td><a href=\"modelica://Pharmacolibrary.Interfaces\">Pharmacolibrary.Interfaces</a>&nbsp;<br>ConcentrationPort, ConcentrationPort_a, ConcentrationPort_b</td>
 <td><img src=\"modelica://Pharmacolibrary/Resources/Icons/ConcentrationPorts.png\"></td></tr>
 <tr><td><strong>volumetric<br>flow</strong></td>
 <td>pressure</td><td>volume flow rate</td>
 <td>mass concentration</td>
-<td><a href=\"modelica:///Pharmacolibrary.Interfaces\">Pharmacolibrary.Interfaces</a>&nbsp;<br>FlowPort, FlowPort_a, FlowPort_b</td>
+<td><a href=\"modelica://Pharmacolibrary.Interfaces\">Pharmacolibrary.Interfaces</a>&nbsp;<br>FlowPort, FlowPort_a, FlowPort_b</td>
 <td><img src=\"modelica://Pharmacolibrary/Resources/Icons/FlowPorts.png\"></td></tr>
-</tbody></table></div><div><br></div><div>Pharmacolibrary focuses it's components into these main pharmacological phenomena:</div><div><br></div><table cellspacing=\"0\" cellpadding=\"2\" border=\"1\"><tbody><tr>
+</tbody></table></div><div><br></div><div><br></div><div>Pharmacolibrary focuses it's components into three main pharmacological phenomena PK,PD,PGx. See <a href=\"modelica://Pharmacolibrary.Examples\">Pharmacolibrary.Examples</a> for complete PK,PD,PGx models. </div><div><br></div><table cellspacing=\"0\" cellpadding=\"2\" border=\"1\"><tbody><tr>
 <td><p align=\"center\"><b>Library Domain</b></p></td>
 <td><p align=\"center\"><b>Description</b></p></td>
 </tr>

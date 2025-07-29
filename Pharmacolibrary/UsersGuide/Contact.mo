@@ -12,11 +12,7 @@ class Contact "Contact"
     <p>
     Preferred feedback is to raise an issue on the project's
     <a href=\"https://github.com/creative-connections/Pharmacolibrary.git\">GitHub repository</a>
-    (also for positive feedback).
-    </p>
-    <p>
-    If you have other issues contact:
-    <a href=\"mailto:tomas.kulhanek@matfyz.cz\">tomas.kulhanek@matfyz.cz</a>.</p>
+    (also for positive feedback).</p>
     </body></html>"));
 
 end Contact;
