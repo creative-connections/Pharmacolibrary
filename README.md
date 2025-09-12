@@ -18,7 +18,7 @@ git clone git@github.com:creative-connections/Pharmacolibrary.git
 [2] Dymola:https://www.3ds.com/products/catia/dymola
 
 ## Modeling
-<div><div><b>Pharmacolibrary</b> is a reusable Modelica library unifying Pharmacokinetic, pharmacodynamic, toxicokinetic, toxicodynamic, and pharmacogenomic constructs with standardized pharmacological terminology, units, and acausal connectors.</div></div><div>The following acausal connectors are available and reused in library:</div>
+The following acausal connectors are available and reused in library:
 <div>
 <table border="1" cellspacing="0" cellpadding="1" style="font-family: 'DejaVu Sans Mono';">
 <tbody><tr><td><strong>domain</strong></td>
