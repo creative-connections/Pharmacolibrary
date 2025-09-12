@@ -1,6 +1,6 @@
 # Pharmacolibrary
 
-working version of library to support modeling pharmacology in Modelica.
+Pharmacolibrary is a reusable Modelica library unifying pharmacokinetic, pharmacodynamic, toxicokinetic, toxicodynamic, and pharmacogenomic constructs with standardized pharmacological terminology, units, and acausal connectors.
 
 ## Instruction
 
