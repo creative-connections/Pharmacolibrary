@@ -12,7 +12,7 @@ model PKPD_HemodynamicsMeurs_flatNorm
     Placement(transformation(extent = {{26, 86}, {56, 110}})));
   Physiolibrary.Fluid.Components.ElasticVesselElastance LeftAtrium(isExternalPressureAbsolute = false, useElastanceInput = true, volume_start = 9.31e-05, ZeroPressureVolume = 3e-05, ExternalPressure = -533.28954966, nPorts = 2) annotation(
     Placement(transformation(extent = {{74, 50}, {102, 78}})));
-  Physiolibrary.Fluid.Components.ElasticVesselElastance LeftVentricle(isExternalPressureAbsolute = false, useElastanceInput = true, volume_start = 0.000144, ZeroPressureVolume = 6e-05, ExternalPressure = -533.28954966, nPorts = 2) annotation(
+  Physiolibrary.Fluid.Components.ElasticVesselElastance LeftVentricle(isExternalPressureAbsolute = false, useElastanceInput = true, volume_start = 0.000144, ZeroPressureVolume = 6e-05, ExternalPressure = -533.28954966, nPorts = 3) annotation(
     Placement(transformation(extent = {{150, 50}, {178, 78}})));
   Physiolibrary.Fluid.Components.IdealValveResistance AorticValve(_Roff(displayUnit = "g/(mmHg.s)") = Modelica.Constants.inf, _Ron(displayUnit = "(mmHg.s)/ml") = 1066579.09932) annotation(
     Placement(transformation(extent = {{184, 76}, {208, 52}})));
@@ -100,6 +100,8 @@ model PKPD_HemodynamicsMeurs_flatNorm
     Placement(transformation(origin = {278, 98}, extent = {{-16, -16}, {16, 16}})));
   Pharmacodynamic.SigmoidEmaxEffect PD_Digoxin_HR(E0 = 1.2, Emax = -0.11, c50 = 1e-6, h = 1) annotation(
     Placement(transformation(origin = {-10, 158}, extent = {{24, -24}, {-24, 24}})));
+  Physiolibrary.Fluid.Sensors.PressureMeasure LVpressure annotation(
+    Placement(transformation(origin = {12, -52}, extent = {{190, -36}, {210, -16}})));
 equation
   connect(Retha.q_out, inertia.q_out) annotation(
     Line(points = {{112, 17}, {130, 17}}, thickness = 1));
@@ -209,6 +211,8 @@ equation
     Line(points = {{-34, 158}, {-38, 158}, {-38, 126}, {182, 126}, {182, 116}}, color = {0, 0, 127}));
   connect(PD_Digoxin_Compliance.cport, PD_Digoxin_HR.cport) annotation(
     Line(points = {{169, 182}, {-10, 182}}, color = {114, 159, 207}, thickness = 1));
+  connect(LeftVentricle.q_in[3], LVpressure.port) annotation(
+    Line(points = {{164, 64}, {160, 64}, {160, -88}, {212, -88}}, color = {0, 127, 255}));
   annotation(
     Diagram(coordinateSystem(extent = {{-320, -100}, {340, 240}}, preserveAspectRatio = false), graphics = {Rectangle(origin = {89, 163}, lineColor = {153, 193, 241}, pattern = LinePattern.Dot, lineThickness = 2, extent = {{-139, 35}, {139, -35}}), Text(extent = {{-36, 214}, {-36, 214}}, textString = "PD  - effect  on heart rate and elastance"), Text(origin = {91, 206}, textColor = {26, 95, 180}, extent = {{-133, 8}, {133, -8}}, textString = "PD effect on heart rate and elastance"), Rectangle(origin = {285, 121}, lineColor = {220, 138, 221}, pattern = LinePattern.Dot, lineThickness = 2, extent = {{-53, 101}, {53, -101}}), Text(origin = {286, 230}, textColor = {97, 53, 131}, extent = {{-54, 8}, {54, -8}}, textString = "PK digoxin"), Rectangle(origin = {-30, 36}, lineColor = {246, 97, 81}, pattern = LinePattern.Dot, lineThickness = 2, extent = {{-258, 84}, {258, -84}}), Text(origin = {-240, 128}, textColor = {165, 29, 45}, extent = {{-116, 8}, {116, -8}}, textString = "hemodynamics")}),
     Icon(coordinateSystem(extent = {{-320, -100}, {340, 240}}, preserveAspectRatio = false)),

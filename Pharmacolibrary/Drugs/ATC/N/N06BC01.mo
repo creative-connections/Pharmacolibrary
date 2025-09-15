@@ -8,7 +8,7 @@ model N06BC01
     adminDuration  = 600,
     adminMass      = 200 / 1000000,
     adminCount     = 1,
-    Vd             = 0.00061,
+    Vd             = 0.006,
     Cmin           = 0.001,
     Cmax           = 0.01,
     Ctox_peak      = 0.02,

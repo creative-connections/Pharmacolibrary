@@ -1,7 +1,8 @@
 within Pharmacolibrary.Pharmacokinetic.Models;
 
 model PBPK_whole_body
-  extends Icons.BodyArtieralVenous;
+  extends Icons.BodyArtieralVenous;  
+
   parameter Modelica.Units.SI.Mass BW = 70 "body weight";
   parameter Modelica.Units.SI.Density ro = 985 "average body density";
   parameter Types.VolumeFlowRate CO(displayUnit = "l/min") = 8.333333333333333e-5 "cardiac output";
