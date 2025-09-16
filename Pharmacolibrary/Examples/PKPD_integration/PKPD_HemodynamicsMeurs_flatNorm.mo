@@ -220,5 +220,6 @@ equation
         </body></html>", revisions = "<html><head></head><body><ul><li>Jul 2025 by Tomas Kulhanek: demo integration to pharmacolibrary, pharmacokinetics and pharmacodynamics</li>
         </ul>
         </body></html>"),
-    experiment(StopTime = 300, StartTime = 0, Tolerance = 1e-06, Interval = 0.01));
+    experiment(StopTime = 300, StartTime = 0, Tolerance = 1e-06, Interval = 0.01),
+    uses(Chemical(version="1.4.0"),Physiolibrary(version="3.0.0")));
 end PKPD_HemodynamicsMeurs_flatNorm;

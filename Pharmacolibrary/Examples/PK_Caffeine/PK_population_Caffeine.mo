@@ -15,5 +15,5 @@ equation
 annotation(
     experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 172.8),
   Documentation(info = "<html><head></head><body>Demonstration of caffeine pharmacokinetics if drinking cup of coffee (100mg of caffeine in a cup) or cup of black tea (50mg of caffeine in a cup) or green tea (33mg of caffein in a cup).&nbsp;<div><br></div><div>24h simulation after taking cup of tea/coffee or green tea reveals that in average, coffee cause caffeine to be effective at least 6 hours, while black tea may deliver 3 hours and green tea just a couple of minutes. However real effect is very individual and other factors like diet and other beverages may affect concentration.</div><div>
-<img src=\"modelica://Resources/Icons/CaffeineSim.png\"><br></div><div><br></div></body></html>"));
+<img src=\"modelica://Pharmacolibrary/Resources/Icons/CaffeineSim.png\"><br></div><div><br></div></body></html>"));
 end PK_population_Caffeine;
