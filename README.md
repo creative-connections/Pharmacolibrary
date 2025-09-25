@@ -4,10 +4,11 @@ Pharmacolibrary is a reusable Modelica library unifying pharmacokinetic, pharmac
 
 ## Instruction
 
-  * download Pharmacolibrary, e.g. last version
+  * download Pharmacolibrary, e.g. complete development repository
 ```bash
-git clone git@github.com:creative-connections/Pharmacolibrary.git
+git clone .../Pharmacolibrary.git
 ```
+  or just last version
   * use Modelica tool, e.g. OpenModelica[1] or Dymola[2] 
     * inside the tool, `File -> Open Model/Library File`
     * select `Pharmacolibrary/package.mo`
@@ -86,5 +87,7 @@ jupyter lab
   * the demo contains exported 2-compartment model of Midazolam administered intravenously in FMI, its usage with `fmpy` library and integration with pharmacokinetic database containing growing number of human and machine readable data of drugs from https://pk-db.com
 
 ## Simulator
-Live sample web simulator at: https://egolem.online/pharma
+
+Live sample web simulator at: https://egolem.online/pharma translated by Bodylight.js-FMU-Compiler and powered by bodylight.js
+
 
