@@ -129,4 +129,6 @@ equation
     Line(points = {{10, 96}, {-2, 96}, {-2, 100}}, color = {204, 0, 0}));
   connect(mouthThroat.cport, singleInhalation.cport) annotation(
     Line(points = {{28, 88}, {50, 88}, {50, 74}, {74, 74}}, color = {114, 159, 207}, thickness = 1));
+  connect(mouthThroat.flowIn, tracheoBronchial.flowOut) annotation(
+    Line(points = {{10, 80}, {10, 60}}, color = {204, 0, 0}));
 end BasicInhalation;
