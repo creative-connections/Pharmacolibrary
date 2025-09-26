@@ -1,4 +1,4 @@
-within Pharmacolibrary.Diagnostics;
+within Pharmacolibrary.Biomarkers;
 
 package B_biomarkers
   extends Modelica.Icons.Package;

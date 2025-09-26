@@ -1,5 +1,5 @@
 within Pharmacolibrary;
 
-package Diagnostics
+package Biomarkers
   extends Modelica.Icons.Package;
-end Diagnostics;
+end Biomarkers;

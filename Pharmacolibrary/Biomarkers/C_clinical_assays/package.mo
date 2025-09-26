@@ -1,4 +1,4 @@
-within Pharmacolibrary.Diagnostics;
+within Pharmacolibrary.Biomarkers;
 
 package C_clinical_assays
   extends Modelica.Icons.Package;
