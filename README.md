@@ -90,4 +90,10 @@ jupyter lab
 
 Live sample web simulator at: https://egolem.online/pharma translated by Bodylight.js-FMU-Compiler and powered by bodylight.js
 
+## References
+
+* Kulhanek, T., Jezek, F., Kofránek, J., Mateják, M., & Rommes, S. (2025, October). Pharmacolibrary-Free Library to Model Pharmacology. In Modelica Conferences (pp. 61-72). DOI:[https://doi.org/10.3384/ecp21861](https://doi.org/10.3384/ecp21861)
+* Pharmacolibrary won 1st library award at Modelica Conference 2025 in Luzern, Switzerland
+
+
 
