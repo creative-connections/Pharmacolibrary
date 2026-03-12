@@ -20,6 +20,6 @@ equation
   cport.qm = CL_eff*C; //first order elimination
   annotation(
     defaultComponentName = "elim",
-    Icon(graphics = {Text(origin = {3, -50}, extent = {{-261, 18}, {261, -18}}, textString = "CL=%CL")}),
+    Icon(graphics = {Text(origin = {3, -50}, extent = {{-261, 18}, {261, -18}}, textString = "%CL")}),
     Documentation(info = "<html><head></head><body><h1>ClearanceDrivenElimination</h1>components represents first order excretion or metabolism.<div>The mass flow rate of excretion is calculated as</div><div><br></div><div>massFlowRate &nbsp;= CL*C</div><div><br></div><div>where c is free concentration.</div><div>Total excreted mass (MExc) is also calculated.</div><h2>Parameters</h2><div>CL - clearance</div><div><br></div></body></html>"));
 end ClearanceDrivenElimination;
