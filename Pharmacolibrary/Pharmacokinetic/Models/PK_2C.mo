@@ -9,21 +9,21 @@ extends PK_1C;
 
 
   Pharmacolibrary.Pharmacokinetic.TransferFirstOrderNonSym transfer(CLa = k12, CLb = k21) annotation(
-    Placement(transformation(origin = {-36, -8}, extent = {{-10, -10}, {10, 10}})));
+    Placement(transformation(origin = {8, 0}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
   Pharmacolibrary.Pharmacokinetic.NoPerfusedTissueCompartment peripheral(V = Vdp) annotation(
-    Placement(transformation(origin = {-46, -24}, extent = {{-10, -10}, {10, 10}})));
+    Placement(transformation(origin = {36, -10}, extent = {{-10, -10}, {10, 10}})));
   Interfaces.ConcentrationPort_b peripheralCPort annotation(
-    Placement(transformation(origin = {-98, -80}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-100, -60}, extent = {{-20, -20}, {20, 20}})));
+    Placement(transformation(origin = {36, 24}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-100, -60}, extent = {{-20, -20}, {20, 20}})));
   Pharmacolibrary.Types.ConcentrationOutput C_peripheral1 annotation(
-    Placement(transformation(origin = {-92, 92}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-106, 44}, extent = {{-18, -18}, {18, 18}}, rotation = 180)));
+    Placement(transformation(origin = {-92, 76}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-106, 44}, extent = {{-18, -18}, {18, 18}}, rotation = 180)));
 equation
   C_peripheral1 = peripheral.C;
   connect(transfer.cport_a, central.cport) annotation(
-    Line(points = {{-26, -8}, {-26, 2}, {-12, 2}}, color = {114, 159, 207}));
+    Line(points = {{-2, 0}, {-18, 0}}, color = {152, 112, 187}));
   connect(transfer.cport_b, peripheral.cport) annotation(
-    Line(points = {{-46, -8}, {-45, -8}, {-45, -14}, {-46, -14}}, color = {114, 159, 207}));
+    Line(points = {{18, 0}, {36, 0}}, color = {152, 112, 187}));
   connect(peripheral.cport, peripheralCPort) annotation(
-    Line(points = {{-46, -14}, {-60, -14}, {-60, -80}, {-98, -80}}, color = {114, 159, 207}));
+    Line(points = {{36, 0}, {36, 24}}, color = {152, 112, 187}));
   annotation(
     experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1),
   Diagram(graphics),

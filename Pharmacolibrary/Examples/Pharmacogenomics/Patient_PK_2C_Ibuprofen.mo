@@ -1,8 +1,8 @@
 within Pharmacolibrary.Examples.Pharmacogenomics;
 
 model Patient_PK_2C_Ibuprofen
-  extends Icons.BodyArtieralVenous;
-  extends Icons.Pills;
+  //extends Icons.BodyArtieralVenous;
+  //extends Icons.Pills;
   extends Drugs.ATC.M.M01AE01(Vd = 0.009720000000000001, Vdp = 0.00639, elim(useClInput = false), adminCount = 3);
   // parameters inherited from base class, duplicate, uncomment and change if necesarry
   /*

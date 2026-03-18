@@ -3,6 +3,6 @@ model BloodPlasmaTissueExchange
 equation
 
   annotation(
-    Icon(graphics = {Line(origin = {37.5, -1}, points = {{0, -16}, {0, 16}}, color = {246, 97, 81}, thickness = 1, arrow = {Arrow.None, Arrow.Filled}, arrowSize = 4), Line(origin = {-27.5555, -6.33333}, points = {{0, 16}, {0, -16}}, color = {153, 193, 241}, thickness = 1, arrow = {Arrow.None, Arrow.Filled}, arrowSize = 4), Text(origin = {1, 32}, extent = {{-133, 18}, {133, -18}}, textString = "%name"), Text(origin = {8, -61}, extent = {{-132, 19}, {132, -19}}, textString = "V=%V"), Text(origin = {9, -34}, extent = {{-131, 18}, {131, -18}}, textString = "kTB=%kTB"), Rectangle( lineColor = {46, 194, 126}, fillColor = {51, 209, 122}, fillPattern = FillPattern.Solid, lineThickness = 2, extent = {{-80, 4}, {80, -4}})}),
+    Icon(graphics = {Line(origin = {-27.56, -6.33}, points = {{0, 16}, {0, -16}}, color = {152, 112, 187}, thickness = 4, arrow = {Arrow.None, Arrow.Filled}, arrowSize = 8), Text(origin = {1, 36}, extent = {{-133, 18}, {133, -18}}, textString = "%name"), Text(origin = {6, -67}, extent = {{-132, 19}, {132, -19}}, textString = "V=%V"), Text(origin = {5, -40}, extent = {{-131, 18}, {131, -18}}, textString = "kTB=%kTB"), Rectangle( lineColor = {152, 112, 187}, fillColor = {237, 51, 59}, fillPattern = FillPattern.Solid, lineThickness = 2, extent = {{-80, 10}, {80, -10}})}),
     Diagram(graphics));
 end BloodPlasmaTissueExchange;

@@ -21,5 +21,5 @@ model PK_2C_generic
 equation
 
 annotation(
-    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1000));
+    experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-12, Interval = 100));
 end PK_2C_generic;

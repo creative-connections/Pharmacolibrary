@@ -8,7 +8,7 @@ model PKPG_2C_generic
   parameter Real patient_factor = 0.8;
   
   Patient_PKPG_2C_Ibuprofen ref(CL = ref_CL, Vd = ref_Vd)  annotation(
-    Placement(transformation(origin = {-64, 0}, extent = {{-10, -10}, {10, 10}})));
+    Placement(transformation(origin = {-66, 0}, extent = {{-10, -10}, {10, 10}})));
   Patient_PKPG_2C_Ibuprofen ref_low(CL = ref_CL*confidence_factor, Vd = ref_Vd*confidence_factor)  annotation(
     Placement(transformation(origin = {-64, -44}, extent = {{-10, -10}, {10, 10}})));
   Patient_PKPG_2C_Ibuprofen ref_high(CL = ref_CL/confidence_factor, Vd = ref_Vd/confidence_factor)  annotation(

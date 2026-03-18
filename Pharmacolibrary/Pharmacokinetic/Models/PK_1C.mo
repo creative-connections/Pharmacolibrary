@@ -2,10 +2,10 @@ within Pharmacolibrary.Pharmacokinetic.Models;
 
 model PK_1C  
   Pharmacokinetic.NoPerfusedTissueCompartment central(V = Vd)  annotation(
-    Placement(transformation(origin = {-12, -8}, extent = {{-10, -10}, {10, 10}})));
+    Placement(transformation(origin = {-18, -10}, extent = {{-10, -10}, {10, 10}})));
   Pharmacokinetic.ClearanceDrivenElimination elim(CL = Cl) 
  annotation(
-    Placement(transformation(origin = {18, -8}, extent = {{-10, -10}, {10, 10}})));
+    Placement(transformation(origin = {-44, -10}, extent = {{-10, -10}, {10, 10}})));
   parameter Modelica.Units.SI.Mass weight = 75 "patient weight (kg)";
   parameter Modelica.Units.SI.SpecificVolume VdPerKg(displayUnit="l/kg") = 0.9 "Volume of distribution (L/kg)";
   parameter Modelica.Units.SI.MassFraction F = 0.8 "bioavailiability (0-1)";
@@ -23,7 +23,7 @@ model PK_1C
   parameter Pharmacolibrary.Types.MassConcentration Ctox_peak = 0.012 "toxicity peak level";
   parameter Pharmacolibrary.Types.MassConcentration Ctox_trough = 0.006 "toxicity trough level";
   replaceable Sources.PeriodicDose periodicDose(adminPeriod = adminPeriod, adminMass = adminMass, doseCount = adminCount, adminDuration = adminDuration, F = F, firstAdminTime = adminTime) annotation(
-    Placement(transformation(origin = {-12, 24}, extent = {{-10, -10}, {10, 10}})));
+    Placement(transformation(origin = {-18, 22}, extent = {{-10, -10}, {10, 10}})));
   Types.ConcentrationOutput C_central annotation(
     Placement(transformation(origin = {-92, 92}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-106, 80}, extent = {{-18, -18}, {18, 18}}, rotation = 180)));
   Modelica.Units.SI.Time t1_2 "elimination half-life";
@@ -31,13 +31,13 @@ model PK_1C
     Placement(transformation(origin = {-100, 0}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-100, 0}, extent = {{-22, -22}, {22, 22}})));
 equation
   t1_2 = Modelica.Math.log(2) * Vd / Cl;
-  connect(central.cport, elim.cport) annotation(
-    Line(points = {{-12, 2}, {18, 2}}, color = {114, 159, 207}));
-  connect(periodicDose.cport, central.cport) annotation(
-    Line(points = {{-12, 14}, {-12, 2}}, color = {114, 159, 207}));
   C_central = central.cport.c;
+  connect(central.cport, elim.cport) annotation(
+    Line(points = {{-18, 0}, {-44, 0}}, color = {152, 112, 187}));
+  connect(periodicDose.cport, central.cport) annotation(
+    Line(points = {{-18, 12}, {-18, 0}}, color = {152, 112, 187}));
   connect(central.cport, centralCPort) annotation(
-    Line(points = {{-12, 2}, {-53, 2}, {-53, 0}, {-100, 0}}, color = {114, 159, 207}));
+    Line(points = {{-18, 0}, {-100, 0}}, color = {152, 112, 187}));
   annotation(
     experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-09, Interval = 1),
   Diagram(graphics),

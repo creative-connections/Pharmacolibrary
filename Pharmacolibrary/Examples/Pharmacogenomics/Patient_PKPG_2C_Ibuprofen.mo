@@ -1,8 +1,8 @@
 within Pharmacolibrary.Examples.Pharmacogenomics;
 
 model Patient_PKPG_2C_Ibuprofen
-  extends Icons.BodyArtieralVenous;
-  extends Icons.Pills;
+  //extends Icons.BodyArtieralVenous;
+  //extends Icons.Pills;
   extends Pharmacolibrary.Drugs.ATC.M.M01AE01(      
       Vd             = 0.009720000000000001,
       Vdp             = 0.00639, elim(useClInput = true)
@@ -63,7 +63,7 @@ equation
   annotation(
     experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 1),
     Documentation(info = "<html><head></head><body><div><div><b>Pharmacogenomic (PGx) models</b>&nbsp;seeks to quantify how inherited genetic variation modulates both drug&nbsp;pharmacokinetics and pharmacodynamics.</div></div><div><br></div><div>Example diagram mode of 2-compartment PK model of ibuprofen modified by PGx influence on clearance rate. Clearance rate can be influenced by CYP2C19 genotype and SLC22A2 genotype. The</div><div>scale factors in the PGx modification of PK model is just an example estimation of influence on renal clearance. Correct values should be fit to specific published experimental results.</div><div><br></div></body></html>"),
-    Icon(graphics = {Text(origin = {154, -116}, extent = {{-160, 98}, {160, -98}}, textString = "SLC22A2=%SLC22A2_1,%SLC22A2_2
+    Icon(graphics = {Text(origin = {173, -115}, extent = {{-193, 17}, {193, -17}}, textString = "SLC22A2=%SLC22A2_1,%SLC22A2_2
 CYP2C19=%CYP2C19_1,%CYP2C19_2", horizontalAlignment = TextAlignment.Left)}));
 
 
