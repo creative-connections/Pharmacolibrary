@@ -87,5 +87,5 @@ equation
 </ul>
 <h2>Verification Notes</h2>
 <p>The implementation has been explicitly verified to match both the JavaScript and Python versions seamlessly without approximations, operating natively within strict Base SI physical constraints (kg, m3, s).</p>
-</body></html>"));
+</body></html>", revisions = "<html><head></head><body><ul style=\"font-family: 'Noto Sans';\"><li>03/2026 Filip Jezek, model implemented as referenced</li></ul></body></html>"));
 end Marsh;

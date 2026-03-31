@@ -88,7 +88,7 @@ equation
     Line(points = {{50, -10}, {80, -10}, {80, 0}}, color = {114, 159, 207}));
 
   annotation(
-    Documentation(info="<html><head></head><body><h1>Schnider Propofol Model (Fixed Units)</h1>
+    Documentation(info = "<html><head></head><body><h1>Schnider Propofol Model (Fixed Units)</h1>
 <p>This model implements the Schnider PK model for propofol, accounting for lean body mass (LBM) using the James equation and adjusted body weight metrics to prevent overdosing in heavier patients. It provides highly accurate predictive capabilities targeting the effect site.</p>
 <h2>References</h2>
 <ul>
@@ -98,5 +98,6 @@ equation
 </ul>
 <h2>Verification Notes</h2>
 <p>The implementation has been explicitly verified to match both the JavaScript and Python versions seamlessly without approximations, operating natively within strict Base SI physical constraints (kg, m3, s).</p>
-</body></html>"));
+</body></html>", revisions = "<html><head></head><body><ul style=\"font-family: 'Noto Sans';\"><li>03/2026 Filip Jezek, model implemented as referenced</li></ul></body></html>"),
+  experiment(StartTime = 0, StopTime = 900, Tolerance = 1e-09, Interval = 1));
 end Schnider;

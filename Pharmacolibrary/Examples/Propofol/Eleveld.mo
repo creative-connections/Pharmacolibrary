@@ -100,7 +100,7 @@ equation
     Line(points = {{50, -10}, {80, -10}, {80, 0}}, color = {114, 159, 207}));
 
   annotation(
-    Documentation(info="<html>
+    Documentation(info = "<html>
 <p><b><span style=\"font-size: 24pt;\">Eleveld Propofol Model (Fixed Units)</span></b></p>
 <p>This model implements the Eleveld PK model for propofol, accommodating a wide range of patients including children, adults, obese individuals, and the elderly. It adjusts clearances and volumes dynamically based on covariates including age, weight, height, gender, and opioid co-administration.</p>
 <p><b><span style=\"font-size: 18pt;\">References</span></b></p>
@@ -111,5 +111,6 @@ equation
 </ul>
 <p><b><span style=\"font-size: 18pt;\">Verification Notes</span></b></p>
 <p>The implementation has been explicitly verified to match both the JavaScript and Python versions seamlessly without approximations, operating natively within strict Base SI physical constraints (kg, m3, s).</p>
-</html>"));
+</html>", revisions = "<html><head></head><body><ul style=\"font-family: 'Noto Sans';\"><li>03/2026 Filip Jezek, model implemented as referenced</li></ul></body></html>"),
+  experiment(StartTime = 0, StopTime = 900, Tolerance = 1e-09, Interval = 1));
 end Eleveld;

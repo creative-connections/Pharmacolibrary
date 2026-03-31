@@ -71,7 +71,7 @@ equation
   der(Ce) = (ke0 / 60.0) * (central.cport.c - Ce);
 
   annotation(
-    Documentation(info="<html>
+    Documentation(info = "<html>
 <p><b><span style=\"font-size: 24pt;\">Paedfusor Propofol Model (Fixed Units)</span></b></p>
 <p>This model implements the Paedfusor PK model for propofol, which is explicitly optimized for pediatric patients. Scaled clearances and volumes undergo step-wise adjustments for different age groups up to 16 years.</p>
 <p><b><span style=\"font-size: 18pt;\">References</span></b></p>
@@ -82,5 +82,6 @@ equation
 </ul>
 <p><b><span style=\"font-size: 18pt;\">Verification Notes</span></b></p>
 <p>The implementation has been explicitly verified to match both the JavaScript and Python versions seamlessly without approximations, operating natively within strict Base SI physical constraints (kg, m3, s).</p>
-</html>"));
+</html>", revisions = "<html><head></head><body><ul style=\"font-family: 'Noto Sans';\"><li>03/2026 Filip Jezek, model implemented as referenced</li></ul></body></html>"),
+  experiment(StartTime = 0, StopTime = 900, Tolerance = 1e-09, Interval = 1));
 end Paedfusor;
