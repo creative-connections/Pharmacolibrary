@@ -4,8 +4,8 @@ model PK_2C
 extends PK_1C;
       parameter Pharmacolibrary.Types.Volume Vdp = VdpPerKg*weight "Volume of distribution (m3)";
       parameter Modelica.Units.SI.SpecificVolume VdpPerKg(displayUnit="l/kg") = 0.9 "Volume of distribution peripheral(l/kg)";
-      parameter Pharmacolibrary.Types.Clearance k12 = 1 "intercompartmental C-P clearance";
-      parameter Pharmacolibrary.Types.Clearance k21 = 1 "intercompartmental P-C clearance";
+      parameter Pharmacolibrary.Types.Clearance k12(displayUnit="l/min") = 1 "intercompartmental C-P clearance";
+      parameter Pharmacolibrary.Types.Clearance k21(displayUnit="l/min") = 1 "intercompartmental P-C clearance";
 
 
   Pharmacolibrary.Pharmacokinetic.TransferFirstOrderNonSym transfer(CLa = k12, CLb = k21) annotation(

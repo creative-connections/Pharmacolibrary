@@ -88,7 +88,7 @@ model PK_3C
   Interfaces.ConcentrationPort_b perihperal2Cport annotation(
     Placement(transformation(origin = {76, -32}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-58, -100}, extent = {{-22, -22}, {22, 22}})));
   Pharmacolibrary.Types.ConcentrationOutput C_peripheral2 annotation(
-    Placement(transformation(origin = {-92, 74}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-56, 118}, extent = {{-18, -18}, {18, 18}}, rotation = 90)));
+    Placement(transformation(origin = {-92, 60}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-56, 118}, extent = {{-18, -18}, {18, 18}}, rotation = 90)));
 equation
   C_peripheral2 = peripheral1.C;
   connect(transfer1.cport_a, transfer.cport_a) annotation(

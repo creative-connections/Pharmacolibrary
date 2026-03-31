@@ -1,7 +1,7 @@
 within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals.J05AF06_Abacavir;
 
 model Abacavir
-  extends Pharmacolibrary.Drugs.ATC.J.J05AF06(elim(useClInput = true));
+  extends Pharmacolibrary.Drugs.ATC.J.J05AF06;
   // parameters inherited from base class, duplicate, uncomment and change if necesarry
   /*
       
