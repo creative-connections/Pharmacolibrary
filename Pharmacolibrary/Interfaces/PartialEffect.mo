@@ -3,14 +3,16 @@ partial model PartialEffect
   //extends Pharmacolibrary.Interfaces.PartialOneConcPort;
   //parameter Boolean cBSwitch = false "false: use tissue free conc, true: use blood free conc";
   Modelica.Units.SI.DimensionlessRatio E "efect";
-  Pharmacolibrary.Types.MassConcentration c "free blood or tissue conc";
+  Pharmacolibrary.Types.MassConcentration Ce "effect site conc";
+  parameter Pharmacolibrary.Types.TransferRate ke(displayUnit="1/h")=1;
   ConcentrationPort_a cport annotation(
     Placement(transformation(origin = {0, 98}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {0, 100}, extent = {{-20, -20}, {20, 20}})));
   Modelica.Blocks.Interfaces.RealOutput effect annotation(
     Placement(transformation(origin = {102, 2}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {102, 2}, extent = {{-10, -10}, {10, 10}})));
 equation
-  c = cport.c;
-  //if cBSwitch then cport.freeBloodConc else cport.freeTissueConc;
+  //c = cport.c;
+  der(Ce) = ke * (cport.c - Ce); 
+  //c_out = Ce;
   cport.qm = 0;
   effect = E;
   annotation(

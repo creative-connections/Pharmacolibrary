@@ -3,7 +3,7 @@ model ZeroOrderInhibitionEffect
   extends Pharmacolibrary.Interfaces.PartialIndirectEffect;
   parameter Pharmacolibrary.Types.MassConcentration c50 "concentration producing 50% maximum inhibition";
 equation
-  IIn = 1 - c/(c + c50);
+  IIn = 1 - Ce/(Ce + c50);
   IOut = 1;
   annotation(
     Icon(graphics = {Text(origin = {0, -53}, extent = {{-76, 67}, {76, -67}}, textString = "Inhib 0")}),

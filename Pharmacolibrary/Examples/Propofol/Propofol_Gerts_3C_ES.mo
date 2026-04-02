@@ -14,8 +14,8 @@ model Propofol_Gerts_3C_ES
   adminCount = 14, adminDuration = 2, 
   F = 1, 
   adminTime = 60, 
-  Cmin = 0.001, 
-  Cmax = 0.01, Ctox_peak = 0.02, Ctox_trough = 0.01, effectSite(ke = k1e), k1e = 0.004);
+  effectSite(ke = k1e), 
+  k1e = 0.004);
 
   equation
 
