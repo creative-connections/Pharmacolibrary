@@ -4,7 +4,7 @@ model ZeroOrderStimulationEffect "indirect zero order stimulation effect model"
   parameter Real Emax(unit = "1") "maximal effect";
   parameter Pharmacolibrary.Types.MassConcentration c50 "concentration producing 50% of maximum stimulation";
 equation
-  IIn = 1 + Emax*c/(c50 + c);
+  IIn = 1 + Emax*Ce/(c50 + Ce);
   IOut = 1;
   annotation(
     Icon(graphics = {Text(origin = {-6, -46}, extent = {{-94, 42}, {18, -40}}, textString = "Stim0")}),

@@ -6,7 +6,7 @@ model SigmoidEmaxEffect "instant Sigmoid Emax effect"
   parameter Real h(unit = "1") "Hill exponent";
   parameter Pharmacolibrary.Types.MassConcentration c50 "concentration producing 50% of Emax";
 equation
-  E = E0+Emax*c^h/(c50^h + c^h);
+  E = E0+Emax*Ce^h/(c50^h + Ce^h);
   annotation(
     Icon(graphics = {Text(origin = {-4, -72}, extent = {{-108, 54}, {108, -54}}, textString = "%name"), Line(origin = {1.9, 33.9}, points = {{-95.9004, -49.9004}, {-15.9004, -47.9004}, {14.0996, 50.0996}, {90.0996, 50.0996}, {96.0996, 50.0996}}, color = {53, 132, 228}, thickness = 1, smooth = Smooth.Bezier), Line(origin = {-90, 40}, points = {{10, 50}, {90, -6}}, arrow = {Arrow.None, Arrow.Half}), Text(origin = {-38, 50}, extent = {{-180, 50}, {180, -50}}, textString = "c50=%c50
 E0=%E0
