@@ -1,7 +1,7 @@
 within Pharmacolibrary.Examples;
 model PBPK_OralDoseGUTWholeBody
   extends Modelica.Icons.Example;
-  Sources.SingleDose singleDose(adminMass = 1e-4, adminDuration(displayUnit = "s") = 60, firstAdminTime (displayUnit = "s")= 60, F = 0.8) annotation(
+  Sources.PeriodicDose_Enteral singleDose(adminMass = 1e-4, adminDuration(displayUnit = "s") = 60, firstAdminTime (displayUnit = "s")= 60, F = 0.8, doseCount = 1, ka = 0.01) annotation(
     Placement(transformation(origin = {52, -12}, extent = {{-10, -10}, {10, 10}})));
   Pharmacokinetic.SystemicCompartment venous(V = 0.004) annotation(
     Placement(transformation(origin = {-66, 26}, extent = {{-10, -10}, {10, 10}})));
