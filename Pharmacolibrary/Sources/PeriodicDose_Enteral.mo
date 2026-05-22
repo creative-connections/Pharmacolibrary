@@ -13,7 +13,7 @@ parameter Modelica.Units.SI.Time Tlag(displayUnit = "min") = 600 "time delay bet
     Placement(visible = false, transformation(origin = {nan, nan}, extent = {{nan, nan}, {nan, nan}})));*/
   parameter Real F = 1 "bioavailability [0-1]";
   Pharmacokinetic.TransferFirstOrderNonSym transferFirstOrderNonSym(CLa = V*ka, CLb = 0)  annotation(
-    Placement(transformation(origin = {9, -57}, extent = {{-17, -17}, {17, 17}})));
+    Placement(transformation(origin = {17, -57}, extent = {{-17, -17}, {17, 17}})));
   Pharmacokinetic.LumenCompartment absorptionLumen(V(displayUnit = "m3") = 1)  annotation(
     Placement(transformation(origin = {-46, -48}, extent = {{-16, -16}, {16, 16}})));
   Modelica.Blocks.Sources.Pulse pulse(amplitude = adminMass/adminDuration, nperiod = doseCount, period = adminPeriod, startTime = firstAdminTime, width = adminDuration/adminPeriod*100) annotation(
@@ -30,9 +30,9 @@ equation
   connect(delay.y, variableDose.massFlow) annotation(
     Line(points = {{-23, -4}, {-14.5, -4}, {-14.5, -5}, {-13, -5}}, color = {0, 0, 127}));
   connect(variableDose.cport, transferFirstOrderNonSym.cport_a) annotation(
-    Line(points = {{0, -26}, {0, -31}, {9, -31}, {9, -40}}, color = {114, 159, 207}));
+    Line(points = {{0, -26}, {0, -31}, {34, -31}, {34, -57}}, color = {114, 159, 207}));
   connect(transferFirstOrderNonSym.cport_b, cport) annotation(
-    Line(points = {{9, -74}, {9, -100}, {0, -100}}, color = {114, 159, 207}));
+    Line(points = {{0, -57}, {0, -100}}, color = {114, 159, 207}));
   connect(pulse.y, delay.u) annotation(
     Line(points = {{-59, -5}, {-59, -4}, {-46, -4}}, color = {0, 0, 127}));
   connect(absorptionLumen.cport, variableDose.cport) annotation(
