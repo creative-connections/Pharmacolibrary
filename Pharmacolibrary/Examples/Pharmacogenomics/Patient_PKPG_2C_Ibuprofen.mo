@@ -6,7 +6,7 @@ model Patient_PKPG_2C_Ibuprofen
   extends Pharmacolibrary.Drugs.ATC.M.M01AE01(      
       Vd             = 0.009720000000000001,
       Vdp             = 0.00639, elim(useClInput = true)
-  , adminCount = 3);
+  , adminCount = 3, ka = 3.266666666666667e-4);
 
   // parameters inherited from base class, duplicate, uncomment and change if necesarry
   /*
