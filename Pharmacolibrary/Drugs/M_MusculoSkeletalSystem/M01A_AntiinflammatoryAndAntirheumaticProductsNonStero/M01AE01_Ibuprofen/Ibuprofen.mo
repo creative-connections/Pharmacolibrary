@@ -1,7 +1,7 @@
 within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonStero.M01AE01_Ibuprofen;
 
 model Ibuprofen
-  extends Pharmacolibrary.Drugs.ATC.M.M01AE01;
+  extends Pharmacolibrary.Drugs.ATC.M.M01AE01(periodicDose(ka = 0.016666666666666666));
 
   // parameters inherited from base class, duplicate, uncomment and change if necesarry
   /*
