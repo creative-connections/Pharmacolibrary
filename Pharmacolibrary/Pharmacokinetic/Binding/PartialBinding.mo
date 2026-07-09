@@ -1,7 +1,7 @@
 within Pharmacolibrary.Pharmacokinetic.Binding;
 partial model PartialBinding "base constitutive relation between total and free (unbound) concentration"
   input Pharmacolibrary.Types.MassConcentration cTotal "total (bound + free) concentration";
-  output Pharmacolibrary.Types.MassConcentration cFree "free (unbound, active) concentration";
+  output Pharmacolibrary.Types.MassConcentration cFree(start = 1e-6, nominal = 1e-3) "free (unbound, active) concentration";
   Pharmacolibrary.Types.MassConcentration cBound "protein-bound (inactive) concentration";
 equation
   cBound = cTotal - cFree;
