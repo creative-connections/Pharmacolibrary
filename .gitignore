@@ -2,3 +2,4 @@ fmu/*
 *.bak-mo
 .ipynb_checkpoints
 venv/*
+Pharmacolibrary.backup/

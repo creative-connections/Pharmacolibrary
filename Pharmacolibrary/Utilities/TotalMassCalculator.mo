@@ -1,6 +1,6 @@
 within Pharmacolibrary.Utilities;
 model TotalMassCalculator "total mass calculator helper"
-  extends Interfaces.PartialTool;
+  extends Icons.PartialTool;
   input Types.Mass[:] MArr;
   Types.Mass MTot = sum(MArr);
 equation
