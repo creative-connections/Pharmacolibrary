@@ -8,12 +8,12 @@ model PK_1C
     Placement(transformation(origin = {-44, -10}, extent = {{-10, -10}, {10, 10}})));
   parameter Modelica.Units.SI.Mass weight = 75 "patient weight (kg)";
   parameter Modelica.Units.SI.SpecificVolume VdPerKg(displayUnit="l/kg") = 0.9 "Volume of distribution (L/kg)";
-  parameter Modelica.Units.SI.MassFraction F = 0.8 "bioavailiability (0-1)";
-  parameter Pharmacolibrary.Types.Clearance Cl = 20 "clearance";  
+  parameter Modelica.Units.SI.MassFraction F = 1 "bioavailiability (0-1)";
+  parameter Pharmacolibrary.Types.Clearance Cl = 2.7777777777777776e-7 "clearance";  
   parameter Modelica.Units.SI.Time adminTime = 60 "first administration time (s)";
   parameter Modelica.Units.SI.Time adminDuration = 600 "administration duration (s)";
   parameter Modelica.Units.SI.Time adminPeriod = 8*60*60 "period of administration (default 8 hours)(s)";
-  parameter Pharmacolibrary.Types.Mass adminMass(displayUnit="mg") = 1000 "administration mass (mg)";
+  parameter Pharmacolibrary.Types.Mass adminMass(displayUnit="mg") = 1e-4 "administration mass (mg)";
   
   parameter Integer adminCount = 8 "number of dose administered (1)";
   //hidden parameters
@@ -29,8 +29,10 @@ model PK_1C
   Modelica.Units.SI.Time t1_2 "elimination half-life";
   Interfaces.ConcentrationPort_b centralCPort annotation(
     Placement(transformation(origin = {-100, 0}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-100, 0}, extent = {{-22, -22}, {22, 22}})));
+  parameter Modelica.Units.SI.MolarMass MM = 1 "molar mass [kg/mol]; 1 = unknown placeholder (avoids division by zero)";
+  parameter Pharmacolibrary.Types.Dose LD50 = 0 "median lethal dose [mg/kg]; 0 = unknown";
 equation
-  t1_2 = Modelica.Math.log(2) * Vd / Cl;
+  t1_2 = Modelica.Math.log(2) * Vd / max(Cl, Modelica.Constants.small) "0 clearance will not produce division by zero" ;
   C_central = central.cport.c;
   connect(central.cport, elim.cport) annotation(
     Line(points = {{-18, 0}, {-44, 0}}, color = {152, 112, 187}));
@@ -49,6 +51,6 @@ equation
   Elimination (clearance)
   Cl = %Cl [L/h]", horizontalAlignment = TextAlignment.Left), Bitmap(origin = {-1, 71}, extent = {{-27, -29}, {27, 29}}, fileName = "modelica://Pharmacolibrary/Resources/Icons/pills.png"), Text(origin = {-1, 120}, extent = {{-147, 20}, {147, -20}}, textString = "%name"), Text(origin = {179, 79}, extent = {{-145, 19}, {145, -19}}, textString = "duration: %adminDuration
   mass: %adminMass", horizontalAlignment = TextAlignment.Left)}),
-  Documentation(info = "<html><head></head><body>Generic 1-compartment model<span style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp;with simple periodic dosage modelled as zero order massflow during administration period - perfect for parental (intravenous or intraarterial) administration, less exact for oral administration.&nbsp;</span>&nbsp;<div>It has output concentration port.</div><div><br></div></body></html>"));
+  Documentation(info = "<html><head></head><body>Generic 1-compartment model<span style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">&nbsp;with simple periodic dosage modelled as zero order massflow during administration period - perfect for parenteral (intravenous or intraarterial) administration, less exact for oral administration.&nbsp;</span>&nbsp;<div>It has output concentration port.</div><div><br></div></body></html>"));
 
 end PK_1C;

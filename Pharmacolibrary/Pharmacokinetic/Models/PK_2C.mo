@@ -16,6 +16,8 @@ extends PK_1C;
     Placement(transformation(origin = {36, 24}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-100, -60}, extent = {{-20, -20}, {20, 20}})));
   Pharmacolibrary.Types.ConcentrationOutput C_peripheral1 annotation(
     Placement(transformation(origin = {-92, 76}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-106, 44}, extent = {{-18, -18}, {18, 18}}, rotation = 180)));
+  parameter Modelica.Units.SI.MolarMass MM = 1 "molar mass [kg/mol]; 1 = unknown placeholder (avoids division by zero)";
+  parameter Pharmacolibrary.Types.Dose LD50 = 0 "median lethal dose [mg/kg]; 0 = unknown";
 equation
   C_peripheral1 = peripheral.C;
   connect(transfer.cport_a, central.cport) annotation(
