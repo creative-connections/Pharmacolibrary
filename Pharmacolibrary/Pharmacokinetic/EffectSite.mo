@@ -2,9 +2,9 @@ within Pharmacolibrary.Pharmacokinetic;
 
 model EffectSite
   extends Pharmacolibrary.Interfaces.InterfaceCompartment;
-  parameter Real ke;
-  parameter Real Ce0 =0;
-  Real Ce;
+  parameter Pharmacolibrary.Types.TransferRate ke;
+  parameter Pharmacolibrary.Types.MassConcentration Ce0 =0;
+  Pharmacolibrary.Types.MassConcentration Ce(start=Ce0);
   Types.ConcentrationOutput c_out annotation(
     Placement(transformation(origin = {104, -46}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {105, -61}, extent = {{-25, -25}, {25, 25}})));
 equation
