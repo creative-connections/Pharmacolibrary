@@ -3,3 +3,4 @@ fmu/*
 .ipynb_checkpoints
 venv/*
 Pharmacolibrary.backup/
+*.tar.gz
