@@ -9,7 +9,7 @@ model PBPKModel
   Metabolism metabolism annotation(
     Placement(transformation(origin = {51, -13}, extent = {{-27, -27}, {27, 27}})));
   parameter Real VdPerKg = 0.9 "Volume of distribution (L/kg)";
-  parameter Real F = 0.8 "bioavailiability (0-1)";
+  parameter Real F = 0.8 "bioavailability (0-1)";
   parameter Real Cl = 20 "clearance (L/h)";
   parameter Real adminDuration = 600 "administration duration (s)";
   parameter Real adminPeriod = 8*60*60 "period of administration (default 8 hours)(s)";

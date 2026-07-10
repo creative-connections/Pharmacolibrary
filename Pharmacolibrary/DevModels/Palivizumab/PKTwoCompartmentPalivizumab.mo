@@ -16,7 +16,7 @@ model PKTwoCompartmentPalivizumab
   parameter Real VcPerKg = 4/70 "Volume of distribution (L/kg)";
   parameter Real VpPerKg = 2.2/70 "Volume of distribution (L/kg)";
   parameter Real ka = 1.01 "first order absorption rate (1/day)";
-  parameter Real F = 0.694 "bioavailiability (0-1)";
+  parameter Real F = 0.694 "bioavailability (0-1)";
   parameter Real Cl = 198 "clearance (ml/day)";
   parameter Real Q = 879 "intercompartmental clearance (ml/day)";
   parameter Real adminDuration = 600 "administration duration (s)";
