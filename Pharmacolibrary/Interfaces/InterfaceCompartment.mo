@@ -5,6 +5,6 @@ partial model InterfaceCompartment
     Placement(transformation(origin = {0, 92}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {0, 100}, extent = {{-20, -20}, {20, 20}})));
   annotation(
     Icon(coordinateSystem(initialScale = 0.1)),
-  Documentation(info = "<html><head></head><body><div class=\"htmlDoc\" style=\"font-family: 'DejaVu Sans Mono';\"><p style=\"font-size: 12px;\">This partial model defines an interface for components with one concentration port.&nbsp;</p><p style=\"font-size: 12px;\">An extending model providing direct access to mass flow and mass concentration of the port should define appropriate relation. Usually used as basic partial class for compartment.</p><div><br></div></div><div class=\"textDoc\"><p style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\"></p></div></body></html>"),
-  Diagram(graphics));
+    Documentation(info = "<html><body><h4>InterfaceCompartment</h4><p>Minimal base for a <b>compartment</b>: a single concentration port <code>cport</code> (<code>ConcentrationPort_a</code>) through which drug enters and leaves.</p><p>It only declares the port; an extending model adds the mass balance and the concentration relation on <code>cport.c</code> / <code>cport.qm</code> (see <code>PartialCompartment</code>, <code>PartialBloodTissueCompartment</code>).</p></body></html>"),
+    Diagram(graphics));
 end InterfaceCompartment;

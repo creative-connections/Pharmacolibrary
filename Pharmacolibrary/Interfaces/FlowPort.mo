@@ -2,8 +2,7 @@ within Pharmacolibrary.Interfaces;
 partial connector FlowPort
   Modelica.Units.SI.Pressure p "pressure";
   flow Pharmacolibrary.Types.VolumeFlowRate qv "volume flow rate";
-  stream Pharmacolibrary.Types.MassConcentration c "concentration outflow";annotation(
-    Documentation(info = "<html><head></head><body>The <code>FlowPort</code> connector defines an acausal interface for transporting both fluid volume, pressure and dissolved drug concentration between components.<div><br></div><div><b>Pressure p</b></div><div><br></div><div>pressure in volumetric flow<br><div><p><code><b>flow VolumeFlowRate qv</b></code></p><p>
-Instantaneous volumetric flow rate (e.g., l/min or m^3/s). Positive <code>qv</code> indicates flow into the component.</p>
-<p><code><b>stream MassConcentration c</b></code></p><p>Mass concentration of the transported substance (e.g., mg/l or kg/m³). This is a stream variable, so when ports are connected, the modeling tool will mix concentrations according to the actual flow directions. Additionally, when a circular connection using flowport is made, then a GroundConcentration component should be connected somewhere in the circle.</p><div><br></div></div></div></body></html>"));
+  stream Pharmacolibrary.Types.MassConcentration c "concentration outflow";
+  annotation(
+    Documentation(info = "<html><body><h4>FlowPort</h4><p>Acausal <b>volumetric-flow</b> connector for physiologically based (PBPK) and perfusion models: a fluid stream carrying a dissolved drug.</p><p><b>Variables</b></p><ul><li><code>p</code> &ndash; pressure (potential).</li><li><code>flow qv</code> &ndash; volumetric flow rate; the sum over a connection node is zero (volume conservation).</li><li><code>stream c</code> &ndash; mass concentration carried by the flow; mixed according to the actual flow direction (read with <code>inStream</code>/<code>actualStream</code>).</li></ul><p>In a closed flow loop connect a concentration ground somewhere to anchor the stream. Base connector &ndash; instantiate a directional variant <code>FlowPort_a</code>/<code>FlowPort_b</code> (or lymph <code>FlowPort_la</code>/<code>FlowPort_lb</code>).</p></body></html>"));
 end FlowPort;

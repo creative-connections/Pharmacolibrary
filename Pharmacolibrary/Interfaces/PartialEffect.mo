@@ -11,11 +11,13 @@ partial model PartialEffect
     Placement(transformation(origin = {102, 2}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {102, 2}, extent = {{-10, -10}, {10, 10}})));
 equation
   //c = cport.c;
-  der(Ce) = ke * (cport.c - Ce); 
+  der(Ce) = ke * (cport.c - Ce);
   //c_out = Ce;
   cport.qm = 0;
   effect = E;
   annotation(
     Icon(graphics = {Polygon(origin = {12, -1}, lineColor = {152, 112, 187}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, lineThickness = 4, points = {{-28, 99}, {-62, 1}, {42, -11}, {-20, -99}, {86, 3}, {-26, 15}, {16, 99}, {-28, 99}, {-28, 99}})}),
-    Documentation(info = "<html><head></head><body><h2><br></h2></body></html>"));
+    Documentation(info = "<html><body><h4>PartialEffect</h4><p>Base for a <b>pharmacodynamic (PD) effect</b> component. It reads the drug concentration at <code>cport</code> and drives an effect-site concentration with first-order equilibration:</p><pre>  der(Ce) = ke * (cport.c - Ce)   // effect-site (biophase) kinetics
+  cport.qm = 0                    // sensing only, draws no mass
+  effect   = E</pre><p>The effect magnitude <code>E</code> and its dependence on concentration is left to the extending model &ndash; e.g. Linear, Emax, SigmoidEmax (direct, using <code>cport.c</code> or <code>Ce</code>) or the turnover models built on <code>PartialIndirectEffect</code>. Set <code>ke</code> for the biophase delay; a large <code>ke</code> makes <code>Ce</code> track <code>cport.c</code> instantly.</p></body></html>"));
 end PartialEffect;

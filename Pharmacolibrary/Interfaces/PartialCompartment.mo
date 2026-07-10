@@ -20,7 +20,7 @@ partial model PartialCompartment
   discrete Pharmacolibrary.Types.MassConcentration Cmax;
   discrete Pharmacolibrary.Types.MassConcentration Cmin;
   //Modelica.Units.SI.Concentration Cmol;
-  
+
 protected
   parameter Pharmacolibrary.Types.Volume VNonZero = max(1.0e-6, V) "total distribution volume";
   Real dC "helper derivative of concentration";
@@ -32,7 +32,7 @@ equation
   der(AUC) = C;
 
   /* -------- Boolean that tells whether derivative is positive -------- */
-  rising = der(C) > 0              "true while C is increasing";  
+  rising = der(C) > 0              "true while C is increasing";
   //Cmol = C / drug.molarMass;
   //CB = C/kTB;
   //freeTissueConc = fu*C;
@@ -50,8 +50,11 @@ algorithm
   /* local minimum: rising changed from false → true */
   when not pre(rising) and rising then
     Cmin := C;
-  end when;  
+  end when;
   annotation(
     Icon,
-    Documentation(info = "<html><head></head><body><div>The Partial Compartment Tissue compartments has two FlowPorts and one BloodTissueConcentrationPort connectors. It stores a mass of drug which is diluted in constant volume of blood/plamsa. It evaluates drug concentration, calculates mixing of inflow and contained blood/plasma of different drug concentrations and calculates change in drug amount due to transfer via the BloodTissueConcentrationPort.</div><div>If it is connected to other compartments via the BloodTissueConcentrationPort, there should be a transfer component inbetween.</div><div><br></div><div>C = M/V</div><div><br></div><div>freeTissueConc = fu*C</div><div><br></div><h2>Variables</h2><div><div>C - drug total concentration in tissue</div><div>freeTissueConc - drug free concentration in tissue</div><div>M - drug total mass</div></div><h2>Parameters</h2><div>V - total distribution volume</div><div>C0 - drug initial concentration in tissue</div><div>fu - optional fraction unbound (default 1)</div><div><br></div></body></html>"));
+    Documentation(info = "<html><body><h4>PartialCompartment</h4><p>General <b>single-compartment</b> base (extends <code>InterfaceCompartment</code>, so it has one <code>ConcentrationPort</code> <code>cport</code>). It stores a drug mass <code>M</code> in a fixed volume <code>V</code> and publishes the (well-mixed) concentration on the port:</p><pre>  C          = M / V          // V guarded to be non-zero
+  cport.c    = C
+  C_molar    = C / molarWeight
+  der(AUC)   = C</pre><p>It also tracks running extrema: <code>Cmax</code> and <code>Cmin</code> are updated at each local maximum / minimum of <code>C</code>. The mass balance itself (<code>der(M) = ...</code>) is added by the concrete compartment, e.g. <code>NoPerfusedTissueCompartment</code>.</p><p><b>Parameters:</b> <code>V</code> distribution volume, <code>C0</code> initial concentration, <code>molarWeight</code> molar mass for <code>C_molar</code>. For an explicit free/bound split, use the binding-aware base instead (<code>Pharmacokinetic.Binding.PartialBoundCompartment</code>).</p></body></html>"));
 end PartialCompartment;
