@@ -5,7 +5,9 @@ model PeriodicDose "periodic dose model"
     choicesAllMatching = true,
     Placement(transformation(origin = {0, -50}, extent = {{-14, -14}, {14, 14}})));
 protected
-  Modelica.Blocks.Sources.Pulse pulse(amplitude = adminMass/adminDuration, width = adminDuration/adminPeriod*100, period = adminPeriod, nperiod = doseCount, startTime = firstAdminTime) annotation(
+  parameter Modelica.Units.SI.Time periodEff = if adminPeriod > 0 then adminPeriod else max(adminDuration, Modelica.Constants.eps)
+    "effective pulse period; falls back to adminDuration when adminPeriod = 0 (single dose) to avoid division by zero";
+  Modelica.Blocks.Sources.Pulse pulse(amplitude = adminMass/adminDuration, width = adminDuration/periodEff*100, period = periodEff, nperiod = doseCount, startTime = firstAdminTime) annotation(
     Placement(transformation(origin = {-40, -46}, extent = {{-10, -10}, {10, 10}})));
 
 initial equation
