@@ -10,7 +10,7 @@ model PK_Parent_Metabolite
     Placement(transformation(origin = {-52, 76}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-98, 38}, extent = {{-18, -18}, {18, 18}}, rotation = 180)));
   Pharmacolibrary.Types.ConcentrationOutput Metabolite_C annotation(
     Placement(transformation(origin = {-52, -6}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-98, -20}, extent = {{-18, -18}, {18, 18}}, rotation = 180)));
-  MetaboliteFormation metaboliteFormation annotation(
+  MetaboliteFormation metaboliteFormation(CL_total = formation_rate)  annotation(
     Placement(transformation(origin = {-42, 26}, extent = {{-10, -10}, {10, 10}}, rotation = 90)));
 equation
   connect(metabolite.C_central, Metabolite_C) annotation(
