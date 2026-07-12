@@ -5,5 +5,6 @@ equation
   port_a.c = inStream(port_b.c);
   inStream(port_a.c) = port_b.c;
   annotation(
-    Documentation(info = "<html><head></head><body><p style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">This partial model defines an interface for components with two flow ports where concentration strem is ideal and goes through this component without any other effect. Proper drug mixing is ensured.</p><p style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">An extending model providing direct access to mass flow and mass concentration of the port should define appropriate relation.&nbsp;</p></body></html>"));
+    Documentation(info = "<html><body><h4>PartialLymphConcThrough</h4><p>Lymphatic counterpart of <code>PartialConcThrough</code> (extends <code>PartialLymphTwoPort</code>): an <b>ideal concentration pass-through</b> for the lymph stream, with proper stream mixing at both ports.</p><pre>  port_a.c = inStream(port_b.c)
+  inStream(port_a.c) = port_b.c</pre><p>Volume flow and pressure are left free for an extending model to define.</p></body></html>"));
 end PartialLymphConcThrough;

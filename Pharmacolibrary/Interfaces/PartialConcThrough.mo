@@ -4,6 +4,7 @@ partial model PartialConcThrough
 equation
   port_a.c = inStream(port_b.c);
   inStream(port_a.c) = port_b.c;
-annotation(
-    Documentation(info = "<html><head></head><body><p style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">This partial model defines an interface for components with two flow ports where concentration strem is ideal and goes through this component without any other effect. Proper drug mixing is ensured.</p><p style=\"font-family: 'DejaVu Sans Mono'; font-size: 12px;\">An extending model providing direct access to mass flow and mass concentration of the port should define appropriate relation.&nbsp;</p></body></html>"));
+  annotation(
+    Documentation(info = "<html><body><h4>PartialConcThrough</h4><p>Two-port base (extends <code>PartialTwoPort</code>) with an <b>ideal concentration pass-through</b>: the drug stream crosses the component unchanged, with proper stream mixing at both ports.</p><pre>  port_a.c = inStream(port_b.c)
+  inStream(port_a.c) = port_b.c</pre><p>Volume flow and pressure are left free here &ndash; an extending model adds those relations (or combine with <code>PartialFlowThrough</code>).</p></body></html>"));
 end PartialConcThrough;

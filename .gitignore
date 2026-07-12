@@ -3,3 +3,17 @@ fmu/*
 .ipynb_checkpoints
 venv/*
 Pharmacolibrary.backup/
+*.tar.gz
+
+# OpenModelica simulation build artifacts
+*.o
+*.makefile
+*.libs
+*_res.mat
+*_res.csv
+*_info.json
+*_init.xml
+/Pharmacolibrary.*.c
+/Pharmacolibrary.*.h
+/Pharmacolibrary.*.log
+/Pharmacolibrary.*.bin

@@ -3,7 +3,7 @@ within Pharmacolibrary.Pharmacokinetic.Models;
 model PBPK_whole_body
   extends Icons.BodyArtieralVenous;  
 
-  parameter Modelica.Units.SI.Mass BW = 70 "body weight";
+  parameter Modelica.Units.SI.Mass BW = 75 "body weight (matches the compartmental PK templates' weight default; tissue volumes = BW/ro*FVxx)";
   parameter Modelica.Units.SI.Density ro = 985 "average body density";
   parameter Types.VolumeFlowRate CO(displayUnit = "l/min") = 8.333333333333333e-5 "cardiac output";
   parameter Real FVad = 0.213 "adipose fractional tissue volume" annotation(
@@ -160,6 +160,10 @@ model PBPK_whole_body
     Placement(transformation(origin = {0, 100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {32, 100}, extent = {{-10, -10}, {10, 10}})));
   Interfaces.ConcentrationPort_a inhalationDose annotation(
     Placement(transformation(origin = {-44, 100}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-44, 100}, extent = {{-10, -10}, {10, 10}})));
+  Types.ConcentrationOutput C_venous "venous plasma concentration" annotation(
+    Placement(transformation(origin = {-100, -40}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-100, -40}, extent = {{-10, -10}, {10, 10}})));
+  Types.ConcentrationOutput C_arterial "arterial plasma concentration" annotation(
+    Placement(transformation(origin = {100, -40}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {100, -40}, extent = {{-10, -10}, {10, 10}})));
   TissueCompartment gonads(V = BW/ro*FVte, kTB = kTBte) annotation(
     Placement(transformation(origin = {-20, -122}, extent = {{-10, -10}, {10, 10}})));
   FixedFlow testesFlow(Q = CO*FQte) annotation(
@@ -182,11 +186,17 @@ model PBPK_whole_body
     Placement(transformation(origin = {78, 50}, extent = {{-10, -10}, {10, 10}})));
   Pharmacolibrary.Pharmacokinetic.TissueCompartment nasal_mucosa(V = BW/ro*FVna, kTB = kTBna) annotation(
     Placement(transformation(origin = {34, 76}, extent = {{-10, -10}, {10, 10}})));
-  Pharmacolibrary.Pharmacokinetic.FixedFlow adiposeFlow1(Q = CO*FQna) annotation(
+  Pharmacolibrary.Pharmacokinetic.FixedFlow nasalFlow(Q = CO*FQna) annotation(
     Placement(transformation(origin = {62, 76}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
   Pharmacolibrary.Sources.PeriodicDose_Enteral periodicNasalDose(adminMass = 0, doseCount = 1, ka=0.0016666666666666668) annotation(
     Placement(transformation(origin = {66, 104}, extent = {{-10, -10}, {10, 10}})));
 equation
+  C_venous = venous.cport.c;
+  C_arterial = arterial.cport.c;
+  assert(abs(FVad + FVbo + FVbr + FVgu + FVhe + FVki + FVna + FVli + FVlu + FVmu + FVsk + FVsp + FVte + FVve + FVar + FVpl + FVrb + FVre - 1) < 0.15,
+    "PBPK_whole_body: tissue volume fractions (FV*) should sum to about 1", AssertionLevel.warning);
+  assert(abs(FQad + FQbo + FQbr + FQhe + FQmu + FQsk + FQki + FQte + FQre + FQna + FQh - 1) < 0.1,
+    "PBPK_whole_body: arterial-side blood-flow fractions should sum to about 1 (gut/spleen flow is included in the hepatic fraction FQh)", AssertionLevel.warning);
   connect(flowGround.port_a, venous.port_a) annotation(
     Line(points = {{-80, 0}, {-80, 26}}, color = {204, 0, 0}));
   connect(venous.port_a, lungs.port_a) annotation(
@@ -289,9 +299,9 @@ equation
     Line(points = {{78, 40}, {78, 32}}, color = {114, 159, 207}));
   connect(periodicIVDose.cport, venous.cport) annotation(
     Line(points = {{-106, 50}, {-70, 50}, {-70, 36}}, color = {114, 159, 207}));
-  connect(arterial.port_a, adiposeFlow1.port_a) annotation(
+  connect(arterial.port_a, nasalFlow.port_a) annotation(
     Line(points = {{68, 22}, {68, 76}, {72, 76}}, color = {204, 0, 0}));
-  connect(adiposeFlow1.port_b, nasal_mucosa.port_b) annotation(
+  connect(nasalFlow.port_b, nasal_mucosa.port_b) annotation(
     Line(points = {{52, 76}, {44, 76}}, color = {204, 0, 0}));
   connect(nasal_mucosa.port_a, venous.port_b) annotation(
     Line(points = {{24, 76}, {-50, 76}, {-50, 26}, {-60, 26}}, color = {204, 0, 0}));
@@ -300,5 +310,6 @@ equation
   annotation(
     Icon(graphics = {Line(origin = {86.52, -0.98}, points = {{-50, 0}, {8, 0}}, color = {237, 51, 59}, thickness = 4), Line(origin = {21.7814, 86.6624}, points = {{8, 7}, {8, -7}, {-8, -7}, {-20, -7}}, color = {255, 163, 72}, thickness = 4, smooth = Smooth.Bezier), Line(origin = {-31.926, 84.8971}, points = {{-11, 9}, {-11, -1}, {29, -1}}, color = {153, 193, 241}, thickness = 4, smooth = Smooth.Bezier), Line(origin = {-41.49, -0.68}, points = {{-50, 0}, {8, 0}}, color = {53, 132, 228}, thickness = 4)}, coordinateSystem(extent = {{-100, -160}, {100, 100}})),
   Diagram(coordinateSystem(extent = {{-100, -160}, {100, 100}})),
-  experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 173.146));
+  experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-06, Interval = 173.146),
+  Documentation(info = "<html><body><h4>PBPK_whole_body</h4><p>Physiologically based whole-body model: perfusion-limited tissue compartments connected by blood flow (<code>FlowPort</code>), with hepatic and renal elimination. Tissue volumes are <code>BW/ro*FVxx</code> and organ blood flows are <code>CO*FQxx</code>.</p><p><b>Administration:</b> the built-in dose sources (<code>periodicIVDose</code>, <code>periodicIADose</code>, <code>periodicIMDose</code>, <code>periodicOralDose</code>, <code>periodicNasalDose</code>) all default to <code>adminMass = 0</code> and are therefore inert. Set <code>adminMass</code> on the route you want, or feed the external <code>venousDose</code> / <code>arterialDose</code> / <code>oralDose</code> / <code>inhalationDose</code> ports.</p><p><b>Outputs:</b> <code>C_venous</code> and <code>C_arterial</code> expose the venous and arterial plasma concentrations; individual tissue concentrations are available on each tissue compartment.</p><p>Two warning-level asserts sanity-check that the tissue volume fractions and the arterial-side blood-flow fractions each sum to about 1.</p></body></html>"));
 end PBPK_whole_body;

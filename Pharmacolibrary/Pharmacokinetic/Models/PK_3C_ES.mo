@@ -5,7 +5,7 @@ model PK_3C_ES
   parameter Real k1e = 1.6e-2;
   Types.ConcentrationOutput C_effect_site annotation(
     Placement(transformation(origin = {-92, 42}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-96, 46}, extent = {{-10, -10}, {10, 10}})));
-  EffectSite effectSite(ke = 1.6e-2)  annotation(
+  EffectSite effectSite(ke = k1e)  annotation(
     Placement(transformation(origin = {-30, -48}, extent = {{-10, -10}, {10, 10}})));
 equation
   C_effect_site = effectSite.Ce;

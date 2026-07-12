@@ -1,0 +1,6 @@
+within Pharmacolibrary.Sources;
+package Absorption "Route/absorption models mapping an administered mass-flow signal to drug delivered at a ConcentrationPort"
+  extends Modelica.Icons.Package;
+  annotation(
+    Documentation(info = "<html><body><b>Absorption</b> holds replaceable <b>route</b> models. Each takes an administered drug mass-flow signal (<code>RealInput mdot</code>, produced by a dose schedule) and delivers the drug to its <code>cport</code> according to the route kinetics.<div><br></div><div>They are orthogonal to the dose <i>schedule</i>: a source picks a schedule (periodic, single, infusion) and a route independently, so routes and schedules add instead of multiply. All routes extend <b>PartialAbsorption</b>:</div><ul><li><b>DirectAbsorption</b> &ndash; parenteral (IV/IA): the mass-flow reaches the port immediately (scaled by bioavailability F).</li><li><b>FirstOrderAbsorption</b> &ndash; enteral (oral/rectal/sublingual): absorption lag <code>Tlag</code> then first-order uptake <code>ka</code> from a depot (lumen) compartment.</li></ul><div>Future routes (zero-order/transdermal, parallel first-order for IM/SC, transit-compartment) drop in the same way.</div></body></html>"));
+end Absorption;
