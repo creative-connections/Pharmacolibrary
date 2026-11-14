@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05B_AntiParathyroidAgents;
-package H05BX03_Doxercalciferol
-  extends Icons.PackageDrugs;
-end H05BX03_Doxercalciferol;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse;
-package J02AB01_Miconazole
-  extends Icons.PackageDrugs;
-end J02AB01_Miconazole;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.S_SensoryOrgans.S01C_AntiinflammatoryAgentsAndAntiinfectivesInCombina;
-package S01CA09_ChloroprednisoneAndAntii
-  extends Icons.PackageDrugs;
-end S01CA09_ChloroprednisoneAndAntii;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01B_PosteriorPituitaryLobeHormones;
-package H01BA02_Desmopressin
-  extends Icons.PackageDrugs;
-end H01BA02_Desmopressin;

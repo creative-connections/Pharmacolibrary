@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A14A_AnabolicSteroids;
-package A14AA09_Norethandrolone
-  extends Icons.PackageDrugs;
-end A14AA09_Norethandrolone;

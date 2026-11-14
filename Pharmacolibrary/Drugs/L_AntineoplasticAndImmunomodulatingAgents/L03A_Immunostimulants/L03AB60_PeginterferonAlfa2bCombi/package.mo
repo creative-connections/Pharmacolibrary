@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants;
-package L03AB60_PeginterferonAlfa2bCombi
-  extends Icons.PackageDrugs;
-end L03AB60_PeginterferonAlfa2bCombi;

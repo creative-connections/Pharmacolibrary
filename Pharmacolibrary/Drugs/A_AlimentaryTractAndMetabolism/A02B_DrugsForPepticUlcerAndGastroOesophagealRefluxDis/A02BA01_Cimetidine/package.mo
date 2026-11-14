@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDis;
-package A02BA01_Cimetidine
-  extends Icons.PackageDrugs;
-end A02BA01_Cimetidine;

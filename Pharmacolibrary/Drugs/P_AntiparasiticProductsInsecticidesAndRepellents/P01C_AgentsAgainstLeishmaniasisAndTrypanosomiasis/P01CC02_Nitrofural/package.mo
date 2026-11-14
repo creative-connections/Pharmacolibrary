@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01C_AgentsAgainstLeishmaniasisAndTrypanosomiasis;
-package P01CC02_Nitrofural
-  extends Icons.PackageDrugs;
-end P01CC02_Nitrofural;

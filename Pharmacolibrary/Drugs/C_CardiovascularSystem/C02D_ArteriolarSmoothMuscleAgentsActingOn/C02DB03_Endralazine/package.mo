@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02D_ArteriolarSmoothMuscleAgentsActingOn;
-package C02DB03_Endralazine
-  extends Icons.PackageDrugs;
-end C02DB03_Endralazine;

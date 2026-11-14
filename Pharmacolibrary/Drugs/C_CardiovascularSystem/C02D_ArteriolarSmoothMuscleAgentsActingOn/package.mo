@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem;
-package C02D_ArteriolarSmoothMuscleAgentsActingOn
-  extends Icons.PackageDrugs;
-end C02D_ArteriolarSmoothMuscleAgentsActingOn;

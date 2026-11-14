@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain;
-package M02AA05_Benzydamine
-  extends Icons.PackageDrugs;
-end M02AA05_Benzydamine;

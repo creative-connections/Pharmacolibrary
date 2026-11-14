@@ -1,9 +1,11 @@
 within Pharmacolibrary.Pharmacodynamic;
 model ZeroOrderInhibitionEffect
   extends Pharmacolibrary.Interfaces.PartialIndirectEffect;
+  parameter Real Imax(unit = "1", min = 0, max = 1) = 1 "maximum fractional inhibition of production"
+    annotation(Documentation(info = "<html><p>Production modifier is 1 - Imax*C/(C + C50); Imax=1 preserves the original full-inhibition model.</p></html>"));
   parameter Pharmacolibrary.Types.MassConcentration c50 "concentration producing 50% maximum inhibition";
 equation
-  IIn = 1 - Ce/(Ce + c50);
+  IIn = 1 - Imax*Ce/(Ce + c50);
   IOut = 1;
   annotation(
     Icon(graphics = {Text(origin = {0, -53}, extent = {{-76, 67}, {76, -67}}, textString = "Inhib 0")}),

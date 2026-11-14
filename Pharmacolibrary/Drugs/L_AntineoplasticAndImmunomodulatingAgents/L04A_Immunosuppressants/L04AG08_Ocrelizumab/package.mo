@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
-package L04AG08_Ocrelizumab
-  extends Icons.PackageDrugs;
-end L04AG08_Ocrelizumab;

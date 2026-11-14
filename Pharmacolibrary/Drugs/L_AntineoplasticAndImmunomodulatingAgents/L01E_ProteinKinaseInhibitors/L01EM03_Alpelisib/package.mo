@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
-package L01EM03_Alpelisib
-  extends Icons.PackageDrugs;
-end L01EM03_Alpelisib;

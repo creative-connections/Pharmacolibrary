@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02D_ArteriolarSmoothMuscleAgentsActingOn;
-package C02DB01_Dihydralazine
-  extends Icons.PackageDrugs;
-end C02DB01_Dihydralazine;

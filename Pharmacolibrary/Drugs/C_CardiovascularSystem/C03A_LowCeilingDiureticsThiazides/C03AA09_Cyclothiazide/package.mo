@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03A_LowCeilingDiureticsThiazides;
-package C03AA09_Cyclothiazide
-  extends Icons.PackageDrugs;
-end C03AA09_Cyclothiazide;

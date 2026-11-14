@@ -16,21 +16,7 @@ model Propofol
   adminTime = 60, 
   Cmin = 0.001, 
   Cmax = 0.01, Ctox_peak = 0.02, Ctox_trough = 0.01, effectSite(ke = 1.6e-2));
-  // parameters inherited from base class, duplicate, uncomment and change if necesarry
-  /*
-      
-        weight         = 70,
-        F              = 1,
-        Cl             = 2.6833333333333336e-05,
-        adminDuration  = 600,
-        adminMass      = 2.0 / 1000000,
-        adminCount     = 1,
-        Vd             = 0.023600000000000003,
-        Cmin           = 0.001,
-        Cmax           = 0.01,
-        Ctox_peak      = 0.02,
-        Ctox_trough    = 0.01  
-      */
+
   annotation(
     Documentation(info = "<html><head></head><body><table><tbody><tr><td>name:</td><td>Propofol</td></tr><tr><td>ATC code:</td><td>N01AX10</td></tr><tr><td>route:</td><td>intravenous</td></tr>
     <tr><td>compartments:</td><td>3</td></tr>

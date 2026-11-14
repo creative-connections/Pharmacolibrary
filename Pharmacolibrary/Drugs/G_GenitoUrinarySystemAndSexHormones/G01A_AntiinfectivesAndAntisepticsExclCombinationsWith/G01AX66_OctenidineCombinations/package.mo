@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWith;
-package G01AX66_OctenidineCombinations
-  extends Icons.PackageDrugs;
-end G01AX66_OctenidineCombinations;

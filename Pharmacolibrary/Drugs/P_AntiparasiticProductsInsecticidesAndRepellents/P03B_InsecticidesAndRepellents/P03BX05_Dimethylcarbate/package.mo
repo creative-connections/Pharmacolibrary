@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03B_InsecticidesAndRepellents;
-package P03BX05_Dimethylcarbate
-  extends Icons.PackageDrugs;
-end P03BX05_Dimethylcarbate;

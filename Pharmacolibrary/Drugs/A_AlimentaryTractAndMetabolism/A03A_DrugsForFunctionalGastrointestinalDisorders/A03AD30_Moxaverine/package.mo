@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders;
-package A03AD30_Moxaverine
-  extends Icons.PackageDrugs;
-end A03AD30_Moxaverine;

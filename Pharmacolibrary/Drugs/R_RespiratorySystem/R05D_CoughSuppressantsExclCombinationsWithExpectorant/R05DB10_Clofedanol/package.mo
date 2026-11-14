@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorant;
-package R05DB10_Clofedanol
-  extends Icons.PackageDrugs;
-end R05DB10_Clofedanol;

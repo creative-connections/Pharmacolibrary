@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V10A_AntiinflammatoryAgents;
-package V10AA03_Yttrium90ySilicateColloi
-  extends Icons.PackageDrugs;
-end V10AA03_Yttrium90ySilicateColloi;

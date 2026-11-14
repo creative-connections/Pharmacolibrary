@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics;
-package N06BA11_Dexmethylphenidate
-  extends Icons.PackageDrugs;
-end N06BA11_Dexmethylphenidate;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations;
-package A01AB02_HydrogenPeroxide
-  extends Icons.PackageDrugs;
-end A01AB02_HydrogenPeroxide;

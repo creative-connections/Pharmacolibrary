@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04B_Urologicals;
-package G04BX17_SodiumSalicylateAndMethe
-  extends Icons.PackageDrugs;
-end G04BX17_SodiumSalicylateAndMethe;

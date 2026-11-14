@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
-package J05AR26_DarunavirAndRitonavir
-  extends Icons.PackageDrugs;
-end J05AR26_DarunavirAndRitonavir;

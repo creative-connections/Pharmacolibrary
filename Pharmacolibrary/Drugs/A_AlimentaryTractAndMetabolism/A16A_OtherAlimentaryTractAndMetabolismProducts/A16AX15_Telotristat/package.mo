@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts;
-package A16AX15_Telotristat
-  extends Icons.PackageDrugs;
-end A16AX15_Telotristat;

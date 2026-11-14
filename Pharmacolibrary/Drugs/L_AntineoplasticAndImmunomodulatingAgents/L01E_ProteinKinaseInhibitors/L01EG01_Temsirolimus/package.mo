@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
-package L01EG01_Temsirolimus
-  extends Icons.PackageDrugs;
-end L01EG01_Temsirolimus;

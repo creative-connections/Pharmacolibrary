@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R03C_AdrenergicsForSystemicUse;
-package R03CC63_ClenbuterolAndAmbroxol
-  extends Icons.PackageDrugs;
-end R03CC63_ClenbuterolAndAmbroxol;

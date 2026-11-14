@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N04B_DopaminergicAgents;
-package N04BA03_LevodopaDecarboxylaseInhibitorAn
-  extends Icons.PackageDrugs;
-end N04BA03_LevodopaDecarboxylaseInhibitorAn;

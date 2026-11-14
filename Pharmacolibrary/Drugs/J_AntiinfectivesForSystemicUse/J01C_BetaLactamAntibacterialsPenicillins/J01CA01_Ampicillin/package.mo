@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins;
-package J01CA01_Ampicillin
-  extends Icons.PackageDrugs;
-end J01CA01_Ampicillin;

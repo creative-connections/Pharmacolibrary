@@ -1,0 +1,14 @@
+within Pharmacolibrary.Drugs.Substances;
+package Butobarbital "butobarbital"
+  extends Pharmacolibrary.Interfaces.PartialSubstance(
+    name = "butobarbital",
+    atcCodes = {"N05CA03"},
+    drugbankId = "DB01353",
+    pubchemCid = "6473",
+    chebiId = "134884",
+    wikidataId = "Q3395266",
+    formula = "C10H16N2O3",
+    M = 0.212249,
+    logP = 1.7);
+  annotation (Documentation(info = "<html><body><p>Butobarbital is a barbiturate used as a hypnotic and sedative to treat insomnia and other sleep problems. It is an approved medicine, though barbiturate hypnotics like it are now used only rarely and largely superseded by safer sleeping drugs.</p><p><small>Summary written by glm-5.3-flash from <a href=\"https://www.wikidata.org/wiki/Q3395266\">Wikidata Q3395266</a> and the WHO ATC classification; not checked by a person.</small></p><table><tr><td>name:</td><td>butobarbital</td></tr><tr><td>ATC codes:</td><td>N05CA03</td></tr><tr><td>DrugBank:</td><td><a href=\"https://go.drugbank.com/drugs/DB01353\">DB01353</a></td></tr><tr><td>PubChem CID:</td><td><a href=\"https://pubchem.ncbi.nlm.nih.gov/compound/6473\">6473</a></td></tr><tr><td>ChEBI:</td><td><a href=\"https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:134884\">134884</a></td></tr><tr><td>Wikidata:</td><td><a href=\"https://www.wikidata.org/wiki/Q3395266\">Q3395266</a></td></tr><tr><td>formula:</td><td>C10H16N2O3</td></tr><tr><td>molar mass:</td><td>212.249 g/mol (PubChem CID 6473)</td></tr><tr><td>logP:</td><td>1.7 (Drugs.Common 25.09, not verified)</td></tr></table></body></html>"));
+end Butobarbital;

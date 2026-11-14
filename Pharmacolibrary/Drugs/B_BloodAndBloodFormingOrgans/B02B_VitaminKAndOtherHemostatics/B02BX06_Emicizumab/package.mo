@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics;
-package B02BX06_Emicizumab
-  extends Icons.PackageDrugs;
-end B02BX06_Emicizumab;

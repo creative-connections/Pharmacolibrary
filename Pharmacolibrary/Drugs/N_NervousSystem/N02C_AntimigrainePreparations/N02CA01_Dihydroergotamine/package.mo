@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N02C_AntimigrainePreparations;
-package N02CA01_Dihydroergotamine
-  extends Icons.PackageDrugs;
-end N02CA01_Dihydroergotamine;

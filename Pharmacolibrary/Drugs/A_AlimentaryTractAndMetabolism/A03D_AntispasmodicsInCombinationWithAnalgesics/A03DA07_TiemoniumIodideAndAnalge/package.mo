@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03D_AntispasmodicsInCombinationWithAnalgesics;
-package A03DA07_TiemoniumIodideAndAnalge
-  extends Icons.PackageDrugs;
-end A03DA07_TiemoniumIodideAndAnalge;

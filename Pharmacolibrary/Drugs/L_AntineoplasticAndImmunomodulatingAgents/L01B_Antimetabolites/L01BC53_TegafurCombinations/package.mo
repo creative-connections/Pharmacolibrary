@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01B_Antimetabolites;
-package L01BC53_TegafurCombinations
-  extends Icons.PackageDrugs;
-end L01BC53_TegafurCombinations;

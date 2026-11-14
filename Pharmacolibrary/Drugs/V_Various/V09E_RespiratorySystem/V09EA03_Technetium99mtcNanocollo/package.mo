@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V09E_RespiratorySystem;
-package V09EA03_Technetium99mtcNanocollo
-  extends Icons.PackageDrugs;
-end V09EA03_Technetium99mtcNanocollo;

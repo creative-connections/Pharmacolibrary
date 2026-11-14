@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials;
-package J01DB03_Cefalotin
-  extends Icons.PackageDrugs;
-end J01DB03_Cefalotin;

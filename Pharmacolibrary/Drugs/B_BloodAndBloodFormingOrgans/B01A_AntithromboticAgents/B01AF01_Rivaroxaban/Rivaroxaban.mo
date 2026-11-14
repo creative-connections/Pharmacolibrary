@@ -1,40 +1,5 @@
 within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AF01_Rivaroxaban;
-
-model Rivaroxaban
-  extends Pharmacolibrary.Drugs.ATC.B.B01AF01
-  // parameters inherited from base class, duplicate, uncomment and change if necesarry
-  /*
-  
-    weight         = 70,
-    F              = 0.8,
-    Cl             = 2.777777777777778e-06,
-    adminDuration  = 600,
-    adminMass      = 10 / 1000000,
-    adminCount     = 1,
-    Vd             = 0.05,
-    Cmin           = 0.001,
-    Cmax           = 0.01,
-    Ctox_peak      = 0.02,
-    Ctox_trough    = 0.01,
-    ka             = 0.019166666666666665,
-    Tlag           = 10.020000000000001,            
-    Vdp             = 0.04,
-    k12             = 2.222222222222222e-06,
-    k21             = 2.222222222222222e-06
-      
-  */
-  ;
-
-  annotation (Documentation(
-    info       = "<html><body><table><tr><td>name:</td><td>Rivaroxaban</td></tr><tr><td>ATC code:</td><td>B01AF01</td></tr><td>route:</td><td>oral</td></tr>
-    <tr><td>compartments:</td><td>2</td></tr>
-    <tr><td>dosage:</td><td>10</td><td>mg</td></tr>
-    <tr><td>volume of distribution:</td><td>50</td><td>L</td></tr>
-    <tr><td>clearance:</td><td>10</td><td>L/h</td></tr>
-    <tr><td colspan='3'>other parameters in model implementation</td></tr>
-    </table><p>Rivaroxaban is an oral anticoagulant that acts as a direct Factor Xa inhibitor, used to prevent and treat venous thromboembolism and stroke in patients with atrial fibrillation. It is approved and widely used today for various indications, including prophylaxis of deep vein thrombosis after hip or knee replacement surgery, treatment of deep vein thrombosis and pulmonary embolism, and risk reduction in patients with nonvalvular atrial fibrillation.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters in healthy adult subjects, both male and female, under fasting conditions with single oral dose administration.</p><h4>References</h4><ol><li><p>Elenjickal, EJ, et al., &amp; Mavrakanas, TA (2024). Anticoagulation in Patients with Chronic Kidney Disease. <i>American journal of nephrology</i> 55(2) 146–164. DOI:<a href=\"https://doi.org/10.1159/000535546\">10.1159/000535546</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/38035566/\">https://pubmed.ncbi.nlm.nih.gov/38035566</a></p></li><li><p>Stampfuss, J, et al., &amp; Mueck, W (2013). The effect of food on the absorption and pharmacokinetics of rivaroxaban. <i>International journal of clinical pharmacology and therapeutics</i> 51(7) 549–561. DOI:<a href=\"https://doi.org/10.5414/CP201812\">10.5414/CP201812</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/23458226/\">https://pubmed.ncbi.nlm.nih.gov/23458226</a></p></li><li><p>Mueck, W, et al., &amp; Becka, M (2014). Clinical pharmacokinetic and pharmacodynamic profile of rivaroxaban. <i>Clinical pharmacokinetics</i> 53(1) 1–16. DOI:<a href=\"https://doi.org/10.1007/s40262-013-0100-7\">10.1007/s40262-013-0100-7</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/23999929/\">https://pubmed.ncbi.nlm.nih.gov/23999929</a></p></li></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
-    experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
-  ));
-    
+model Rivaroxaban "Rivaroxaban — default model: Rivaroxaban_Jia2026_reference"
+  extends Rivaroxaban_Jia2026_reference;
+  annotation (Documentation(info = "<html><body><p>The default model of rivaroxaban: <a href=\"modelica://Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents.B01AF01_Rivaroxaban.Rivaroxaban_Jia2026_reference\">Rivaroxaban_Jia2026_reference</a>, chosen among the models extracted from papers (reviewer verdict, ground-truth agreement, completeness). All models of rivaroxaban in this package:</p><ul><li><code>Rivaroxaban_Esmaeili2022_reference</code></li><li><code>Rivaroxaban_Jia2026_reference</code></li><li><code>Rivaroxaban_Ren2026_caucasian_vte</code></li><li><code>Rivaroxaban_Ren2026_chinese_nvaf</code></li><li><code>Rivaroxaban_Ren2026_chinese_pe</code></li><li><code>Rivaroxaban_Ren2026_japanese_nvaf</code></li><li><code>Rivaroxaban_Esmaeili2022_PD_pt</code></li><li><code>Rivaroxaban_Esmaeili2022_PD_aptt</code></li></ul><h4>About rivaroxaban</h4><p>Rivaroxaban is an anticoagulant that directly inhibits factor Xa and is used to prevent and treat blood clots, including venous thromboembolism, pulmonary embolism, and stroke prevention in atrial fibrillation. It is widely used and authorised in the European Union, with several approved products on the market.</p><p><small>Summary written by glm-5.3-flash from <a href=\"https://www.wikidata.org/wiki/Q420262\">Wikidata Q420262</a> and the WHO ATC classification and the EMA medicines list; not checked by a person.</small></p><p>Identity, molar mass and metabolites: <a href=\"modelica://Pharmacolibrary.Drugs.Substances.Rivaroxaban\">Rivaroxaban</a>.</p></body></html>", revisions = "<html><body><ul><li>11/2026 generated by pharmacolibrary-dev export.pharmacolibrary_models from default: parameters extracted from the paper by the pharmacolibrary-dev pipeline, model built by its engineer, reviewed: default</li></ul></body></html>"), experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1));
 end Rivaroxaban;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases;
-package P01AA01_Broxyquinoline
-  extends Icons.PackageDrugs;
-end P01AA01_Broxyquinoline;

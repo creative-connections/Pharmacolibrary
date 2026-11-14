@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants;
-package R03AL03_VilanterolAndUmeclidiniu
-  extends Icons.PackageDrugs;
-end R03AL03_VilanterolAndUmeclidiniu;

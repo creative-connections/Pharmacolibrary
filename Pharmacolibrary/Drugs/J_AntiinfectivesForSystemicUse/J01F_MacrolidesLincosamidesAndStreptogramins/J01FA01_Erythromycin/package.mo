@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins;
-package J01FA01_Erythromycin
-  extends Icons.PackageDrugs;
-end J01FA01_Erythromycin;

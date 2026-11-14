@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins;
-package J01CR50_AmoxicillinAndClavulanicAcidComb
-  extends Icons.PackageDrugs;
-end J01CR50_AmoxicillinAndClavulanicAcidComb;

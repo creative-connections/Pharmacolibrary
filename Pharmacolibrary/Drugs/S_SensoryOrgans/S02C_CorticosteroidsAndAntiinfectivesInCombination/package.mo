@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.S_SensoryOrgans;
-package S02C_CorticosteroidsAndAntiinfectivesInCombination
-  extends Icons.PackageDrugs;
-end S02C_CorticosteroidsAndAntiinfectivesInCombination;

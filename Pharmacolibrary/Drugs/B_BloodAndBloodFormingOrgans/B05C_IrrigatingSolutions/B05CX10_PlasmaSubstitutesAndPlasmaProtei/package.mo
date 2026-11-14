@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05C_IrrigatingSolutions;
-package B05CX10_PlasmaSubstitutesAndPlasmaProtei
-  extends Icons.PackageDrugs;
-end B05CX10_PlasmaSubstitutesAndPlasmaProtei;

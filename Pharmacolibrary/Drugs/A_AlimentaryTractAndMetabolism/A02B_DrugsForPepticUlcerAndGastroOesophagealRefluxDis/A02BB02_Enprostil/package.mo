@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDis;
-package A02BB02_Enprostil
-  extends Icons.PackageDrugs;
-end A02BB02_Enprostil;

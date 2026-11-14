@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.S_SensoryOrgans;
-package S01G_DecongestantsAndAntiallergics
-  extends Icons.PackageDrugs;
-end S01G_DecongestantsAndAntiallergics;

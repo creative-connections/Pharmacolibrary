@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
-package L01XJ02_Sonidegib
-  extends Icons.PackageDrugs;
-end L01XJ02_Sonidegib;

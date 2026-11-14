@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials;
-package J01DD03_Cefsulodin
-  extends Icons.PackageDrugs;
-end J01DD03_Cefsulodin;

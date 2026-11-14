@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations;
-package C09BX02_PerindoprilAndBisoprolol
-  extends Icons.PackageDrugs;
-end C09BX02_PerindoprilAndBisoprolol;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants;
-package L03AA09_Sargramostim
-  extends Icons.PackageDrugs;
-end L03AA09_Sargramostim;

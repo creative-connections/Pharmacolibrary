@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopical;
-package R01AA10_Metizoline
-  extends Icons.PackageDrugs;
-end R01AA10_Metizoline;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim;
-package J01EC03_Sulfamoxole
-  extends Icons.PackageDrugs;
-end J01EC03_Sulfamoxole;

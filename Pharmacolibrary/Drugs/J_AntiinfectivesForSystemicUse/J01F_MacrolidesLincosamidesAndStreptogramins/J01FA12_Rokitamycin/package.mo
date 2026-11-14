@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins;
-package J01FA12_Rokitamycin
-  extends Icons.PackageDrugs;
-end J01FA12_Rokitamycin;

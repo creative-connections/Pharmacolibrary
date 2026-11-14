@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N02A_Opioids;
-package N02AJ03_DihydrocodeineAndOtherNonOpioidA
-  extends Icons.PackageDrugs;
-end N02AJ03_DihydrocodeineAndOtherNonOpioidA;

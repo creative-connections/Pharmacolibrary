@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem;
-package C07C_BetaBlockingAgentsAndOtherDiuretics
-  extends Icons.PackageDrugs;
-end C07C_BetaBlockingAgentsAndOtherDiuretics;

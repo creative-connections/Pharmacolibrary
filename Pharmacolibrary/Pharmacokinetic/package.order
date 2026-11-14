@@ -12,6 +12,7 @@ FlowGround
 ConcBoundary
 SignalConcBoundary
 TransferFirstOrderNonSym
+TransferMetabolicConversion
 ConcentrationGradientDiffusion
 TransferZeroOrder
 ClearanceDrivenElimination

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05B_AntivaricoseTherapy;
-package C05BB56_GlucoseCombinations
-  extends Icons.PackageDrugs;
-end C05BB56_GlucoseCombinations;

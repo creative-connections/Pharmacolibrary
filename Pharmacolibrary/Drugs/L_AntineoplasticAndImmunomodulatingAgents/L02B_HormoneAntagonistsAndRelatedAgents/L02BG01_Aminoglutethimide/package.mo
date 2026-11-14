@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02B_HormoneAntagonistsAndRelatedAgents;
-package L02BG01_Aminoglutethimide
-  extends Icons.PackageDrugs;
-end L02BG01_Aminoglutethimide;

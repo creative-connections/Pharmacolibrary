@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives;
-package B05XA16_CardioplegiaSolutions
-  extends Icons.PackageDrugs;
-end B05XA16_CardioplegiaSolutions;

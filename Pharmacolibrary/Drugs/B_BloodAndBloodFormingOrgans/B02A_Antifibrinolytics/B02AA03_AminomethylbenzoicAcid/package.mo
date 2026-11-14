@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02A_Antifibrinolytics;
-package B02AA03_AminomethylbenzoicAcid
-  extends Icons.PackageDrugs;
-end B02AA03_AminomethylbenzoicAcid;

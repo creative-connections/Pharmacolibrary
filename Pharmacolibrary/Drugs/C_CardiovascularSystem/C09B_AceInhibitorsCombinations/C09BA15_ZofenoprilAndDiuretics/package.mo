@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations;
-package C09BA15_ZofenoprilAndDiuretics
-  extends Icons.PackageDrugs;
-end C09BA15_ZofenoprilAndDiuretics;

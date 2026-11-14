@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem;
-package M09AX10_Risdiplam
-  extends Icons.PackageDrugs;
-end M09AX10_Risdiplam;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05B_AntivaricoseTherapy;
-package C05BA51_HeparinoidCombinations
-  extends Icons.PackageDrugs;
-end C05BA51_HeparinoidCombinations;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates;
-package L01FX02_GemtuzumabOzogamicin
-  extends Icons.PackageDrugs;
-end L01FX02_GemtuzumabOzogamicin;

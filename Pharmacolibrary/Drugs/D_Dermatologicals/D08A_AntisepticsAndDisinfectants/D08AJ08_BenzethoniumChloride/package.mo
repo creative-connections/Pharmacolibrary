@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D08A_AntisepticsAndDisinfectants;
-package D08AJ08_BenzethoniumChloride
-  extends Icons.PackageDrugs;
-end D08AJ08_BenzethoniumChloride;

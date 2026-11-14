@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A04A_AntiemeticsAndAntinauseants;
-package A04AA02_Granisetron
-  extends Icons.PackageDrugs;
-end A04AA02_Granisetron;

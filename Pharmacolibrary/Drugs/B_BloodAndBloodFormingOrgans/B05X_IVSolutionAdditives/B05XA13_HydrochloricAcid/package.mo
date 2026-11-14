@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives;
-package B05XA13_HydrochloricAcid
-  extends Icons.PackageDrugs;
-end B05XA13_HydrochloricAcid;

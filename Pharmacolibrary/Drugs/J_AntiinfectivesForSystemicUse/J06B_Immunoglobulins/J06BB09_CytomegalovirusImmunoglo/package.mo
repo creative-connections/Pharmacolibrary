@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J06B_Immunoglobulins;
-package J06BB09_CytomegalovirusImmunoglo
-  extends Icons.PackageDrugs;
-end J06BB09_CytomegalovirusImmunoglo;

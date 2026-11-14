@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A05B_LiverTherapyLipotropics;
-package A05BA05_Epomediol
-  extends Icons.PackageDrugs;
-end A05BA05_Epomediol;

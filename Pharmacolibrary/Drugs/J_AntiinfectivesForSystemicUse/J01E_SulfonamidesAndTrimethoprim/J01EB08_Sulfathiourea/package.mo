@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim;
-package J01EB08_Sulfathiourea
-  extends Icons.PackageDrugs;
-end J01EB08_Sulfathiourea;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V09H_InflammationAndInfectionDetection;
-package V09HB02_Indium111inTropolonateLa
-  extends Icons.PackageDrugs;
-end V09HB02_Indium111inTropolonateLa;

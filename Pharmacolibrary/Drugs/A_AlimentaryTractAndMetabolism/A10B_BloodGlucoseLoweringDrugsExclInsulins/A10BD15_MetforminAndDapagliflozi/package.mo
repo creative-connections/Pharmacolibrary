@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins;
-package A10BD15_MetforminAndDapagliflozi
-  extends Icons.PackageDrugs;
-end A10BD15_MetforminAndDapagliflozi;

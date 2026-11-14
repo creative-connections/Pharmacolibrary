@@ -1,7 +1,10 @@
 within Pharmacolibrary.Examples;
-
 model PK_1C_LithiumCarbonate
-  extends Pharmacolibrary.Examples.PKOneCompartmentModelPeriodic(periodicDose(firstAdminTime = 3600, adminPeriod = 86400, adminMass = 0.0015, doseCount = 10, adminDuration = 7200, F = 1), central(V = 0.225), elim(CL = 2.616666666666667e-6));
+  extends Pharmacolibrary.Examples.PKOneCompartmentModelPeriodic(periodicDose(
+      firstAdminTime=3600,
+      adminPeriod=86400,
+      adminMass=0.0015,                                                                                                                       doseCount = 10,
+      adminDuration=7200,                                                                                                                                                           F = 1), central(V = 0.225), elim(CL = 2.616666666666667e-6));
     parameter Pharmacolibrary.Types.MassConcentration Cmin = 0.004 "Minimal therapeutic level";
     parameter Pharmacolibrary.Types.MassConcentration Cmax = 0.01 "Maximal therapeutic level";
     parameter Pharmacolibrary.Types.MassConcentration Ctox = 0.013 "Toxicity risk level";

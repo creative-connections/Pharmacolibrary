@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse;
-package G03AA08_MedroxyprogesteroneAndEt
-  extends Icons.PackageDrugs;
-end G03AA08_MedroxyprogesteroneAndEt;

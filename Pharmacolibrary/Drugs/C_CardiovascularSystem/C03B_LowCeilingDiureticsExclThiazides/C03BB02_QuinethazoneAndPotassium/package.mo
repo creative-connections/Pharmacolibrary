@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03B_LowCeilingDiureticsExclThiazides;
-package C03BB02_QuinethazoneAndPotassium
-  extends Icons.PackageDrugs;
-end C03BB02_QuinethazoneAndPotassium;

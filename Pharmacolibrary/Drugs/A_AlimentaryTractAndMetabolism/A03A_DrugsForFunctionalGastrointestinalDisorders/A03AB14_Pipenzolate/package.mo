@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders;
-package A03AB14_Pipenzolate
-  extends Icons.PackageDrugs;
-end A03AB14_Pipenzolate;

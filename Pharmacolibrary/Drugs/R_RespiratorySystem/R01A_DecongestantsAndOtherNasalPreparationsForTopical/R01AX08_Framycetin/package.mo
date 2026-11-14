@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopical;
-package R01AX08_Framycetin
-  extends Icons.PackageDrugs;
-end R01AX08_Framycetin;

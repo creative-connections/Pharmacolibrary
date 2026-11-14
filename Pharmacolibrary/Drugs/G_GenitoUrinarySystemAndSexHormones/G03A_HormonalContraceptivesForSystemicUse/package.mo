@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones;
-package G03A_HormonalContraceptivesForSystemicUse
-  extends Icons.PackageDrugs;
-end G03A_HormonalContraceptivesForSystemicUse;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWith;
-package G01AF05_Econazole
-  extends Icons.PackageDrugs;
-end G01AF05_Econazole;

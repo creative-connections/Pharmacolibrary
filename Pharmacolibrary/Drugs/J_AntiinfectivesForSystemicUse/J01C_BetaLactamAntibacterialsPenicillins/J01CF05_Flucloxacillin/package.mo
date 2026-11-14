@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins;
-package J01CF05_Flucloxacillin
-  extends Icons.PackageDrugs;
-end J01CF05_Flucloxacillin;

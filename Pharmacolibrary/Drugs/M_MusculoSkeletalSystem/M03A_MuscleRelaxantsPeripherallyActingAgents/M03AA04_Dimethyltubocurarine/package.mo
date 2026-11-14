@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03A_MuscleRelaxantsPeripherallyActingAgents;
-package M03AA04_Dimethyltubocurarine
-  extends Icons.PackageDrugs;
-end M03AA04_Dimethyltubocurarine;

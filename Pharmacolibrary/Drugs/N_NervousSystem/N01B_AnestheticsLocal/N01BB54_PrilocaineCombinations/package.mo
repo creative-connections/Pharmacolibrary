@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N01B_AnestheticsLocal;
-package N01BB54_PrilocaineCombinations
-  extends Icons.PackageDrugs;
-end N01BB54_PrilocaineCombinations;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonStero;
-package M01AB02_Sulindac
-  extends Icons.PackageDrugs;
-end M01AB02_Sulindac;

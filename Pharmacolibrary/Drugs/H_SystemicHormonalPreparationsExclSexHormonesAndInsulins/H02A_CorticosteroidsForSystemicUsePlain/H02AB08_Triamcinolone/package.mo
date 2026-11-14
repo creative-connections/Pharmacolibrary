@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02A_CorticosteroidsForSystemicUsePlain;
-package H02AB08_Triamcinolone
-  extends Icons.PackageDrugs;
-end H02AB08_Triamcinolone;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
-package L01XL11_Lifileucel
-  extends Icons.PackageDrugs;
-end L01XL11_Lifileucel;

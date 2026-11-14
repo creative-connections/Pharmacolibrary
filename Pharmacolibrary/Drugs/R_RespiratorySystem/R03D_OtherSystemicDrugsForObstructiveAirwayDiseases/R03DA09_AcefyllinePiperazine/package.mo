@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases;
-package R03DA09_AcefyllinePiperazine
-  extends Icons.PackageDrugs;
-end R03DA09_AcefyllinePiperazine;

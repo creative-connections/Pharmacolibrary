@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D04A_AntipruriticsInclAntihistaminesAnestheticsEtc;
-package D04AA34_Chlorphenoxamine
-  extends Icons.PackageDrugs;
-end D04AA34_Chlorphenoxamine;

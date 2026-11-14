@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02B_HormoneAntagonistsAndRelatedAgents;
-package L02BX02_Degarelix
-  extends Icons.PackageDrugs;
-end L02BX02_Degarelix;

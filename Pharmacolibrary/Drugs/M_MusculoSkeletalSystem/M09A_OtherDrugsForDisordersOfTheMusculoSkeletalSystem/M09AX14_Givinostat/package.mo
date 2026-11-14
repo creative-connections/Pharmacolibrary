@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem;
-package M09AX14_Givinostat
-  extends Icons.PackageDrugs;
-end M09AX14_Givinostat;

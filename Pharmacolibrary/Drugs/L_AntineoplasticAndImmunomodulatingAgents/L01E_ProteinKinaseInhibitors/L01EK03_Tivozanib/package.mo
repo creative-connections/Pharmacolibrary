@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
-package L01EK03_Tivozanib
-  extends Icons.PackageDrugs;
-end L01EK03_Tivozanib;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines;
-package J07BA02_EncephalitisJapaneseInac
-  extends Icons.PackageDrugs;
-end J07BA02_EncephalitisJapaneseInac;

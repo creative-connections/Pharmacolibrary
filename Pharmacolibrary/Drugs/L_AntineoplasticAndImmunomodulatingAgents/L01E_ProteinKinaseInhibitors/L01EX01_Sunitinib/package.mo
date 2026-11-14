@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
-package L01EX01_Sunitinib
-  extends Icons.PackageDrugs;
-end L01EX01_Sunitinib;

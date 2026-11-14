@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresFo;
-package C05AA10_FluocinoloneAcetonide
-  extends Icons.PackageDrugs;
-end C05AA10_FluocinoloneAcetonide;

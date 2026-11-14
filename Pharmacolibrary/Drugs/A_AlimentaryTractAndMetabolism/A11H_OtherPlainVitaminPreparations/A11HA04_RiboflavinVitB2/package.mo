@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11H_OtherPlainVitaminPreparations;
-package A11HA04_RiboflavinVitB2
-  extends Icons.PackageDrugs;
-end A11HA04_RiboflavinVitB2;

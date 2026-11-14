@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins;
-package J01FA16_Solithromycin
-  extends Icons.PackageDrugs;
-end J01FA16_Solithromycin;

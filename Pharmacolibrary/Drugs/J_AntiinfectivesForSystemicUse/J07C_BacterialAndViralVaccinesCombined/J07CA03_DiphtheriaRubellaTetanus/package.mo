@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07C_BacterialAndViralVaccinesCombined;
-package J07CA03_DiphtheriaRubellaTetanus
-  extends Icons.PackageDrugs;
-end J07CA03_DiphtheriaRubellaTetanus;

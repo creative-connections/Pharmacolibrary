@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives;
-package B05XA31_ElectrolytesInCombinationWithOth
-  extends Icons.PackageDrugs;
-end B05XA31_ElectrolytesInCombinationWithOth;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse;
-package J01R_CombinationsOfAntibacterials
-  extends Icons.PackageDrugs;
-end J01R_CombinationsOfAntibacterials;

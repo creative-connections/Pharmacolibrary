@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.S_SensoryOrgans.S01K_SurgicalAids;
-package S01KA51_HyaluronicAcidCombinatio
-  extends Icons.PackageDrugs;
-end S01KA51_HyaluronicAcidCombinatio;

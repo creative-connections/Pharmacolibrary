@@ -1,6 +1,7 @@
 within Pharmacolibrary.Examples;
 
 model ExplanationComponents
+  parameter Pharmacolibrary.Types.Volume Vd(displayUnit = "l") = 0.01 "volume of distribution";
   Pharmacokinetic.NoPerfusedTissueCompartment compartment(V = Vd) annotation(
     Placement(transformation(origin = {-70, -20}, extent = {{-18, -18}, {18, 18}})));
 equation

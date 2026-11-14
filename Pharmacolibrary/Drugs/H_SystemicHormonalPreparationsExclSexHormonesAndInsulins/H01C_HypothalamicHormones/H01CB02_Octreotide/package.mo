@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01C_HypothalamicHormones;
-package H01CB02_Octreotide
-  extends Icons.PackageDrugs;
-end H01CB02_Octreotide;

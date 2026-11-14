@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02A_HormonesAndRelatedAgents;
-package L02AB02_Medroxyprogesterone
-  extends Icons.PackageDrugs;
-end L02AB02_Medroxyprogesterone;

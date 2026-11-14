@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09C_AngiotensinIiReceptorBlockersArbsPlain;
-package C09CA01_Losartan
-  extends Icons.PackageDrugs;
-end C09CA01_Losartan;

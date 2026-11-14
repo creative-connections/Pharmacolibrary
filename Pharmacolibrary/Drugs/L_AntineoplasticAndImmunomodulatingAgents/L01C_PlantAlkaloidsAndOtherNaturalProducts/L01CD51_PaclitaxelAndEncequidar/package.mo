@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts;
-package L01CD51_PaclitaxelAndEncequidar
-  extends Icons.PackageDrugs;
-end L01CD51_PaclitaxelAndEncequidar;

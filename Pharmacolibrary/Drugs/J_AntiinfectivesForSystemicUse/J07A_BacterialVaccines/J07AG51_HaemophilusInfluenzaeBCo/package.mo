@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines;
-package J07AG51_HaemophilusInfluenzaeBCo
-  extends Icons.PackageDrugs;
-end J07AG51_HaemophilusInfluenzaeBCo;

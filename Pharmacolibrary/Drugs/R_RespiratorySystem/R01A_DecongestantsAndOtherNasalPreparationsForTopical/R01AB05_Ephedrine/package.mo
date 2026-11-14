@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopical;
-package R01AB05_Ephedrine
-  extends Icons.PackageDrugs;
-end R01AB05_Ephedrine;

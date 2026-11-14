@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination;
-package C02LC05_MoxonidineAndDiuretics
-  extends Icons.PackageDrugs;
-end C02LC05_MoxonidineAndDiuretics;

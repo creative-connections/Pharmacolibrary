@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders;
-package A03AB13_Bevonium
-  extends Icons.PackageDrugs;
-end A03AB13_Bevonium;

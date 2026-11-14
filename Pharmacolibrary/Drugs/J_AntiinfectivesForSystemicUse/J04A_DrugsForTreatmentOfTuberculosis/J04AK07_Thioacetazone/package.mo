@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis;
-package J04AK07_Thioacetazone
-  extends Icons.PackageDrugs;
-end J04AK07_Thioacetazone;

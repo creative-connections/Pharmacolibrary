@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases;
-package C01DX21_Serelaxin
-  extends Icons.PackageDrugs;
-end C01DX21_Serelaxin;

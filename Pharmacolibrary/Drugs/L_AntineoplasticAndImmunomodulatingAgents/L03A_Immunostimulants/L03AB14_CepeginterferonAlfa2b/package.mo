@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants;
-package L03AB14_CepeginterferonAlfa2b
-  extends Icons.PackageDrugs;
-end L03AB14_CepeginterferonAlfa2b;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates;
-package L01FF02_Pembrolizumab
-  extends Icons.PackageDrugs;
-end L01FF02_Pembrolizumab;

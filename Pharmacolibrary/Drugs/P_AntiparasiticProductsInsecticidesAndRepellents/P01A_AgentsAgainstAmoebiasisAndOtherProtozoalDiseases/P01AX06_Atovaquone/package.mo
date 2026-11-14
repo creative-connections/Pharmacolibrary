@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases;
-package P01AX06_Atovaquone
-  extends Icons.PackageDrugs;
-end P01AX06_Atovaquone;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines;
-package J07AH02_OtherMeningococcalMonovalentPuri
-  extends Icons.PackageDrugs;
-end J07AH02_OtherMeningococcalMonovalentPuri;

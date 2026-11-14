@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
-package L01XX80_Imetelstat
-  extends Icons.PackageDrugs;
-end L01XX80_Imetelstat;

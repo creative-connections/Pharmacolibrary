@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics;
-package B02BA02_Menadione
-  extends Icons.PackageDrugs;
-end B02BA02_Menadione;

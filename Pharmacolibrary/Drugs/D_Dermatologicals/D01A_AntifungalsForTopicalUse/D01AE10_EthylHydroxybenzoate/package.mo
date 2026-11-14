@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D01A_AntifungalsForTopicalUse;
-package D01AE10_EthylHydroxybenzoate
-  extends Icons.PackageDrugs;
-end D01AE10_EthylHydroxybenzoate;

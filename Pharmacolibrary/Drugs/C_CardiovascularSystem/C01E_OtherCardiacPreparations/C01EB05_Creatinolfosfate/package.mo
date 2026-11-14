@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01E_OtherCardiacPreparations;
-package C01EB05_Creatinolfosfate
-  extends Icons.PackageDrugs;
-end C01EB05_Creatinolfosfate;

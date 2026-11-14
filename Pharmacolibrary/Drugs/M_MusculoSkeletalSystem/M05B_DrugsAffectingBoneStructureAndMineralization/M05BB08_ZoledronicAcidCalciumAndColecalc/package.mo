@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization;
-package M05BB08_ZoledronicAcidCalciumAndColecalc
-  extends Icons.PackageDrugs;
-end M05BB08_ZoledronicAcidCalciumAndColecalc;

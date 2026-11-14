@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03G_GonadotropinsAndOtherOvulationStimulants;
-package G03GA03_SerumGonadotrophin
-  extends Icons.PackageDrugs;
-end G03GA03_SerumGonadotrophin;

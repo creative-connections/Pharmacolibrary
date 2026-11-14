@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopical;
-package R01AC02_Levocabastine
-  extends Icons.PackageDrugs;
-end R01AC02_Levocabastine;

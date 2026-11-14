@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A06A_DrugsForConstipation;
-package A06AB58_SodiumPicosulfateCombina
-  extends Icons.PackageDrugs;
-end A06AB58_SodiumPicosulfateCombina;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V09X_OtherDiagnosticRadiopharmaceuticals;
-package V09XA01_Iodine131iNorcholesterol
-  extends Icons.PackageDrugs;
-end V09XA01_Iodine131iNorcholesterol;

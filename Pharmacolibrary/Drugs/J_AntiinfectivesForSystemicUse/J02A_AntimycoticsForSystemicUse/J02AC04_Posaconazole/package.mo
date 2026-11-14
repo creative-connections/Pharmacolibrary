@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse;
-package J02AC04_Posaconazole
-  extends Icons.PackageDrugs;
-end J02AC04_Posaconazole;

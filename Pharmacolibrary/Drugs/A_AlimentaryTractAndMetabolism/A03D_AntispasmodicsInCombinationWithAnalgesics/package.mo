@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
-package A03D_AntispasmodicsInCombinationWithAnalgesics
-  extends Icons.PackageDrugs;
-end A03D_AntispasmodicsInCombinationWithAnalgesics;

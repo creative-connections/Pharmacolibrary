@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases;
-package C01DX09_Imolamine
-  extends Icons.PackageDrugs;
-end C01DX09_Imolamine;

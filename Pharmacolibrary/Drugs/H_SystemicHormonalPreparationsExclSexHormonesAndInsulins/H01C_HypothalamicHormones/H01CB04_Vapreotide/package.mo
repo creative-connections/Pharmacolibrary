@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01C_HypothalamicHormones;
-package H01CB04_Vapreotide
-  extends Icons.PackageDrugs;
-end H01CB04_Vapreotide;

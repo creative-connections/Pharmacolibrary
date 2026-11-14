@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03B_InsecticidesAndRepellents;
-package P03BA01_Cyfluthrin
-  extends Icons.PackageDrugs;
-end P03BA01_Cyfluthrin;

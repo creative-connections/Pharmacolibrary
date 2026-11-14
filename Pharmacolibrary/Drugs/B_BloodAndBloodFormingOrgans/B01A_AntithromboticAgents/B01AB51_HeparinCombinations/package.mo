@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B01A_AntithromboticAgents;
-package B01AB51_HeparinCombinations
-  extends Icons.PackageDrugs;
-end B01AB51_HeparinCombinations;

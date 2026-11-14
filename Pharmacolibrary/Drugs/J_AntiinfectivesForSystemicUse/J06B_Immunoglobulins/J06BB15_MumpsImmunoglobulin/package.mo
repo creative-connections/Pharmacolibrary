@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J06B_Immunoglobulins;
-package J06BB15_MumpsImmunoglobulin
-  extends Icons.PackageDrugs;
-end J06BB15_MumpsImmunoglobulin;

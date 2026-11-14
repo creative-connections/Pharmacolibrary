@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V09A_CentralNervousSystem;
-package V09AX03_Iodine124i2betaCarbomethoxy3beta
-  extends Icons.PackageDrugs;
-end V09AX03_Iodine124i2betaCarbomethoxy3beta;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D04A_AntipruriticsInclAntihistaminesAnestheticsEtc;
-package D04AB07_Pramocaine
-  extends Icons.PackageDrugs;
-end D04AB07_Pramocaine;

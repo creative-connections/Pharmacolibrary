@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants;
-package L03AX12_MelanomaVaccine
-  extends Icons.PackageDrugs;
-end L03AX12_MelanomaVaccine;

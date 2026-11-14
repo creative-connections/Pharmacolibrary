@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03D_AldosteroneAntagonistsAndOtherPotassiumSparingAg;
-package C03DA03_Canrenone
-  extends Icons.PackageDrugs;
-end C03DA03_Canrenone;

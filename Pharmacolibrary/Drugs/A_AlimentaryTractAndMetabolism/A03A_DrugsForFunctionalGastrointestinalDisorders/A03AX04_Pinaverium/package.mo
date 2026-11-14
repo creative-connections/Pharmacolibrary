@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders;
-package A03AX04_Pinaverium
-  extends Icons.PackageDrugs;
-end A03AX04_Pinaverium;

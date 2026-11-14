@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopical;
-package R01AX09_HyaluronicAcid
-  extends Icons.PackageDrugs;
-end R01AX09_HyaluronicAcid;

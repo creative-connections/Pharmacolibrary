@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines;
-package J07BJ51_RubellaCombinationsWithMumpsLive
-  extends Icons.PackageDrugs;
-end J07BJ51_RubellaCombinationsWithMumpsLive;

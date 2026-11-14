@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials;
-package P01BA06_Amodiaquine
-  extends Icons.PackageDrugs;
-end P01BA06_Amodiaquine;

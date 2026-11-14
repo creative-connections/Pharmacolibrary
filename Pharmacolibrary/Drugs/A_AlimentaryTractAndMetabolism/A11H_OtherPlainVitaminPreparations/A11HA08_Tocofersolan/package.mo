@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11H_OtherPlainVitaminPreparations;
-package A11HA08_Tocofersolan
-  extends Icons.PackageDrugs;
-end A11HA08_Tocofersolan;

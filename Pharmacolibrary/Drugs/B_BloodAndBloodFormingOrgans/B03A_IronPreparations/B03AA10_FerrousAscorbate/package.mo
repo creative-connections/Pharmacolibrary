@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations;
-package B03AA10_FerrousAscorbate
-  extends Icons.PackageDrugs;
-end B03AA10_FerrousAscorbate;

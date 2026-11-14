@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03E_DiureticsAndPotassiumSparingAgentsInCombination;
-package C03EA04_AltizideAndPotassiumSparingAgent
-  extends Icons.PackageDrugs;
-end C03EA04_AltizideAndPotassiumSparingAgent;

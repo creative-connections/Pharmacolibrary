@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
-package L01XX27_ArsenicTrioxide
-  extends Icons.PackageDrugs;
-end L01XX27_ArsenicTrioxide;

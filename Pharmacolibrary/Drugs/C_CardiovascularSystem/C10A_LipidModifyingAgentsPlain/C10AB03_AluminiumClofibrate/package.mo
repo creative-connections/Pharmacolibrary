@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10A_LipidModifyingAgentsPlain;
-package C10AB03_AluminiumClofibrate
-  extends Icons.PackageDrugs;
-end C10AB03_AluminiumClofibrate;

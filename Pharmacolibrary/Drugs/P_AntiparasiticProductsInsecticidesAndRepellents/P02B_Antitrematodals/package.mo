@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents;
-package P02B_Antitrematodals
-  extends Icons.PackageDrugs;
-end P02B_Antitrematodals;

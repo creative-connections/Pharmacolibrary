@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V08B_XRayContrastMediaNonIodinated;
-package V08BA02_BariumSulfateWithoutSusp
-  extends Icons.PackageDrugs;
-end V08BA02_BariumSulfateWithoutSusp;

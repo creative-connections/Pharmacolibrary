@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
-package L01EB01_Gefitinib
-  extends Icons.PackageDrugs;
-end L01EB01_Gefitinib;

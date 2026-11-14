@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03C_AntispasmodicsInCombinationWithPsycholeptics;
-package A03CB01_MethylscopolamineAndPsycholeptic
-  extends Icons.PackageDrugs;
-end A03CB01_MethylscopolamineAndPsycholeptic;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins;
-package J01FA07_Josamycin
-  extends Icons.PackageDrugs;
-end J01FA07_Josamycin;

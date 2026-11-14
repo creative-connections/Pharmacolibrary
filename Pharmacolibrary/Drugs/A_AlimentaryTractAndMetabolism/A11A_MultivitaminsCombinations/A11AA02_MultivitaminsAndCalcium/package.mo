@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11A_MultivitaminsCombinations;
-package A11AA02_MultivitaminsAndCalcium
-  extends Icons.PackageDrugs;
-end A11AA02_MultivitaminsAndCalcium;

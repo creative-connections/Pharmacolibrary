@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01C_AgentsAgainstLeishmaniasisAndTrypanosomiasis;
-package P01CX01_PentamidineIsethionate
-  extends Icons.PackageDrugs;
-end P01CX01_PentamidineIsethionate;

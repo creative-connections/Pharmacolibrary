@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D07X_CorticosteroidsOtherCombinations;
-package D07XB30_CorticosteroidsCombinati
-  extends Icons.PackageDrugs;
-end D07XB30_CorticosteroidsCombinati;

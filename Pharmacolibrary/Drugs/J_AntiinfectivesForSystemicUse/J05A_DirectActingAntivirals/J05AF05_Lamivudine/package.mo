@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
-package J05AF05_Lamivudine
-  extends Icons.PackageDrugs;
-end J05AF05_Lamivudine;

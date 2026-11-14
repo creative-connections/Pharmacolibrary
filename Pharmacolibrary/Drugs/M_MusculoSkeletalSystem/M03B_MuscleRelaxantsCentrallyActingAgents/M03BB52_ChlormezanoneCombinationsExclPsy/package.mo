@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents;
-package M03BB52_ChlormezanoneCombinationsExclPsy
-  extends Icons.PackageDrugs;
-end M03BB52_ChlormezanoneCombinationsExclPsy;

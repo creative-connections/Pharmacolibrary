@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03X_OtherSexHormonesAndModulatorsOfTheGenitalSystem;
-package G03XC05_Ospemifene
-  extends Icons.PackageDrugs;
-end G03XC05_Ospemifene;

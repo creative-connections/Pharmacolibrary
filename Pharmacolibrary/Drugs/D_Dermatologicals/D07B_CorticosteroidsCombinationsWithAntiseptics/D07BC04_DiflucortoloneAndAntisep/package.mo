@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D07B_CorticosteroidsCombinationsWithAntiseptics;
-package D07BC04_DiflucortoloneAndAntisep
-  extends Icons.PackageDrugs;
-end D07BC04_DiflucortoloneAndAntisep;

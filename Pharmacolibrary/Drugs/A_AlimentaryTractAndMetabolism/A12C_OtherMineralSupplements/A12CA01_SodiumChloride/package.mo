@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12C_OtherMineralSupplements;
-package A12CA01_SodiumChloride
-  extends Icons.PackageDrugs;
-end A12CA01_SodiumChloride;

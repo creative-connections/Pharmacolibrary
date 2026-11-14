@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03B_AntithyroidPreparations;
-package H03BX01_Diiodotyrosine
-  extends Icons.PackageDrugs;
-end H03BX01_Diiodotyrosine;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M05B_DrugsAffectingBoneStructureAndMineralization;
-package M05BA03_PamidronicAcid
-  extends Icons.PackageDrugs;
-end M05BA03_PamidronicAcid;

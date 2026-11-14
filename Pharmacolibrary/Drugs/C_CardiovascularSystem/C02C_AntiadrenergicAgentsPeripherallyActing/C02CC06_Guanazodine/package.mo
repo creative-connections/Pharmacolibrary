@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02C_AntiadrenergicAgentsPeripherallyActing;
-package C02CC06_Guanazodine
-  extends Icons.PackageDrugs;
-end C02CC06_Guanazodine;

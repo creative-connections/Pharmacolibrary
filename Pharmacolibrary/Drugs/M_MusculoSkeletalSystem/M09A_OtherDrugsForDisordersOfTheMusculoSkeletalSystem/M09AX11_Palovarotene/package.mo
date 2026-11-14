@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem;
-package M09AX11_Palovarotene
-  extends Icons.PackageDrugs;
-end M09AX11_Palovarotene;

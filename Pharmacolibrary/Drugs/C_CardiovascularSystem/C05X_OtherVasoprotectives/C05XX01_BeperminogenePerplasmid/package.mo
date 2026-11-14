@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05X_OtherVasoprotectives;
-package C05XX01_BeperminogenePerplasmid
-  extends Icons.PackageDrugs;
-end C05XX01_BeperminogenePerplasmid;

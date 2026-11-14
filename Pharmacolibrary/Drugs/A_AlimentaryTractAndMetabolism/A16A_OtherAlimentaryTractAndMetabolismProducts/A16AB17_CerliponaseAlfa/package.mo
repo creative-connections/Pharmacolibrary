@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts;
-package A16AB17_CerliponaseAlfa
-  extends Icons.PackageDrugs;
-end A16AB17_CerliponaseAlfa;

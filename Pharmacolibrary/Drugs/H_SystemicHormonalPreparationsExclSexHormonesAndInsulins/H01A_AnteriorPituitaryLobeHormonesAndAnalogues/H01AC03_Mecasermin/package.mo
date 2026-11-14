@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01A_AnteriorPituitaryLobeHormonesAndAnalogues;
-package H01AC03_Mecasermin
-  extends Icons.PackageDrugs;
-end H01AC03_Mecasermin;

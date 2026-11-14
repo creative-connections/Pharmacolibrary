@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03F_ProgestogensAndEstrogensInCombination;
-package G03FB11_TrimegestoneAndEstrogen
-  extends Icons.PackageDrugs;
-end G03FB11_TrimegestoneAndEstrogen;

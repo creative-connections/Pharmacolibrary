@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
-package J05AP12_Coblopasvir
-  extends Icons.PackageDrugs;
-end J05AP12_Coblopasvir;

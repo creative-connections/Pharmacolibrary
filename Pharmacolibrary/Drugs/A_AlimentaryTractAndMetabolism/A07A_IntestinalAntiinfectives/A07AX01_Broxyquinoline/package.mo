@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07A_IntestinalAntiinfectives;
-package A07AX01_Broxyquinoline
-  extends Icons.PackageDrugs;
-end A07AX01_Broxyquinoline;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01C_CardiacStimulantsExclCardiacGlycosides;
-package C01CA25_AmeziniumMetilsulfate
-  extends Icons.PackageDrugs;
-end C01CA25_AmeziniumMetilsulfate;

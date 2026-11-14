@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01B_AntiarrhythmicsClassIAndIii;
-package C01BA51_QuinidineCombinationsExclPsychol
-  extends Icons.PackageDrugs;
-end C01BA51_QuinidineCombinationsExclPsychol;

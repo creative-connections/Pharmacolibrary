@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins;
-package J01CR05_PiperacillinAndBetaLacta
-  extends Icons.PackageDrugs;
-end J01CR05_PiperacillinAndBetaLacta;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis;
-package J04AK06_Delamanid
-  extends Icons.PackageDrugs;
-end J04AK06_Delamanid;

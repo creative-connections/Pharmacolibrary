@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07C_BacterialAndViralVaccinesCombined;
-package J07CA05_DiphtheriaHepatitisBPertussisTet
-  extends Icons.PackageDrugs;
-end J07CA05_DiphtheriaHepatitisBPertussisTet;

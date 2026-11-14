@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
-package L04AX09_DiroximelFumarate
-  extends Icons.PackageDrugs;
-end L04AX09_DiroximelFumarate;

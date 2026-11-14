@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02A_CorticosteroidsForSystemicUsePlain;
-package H02AB06_Prednisolone
-  extends Icons.PackageDrugs;
-end H02AB06_Prednisolone;

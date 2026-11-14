@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
-package L04AF03_Upadacitinib
-  extends Icons.PackageDrugs;
-end L04AF03_Upadacitinib;

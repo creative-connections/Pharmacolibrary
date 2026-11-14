@@ -3,32 +3,26 @@ within Pharmacolibrary.Examples.Pharmacogenomics;
 model Patient_PKPG_2C_Ibuprofen
   //extends Icons.BodyArtieralVenous;
   //extends Icons.Pills;
-  extends Pharmacolibrary.Drugs.ATC.M.M01AE01(      
-      Vd             = 0.009720000000000001,
-      Vdp             = 0.00639, elim(useClInput = true)
-  , adminCount = 3, ka = 3.266666666666667e-4);
+  extends Pharmacolibrary.Pharmacokinetic.Models.PK_2C_enteral(
+    weight = 70,
+    F = 0.8,
+    Cl = 3.777777777777778e-07,
+    adminDuration = 600,
+    adminMass = 400 / 1000000,
+    adminCount = 3,
+    Vd = 0.009720000000000001,
+    Cmin = 0.001,
+    Cmax = 0.01,
+    Ctox_peak = 0.02,
+    Ctox_trough = 0.01,
+    ka = 3.266666666666667e-4,
+    Tlag = 10.200000000000001,
+    Vdp = 0.00639,
+    k12 = 1.2361111111111111e-06,
+    k21 = 1.2361111111111111e-06,
+    elim(useClInput = true));
 
-  // parameters inherited from base class, duplicate, uncomment and change if necesarry
-  /*
-    
-      weight         = 70,
-      F              = 0.8,
-      Cl             = 3.777777777777778e-07,
-      adminDuration  = 600,
-      adminMass      = 400 / 1000000,
-      adminCount     = 1,
-      Vd             = 0.009720000000000001,
-      Cmin           = 0.001,
-      Cmax           = 0.01,
-      Ctox_peak      = 0.02,
-      Ctox_trough    = 0.01,
-      ka             = 0.019666666666666666,
-      Tlag           = 10.200000000000001,            
-      Vdp             = 0.00639,
-      k12             = 1.2361111111111111e-06,
-      k21             = 1.2361111111111111e-06
-        
-    */
+
   parameter String SLC22A2_1 = "*1";
   parameter String SLC22A2_2 = "*1";
   parameter String CYP2C19_1 = "*1";

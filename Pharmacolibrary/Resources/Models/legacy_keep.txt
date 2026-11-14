@@ -1,0 +1,11 @@
+# Legacy drug models to keep.
+#
+# pharmacolibrary-dev's export.pharmacolibrary_legacy removes the 06/2025 machine-generated
+# drug models (revision "LLM(GPT4.1)" or "06/2025 initial generated model"). A model named
+# here stays. One class per line: the full path, or its last two parts.
+#
+#   N05CD08_Midazolam.Midazolam
+#   Pharmacolibrary.Drugs.N_NervousSystem.N05C_HypnoticsAndSedatives.N05CD08_Midazolam.Midazolam
+#
+# Kept without an entry: a model hand-tuned in 25.09, a variant with its own name
+# ({Drug}_IM, {Drug}_1C), and a model that a class outside the removal set refers to.

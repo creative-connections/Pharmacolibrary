@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D05A_AntipsoriaticsForTopicalUse;
-package D05AX55_TazaroteneAndUlobetasol
-  extends Icons.PackageDrugs;
-end D05AX55_TazaroteneAndUlobetasol;

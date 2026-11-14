@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants;
-package R03AK01_EpinephrineAndOtherDrugsForObstr
-  extends Icons.PackageDrugs;
-end R03AK01_EpinephrineAndOtherDrugsForObstr;

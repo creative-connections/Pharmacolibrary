@@ -4,7 +4,7 @@ partial model PartialCompartment
   //parameter Pharmacolibrary.Drugs.Common.DataRecord drug "Drug descriptor";
   parameter Pharmacolibrary.Types.Volume V = 0.001 "total distribution volume";
   parameter Pharmacolibrary.Types.MassConcentration C0 = 0 "drug initial concentration in tissue";
-  parameter Modelica.Units.SI.MolarMass molarWeight = 1 "molar weight of molecule";
+  parameter Modelica.Units.SI.MolarMass molarWeight(min = 0) = 0 "molar mass of the molecule [kg/mol]; 0 = not supplied (C_molar is then 0, never a fake value)";
   Modelica.Units.SI.MolarConcentration C_molar (displayUnit="nmol/l") "molar concentration";
   Pharmacolibrary.Types.MassConcentration C(start = C0, fixed = true) "drug actual concentration in tissue";
   //parameter Modelica.Units.SI.DimensionlessRatio fu = 1 "fraction unbound";
@@ -36,7 +36,7 @@ protected
     "C is not yet rising at t = 0; the equation below takes over immediately after";
 equation
   C = M/VNonZero;
-  C_molar = C / molarWeight;
+  C_molar = if molarWeight > 0 then C / molarWeight else 0 "no division by zero when the molar mass is unknown";
   cport.c = C;
   der(AUC) = C;
 
@@ -64,6 +64,6 @@ algorithm
     Icon,
     Documentation(info = "<html><body><h4>PartialCompartment</h4><p>General <b>single-compartment</b> base (extends <code>InterfaceCompartment</code>, so it has one <code>ConcentrationPort</code> <code>cport</code>). It stores a drug mass <code>M</code> in a fixed volume <code>V</code> and publishes the (well-mixed) concentration on the port:</p><pre>  C          = M / V          // V guarded to be non-zero
   cport.c    = C
-  C_molar    = C / molarWeight
+  C_molar    = C / molarWeight   (0 when molarWeight = 0, i.e. not supplied)
   der(AUC)   = C</pre><p>It also tracks running extrema: <code>Cmax</code> and <code>Cmin</code> are updated at each local maximum / minimum of <code>C</code>. The mass balance itself (<code>der(M) = ...</code>) is added by the concrete compartment, e.g. <code>NoPerfusedTissueCompartment</code>.</p><p><b>Parameters:</b> <code>V</code> distribution volume, <code>C0</code> initial concentration, <code>molarWeight</code> molar mass for <code>C_molar</code>. For an explicit free/bound split, use the binding-aware base instead (<code>Pharmacokinetic.Binding.PartialBoundCompartment</code>).</p></body></html>"));
 end PartialCompartment;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse;
-package J02AB02_Ketoconazole
-  extends Icons.PackageDrugs;
-end J02AB02_Ketoconazole;

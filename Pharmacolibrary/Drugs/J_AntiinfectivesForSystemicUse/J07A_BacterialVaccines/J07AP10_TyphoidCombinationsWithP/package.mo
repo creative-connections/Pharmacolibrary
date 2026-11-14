@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines;
-package J07AP10_TyphoidCombinationsWithP
-  extends Icons.PackageDrugs;
-end J07AP10_TyphoidCombinationsWithP;

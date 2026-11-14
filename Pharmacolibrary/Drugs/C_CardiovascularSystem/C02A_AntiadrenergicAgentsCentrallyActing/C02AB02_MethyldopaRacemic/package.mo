@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02A_AntiadrenergicAgentsCentrallyActing;
-package C02AB02_MethyldopaRacemic
-  extends Icons.PackageDrugs;
-end C02AB02_MethyldopaRacemic;

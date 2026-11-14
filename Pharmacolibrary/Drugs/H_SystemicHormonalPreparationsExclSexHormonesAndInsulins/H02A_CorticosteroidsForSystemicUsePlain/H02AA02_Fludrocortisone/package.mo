@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02A_CorticosteroidsForSystemicUsePlain;
-package H02AA02_Fludrocortisone
-  extends Icons.PackageDrugs;
-end H02AA02_Fludrocortisone;

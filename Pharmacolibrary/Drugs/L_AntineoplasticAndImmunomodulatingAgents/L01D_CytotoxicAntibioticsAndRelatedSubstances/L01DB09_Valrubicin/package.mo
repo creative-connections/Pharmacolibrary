@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01D_CytotoxicAntibioticsAndRelatedSubstances;
-package L01DB09_Valrubicin
-  extends Icons.PackageDrugs;
-end L01DB09_Valrubicin;

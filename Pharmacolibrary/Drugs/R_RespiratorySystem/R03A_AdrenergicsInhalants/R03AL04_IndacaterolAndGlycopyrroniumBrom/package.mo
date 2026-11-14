@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants;
-package R03AL04_IndacaterolAndGlycopyrroniumBrom
-  extends Icons.PackageDrugs;
-end R03AL04_IndacaterolAndGlycopyrroniumBrom;

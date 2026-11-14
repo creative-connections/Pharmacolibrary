@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01M_QuinoloneAntibacterials;
-package J01MB03_PiromidicAcid
-  extends Icons.PackageDrugs;
-end J01MB03_PiromidicAcid;

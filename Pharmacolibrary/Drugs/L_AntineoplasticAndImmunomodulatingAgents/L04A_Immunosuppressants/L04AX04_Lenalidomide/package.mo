@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
-package L04AX04_Lenalidomide
-  extends Icons.PackageDrugs;
-end L04AX04_Lenalidomide;

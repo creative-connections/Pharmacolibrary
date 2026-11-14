@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations;
-package D11AX11_Hydroquinone
-  extends Icons.PackageDrugs;
-end D11AX11_Hydroquinone;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C08C_SelectiveCalciumChannelBlockersWithMainlyVascula;
-package C08CA11_Manidipine
-  extends Icons.PackageDrugs;
-end C08CA11_Manidipine;

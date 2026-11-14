@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02A_CorticosteroidsForSystemicUsePlain;
-package H02AB17_Cortivazol
-  extends Icons.PackageDrugs;
-end H02AB17_Cortivazol;

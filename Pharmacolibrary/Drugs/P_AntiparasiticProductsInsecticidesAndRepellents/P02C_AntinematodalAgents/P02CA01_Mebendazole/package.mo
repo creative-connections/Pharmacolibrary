@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02C_AntinematodalAgents;
-package P02CA01_Mebendazole
-  extends Icons.PackageDrugs;
-end P02CA01_Mebendazole;

@@ -4,6 +4,7 @@ model MetaboliteFormation
 extends Pharmacolibrary.Interfaces.PartialTwoCPort;
   parameter Pharmacolibrary.Types.Clearance CL_total;
   parameter Real Fm(min=0, max=1) = 1 "fraction of parent clearance forming metabolite";
+  parameter Real massRatio(min = 0) = 1 "molar mass of metabolite / molar mass of parent: kg of metabolite formed per kg of parent converted (1 = mass-conserving)";
 
   final parameter Pharmacolibrary.Types.Clearance CL_formation = Fm * CL_total;
   final parameter Pharmacolibrary.Types.Clearance CL_other     = (1 - Fm) * CL_total;
@@ -12,7 +13,7 @@ extends Pharmacolibrary.Interfaces.PartialTwoCPort;
   Pharmacolibrary.Types.Mass MFormed(start=0, fixed=true)  "metabolite formed";
 equation
   cport_a.qm =  CL_total * cport_a.c;                                  // out of parent node
-  cport_b.qm = -CL_formation * cport_a.c ;    // into metabolite node * (MMmetabolite/MMparent)
+  cport_b.qm = -CL_formation * cport_a.c * massRatio;    // into metabolite node: 1 mol parent -> 1 mol metabolite
   der(MFormed) = - cport_b.qm;
   der(MExc)    = CL_other * cport_a.c;
 annotation(

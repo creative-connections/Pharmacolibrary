@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWith;
-package G01AF12_Fenticonazole
-  extends Icons.PackageDrugs;
-end G01AF12_Fenticonazole;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts;
-package A16AA05_CarglumicAcid
-  extends Icons.PackageDrugs;
-end A16AA05_CarglumicAcid;

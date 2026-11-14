@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases;
-package C01DA59_TrolnitrateCombinations
-  extends Icons.PackageDrugs;
-end C01DA59_TrolnitrateCombinations;

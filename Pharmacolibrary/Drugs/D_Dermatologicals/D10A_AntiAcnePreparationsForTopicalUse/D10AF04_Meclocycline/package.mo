@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D10A_AntiAcnePreparationsForTopicalUse;
-package D10AF04_Meclocycline
-  extends Icons.PackageDrugs;
-end D10AF04_Meclocycline;

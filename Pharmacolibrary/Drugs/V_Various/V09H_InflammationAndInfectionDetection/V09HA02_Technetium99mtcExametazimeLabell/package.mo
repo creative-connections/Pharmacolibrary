@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V09H_InflammationAndInfectionDetection;
-package V09HA02_Technetium99mtcExametazimeLabell
-  extends Icons.PackageDrugs;
-end V09HA02_Technetium99mtcExametazimeLabell;

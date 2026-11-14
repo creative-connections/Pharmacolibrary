@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A04A_AntiemeticsAndAntinauseants;
-package A04AA04_Dolasetron
-  extends Icons.PackageDrugs;
-end A04AA04_Dolasetron;

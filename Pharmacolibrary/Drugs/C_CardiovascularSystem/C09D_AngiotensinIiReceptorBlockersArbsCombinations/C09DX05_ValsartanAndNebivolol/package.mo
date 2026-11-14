@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09D_AngiotensinIiReceptorBlockersArbsCombinations;
-package C09DX05_ValsartanAndNebivolol
-  extends Icons.PackageDrugs;
-end C09DX05_ValsartanAndNebivolol;

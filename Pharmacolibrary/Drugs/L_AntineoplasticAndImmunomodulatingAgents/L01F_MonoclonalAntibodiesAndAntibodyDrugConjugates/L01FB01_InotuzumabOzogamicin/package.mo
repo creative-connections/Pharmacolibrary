@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates;
-package L01FB01_InotuzumabOzogamicin
-  extends Icons.PackageDrugs;
-end L01FB01_InotuzumabOzogamicin;

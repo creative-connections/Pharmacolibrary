@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04C_DrugsUsedInBenignProstaticHypertrophy;
-package G04CA52_TamsulosinAndDutasteride
-  extends Icons.PackageDrugs;
-end G04CA52_TamsulosinAndDutasteride;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04B_DrugsForTreatmentOfLepra;
-package J04BA03_AldesulfoneSodium
-  extends Icons.PackageDrugs;
-end J04BA03_AldesulfoneSodium;

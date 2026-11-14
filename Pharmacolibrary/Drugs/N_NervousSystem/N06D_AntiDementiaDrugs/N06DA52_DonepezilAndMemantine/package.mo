@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N06D_AntiDementiaDrugs;
-package N06DA52_DonepezilAndMemantine
-  extends Icons.PackageDrugs;
-end N06DA52_DonepezilAndMemantine;

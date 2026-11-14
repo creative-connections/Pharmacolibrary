@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorant;
-package R05DA12_Acetyldihydrocodeine
-  extends Icons.PackageDrugs;
-end R05DA12_Acetyldihydrocodeine;

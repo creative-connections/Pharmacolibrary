@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse;
-package J02AC02_Itraconazole
-  extends Icons.PackageDrugs;
-end J02AC02_Itraconazole;

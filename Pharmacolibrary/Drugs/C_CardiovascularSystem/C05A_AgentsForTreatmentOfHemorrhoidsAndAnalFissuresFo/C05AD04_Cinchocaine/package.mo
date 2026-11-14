@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresFo;
-package C05AD04_Cinchocaine
-  extends Icons.PackageDrugs;
-end C05AD04_Cinchocaine;

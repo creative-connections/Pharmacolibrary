@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A08A_AntiobesityPreparationsExclDietProducts;
-package A08AB01_Orlistat
-  extends Icons.PackageDrugs;
-end A08AB01_Orlistat;

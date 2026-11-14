@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts;
-package L01CB02_Teniposide
-  extends Icons.PackageDrugs;
-end L01CB02_Teniposide;

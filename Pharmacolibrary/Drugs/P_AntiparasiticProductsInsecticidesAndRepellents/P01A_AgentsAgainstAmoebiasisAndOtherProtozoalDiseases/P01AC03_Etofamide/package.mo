@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01A_AgentsAgainstAmoebiasisAndOtherProtozoalDiseases;
-package P01AC03_Etofamide
-  extends Icons.PackageDrugs;
-end P01AC03_Etofamide;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07F_AntidiarrhealMicroorganisms;
-package A07FA03_EscherichiaColi
-  extends Icons.PackageDrugs;
-end A07FA03_EscherichiaColi;

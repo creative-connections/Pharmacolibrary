@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01C_AgentsAgainstLeishmaniasisAndTrypanosomiasis;
-package P01CA03_Fexinidazole
-  extends Icons.PackageDrugs;
-end P01CA03_Fexinidazole;

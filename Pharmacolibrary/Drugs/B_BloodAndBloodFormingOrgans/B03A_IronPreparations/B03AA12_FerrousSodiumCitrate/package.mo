@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B03A_IronPreparations;
-package B03AA12_FerrousSodiumCitrate
-  extends Icons.PackageDrugs;
-end B03AA12_FerrousSodiumCitrate;

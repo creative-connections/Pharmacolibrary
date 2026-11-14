@@ -1,0 +1,4 @@
+within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates;
+package L01FX33_Tarlatamab
+  extends Icons.PackageDrugs;
+end L01FX33_Tarlatamab;

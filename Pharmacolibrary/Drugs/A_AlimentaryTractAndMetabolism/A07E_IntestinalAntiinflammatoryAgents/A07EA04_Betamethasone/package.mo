@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07E_IntestinalAntiinflammatoryAgents;
-package A07EA04_Betamethasone
-  extends Icons.PackageDrugs;
-end A07EA04_Betamethasone;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts;
-package A16AA07_Metreleptin
-  extends Icons.PackageDrugs;
-end A16AA07_Metreleptin;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03D_Progestogens;
-package G03DA03_Hydroxyprogesterone
-  extends Icons.PackageDrugs;
-end G03DA03_Hydroxyprogesterone;

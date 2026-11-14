@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents;
-package L01AX03_Temozolomide
-  extends Icons.PackageDrugs;
-end L01AX03_Temozolomide;

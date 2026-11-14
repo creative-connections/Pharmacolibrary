@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various;
-package V09D_HepaticAndReticuloEndothelialSystem
-  extends Icons.PackageDrugs;
-end V09D_HepaticAndReticuloEndothelialSystem;

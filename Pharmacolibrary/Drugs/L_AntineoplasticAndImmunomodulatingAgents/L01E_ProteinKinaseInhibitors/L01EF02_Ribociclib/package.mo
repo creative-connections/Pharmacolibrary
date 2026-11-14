@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
-package L01EF02_Ribociclib
-  extends Icons.PackageDrugs;
-end L01EF02_Ribociclib;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents;
-package M03BX02_Tizanidine
-  extends Icons.PackageDrugs;
-end M03BX02_Tizanidine;

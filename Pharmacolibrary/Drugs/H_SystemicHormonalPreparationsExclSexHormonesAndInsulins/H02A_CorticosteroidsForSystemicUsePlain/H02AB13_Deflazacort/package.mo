@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02A_CorticosteroidsForSystemicUsePlain;
-package H02AB13_Deflazacort
-  extends Icons.PackageDrugs;
-end H02AB13_Deflazacort;

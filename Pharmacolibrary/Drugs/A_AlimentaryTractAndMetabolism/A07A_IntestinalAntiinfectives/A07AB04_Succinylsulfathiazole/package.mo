@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07A_IntestinalAntiinfectives;
-package A07AB04_Succinylsulfathiazole
-  extends Icons.PackageDrugs;
-end A07AB04_Succinylsulfathiazole;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01D_CytotoxicAntibioticsAndRelatedSubstances;
-package L01DC03_Mitomycin
-  extends Icons.PackageDrugs;
-end L01DC03_Mitomycin;

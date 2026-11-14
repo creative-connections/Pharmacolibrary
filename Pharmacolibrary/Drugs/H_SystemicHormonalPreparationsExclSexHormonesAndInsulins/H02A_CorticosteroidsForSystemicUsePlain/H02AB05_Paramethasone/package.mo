@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02A_CorticosteroidsForSystemicUsePlain;
-package H02AB05_Paramethasone
-  extends Icons.PackageDrugs;
-end H02AB05_Paramethasone;

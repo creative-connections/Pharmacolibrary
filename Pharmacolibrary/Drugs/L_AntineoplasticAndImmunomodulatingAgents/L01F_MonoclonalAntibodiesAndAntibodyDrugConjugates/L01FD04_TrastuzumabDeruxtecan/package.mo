@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates;
-package L01FD04_TrastuzumabDeruxtecan
-  extends Icons.PackageDrugs;
-end L01FD04_TrastuzumabDeruxtecan;

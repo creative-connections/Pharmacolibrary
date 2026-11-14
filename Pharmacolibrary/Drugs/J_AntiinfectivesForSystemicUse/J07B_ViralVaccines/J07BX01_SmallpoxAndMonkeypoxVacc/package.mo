@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines;
-package J07BX01_SmallpoxAndMonkeypoxVacc
-  extends Icons.PackageDrugs;
-end J07BX01_SmallpoxAndMonkeypoxVacc;

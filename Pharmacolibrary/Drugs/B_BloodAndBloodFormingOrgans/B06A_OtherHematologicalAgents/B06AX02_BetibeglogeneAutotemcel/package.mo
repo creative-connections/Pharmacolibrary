@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B06A_OtherHematologicalAgents;
-package B06AX02_BetibeglogeneAutotemcel
-  extends Icons.PackageDrugs;
-end B06AX02_BetibeglogeneAutotemcel;

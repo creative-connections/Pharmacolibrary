@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem;
-package M09AB03_Bromelains
-  extends Icons.PackageDrugs;
-end M09AB03_Bromelains;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents;
-package P03A_EctoparasiticidesInclScabicides
-  extends Icons.PackageDrugs;
-end P03A_EctoparasiticidesInclScabicides;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
-package L04AK01_Leflunomide
-  extends Icons.PackageDrugs;
-end L04AK01_Leflunomide;

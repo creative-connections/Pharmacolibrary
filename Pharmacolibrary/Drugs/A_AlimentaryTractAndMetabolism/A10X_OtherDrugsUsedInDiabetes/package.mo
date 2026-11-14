@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
-package A10X_OtherDrugsUsedInDiabetes
-  extends Icons.PackageDrugs;
-end A10X_OtherDrugsUsedInDiabetes;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders;
-package A03AB03_Oxyphenonium
-  extends Icons.PackageDrugs;
-end A03AB03_Oxyphenonium;

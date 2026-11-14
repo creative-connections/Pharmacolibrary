@@ -2,7 +2,7 @@ within Pharmacolibrary.Sources;
 model PeriodicDose_Enteral "periodic enteral (oral) dose model"
   extends PeriodicDose(firstAdminTime(displayUnit = "s"),
     redeclare Absorption.FirstOrderAbsorption route(F = F, ka = ka, Tlag = Tlag));
-  parameter Pharmacolibrary.Types.TransferRate ka(displayUnit = "1/min") = 1 "first order absorption rate";
+  parameter Pharmacolibrary.Types.TransferRate ka(displayUnit = "1/min") = 0.0016666666666667 "first order absorption rate";
   parameter Modelica.Units.SI.Time Tlag(displayUnit = "min") = 600 "time delay between administration and absorption (default 10 min)";
 
   annotation(

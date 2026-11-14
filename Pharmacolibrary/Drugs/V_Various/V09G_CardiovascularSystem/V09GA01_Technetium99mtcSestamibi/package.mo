@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V09G_CardiovascularSystem;
-package V09GA01_Technetium99mtcSestamibi
-  extends Icons.PackageDrugs;
-end V09GA01_Technetium99mtcSestamibi;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDis;
-package A02BA06_Roxatidine
-  extends Icons.PackageDrugs;
-end A02BA06_Roxatidine;

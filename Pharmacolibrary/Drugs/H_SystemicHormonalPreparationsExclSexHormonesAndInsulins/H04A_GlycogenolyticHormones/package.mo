@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins;
-package H04A_GlycogenolyticHormones
-  extends Icons.PackageDrugs;
-end H04A_GlycogenolyticHormones;

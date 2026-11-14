@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination;
-package C02LA09_SyrosingopineAndDiuretic
-  extends Icons.PackageDrugs;
-end C02LA09_SyrosingopineAndDiuretic;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03D_Progestogens;
-package G03DA02_Medroxyprogesterone
-  extends Icons.PackageDrugs;
-end G03DA02_Medroxyprogesterone;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J02A_AntimycoticsForSystemicUse;
-package J02AX05_Micafungin
-  extends Icons.PackageDrugs;
-end J02AX05_Micafungin;

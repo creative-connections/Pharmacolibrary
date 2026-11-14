@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
-package J05AR13_LamivudineAbacavirAndDolutegravi
-  extends Icons.PackageDrugs;
-end J05AR13_LamivudineAbacavirAndDolutegravi;

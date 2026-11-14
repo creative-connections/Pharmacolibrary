@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03B_LowCeilingDiureticsExclThiazides;
-package C03BA08_Metolazone
-  extends Icons.PackageDrugs;
-end C03BA08_Metolazone;

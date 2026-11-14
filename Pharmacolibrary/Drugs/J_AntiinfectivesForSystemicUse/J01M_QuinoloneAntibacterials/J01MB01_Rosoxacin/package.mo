@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01M_QuinoloneAntibacterials;
-package J01MB01_Rosoxacin
-  extends Icons.PackageDrugs;
-end J01MB01_Rosoxacin;

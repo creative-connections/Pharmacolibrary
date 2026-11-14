@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R03D_OtherSystemicDrugsForObstructiveAirwayDiseases;
-package R03DX11_Tezepelumab
-  extends Icons.PackageDrugs;
-end R03DX11_Tezepelumab;

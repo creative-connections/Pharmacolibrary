@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01F_MacrolidesLincosamidesAndStreptogramins;
-package J01FG01_Pristinamycin
-  extends Icons.PackageDrugs;
-end J01FG01_Pristinamycin;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics;
-package N02BA65_CarbasalateCalciumCombinationsEx
-  extends Icons.PackageDrugs;
-end N02BA65_CarbasalateCalciumCombinationsEx;

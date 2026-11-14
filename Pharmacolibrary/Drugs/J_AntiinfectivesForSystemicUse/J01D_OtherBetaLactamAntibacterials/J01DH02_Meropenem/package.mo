@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials;
-package J01DH02_Meropenem
-  extends Icons.PackageDrugs;
-end J01DH02_Meropenem;

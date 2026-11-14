@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis;
-package J04AA01_D_4AminosalicylicAcid
-  extends Icons.PackageDrugs;
-end J04AA01_D_4AminosalicylicAcid;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
-package L04AC05_Ustekinumab
-  extends Icons.PackageDrugs;
-end L04AC05_Ustekinumab;

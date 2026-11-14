@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDis;
-package A02BD14_VonoprazanAmoxicillinAnd
-  extends Icons.PackageDrugs;
-end A02BD14_VonoprazanAmoxicillinAnd;

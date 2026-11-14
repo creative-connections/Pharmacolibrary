@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V09E_RespiratorySystem;
-package V09EB02_Technetium99mtcMicrosphe
-  extends Icons.PackageDrugs;
-end V09EB02_Technetium99mtcMicrosphe;

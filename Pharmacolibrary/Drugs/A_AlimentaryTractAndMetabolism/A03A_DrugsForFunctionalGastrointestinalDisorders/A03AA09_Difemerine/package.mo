@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders;
-package A03AA09_Difemerine
-  extends Icons.PackageDrugs;
-end A03AA09_Difemerine;

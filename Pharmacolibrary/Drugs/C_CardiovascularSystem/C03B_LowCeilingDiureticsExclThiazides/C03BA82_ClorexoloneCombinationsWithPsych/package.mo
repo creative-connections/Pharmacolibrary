@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03B_LowCeilingDiureticsExclThiazides;
-package C03BA82_ClorexoloneCombinationsWithPsych
-  extends Icons.PackageDrugs;
-end C03BA82_ClorexoloneCombinationsWithPsych;

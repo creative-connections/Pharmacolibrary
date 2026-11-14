@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V09D_HepaticAndReticuloEndothelialSystem;
-package V09DA03_Technetium99mtcLidofenin
-  extends Icons.PackageDrugs;
-end V09DA03_Technetium99mtcLidofenin;

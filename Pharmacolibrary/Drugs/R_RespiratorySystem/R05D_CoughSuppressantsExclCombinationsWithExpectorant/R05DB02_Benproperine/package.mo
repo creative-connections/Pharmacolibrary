@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorant;
-package R05DB02_Benproperine
-  extends Icons.PackageDrugs;
-end R05DB02_Benproperine;

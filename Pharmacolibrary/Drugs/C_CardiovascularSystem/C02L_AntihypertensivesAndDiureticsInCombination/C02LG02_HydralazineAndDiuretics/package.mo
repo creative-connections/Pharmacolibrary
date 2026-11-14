@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination;
-package C02LG02_HydralazineAndDiuretics
-  extends Icons.PackageDrugs;
-end C02LG02_HydralazineAndDiuretics;

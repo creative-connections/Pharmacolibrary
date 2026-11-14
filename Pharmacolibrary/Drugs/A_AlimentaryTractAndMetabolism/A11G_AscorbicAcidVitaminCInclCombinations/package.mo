@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism;
-package A11G_AscorbicAcidVitaminCInclCombinations
-  extends Icons.PackageDrugs;
-end A11G_AscorbicAcidVitaminCInclCombinations;

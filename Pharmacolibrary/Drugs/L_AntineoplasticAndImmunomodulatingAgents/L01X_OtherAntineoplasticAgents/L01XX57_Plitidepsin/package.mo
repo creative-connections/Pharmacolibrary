@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
-package L01XX57_Plitidepsin
-  extends Icons.PackageDrugs;
-end L01XX57_Plitidepsin;

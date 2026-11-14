@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05A_ParathyroidHormonesAndAnalogues;
-package H05AA04_Abaloparatide
-  extends Icons.PackageDrugs;
-end H05AA04_Abaloparatide;

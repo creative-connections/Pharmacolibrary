@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
-package L01EN03_Infigratinib
-  extends Icons.PackageDrugs;
-end L01EN03_Infigratinib;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines;
-package J07BC02_HepatitisAInactivatedWho
-  extends Icons.PackageDrugs;
-end J07BC02_HepatitisAInactivatedWho;

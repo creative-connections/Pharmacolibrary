@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopical;
-package R01AD60_HydrocortisoneCombinatio
-  extends Icons.PackageDrugs;
-end R01AD60_HydrocortisoneCombinatio;

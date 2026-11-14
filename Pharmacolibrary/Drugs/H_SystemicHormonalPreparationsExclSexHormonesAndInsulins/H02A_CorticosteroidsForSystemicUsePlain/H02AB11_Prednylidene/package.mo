@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02A_CorticosteroidsForSystemicUsePlain;
-package H02AB11_Prednylidene
-  extends Icons.PackageDrugs;
-end H02AB11_Prednylidene;

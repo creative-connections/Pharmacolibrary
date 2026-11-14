@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02C_OtherGynecologicals;
-package G02CX06_Fezolinetant
-  extends Icons.PackageDrugs;
-end G02CX06_Fezolinetant;

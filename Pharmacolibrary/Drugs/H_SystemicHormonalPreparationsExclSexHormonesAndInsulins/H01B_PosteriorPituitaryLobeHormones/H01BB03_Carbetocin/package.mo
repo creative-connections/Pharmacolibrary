@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01B_PosteriorPituitaryLobeHormones;
-package H01BB03_Carbetocin
-  extends Icons.PackageDrugs;
-end H01BB03_Carbetocin;

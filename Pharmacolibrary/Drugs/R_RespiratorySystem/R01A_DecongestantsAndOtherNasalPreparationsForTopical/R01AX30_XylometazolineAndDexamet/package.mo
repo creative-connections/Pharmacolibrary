@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopical;
-package R01AX30_XylometazolineAndDexamet
-  extends Icons.PackageDrugs;
-end R01AX30_XylometazolineAndDexamet;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressant;
-package R05CB16_Mannitol
-  extends Icons.PackageDrugs;
-end R05CB16_Mannitol;

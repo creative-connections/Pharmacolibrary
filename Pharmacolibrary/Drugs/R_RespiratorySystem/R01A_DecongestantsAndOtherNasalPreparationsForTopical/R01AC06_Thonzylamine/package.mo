@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopical;
-package R01AC06_Thonzylamine
-  extends Icons.PackageDrugs;
-end R01AC06_Thonzylamine;

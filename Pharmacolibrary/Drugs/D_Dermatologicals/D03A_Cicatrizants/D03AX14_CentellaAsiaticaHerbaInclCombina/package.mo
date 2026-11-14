@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D03A_Cicatrizants;
-package D03AX14_CentellaAsiaticaHerbaInclCombina
-  extends Icons.PackageDrugs;
-end D03AX14_CentellaAsiaticaHerbaInclCombina;

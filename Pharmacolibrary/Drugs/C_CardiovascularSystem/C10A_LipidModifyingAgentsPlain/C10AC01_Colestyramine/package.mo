@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10A_LipidModifyingAgentsPlain;
-package C10AC01_Colestyramine
-  extends Icons.PackageDrugs;
-end C10AC01_Colestyramine;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10B_LipidModifyingAgentsCombinations;
-package C10BA01_LovastatinAndNicotinicAc
-  extends Icons.PackageDrugs;
-end C10BA01_LovastatinAndNicotinicAc;

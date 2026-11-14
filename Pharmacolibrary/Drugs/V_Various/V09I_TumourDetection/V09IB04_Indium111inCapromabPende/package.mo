@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V09I_TumourDetection;
-package V09IB04_Indium111inCapromabPende
-  extends Icons.PackageDrugs;
-end V09IB04_Indium111inCapromabPende;

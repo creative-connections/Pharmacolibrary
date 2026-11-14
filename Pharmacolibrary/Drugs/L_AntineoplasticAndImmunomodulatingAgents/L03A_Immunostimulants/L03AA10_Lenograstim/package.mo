@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants;
-package L03AA10_Lenograstim
-  extends Icons.PackageDrugs;
-end L03AA10_Lenograstim;

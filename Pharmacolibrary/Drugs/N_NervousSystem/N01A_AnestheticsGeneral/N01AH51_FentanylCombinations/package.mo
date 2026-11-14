@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N01A_AnestheticsGeneral;
-package N01AH51_FentanylCombinations
-  extends Icons.PackageDrugs;
-end N01AH51_FentanylCombinations;

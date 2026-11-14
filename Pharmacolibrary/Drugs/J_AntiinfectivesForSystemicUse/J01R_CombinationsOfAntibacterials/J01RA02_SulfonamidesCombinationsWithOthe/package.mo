@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01R_CombinationsOfAntibacterials;
-package J01RA02_SulfonamidesCombinationsWithOthe
-  extends Icons.PackageDrugs;
-end J01RA02_SulfonamidesCombinationsWithOthe;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07E_IntestinalAntiinflammatoryAgents;
-package A07EC03_Olsalazine
-  extends Icons.PackageDrugs;
-end A07EC03_Olsalazine;

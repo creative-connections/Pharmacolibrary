@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01M_QuinoloneAntibacterials;
-package J01MA08_Fleroxacin
-  extends Icons.PackageDrugs;
-end J01MA08_Fleroxacin;

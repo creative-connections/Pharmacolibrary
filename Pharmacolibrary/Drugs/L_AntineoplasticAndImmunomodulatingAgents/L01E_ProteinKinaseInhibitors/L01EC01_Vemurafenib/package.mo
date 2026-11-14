@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
-package L01EC01_Vemurafenib
-  extends Icons.PackageDrugs;
-end L01EC01_Vemurafenib;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03A_MuscleRelaxantsPeripherallyActingAgents;
-package M03AC07_DoxacuriumChloride
-  extends Icons.PackageDrugs;
-end M03AC07_DoxacuriumChloride;

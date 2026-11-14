@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C04A_PeripheralVasodilators;
-package C04AE51_ErgoloidMesylatesCombina
-  extends Icons.PackageDrugs;
-end C04AE51_ErgoloidMesylatesCombina;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
-package L01XL01_SitimageneCeradenovec
-  extends Icons.PackageDrugs;
-end L01XL01_SitimageneCeradenovec;

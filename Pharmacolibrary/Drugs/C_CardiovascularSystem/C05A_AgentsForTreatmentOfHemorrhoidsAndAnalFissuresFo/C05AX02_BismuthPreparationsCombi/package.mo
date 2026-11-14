@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresFo;
-package C05AX02_BismuthPreparationsCombi
-  extends Icons.PackageDrugs;
-end C05AX02_BismuthPreparationsCombi;

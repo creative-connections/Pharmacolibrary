@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopical;
-package R01AA04_Phenylephrine
-  extends Icons.PackageDrugs;
-end R01AA04_Phenylephrine;

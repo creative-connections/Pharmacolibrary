@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R03B_OtherDrugsForObstructiveAirwayDiseasesInhalants;
-package R03BA05_Fluticasone
-  extends Icons.PackageDrugs;
-end R03BA05_Fluticasone;

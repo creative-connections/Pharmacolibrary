@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates;
-package L01FX09_Mogamulizumab
-  extends Icons.PackageDrugs;
-end L01FX09_Mogamulizumab;

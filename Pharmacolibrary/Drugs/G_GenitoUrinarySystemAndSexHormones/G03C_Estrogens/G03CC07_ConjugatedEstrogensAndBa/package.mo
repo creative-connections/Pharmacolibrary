@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03C_Estrogens;
-package G03CC07_ConjugatedEstrogensAndBa
-  extends Icons.PackageDrugs;
-end G03CC07_ConjugatedEstrogensAndBa;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V09A_CentralNervousSystem;
-package V09AX01_Indium111inPenteticAcid
-  extends Icons.PackageDrugs;
-end V09AX01_Indium111inPenteticAcid;

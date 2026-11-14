@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents;
-package M03BX09_Eperisone
-  extends Icons.PackageDrugs;
-end M03BX09_Eperisone;

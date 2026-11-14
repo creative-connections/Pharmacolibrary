@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N06B_PsychostimulantsAgentsUsedForAdhdAndNootropics;
-package N06BA02_Dexamfetamine
-  extends Icons.PackageDrugs;
-end N06BA02_Dexamfetamine;

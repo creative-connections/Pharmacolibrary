@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R05C_ExpectorantsExclCombinationsWithCoughSuppressant;
-package R05CA11_Levoverbenone
-  extends Icons.PackageDrugs;
-end R05CA11_Levoverbenone;

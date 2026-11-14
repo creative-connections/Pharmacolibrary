@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants;
-package R03AK11_FormoterolAndFluticasone
-  extends Icons.PackageDrugs;
-end R03AK11_FormoterolAndFluticasone;

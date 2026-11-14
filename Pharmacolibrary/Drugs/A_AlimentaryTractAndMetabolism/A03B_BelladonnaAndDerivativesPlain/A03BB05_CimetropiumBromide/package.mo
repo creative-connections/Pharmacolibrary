@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03B_BelladonnaAndDerivativesPlain;
-package A03BB05_CimetropiumBromide
-  extends Icons.PackageDrugs;
-end A03BB05_CimetropiumBromide;

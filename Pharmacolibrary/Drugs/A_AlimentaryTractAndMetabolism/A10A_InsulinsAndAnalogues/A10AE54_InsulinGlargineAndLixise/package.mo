@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10A_InsulinsAndAnalogues;
-package A10AE54_InsulinGlargineAndLixise
-  extends Icons.PackageDrugs;
-end A10AE54_InsulinGlargineAndLixise;

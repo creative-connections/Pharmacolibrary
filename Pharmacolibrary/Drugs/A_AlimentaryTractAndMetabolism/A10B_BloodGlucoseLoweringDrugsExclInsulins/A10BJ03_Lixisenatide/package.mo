@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A10B_BloodGlucoseLoweringDrugsExclInsulins;
-package A10BJ03_Lixisenatide
-  extends Icons.PackageDrugs;
-end A10BJ03_Lixisenatide;

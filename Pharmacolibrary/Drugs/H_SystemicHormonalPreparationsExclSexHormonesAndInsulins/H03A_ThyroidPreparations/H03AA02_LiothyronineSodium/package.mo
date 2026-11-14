@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03A_ThyroidPreparations;
-package H03AA02_LiothyronineSodium
-  extends Icons.PackageDrugs;
-end H03AA02_LiothyronineSodium;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
-package L04AC17_Tildrakizumab
-  extends Icons.PackageDrugs;
-end L04AC17_Tildrakizumab;

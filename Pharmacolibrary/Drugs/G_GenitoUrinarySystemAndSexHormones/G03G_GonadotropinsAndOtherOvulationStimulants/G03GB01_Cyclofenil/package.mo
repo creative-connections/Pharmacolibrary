@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03G_GonadotropinsAndOtherOvulationStimulants;
-package G03GB01_Cyclofenil
-  extends Icons.PackageDrugs;
-end G03GB01_Cyclofenil;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R03A_AdrenergicsInhalants;
-package R03AL07_FormoterolAndGlycopyrron
-  extends Icons.PackageDrugs;
-end R03AL07_FormoterolAndGlycopyrron;

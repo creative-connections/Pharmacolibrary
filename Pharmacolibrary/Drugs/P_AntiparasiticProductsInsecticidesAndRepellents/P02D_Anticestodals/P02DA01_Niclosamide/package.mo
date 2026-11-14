@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02D_Anticestodals;
-package P02DA01_Niclosamide
-  extends Icons.PackageDrugs;
-end P02DA01_Niclosamide;

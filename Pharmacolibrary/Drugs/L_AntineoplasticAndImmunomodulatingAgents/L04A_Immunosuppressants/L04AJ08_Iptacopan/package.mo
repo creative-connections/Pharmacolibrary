@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
-package L04AJ08_Iptacopan
-  extends Icons.PackageDrugs;
-end L04AJ08_Iptacopan;

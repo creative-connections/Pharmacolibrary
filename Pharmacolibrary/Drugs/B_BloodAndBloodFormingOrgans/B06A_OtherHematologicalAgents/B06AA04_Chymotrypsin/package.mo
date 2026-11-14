@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B06A_OtherHematologicalAgents;
-package B06AA04_Chymotrypsin
-  extends Icons.PackageDrugs;
-end B06AA04_Chymotrypsin;

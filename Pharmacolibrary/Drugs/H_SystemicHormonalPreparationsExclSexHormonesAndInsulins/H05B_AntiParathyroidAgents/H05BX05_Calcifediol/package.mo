@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05B_AntiParathyroidAgents;
-package H05BX05_Calcifediol
-  extends Icons.PackageDrugs;
-end H05BX05_Calcifediol;

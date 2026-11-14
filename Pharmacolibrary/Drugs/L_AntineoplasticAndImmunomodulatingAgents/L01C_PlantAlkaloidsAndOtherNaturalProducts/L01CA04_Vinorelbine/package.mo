@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01C_PlantAlkaloidsAndOtherNaturalProducts;
-package L01CA04_Vinorelbine
-  extends Icons.PackageDrugs;
-end L01CA04_Vinorelbine;

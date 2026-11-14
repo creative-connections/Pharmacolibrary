@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases;
-package C01DX08_Heptaminol
-  extends Icons.PackageDrugs;
-end C01DX08_Heptaminol;

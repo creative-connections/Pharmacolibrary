@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials;
-package P01BF04_ArtesunateSulfaleneAndPy
-  extends Icons.PackageDrugs;
-end P01BF04_ArtesunateSulfaleneAndPy;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07X_OtherAntidiarrheals;
-package A07XA51_AlbuminTannateCombinatio
-  extends Icons.PackageDrugs;
-end A07XA51_AlbuminTannateCombinatio;

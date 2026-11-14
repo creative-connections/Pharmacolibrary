@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents;
-package L01AD07_Ranimustine
-  extends Icons.PackageDrugs;
-end L01AD07_Ranimustine;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11H_OtherPlainVitaminPreparations;
-package A11HA32_Pantethine
-  extends Icons.PackageDrugs;
-end A11HA32_Pantethine;

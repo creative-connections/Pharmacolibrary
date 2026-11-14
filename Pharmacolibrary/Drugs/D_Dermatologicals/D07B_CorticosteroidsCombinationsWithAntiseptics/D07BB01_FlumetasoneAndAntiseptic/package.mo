@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D07B_CorticosteroidsCombinationsWithAntiseptics;
-package D07BB01_FlumetasoneAndAntiseptic
-  extends Icons.PackageDrugs;
-end D07BB01_FlumetasoneAndAntiseptic;

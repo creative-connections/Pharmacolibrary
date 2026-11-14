@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
-package J05AJ03_Dolutegravir
-  extends Icons.PackageDrugs;
-end J05AJ03_Dolutegravir;

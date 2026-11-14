@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
-package L01XH02_Romidepsin
-  extends Icons.PackageDrugs;
-end L01XH02_Romidepsin;

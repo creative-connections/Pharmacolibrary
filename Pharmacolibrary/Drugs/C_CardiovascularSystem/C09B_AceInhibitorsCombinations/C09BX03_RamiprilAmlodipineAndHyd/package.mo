@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09B_AceInhibitorsCombinations;
-package C09BX03_RamiprilAmlodipineAndHyd
-  extends Icons.PackageDrugs;
-end C09BX03_RamiprilAmlodipineAndHyd;

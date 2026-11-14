@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.S_SensoryOrgans.S01E_AntiglaucomaPreparationsAndMiotics;
-package S01EB09_Acetylcholine
-  extends Icons.PackageDrugs;
-end S01EB09_Acetylcholine;

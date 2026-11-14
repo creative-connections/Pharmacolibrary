@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates;
-package L01FE03_Necitumumab
-  extends Icons.PackageDrugs;
-end L01FE03_Necitumumab;

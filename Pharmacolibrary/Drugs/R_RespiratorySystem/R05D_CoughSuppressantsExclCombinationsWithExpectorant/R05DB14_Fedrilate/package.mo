@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorant;
-package R05DB14_Fedrilate
-  extends Icons.PackageDrugs;
-end R05DB14_Fedrilate;

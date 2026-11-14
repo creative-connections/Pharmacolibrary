@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03C_Estrogens;
-package G03CA53_EstradiolCombinations
-  extends Icons.PackageDrugs;
-end G03CA53_EstradiolCombinations;

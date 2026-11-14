@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02A_HormonesAndRelatedAgents;
-package L02AE01_Buserelin
-  extends Icons.PackageDrugs;
-end L02AE01_Buserelin;

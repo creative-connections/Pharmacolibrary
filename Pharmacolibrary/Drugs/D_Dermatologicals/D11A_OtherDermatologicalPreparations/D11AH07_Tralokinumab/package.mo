@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations;
-package D11AH07_Tralokinumab
-  extends Icons.PackageDrugs;
-end D11AH07_Tralokinumab;

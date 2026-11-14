@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01C_HypothalamicHormones;
-package H01CC54_RelugolixEstradiolAndNor
-  extends Icons.PackageDrugs;
-end H01CC54_RelugolixEstradiolAndNor;

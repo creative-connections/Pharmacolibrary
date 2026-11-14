@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
-package J05AP57_GlecaprevirAndPibrentasv
-  extends Icons.PackageDrugs;
-end J05AP57_GlecaprevirAndPibrentasv;

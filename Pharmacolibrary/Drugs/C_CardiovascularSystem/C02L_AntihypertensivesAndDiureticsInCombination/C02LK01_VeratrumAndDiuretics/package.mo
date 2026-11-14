@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02L_AntihypertensivesAndDiureticsInCombination;
-package C02LK01_VeratrumAndDiuretics
-  extends Icons.PackageDrugs;
-end C02LK01_VeratrumAndDiuretics;

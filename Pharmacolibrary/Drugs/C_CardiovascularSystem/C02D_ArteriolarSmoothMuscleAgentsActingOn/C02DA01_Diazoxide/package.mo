@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C02D_ArteriolarSmoothMuscleAgentsActingOn;
-package C02DA01_Diazoxide
-  extends Icons.PackageDrugs;
-end C02DA01_Diazoxide;

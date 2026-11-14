@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
-package L01XD01_PorfimerSodium
-  extends Icons.PackageDrugs;
-end L01XD01_PorfimerSodium;

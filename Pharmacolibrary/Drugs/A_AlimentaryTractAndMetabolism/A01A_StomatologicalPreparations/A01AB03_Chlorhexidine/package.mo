@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations;
-package A01AB03_Chlorhexidine
-  extends Icons.PackageDrugs;
-end A01AB03_Chlorhexidine;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H03A_ThyroidPreparations;
-package H03AA04_Tiratricol
-  extends Icons.PackageDrugs;
-end H03AA04_Tiratricol;

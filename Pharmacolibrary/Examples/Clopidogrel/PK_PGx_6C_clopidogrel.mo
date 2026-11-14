@@ -2,7 +2,7 @@ within Pharmacolibrary.Examples.Clopidogrel;
 
 model PK_PGx_6C_clopidogrel "clopidogrel PK by CYP2C19 metaboliser phenotype (Jung et al. 2024)"
   import PGx = Pharmacolibrary.Pharmacogenomics.PGx;
-  parameter PGx.MetabolizerStatus metabolizer = Pharmacolibrary.Pharmacogenomics.PGx.MetabolizerStatus.Poor
+  parameter PGx.MetabolizerStatus metabolizer = Pharmacolibrary.Pharmacogenomics.PGx.MetabolizerStatus.Normal
     "CYP2C19 phenotype: Normal = the paper's EM, Intermediate = IM, Poor = PM"
     annotation(Dialog(group = "Pharmacogenomics"), Evaluate = false);
   parameter Real fm1_EM = 0.125 "Jung 2024 Table 2 typical value — the EM reference";

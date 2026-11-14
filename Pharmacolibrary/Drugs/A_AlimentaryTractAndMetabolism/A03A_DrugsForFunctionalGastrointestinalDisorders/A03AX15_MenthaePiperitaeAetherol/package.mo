@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders;
-package A03AX15_MenthaePiperitaeAetherol
-  extends Icons.PackageDrugs;
-end A03AX15_MenthaePiperitaeAetherol;

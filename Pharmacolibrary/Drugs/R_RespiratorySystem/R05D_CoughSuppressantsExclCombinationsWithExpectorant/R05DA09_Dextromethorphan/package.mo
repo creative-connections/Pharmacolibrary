@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorant;
-package R05DA09_Dextromethorphan
-  extends Icons.PackageDrugs;
-end R05DA09_Dextromethorphan;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N06C_PsycholepticsAndPsychoanalepticsInCombination;
-package N06CA02_MelitracenAndPsycholepti
-  extends Icons.PackageDrugs;
-end N06CA02_MelitracenAndPsycholepti;

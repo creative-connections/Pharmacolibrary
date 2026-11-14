@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M02A_TopicalProductsForJointAndMuscularPain;
-package M02AX02_Tolazoline
-  extends Icons.PackageDrugs;
-end M02AX02_Tolazoline;

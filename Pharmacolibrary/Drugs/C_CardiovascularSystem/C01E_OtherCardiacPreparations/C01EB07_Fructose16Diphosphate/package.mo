@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01E_OtherCardiacPreparations;
-package C01EB07_Fructose16Diphosphate
-  extends Icons.PackageDrugs;
-end C01EB07_Fructose16Diphosphate;

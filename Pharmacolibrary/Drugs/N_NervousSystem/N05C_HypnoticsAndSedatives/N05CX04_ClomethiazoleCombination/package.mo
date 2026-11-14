@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N05C_HypnoticsAndSedatives;
-package N05CX04_ClomethiazoleCombination
-  extends Icons.PackageDrugs;
-end N05CX04_ClomethiazoleCombination;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D07X_CorticosteroidsOtherCombinations;
-package D07XA01_Hydrocortisone
-  extends Icons.PackageDrugs;
-end D07XA01_Hydrocortisone;

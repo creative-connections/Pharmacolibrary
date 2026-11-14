@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R01B_NasalDecongestantsForSystemicUse;
-package R01BA01_Phenylpropanolamine
-  extends Icons.PackageDrugs;
-end R01BA01_Phenylpropanolamine;

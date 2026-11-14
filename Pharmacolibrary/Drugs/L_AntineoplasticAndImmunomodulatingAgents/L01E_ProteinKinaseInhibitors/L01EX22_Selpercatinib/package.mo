@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
-package L01EX22_Selpercatinib
-  extends Icons.PackageDrugs;
-end L01EX22_Selpercatinib;

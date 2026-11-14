@@ -1,6 +1,7 @@
 within Pharmacolibrary.Examples;
 
 model ExplanationComponents2
+  parameter Pharmacolibrary.Types.VolumeFlowRate CL(displayUnit = "l/min") = 1e-5 "clearance";
   Pharmacokinetic.ClearanceDrivenElimination elimination(CL = CL) annotation(
     Placement(transformation(origin = {-46, 16}, extent = {{-18, -18}, {18, 18}})));
 equation

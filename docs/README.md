@@ -61,7 +61,7 @@ The following acausal connectors are available and reused in library:
 </tr>
 <tr>
 <td valign="top"><p>Drugs</p></td>
-<td valign="middle"><p><a href="Pharmacolibrary/Pharmacolibrary.Drugs">Drugs</a></p><p>Drugs library contains selected PK, PD, PG models organized by ATC index using 1'st level fourteen main anatomical/pharmacological groups and 2nd level pharmacological or therapeutic groups. Subsequent groups are not used and direct ATC code with drug name as package contains various basic or advanced models.</p></td>
+<td valign="middle"><p><a href="Pharmacolibrary/Pharmacolibrary.Drugs">Drugs</a></p><p>Drugs library contains PK, PD, PG models extracted from papers, organized by ATC index using 1'st level fourteen main anatomical/pharmacological groups and 2nd level pharmacological or therapeutic groups. Subsequent groups are not used and direct ATC code with drug name as package contains various basic or advanced models.</p></td>
 </tr>
 
 </tbody></table>

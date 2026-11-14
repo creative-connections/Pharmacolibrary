@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
-package L01EL04_Orelabrutinib
-  extends Icons.PackageDrugs;
-end L01EL04_Orelabrutinib;

@@ -1,38 +1,5 @@
 within Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AX16_Eflornithine;
-
-model Eflornithine
-  extends Pharmacolibrary.Drugs.ATC.D.D11AX16
-  // parameters inherited from base class, duplicate, uncomment and change if necesarry
-  /*
-  
-    weight         = 70,
-    F              = 1,
-    Cl             = 1.5944444444444445e-06,
-    adminDuration  = 600,
-    adminMass      = 400 / 1000000,
-    adminCount     = 1,
-    Vd             = 0.00032,
-    Cmin           = 0.001,
-    Cmax           = 0.01,
-    Ctox_peak      = 0.02,
-    Ctox_trough    = 0.01,            
-    Vdp             = 0.00017999999999999998,
-    k12             = 2.5666666666666666e-07,
-    k21             = 2.5666666666666666e-07
-      
-  */
-  ;
-
-  annotation (Documentation(
-    info       = "<html><body><table><tr><td>name:</td><td>Eflornithine</td></tr><tr><td>ATC code:</td><td>D11AX16</td></tr><td>route:</td><td>intravenous</td></tr>
-    <tr><td>compartments:</td><td>2</td></tr>
-    <tr><td>dosage:</td><td>400</td><td>mg</td></tr>
-    <tr><td>volume of distribution:</td><td>0.32</td><td>L</td></tr>
-    <tr><td>clearance:</td><td>82</td><td>mL/h/kg</td></tr>
-    <tr><td colspan='3'>other parameters in model implementation</td></tr>
-    </table><p>Eflornithine is an irreversible inhibitor of ornithine decarboxylase, originally developed and approved for the treatment of West African trypanosomiasis (sleeping sickness) caused by Trypanosoma brucei gambiense. It is also used topically to slow facial hair growth in women (in cream formulations). The intravenous form is on the WHO List of Essential Medicines, but its use is primarily in specific infectious diseases rather than general clinical practice.</p><h4>Pharmacokinetics</h4><p>Pharmacokinetic parameters reported for adult patients with African trypanosomiasis following intravenous administration.</p><h4>References</h4><ol><li><p>Amilon, C, et al., &amp; Jansson-Löfmark, R (2022). Population Pharmacodynamic Modeling of Eflornithine-Based Treatments Against Late-Stage Gambiense Human African Trypanosomiasis and Efficacy Predictions of L-eflornithine-Based Therapy. <i>The AAPS journal</i> 24(3) 48–None. DOI:<a href=\"https://doi.org/10.1208/s12248-022-00693-2\">10.1208/s12248-022-00693-2</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/35338410/\">https://pubmed.ncbi.nlm.nih.gov/35338410</a></p></li><li><p>Johansson, CC, et al., &amp; Jansson-Löfmark, R (2013). Population pharmacokinetic modeling and deconvolution of enantioselective absorption of eflornithine in the rat. <i>Journal of pharmacokinetics and pharmacodynamics</i> 40(1) 117–128. DOI:<a href=\"https://doi.org/10.1007/s10928-012-9293-x\">10.1007/s10928-012-9293-x</a>  PUBMED:<a href=\"https://pubmed.ncbi.nlm.nih.gov/23307171/\">https://pubmed.ncbi.nlm.nih.gov/23307171</a></p></li></ol></body></html>",
-    revisions  = "<html><body><ul><li>06/2025 Tomas Kulhanek, generated model from data extracted from PUBMED, DrugBank and LLM(GPT4.1)</li></ul></body></html>",
-    experiment (StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1)
-  ));
-    
+model Eflornithine "Eflornithine — default model: Eflornithine_Jansson2008_value_for_d_eflornithine"
+  extends Eflornithine_Jansson2008_value_for_d_eflornithine;
+  annotation (Documentation(info = "<html><body><p>The default model of eflornithine: <a href=\"modelica://Pharmacolibrary.Drugs.D_Dermatologicals.D11A_OtherDermatologicalPreparations.D11AX16_Eflornithine.Eflornithine_Jansson2008_value_for_d_eflornithine\">Eflornithine_Jansson2008_value_for_d_eflornithine</a>, chosen among the models extracted from papers (reviewer verdict, ground-truth agreement, completeness). All models of eflornithine in this package:</p><ul><li><code>Eflornithine_Jansson2008_d_eflornithine_estimate_rse</code></li><li><code>Eflornithine_Jansson2008_l_eflornithine_estimate_rse</code></li><li><code>Eflornithine_Jansson2008_value_for_d_eflornithine</code></li><li><code>Eflornithine_Jansson2008_value_for_l_eflornithine</code></li><li><code>Eflornithine_Jansson2008_value_for_r_eflornithine_estimate_r</code></li></ul><h4>About eflornithine</h4><p>Eflornithine is used to treat excessive facial hair growth in women (hirsutism) and, in combination therapy, the childhood cancer neuroblastoma; it has also been used against sleeping sickness. It remains authorised in the European Union for these uses, with a topical dermatological product for hirsutism and an oncology product for neuroblastoma, though some applications have been withdrawn.</p><p><small>Summary written by glm-5.3-flash from <a href=\"https://www.wikidata.org/wiki/Q72470623\">Wikidata Q72470623</a> and the WHO ATC classification and the EMA medicines list; not checked by a person.</small></p><p>Identity, molar mass and metabolites: <a href=\"modelica://Pharmacolibrary.Drugs.Substances.Eflornithine\">Eflornithine</a>.</p></body></html>", revisions = "<html><body><ul><li>11/2026 generated by pharmacolibrary-dev export.pharmacolibrary_models from default: parameters extracted from the paper by the pharmacolibrary-dev pipeline, model built by its engineer, reviewed: default</li></ul></body></html>"), experiment(StartTime = 0, StopTime = 86400, Tolerance = 1e-9, Interval = 1));
 end Eflornithine;

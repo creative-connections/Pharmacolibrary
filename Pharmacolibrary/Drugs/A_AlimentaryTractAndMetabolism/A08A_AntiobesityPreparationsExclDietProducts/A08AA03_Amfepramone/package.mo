@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A08A_AntiobesityPreparationsExclDietProducts;
-package A08AA03_Amfepramone
-  extends Icons.PackageDrugs;
-end A08AA03_Amfepramone;

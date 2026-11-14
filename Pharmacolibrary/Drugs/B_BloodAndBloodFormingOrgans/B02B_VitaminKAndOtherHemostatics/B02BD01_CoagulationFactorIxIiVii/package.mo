@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B02B_VitaminKAndOtherHemostatics;
-package B02BD01_CoagulationFactorIxIiVii
-  extends Icons.PackageDrugs;
-end B02BD01_CoagulationFactorIxIiVii;

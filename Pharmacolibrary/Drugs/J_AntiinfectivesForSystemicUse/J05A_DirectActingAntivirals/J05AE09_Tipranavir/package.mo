@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
-package J05AE09_Tipranavir
-  extends Icons.PackageDrugs;
-end J05AE09_Tipranavir;

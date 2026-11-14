@@ -1,12 +1,11 @@
 within Pharmacolibrary.Examples;
-
 model PKOneCompartmentModelPeriodic
   extends Modelica.Icons.Example;
   Pharmacokinetic.NoPerfusedTissueCompartment central(V = 0.0175)  annotation(
     Placement(transformation(origin = {-12, -8}, extent = {{-10, -10}, {10, 10}})));
   Pharmacokinetic.ClearanceDrivenElimination elim(CL = 1.6666666666666667e-6)  annotation(
     Placement(transformation(origin = {18, -8}, extent = {{-10, -10}, {10, 10}})));
-  Sources.PeriodicDose periodicDose annotation(
+  Sources.PeriodicDose_Enteral periodicDose annotation(
     Placement(transformation(origin = {-12, 26}, extent = {{-10, -10}, {10, 10}})));
 equation
   connect(central.cport, elim.cport) annotation(

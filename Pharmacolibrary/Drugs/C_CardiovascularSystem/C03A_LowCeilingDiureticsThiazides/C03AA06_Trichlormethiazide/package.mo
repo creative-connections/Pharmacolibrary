@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03A_LowCeilingDiureticsThiazides;
-package C03AA06_Trichlormethiazide
-  extends Icons.PackageDrugs;
-end C03AA06_Trichlormethiazide;

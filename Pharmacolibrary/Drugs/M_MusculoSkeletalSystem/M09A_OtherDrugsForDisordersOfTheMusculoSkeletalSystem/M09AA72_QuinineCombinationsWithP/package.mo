@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M09A_OtherDrugsForDisordersOfTheMusculoSkeletalSystem;
-package M09AA72_QuinineCombinationsWithP
-  extends Icons.PackageDrugs;
-end M09AA72_QuinineCombinationsWithP;

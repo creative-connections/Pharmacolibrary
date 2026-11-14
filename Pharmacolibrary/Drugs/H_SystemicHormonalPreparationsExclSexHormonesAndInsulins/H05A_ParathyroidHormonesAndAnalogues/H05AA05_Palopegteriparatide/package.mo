@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05A_ParathyroidHormonesAndAnalogues;
-package H05AA05_Palopegteriparatide
-  extends Icons.PackageDrugs;
-end H05AA05_Palopegteriparatide;

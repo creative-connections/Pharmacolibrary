@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials;
-package P01BF06_ArtesunateAndPyronaridin
-  extends Icons.PackageDrugs;
-end P01BF06_ArtesunateAndPyronaridin;

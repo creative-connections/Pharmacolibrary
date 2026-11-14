@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A05A_BileTherapy;
-package A05AX04_MaralixibatChloride
-  extends Icons.PackageDrugs;
-end A05AX04_MaralixibatChloride;

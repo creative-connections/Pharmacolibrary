@@ -27,3 +27,5 @@ FlowPort_la
 FlowPort_lb
 PartialLymphTwoPort
 PartialLymphConcThrough
+PartialSubstance
+PartialMetabolite

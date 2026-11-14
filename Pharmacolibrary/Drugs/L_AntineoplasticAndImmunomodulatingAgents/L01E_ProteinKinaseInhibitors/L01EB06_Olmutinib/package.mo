@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
-package L01EB06_Olmutinib
-  extends Icons.PackageDrugs;
-end L01EB06_Olmutinib;

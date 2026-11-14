@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H02C_AntiadrenalPreparations;
-package H02CA03_Ketoconazole
-  extends Icons.PackageDrugs;
-end H02CA03_Ketoconazole;

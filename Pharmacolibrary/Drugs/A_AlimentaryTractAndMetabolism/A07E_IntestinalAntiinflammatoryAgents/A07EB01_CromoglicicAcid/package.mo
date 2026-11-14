@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07E_IntestinalAntiinflammatoryAgents;
-package A07EB01_CromoglicicAcid
-  extends Icons.PackageDrugs;
-end A07EB01_CromoglicicAcid;

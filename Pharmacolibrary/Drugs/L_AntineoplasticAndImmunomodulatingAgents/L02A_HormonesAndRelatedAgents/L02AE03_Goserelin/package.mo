@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02A_HormonesAndRelatedAgents;
-package L02AE03_Goserelin
-  extends Icons.PackageDrugs;
-end L02AE03_Goserelin;

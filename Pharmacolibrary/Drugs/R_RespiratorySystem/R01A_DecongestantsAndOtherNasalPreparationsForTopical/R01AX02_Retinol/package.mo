@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopical;
-package R01AX02_Retinol
-  extends Icons.PackageDrugs;
-end R01AX02_Retinol;

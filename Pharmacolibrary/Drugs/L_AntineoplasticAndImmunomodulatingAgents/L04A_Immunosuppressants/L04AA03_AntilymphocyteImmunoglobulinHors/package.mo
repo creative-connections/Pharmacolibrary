@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
-package L04AA03_AntilymphocyteImmunoglobulinHors
-  extends Icons.PackageDrugs;
-end L04AA03_AntilymphocyteImmunoglobulinHors;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials;
-package J01DH52_MeropenemAndVaborbactam
-  extends Icons.PackageDrugs;
-end J01DH52_MeropenemAndVaborbactam;

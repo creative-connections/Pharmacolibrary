@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P01B_Antimalarials;
-package P01BE02_Artemether
-  extends Icons.PackageDrugs;
-end P01BE02_Artemether;

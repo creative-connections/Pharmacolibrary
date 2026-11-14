@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P03A_EctoparasiticidesInclScabicides;
-package P03AC02_Bioallethrin
-  extends Icons.PackageDrugs;
-end P03AC02_Bioallethrin;

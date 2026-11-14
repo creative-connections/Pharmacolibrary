@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines;
-package J07AJ02_PertussisPurifiedAntigen
-  extends Icons.PackageDrugs;
-end J07AJ02_PertussisPurifiedAntigen;

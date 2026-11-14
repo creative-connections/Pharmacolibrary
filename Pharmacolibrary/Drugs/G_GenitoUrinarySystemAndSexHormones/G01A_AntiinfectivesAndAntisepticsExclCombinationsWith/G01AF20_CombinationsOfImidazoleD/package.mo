@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G01A_AntiinfectivesAndAntisepticsExclCombinationsWith;
-package G01AF20_CombinationsOfImidazoleD
-  extends Icons.PackageDrugs;
-end G01AF20_CombinationsOfImidazoleD;

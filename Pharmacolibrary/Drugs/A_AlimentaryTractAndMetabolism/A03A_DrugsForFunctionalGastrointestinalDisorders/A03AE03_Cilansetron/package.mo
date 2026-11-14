@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders;
-package A03AE03_Cilansetron
-  extends Icons.PackageDrugs;
-end A03AE03_Cilansetron;

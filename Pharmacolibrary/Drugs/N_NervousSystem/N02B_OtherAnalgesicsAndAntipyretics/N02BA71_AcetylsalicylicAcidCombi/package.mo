@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.N_NervousSystem.N02B_OtherAnalgesicsAndAntipyretics;
-package N02BA71_AcetylsalicylicAcidCombi
-  extends Icons.PackageDrugs;
-end N02BA71_AcetylsalicylicAcidCombi;

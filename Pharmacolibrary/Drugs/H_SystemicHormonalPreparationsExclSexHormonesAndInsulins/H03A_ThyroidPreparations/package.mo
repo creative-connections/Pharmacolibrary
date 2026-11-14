@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins;
-package H03A_ThyroidPreparations
-  extends Icons.PackageDrugs;
-end H03A_ThyroidPreparations;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02A_HormonesAndRelatedAgents;
-package L02AE04_Triptorelin
-  extends Icons.PackageDrugs;
-end L02AE04_Triptorelin;

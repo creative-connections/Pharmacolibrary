@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
-package L01EK02_Cediranib
-  extends Icons.PackageDrugs;
-end L01EK02_Cediranib;

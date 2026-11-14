@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03E_DiureticsAndPotassiumSparingAgentsInCombination;
-package C03EA03_EpitizideAndPotassiumSpa
-  extends Icons.PackageDrugs;
-end C03EA03_EpitizideAndPotassiumSpa;

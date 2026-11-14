@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.P_AntiparasiticProductsInsecticidesAndRepellents.P02C_AntinematodalAgents;
-package P02CA05_Flubendazole
-  extends Icons.PackageDrugs;
-end P02CA05_Flubendazole;

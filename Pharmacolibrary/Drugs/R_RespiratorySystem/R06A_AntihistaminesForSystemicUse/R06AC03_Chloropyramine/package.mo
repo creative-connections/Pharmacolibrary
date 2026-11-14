@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R06A_AntihistaminesForSystemicUse;
-package R06AC03_Chloropyramine
-  extends Icons.PackageDrugs;
-end R06AC03_Chloropyramine;

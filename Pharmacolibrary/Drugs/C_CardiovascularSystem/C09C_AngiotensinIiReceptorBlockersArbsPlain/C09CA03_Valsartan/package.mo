@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09C_AngiotensinIiReceptorBlockersArbsPlain;
-package C09CA03_Valsartan
-  extends Icons.PackageDrugs;
-end C09CA03_Valsartan;

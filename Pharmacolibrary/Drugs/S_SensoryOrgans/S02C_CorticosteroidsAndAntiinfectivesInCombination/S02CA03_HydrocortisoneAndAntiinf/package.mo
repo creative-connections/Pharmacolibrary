@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.S_SensoryOrgans.S02C_CorticosteroidsAndAntiinfectivesInCombination;
-package S02CA03_HydrocortisoneAndAntiinf
-  extends Icons.PackageDrugs;
-end S02CA03_HydrocortisoneAndAntiinf;

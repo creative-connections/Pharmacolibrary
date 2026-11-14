@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03B_MuscleRelaxantsCentrallyActingAgents;
-package M03BA01_Phenprobamate
-  extends Icons.PackageDrugs;
-end M03BA01_Phenprobamate;

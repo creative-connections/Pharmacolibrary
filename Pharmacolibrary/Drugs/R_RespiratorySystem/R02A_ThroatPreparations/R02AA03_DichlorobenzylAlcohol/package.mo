@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R02A_ThroatPreparations;
-package R02AA03_DichlorobenzylAlcohol
-  extends Icons.PackageDrugs;
-end R02AA03_DichlorobenzylAlcohol;

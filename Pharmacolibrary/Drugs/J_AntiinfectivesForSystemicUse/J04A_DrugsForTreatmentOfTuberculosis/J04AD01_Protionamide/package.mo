@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis;
-package J04AD01_Protionamide
-  extends Icons.PackageDrugs;
-end J04AD01_Protionamide;

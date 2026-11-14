@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
-package J05AF07_TenofovirDisoproxil
-  extends Icons.PackageDrugs;
-end J05AF07_TenofovirDisoproxil;

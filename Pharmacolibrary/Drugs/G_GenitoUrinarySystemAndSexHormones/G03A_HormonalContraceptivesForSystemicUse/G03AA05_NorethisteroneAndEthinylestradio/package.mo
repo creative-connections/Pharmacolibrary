@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03A_HormonalContraceptivesForSystemicUse;
-package G03AA05_NorethisteroneAndEthinylestradio
-  extends Icons.PackageDrugs;
-end G03AA05_NorethisteroneAndEthinylestradio;

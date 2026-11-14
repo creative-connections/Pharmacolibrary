@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03D_AntispasmodicsInCombinationWithAnalgesics;
-package A03DA05_CamylofinAndAnalgesics
-  extends Icons.PackageDrugs;
-end A03DA05_CamylofinAndAnalgesics;

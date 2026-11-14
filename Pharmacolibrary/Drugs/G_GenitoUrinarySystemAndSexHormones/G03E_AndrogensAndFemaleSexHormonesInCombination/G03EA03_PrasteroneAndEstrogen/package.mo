@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03E_AndrogensAndFemaleSexHormonesInCombination;
-package G03EA03_PrasteroneAndEstrogen
-  extends Icons.PackageDrugs;
-end G03EA03_PrasteroneAndEstrogen;

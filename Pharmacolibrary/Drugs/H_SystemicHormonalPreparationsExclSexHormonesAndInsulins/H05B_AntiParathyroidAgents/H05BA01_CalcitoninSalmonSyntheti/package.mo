@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H05B_AntiParathyroidAgents;
-package H05BA01_CalcitoninSalmonSyntheti
-  extends Icons.PackageDrugs;
-end H05BA01_CalcitoninSalmonSyntheti;

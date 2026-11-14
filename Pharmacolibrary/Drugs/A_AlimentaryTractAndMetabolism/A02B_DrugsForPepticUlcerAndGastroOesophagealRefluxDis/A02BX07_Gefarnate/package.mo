@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDis;
-package A02BX07_Gefarnate
-  extends Icons.PackageDrugs;
-end A02BX07_Gefarnate;

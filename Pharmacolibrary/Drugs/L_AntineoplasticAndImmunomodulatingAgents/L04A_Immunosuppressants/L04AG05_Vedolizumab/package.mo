@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
-package L04AG05_Vedolizumab
-  extends Icons.PackageDrugs;
-end L04AG05_Vedolizumab;

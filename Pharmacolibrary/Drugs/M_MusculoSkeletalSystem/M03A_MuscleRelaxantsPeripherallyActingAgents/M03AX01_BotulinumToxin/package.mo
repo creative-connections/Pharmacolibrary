@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M03A_MuscleRelaxantsPeripherallyActingAgents;
-package M03AX01_BotulinumToxin
-  extends Icons.PackageDrugs;
-end M03AX01_BotulinumToxin;

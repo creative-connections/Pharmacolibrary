@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01D_OtherBetaLactamAntibacterials;
-package J01DC08_Loracarbef
-  extends Icons.PackageDrugs;
-end J01DC08_Loracarbef;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01A_AnteriorPituitaryLobeHormonesAndAnalogues;
-package H01AC09_Lonapegsomatropin
-  extends Icons.PackageDrugs;
-end H01AC09_Lonapegsomatropin;

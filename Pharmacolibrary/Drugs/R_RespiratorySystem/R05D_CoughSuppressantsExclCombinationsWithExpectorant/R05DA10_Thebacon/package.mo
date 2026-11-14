@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R05D_CoughSuppressantsExclCombinationsWithExpectorant;
-package R05DA10_Thebacon
-  extends Icons.PackageDrugs;
-end R05DA10_Thebacon;

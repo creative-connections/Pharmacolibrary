@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
-package L04AG01_MuromonabCd3
-  extends Icons.PackageDrugs;
-end L04AG01_MuromonabCd3;

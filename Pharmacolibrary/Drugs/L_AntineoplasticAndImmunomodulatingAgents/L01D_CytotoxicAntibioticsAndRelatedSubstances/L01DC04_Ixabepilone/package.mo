@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01D_CytotoxicAntibioticsAndRelatedSubstances;
-package L01DC04_Ixabepilone
-  extends Icons.PackageDrugs;
-end L01DC04_Ixabepilone;

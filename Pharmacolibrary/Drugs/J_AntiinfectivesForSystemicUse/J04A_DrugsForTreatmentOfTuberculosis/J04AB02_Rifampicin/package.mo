@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J04A_DrugsForTreatmentOfTuberculosis;
-package J04AB02_Rifampicin
-  extends Icons.PackageDrugs;
-end J04AB02_Rifampicin;

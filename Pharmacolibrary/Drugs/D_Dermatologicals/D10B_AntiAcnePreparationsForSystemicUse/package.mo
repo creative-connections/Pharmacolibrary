@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals;
-package D10B_AntiAcnePreparationsForSystemicUse
-  extends Icons.PackageDrugs;
-end D10B_AntiAcnePreparationsForSystemicUse;

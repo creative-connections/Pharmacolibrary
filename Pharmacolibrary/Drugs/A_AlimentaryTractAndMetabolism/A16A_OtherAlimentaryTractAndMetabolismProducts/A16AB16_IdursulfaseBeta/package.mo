@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts;
-package A16AB16_IdursulfaseBeta
-  extends Icons.PackageDrugs;
-end A16AB16_IdursulfaseBeta;

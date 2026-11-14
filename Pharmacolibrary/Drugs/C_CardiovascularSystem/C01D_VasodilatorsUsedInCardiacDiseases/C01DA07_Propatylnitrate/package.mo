@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C01D_VasodilatorsUsedInCardiacDiseases;
-package C01DA07_Propatylnitrate
-  extends Icons.PackageDrugs;
-end C01DA07_Propatylnitrate;

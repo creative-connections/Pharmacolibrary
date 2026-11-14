@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01F_MonoclonalAntibodiesAndAntibodyDrugConjugates;
-package L01FD05_TrastuzumabDuocarmazine
-  extends Icons.PackageDrugs;
-end L01FD05_TrastuzumabDuocarmazine;

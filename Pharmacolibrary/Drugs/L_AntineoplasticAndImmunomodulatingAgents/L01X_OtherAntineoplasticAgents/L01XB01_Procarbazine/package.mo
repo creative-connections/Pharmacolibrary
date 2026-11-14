@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01X_OtherAntineoplasticAgents;
-package L01XB01_Procarbazine
-  extends Icons.PackageDrugs;
-end L01XB01_Procarbazine;

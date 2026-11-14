@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07A_BacterialVaccines;
-package J07AR01_TyphusExanthematicusInactivatedW
-  extends Icons.PackageDrugs;
-end J07AR01_TyphusExanthematicusInactivatedW;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones;
-package G02C_OtherGynecologicals
-  extends Icons.PackageDrugs;
-end G02C_OtherGynecologicals;

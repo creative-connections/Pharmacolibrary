@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02B_DrugsForPepticUlcerAndGastroOesophagealRefluxDis;
-package A02BX77_GefarnateCombinationsWit
-  extends Icons.PackageDrugs;
-end A02BX77_GefarnateCombinationsWit;

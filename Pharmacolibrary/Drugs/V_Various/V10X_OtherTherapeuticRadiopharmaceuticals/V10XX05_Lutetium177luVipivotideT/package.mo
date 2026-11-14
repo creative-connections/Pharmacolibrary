@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V10X_OtherTherapeuticRadiopharmaceuticals;
-package V10XX05_Lutetium177luVipivotideT
-  extends Icons.PackageDrugs;
-end V10XX05_Lutetium177luVipivotideT;

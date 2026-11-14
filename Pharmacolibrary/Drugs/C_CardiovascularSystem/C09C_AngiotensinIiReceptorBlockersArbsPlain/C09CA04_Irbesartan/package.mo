@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C09C_AngiotensinIiReceptorBlockersArbsPlain;
-package C09CA04_Irbesartan
-  extends Icons.PackageDrugs;
-end C09CA04_Irbesartan;

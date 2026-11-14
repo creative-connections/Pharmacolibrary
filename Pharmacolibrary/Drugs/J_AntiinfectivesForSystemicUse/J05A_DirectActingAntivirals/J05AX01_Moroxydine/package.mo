@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J05A_DirectActingAntivirals;
-package J05AX01_Moroxydine
-  extends Icons.PackageDrugs;
-end J05AX01_Moroxydine;

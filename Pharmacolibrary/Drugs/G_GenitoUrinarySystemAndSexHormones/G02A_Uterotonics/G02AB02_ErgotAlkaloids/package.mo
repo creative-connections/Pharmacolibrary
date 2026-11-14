@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G02A_Uterotonics;
-package G02AB02_ErgotAlkaloids
-  extends Icons.PackageDrugs;
-end G02AB02_ErgotAlkaloids;

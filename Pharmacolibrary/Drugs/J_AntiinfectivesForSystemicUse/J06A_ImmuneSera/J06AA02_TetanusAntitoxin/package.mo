@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J06A_ImmuneSera;
-package J06AA02_TetanusAntitoxin
-  extends Icons.PackageDrugs;
-end J06AA02_TetanusAntitoxin;

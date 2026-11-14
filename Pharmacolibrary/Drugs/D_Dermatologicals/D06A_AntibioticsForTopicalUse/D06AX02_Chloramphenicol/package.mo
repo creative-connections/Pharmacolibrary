@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D06A_AntibioticsForTopicalUse;
-package D06AX02_Chloramphenicol
-  extends Icons.PackageDrugs;
-end D06AX02_Chloramphenicol;

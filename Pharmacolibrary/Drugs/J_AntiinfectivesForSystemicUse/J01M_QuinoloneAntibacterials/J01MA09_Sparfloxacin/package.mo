@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01M_QuinoloneAntibacterials;
-package J01MA09_Sparfloxacin
-  extends Icons.PackageDrugs;
-end J01MA09_Sparfloxacin;

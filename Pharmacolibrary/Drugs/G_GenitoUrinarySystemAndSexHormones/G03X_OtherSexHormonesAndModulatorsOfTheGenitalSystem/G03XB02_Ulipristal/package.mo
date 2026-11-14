@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03X_OtherSexHormonesAndModulatorsOfTheGenitalSystem;
-package G03XB02_Ulipristal
-  extends Icons.PackageDrugs;
-end G03XB02_Ulipristal;

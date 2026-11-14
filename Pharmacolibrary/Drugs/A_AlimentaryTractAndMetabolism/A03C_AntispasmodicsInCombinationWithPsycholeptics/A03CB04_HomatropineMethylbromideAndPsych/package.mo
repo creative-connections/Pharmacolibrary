@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03C_AntispasmodicsInCombinationWithPsycholeptics;
-package A03CB04_HomatropineMethylbromideAndPsych
-  extends Icons.PackageDrugs;
-end A03CB04_HomatropineMethylbromideAndPsych;

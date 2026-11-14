@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones;
-package G03X_OtherSexHormonesAndModulatorsOfTheGenitalSystem
-  extends Icons.PackageDrugs;
-end G03X_OtherSexHormonesAndModulatorsOfTheGenitalSystem;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01C_BetaLactamAntibacterialsPenicillins;
-package J01CA03_Carbenicillin
-  extends Icons.PackageDrugs;
-end J01CA03_Carbenicillin;

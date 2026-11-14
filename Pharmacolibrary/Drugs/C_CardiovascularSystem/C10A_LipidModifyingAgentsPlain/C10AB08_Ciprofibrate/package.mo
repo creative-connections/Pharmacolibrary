@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C10A_LipidModifyingAgentsPlain;
-package C10AB08_Ciprofibrate
-  extends Icons.PackageDrugs;
-end C10AB08_Ciprofibrate;

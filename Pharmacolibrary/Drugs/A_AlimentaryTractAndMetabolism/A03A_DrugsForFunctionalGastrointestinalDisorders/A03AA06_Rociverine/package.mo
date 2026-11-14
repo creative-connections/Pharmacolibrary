@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders;
-package A03AA06_Rociverine
-  extends Icons.PackageDrugs;
-end A03AA06_Rociverine;

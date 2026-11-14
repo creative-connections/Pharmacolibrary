@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01E_ProteinKinaseInhibitors;
-package L01EH01_Lapatinib
-  extends Icons.PackageDrugs;
-end L01EH01_Lapatinib;

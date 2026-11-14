@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02B_HormoneAntagonistsAndRelatedAgents;
-package L02BA04_Elacestrant
-  extends Icons.PackageDrugs;
-end L02BA04_Elacestrant;

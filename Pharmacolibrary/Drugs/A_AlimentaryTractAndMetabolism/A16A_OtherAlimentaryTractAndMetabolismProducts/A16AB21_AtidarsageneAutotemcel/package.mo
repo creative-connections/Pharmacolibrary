@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A16A_OtherAlimentaryTractAndMetabolismProducts;
-package A16AB21_AtidarsageneAutotemcel
-  extends Icons.PackageDrugs;
-end A16AB21_AtidarsageneAutotemcel;

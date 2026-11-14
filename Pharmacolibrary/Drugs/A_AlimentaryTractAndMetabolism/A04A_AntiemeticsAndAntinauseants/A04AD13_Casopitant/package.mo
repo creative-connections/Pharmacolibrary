@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A04A_AntiemeticsAndAntinauseants;
-package A04AD13_Casopitant
-  extends Icons.PackageDrugs;
-end A04AD13_Casopitant;

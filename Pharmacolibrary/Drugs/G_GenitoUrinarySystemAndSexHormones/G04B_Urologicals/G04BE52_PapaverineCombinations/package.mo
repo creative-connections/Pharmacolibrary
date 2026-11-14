@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G04B_Urologicals;
-package G04BE52_PapaverineCombinations
-  extends Icons.PackageDrugs;
-end G04BE52_PapaverineCombinations;

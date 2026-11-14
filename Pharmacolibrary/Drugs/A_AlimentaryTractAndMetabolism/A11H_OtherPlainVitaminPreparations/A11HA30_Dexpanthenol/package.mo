@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A11H_OtherPlainVitaminPreparations;
-package A11HA30_Dexpanthenol
-  extends Icons.PackageDrugs;
-end A11HA30_Dexpanthenol;

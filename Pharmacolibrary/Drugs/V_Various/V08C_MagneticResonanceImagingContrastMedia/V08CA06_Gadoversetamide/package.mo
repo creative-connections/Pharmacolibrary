@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V08C_MagneticResonanceImagingContrastMedia;
-package V08CA06_Gadoversetamide
-  extends Icons.PackageDrugs;
-end V08CA06_Gadoversetamide;

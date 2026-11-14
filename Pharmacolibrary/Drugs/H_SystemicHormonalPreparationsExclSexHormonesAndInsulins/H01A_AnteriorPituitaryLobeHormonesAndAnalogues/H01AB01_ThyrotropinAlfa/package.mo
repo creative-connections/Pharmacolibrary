@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01A_AnteriorPituitaryLobeHormonesAndAnalogues;
-package H01AB01_ThyrotropinAlfa
-  extends Icons.PackageDrugs;
-end H01AB01_ThyrotropinAlfa;

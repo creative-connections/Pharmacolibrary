@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives;
-package B05XA01_PotassiumChloride
-  extends Icons.PackageDrugs;
-end B05XA01_PotassiumChloride;

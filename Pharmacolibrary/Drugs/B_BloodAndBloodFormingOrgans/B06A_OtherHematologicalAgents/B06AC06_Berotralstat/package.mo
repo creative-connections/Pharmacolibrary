@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B06A_OtherHematologicalAgents;
-package B06AC06_Berotralstat
-  extends Icons.PackageDrugs;
-end B06AC06_Berotralstat;

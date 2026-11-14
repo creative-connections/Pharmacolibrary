@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D01B_AntifungalsForSystemicUse;
-package D01BA03_Fosravuconazole
-  extends Icons.PackageDrugs;
-end D01BA03_Fosravuconazole;

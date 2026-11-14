@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D06B_ChemotherapeuticsForTopicalUse;
-package D06BA04_Sulfamethizole
-  extends Icons.PackageDrugs;
-end D06BA04_Sulfamethizole;

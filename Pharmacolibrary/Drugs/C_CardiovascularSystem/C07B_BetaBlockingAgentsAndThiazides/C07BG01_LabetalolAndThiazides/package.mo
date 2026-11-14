@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C07B_BetaBlockingAgentsAndThiazides;
-package C07BG01_LabetalolAndThiazides
-  extends Icons.PackageDrugs;
-end C07BG01_LabetalolAndThiazides;

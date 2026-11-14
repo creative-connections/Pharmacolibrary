@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A12C_OtherMineralSupplements;
-package A12CC03_MagnesiumGluconate
-  extends Icons.PackageDrugs;
-end A12CC03_MagnesiumGluconate;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C04A_PeripheralVasodilators;
-package C04AC02_NicotinylAlcoholPyridylc
-  extends Icons.PackageDrugs;
-end C04AC02_NicotinylAlcoholPyridylc;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.H_SystemicHormonalPreparationsExclSexHormonesAndInsulins.H01A_AnteriorPituitaryLobeHormonesAndAnalogues;
-package H01AX01_Pegvisomant
-  extends Icons.PackageDrugs;
-end H01AX01_Pegvisomant;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A03A_DrugsForFunctionalGastrointestinalDisorders;
-package A03AC02_Dimethylaminopropionylph
-  extends Icons.PackageDrugs;
-end A03AC02_Dimethylaminopropionylph;

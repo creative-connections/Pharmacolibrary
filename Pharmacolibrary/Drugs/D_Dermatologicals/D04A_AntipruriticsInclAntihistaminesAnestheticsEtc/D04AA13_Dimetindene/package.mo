@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.D_Dermatologicals.D04A_AntipruriticsInclAntihistaminesAnestheticsEtc;
-package D04AA13_Dimetindene
-  extends Icons.PackageDrugs;
-end D04AA13_Dimetindene;

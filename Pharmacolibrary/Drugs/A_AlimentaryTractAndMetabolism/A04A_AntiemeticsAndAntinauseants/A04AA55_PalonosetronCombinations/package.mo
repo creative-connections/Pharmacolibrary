@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A04A_AntiemeticsAndAntinauseants;
-package A04AA55_PalonosetronCombinations
-  extends Icons.PackageDrugs;
-end A04AA55_PalonosetronCombinations;

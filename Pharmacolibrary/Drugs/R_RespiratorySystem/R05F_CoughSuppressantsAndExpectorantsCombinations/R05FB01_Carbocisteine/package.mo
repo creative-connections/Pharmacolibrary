@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R05F_CoughSuppressantsAndExpectorantsCombinations;
-package R05FB01_Carbocisteine
-  extends Icons.PackageDrugs;
-end R05FB01_Carbocisteine;

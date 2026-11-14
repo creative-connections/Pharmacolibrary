@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
-package L04AD01_Ciclosporin
-  extends Icons.PackageDrugs;
-end L04AD01_Ciclosporin;

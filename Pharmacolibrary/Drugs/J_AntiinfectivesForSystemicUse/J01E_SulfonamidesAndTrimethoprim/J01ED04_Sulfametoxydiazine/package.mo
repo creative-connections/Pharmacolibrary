@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J01E_SulfonamidesAndTrimethoprim;
-package J01ED04_Sulfametoxydiazine
-  extends Icons.PackageDrugs;
-end J01ED04_Sulfametoxydiazine;

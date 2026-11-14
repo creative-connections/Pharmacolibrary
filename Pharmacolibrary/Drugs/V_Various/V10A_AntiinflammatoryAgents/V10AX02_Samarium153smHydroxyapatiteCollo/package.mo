@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.V_Various.V10A_AntiinflammatoryAgents;
-package V10AX02_Samarium153smHydroxyapatiteCollo
-  extends Icons.PackageDrugs;
-end V10AX02_Samarium153smHydroxyapatiteCollo;

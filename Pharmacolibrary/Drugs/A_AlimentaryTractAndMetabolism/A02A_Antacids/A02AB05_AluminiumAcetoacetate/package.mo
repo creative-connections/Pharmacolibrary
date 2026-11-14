@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A02A_Antacids;
-package A02AB05_AluminiumAcetoacetate
-  extends Icons.PackageDrugs;
-end A02AB05_AluminiumAcetoacetate;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones;
-package G03F_ProgestogensAndEstrogensInCombination
-  extends Icons.PackageDrugs;
-end G03F_ProgestogensAndEstrogensInCombination;

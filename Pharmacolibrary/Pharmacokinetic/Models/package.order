@@ -8,4 +8,7 @@ PK_3C_enteral
 PBPK_whole_body
 PK_3C_ES
 PK_Parent_Metabolite
+PK_3M_3C
+PK_3M_9C
 PK_General_Linear
+TK_Retention

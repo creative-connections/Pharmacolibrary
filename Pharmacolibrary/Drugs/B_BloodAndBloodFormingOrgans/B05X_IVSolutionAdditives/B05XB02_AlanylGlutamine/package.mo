@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.B_BloodAndBloodFormingOrgans.B05X_IVSolutionAdditives;
-package B05XB02_AlanylGlutamine
-  extends Icons.PackageDrugs;
-end B05XB02_AlanylGlutamine;

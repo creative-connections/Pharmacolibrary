@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07A_IntestinalAntiinfectives;
-package A07AA11_Rifaximin
-  extends Icons.PackageDrugs;
-end A07AA11_Rifaximin;

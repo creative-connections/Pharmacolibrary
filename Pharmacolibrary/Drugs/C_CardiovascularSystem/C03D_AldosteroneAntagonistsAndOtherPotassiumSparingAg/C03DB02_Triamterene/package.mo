@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C03D_AldosteroneAntagonistsAndOtherPotassiumSparingAg;
-package C03DB02_Triamterene
-  extends Icons.PackageDrugs;
-end C03DB02_Triamterene;

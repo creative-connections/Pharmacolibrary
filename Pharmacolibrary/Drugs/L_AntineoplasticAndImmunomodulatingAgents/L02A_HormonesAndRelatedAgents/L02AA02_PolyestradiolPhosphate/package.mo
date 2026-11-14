@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L02A_HormonesAndRelatedAgents;
-package L02AA02_PolyestradiolPhosphate
-  extends Icons.PackageDrugs;
-end L02AA02_PolyestradiolPhosphate;

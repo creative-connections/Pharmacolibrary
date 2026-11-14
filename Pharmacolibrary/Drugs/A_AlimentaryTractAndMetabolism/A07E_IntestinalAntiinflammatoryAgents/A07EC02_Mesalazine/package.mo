@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07E_IntestinalAntiinflammatoryAgents;
-package A07EC02_Mesalazine
-  extends Icons.PackageDrugs;
-end A07EC02_Mesalazine;

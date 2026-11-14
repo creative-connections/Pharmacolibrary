@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A07F_AntidiarrhealMicroorganisms;
-package A07FA01_LacticAcidProducingOrgan
-  extends Icons.PackageDrugs;
-end A07FA01_LacticAcidProducingOrgan;

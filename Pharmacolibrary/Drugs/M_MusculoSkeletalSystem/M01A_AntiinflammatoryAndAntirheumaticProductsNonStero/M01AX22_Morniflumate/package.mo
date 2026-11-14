@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.M_MusculoSkeletalSystem.M01A_AntiinflammatoryAndAntirheumaticProductsNonStero;
-package M01AX22_Morniflumate
-  extends Icons.PackageDrugs;
-end M01AX22_Morniflumate;

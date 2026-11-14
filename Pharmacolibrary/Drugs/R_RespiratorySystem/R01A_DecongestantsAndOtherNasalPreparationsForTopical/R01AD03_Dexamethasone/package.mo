@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.R_RespiratorySystem.R01A_DecongestantsAndOtherNasalPreparationsForTopical;
-package R01AD03_Dexamethasone
-  extends Icons.PackageDrugs;
-end R01AD03_Dexamethasone;

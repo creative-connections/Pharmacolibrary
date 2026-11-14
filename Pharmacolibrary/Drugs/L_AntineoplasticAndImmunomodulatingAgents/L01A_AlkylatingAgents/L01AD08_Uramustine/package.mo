@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L01A_AlkylatingAgents;
-package L01AD08_Uramustine
-  extends Icons.PackageDrugs;
-end L01AD08_Uramustine;

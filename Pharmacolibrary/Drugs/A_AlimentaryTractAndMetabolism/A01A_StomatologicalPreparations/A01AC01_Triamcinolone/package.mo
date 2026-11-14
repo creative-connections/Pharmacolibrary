@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.A_AlimentaryTractAndMetabolism.A01A_StomatologicalPreparations;
-package A01AC01_Triamcinolone
-  extends Icons.PackageDrugs;
-end A01AC01_Triamcinolone;

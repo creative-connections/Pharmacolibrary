@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
-package L04AB01_Etanercept
-  extends Icons.PackageDrugs;
-end L04AB01_Etanercept;

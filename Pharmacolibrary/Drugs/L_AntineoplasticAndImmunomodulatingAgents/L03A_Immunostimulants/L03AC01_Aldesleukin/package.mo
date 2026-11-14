@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L03A_Immunostimulants;
-package L03AC01_Aldesleukin
-  extends Icons.PackageDrugs;
-end L03AC01_Aldesleukin;

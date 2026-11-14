@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.J_AntiinfectivesForSystemicUse.J07B_ViralVaccines;
-package J07BF04_PoliomyelitisOralBivalentLiveAtt
-  extends Icons.PackageDrugs;
-end J07BF04_PoliomyelitisOralBivalentLiveAtt;

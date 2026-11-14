@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C05A_AgentsForTreatmentOfHemorrhoidsAndAnalFissuresFo;
-package C05AX01_AluminiumPreparations
-  extends Icons.PackageDrugs;
-end C05AX01_AluminiumPreparations;

@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.L_AntineoplasticAndImmunomodulatingAgents.L04A_Immunosuppressants;
-package L04AF02_Baricitinib
-  extends Icons.PackageDrugs;
-end L04AF02_Baricitinib;

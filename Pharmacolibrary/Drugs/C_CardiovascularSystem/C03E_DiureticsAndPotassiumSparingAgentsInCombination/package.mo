@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem;
-package C03E_DiureticsAndPotassiumSparingAgentsInCombination
-  extends Icons.PackageDrugs;
-end C03E_DiureticsAndPotassiumSparingAgentsInCombination;

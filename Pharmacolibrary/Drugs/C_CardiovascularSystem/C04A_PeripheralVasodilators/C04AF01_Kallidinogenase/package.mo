@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.C_CardiovascularSystem.C04A_PeripheralVasodilators;
-package C04AF01_Kallidinogenase
-  extends Icons.PackageDrugs;
-end C04AF01_Kallidinogenase;

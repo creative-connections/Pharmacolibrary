@@ -1,4 +1,0 @@
-within Pharmacolibrary.Drugs.G_GenitoUrinarySystemAndSexHormones.G03D_Progestogens;
-package G03DC31_Methylestrenolone
-  extends Icons.PackageDrugs;
-end G03DC31_Methylestrenolone;
